@@ -1,0 +1,1033 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontology/pajak"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ontology/pajak">
+    <Prefix name="" IRI="http://www.semanticweb.org/ontology/pajak#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Indonesian Tax Risk and Optimization Ontology - UC1: UMKM Scheme Selection</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Sistem Informasi Prosedur dan Mitigasi Risiko Perpajakan</Literal>
+    </Annotation>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes - Minimal for UC1
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- WajibPajak -->
+    <Declaration>
+        <Class IRI="#WajibPajak"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WajibPajak</IRI>
+        <Literal>Taxpayer</Literal>
+    </AnnotationAssertion>
+
+    <!-- OrangPribadi -->
+    <Declaration>
+        <Class IRI="#OrangPribadi"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OrangPribadi"/>
+        <Class IRI="#WajibPajak"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrangPribadi</IRI>
+        <Literal>Individual</Literal>
+    </AnnotationAssertion>
+
+    <!-- UMKM -->
+    <Declaration>
+        <Class IRI="#UMKM"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#UMKM"/>
+        <Class IRI="#WajibPajak"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UMKM</IRI>
+        <Literal>Micro Small Medium Enterprise</Literal>
+    </AnnotationAssertion>
+
+    <!-- TarifPajak -->
+    <Declaration>
+        <Class IRI="#TarifPajak"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TarifPajak</IRI>
+        <Literal>Tax Rate</Literal>
+    </AnnotationAssertion>
+
+    <!-- TarifProgresif -->
+    <Declaration>
+        <Class IRI="#TarifProgresif"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#TarifProgresif"/>
+        <Class IRI="#TarifPajak"/>
+    </SubClassOf>
+
+    <!-- TarifFinal -->
+    <Declaration>
+        <Class IRI="#TarifFinal"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#TarifFinal"/>
+        <Class IRI="#TarifPajak"/>
+    </SubClassOf>
+
+    <!-- PTKP -->
+    <Declaration>
+        <Class IRI="#PTKP"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PTKP</IRI>
+        <Literal>Non-Taxable Income</Literal>
+    </AnnotationAssertion>
+
+    <!-- FasilitasPerpajakan -->
+    <Declaration>
+        <Class IRI="#FasilitasPerpajakan"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FasilitasPerpajakan</IRI>
+        <Literal>Tax Facility</Literal>
+    </AnnotationAssertion>
+
+    <!-- PP55UMKM -->
+    <Declaration>
+        <Class IRI="#PP55UMKM"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#PP55UMKM"/>
+        <Class IRI="#FasilitasPerpajakan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PP55UMKM</IRI>
+        <Literal>PP 55/2022 UMKM 0.5% Tax Facility</Literal>
+    </AnnotationAssertion>
+
+    <!-- Recommendation -->
+    <Declaration>
+        <Class IRI="#Recommendation"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Recommendation</IRI>
+        <Literal>Tax Scheme Recommendation</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- eligibleFor -->
+    <Declaration>
+        <ObjectProperty IRI="#eligibleFor"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eligibleFor"/>
+        <Class IRI="#WajibPajak"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eligibleFor"/>
+        <Class IRI="#FasilitasPerpajakan"/>
+    </ObjectPropertyRange>
+
+    <!-- notEligibleFor -->
+    <Declaration>
+        <ObjectProperty IRI="#notEligibleFor"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#notEligibleFor"/>
+        <Class IRI="#WajibPajak"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#notEligibleFor"/>
+        <Class IRI="#FasilitasPerpajakan"/>
+    </ObjectPropertyRange>
+
+    <!-- appliesTaxRate -->
+    <Declaration>
+        <ObjectProperty IRI="#appliesTaxRate"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliesTaxRate"/>
+        <Class IRI="#WajibPajak"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTaxRate"/>
+        <Class IRI="#TarifPajak"/>
+    </ObjectPropertyRange>
+
+    <!-- hasRecommendation -->
+    <Declaration>
+        <ObjectProperty IRI="#hasRecommendation"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#WajibPajak"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Recommendation"/>
+    </ObjectPropertyRange>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- annualRevenue -->
+    <Declaration>
+        <DataProperty IRI="#annualRevenue"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annualRevenue"/>
+        <Class IRI="#WajibPajak"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#annualRevenue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- annualExpenses -->
+    <Declaration>
+        <DataProperty IRI="#annualExpenses"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annualExpenses"/>
+        <Class IRI="#WajibPajak"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#annualExpenses"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- netIncome -->
+    <Declaration>
+        <DataProperty IRI="#netIncome"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#netIncome"/>
+        <Class IRI="#WajibPajak"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#netIncome"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- maritalStatus -->
+    <Declaration>
+        <DataProperty IRI="#maritalStatus"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#maritalStatus"/>
+        <Class IRI="#OrangPribadi"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#maritalStatus"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+
+    <!-- numberOfDependents -->
+    <Declaration>
+        <DataProperty IRI="#numberOfDependents"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numberOfDependents"/>
+        <Class IRI="#OrangPribadi"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#numberOfDependents"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+
+    <!-- ptkpAmount -->
+    <Declaration>
+        <DataProperty IRI="#ptkpAmount"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ptkpAmount"/>
+        <Class IRI="#PTKP"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ptkpAmount"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- taxLiability -->
+    <Declaration>
+        <DataProperty IRI="#taxLiability"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taxLiability"/>
+        <Class IRI="#WajibPajak"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#taxLiability"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- taxLiabilityPP55 -->
+    <Declaration>
+        <DataProperty IRI="#taxLiabilityPP55"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taxLiabilityPP55"/>
+        <Class IRI="#UMKM"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#taxLiabilityPP55"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- taxLiabilityNormal -->
+    <Declaration>
+        <DataProperty IRI="#taxLiabilityNormal"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taxLiabilityNormal"/>
+        <Class IRI="#UMKM"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#taxLiabilityNormal"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+    <!-- recommendedScheme -->
+    <Declaration>
+        <DataProperty IRI="#recommendedScheme"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#recommendedScheme"/>
+        <Class IRI="#Recommendation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#recommendedScheme"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+
+    <!-- savingsAmount -->
+    <Declaration>
+        <DataProperty IRI="#savingsAmount"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#savingsAmount"/>
+        <Class IRI="#Recommendation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#savingsAmount"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals (Sample Data)
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- UMKM_WarungMakan_001 -->
+    <Declaration>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#UMKM"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OrangPribadi"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualRevenue"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">600000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualExpenses"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">420000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#netIncome"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">180000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maritalStatus"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kawin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numberOfDependents"/>
+        <NamedIndividual IRI="#UMKM_WarungMakan_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">2</Literal>
+    </DataPropertyAssertion>
+
+    <!-- UMKM_TokoKue_002 -->
+    <Declaration>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#UMKM"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OrangPribadi"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualRevenue"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">800000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualExpenses"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">550000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#netIncome"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maritalStatus"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Belum Kawin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numberOfDependents"/>
+        <NamedIndividual IRI="#UMKM_TokoKue_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">0</Literal>
+    </DataPropertyAssertion>
+
+    <!-- UMKM_RestoBesar_003 - NOT ELIGIBLE for PP55 -->
+    <Declaration>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#UMKM"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OrangPribadi"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualRevenue"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5200000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualExpenses"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3800000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#netIncome"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1400000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#maritalStatus"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kawin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numberOfDependents"/>
+        <NamedIndividual IRI="#UMKM_RestoBesar_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">3</Literal>
+    </DataPropertyAssertion>
+
+    <!-- PP55 Facility Instance -->
+    <Declaration>
+        <NamedIndividual IRI="#PP55_Facility"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#PP55UMKM"/>
+        <NamedIndividual IRI="#PP55_Facility"/>
+    </ClassAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // SWRL Rules for UC1
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Rule 1a: Check PP55 Eligibility (Positive) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 1a: UMKM with revenue &lt; 4.8B eligible for PP55</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#annualRevenue"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#rev"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#rev"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#eligibleFor"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <NamedIndividual IRI="#PP55_Facility"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 1b: Check PP55 Ineligibility (Negative) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 1b: UMKM with revenue >= 4.8B NOT eligible for PP55</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#annualRevenue"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#rev"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="urn:swrl:var#rev"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#notEligibleFor"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <NamedIndividual IRI="#PP55_Facility"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 2: Calculate PPh Final (0.5%) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 2: Calculate PP55 tax liability = revenue * 0.005</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#eligibleFor"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <NamedIndividual IRI="#PP55_Facility"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#annualRevenue"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#rev"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#tax"/>
+                <Variable IRI="urn:swrl:var#rev"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.005</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityPP55"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#tax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 3: Calculate PTKP Amount -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 3a: PTKP for married = 54M (base) + 4.5M (married) + 4.5M * dependents</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#maritalStatus"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Kawin</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#numberOfDependents"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#deps"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#depAmount"/>
+                <Variable IRI="urn:swrl:var#deps"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4500000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#ptkpTotal"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">58500000</Literal>
+                <Variable IRI="urn:swrl:var#depAmount"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkpTotal"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 3b: Calculate PTKP Amount for Unmarried -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 3b: PTKP for unmarried = 54M (base) + 4.5M * dependents</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#maritalStatus"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Belum Kawin</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#numberOfDependents"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#deps"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#depAmount"/>
+                <Variable IRI="urn:swrl:var#deps"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4500000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#ptkpTotal"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">54000000</Literal>
+                <Variable IRI="urn:swrl:var#depAmount"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkpTotal"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 4a: Calculate PPh Normal Progressive - PKP 0-60M (Layer 1 only @ 5%) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 4a: PKP 0-60M. Tax = PKP * 5%. Based on UU 7/2021 Pasal 17.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#netIncome"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#totalTax"/>
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.05</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityNormal"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#totalTax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 4b: Calculate PPh Normal Progressive - PKP 60-250M (Layer 1+2) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 4b: PKP 60-250M. Tax = 3M + (PKP-60M)*15%. Based on UU 7/2021 Pasal 17.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#netIncome"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250000000</Literal>
+            </BuiltInAtom>
+            <!-- Layer 1: 60M * 5% = 3M -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#layer1"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60000000</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.05</Literal>
+            </BuiltInAtom>
+            <!-- Layer 2: (PKP - 60M) * 15% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#layer2Base"/>
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#layer2Tax"/>
+                <Variable IRI="urn:swrl:var#layer2Base"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.15</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#totalTax"/>
+                <Variable IRI="urn:swrl:var#layer1"/>
+                <Variable IRI="urn:swrl:var#layer2Tax"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityNormal"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#totalTax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 4c: Calculate PPh Normal Progressive - PKP 250-500M (Layer 1+2+3) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 4c: PKP 250-500M. Tax = 3M + 28.5M + (PKP-250M)*25%. Based on UU 7/2021 Pasal 17.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#netIncome"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500000000</Literal>
+            </BuiltInAtom>
+            <!-- Layer 1+2 = 31.5M (fixed) -->
+            <!-- Layer 3: (PKP - 250M) * 25% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#layer3Base"/>
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">250000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#layer3Tax"/>
+                <Variable IRI="urn:swrl:var#layer3Base"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.25</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#totalTax"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">31500000</Literal>
+                <Variable IRI="urn:swrl:var#layer3Tax"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityNormal"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#totalTax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 4d: Calculate PPh Normal Progressive - PKP 500M-5B (Layer 1+2+3+4) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 4d: PKP 500M-5B. Tax = 31.5M + 62.5M + (PKP-500M)*30%. Based on UU 7/2021 Pasal 17.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#netIncome"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000000000</Literal>
+            </BuiltInAtom>
+            <!-- Layer 1+2+3 = 94M (fixed) -->
+            <!-- Layer 4: (PKP - 500M) * 30% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#layer4Base"/>
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#layer4Tax"/>
+                <Variable IRI="urn:swrl:var#layer4Base"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.30</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#totalTax"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">94000000</Literal>
+                <Variable IRI="urn:swrl:var#layer4Tax"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityNormal"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#totalTax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 4e: Calculate PPh Normal Progressive - PKP > 5B (Layer 1+2+3+4+5) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 4e: PKP > 5B. Tax = 94M + 1.35B + (PKP-5B)*35%. Based on UU 7/2021 Pasal 17.</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#OrangPribadi"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#netIncome"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#ptkpAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Variable IRI="urn:swrl:var#netIncome"/>
+                <Variable IRI="urn:swrl:var#ptkp"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000000000</Literal>
+            </BuiltInAtom>
+            <!-- Layer 1+2+3+4 = 1.444B (fixed) -->
+            <!-- Layer 5: (PKP - 5B) * 35% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#layer5Base"/>
+                <Variable IRI="urn:swrl:var#pkp"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5000000000</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#layer5Tax"/>
+                <Variable IRI="urn:swrl:var#layer5Base"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.35</Literal>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#totalTax"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1444000000</Literal>
+                <Variable IRI="urn:swrl:var#layer5Tax"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityNormal"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#totalTax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 5: Recommendation - Compare PP55 vs Normal -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 5: IF taxLiabilityPP55 &lt; taxLiabilityNormal THEN recommend PP55 scheme</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#UMKM"/>
+                <Variable IRI="urn:swrl:var#x"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityPP55"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#pp55Tax"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiabilityNormal"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#normalTax"/>
+            </DataPropertyAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThan">
+                <Variable IRI="urn:swrl:var#pp55Tax"/>
+                <Variable IRI="urn:swrl:var#normalTax"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#savings"/>
+                <Variable IRI="urn:swrl:var#normalTax"/>
+                <Variable IRI="urn:swrl:var#pp55Tax"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#recommendedScheme"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PP55 Final 0.5%</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#savingsAmount"/>
+                <Variable IRI="urn:swrl:var#x"/>
+                <Variable IRI="urn:swrl:var#savings"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+</Ontology>
