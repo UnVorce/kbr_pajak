@@ -1,0 +1,333 @@
+{
+  "document_id": "PP_123_2015",
+  "nama_dokumen": "Perubahan atas Peraturan Pemerintah Nomor 131 Tahun 2000 tentang Pajak Penghasilan atas Bunga Deposito dan Tabungan serta Diskonto Sertifikat Bank Indonesia",
+  "nomor_peraturan": "PP Nomor 123 Tahun 2015",
+  "jenis_peraturan": "PP",
+  "tahun": 2015,
+  "nama_file_txt": "PP_123_2015_Perubahan_PP_131_2000_PPh_Bunga_Deposito_Tabungan_SBI.txt",
+  "nama_file_pdf": "PP Nomor 123 Tahun 2015.pdf",
+  "jumlah_halaman": 7,
+  "metode_ekstraksi": "PyMuPDF (Digital Text)",
+  "status_keterbacaan": "LAYAK",
+  "isi_dokumen": [
+    {
+      "jenis_elemen": "JUDUL",
+      "nomor": null,
+      "judul": null,
+      "teks": "PERATURAN PEMERINTAH REPUBLIK INDONESIA \nNOMOR 123 TAHUN 2015 \nTENTANG \nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 131 TAHUN 2000 \nTENTANG PAJAK PENGHASILAN ATAS BUNGA DEPOSITO DAN TABUNGAN \nSERTA DISKONTO SERTIFIKAT BANK INDONESIA",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "PEMBUKAAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "DENGAN RAHMAT TUHAN YANG MAHA ESA \n \nPRESIDEN REPUBLIK INDONESIA,",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENIMBANG",
+      "nomor": null,
+      "judul": "Konsiderans Menimbang",
+      "teks": "a. bahwa dalam rangka menjaga stabilitas nilai tukar rupiah \nterhadap \nmata \nuang \ndolar \nAmerika \nSerikat \ndan \nmendukung penguatan perekonomian nasional, perlu \nmengatur kembali tarif Pajak Penghasilan atas bunga \ndeposito \nsebagaimana \ndimaksud \ndalam \nPeraturan \nPemerintah Nomor 131 Tahun 2000 tentang Pajak \nPenghasilan atas Bunga Deposito dan Tabungan serta \nDiskonto Sertifikat Bank Indonesia, khusus deposito yang \ndananya bersumber dari Devisa Hasil Ekspor dalam mata \nuang dolar Amerika Serikat dan rupiah yang ditempatkan \ndi perbankan di Indonesia; \n \n \nb. bahwa berdasarkan pertimbangan sebagaimana dimaksud \ndalam huruf a dan untuk melaksanakan ketentuan Pasal \n4 ayat (2) Undang-Undang Nomor 7 Tahun 1983 tentang \nPajak Penghasilan sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 tentang Perubahan Keempat atas Undang-Undang \nNomor 7 Tahun 1983 tentang Pajak Penghasilan, perlu \nmenetapkan Peraturan Pemerintah tentang Perubahan \natas Peraturan Pemerintah Nomor 131 Tahun 2000 \ntentang Pajak Penghasilan Atas Bunga Deposito dan \nTabungan serta Diskonto Sertifikat Bank Indonesia;",
+      "children": [
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "a",
+          "judul": null,
+          "teks": "bahwa dalam rangka menjaga stabilitas nilai tukar rupiah \nterhadap \nmata \nuang \ndolar \nAmerika \nSerikat \ndan \nmendukung penguatan perekonomian nasional, perlu \nmengatur kembali tarif Pajak Penghasilan atas bunga \ndeposito \nsebagaimana \ndimaksud \ndalam \nPeraturan \nPemerintah Nomor 131 Tahun 2000 tentang Pajak \nPenghasilan atas Bunga Deposito dan Tabungan serta \nDiskonto Sertifikat Bank Indonesia, khusus deposito yang \ndananya bersumber dari Devisa Hasil Ekspor dalam mata \nuang dolar Amerika Serikat dan rupiah yang ditempatkan \ndi perbankan di Indonesia;",
+          "children": [],
+          "halaman_sumber": 1
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "b",
+          "judul": null,
+          "teks": "bahwa berdasarkan pertimbangan sebagaimana dimaksud \ndalam huruf a dan untuk melaksanakan ketentuan Pasal \n4 ayat (2) Undang-Undang Nomor 7 Tahun 1983 tentang \nPajak Penghasilan sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 tentang Perubahan Keempat atas Undang-Undang \nNomor 7 Tahun 1983 tentang Pajak Penghasilan, perlu \nmenetapkan Peraturan Pemerintah tentang Perubahan \natas Peraturan Pemerintah Nomor 131 Tahun 2000 \ntentang Pajak Penghasilan Atas Bunga Deposito dan \nTabungan serta Diskonto Sertifikat Bank Indonesia;",
+          "children": [],
+          "halaman_sumber": 1
+        }
+      ],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENGINGAT",
+      "nomor": null,
+      "judul": "Dasar Hukum Mengingat",
+      "teks": "1. Pasal 5 ayat (2) Undang-UndangDasar Negara Republik \nIndonesia Tahun 1945; \n \n2.  Undang-Undang . . .\n\n-   2   - \n \n \n \n \n \n \n \n2. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan (Lembaran Negara Republik Indonesia Tahun \n1983 Nomor 50, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3263) sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 tentang Perubahan Keempat atas Undang-Undang \nNomor \n7 \nTahun \n1983 \ntentang \nPajak \nPenghasilan \n(Lembaran Negara Republik Indonesia Tahun 2008 Nomor \n133, Tambahan Lembaran Negara Republik Indonesia \nNomor 4893); \n \n \n3. Peraturan Pemerintah Nomor 131 Tahun2000 tentang \nPajak Penghasilan atas Bunga Deposito dan Tabungan \nserta Diskonto Sertifikat Bank Indonesia (Lembaran \nNegara Republik Indonesia Tahun 2000 Nomor 236, \nTambahan Lembaran Negara Republik Indonesia Nomor \n4039);",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Pasal 5 ayat (2) Undang-UndangDasar Negara Republik \nIndonesia Tahun 1945;",
+          "children": [],
+          "halaman_sumber": 1
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Undang-Undang . . .\n\n-   2   -",
+          "children": [],
+          "halaman_sumber": [
+            1,
+            2
+          ]
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan (Lembaran Negara Republik Indonesia Tahun \n1983 Nomor 50, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3263) sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 tentang Perubahan Keempat atas Undang-Undang \nNomor \n7 \nTahun \n1983 \ntentang \nPajak \nPenghasilan \n(Lembaran Negara Republik Indonesia Tahun 2008 Nomor \n133, Tambahan Lembaran Negara Republik Indonesia \nNomor 4893);",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Peraturan Pemerintah Nomor 131 Tahun2000 tentang \nPajak Penghasilan atas Bunga Deposito dan Tabungan \nserta Diskonto Sertifikat Bank Indonesia (Lembaran \nNegara Republik Indonesia Tahun 2000 Nomor 236, \nTambahan Lembaran Negara Republik Indonesia Nomor \n4039);",
+          "children": [],
+          "halaman_sumber": 2
+        }
+      ],
+      "halaman_sumber": [
+        1,
+        2
+      ]
+    },
+    {
+      "jenis_elemen": "MEMUTUSKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "MEMUTUSKAN",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": ". . .\n\n-   3   -",
+      "children": [],
+      "halaman_sumber": [
+        2,
+        3
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": "Pengenaan Pajak Penghasilan atas bunga dari deposito dan \ntabungan \nserta \ndiskonto \nSertifikat \nBank \nIndonesia \nsebagaimana dimaksud dalam Pasal 1 adalah sebagai berikut:",
+      "children": [
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "a",
+          "judul": null,
+          "teks": "Atas bunga dari deposito dalam mata uang dolar Amerika \nSerikat yang dananya bersumber dari Devisa Hasil Ekspor \ndan ditempatkan di dalam negeri pada bank yang \ndidirikan atau bertempat kedudukan di Indonesia atau \ncabang bank luar negeri di Indonesia dikenai Pajak \nPenghasilan yang bersifat final dengan tarif sebagai \nberikut:",
+          "children": [
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "1",
+              "judul": null,
+              "teks": "Tarif 10% (sepuluh persen) dari jumlah bruto, untuk \ndeposito dengan jangka waktu 1 (satu) bulan;",
+              "children": [],
+              "halaman_sumber": 3
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "2",
+              "judul": null,
+              "teks": "Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, \nuntuk deposito dengan jangka waktu 3 (tiga) bulan;",
+              "children": [],
+              "halaman_sumber": 3
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "3",
+              "judul": null,
+              "teks": "Tarif 2,5% (dua koma lima persen) dari jumlah bruto, \nuntuk deposito dengan jangka waktu 6 (enam) bulan; \ndan",
+              "children": [],
+              "halaman_sumber": 3
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "4",
+              "judul": null,
+              "teks": "Tarif 0% (nol persen) dari jumlah bruto, untuk deposito \ndengan jangka waktu lebih dari 6 (enam) bulan.",
+              "children": [],
+              "halaman_sumber": 3
+            }
+          ],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "b",
+          "judul": null,
+          "teks": "Atas bunga dari deposito dalam mata uang rupiah yang \ndananya bersumber dari Devisa Hasil Ekspor dan \nditempatkan di dalam negeri pada bank yang didirikan \natau bertempat kedudukan di Indonesia atau cabang bank \nluar negeri di Indonesia dikenai Pajak Penghasilan yang \nbersifat final dengan tarif sebagai berikut:",
+          "children": [
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "3",
+              "judul": null,
+              "teks": "Tarif . . .\n\n-   4   -",
+              "children": [],
+              "halaman_sumber": [
+                3,
+                4
+              ]
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "1",
+              "judul": null,
+              "teks": "Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, \nuntuk deposito dengan jangka waktu 1 (satu) bulan;",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "2",
+              "judul": null,
+              "teks": "Tarif 5% (lima persen) dari jumlah bruto, untuk \ndeposito dengan jangka waktu 3 (tiga) bulan; dan",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "3",
+              "judul": null,
+              "teks": "Tarif 0% (nol persen) dari jumlah bruto, untuk deposito \ndengan jangka waktu 6 (enam) bulan atau lebih dari 6 \n(enam) bulan.",
+              "children": [],
+              "halaman_sumber": 4
+            }
+          ],
+          "halaman_sumber": [
+            3,
+            4
+          ]
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "c",
+          "judul": null,
+          "teks": "Atas bunga dari tabungan dan diskonto Sertifikat Bank \nIndonesia, serta bunga dari deposito selain dari deposito \nsebagaimana dimaksud dalam huruf a dan huruf b dikenai \nPajak Penghasilan yang bersifat final dengan tarif sebagai \nberikut:",
+          "children": [
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "1",
+              "judul": null,
+              "teks": "Tarif 20% (dua puluh persen) dari jumlah bruto, \nterhadap Wajib Pajak dalam negeri dan bentuk usaha \ntetap; dan",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "ANGKA",
+              "nomor": "2",
+              "judul": null,
+              "teks": "Tarif 20% (dua puluh persen) dari jumlah bruto atau \ndengan tarif berdasarkan Perjanjian Penghindaran \nPajak Berganda yang berlaku, terhadap Wajib Pajak \nluar negeri. \n \n \n \nPasal II \n \n \nPeraturan Pemerintah ini mulai berlaku pada tanggal \ndiundangkan. \n \n \n \n \nAgar . . .\n\n-   5   -",
+              "children": [],
+              "halaman_sumber": [
+                4,
+                5
+              ]
+            }
+          ],
+          "halaman_sumber": [
+            4,
+            5
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        3,
+        5
+      ]
+    },
+    {
+      "jenis_elemen": "PENGESAHAN",
+      "nomor": null,
+      "judul": "Pengesahan dan Pengundangan",
+      "teks": "Agar \nsetiap \norang \nmengetahuinya, \nmemerintahkan \npengundangan \nPeraturan \nPemerintah \nini \ndengan \npenempatannya dalam Lembaran Negara Republik Indonesia. \n \n \nDitetapkan di Jakarta \npada tanggal 28 Desember 2015 \nPRESIDEN REPUBLIK INDONESIA, \n \n                       ttd. \n \nJOKO WIDODO \n \n \nDiundangkan di Jakarta \npada tanggal 28 Desember 2015 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \n \nttd. \n \nYASONNA H. LAOLY \n \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 346",
+      "children": [],
+      "halaman_sumber": 5
+    },
+    {
+      "jenis_elemen": "PENJELASAN",
+      "nomor": null,
+      "judul": "Penjelasan Peraturan",
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "PENJELASAN_UMUM",
+          "nomor": "I",
+          "judul": "UMUM",
+          "teks": "Untuk menjaga stabilitas nilai tukar rupiah terhadap mata uang dolar \nAmerika Serikat, serta mendukung penguatan perekonomian nasional, \ndipandang perlu untuk melakukan perubahan atas Peraturan Pemerintah \nNomor 131 Tahun 2000 tentang Pajak Penghasilan atas Bunga Deposito \ndan Tabungan serta Diskonto Sertifikat Bank Indonesia. \nPokok-pokok perubahan atau penyempurnaan tersebut adalah melakukan \npenyesuaian tarif Pajak Penghasilan atas bunga dari deposito, baik deposito \ndalam mata uang dolar Amerika Serikat maupun deposito dalam mata uang \nrupiah, yang dananya bersumber dari Devisa Hasil Ekspor dan ditempatkan \ndi dalam negeri pada bank yang didirikan atau bertempat kedudukan di \nIndonesia atau cabang bank luar negeri di Indonesia.",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "PENJELASAN_PASAL_DEMI_PASAL",
+          "nomor": "II",
+          "judul": "PASAL DEMI PASAL",
+          "teks": null,
+          "children": [
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "2",
+              "judul": "Pasal 2",
+              "teks": "Huruf a \nPengertian Devisa Hasil Ekspor merujuk pada pengertian \nDevisa Hasil Ekspor sebagaimana diatur dalam Peraturan Bank \nIndonesia mengenai penerimaan Devisa Hasil Ekspor.  \nHuruf b \nCukup jelas. \n \nHuruf   …\n\n-   2   - \n \n \n \nHuruf c \nWajib \nPajak \nluar \nnegeri \ndikenakan \npemotongan \nPajak \nPenghasilan atas penghasilan berupa bunga atau diskonto yang \nditerima atau diperoleh di Indonesia sebesar 20% (dua puluh \npersen) atau sesuai dengan ketentuan dalam Perjanjian \nPenghindaran Pajak Berganda yang berlaku dan bersifat final. \nWajib Pajak luar negeri yang melakukan usaha atau kegiatan \nmelalui bentuk usaha tetap di Indonesia, atas penghasilannya \ndipotong Pajak Penghasilan sebesar 20% (dua puluh persen) \ndan bersifat final. \n \n \nPasal II \nCukup jelas. \n \n \nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5803",
+              "children": [],
+              "halaman_sumber": [
+                6,
+                7
+              ]
+            }
+          ],
+          "halaman_sumber": [
+            6,
+            7
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        5,
+        7
+      ]
+    }
+  ],
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "PERATURAN PEMERINTAH REPUBLIK INDONESIA \nNOMOR 123 TAHUN 2015 \nTENTANG \nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 131 TAHUN 2000 \nTENTANG PAJAK PENGHASILAN ATAS BUNGA DEPOSITO DAN TABUNGAN \nSERTA DISKONTO SERTIFIKAT BANK INDONESIA \n \nDENGAN RAHMAT TUHAN YANG MAHA ESA \n \nPRESIDEN REPUBLIK INDONESIA, \n \nMenimbang :  \na. bahwa dalam rangka menjaga stabilitas nilai tukar rupiah \nterhadap \nmata \nuang \ndolar \nAmerika \nSerikat \ndan \nmendukung penguatan perekonomian nasional, perlu \nmengatur kembali tarif Pajak Penghasilan atas bunga \ndeposito \nsebagaimana \ndimaksud \ndalam \nPeraturan \nPemerintah Nomor 131 Tahun 2000 tentang Pajak \nPenghasilan atas Bunga Deposito dan Tabungan serta \nDiskonto Sertifikat Bank Indonesia, khusus deposito yang \ndananya bersumber dari Devisa Hasil Ekspor dalam mata \nuang dolar Amerika Serikat dan rupiah yang ditempatkan \ndi perbankan di Indonesia; \n \n \nb. bahwa berdasarkan pertimbangan sebagaimana dimaksud \ndalam huruf a dan untuk melaksanakan ketentuan Pasal \n4 ayat (2) Undang-Undang Nomor 7 Tahun 1983 tentang \nPajak Penghasilan sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 tentang Perubahan Keempat atas Undang-Undang \nNomor 7 Tahun 1983 tentang Pajak Penghasilan, perlu \nmenetapkan Peraturan Pemerintah tentang Perubahan \natas Peraturan Pemerintah Nomor 131 Tahun 2000 \ntentang Pajak Penghasilan Atas Bunga Deposito dan \nTabungan serta Diskonto Sertifikat Bank Indonesia; \n \nMengingat \n: \n1. Pasal 5 ayat (2) Undang-UndangDasar Negara Republik \nIndonesia Tahun 1945; \n \n2.  Undang-Undang . . ."
+    },
+    {
+      "page_number": 2,
+      "content": "-   2   - \n \n \n \n \n \n \n \n2. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan (Lembaran Negara Republik Indonesia Tahun \n1983 Nomor 50, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3263) sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 tentang Perubahan Keempat atas Undang-Undang \nNomor \n7 \nTahun \n1983 \ntentang \nPajak \nPenghasilan \n(Lembaran Negara Republik Indonesia Tahun 2008 Nomor \n133, Tambahan Lembaran Negara Republik Indonesia \nNomor 4893); \n \n \n3. Peraturan Pemerintah Nomor 131 Tahun2000 tentang \nPajak Penghasilan atas Bunga Deposito dan Tabungan \nserta Diskonto Sertifikat Bank Indonesia (Lembaran \nNegara Republik Indonesia Tahun 2000 Nomor 236, \nTambahan Lembaran Negara Republik Indonesia Nomor \n4039); \n \nMEMUTUSKAN \n \nMenetapkan : \nPERATURAN PEMERINTAH TENTANG PERUBAHAN ATAS \nPERATURAN \nPEMERINTAH \nNOMOR \n131 \nTAHUN \n2000 \nTENTANG PAJAK PENGHASILAN ATAS BUNGA DEPOSITO \nDAN TABUNGAN SERTA DISKONTO SERTIFIKAT BANK \nINDONESIA. \n \n \nPasal I \n \nKetentuan Pasal 2 Peraturan Pemerintah Nomor 131 Tahun \n2000 tentang Pajak Penghasilan atas Bunga Deposito dan \nTabungan serta Diskonto Sertifikat Bank Indonesia (Lembaran \nNegara \nRepublik \nIndonesia \nTahun \n2000 \nNomor \n236, \nTambahan Lembaran Negara Republik Indonesia Nomor 4039) \ndiubah, sehingga Pasal 2 berbunyi sebagai berikut: \n \n \nPasal 2 . . ."
+    },
+    {
+      "page_number": 3,
+      "content": "-   3   - \n \n \n \n \nPasal 2 \n \n \nPengenaan Pajak Penghasilan atas bunga dari deposito dan \ntabungan \nserta \ndiskonto \nSertifikat \nBank \nIndonesia \nsebagaimana dimaksud dalam Pasal 1 adalah sebagai berikut: \na. Atas bunga dari deposito dalam mata uang dolar Amerika \nSerikat yang dananya bersumber dari Devisa Hasil Ekspor \ndan ditempatkan di dalam negeri pada bank yang \ndidirikan atau bertempat kedudukan di Indonesia atau \ncabang bank luar negeri di Indonesia dikenai Pajak \nPenghasilan yang bersifat final dengan tarif sebagai \nberikut: \n1. Tarif 10% (sepuluh persen) dari jumlah bruto, untuk \ndeposito dengan jangka waktu 1 (satu) bulan; \n2. Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, \nuntuk deposito dengan jangka waktu 3 (tiga) bulan; \n3. Tarif 2,5% (dua koma lima persen) dari jumlah bruto, \nuntuk deposito dengan jangka waktu 6 (enam) bulan; \ndan \n4. Tarif 0% (nol persen) dari jumlah bruto, untuk deposito \ndengan jangka waktu lebih dari 6 (enam) bulan. \n \nb. Atas bunga dari deposito dalam mata uang rupiah yang \ndananya bersumber dari Devisa Hasil Ekspor dan \nditempatkan di dalam negeri pada bank yang didirikan \natau bertempat kedudukan di Indonesia atau cabang bank \nluar negeri di Indonesia dikenai Pajak Penghasilan yang \nbersifat final dengan tarif sebagai berikut: \n \n \n \n3.  Tarif . . ."
+    },
+    {
+      "page_number": 4,
+      "content": "-   4   - \n \n \n \n \n1. Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, \nuntuk deposito dengan jangka waktu 1 (satu) bulan; \n2. Tarif 5% (lima persen) dari jumlah bruto, untuk \ndeposito dengan jangka waktu 3 (tiga) bulan; dan \n3. Tarif 0% (nol persen) dari jumlah bruto, untuk deposito \ndengan jangka waktu 6 (enam) bulan atau lebih dari 6 \n(enam) bulan. \n \nc. Atas bunga dari tabungan dan diskonto Sertifikat Bank \nIndonesia, serta bunga dari deposito selain dari deposito \nsebagaimana dimaksud dalam huruf a dan huruf b dikenai \nPajak Penghasilan yang bersifat final dengan tarif sebagai \nberikut: \n1. Tarif 20% (dua puluh persen) dari jumlah bruto, \nterhadap Wajib Pajak dalam negeri dan bentuk usaha \ntetap; dan \n2. Tarif 20% (dua puluh persen) dari jumlah bruto atau \ndengan tarif berdasarkan Perjanjian Penghindaran \nPajak Berganda yang berlaku, terhadap Wajib Pajak \nluar negeri. \n \n \n \nPasal II \n \n \nPeraturan Pemerintah ini mulai berlaku pada tanggal \ndiundangkan. \n \n \n \n \nAgar . . ."
+    },
+    {
+      "page_number": 5,
+      "content": "-   5   - \n \n \n \n \nAgar \nsetiap \norang \nmengetahuinya, \nmemerintahkan \npengundangan \nPeraturan \nPemerintah \nini \ndengan \npenempatannya dalam Lembaran Negara Republik Indonesia. \n \n \nDitetapkan di Jakarta \npada tanggal 28 Desember 2015 \nPRESIDEN REPUBLIK INDONESIA, \n \n                       ttd. \n \nJOKO WIDODO \n \n \nDiundangkan di Jakarta \npada tanggal 28 Desember 2015 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \n \nttd. \n \nYASONNA H. LAOLY \n \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2015 NOMOR 346"
+    },
+    {
+      "page_number": 6,
+      "content": "PENJELASAN \nATAS \nPERATURAN PEMERINTAH REPUBLIK INDONESIA \nNOMOR 123 TAHUN 2015 \nTENTANG \nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 131 TAHUN 2000  \nTENTANG PAJAK PENGHASILAN ATAS BUNGA DEPOSITO DAN TABUNGAN \nSERTA DISKONTO SERTIFIKAT BANK INDONESIA \n \n \nI. UMUM \nUntuk menjaga stabilitas nilai tukar rupiah terhadap mata uang dolar \nAmerika Serikat, serta mendukung penguatan perekonomian nasional, \ndipandang perlu untuk melakukan perubahan atas Peraturan Pemerintah \nNomor 131 Tahun 2000 tentang Pajak Penghasilan atas Bunga Deposito \ndan Tabungan serta Diskonto Sertifikat Bank Indonesia. \nPokok-pokok perubahan atau penyempurnaan tersebut adalah melakukan \npenyesuaian tarif Pajak Penghasilan atas bunga dari deposito, baik deposito \ndalam mata uang dolar Amerika Serikat maupun deposito dalam mata uang \nrupiah, yang dananya bersumber dari Devisa Hasil Ekspor dan ditempatkan \ndi dalam negeri pada bank yang didirikan atau bertempat kedudukan di \nIndonesia atau cabang bank luar negeri di Indonesia. \n \n \nII. PASAL DEMI PASAL \n \nPasal I \nPasal 2 \nHuruf a \nPengertian Devisa Hasil Ekspor merujuk pada pengertian \nDevisa Hasil Ekspor sebagaimana diatur dalam Peraturan Bank \nIndonesia mengenai penerimaan Devisa Hasil Ekspor.  \nHuruf b \nCukup jelas. \n \nHuruf   …"
+    },
+    {
+      "page_number": 7,
+      "content": "-   2   - \n \n \n \nHuruf c \nWajib \nPajak \nluar \nnegeri \ndikenakan \npemotongan \nPajak \nPenghasilan atas penghasilan berupa bunga atau diskonto yang \nditerima atau diperoleh di Indonesia sebesar 20% (dua puluh \npersen) atau sesuai dengan ketentuan dalam Perjanjian \nPenghindaran Pajak Berganda yang berlaku dan bersifat final. \nWajib Pajak luar negeri yang melakukan usaha atau kegiatan \nmelalui bentuk usaha tetap di Indonesia, atas penghasilannya \ndipotong Pajak Penghasilan sebesar 20% (dua puluh persen) \ndan bersifat final. \n \n \nPasal II \nCukup jelas. \n \n \nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5803"
+    }
+  ]
+}

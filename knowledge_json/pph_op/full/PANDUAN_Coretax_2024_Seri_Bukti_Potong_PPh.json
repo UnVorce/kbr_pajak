@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "document_name": "Buku Manual Coretax 2024 - Bukti Potong Pajak Penghasilan (PPh) dalam Coretax DJP (Versi 1.0 - 3 Februari 2025)",
+    "source_file": "PANDUAN_Coretax_2024_Seri_Bukti_Potong_PPh.txt",
+    "total_pages": 9,
+    "total_pasal": 0,
+    "document_type": "guide",
+    "extraction_notes": [
+      "Dokumen tipe guide — parsing pasal dilewati"
+    ]
+  },
+  "total_pasal": 0,
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "Versi 1.0 - 3 Februari 2025 \nAkan diperbarui sesuai perkembangan.\n BUKTI POTONG\n \nPAJAK\nPENGHASILAN (PPh)\nDALAM CORETAX DJP"
+    },
+    {
+      "page_number": 2,
+      "content": "KEMENTERIAN KEUANGAN REPUBLIK INDONESIA\n@2025\nTim Manajemen Perubahan Reformasi Perpajakan\nGedung Mari’e Muhammad KPDJP\nJl. Jenderal Gatot Subroto Kav. 40-42 Jakarta Selatan\nBUKTI POTONG\nPAJAK PENGHASILAN (PPh)\nDALAM CORETAX DJP\nii\nBukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP"
+    },
+    {
+      "page_number": 3,
+      "content": "01\nPengantar\nTerkait Bukti Potong \nPajak Penghasilan (PPh)\nManfaat Coretax DJP\nPemberi dan Penerima \nPenghasilan\nTata Cara \nPembuatan \nBukti Potong PPh\n02\n03\nDAFTAR ISI\nBukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP \niii"
+    },
+    {
+      "page_number": 4,
+      "content": "Bukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP \n1\nPengantar\nBukti Potong\nPajak Penghasilan (PPh)\nDalam rangka meningkatkan pelayanan kepada Wajib Pajak, Direktorat Jenderal Pajak (DJP) \nmengimplementasikan Coretax DJP mulai 1 Januari 2025. Salah satu inovasi dalam sistem ini \nadalah integrasi layanan pengelolaan Surat Pemberitahuan (SPT), yang mencakup tahapan          \npersiapan, pembayaran, hingga pelaporan pajak. \nDalam proses persiapan SPT Masa Pajak Penghasilan (PPh), bukti potong merupakan          \ndokumen resmi yang mencatat jumlah pajak penghasilan yang telah dipotong oleh pihak \npemberi penghasilan, seperti:\n   •  Perusahaan atau kantor tempat Anda bekerja;\n   •  Pemberi kerja lain yang membayar honor, komisi, atau royalti.\nBukti potong ini penting karena digunakan untuk:\n   •  Melaporkan pajak tahunan dengan lebih mudah; \n   •  Menghindari pembayaran pajak dobel atau kesalahan perhitungan; \n   •  Memastikan jumlah pajak yang dipotong sesuai aturan.\nDalam Coretax DJP, bukti potong PPh ini akan langsung dikirim ke akun wajib pajak Anda,          \nsehingga tidak perlu lagi meminta atau menyimpannya secara manual."
+    },
+    {
+      "page_number": 5,
+      "content": "Bukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP \n2\n      \n    \nSebagai pihak pemotong/pemungut PPh, pemberi penghasilan memperoleh manfaat sebagai \nberikut:\n       Bukti potong otomatis terkirim ke Akun Wajib Pajak penerima, mencakup informasi \n       jumlah PPh yang dipotong/dipungut.\n       Data bukti potong otomatis terisi dalam SPT (prepopulated), sehingga mempermudah \n       proses pengisian dan pelaporan.\n       Kemudahan dalam pembuatan bukti potong pegawai tetap (A1 dan A2) di akhir tahun \n       pajak.\nManfaat Coretax DJP\nBagi Pemberi dan Penerima\nPenghasilan\nBagi Pihak Pemberi Penghasilan (Perusahaan atau Pemberi Kerja)\n.\n.\n.\nSebagai pihak yang dikenai pemotongan/pemungutan pajak penghasilan, penerima          \npenghasilan memperoleh manfaat sebagai berikut:\n       Transparansi pemotongan PPh, karena bukti potong langsung diterima melalui akun  \n       Wajib Pajak.\n       Kemudahan pengisian dan pelaporan SPT Tahunan, karena data bukti potong otomatis \n       terintegrasi dalam formulir SPT.\nUntuk memperoleh manfaat tersebut, penerima penghasilan yang memenuhi kriteria Wajib \nPajak (memiliki NPWP dan penghasilan di atas Penghasilan Tidak Kena Pajak (PTKP) sebesar \nRp4.500.000,00 per bulan) diharapkan telah terdaftar dalam basis data Coretax DJP.\nBagi Pihak Penerima Penghasilan (Karyawan, Freelancer atau\nPekerja Lainnya) \n.\n."
+    },
+    {
+      "page_number": 6,
+      "content": "Bukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP \n3\n       \nTata Cara \nPembuatan Bukti Potong\nPajak Penghasilan (PPh)\nBerikut tata cara pembuatan bukti potong di Coretax DJP.\nMasuk ke menu eBupot pada akun Wajib Pajak.\n1\nPilih jenis bukti potong yang sesuai, untuk contoh saat ini, pilih BP 21 - Bukti Pemotonngan \nSelain Pegawai Tetap.  \n2\nKlik “Create eBupot BP21” untuk mengisi bukti potong pajak penghasilan.\n3\nIsi formulir berdasarkan data yang valid.\n4\nKlik Submit, dan bukti potong akan otomatis tersimpan dalam sistem.\n5\n1234567890123457  PT. NYARAKA\n1\n2\n1234567890123457  PT. NYARAKA\n3\n5\n1234567890123457000001- PTNYA RAKA"
+    },
+    {
+      "page_number": 7,
+      "content": "Skema Pembuatan Bukti Potong PPh\nKetentuan Penggunaan NPWP dan NIK\nBerikut ketentuan terkait penggunaan NPWP dan NIK saat pembuatan bukti potong.\n       \n•  Pihak pemotong wajib mengisi NPWP penerima yang sesuai dengan NIK terdaftar di \n   Coretax DJP.\n•  Jika NIK yang diinput belum terdaftar, sistem akan meminta konﬁrmasi untuk penggunaan \n   NPWP sementara (Temporary TIN) yang disediakan oleh sistem. \n   \n   Misalkan Pak A (NIK 1111122222333338) adalah penerima penghasilan, namun NIK tersebut\n   belum terdaftar di Coretax DJP. Saat diinput, sistem akan menampilkan konﬁrmasi sebagai \n   berikut:\n•  Untuk skema unggahan ﬁle *.XML, sistem secara otomatis menyesuaikan data NIK yang \n   belum terdaftar dengan NPWP sementara tanpa memerlukan konﬁrmasi.\nBukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP \n4\nPembuatan bukti potong PPh dalam Coretax DJP dapat dilakukan melalui tiga skema berikut:\nInput manual untuk setiap bukti potong (key in) di Coretax DJP.\n1\nPembuatan massal melalui unggahan ﬁle *.XML pada Akun Wajib Pajak.\n2\nPembuatan massal melalui Penyedia Jasa Aplikasi Perpajakan (PJAP).\n3\n1111122222333338\nJika pihak pemotong menyetujui penggunaan NPWP sementara (dengan mengeklik \"Ya\"), \nmaka Nama Penerima pada E-Bupot akan ditampilkan sebagai \n\"PENERIMAPENGHASILAN#NIK16digit\", di mana NIK 16 digit tersebut belum terdaftar dalam \nsistem.\n1111122222333338"
+    },
+    {
+      "page_number": 8,
+      "content": "Ketentuan Pendaftaran dalam Coretax DJP\nBukti Potong Pajak Penghasilan (PPh) Dalam Coretax DJP \n5\nAgar dapat terdaftar dalam basis data Coretax DJP, penerima penghasilan yang belum memiliki \nNPWP diharapkan melakukan pendaftaran melalui Coretax DJP atau Kantor Pelayanan Pajak \n(KPP) terdekat.\nAdapun ketentuan tambahan bagi penerima penghasilan tertentu adalah sebagai berikut:\nNamun, perlu diperhatikan bahwa penggunaan NPWP sementara memiliki dampak sebagai \nberikut:\n   •   Bukti pemotongan PPh tidak akan terkirim ke Akun Wajib Pajak penerima penghasilan.\n   •   Bukti pemotongan tidak akan otomatis terisi dalam SPT Tahunan PPh penerima penghasilan.\nOleh karena itu, DJP mengimbau kepada pemberi penghasilan untuk memastikan bahwa \npenerima penghasilan telah terdaftar dalam Coretax DJP guna memperoleh manfaat optimal \ndari sistem ini.\n  •   Wanita menikah yang memilih untuk menggabungkan kewajiban perpajakannya dengan \n      NPWP suami, serta anak yang telah berusia lebih dari 17 tahun, dapat didaftarkan dalam \n      Data Unit Keluarga Perpajakan (Family Tax Unit).\n  •    Anak di bawah 17 tahun yang memperoleh penghasilan dan dikenai pemotongan PPh \n       (misalnya artis cilik) dapat didaftarkan melalui Data Unit Keluarga Perpajakan oleh \n       kepala keluarga."
+    },
+    {
+      "page_number": 9,
+      "content": "[HALAMAN KOSONG - TIDAK ADA TEKS YANG DAPAT DIEKSTRAK]"
+    }
+  ],
+  "articles": []
+}

@@ -1,0 +1,742 @@
+{
+  "document_id": "PP_34_2016",
+  "nama_dokumen": "Pajak Penghasilan atas Penghasilan dari Pengalihan Hak atas Tanah dan/atau Bangunan, dan Perjanjian Pengikatan Jual Beli atas Tanah dan/atau Bangunan Beserta Perubahannya",
+  "nomor_peraturan": "PP Nomor 34 Tahun 2016",
+  "jenis_peraturan": "PP",
+  "tahun": 2016,
+  "nama_file_txt": "PP_34_2016_PPh_Pengalihan_Hak_Atas_Tanah_dan_Bangunan.txt",
+  "nama_file_pdf": "34TAHUN2016PP.pdf",
+  "jumlah_halaman": 26,
+  "metode_ekstraksi": "PyMuPDF (Digital Text)",
+  "status_keterbacaan": "LAYAK_DENGAN_CATATAN",
+  "isi_dokumen": [
+    {
+      "jenis_elemen": "CATATAN_HALAMAN",
+      "nomor": null,
+      "judul": "Halaman Kosong Dokumen Asli",
+      "teks": "[HALAMAN KOSONG - TIDAK ADA TEKS YANG DAPAT DIEKSTRAK (LEMBAR KOSONG PADA DOKUMEN ASLI)]",
+      "children": [],
+      "halaman_sumber": 5
+    },
+    {
+      "jenis_elemen": "JUDUL",
+      "nomor": null,
+      "judul": null,
+      "teks": "SALINAN\nPRESIDEN\nREPUELIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 34 TAHUN 2016\nTENTANG\nPAJAK PENGHASIL,AN ATAS PENGHASILAN DARI PENGALIHAN HAK ATAS\nTANAH DAN/ATAU BANGUNAN, DAN PER\"IANJIAN PENGIKATAN JUAL BELI\nATAS TANAH DAN/ATAU BANGUNAN BESERTA PERUBAHANNYA",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "PEMBUKAAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "DENGAN RAHMATTUHAN YANG MAHA ESA",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENIMBANG",
+      "nomor": null,
+      "judul": "Konsiderans Menimbang",
+      "teks": "a.\nPRESIDEN REPUBLIK INDONESIA,\nbahwa dalam rangka percepatan pelaksanaan program\npembangunan pemerintah untuk kepentingan umum,\npemberian kemudahan dalam berusaha, serta pemberian\nperlindungan kepada masyarakat berpenghasilan rendah,\nperlu mengatur kembali kebijakan atas Pajak\nPenghasilan atas penghasilan yang diterima atau\ndiperoleh orang pribadi atau badan dari pengalihan hak\natas tanah dan/atau bangunan, dan perjanjian\npengikatan jual beli atas tanah dan/ atau bangunan\nbeserta perubahannya;\nbahwa dalam rangka pengaturan kebijakan sebagaimana\ndimaksud dalam huruf a, perlu mengganti Peraturan\nPemerintah Nomor 48 Tahun 1994 tentang Pembayaran\nPajak Penghasilan atas Penghasilan dari Pengalihan Hak\natas Tanah dan/ atau Bangunan sebagaimana telah\nbeberapa kali diubah terakhir dengan Peraturan\nPemerintah Nomor 71 Tahun 2008 tentang Perubahan\nKetiga atas Peraturan Pemerintah Nomor 48 Tahun 1994\ntentang Pembayaran Pajak Penghasilan atas Penghasilan\ndari Pengalihan Hak atas Tanah dan/ atau Bangunan;\nb.\nc. bahwa",
+      "children": [
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "c",
+          "judul": null,
+          "teks": "bahwa",
+          "children": [],
+          "halaman_sumber": 1
+        }
+      ],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENGINGAT",
+      "nomor": null,
+      "judul": "Dasar Hukum Mengingat",
+      "teks": "1.\nPRESIDEN\nREPUBLIK INDONESIA\n-2-\nbahwa berdasarkan pertimbangan sebagaimana\ndimaksud dalam huruf a dan huruf b, serta untuk\nmelaksanakan ketentuan Pasal 4 ayat (21 Undang-\nUndang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\nsebagaimana telah beberapa kali diubah terakhir dengan\nUndang-Undang Nomor 36 Tahun 2008 tentang\nPerubahan Keempat Atas Undang Nomor 7 Tahun 1983\ntentang Pajak Penghasilan, perlu menetapkan Peraturan\nPemerintah tentang Pajak Penghasilan Atas Penghasilan\ndari Pengalihan Hak Atas Tanah dan/ atau Bangunan,\ndan Perjanjian Pengikatan Jual Beli Atas Tanah dan/atau\nBangunan Beserta Perubahannya;\nPasal 5 ayat (21 Undang-Undang Dasar Negara Republik\nIndonesia Tahun 1945;\n2. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan (Lembaran Negara Republik Indonesia Tahun\n1983 Nomor 50, Tambahan Lembaran Negara Republik\nIndonesia Nomor 3263) sebagaimana telah beberapa kali\ndiubah terakhir dengan Undang-Undang Nomor 36\nTahun 2008 tentang Perubahan Keempat Atas Undang-\nUndang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\n(Lembaran Negara Republik Indonesia Tahun 2008\nNomor 133, Tambahan kmbaran Negara Republik\nIndonesia Nomor 4893);",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Undang-Undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan (Lembaran Negara Republik Indonesia Tahun\n1983 Nomor 50, Tambahan Lembaran Negara Republik\nIndonesia Nomor 3263) sebagaimana telah beberapa kali\ndiubah terakhir dengan Undang-Undang Nomor 36\nTahun 2008 tentang Perubahan Keempat Atas Undang-\nUndang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\n(Lembaran Negara Republik Indonesia Tahun 2008\nNomor 133, Tambahan kmbaran Negara Republik\nIndonesia Nomor 4893);",
+          "children": [],
+          "halaman_sumber": 2
+        }
+      ],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "MEMUTUSKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "MEMUTUSKAN",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "MENETAPKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "PERATURAN PEMERINTAH TENTANG PAJAK PENGHASII,AN\nATAS PENGHASILAN DARI PENGALIHAN HAK ATAS TANAH\nDAN/ATAU BANGUNAN, DAN PERJANJIAN PENGIKATAN\nJUAL BELI ATAS TANAH DAN/ATAU BANGUNAN BESERTA\nPERUBAHANNYA.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "1",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Atas penghasilan yang diterima atau diperoleh orang\npribadi atau badan dari:\nc.",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "pengalihan\n\n(21\n(3)\nPRES IDEN\nREPU BLIK INDONESIA\n-3-",
+              "children": [],
+              "halaman_sumber": [
+                2,
+                3
+              ]
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "pengalihan hak atas tanah dan/atau bangunan;\natau",
+              "children": [],
+              "halaman_sumber": 3
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "perjanjian pengikatan jual beli atas tanah dan/atau\nbangunan beserta perubahannya,\nterutang Pajak Penghasilan yang bersifat final.\nPenghasilan dari pengalihan hak atas tanah dan/atau\nbangunan sebagaimana dimaksud pada ayat (1) huruf a\nadalah penghasilan yang diterima atau diperoleh pihak\nyang mengalihkan hak atas tanah dan/atau bangunan\nmelalui penjualan, tukar-menukar, pelepasan hak,\npenyerahan hak, lelang, hibah, waris, atau cara lain yang\ndisepakati antara para pihak.\nPenghasilan dari perjanjian pengikatan jual beli atas\ntanah dan/ atau bangunan beserta perubahannya\nsebagaimana dimaksud pada ayat (1) huruf b adalah\npenghasilan dari:",
+              "children": [],
+              "halaman_sumber": 3
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "pihak penjual yang namanya tercantum dalam\nperjanjian pengikatan jual beli pada saat pertama kali\nditandatangani; atau",
+              "children": [],
+              "halaman_sumber": 3
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "pihak pembeli yang namanya tercantum dalam\nperjanjian pengikatan jual beli sebelum terjadinya\nperubahan atau adendum perjanjian pengikatan jual\nbeli, atas terjadinya perubahan pihak pembeli dalam\nperjanjian pengikatan jual beli tersebut.",
+              "children": [],
+              "halaman_sumber": 3
+            }
+          ],
+          "halaman_sumber": [
+            2,
+            3
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        2,
+        3
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": "Besarnya Pajak Penghasilan dari pengalihan hak atas\ntanah dan/ atau bangunan sebagaimana dimaksud dalam",
+      "children": [],
+      "halaman_sumber": 3
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "1",
+      "judul": null,
+      "teks": "ayat (1) huruf a adalah sebesar:\na. 2,5o/o (dua koma lima persen) dari jumlah bruto nilai\npengalihan hak atas tanah dan/ atau bangunan\nselain pengalihan hak atas tanah dan/ atau\nbangunan berupa Rumah Sederhana atau Rumah\nSusun Sederhana yang dilakukan oleh Wajib Pajak\nyang usaha pokoknya melakukan pengalihan hak\natas tanah dan/ atau bangunan;\n(1)\nb. lo/o\n\nPRESIDEN\nREPUBLIK INDONESIA\nb. \n1% (satu persen) dari jumlah bruto nilai pengalihan\nhak atas tanah dan/ atau bangunan berupa Rumah\nSederhana dan Rumah Susun Sederhana yang\ndilalukan oleh Wajib Pajak yang usaha pokoknya\nmelakukan pengalihan hak atas tanah dan/atau\nbangunan; atau\nc. O% (nol persen) atas pengalihan hak atas tanah\ndan/ atau bangunan kepada pemerintah, badan\nusaha milik negara yang mendapat Penugasan\nkhusus dari Pemerintah, atau badan usaha milik\ndaerah yang mendapat penugasan khusus dari\nkepala daerah, sebagaimana dimaksud dalam\nundang-undang yang mengatur mengenai\npengadaan tanah bagi pembangunan untuk\nkepentingan umum.\n(21 Nilai pengalihan hak atas tanah dan/atau bangunan\nsebagaimana dimaksud pada ayat (1) adalah:\na. nilai berdasarkan keputusan pejabat yang\nberwenang, dalam hal pengalihan hak kepada\npemerintah;\nb. nilai menurut risalah lelang, dalam hal pengalihan\nhak sesuai dengan peraturan lelang (Vendu\nReglement Staatsblad Tahun 1908 Nomor i89\nbeserta perubahannya) ;\nc. nilai yang seharusnya diterima atau diperoleh,\ndalam hal pengalihan hak atas tanah dan/ atau\nbangunan dilakukan melalui jual beli yang\ndipengaruhi hubungan istimewa, selain pengalihan\nsebagaimana dimaksud pada huruf a dan huruf b;\n-4-\nd.nilai...\n\n[HALAMAN KOSONG - TIDAK ADA TEKS YANG DAPAT DIEKSTRAK (LEMBAR KOSONG PADA DOKUMEN ASLI)]\n\n#.)\n-fr$lr€\nPRESIDEN\nREPUBLIK INDONESIA\n-5-\nd. nilai yang sesungguhnya diterima atau diperoleh,\ndalam hal pengalihan hak atas tanah dan/atau\nbangunan dilakukan melalui jual beli yang tidak\ndipengaruhi hubungan istimewa, selain pengalihan\nsebagaimana dimaksud pada huruf a dan huruf b;\natau\ne. nilai yang seharusnya diterima atau diperoleh\nberdasarkan harga pasar, dalam hal pengalihan hak\natas tanah dan/ atau bangunan dilakukan melalui\ntukar-menukar, pelepasan hat, penyerahan hak,\nhibah, waris, atau cara lain yang disepakati antara\npara pihak.",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Besarnya Pajak Penghasilan atas penghasilan dari\nperjanjian pengikatan jual beli atas tanah dan/atau\nbangunan beserta perubahannya sebagaimana dimaksud\ndalam Pasal I ayat (1) huruf b berdasarkan tarif\nsebagaimana dimaksud pada ayat (1) dari jumlah bruto,\nyaitu:",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "nilai yang sesungguhnya diterima atau diperoleh,\ndalam hal pengalihan tanah dan/ atau bangunan\ndilakukan melalui pengalihan yang tidak\ndipengaruhi hubungan istimewa; atau",
+              "children": [],
+              "halaman_sumber": 6
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "nilai yang seharusnya diterima atau diperoleh,\ndalam hal pengalihan tanah dan/ atau bangunan\ndilakukan melalui pengalihan yang dipengaruhi\nhubungan istimewa.",
+              "children": [],
+              "halaman_sumber": 6
+            }
+          ],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Kriteria Rumah Sederhana dan Rumah Susun Sederhana\nsebagaimana dimaksud pada ayat (1) huruf a dan huruf\nb, sesuai dengan kriteria Rumah Sederhana dan Rumah\nSusun Sederhana yang mendapat fasilitas dibebaskan\ndari pengenaan Pajak Pertambahan Nilai sesuai dengan\nketentuan peraturan perundang-undangan di bidang\nperpajakan.",
+          "children": [],
+          "halaman_sumber": 6
+        }
+      ],
+      "halaman_sumber": [
+        3,
+        6
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": "...\n\n(1)\nPRES IDEN\nREPU BLIK INDONESIA",
+      "children": [],
+      "halaman_sumber": [
+        6,
+        7
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": "Orang pribadi atau badan yang menerima atau\nmemperoleh penghasilan dari pengalihan hak atas tanah\ndan/atau bangunan sebagaimana dimaksud dalam Pasal\n1 ayat (1) huruf a, wajib menyetor sendiri Pajak\nPenghasilan yang terutang sebagaimana dimaksud dalam",
+      "children": [],
+      "halaman_sumber": 7
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": "ayat (1) huruf a dan huruf b ke bank/pos\npersepsi sebelum akta, keputusan, kesepakatan, atau\nrisalah lelang atas pengalihan hak atas tanah dan/ atau\nbangunan ditandatangani oleh pejabat yang berwenang.\nBagi orang pribadi atau badan yang usaha pokoknya\nmelakukan pengalihan hak atas tanah dan/ atau\nbangunan yang menerima atau memperoleh penghasilan\ndari pengalihan hak atas tanah dan/ atau bangunan\nsebagaimana dimaksud dalam Pasal 1 ayat (1) huruf a,\nPajak Penghasilan sebagaimana dimaksud pada ayat (1)\nterutang pada saat diterimanya sebagian atau seluruh\npembayaran atas pengalihan hak atas tanah dan/ atau\nbangunan.\nPajak Penghasilan sebagaimana dimaksud pada ayat (2)\ndihitung berdasarkan jumlah setiap pembayaran\ntermasuk uang muka, bunga, pungutan, dan\npembayaran tambahan lainnya yang dipenuhi oleh\npembeli, sehubungan dengan pengalihan hak atas tanah\ndan/ atau bangunan tersebut.\nPajak Penghasilan yang terutang sebagaimana dimaksud\npada ayat (2) wajib dibayar oleh orang pribadi atau badan\nyang bersangkutan ke bank/pos persepsi paling lambat\ntanggal 15 (lima belas) bulan berikutnya setelah bulan\nditerimanya pembayaran.\n(2t\n(3)\n(4)",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "5",
+          "judul": null,
+          "teks": "Pejabat...\n\nPRESIDEN\nREPUBLIK INDONESIA\n(s)\n-7-\nPejabat yang berwenang hanya menandatangani akta,\nkeputusan, kesepakatan, atau risalah lelang atas\npengalihan hak atas tanah dan/atau bangunan apabila\nkepadanya dibuktikan oleh orang pribadi atau badan\ndimaksud bahwa kewajiban sebagaimana dimaksud pada\nayat (1) telah dipenuhi dengan menyerahkan fotokopi\nSurat Setoran Pajak atau hasil cetakan sarana\nadministrasi lain yang disamakan dengan Surat Setoran\nPajak yang bersangkutan yang telah dilakukan penelitian\noleh Kantor Pelayanan Pajak.\nPejabat yang berwenang menandatangani akta,\nkeputusan, kesepakatan, atau risalah lelang wajib\nmenyampaikan laporan bulanan mengenai penerbitan\nakta, keputusan, kesepakatan, atau risalah lelang atas\npengalihan hak atas tanah dan/atau bangunan\nsebagaimana dimaksud pada ayat (2) kepada Direktur\nJenderal Pajak.\nPejabat yang berwenang sebagaimana dimaksud pada\nayat (5) dan ayat (6) meliputi pejabat pembuat akta\ntanah, pejabat lelang, atau pejabat lain yang diberi\nwewenang sesuai dengan ketentuan peraturan\nperundang-undangan.",
+          "children": [],
+          "halaman_sumber": [
+            7,
+            8
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        7,
+        8
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "4",
+      "judul": null,
+      "teks": "Orang pribadi atau badan yang menerima atau\nmemperoleh penghasilan dari pengalihan hak atas tanah\ndan/ atau bangunan melalui jual beli atau tukar-\nmenukar sebagaimana dimaksud dalam Pasal 1 ayat (l)\nhuruf a kepada pemerintah, dipungut Pajak Penghasilan\noleh bendahara pemerintah atau pejabat yang melakukan\npembayaran atau pejabat yang menyetujui tukar\nmenukar.\n(6)\n(71\n(1)",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Bendahara\n\nPRESIDEN\nREPU BLIK INDONESIA\nBendahara pemerintah atau pejabat sebagaimana\ndimaksud pada ayal (1) wajib menyetor Pajak\nPenghasilan yang telah dipungut ke bank/pos persepsi\nsebelum melakukan pembayaran kepada orang pribadi\natau badan yang berhak menerimanya atau sebelum\ntukar menukar dilaksanakan.\nPenyetoran pajak sebagaimana dimaksud pada ayat (21\ndilakukan dengan menggunakan Surat Setoran Pajak\natau sarana administrasi lain yang disamakan dengan\nSurat Setoran Pajak atas nama orang pribadi atau badan\nyang menerima pembayaran atau yang melakukan tukar-\nmenukar.\nBendahara pemerintah atau pejabat sebagaimana\ndimaksud pada ayat (1) wajib menyampaikan laporan\nmengenai pengalihan hak atas tanah dan/ atau bangunan\nsebagaimana dimaksud pada ayat (1) kepada Direkttir\nJenderal Pajak.",
+          "children": [],
+          "halaman_sumber": [
+            8,
+            9
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        8,
+        9
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "5",
+      "judul": null,
+      "teks": "Pelunasan Pajak Penghasilan yang terutang atas\npenghasilan dari perubahan perjanjian pengikatan jual\nbeli atas tanah dan/ atau bangunan sebagaimana\ndimaksud dalam Pasal 1 ayat (1) huruf b dilakukan\nmelalui penyetoran sendiri oleh orang pribadi atau badan\nyang merupakan pihak pembeli dan namanya tercantum\ndalam perjanjian pengikatan jual beli sebelum terjadinya\nperubahan atau adendum atas perjanjian pengikatan jual\nbeli tersebut.\n-8-\n(21\n(3)\n(4)\n(1)",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Pihak\n\n(21\nPRESIDEN\nREPUBLIK INDONESIA\n-9-\nPihak penjual hanya menandatangani perubahan atau\nadendum perjanjian pengikatan jual beli apabila\nkepadanya dibuktikan bahwa kewajiban sebagaimana\ndimaksud pada ayat (1) telah dipenuhi dengan\nmenyerahkan fotokopi Surat Setoran Pajak atau hasil\ncetakan sarana administrasi lain yang disamakan dengan\nSurat Setoran Pajak yang bersangkutan, yang telah\ndilakukan penelitian oleh Kantor Pelayanan Pajak.\nPihak penjual sebagaimana dimaksud pada ayat (2)\nharus menyampaikan laporan mengenai perubahan atau\nadendum perjanjian pengikatan jual beli atas pengalihan\nharta berupa tanah dan/ atau bangunan kepada Direktur\nJenderal Pajak.",
+          "children": [],
+          "halaman_sumber": [
+            9,
+            10
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        9,
+        10
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "6",
+      "judul": null,
+      "teks": "Dikecualikan dari kewajiban pembayaran atau pemungutan\nPajak Penghasilan sebagaimana dimaksud dalam Pasal 2 ayat",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "dan Pasal 2 ayat (3) adalah:",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "orang pribadi yang mempunyai penghasilan di bawah\nPenghasilan Tidak Kena Pajak yang melakukan\npengalihan hak atas tanah dan/ atau bangunan dengan\njumlah \nbruto \npengalihannya kurang \ndari\nRp60.O00.000,00 (enam puluh juta rupiah) dan bukan\nmerupakan jumlah yang dipecah-pecah;",
+              "children": [],
+              "halaman_sumber": 10
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "orang pribadi yang melakukan pengalihan harta berupa\ntanah dan/ atau bangunan dengan cara hibah kepada\nkeluarga sedarah dalam garis keturunan lurus satu\ndera.lat, badan keagamaan, badan pendidikan, badan\nsosial termasuk yayasan, koperasi atau orang pribadi\nyang menjalankan usaha mikro dan kecil, yang\nketentuannya diatur lebih lanjut dengan Peraturan\nMenteri Keuangan, sepanjang hibah tersebut tidak ada\nhubungan dengan usaha, pekerjaan, kepemilikan, atau\npenguasaan antara pihak-pihak yang bersangkutan;\n(3)",
+              "children": [],
+              "halaman_sumber": 10
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "c",
+              "judul": null,
+              "teks": "badan . .\n\nc.\ne.\nf.\nd.\nPRESIDEN\nREPUBLIK INDONESIA\n-10-\nbadan yang melakukan pengalihan harta berupa tanah\ndan/ atau bangunan dengan cara hibah kepada badan\nkeagamaan, badan pendidikan, badan sosial termasuk\nyayasan, koperasi atau orang pribadi yang menjalankan\nusaha mikro dan kecil, yang ketentuannya diatur lebih\nlanjut dengan Peraturan Menteri Keuangan, sepanjang\nhibah tersebut tidak ada hubungan dengan usaha,\npekerjaan, kepemilikan, atau penguasaan antara pihak-\npihak yang bersangkutan;\npengalihan harta berupa tanah dan/ atau bangunan\nkarena waris;\nbadan yang melakukan pengalihan harta berupa tanah\ndan/atau bangunan dalam rangka penggabungan,\npeleburan, atau pemekaran usaha yang telah ditetapkan\nMenteri Keuangan untuk menggunakan nilai buku;\norang pribadi atau badan yang melakukan pengalihan\nharta berupa bangunan dalam rangka melalsanakan\nperjanjian bangun guna serah, bangun serah guna, atau\npemanfaatan barang milik negara berupa tanah dan/atau\nbangunan; atau\norang pribadi atau badan yang tidak termasuk subjek\npajak yang melakukan pengalihan harta berupa tanah\ndan/ atau bangunan.",
+              "children": [],
+              "halaman_sumber": [
+                10,
+                11
+              ]
+            }
+          ],
+          "halaman_sumber": [
+            10,
+            11
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        10,
+        11
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "7",
+      "judul": null,
+      "teks": "Kementerian Agraria dan Tata Ruang/Badan Pertanahan\nNasional hanya mengeluarkan surat keputusan pemberian\nhak, pengakuan hak, dan peralihan hak atas tanah, apabila\npermohonannya dilengkapi dengan Surat Setoran Pajak atau\nhasil cetak sarana administrasi lain yang disamakan dengan\nSurat Setoran Pajak sebagaimana dimaksud dalam Pasal 3\nayat (5) dan Pasal 4 ayat (3), kecuali permohonan sehubungan\ndengan ketentuan sebagaimana dimaksud dalam Pasal 2 ayat",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "huruf c dan Pasal 6.\nPasa1 8 ...\n\n(1)\n(21\ntrRESIDEN\nREPUBLIK INDONESIA\n-11-",
+          "children": [],
+          "halaman_sumber": [
+            11,
+            12
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        11,
+        12
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "8",
+      "judul": null,
+      "teks": "Pejabat yang berwenang menandatangani akta,\nkeputusan, kesepakatan atau risalah lelang yang tidak\nmemenuhi ketentuan sebagaimana dimaksud dalam",
+      "children": [],
+      "halaman_sumber": 12
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": "ayat (5) dan/ atau Pasal 3 ayat (6) dikenai sanksi\nsesuai dengan ketentuan peraturan perundang-\nundangan.\nPihak penjual sebaeaimana dimaksud dalam Pasal 5 ayat\n(21 yang tidak memenuhi ketentuan sebagaimana\ndimaksud dalam Pasal 5 ayat (2) dan/ atau Pasal 5 ayat\n(3), dikenai sanksi sesuai dengan ketentuan peraturan\nperundang-undangan.",
+      "children": [],
+      "halaman_sumber": 12
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "9",
+      "judul": null,
+      "teks": "Ketentuan lebih lanjut mengenai:",
+      "children": [
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "a",
+          "judul": null,
+          "teks": "tata cara penyetoran sebagaimana dimaksud dalam Pasal 3\ndan Pasal 5;",
+          "children": [],
+          "halaman_sumber": 12
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "b",
+          "judul": null,
+          "teks": "pengecualian dari pengenaan Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 6; dan",
+          "children": [],
+          "halaman_sumber": 12
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "c",
+          "judul": null,
+          "teks": "pelaporan Pajak Penghasilan atas penghasilan dari\npengalihan harta bempa tanah dan/atau bangunan\nsebagaimana dimaksud dalam Pasal 3 ayat (6), Pasal 4 ayat\n(4), dan Pasal 5 ayat (3),\ndiatur dengan Peraturan Menteri Keuangan.",
+          "children": [],
+          "halaman_sumber": 12
+        }
+      ],
+      "halaman_sumber": 12
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "10",
+      "judul": null,
+      "teks": "PRESIDEN\nREPU BLIK INOONESIA\n_t2_",
+      "children": [],
+      "halaman_sumber": [
+        12,
+        13
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "10",
+      "judul": null,
+      "teks": "Pada saat Peraturan Perherintah ini mulai berlaku, semua\nperaturan perundang-undangan yang \nmerupakan\npelaksanaan dari Peraturan Pemerintah Nomor 48 Tahun\n1994 tentang Pembayaran Pajak Penghasilan atas Penghasilan\ndari Pengalihan Hak atas Tanah dan/ atau Bangunan\n(kmbaran Negara Republik Indonesia Tahun 1994 Nomor 77,\nTambahan Lembaran Negara Republik Indonesia Nomor 358O)\nsebagaimana telah beberapa kali diubah terakhir dengan\ndengan Peraturan Pemerintah Nomor 71 Tahun 2008 tentang\nPerubahan Ketiga Atas Peraturan Pemerintah Nomor 48\nTahun 1994 tentang Pembayaran Pajak Penghasilan atas\nPenghasilan dari Pengalihan Hak atas Tanah dan/ atau\nBangunan (Lembaran Negara Repubtik Indonesia Tahun 20O8\nNomor 164, Tambahan l,embaran Negara Republik Indonesia\nNomor 4914), dinyatakan masih tetap berlaku sepanjang tidak\nbertentangan dengan ketentuan dalam Peraturan Pemerintah\nini.",
+      "children": [],
+      "halaman_sumber": 13
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "11",
+      "judul": null,
+      "teks": "Pada saat Peraturan Permerintah ini mulai berlaku, Peraturan\nPemerintah Nomor 48 Tahun 1994 tentang Pembayaran Pajak\nPenghasilan atas Penghasilan dari Pengalihan Hak atas Tanah\ndan/ atau Bangunan (Lembaran Negara Republik Indonesia\nTahun 1994 Nomor 77, Tambalrran Lembaran Negara Republik\nIndonesia Nomor 3580) sebagaimana telah beberapa kali\ndiubah terakhir dengan dengan Peraturan Pemerintah Nomor\n71 Tahun 2008 tentang Perubahan Ketiga Atas Peraturan\nPemerintah Nomor 48 Tahun 1994 tentang Pembayaran Pajak\nPenghasilan atas Penghasilan dari Pengalihan Hak atas Tanah\ndan/ atau Bangunan (t embaran Negara Republik Indonesia\nTahun 2OO8 Nomor 164, Tambahan Lembaran Negara\nRepublik Indonesia Nomor 4914), dicabut dan dinyatakan\ntidak berlaku.",
+      "children": [],
+      "halaman_sumber": 13
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "12",
+      "judul": null,
+      "teks": "Peraturan Pemerintah ini mulai berlaku setelah 30 (tiga\npuluh) hari terhitung sejak tanggal diundangkan.\nAgar ..\n\nPRESIDEN\nREPUBLIK INDONESIA\n-13-",
+      "children": [],
+      "halaman_sumber": [
+        13,
+        14
+      ]
+    },
+    {
+      "jenis_elemen": "PENGESAHAN",
+      "nomor": null,
+      "judul": "Pengesahan dan Pengundangan",
+      "teks": "Agar setiap orang mengetahuinya, memerintahkan\npengundangan Peraturan Pemerintah ini \ndengan\npenempatannya dalam Lembaran Negara Republik Indonesia.\nDitetapkan di Jakarta\npada tanggal 8 Agustus 2016\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nJOKO WIDODO\nDiundangkan di Jakarta\npada tanggal 8 Agustus 2016\nMENTERI HUKUM DAN HAKASASI MANUSIA\nREPUBLIK INDONESIA,\nttd.\nYASONNA H. LAOLY\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 168\nSalinan sesuai dengan aslinya\nKEMENTERIAN SEKRETARIAT\nNEGARA REPUBLIK INDONESIA\nBidang Hukum dan\n-undangan,\nSapta Murti\n{D",
+      "children": [],
+      "halaman_sumber": 14
+    },
+    {
+      "jenis_elemen": "PENJELASAN",
+      "nomor": null,
+      "judul": "Penjelasan Peraturan",
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "PENJELASAN_UMUM",
+          "nomor": "I",
+          "judul": "UMUM",
+          "teks": "Berdasarkan ketentuan Pasal 4 ayat (1) Undang-Undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir\ndengan Undang-Undang Nomor 36 Tahun 2008 (Undang-Undang Pajak\nPenghasilan), penghasilan yang diterima atau diperoleh dari penjualan\natau pengalihan harta merupakan objek Pajak Penghasilan. Dalam hal\norang pribadi atau badan menerima atau memperoleh penghasilan dari\npengalihan harta berupa tanah dan/atau bangunan, maka penghasilan\ntersebut termasuk dalam pengertian penghasilan sebagaimana dimaksud\ndalam Pasal 4 ayat (1) huruf d Undang-Undang tersebut. Namun,\nketentuan yang bersifat lebih khusus atas jenis penghasilan dimaksud\ndiatur berdasarkan Pasal 4 ayat(2) Undang-Undang Pajak Penghasilan.\nDalam rangka mendorong pertumbuhan ekonomi diperlukan percepatan\npembangunan infrastruktur oleh pemerintah untuk kepentingan umum,\nsehingga dalam Peraturan Pemerintah ini diatur mengenai kebijakan\nPajak Penghasilan atas penghasilan yang diterima atau diperoleh orang\npribadi atau badan dari pengalihan harta berupa tanah dan/ atau\nbangunan bagi pembangunan untuk kepentingan umum.\nUntuk\n\nPRESIDEN\nREPU BLIK INDONESIA\nUntuk lebih memberikan kemudahan dan kesederhanaan dalam\nmenghitung Pajak Penghasilan atas penghasilan yang diterima atau\ndiperoleh sehubungan dengan perjanjian pengikatan jual beli dan\nperubahannya, pengenaan Pajak Penghasilan atas penghasilan dimaksud\nyang semula bersifat tidak final menjadi bersifat frnal bagi orang pribadi\natau badan sebagai pihak pembeli yang namanya tercantum dalam\nperjanjian pengikatan jual beli sebelum terjadinya perubahan atau\nadendum perjanjian pengikatan jual beli.\nDalam rangka memberikan kepastian hukum dan memberikan\nkenyamanan dalam pembayaran Pajak Penghasilan, orang pribadi atau\nbadan yang usaha pokoknya melakukan pengalihan hal< atas tanah\ndan/atau bangunan yang menerima atau memperoleh penghasilan dari\npengalihan tanah dan/atau bangunan, Pajak Penghasilan terutang pada\nsaat atas diterimanya sebagian atau seluruh pembayaran pengalihan hak\natas tanah dan/ atau bangunan.",
+          "children": [],
+          "halaman_sumber": [
+            15,
+            16
+          ]
+        },
+        {
+          "jenis_elemen": "PENJELASAN_PASAL_DEMI_PASAL",
+          "nomor": "II",
+          "judul": "PASAL DEMI PASAL",
+          "teks": null,
+          "children": [
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "1",
+              "judul": "Pasal 1",
+              "teks": "Ayat (1)\nAtas penghasilan yang diterima atau diperoleh orang pribadi\natau badan dari pengalihan hak atas tanah dan/atau bangunan,\nserta penghasilan yang timbul dari perjanjian pengikatan jual\nbeli beserta perubahannya, baik dalam kegiatan usahanya\nmaupun di luar usahanya, wajib dibayar atau dipungut Pajak\nPenghasilannya pada saat terjadinya transaksi dan pengenaan\nPajak Penghasilan tersebut bersifat final.\nAyat (2)\nPengalihan hak atas tanah dan/ atau bangunan dilakukan\nkepada Pemerintah atau kepada pihak lain selain Pemerintah.\n-2-\nAyat(3) ...\n\nPRESIDEN\nREPU BLIK INDONESIA\nAyat (3)\nCukup jelas.",
+              "children": [],
+              "halaman_sumber": [
+                16,
+                17
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "2",
+              "judul": "Pasal 2",
+              "teks": "Ayat (1)\nCukup jelas.\nAyat (2)\nHuruf a\nCukup jelas.\nHuruf b\nCukup jelas.\nHuruf c\nCukup jelas.\nHuruf d\nPada umumnya dalam penjualan harta berupa tanah\ndan/atau bangunan, nilai penjualan bagi pihak penjual\nadalah nilai yang sesungguhnya diterima atau nilai\nberdasarkan transaksi yang sebenarnya.\nDalam hal penjualan harta berupa tanah dan/ atau\nbangunan dipengaruhi oleh hubungan istimewa, nilai\npenjualan bagi pihak penjual adalah nilai yang seharusnya\nditerima berdasarkan harga pasar yang wajar atau\nberdasarkan penilaian oleh penilai independen. Adanya\nhubungan istimewa antara pembeli dan penjual dapat\nmenyebabkan harga penjualan menjadi lebih besar atau\nlebih kecil dibandingkan dengan jika penjualan tersebut\ntidak dipengaruhi oleh hubungan istimewa.\nOleh\n\n*. \", \nJrTot \nt,''tSf; *, \n=, o\n-4-\nOleh karena itu dalam ketentuan ini diatur bahwa nilai\npenjualan harta berupa tanah dan/ atau bangunan bagi\npenjual adalah jumlah yang seharusnya diterima.\nYang dimaksud dengan hubungan istimewa adalah\nsebagaimana dimaksud dalam Undang-Undang yang\nmengatur mengenai Pajak Penghasilan.\nHuruf e\nCukup jelas.\nAyat (3)\nNilai yang diterima atau diperoleh pihak pembeli yang namanya\ntercantum dalam perjanjian pengikatan jual beli atau perjanjian\nsejenis lainnya sebelum terjadinya perubahan atau adendum\nperjanjian pengikatan jual beli atau perjanjian sejenis lainnya\nadalah nilai yang sesungguhnya berdasarkan transaksi yang\nsebenarnya\nDalam hal dipengaruhi oleh hubungan istimewa, nilai\npengalihan adalah nilai yang seharusnya diterima berdasarkan\nharga pasar yang wajar atau berdasarkan penilaian oleh penilai\nindependen. Adanya hubungan istimewa antara para pihak yang\nbertransaksi dapat menyebabkan harga menjadi lebih besar atau\nlebih kecil dibandingkan jika transaksi tersebut tidak\ndipengaruhi oleh hubungan istimewa. Oleh karena itu dalam\nketentuan ini diatur bahwa nilai yang diterima atau diperoleh\npihak pembeli yang namanya tercantum dalam perjanjian\npengikatan juai beli atau perjanjian sejenis lainnya sebelum\nterjadinya perubahan atau adendum perjanjian pengikatan jual\nbeli atau perjanjian sejenis lainnya adalah jumlah yang\nseharusnya diterima.\nYang dimaksud dengan hubungan istimewa adalah sebagaimana\ndimaksud dalam Undang-Undang yang mengatur mengenai\nPajak Penghasilan.\nAyat (4)\nCukup jelas.",
+              "children": [],
+              "halaman_sumber": [
+                17,
+                18
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "3",
+              "judul": "Pasal 3",
+              "teks": "#T$\n-*qy4#\n\nPRES IDEN,\nREPU BLIK INDONESIA\n-5-",
+              "children": [],
+              "halaman_sumber": [
+                18,
+                19
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "3",
+              "judul": "Pasal 3",
+              "teks": "Ayat (1)\nPembayaran Pajak Penghasilan atas penghasilan yang diterima\natau diperoleh orang pribadi atau badan dari pengalihan hak\natas tanah dan/ atau bangunan yang dilakukan kepada pihak\nlain selain pemerintah, wajib dilakukan sendiri oleh orang\npribadi atau badan yang bersangkutan sebelum akta,\nkeputusan, kesepakatan ditandatangani oleh pejabat yang\nberwenang. Sedangkan dalam hal penjualan lelang, Pajak\nPenghasilan yang terutang disetorkan oleh Pejabat Lelang atas\nnama orang pribadi atau badan yang hartanya dilelang.\nAyat (2)\nSebagai ilustrasi, PT Bangun Property menjual I (satu) unit\napartemen seharga Rp 1.000.000.000,00 (satu miliar rupiah).\nT\\ran Adi membayar uang muka sebesar Rp400.000.000,00\n(empat ratus juta rupiah) pada tanggal 25 Februari 2Ol7 dan\nsisanya diangsur selama 24 (dua puluh empat) bulan. Meskipun\nbelum dilakukan penandatanganan akta jual beli antara PT\nBangun Poperty dengan T\\:an Adi, atas transaksi tersebut telah\nterutang Pajak Penghasilan yaitu pada saat diterimanya uang\nmuka sebesar Rp400.000.000,00 (empat ratus juta rupiah) dan\nsaat diterimanya angsuran sebesar Rp25.O00.OOO,0O (dua puluh\nlima juta rupiah) setiap bulannya.\nAyat (3)\nDengan menggunakan ilustrasi pada ayat (2), dalam hal PI\nBangun Property mengenakan tambahan biaya sebesar\nRp1.000.000,00 (satu juta rupiah) sebagai kompensasi\npembayaran melalui angsuran selain pokok angsuran setiap\nbulan yang sebesar Rp25.00O.000,00 (dua puluh lima juta\nrupiah) tersebut, maka dasar pengenaan Pajak Penghasilan\nsetiap bulannya adalah sebesar Rp26.000.000,00 (dua puluh\nenam juta rupiah).\nAyat (4) . .\n\n#.)\n-ftqyr$\nPRES IDEN\nREPUELIK INDONESIA\n-6-\nAyat (4)\nDengan menggunakan ilustrasi pada ayat (2), maka pT Bangun\nPropert5r wajib membayarkan pajak penghasilan yang terutang\natas pembayaran uang muka, yaitu sebesar 2,So/o dari\nRp400.OO0.OO0,O0 (empat ratus juta rupiah) atau sebesar\nRp1O.OO0.OO0,O0 (sepuluh juta rupiah), paling lambat tanggal\n15 (lima belas) bulan Maret 2017.\nAyat (5)\nYang dimaksud dengan Kantor pelayanan pajak adalah Kantor\nPelayanan Pajak yang melakukan penelitian atas fotokopi Surat\nSetoran Pajak atau hasil cetakan sarana administrasi lain yang\ndisamakan dengan Surat Setoran pajak dimana tanah dan/ atau\nbangunan yang dialihkan tersebut berada.\nAyat (6)\nCukup jelas.\nAyat (7)\nCukup jelas.",
+              "children": [],
+              "halaman_sumber": [
+                19,
+                20
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "4",
+              "judul": "Pasal 4",
+              "teks": "Ayat (1)\nPemenuhan kewajiban pajak penghasilan atas penghasilan yang\nditerima atau diperoleh yang pribadi atau badan dari pengalihan\nhak atas tanah dan/atau bangunan kepada pemerintah,\ndilakukan melalui pemungutan pajak penghasilan oleh\nbendahara pemerintah atau pejabat yang melakukan\npembayaran atau yang menyetujui tukar menukar.\nPemenuhan kewajiban pajak penghasilan tersebut dilakukan\ndengan memperhatikan ketentuan sebagaimana dimaksud\ndalam Pasal 6.\nAyat (2)\nCukup jelas.\nAyat(s) ...\n\n$).)\n-ilpr4@\nPRESIDEN\nREPUBLIK INDONESIA\n-7-\nAyat (3)\nPenyetoran Pajak Penghasilan yang dipungut dilakukan dengan\nmenggunakan Surat Setoran Pajak atas nama orang pribadi\natau badan yang menerima pembayaran atau yang melakukan\ntukar menukar, bukan atas nama bendahara pemerintah atau\npejabat pemungut. Penyetoran Pajak Penghasilan melalui\nbank/pos persepsi dilakukan sebelum pembayaran kepada\norang pribadi atau badan yang menerima atau memperoleh\npenghasilan dilaksanakan.\nAyat (4)\nCukup jelas.",
+              "children": [],
+              "halaman_sumber": [
+                20,
+                21
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "5",
+              "judul": "Pasal 5",
+              "teks": "Ayat (1)\nCukup jelas.\nAyat (2)\nUntuk memberikan kepastian hukum kapan perubahan atau\nadendum perjanjian pengikatan jual beli atau perjanjian sejenis\nlainnya ditandatangani oleh pihak penjual, maka diatur\nmengenai ketentuan bahwa perubahan atau adendum perjanjian\npengikatan jual beli atau perjanjian sejenis lainnya hanya\nditandatangani apabila Pajak Penghasilan yang terutang telah\ndisetor ke kas Negara.\nYang dimaksud dengan pihak penjual adalah pihak yang\nnamanya tercantum sebagai penjual dalam perjanjian\npengikatan jual beli atau perjanjian sejenis lainnya.\nYang dimaksud dengan Kantor Pelayanan Pajak adalah Kantor\nPelayanan Pajak yang melakukan penelitian atas fotokopi Surat\nSetoran Pajak atau hasil cetakan sarana administrasi lain yang\ndisamakan dengan Surat Setoran Pajak dimana tanah dan/ atau\nbangunan yang dialihkan tersebut berada.\nAyat (3)\nCukup jelas.",
+              "children": [],
+              "halaman_sumber": 21
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "6",
+              "judul": "Pasal 6",
+              "teks": "...\n\nI]RES IDEN\nREPU BLII( INDONESIA",
+              "children": [],
+              "halaman_sumber": [
+                21,
+                22
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "6",
+              "judul": "Pasal 6",
+              "teks": "Mengingat Pengenaan Pajak Penghasilan dalam Peraturan\nPemerintah ini dihitung berdasarkan nilai bruto pengalihan tanah\ndan/ atau bangunan, maka untuk memberikan kepastian hukum,\nperlu diatur pengecualian dari kewqliban membayar Pajak\nPenghasilan berdasarkan Peraturan Pemerintah ini atas transaksi\npengalihan tanah dan/ atau bangunan yang penghasilannya\ndikecualikan dari objek pajak atau tidak terdapat kewajiban Pajak\nPenghasilan berdasarkan Undang-Undang Pajak Penghasilan.\nHuruf a\nCukup jelas.\nHuruf b\nApabila orang pribadi melakukan pengalihan harta berupa\ntanah dan/ atau bangunan dengan cara hibah kepada\nkeluarga sedarah dalam garis keturunan lurus satu derajat,\ndan kepada badan keagamaan, badan pendidikan, badan\nsosial termasuk yayasan, koperasi atau orang pribadi yang\nmenjalankan usaha mikro dan kecil, yang ketentuannya\ndiatur lebih lanjut dengan Peraturan Menteri Keuangan,\nsepanjang tidak ada hubungan dengan usaha, pekerjaan,\nkepemilikan, atau penguasaan antara pihak-pihak yang\nbersangkutan sebagaimana dimaksud dalam Pasal 4 ayat\n(1) huruf d angka 4 Undang-Undang Pajak Penghasilan,\nmaka keuntungan karena pengalihan tersebut bukan\nmerupakan objek pajak dan tidak terutang Pajak\nPenghasilan. Termasuk dalam pengertian hibah adalah\nwakaf.\nHuruf c . . .\n\nPRESIDEN\nREPUBLIK INDONESIA\nHuruf c\nApabila badan melakukan pengalihan harta berupa tanah\ndan/atau bangunan dengan cara hibah kepada badan\nkeagamaan, badan pendidikan, badan sosial termasuk\nyayasan, koperasi atau orang pribadi yang menjalankan\nusaha mikro dan kecil, yang ketentuannya diatur lebih\nlanjut dengan Peraturan Menteri Keuangan, sepanjang\ntidak ada hubungan dengan usaha, pekerjaan, kepemilikan,\natau penguasaan antara pihak-pihak yang bersangkutan\nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d\nangka 4 Undang-Undang Pajak Penghasilan, maka\nkeuntungan karena pengalihan tersebut bukan merupakan\nobjek pajak dan tidak terutang Pajak Penghasilan'\nTermasuk dalam pengertian hibah adalah wakaf'\nHuruf d\nPengalihan harta berupa tanah dan/ atau bangunan karena\nwarisan sebagaimana dimaksud dalam Pasal 4 ayat (3)\nhuruf b Undang-Undang Pajak Penghasilan, bukan\nmerupakan objek pajak.\nPada prinsipnya yang dikenai Pajak Penghasilan sesuai\ndengan Peraturan Pemerintah ini adalah pihak yang\nmelakukan pengalihan. Dalam hal waris, pihak yang\nmelakukan pengalihan (pewaris) sudah meninggal dunia,\nsehingga dikecualikan dari pengenaan Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini. Pengecualian\ntersebut diberikan karena kewajiban subjektif dari pewaris\nsudah beralhir sejak pewaris meninggal dunia'\n-9-\nHuruf e\n\nPRES IDEN\nREPUBLIK INDONESIA\n_10_\nHuruf e\nPada dasarnya nilai perolehan atau pengalihan harta yang\ndialihkan dalam rangka penggabungan, peleburan, atau\npemekaran usaha adalah jumlah yang seharusnya\ndikeluarkan atau diterima berdasarkan harga pasar, kecuali\nditetapkan lain oleh Menteri Keuangan sebagaimana\ndimaksud dalam Pasal 10 ayat (3) Undang-Undang Pajak\nPenghasilan yaitu atas dasar nilai sisa buku Qtooling of\ninterestl.\nApabila badan melakukan pengalihan harta berupa tanah\ndan/ atau bangunan dalam rangka penggabungan,\npeleburan, atau pemekaran usaha, sepanjang telah\nditetapkan Menteri Keuangan untuk menggunakan nilai\nbuku, maka pengalihan tersebut dikecualikan dari\nkewajiban pembayaran Pajak Penghasilan.\nHuruf f\nPerjanjian bangun guna serah, bangun serah guna, atau\npemanfaatan barang milik negara berupa tanah dan/ atau\nbangunan adalah merupakan perjanjian pemanfaatan\ntanah, yaitu bentuk perjanjian yang menyatakan bahwa\npemegang hak atas tanah memberikan hak kepada investor\nuntuk mendirikan bangunan selama masa perjanjian dan\ninvestor akan mengalihkan bangunan tersebut kepada\npemegang hak atas tanah setelah masa pemanfaatan\nberakhir.\nPerjanjian kerja sama dimaksud dapat dilakukan antara\nswasta dengan swasta atau swasta dengan Pemerintah.\nTermasuk swasta adalah badan usaha milik negara dan\nbadan usaha milik daerah.\nHuruf g .. .\n\nPRESIDEN\nREFUBLIK INDONESIA\n-11-\nHuruf g\nOrang pribadi atau badan yang tidak termasuk subjek\npajak sebagaimana dimaksud dalam Pasal 3 ayat (1)\nUndang-Undang Pajak Penghasilan dan unit tertentu dari\nbadan Pemerintah yang dikecualikan dari subjek pajak\nsebagaimana dimaksud dalam Pasal 2 ayat (3) huruf b\nUndang-Undang Pajak Penghasilan yang melakukan\npengalihan harta berupa tanah dan/atau bangunan,\ndikecualikan dari kewajiban pembayaran Pajak\nPenghasilan.",
+              "children": [],
+              "halaman_sumber": [
+                22,
+                25
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "7",
+              "judul": "Pasal 7",
+              "teks": "Terhadap pengalihan hak atas tanah dan/atau bangunan yang\ndikecualikan dari pengenaan Pajak Penghasilan, Kementerian Agraria\ndan Tata Ruang/Badan Pertanahan Nasional tidak perlu meminta\nkelengkapan berupa Surat Setoran Pajak atau hasil cetak sarana\nadministrasi lain yang disamakan dengan Surat Setoran Pajak.\nNamun demikian, untuk pengecualian atas pengenaErn Pajak\nPenghasilan sebagaimana dimaksud dalam Pasal 6, Kementerian\nAgraria dan Tata Ruang/Badan Pertanahan Nasional harus\ndibuktikan dengan adanya Surat Keterangan Bebas yang diterbitkan\nDirektorat Jenderal Pajak.",
+              "children": [],
+              "halaman_sumber": 25
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "8",
+              "judul": "Pasal 8",
+              "teks": "Cukup jelas.",
+              "children": [],
+              "halaman_sumber": 25
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "9",
+              "judul": "Pasal 9",
+              "teks": "Cukup jelas.\nPasal l0\nCukup jelas.",
+              "children": [],
+              "halaman_sumber": 25
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "11",
+              "judul": "Pasal 11",
+              "teks": "E\n{}s\nPRESIDEN\nREPUBLIK INDONESIA\n-t2-",
+              "children": [],
+              "halaman_sumber": [
+                25,
+                26
+              ]
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "11",
+              "judul": "Pasal 11",
+              "teks": "Cukup jelas.",
+              "children": [],
+              "halaman_sumber": 26
+            },
+            {
+              "jenis_elemen": "PENJELASAN_PASAL",
+              "nomor": "12",
+              "judul": "Pasal 12",
+              "teks": "Cukup jelas.\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5916",
+              "children": [],
+              "halaman_sumber": 26
+            }
+          ],
+          "halaman_sumber": [
+            16,
+            26
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        14,
+        26
+      ]
+    }
+  ],
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "SALINAN\nPRESIDEN\nREPUELIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 34 TAHUN 2016\nTENTANG\nPAJAK PENGHASIL,AN ATAS PENGHASILAN DARI PENGALIHAN HAK ATAS\nTANAH DAN/ATAU BANGUNAN, DAN PER\"IANJIAN PENGIKATAN JUAL BELI\nATAS TANAH DAN/ATAU BANGUNAN BESERTA PERUBAHANNYA\nDENGAN RAHMATTUHAN YANG MAHA ESA\nMenimbang : a.\nPRESIDEN REPUBLIK INDONESIA,\nbahwa dalam rangka percepatan pelaksanaan program\npembangunan pemerintah untuk kepentingan umum,\npemberian kemudahan dalam berusaha, serta pemberian\nperlindungan kepada masyarakat berpenghasilan rendah,\nperlu mengatur kembali kebijakan atas Pajak\nPenghasilan atas penghasilan yang diterima atau\ndiperoleh orang pribadi atau badan dari pengalihan hak\natas tanah dan/atau bangunan, dan perjanjian\npengikatan jual beli atas tanah dan/ atau bangunan\nbeserta perubahannya;\nbahwa dalam rangka pengaturan kebijakan sebagaimana\ndimaksud dalam huruf a, perlu mengganti Peraturan\nPemerintah Nomor 48 Tahun 1994 tentang Pembayaran\nPajak Penghasilan atas Penghasilan dari Pengalihan Hak\natas Tanah dan/ atau Bangunan sebagaimana telah\nbeberapa kali diubah terakhir dengan Peraturan\nPemerintah Nomor 71 Tahun 2008 tentang Perubahan\nKetiga atas Peraturan Pemerintah Nomor 48 Tahun 1994\ntentang Pembayaran Pajak Penghasilan atas Penghasilan\ndari Pengalihan Hak atas Tanah dan/ atau Bangunan;\nb.\nc. bahwa"
+    },
+    {
+      "page_number": 2,
+      "content": "Mengingat : 1.\nPRESIDEN\nREPUBLIK INDONESIA\n-2-\nbahwa berdasarkan pertimbangan sebagaimana\ndimaksud dalam huruf a dan huruf b, serta untuk\nmelaksanakan ketentuan Pasal 4 ayat (21 Undang-\nUndang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\nsebagaimana telah beberapa kali diubah terakhir dengan\nUndang-Undang Nomor 36 Tahun 2008 tentang\nPerubahan Keempat Atas Undang Nomor 7 Tahun 1983\ntentang Pajak Penghasilan, perlu menetapkan Peraturan\nPemerintah tentang Pajak Penghasilan Atas Penghasilan\ndari Pengalihan Hak Atas Tanah dan/ atau Bangunan,\ndan Perjanjian Pengikatan Jual Beli Atas Tanah dan/atau\nBangunan Beserta Perubahannya;\nPasal 5 ayat (21 Undang-Undang Dasar Negara Republik\nIndonesia Tahun 1945;\n2. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan (Lembaran Negara Republik Indonesia Tahun\n1983 Nomor 50, Tambahan Lembaran Negara Republik\nIndonesia Nomor 3263) sebagaimana telah beberapa kali\ndiubah terakhir dengan Undang-Undang Nomor 36\nTahun 2008 tentang Perubahan Keempat Atas Undang-\nUndang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\n(Lembaran Negara Republik Indonesia Tahun 2008\nNomor 133, Tambahan kmbaran Negara Republik\nIndonesia Nomor 4893);\nMEMUTUSKAN\nMenetapKAN : PERATURAN PEMERINTAH TENTANG PAJAK PENGHASII,AN\nATAS PENGHASILAN DARI PENGALIHAN HAK ATAS TANAH\nDAN/ATAU BANGUNAN, DAN PERJANJIAN PENGIKATAN\nJUAL BELI ATAS TANAH DAN/ATAU BANGUNAN BESERTA\nPERUBAHANNYA.\nPasal 1\n(1) Atas penghasilan yang diterima atau diperoleh orang\npribadi atau badan dari:\nc.\na. pengalihan"
+    },
+    {
+      "page_number": 3,
+      "content": "(21\n(3)\nPRES IDEN\nREPU BLIK INDONESIA\n-3-\na. pengalihan hak atas tanah dan/atau bangunan;\natau\nb. perjanjian pengikatan jual beli atas tanah dan/atau\nbangunan beserta perubahannya,\nterutang Pajak Penghasilan yang bersifat final.\nPenghasilan dari pengalihan hak atas tanah dan/atau\nbangunan sebagaimana dimaksud pada ayat (1) huruf a\nadalah penghasilan yang diterima atau diperoleh pihak\nyang mengalihkan hak atas tanah dan/atau bangunan\nmelalui penjualan, tukar-menukar, pelepasan hak,\npenyerahan hak, lelang, hibah, waris, atau cara lain yang\ndisepakati antara para pihak.\nPenghasilan dari perjanjian pengikatan jual beli atas\ntanah dan/ atau bangunan beserta perubahannya\nsebagaimana dimaksud pada ayat (1) huruf b adalah\npenghasilan dari:\na. pihak penjual yang namanya tercantum dalam\nperjanjian pengikatan jual beli pada saat pertama kali\nditandatangani; atau\nb. pihak pembeli yang namanya tercantum dalam\nperjanjian pengikatan jual beli sebelum terjadinya\nperubahan atau adendum perjanjian pengikatan jual\nbeli, atas terjadinya perubahan pihak pembeli dalam\nperjanjian pengikatan jual beli tersebut.\nPasal 2\nBesarnya Pajak Penghasilan dari pengalihan hak atas\ntanah dan/ atau bangunan sebagaimana dimaksud dalam\nPasal 1 ayat (1) huruf a adalah sebesar:\na. 2,5o/o (dua koma lima persen) dari jumlah bruto nilai\npengalihan hak atas tanah dan/ atau bangunan\nselain pengalihan hak atas tanah dan/ atau\nbangunan berupa Rumah Sederhana atau Rumah\nSusun Sederhana yang dilakukan oleh Wajib Pajak\nyang usaha pokoknya melakukan pengalihan hak\natas tanah dan/ atau bangunan;\n(1)\nb. lo/o"
+    },
+    {
+      "page_number": 4,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\nb. \n1% (satu persen) dari jumlah bruto nilai pengalihan\nhak atas tanah dan/ atau bangunan berupa Rumah\nSederhana dan Rumah Susun Sederhana yang\ndilalukan oleh Wajib Pajak yang usaha pokoknya\nmelakukan pengalihan hak atas tanah dan/atau\nbangunan; atau\nc. O% (nol persen) atas pengalihan hak atas tanah\ndan/ atau bangunan kepada pemerintah, badan\nusaha milik negara yang mendapat Penugasan\nkhusus dari Pemerintah, atau badan usaha milik\ndaerah yang mendapat penugasan khusus dari\nkepala daerah, sebagaimana dimaksud dalam\nundang-undang yang mengatur mengenai\npengadaan tanah bagi pembangunan untuk\nkepentingan umum.\n(21 Nilai pengalihan hak atas tanah dan/atau bangunan\nsebagaimana dimaksud pada ayat (1) adalah:\na. nilai berdasarkan keputusan pejabat yang\nberwenang, dalam hal pengalihan hak kepada\npemerintah;\nb. nilai menurut risalah lelang, dalam hal pengalihan\nhak sesuai dengan peraturan lelang (Vendu\nReglement Staatsblad Tahun 1908 Nomor i89\nbeserta perubahannya) ;\nc. nilai yang seharusnya diterima atau diperoleh,\ndalam hal pengalihan hak atas tanah dan/ atau\nbangunan dilakukan melalui jual beli yang\ndipengaruhi hubungan istimewa, selain pengalihan\nsebagaimana dimaksud pada huruf a dan huruf b;\n-4-\nd.nilai..."
+    },
+    {
+      "page_number": 5,
+      "content": "[HALAMAN KOSONG - TIDAK ADA TEKS YANG DAPAT DIEKSTRAK (LEMBAR KOSONG PADA DOKUMEN ASLI)]"
+    },
+    {
+      "page_number": 6,
+      "content": "#.)\n-fr$lr€\nPRESIDEN\nREPUBLIK INDONESIA\n-5-\nd. nilai yang sesungguhnya diterima atau diperoleh,\ndalam hal pengalihan hak atas tanah dan/atau\nbangunan dilakukan melalui jual beli yang tidak\ndipengaruhi hubungan istimewa, selain pengalihan\nsebagaimana dimaksud pada huruf a dan huruf b;\natau\ne. nilai yang seharusnya diterima atau diperoleh\nberdasarkan harga pasar, dalam hal pengalihan hak\natas tanah dan/ atau bangunan dilakukan melalui\ntukar-menukar, pelepasan hat, penyerahan hak,\nhibah, waris, atau cara lain yang disepakati antara\npara pihak.\n(3) Besarnya Pajak Penghasilan atas penghasilan dari\nperjanjian pengikatan jual beli atas tanah dan/atau\nbangunan beserta perubahannya sebagaimana dimaksud\ndalam Pasal I ayat (1) huruf b berdasarkan tarif\nsebagaimana dimaksud pada ayat (1) dari jumlah bruto,\nyaitu:\na. nilai yang sesungguhnya diterima atau diperoleh,\ndalam hal pengalihan tanah dan/ atau bangunan\ndilakukan melalui pengalihan yang tidak\ndipengaruhi hubungan istimewa; atau\nb. nilai yang seharusnya diterima atau diperoleh,\ndalam hal pengalihan tanah dan/ atau bangunan\ndilakukan melalui pengalihan yang dipengaruhi\nhubungan istimewa.\n(4) Kriteria Rumah Sederhana dan Rumah Susun Sederhana\nsebagaimana dimaksud pada ayat (1) huruf a dan huruf\nb, sesuai dengan kriteria Rumah Sederhana dan Rumah\nSusun Sederhana yang mendapat fasilitas dibebaskan\ndari pengenaan Pajak Pertambahan Nilai sesuai dengan\nketentuan peraturan perundang-undangan di bidang\nperpajakan.\nPasal 3 ..."
+    },
+    {
+      "page_number": 7,
+      "content": "(1)\nPRES IDEN\nREPU BLIK INDONESIA\nPasal 3\nOrang pribadi atau badan yang menerima atau\nmemperoleh penghasilan dari pengalihan hak atas tanah\ndan/atau bangunan sebagaimana dimaksud dalam Pasal\n1 ayat (1) huruf a, wajib menyetor sendiri Pajak\nPenghasilan yang terutang sebagaimana dimaksud dalam\nPasal 2 ayat (1) huruf a dan huruf b ke bank/pos\npersepsi sebelum akta, keputusan, kesepakatan, atau\nrisalah lelang atas pengalihan hak atas tanah dan/ atau\nbangunan ditandatangani oleh pejabat yang berwenang.\nBagi orang pribadi atau badan yang usaha pokoknya\nmelakukan pengalihan hak atas tanah dan/ atau\nbangunan yang menerima atau memperoleh penghasilan\ndari pengalihan hak atas tanah dan/ atau bangunan\nsebagaimana dimaksud dalam Pasal 1 ayat (1) huruf a,\nPajak Penghasilan sebagaimana dimaksud pada ayat (1)\nterutang pada saat diterimanya sebagian atau seluruh\npembayaran atas pengalihan hak atas tanah dan/ atau\nbangunan.\nPajak Penghasilan sebagaimana dimaksud pada ayat (2)\ndihitung berdasarkan jumlah setiap pembayaran\ntermasuk uang muka, bunga, pungutan, dan\npembayaran tambahan lainnya yang dipenuhi oleh\npembeli, sehubungan dengan pengalihan hak atas tanah\ndan/ atau bangunan tersebut.\nPajak Penghasilan yang terutang sebagaimana dimaksud\npada ayat (2) wajib dibayar oleh orang pribadi atau badan\nyang bersangkutan ke bank/pos persepsi paling lambat\ntanggal 15 (lima belas) bulan berikutnya setelah bulan\nditerimanya pembayaran.\n(2t\n(3)\n(4)\n(5) Pejabat..."
+    },
+    {
+      "page_number": 8,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n(s)\n-7-\nPejabat yang berwenang hanya menandatangani akta,\nkeputusan, kesepakatan, atau risalah lelang atas\npengalihan hak atas tanah dan/atau bangunan apabila\nkepadanya dibuktikan oleh orang pribadi atau badan\ndimaksud bahwa kewajiban sebagaimana dimaksud pada\nayat (1) telah dipenuhi dengan menyerahkan fotokopi\nSurat Setoran Pajak atau hasil cetakan sarana\nadministrasi lain yang disamakan dengan Surat Setoran\nPajak yang bersangkutan yang telah dilakukan penelitian\noleh Kantor Pelayanan Pajak.\nPejabat yang berwenang menandatangani akta,\nkeputusan, kesepakatan, atau risalah lelang wajib\nmenyampaikan laporan bulanan mengenai penerbitan\nakta, keputusan, kesepakatan, atau risalah lelang atas\npengalihan hak atas tanah dan/atau bangunan\nsebagaimana dimaksud pada ayat (2) kepada Direktur\nJenderal Pajak.\nPejabat yang berwenang sebagaimana dimaksud pada\nayat (5) dan ayat (6) meliputi pejabat pembuat akta\ntanah, pejabat lelang, atau pejabat lain yang diberi\nwewenang sesuai dengan ketentuan peraturan\nperundang-undangan.\nPasal 4\nOrang pribadi atau badan yang menerima atau\nmemperoleh penghasilan dari pengalihan hak atas tanah\ndan/ atau bangunan melalui jual beli atau tukar-\nmenukar sebagaimana dimaksud dalam Pasal 1 ayat (l)\nhuruf a kepada pemerintah, dipungut Pajak Penghasilan\noleh bendahara pemerintah atau pejabat yang melakukan\npembayaran atau pejabat yang menyetujui tukar\nmenukar.\n(6)\n(71\n(1)\n(2) Bendahara"
+    },
+    {
+      "page_number": 9,
+      "content": "PRESIDEN\nREPU BLIK INDONESIA\nBendahara pemerintah atau pejabat sebagaimana\ndimaksud pada ayal (1) wajib menyetor Pajak\nPenghasilan yang telah dipungut ke bank/pos persepsi\nsebelum melakukan pembayaran kepada orang pribadi\natau badan yang berhak menerimanya atau sebelum\ntukar menukar dilaksanakan.\nPenyetoran pajak sebagaimana dimaksud pada ayat (21\ndilakukan dengan menggunakan Surat Setoran Pajak\natau sarana administrasi lain yang disamakan dengan\nSurat Setoran Pajak atas nama orang pribadi atau badan\nyang menerima pembayaran atau yang melakukan tukar-\nmenukar.\nBendahara pemerintah atau pejabat sebagaimana\ndimaksud pada ayat (1) wajib menyampaikan laporan\nmengenai pengalihan hak atas tanah dan/ atau bangunan\nsebagaimana dimaksud pada ayat (1) kepada Direkttir\nJenderal Pajak.\nPasal 5\nPelunasan Pajak Penghasilan yang terutang atas\npenghasilan dari perubahan perjanjian pengikatan jual\nbeli atas tanah dan/ atau bangunan sebagaimana\ndimaksud dalam Pasal 1 ayat (1) huruf b dilakukan\nmelalui penyetoran sendiri oleh orang pribadi atau badan\nyang merupakan pihak pembeli dan namanya tercantum\ndalam perjanjian pengikatan jual beli sebelum terjadinya\nperubahan atau adendum atas perjanjian pengikatan jual\nbeli tersebut.\n-8-\n(21\n(3)\n(4)\n(1)\n(2) Pihak"
+    },
+    {
+      "page_number": 10,
+      "content": "(21\nPRESIDEN\nREPUBLIK INDONESIA\n-9-\nPihak penjual hanya menandatangani perubahan atau\nadendum perjanjian pengikatan jual beli apabila\nkepadanya dibuktikan bahwa kewajiban sebagaimana\ndimaksud pada ayat (1) telah dipenuhi dengan\nmenyerahkan fotokopi Surat Setoran Pajak atau hasil\ncetakan sarana administrasi lain yang disamakan dengan\nSurat Setoran Pajak yang bersangkutan, yang telah\ndilakukan penelitian oleh Kantor Pelayanan Pajak.\nPihak penjual sebagaimana dimaksud pada ayat (2)\nharus menyampaikan laporan mengenai perubahan atau\nadendum perjanjian pengikatan jual beli atas pengalihan\nharta berupa tanah dan/ atau bangunan kepada Direktur\nJenderal Pajak.\nPasal 6\nDikecualikan dari kewajiban pembayaran atau pemungutan\nPajak Penghasilan sebagaimana dimaksud dalam Pasal 2 ayat\n(1) dan Pasal 2 ayat (3) adalah:\na. orang pribadi yang mempunyai penghasilan di bawah\nPenghasilan Tidak Kena Pajak yang melakukan\npengalihan hak atas tanah dan/ atau bangunan dengan\njumlah \nbruto \npengalihannya kurang \ndari\nRp60.O00.000,00 (enam puluh juta rupiah) dan bukan\nmerupakan jumlah yang dipecah-pecah;\nb. orang pribadi yang melakukan pengalihan harta berupa\ntanah dan/ atau bangunan dengan cara hibah kepada\nkeluarga sedarah dalam garis keturunan lurus satu\ndera.lat, badan keagamaan, badan pendidikan, badan\nsosial termasuk yayasan, koperasi atau orang pribadi\nyang menjalankan usaha mikro dan kecil, yang\nketentuannya diatur lebih lanjut dengan Peraturan\nMenteri Keuangan, sepanjang hibah tersebut tidak ada\nhubungan dengan usaha, pekerjaan, kepemilikan, atau\npenguasaan antara pihak-pihak yang bersangkutan;\n(3)\nc. badan . ."
+    },
+    {
+      "page_number": 11,
+      "content": "c.\ne.\nf.\nd.\nPRESIDEN\nREPUBLIK INDONESIA\n-10-\nbadan yang melakukan pengalihan harta berupa tanah\ndan/ atau bangunan dengan cara hibah kepada badan\nkeagamaan, badan pendidikan, badan sosial termasuk\nyayasan, koperasi atau orang pribadi yang menjalankan\nusaha mikro dan kecil, yang ketentuannya diatur lebih\nlanjut dengan Peraturan Menteri Keuangan, sepanjang\nhibah tersebut tidak ada hubungan dengan usaha,\npekerjaan, kepemilikan, atau penguasaan antara pihak-\npihak yang bersangkutan;\npengalihan harta berupa tanah dan/ atau bangunan\nkarena waris;\nbadan yang melakukan pengalihan harta berupa tanah\ndan/atau bangunan dalam rangka penggabungan,\npeleburan, atau pemekaran usaha yang telah ditetapkan\nMenteri Keuangan untuk menggunakan nilai buku;\norang pribadi atau badan yang melakukan pengalihan\nharta berupa bangunan dalam rangka melalsanakan\nperjanjian bangun guna serah, bangun serah guna, atau\npemanfaatan barang milik negara berupa tanah dan/atau\nbangunan; atau\norang pribadi atau badan yang tidak termasuk subjek\npajak yang melakukan pengalihan harta berupa tanah\ndan/ atau bangunan.\nPasal 7\nKementerian Agraria dan Tata Ruang/Badan Pertanahan\nNasional hanya mengeluarkan surat keputusan pemberian\nhak, pengakuan hak, dan peralihan hak atas tanah, apabila\npermohonannya dilengkapi dengan Surat Setoran Pajak atau\nhasil cetak sarana administrasi lain yang disamakan dengan\nSurat Setoran Pajak sebagaimana dimaksud dalam Pasal 3\nayat (5) dan Pasal 4 ayat (3), kecuali permohonan sehubungan\ndengan ketentuan sebagaimana dimaksud dalam Pasal 2 ayat\n(1) huruf c dan Pasal 6.\nPasa1 8 ..."
+    },
+    {
+      "page_number": 12,
+      "content": "(1)\n(21\ntrRESIDEN\nREPUBLIK INDONESIA\n-11-\nPasal 8\nPejabat yang berwenang menandatangani akta,\nkeputusan, kesepakatan atau risalah lelang yang tidak\nmemenuhi ketentuan sebagaimana dimaksud dalam\nPasal 3 ayat (5) dan/ atau Pasal 3 ayat (6) dikenai sanksi\nsesuai dengan ketentuan peraturan perundang-\nundangan.\nPihak penjual sebaeaimana dimaksud dalam Pasal 5 ayat\n(21 yang tidak memenuhi ketentuan sebagaimana\ndimaksud dalam Pasal 5 ayat (2) dan/ atau Pasal 5 ayat\n(3), dikenai sanksi sesuai dengan ketentuan peraturan\nperundang-undangan.\nPasal 9\nKetentuan lebih lanjut mengenai:\na. tata cara penyetoran sebagaimana dimaksud dalam Pasal 3\ndan Pasal 5;\nb. pengecualian dari pengenaan Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 6; dan\nc. pelaporan Pajak Penghasilan atas penghasilan dari\npengalihan harta bempa tanah dan/atau bangunan\nsebagaimana dimaksud dalam Pasal 3 ayat (6), Pasal 4 ayat\n(4), dan Pasal 5 ayat (3),\ndiatur dengan Peraturan Menteri Keuangan.\nPasal 10"
+    },
+    {
+      "page_number": 13,
+      "content": "PRESIDEN\nREPU BLIK INOONESIA\n_t2_\nPasal 10\nPada saat Peraturan Perherintah ini mulai berlaku, semua\nperaturan perundang-undangan yang \nmerupakan\npelaksanaan dari Peraturan Pemerintah Nomor 48 Tahun\n1994 tentang Pembayaran Pajak Penghasilan atas Penghasilan\ndari Pengalihan Hak atas Tanah dan/ atau Bangunan\n(kmbaran Negara Republik Indonesia Tahun 1994 Nomor 77,\nTambahan Lembaran Negara Republik Indonesia Nomor 358O)\nsebagaimana telah beberapa kali diubah terakhir dengan\ndengan Peraturan Pemerintah Nomor 71 Tahun 2008 tentang\nPerubahan Ketiga Atas Peraturan Pemerintah Nomor 48\nTahun 1994 tentang Pembayaran Pajak Penghasilan atas\nPenghasilan dari Pengalihan Hak atas Tanah dan/ atau\nBangunan (Lembaran Negara Repubtik Indonesia Tahun 20O8\nNomor 164, Tambahan l,embaran Negara Republik Indonesia\nNomor 4914), dinyatakan masih tetap berlaku sepanjang tidak\nbertentangan dengan ketentuan dalam Peraturan Pemerintah\nini.\nPasal 11\nPada saat Peraturan Permerintah ini mulai berlaku, Peraturan\nPemerintah Nomor 48 Tahun 1994 tentang Pembayaran Pajak\nPenghasilan atas Penghasilan dari Pengalihan Hak atas Tanah\ndan/ atau Bangunan (Lembaran Negara Republik Indonesia\nTahun 1994 Nomor 77, Tambalrran Lembaran Negara Republik\nIndonesia Nomor 3580) sebagaimana telah beberapa kali\ndiubah terakhir dengan dengan Peraturan Pemerintah Nomor\n71 Tahun 2008 tentang Perubahan Ketiga Atas Peraturan\nPemerintah Nomor 48 Tahun 1994 tentang Pembayaran Pajak\nPenghasilan atas Penghasilan dari Pengalihan Hak atas Tanah\ndan/ atau Bangunan (t embaran Negara Republik Indonesia\nTahun 2OO8 Nomor 164, Tambahan Lembaran Negara\nRepublik Indonesia Nomor 4914), dicabut dan dinyatakan\ntidak berlaku.\nPasal 12\nPeraturan Pemerintah ini mulai berlaku setelah 30 (tiga\npuluh) hari terhitung sejak tanggal diundangkan.\nAgar .."
+    },
+    {
+      "page_number": 14,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-13-\nAgar setiap orang mengetahuinya, memerintahkan\npengundangan Peraturan Pemerintah ini \ndengan\npenempatannya dalam Lembaran Negara Republik Indonesia.\nDitetapkan di Jakarta\npada tanggal 8 Agustus 2016\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nJOKO WIDODO\nDiundangkan di Jakarta\npada tanggal 8 Agustus 2016\nMENTERI HUKUM DAN HAKASASI MANUSIA\nREPUBLIK INDONESIA,\nttd.\nYASONNA H. LAOLY\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 168\nSalinan sesuai dengan aslinya\nKEMENTERIAN SEKRETARIAT\nNEGARA REPUBLIK INDONESIA\nBidang Hukum dan\n-undangan,\nSapta Murti\n{D"
+    },
+    {
+      "page_number": 15,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\nPENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 34 TAHUN 2016\nTENTANG\nPAJAK PENGHASII,,AN ATAS PENGHASILAN DARI PENGALIHAN HAK ATAS\nTANAH DAN/ATAU BANGUNAN, DAN PERJANJIAN PENGIKATAN JUAL BELI\nATAS TANAH DAN/ATAU BANGUNAN BESERTA PERUBAHANI{YA\nI. \nUMUM\nBerdasarkan ketentuan Pasal 4 ayat (1) Undang-Undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir\ndengan Undang-Undang Nomor 36 Tahun 2008 (Undang-Undang Pajak\nPenghasilan), penghasilan yang diterima atau diperoleh dari penjualan\natau pengalihan harta merupakan objek Pajak Penghasilan. Dalam hal\norang pribadi atau badan menerima atau memperoleh penghasilan dari\npengalihan harta berupa tanah dan/atau bangunan, maka penghasilan\ntersebut termasuk dalam pengertian penghasilan sebagaimana dimaksud\ndalam Pasal 4 ayat (1) huruf d Undang-Undang tersebut. Namun,\nketentuan yang bersifat lebih khusus atas jenis penghasilan dimaksud\ndiatur berdasarkan Pasal 4 ayat(2) Undang-Undang Pajak Penghasilan.\nDalam rangka mendorong pertumbuhan ekonomi diperlukan percepatan\npembangunan infrastruktur oleh pemerintah untuk kepentingan umum,\nsehingga dalam Peraturan Pemerintah ini diatur mengenai kebijakan\nPajak Penghasilan atas penghasilan yang diterima atau diperoleh orang\npribadi atau badan dari pengalihan harta berupa tanah dan/ atau\nbangunan bagi pembangunan untuk kepentingan umum.\nUntuk"
+    },
+    {
+      "page_number": 16,
+      "content": "PRESIDEN\nREPU BLIK INDONESIA\nUntuk lebih memberikan kemudahan dan kesederhanaan dalam\nmenghitung Pajak Penghasilan atas penghasilan yang diterima atau\ndiperoleh sehubungan dengan perjanjian pengikatan jual beli dan\nperubahannya, pengenaan Pajak Penghasilan atas penghasilan dimaksud\nyang semula bersifat tidak final menjadi bersifat frnal bagi orang pribadi\natau badan sebagai pihak pembeli yang namanya tercantum dalam\nperjanjian pengikatan jual beli sebelum terjadinya perubahan atau\nadendum perjanjian pengikatan jual beli.\nDalam rangka memberikan kepastian hukum dan memberikan\nkenyamanan dalam pembayaran Pajak Penghasilan, orang pribadi atau\nbadan yang usaha pokoknya melakukan pengalihan hal< atas tanah\ndan/atau bangunan yang menerima atau memperoleh penghasilan dari\npengalihan tanah dan/atau bangunan, Pajak Penghasilan terutang pada\nsaat atas diterimanya sebagian atau seluruh pembayaran pengalihan hak\natas tanah dan/ atau bangunan.\nII. PASAL DEMI PASAL\nPasal 1\nAyat (1)\nAtas penghasilan yang diterima atau diperoleh orang pribadi\natau badan dari pengalihan hak atas tanah dan/atau bangunan,\nserta penghasilan yang timbul dari perjanjian pengikatan jual\nbeli beserta perubahannya, baik dalam kegiatan usahanya\nmaupun di luar usahanya, wajib dibayar atau dipungut Pajak\nPenghasilannya pada saat terjadinya transaksi dan pengenaan\nPajak Penghasilan tersebut bersifat final.\nAyat (2)\nPengalihan hak atas tanah dan/ atau bangunan dilakukan\nkepada Pemerintah atau kepada pihak lain selain Pemerintah.\n-2-\nAyat(3) ..."
+    },
+    {
+      "page_number": 17,
+      "content": "PRESIDEN\nREPU BLIK INDONESIA\nAyat (3)\nCukup jelas.\nPasal 2\nAyat (1)\nCukup jelas.\nAyat (2)\nHuruf a\nCukup jelas.\nHuruf b\nCukup jelas.\nHuruf c\nCukup jelas.\nHuruf d\nPada umumnya dalam penjualan harta berupa tanah\ndan/atau bangunan, nilai penjualan bagi pihak penjual\nadalah nilai yang sesungguhnya diterima atau nilai\nberdasarkan transaksi yang sebenarnya.\nDalam hal penjualan harta berupa tanah dan/ atau\nbangunan dipengaruhi oleh hubungan istimewa, nilai\npenjualan bagi pihak penjual adalah nilai yang seharusnya\nditerima berdasarkan harga pasar yang wajar atau\nberdasarkan penilaian oleh penilai independen. Adanya\nhubungan istimewa antara pembeli dan penjual dapat\nmenyebabkan harga penjualan menjadi lebih besar atau\nlebih kecil dibandingkan dengan jika penjualan tersebut\ntidak dipengaruhi oleh hubungan istimewa.\nOleh"
+    },
+    {
+      "page_number": 18,
+      "content": "*. \", \nJrTot \nt,''tSf; *, \n=, o\n-4-\nOleh karena itu dalam ketentuan ini diatur bahwa nilai\npenjualan harta berupa tanah dan/ atau bangunan bagi\npenjual adalah jumlah yang seharusnya diterima.\nYang dimaksud dengan hubungan istimewa adalah\nsebagaimana dimaksud dalam Undang-Undang yang\nmengatur mengenai Pajak Penghasilan.\nHuruf e\nCukup jelas.\nAyat (3)\nNilai yang diterima atau diperoleh pihak pembeli yang namanya\ntercantum dalam perjanjian pengikatan jual beli atau perjanjian\nsejenis lainnya sebelum terjadinya perubahan atau adendum\nperjanjian pengikatan jual beli atau perjanjian sejenis lainnya\nadalah nilai yang sesungguhnya berdasarkan transaksi yang\nsebenarnya\nDalam hal dipengaruhi oleh hubungan istimewa, nilai\npengalihan adalah nilai yang seharusnya diterima berdasarkan\nharga pasar yang wajar atau berdasarkan penilaian oleh penilai\nindependen. Adanya hubungan istimewa antara para pihak yang\nbertransaksi dapat menyebabkan harga menjadi lebih besar atau\nlebih kecil dibandingkan jika transaksi tersebut tidak\ndipengaruhi oleh hubungan istimewa. Oleh karena itu dalam\nketentuan ini diatur bahwa nilai yang diterima atau diperoleh\npihak pembeli yang namanya tercantum dalam perjanjian\npengikatan juai beli atau perjanjian sejenis lainnya sebelum\nterjadinya perubahan atau adendum perjanjian pengikatan jual\nbeli atau perjanjian sejenis lainnya adalah jumlah yang\nseharusnya diterima.\nYang dimaksud dengan hubungan istimewa adalah sebagaimana\ndimaksud dalam Undang-Undang yang mengatur mengenai\nPajak Penghasilan.\nAyat (4)\nCukup jelas.\nPasal 3\n#T$\n-*qy4#"
+    },
+    {
+      "page_number": 19,
+      "content": "PRES IDEN,\nREPU BLIK INDONESIA\n-5-\nPasal 3\nAyat (1)\nPembayaran Pajak Penghasilan atas penghasilan yang diterima\natau diperoleh orang pribadi atau badan dari pengalihan hak\natas tanah dan/ atau bangunan yang dilakukan kepada pihak\nlain selain pemerintah, wajib dilakukan sendiri oleh orang\npribadi atau badan yang bersangkutan sebelum akta,\nkeputusan, kesepakatan ditandatangani oleh pejabat yang\nberwenang. Sedangkan dalam hal penjualan lelang, Pajak\nPenghasilan yang terutang disetorkan oleh Pejabat Lelang atas\nnama orang pribadi atau badan yang hartanya dilelang.\nAyat (2)\nSebagai ilustrasi, PT Bangun Property menjual I (satu) unit\napartemen seharga Rp 1.000.000.000,00 (satu miliar rupiah).\nT\\ran Adi membayar uang muka sebesar Rp400.000.000,00\n(empat ratus juta rupiah) pada tanggal 25 Februari 2Ol7 dan\nsisanya diangsur selama 24 (dua puluh empat) bulan. Meskipun\nbelum dilakukan penandatanganan akta jual beli antara PT\nBangun Poperty dengan T\\:an Adi, atas transaksi tersebut telah\nterutang Pajak Penghasilan yaitu pada saat diterimanya uang\nmuka sebesar Rp400.000.000,00 (empat ratus juta rupiah) dan\nsaat diterimanya angsuran sebesar Rp25.O00.OOO,0O (dua puluh\nlima juta rupiah) setiap bulannya.\nAyat (3)\nDengan menggunakan ilustrasi pada ayat (2), dalam hal PI\nBangun Property mengenakan tambahan biaya sebesar\nRp1.000.000,00 (satu juta rupiah) sebagai kompensasi\npembayaran melalui angsuran selain pokok angsuran setiap\nbulan yang sebesar Rp25.00O.000,00 (dua puluh lima juta\nrupiah) tersebut, maka dasar pengenaan Pajak Penghasilan\nsetiap bulannya adalah sebesar Rp26.000.000,00 (dua puluh\nenam juta rupiah).\nAyat (4) . ."
+    },
+    {
+      "page_number": 20,
+      "content": "#.)\n-ftqyr$\nPRES IDEN\nREPUELIK INDONESIA\n-6-\nAyat (4)\nDengan menggunakan ilustrasi pada ayat (2), maka pT Bangun\nPropert5r wajib membayarkan pajak penghasilan yang terutang\natas pembayaran uang muka, yaitu sebesar 2,So/o dari\nRp400.OO0.OO0,O0 (empat ratus juta rupiah) atau sebesar\nRp1O.OO0.OO0,O0 (sepuluh juta rupiah), paling lambat tanggal\n15 (lima belas) bulan Maret 2017.\nAyat (5)\nYang dimaksud dengan Kantor pelayanan pajak adalah Kantor\nPelayanan Pajak yang melakukan penelitian atas fotokopi Surat\nSetoran Pajak atau hasil cetakan sarana administrasi lain yang\ndisamakan dengan Surat Setoran pajak dimana tanah dan/ atau\nbangunan yang dialihkan tersebut berada.\nAyat (6)\nCukup jelas.\nAyat (7)\nCukup jelas.\nPasal 4\nAyat (1)\nPemenuhan kewajiban pajak penghasilan atas penghasilan yang\nditerima atau diperoleh yang pribadi atau badan dari pengalihan\nhak atas tanah dan/atau bangunan kepada pemerintah,\ndilakukan melalui pemungutan pajak penghasilan oleh\nbendahara pemerintah atau pejabat yang melakukan\npembayaran atau yang menyetujui tukar menukar.\nPemenuhan kewajiban pajak penghasilan tersebut dilakukan\ndengan memperhatikan ketentuan sebagaimana dimaksud\ndalam Pasal 6.\nAyat (2)\nCukup jelas.\nAyat(s) ..."
+    },
+    {
+      "page_number": 21,
+      "content": "$).)\n-ilpr4@\nPRESIDEN\nREPUBLIK INDONESIA\n-7-\nAyat (3)\nPenyetoran Pajak Penghasilan yang dipungut dilakukan dengan\nmenggunakan Surat Setoran Pajak atas nama orang pribadi\natau badan yang menerima pembayaran atau yang melakukan\ntukar menukar, bukan atas nama bendahara pemerintah atau\npejabat pemungut. Penyetoran Pajak Penghasilan melalui\nbank/pos persepsi dilakukan sebelum pembayaran kepada\norang pribadi atau badan yang menerima atau memperoleh\npenghasilan dilaksanakan.\nAyat (4)\nCukup jelas.\nPasal 5\nAyat (1)\nCukup jelas.\nAyat (2)\nUntuk memberikan kepastian hukum kapan perubahan atau\nadendum perjanjian pengikatan jual beli atau perjanjian sejenis\nlainnya ditandatangani oleh pihak penjual, maka diatur\nmengenai ketentuan bahwa perubahan atau adendum perjanjian\npengikatan jual beli atau perjanjian sejenis lainnya hanya\nditandatangani apabila Pajak Penghasilan yang terutang telah\ndisetor ke kas Negara.\nYang dimaksud dengan pihak penjual adalah pihak yang\nnamanya tercantum sebagai penjual dalam perjanjian\npengikatan jual beli atau perjanjian sejenis lainnya.\nYang dimaksud dengan Kantor Pelayanan Pajak adalah Kantor\nPelayanan Pajak yang melakukan penelitian atas fotokopi Surat\nSetoran Pajak atau hasil cetakan sarana administrasi lain yang\ndisamakan dengan Surat Setoran Pajak dimana tanah dan/ atau\nbangunan yang dialihkan tersebut berada.\nAyat (3)\nCukup jelas.\nPasal 6 ..."
+    },
+    {
+      "page_number": 22,
+      "content": "I]RES IDEN\nREPU BLII( INDONESIA\nPasal 6\nMengingat Pengenaan Pajak Penghasilan dalam Peraturan\nPemerintah ini dihitung berdasarkan nilai bruto pengalihan tanah\ndan/ atau bangunan, maka untuk memberikan kepastian hukum,\nperlu diatur pengecualian dari kewqliban membayar Pajak\nPenghasilan berdasarkan Peraturan Pemerintah ini atas transaksi\npengalihan tanah dan/ atau bangunan yang penghasilannya\ndikecualikan dari objek pajak atau tidak terdapat kewajiban Pajak\nPenghasilan berdasarkan Undang-Undang Pajak Penghasilan.\nHuruf a\nCukup jelas.\nHuruf b\nApabila orang pribadi melakukan pengalihan harta berupa\ntanah dan/ atau bangunan dengan cara hibah kepada\nkeluarga sedarah dalam garis keturunan lurus satu derajat,\ndan kepada badan keagamaan, badan pendidikan, badan\nsosial termasuk yayasan, koperasi atau orang pribadi yang\nmenjalankan usaha mikro dan kecil, yang ketentuannya\ndiatur lebih lanjut dengan Peraturan Menteri Keuangan,\nsepanjang tidak ada hubungan dengan usaha, pekerjaan,\nkepemilikan, atau penguasaan antara pihak-pihak yang\nbersangkutan sebagaimana dimaksud dalam Pasal 4 ayat\n(1) huruf d angka 4 Undang-Undang Pajak Penghasilan,\nmaka keuntungan karena pengalihan tersebut bukan\nmerupakan objek pajak dan tidak terutang Pajak\nPenghasilan. Termasuk dalam pengertian hibah adalah\nwakaf.\nHuruf c . . ."
+    },
+    {
+      "page_number": 23,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\nHuruf c\nApabila badan melakukan pengalihan harta berupa tanah\ndan/atau bangunan dengan cara hibah kepada badan\nkeagamaan, badan pendidikan, badan sosial termasuk\nyayasan, koperasi atau orang pribadi yang menjalankan\nusaha mikro dan kecil, yang ketentuannya diatur lebih\nlanjut dengan Peraturan Menteri Keuangan, sepanjang\ntidak ada hubungan dengan usaha, pekerjaan, kepemilikan,\natau penguasaan antara pihak-pihak yang bersangkutan\nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d\nangka 4 Undang-Undang Pajak Penghasilan, maka\nkeuntungan karena pengalihan tersebut bukan merupakan\nobjek pajak dan tidak terutang Pajak Penghasilan'\nTermasuk dalam pengertian hibah adalah wakaf'\nHuruf d\nPengalihan harta berupa tanah dan/ atau bangunan karena\nwarisan sebagaimana dimaksud dalam Pasal 4 ayat (3)\nhuruf b Undang-Undang Pajak Penghasilan, bukan\nmerupakan objek pajak.\nPada prinsipnya yang dikenai Pajak Penghasilan sesuai\ndengan Peraturan Pemerintah ini adalah pihak yang\nmelakukan pengalihan. Dalam hal waris, pihak yang\nmelakukan pengalihan (pewaris) sudah meninggal dunia,\nsehingga dikecualikan dari pengenaan Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini. Pengecualian\ntersebut diberikan karena kewajiban subjektif dari pewaris\nsudah beralhir sejak pewaris meninggal dunia'\n-9-\nHuruf e"
+    },
+    {
+      "page_number": 24,
+      "content": "PRES IDEN\nREPUBLIK INDONESIA\n_10_\nHuruf e\nPada dasarnya nilai perolehan atau pengalihan harta yang\ndialihkan dalam rangka penggabungan, peleburan, atau\npemekaran usaha adalah jumlah yang seharusnya\ndikeluarkan atau diterima berdasarkan harga pasar, kecuali\nditetapkan lain oleh Menteri Keuangan sebagaimana\ndimaksud dalam Pasal 10 ayat (3) Undang-Undang Pajak\nPenghasilan yaitu atas dasar nilai sisa buku Qtooling of\ninterestl.\nApabila badan melakukan pengalihan harta berupa tanah\ndan/ atau bangunan dalam rangka penggabungan,\npeleburan, atau pemekaran usaha, sepanjang telah\nditetapkan Menteri Keuangan untuk menggunakan nilai\nbuku, maka pengalihan tersebut dikecualikan dari\nkewajiban pembayaran Pajak Penghasilan.\nHuruf f\nPerjanjian bangun guna serah, bangun serah guna, atau\npemanfaatan barang milik negara berupa tanah dan/ atau\nbangunan adalah merupakan perjanjian pemanfaatan\ntanah, yaitu bentuk perjanjian yang menyatakan bahwa\npemegang hak atas tanah memberikan hak kepada investor\nuntuk mendirikan bangunan selama masa perjanjian dan\ninvestor akan mengalihkan bangunan tersebut kepada\npemegang hak atas tanah setelah masa pemanfaatan\nberakhir.\nPerjanjian kerja sama dimaksud dapat dilakukan antara\nswasta dengan swasta atau swasta dengan Pemerintah.\nTermasuk swasta adalah badan usaha milik negara dan\nbadan usaha milik daerah.\nHuruf g .. ."
+    },
+    {
+      "page_number": 25,
+      "content": "PRESIDEN\nREFUBLIK INDONESIA\n-11-\nHuruf g\nOrang pribadi atau badan yang tidak termasuk subjek\npajak sebagaimana dimaksud dalam Pasal 3 ayat (1)\nUndang-Undang Pajak Penghasilan dan unit tertentu dari\nbadan Pemerintah yang dikecualikan dari subjek pajak\nsebagaimana dimaksud dalam Pasal 2 ayat (3) huruf b\nUndang-Undang Pajak Penghasilan yang melakukan\npengalihan harta berupa tanah dan/atau bangunan,\ndikecualikan dari kewajiban pembayaran Pajak\nPenghasilan.\nPasal 7\nTerhadap pengalihan hak atas tanah dan/atau bangunan yang\ndikecualikan dari pengenaan Pajak Penghasilan, Kementerian Agraria\ndan Tata Ruang/Badan Pertanahan Nasional tidak perlu meminta\nkelengkapan berupa Surat Setoran Pajak atau hasil cetak sarana\nadministrasi lain yang disamakan dengan Surat Setoran Pajak.\nNamun demikian, untuk pengecualian atas pengenaErn Pajak\nPenghasilan sebagaimana dimaksud dalam Pasal 6, Kementerian\nAgraria dan Tata Ruang/Badan Pertanahan Nasional harus\ndibuktikan dengan adanya Surat Keterangan Bebas yang diterbitkan\nDirektorat Jenderal Pajak.\nPasal 8\nCukup jelas.\nPasal 9\nCukup jelas.\nPasal l0\nCukup jelas.\nPasal 11"
+    },
+    {
+      "page_number": 26,
+      "content": "E\n{}s\nPRESIDEN\nREPUBLIK INDONESIA\n-t2-\nPasal 11\nCukup jelas.\nPasal 12\nCukup jelas.\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 5916"
+    }
+  ]
+}

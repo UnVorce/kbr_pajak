@@ -1,0 +1,206 @@
+{
+  "document_id": "PP_42_1994",
+  "nama_dokumen": "Pajak Penghasilan atas Hadiah Undian",
+  "nomor_peraturan": "PP Nomor 42 Tahun 1994",
+  "jenis_peraturan": "PP",
+  "tahun": 1994,
+  "nama_file_txt": "PP_42_1994_PPh_Atas_Hadiah_Undian.txt",
+  "nama_file_pdf": "PP No. 42 Th 1994.pdf",
+  "jumlah_halaman": 5,
+  "metode_ekstraksi": "PyMuPDF (Digital Text)",
+  "status_keterbacaan": "LAYAK",
+  "isi_dokumen": [
+    {
+      "jenis_elemen": "JUDUL",
+      "nomor": null,
+      "judul": null,
+      "teks": "PRESIDEN\nREPUBLIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 42 TAHUN 1994\nTENTANG\nPAJAK PENGHASILAN ATAS HADIAH UNDIAN\nPRESIDEN REPUBLIK INDONESIA,",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENIMBANG",
+      "nomor": null,
+      "judul": "Konsiderans Menimbang",
+      "teks": "a. bahwa berdasarkan Pasal 4 ayat (1) Undang-undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994, penghasilan dari\nhadiah undian merupakan Objek Pajak Penghasilan;\nb. bahwa\norang\npribadi\nyang\natau\nbadan\nyang\nmenerima\natau\nmemperoleh penghasilan dari hadiah undian wajib melunasi Pajak\nPenghasilan atas penghasilan tersebut;\nc. bahwa untuk memberikan kemudahan dan kepastian hukum serta\nmeningkatkan kepatuhan Wajib Pajak dalam memenuhi kewajiban\nPajak Penghasilan atas penghasilan tersebut dan sesuai dengan Pasal 4\nayat (2) Undang-undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994, dipandang perlu mengatur\ntentang pengenaan Pajak Penghasilan atas penghasilan tertentu berupa\nhadiah undian dengan Peraturan Pemerintah;",
+      "children": [
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "a",
+          "judul": null,
+          "teks": "bahwa berdasarkan Pasal 4 ayat (1) Undang-undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994, penghasilan dari\nhadiah undian merupakan Objek Pajak Penghasilan;",
+          "children": [],
+          "halaman_sumber": 1
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "b",
+          "judul": null,
+          "teks": "bahwa\norang\npribadi\nyang\natau\nbadan\nyang\nmenerima\natau\nmemperoleh penghasilan dari hadiah undian wajib melunasi Pajak\nPenghasilan atas penghasilan tersebut;",
+          "children": [],
+          "halaman_sumber": 1
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "c",
+          "judul": null,
+          "teks": "bahwa untuk memberikan kemudahan dan kepastian hukum serta\nmeningkatkan kepatuhan Wajib Pajak dalam memenuhi kewajiban\nPajak Penghasilan atas penghasilan tersebut dan sesuai dengan Pasal 4\nayat (2) Undang-undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994, dipandang perlu mengatur\ntentang pengenaan Pajak Penghasilan atas penghasilan tertentu berupa\nhadiah undian dengan Peraturan Pemerintah;",
+          "children": [],
+          "halaman_sumber": 1
+        }
+      ],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENGINGAT",
+      "nomor": null,
+      "judul": "Dasar Hukum Mengingat",
+      "teks": "1. Pasal 5 ayat (2) Undang-Undang Dasar 1945;\n2. Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan\nTata Cara Perpajakan (Lembaran Negara Tahun 1983 Nomor 49,\nTambahan Lembaran Negara Nomor 3262) sebagaimana telah diubah\ndengan Undang-undang Nomor 9 Tahun 1994 (Lembaran Negara\nTahun 1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566);\n3. Undang-…\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\n3.Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\n(Lembaran Negara Tahun 1983 Nomor 50, Tambahan Lembaran\nNegara Nomor 3263) sebagaimana telah beberapa kali diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994 (Lembaran Negara\nTahun 1994 Nomor 60, Tambahan Lembaran Negara Nomor 3567);",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Pasal 5 ayat (2) Undang-Undang Dasar 1945;",
+          "children": [],
+          "halaman_sumber": 1
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan\nTata Cara Perpajakan (Lembaran Negara Tahun 1983 Nomor 49,\nTambahan Lembaran Negara Nomor 3262) sebagaimana telah diubah\ndengan Undang-undang Nomor 9 Tahun 1994 (Lembaran Negara\nTahun 1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566);",
+          "children": [],
+          "halaman_sumber": 1
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Undang-…\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\n3.Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\n(Lembaran Negara Tahun 1983 Nomor 50, Tambahan Lembaran\nNegara Nomor 3263) sebagaimana telah beberapa kali diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994 (Lembaran Negara\nTahun 1994 Nomor 60, Tambahan Lembaran Negara Nomor 3567);",
+          "children": [],
+          "halaman_sumber": [
+            1,
+            2
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        1,
+        2
+      ]
+    },
+    {
+      "jenis_elemen": "MEMUTUSKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "MEMUTUSKAN :",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "MENETAPKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "PERATURAN PEMERINTAH REPUBLIK INDONESIA TENTANG\nPAJAK PENGHASILAN ATAS HADIAH UNDIAN.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "1",
+      "judul": null,
+      "teks": "Atas penghasilan berupa hadiah undian dengan nama dan dalam bentuk\napapun dipotong atau dipungut Pajak Penghasilan yang bersifat final.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": "Besarnya Pajak Penghasilan yang wajib dipotong atau dipungut atas\npenghasilan sebagaimana dimaksud dalam Pasal 1 adalah 20% (dua\npuluh persen) dari jumlah bruto nilai hadiah undian.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": "Penyelenggara\nundian\nwajib\nmemotong\natau\nmemungut\nPajak\nPeng-hasilan sebagaimana dimaksud dalam Pasal 1 dan Pasal 2.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "4",
+      "judul": null,
+      "teks": "Ketentuan lebih lanjut mengenai pelaksanaan Peraturan Pemerintah ini\nditetapkan oleh Menteri Keuangan dan Menteri Sosial baik secara\nsendiri-sendiri maupun bersama-sama.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "5",
+      "judul": null,
+      "teks": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995.\nAgar...\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-",
+      "children": [],
+      "halaman_sumber": [
+        2,
+        3
+      ]
+    },
+    {
+      "jenis_elemen": "PENGESAHAN",
+      "nomor": null,
+      "judul": "Pengesahan dan Pengundangan",
+      "teks": "Agar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nDitetapkan di Jakarta\npada tanggal 23 Desember 1994\nPRESIDEN REPUBLIK INDONESIA\nttd.\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 23 Desember 1994\nMENTERI NEGARA SEKRETARIS NEGARA\nREPUBLIK INDONESIA\nttd.\nMOERDIONO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 71",
+      "children": [],
+      "halaman_sumber": 3
+    },
+    {
+      "jenis_elemen": "PENJELASAN",
+      "nomor": null,
+      "judul": "Penjelasan Peraturan",
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "PENJELASAN_UMUM",
+          "nomor": null,
+          "judul": "Penjelasan",
+          "teks": "PRESIDEN\nREPUBLIK INDONESIA\nPENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 42 TAHUN 1994\nTENTANG\nPAJAK PENGHASILAN ATAS HADIAH UNDIAN\nUMUM\nBerdasarkan ketentuan Pasal 4 ayat (1) Undang-undang Nomor 7 Tahun 1983\nsebagaimana telah diubah terakhir dengan Undang-undang Nomor 10 Tahun 1994,\npenghasilan yang diterima atau diperoleh dari hadiah undian dengan nama dan bentuk\napapun merupakan Obyek Pajak Penghasilan. Dengan demikian apabila orang pribadi\natau badan menerima atau memperoleh penghasilan dari hadiah undian, maka penghasilan\ntersebut termasuk dalam pengertian penghasilan sebagaimana dimaksud dalam Pasal 4\nayat (1) huruf b Undang-undang Pajak Penghasilan tersebut.\nUntuk memberikan kemudahan dan kepastian hukum serta meningkatkan kepatuhan\norang pribadi atau badan dalam memenuhi kewajiban perpajakannya, dan sesuai dengan\nPasal 4 ayat (2) Undang-undang Nomor 7 Tahun 1983 sebagaimana telah diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994, maka pengenaan Pajak Penghasilan atas\nhadiah undian tersebut perlu diatur tersendiri dengan Peraturan Pemerintah.\nDalam Peraturan Pemerintah ini diatur bahwa semua penyelenggara hadiah undian\ndengan nama dan dalam bentuk apapun diwajibkan untuk memotong atau memungut\nPajak Penghasilan atas hadiah dimaksud sebesar 20% (dua puluh persen) dan bersifat\nfinal.\nPASAL DEMI PASAL\nPasal 1\nAtas hadiah undian yang dibayarkan atau diserahkan kepada orang pribadi atau\nbadan dikenakan Pajak Penghasilan yang bersifat final. Yang dimaksud dengan\nhadiah undian adalah hadiah dengan nama dan dalam bentuk apapun yang diberikan\nmelalui cara undian.\nPasal 2…\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\nPasal 2\nPenghasilan berupa hadiah undian yang diterima atau diperoleh orang pribadi dan\nbadan baik dalam negeri maupun luar negeri dikenakan pemotongan atau\npemungutan Pajak Penghasilan sebesar 20% (dua puluh persen) dari jumlah bruto\nnilai hadiah. Pengertian nilai hadiah adalah nilai uang, atau nilai pasar apabila\nhadiah tersebut diserahkan dalam bentuk natura misalnya mobil atau dalam bentuk\nkenikmatan misalnya tiket.\nPasal 3\nPenyelenggara undian adalah orang pribadi, badan, kepanitiaan, organisasi, atau\npenyelenggara lainnya termasuk pengusaha yang menjual barang atau jasa yang\nmemberikan hadiah dengan cara diundi. Pajak Penghasilan sebagaimana dimaksud\ndalam Pasal 1 dan Pasal 2 wajib dipotong atau dipungut oleh penyelenggara\ntersebut.\nPasal 4\nCukup jelas\nPasal 5\nCukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3575",
+          "children": [],
+          "halaman_sumber": [
+            3,
+            5
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        3,
+        5
+      ]
+    }
+  ],
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 42 TAHUN 1994\nTENTANG\nPAJAK PENGHASILAN ATAS HADIAH UNDIAN\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang :\na. bahwa berdasarkan Pasal 4 ayat (1) Undang-undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994, penghasilan dari\nhadiah undian merupakan Objek Pajak Penghasilan;\nb. bahwa\norang\npribadi\nyang\natau\nbadan\nyang\nmenerima\natau\nmemperoleh penghasilan dari hadiah undian wajib melunasi Pajak\nPenghasilan atas penghasilan tersebut;\nc. bahwa untuk memberikan kemudahan dan kepastian hukum serta\nmeningkatkan kepatuhan Wajib Pajak dalam memenuhi kewajiban\nPajak Penghasilan atas penghasilan tersebut dan sesuai dengan Pasal 4\nayat (2) Undang-undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994, dipandang perlu mengatur\ntentang pengenaan Pajak Penghasilan atas penghasilan tertentu berupa\nhadiah undian dengan Peraturan Pemerintah;\nMengingat\n:\n1. Pasal 5 ayat (2) Undang-Undang Dasar 1945;\n2. Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan\nTata Cara Perpajakan (Lembaran Negara Tahun 1983 Nomor 49,\nTambahan Lembaran Negara Nomor 3262) sebagaimana telah diubah\ndengan Undang-undang Nomor 9 Tahun 1994 (Lembaran Negara\nTahun 1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566);\n3. Undang-…"
+    },
+    {
+      "page_number": 2,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\n3.Undang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan\n(Lembaran Negara Tahun 1983 Nomor 50, Tambahan Lembaran\nNegara Nomor 3263) sebagaimana telah beberapa kali diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994 (Lembaran Negara\nTahun 1994 Nomor 60, Tambahan Lembaran Negara Nomor 3567);\nMEMUTUSKAN :\nMenetapkan :\nPERATURAN PEMERINTAH REPUBLIK INDONESIA TENTANG\nPAJAK PENGHASILAN ATAS HADIAH UNDIAN.\nPasal 1\nAtas penghasilan berupa hadiah undian dengan nama dan dalam bentuk\napapun dipotong atau dipungut Pajak Penghasilan yang bersifat final.\nPasal 2\nBesarnya Pajak Penghasilan yang wajib dipotong atau dipungut atas\npenghasilan sebagaimana dimaksud dalam Pasal 1 adalah 20% (dua\npuluh persen) dari jumlah bruto nilai hadiah undian.\nPasal 3\nPenyelenggara\nundian\nwajib\nmemotong\natau\nmemungut\nPajak\nPeng-hasilan sebagaimana dimaksud dalam Pasal 1 dan Pasal 2.\nPasal 4\nKetentuan lebih lanjut mengenai pelaksanaan Peraturan Pemerintah ini\nditetapkan oleh Menteri Keuangan dan Menteri Sosial baik secara\nsendiri-sendiri maupun bersama-sama.\nPasal 5\nPeraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995.\nAgar..."
+    },
+    {
+      "page_number": 3,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nDitetapkan di Jakarta\npada tanggal 23 Desember 1994\nPRESIDEN REPUBLIK INDONESIA\nttd.\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 23 Desember 1994\nMENTERI NEGARA SEKRETARIS NEGARA\nREPUBLIK INDONESIA\nttd.\nMOERDIONO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 71"
+    },
+    {
+      "page_number": 4,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\nPENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 42 TAHUN 1994\nTENTANG\nPAJAK PENGHASILAN ATAS HADIAH UNDIAN\nUMUM\nBerdasarkan ketentuan Pasal 4 ayat (1) Undang-undang Nomor 7 Tahun 1983\nsebagaimana telah diubah terakhir dengan Undang-undang Nomor 10 Tahun 1994,\npenghasilan yang diterima atau diperoleh dari hadiah undian dengan nama dan bentuk\napapun merupakan Obyek Pajak Penghasilan. Dengan demikian apabila orang pribadi\natau badan menerima atau memperoleh penghasilan dari hadiah undian, maka penghasilan\ntersebut termasuk dalam pengertian penghasilan sebagaimana dimaksud dalam Pasal 4\nayat (1) huruf b Undang-undang Pajak Penghasilan tersebut.\nUntuk memberikan kemudahan dan kepastian hukum serta meningkatkan kepatuhan\norang pribadi atau badan dalam memenuhi kewajiban perpajakannya, dan sesuai dengan\nPasal 4 ayat (2) Undang-undang Nomor 7 Tahun 1983 sebagaimana telah diubah terakhir\ndengan Undang-undang Nomor 10 Tahun 1994, maka pengenaan Pajak Penghasilan atas\nhadiah undian tersebut perlu diatur tersendiri dengan Peraturan Pemerintah.\nDalam Peraturan Pemerintah ini diatur bahwa semua penyelenggara hadiah undian\ndengan nama dan dalam bentuk apapun diwajibkan untuk memotong atau memungut\nPajak Penghasilan atas hadiah dimaksud sebesar 20% (dua puluh persen) dan bersifat\nfinal.\nPASAL DEMI PASAL\nPasal 1\nAtas hadiah undian yang dibayarkan atau diserahkan kepada orang pribadi atau\nbadan dikenakan Pajak Penghasilan yang bersifat final. Yang dimaksud dengan\nhadiah undian adalah hadiah dengan nama dan dalam bentuk apapun yang diberikan\nmelalui cara undian.\nPasal 2…"
+    },
+    {
+      "page_number": 5,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\nPasal 2\nPenghasilan berupa hadiah undian yang diterima atau diperoleh orang pribadi dan\nbadan baik dalam negeri maupun luar negeri dikenakan pemotongan atau\npemungutan Pajak Penghasilan sebesar 20% (dua puluh persen) dari jumlah bruto\nnilai hadiah. Pengertian nilai hadiah adalah nilai uang, atau nilai pasar apabila\nhadiah tersebut diserahkan dalam bentuk natura misalnya mobil atau dalam bentuk\nkenikmatan misalnya tiket.\nPasal 3\nPenyelenggara undian adalah orang pribadi, badan, kepanitiaan, organisasi, atau\npenyelenggara lainnya termasuk pengusaha yang menjual barang atau jasa yang\nmemberikan hadiah dengan cara diundi. Pajak Penghasilan sebagaimana dimaksud\ndalam Pasal 1 dan Pasal 2 wajib dipotong atau dipungut oleh penyelenggara\ntersebut.\nPasal 4\nCukup jelas\nPasal 5\nCukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3575"
+    }
+  ]
+}

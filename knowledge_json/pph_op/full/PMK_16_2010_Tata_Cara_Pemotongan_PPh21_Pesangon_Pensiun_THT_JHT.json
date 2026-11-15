@@ -1,0 +1,794 @@
+{
+  "document_id": "PMK_16_2010",
+  "nama_dokumen": "Tata Cara Pemotongan Pajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan Jaminan Hari Tua yang Dibayarkan Sekaligus",
+  "nomor_peraturan": "PMK Nomor 16/PMK.03/2010",
+  "jenis_peraturan": "PMK",
+  "tahun": 2010,
+  "nama_file_txt": "PMK_16_2010_Tata_Cara_Pemotongan_PPh21_Pesangon_Pensiun_THT_JHT.txt",
+  "nama_file_pdf": "PMK Nomor 16 Tahun 2010.pdf",
+  "jumlah_halaman": 11,
+  "metode_ekstraksi": "PyMuPDF (Halaman 1-9) + Tesseract OCR ind+eng (Halaman 10-11)",
+  "status_keterbacaan": "LAYAK_DENGAN_CATATAN",
+  "isi_dokumen": [
+    {
+      "jenis_elemen": "JUDUL",
+      "nomor": null,
+      "judul": null,
+      "teks": "BERITA NEGARA \nREPUBLIK INDONESIA \nNo.33, 2010 \nKEMENTERIAN KEUANGAN. PPH. Pemotongan. \nDibayarkan sekaligus. \n \nPERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA \nNOMOR 16/PMK.03/2010    \nTENTANG \n TATA CARA PEMOTONGAN PAJAK PENGHASILAN PASAL 21 ATAS \nPENGHASILAN BERUPA UANG PESANGON, UANG MANFAAT \nPENSIUN, TUNJANGAN HARI TUA,  \nDAN JAMINAN HARI TUA YANG DIBAYARKAN SEKALIGUS",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "PEMBUKAAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "DENGAN RAHMAT TUHAN YANG MAHA ESA \nMENTERI KEUANGAN REPUBLIK INDONESIA,",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENIMBANG",
+      "nomor": null,
+      "judul": "Konsiderans Menimbang",
+      "teks": "bahwa dalam rangka melaksanakan ketentuan Pasal 10 \nPeraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif \nPajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan \nJaminan Hari Tua yang Dibayarkan Sekaligus, perlu \nmenetapkan Peraturan Menteri Keuangan tentang Tata Cara \nPemotongan Pajak Penghasilan Pasal 21 Atas Penghasilan \nBerupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan \nHari Tua, Dan Jaminan Hari Tua Yang Dibayarkan Sekaligus;",
+      "children": [],
+      "halaman_sumber": 1
+    },
+    {
+      "jenis_elemen": "MENGINGAT",
+      "nomor": null,
+      "judul": "Dasar Hukum Mengingat",
+      "teks": "1. Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan \nUmum dan Tata Cara Perpajakan (Lembaran Negara \nRepublik Indonesia Tahun 1983 Nomor 49, Tambahan \nLembaran Negara Republik Indonesia Nomor 3262), \nsebagaimana telah beberapa kali diubah terakhir dengan \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n2\nUndang-undang Nomor 16 Tahun 2009 (Lembaran Negara \nRepublik Indonesia Tahun 2009 Nomor 62, Tambahan \nLembaran Negara Republik Indonesia Nomor 4999); \n2. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan (Lembaran Negara Republik Indonesia Tahun \n1983 Nomor 50, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3263), sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 (Lembaran Negara Republik Indonesia Tahun 2008 \nNomor 133, Tambahan Lembaran Negara Republik \nIndonesia Nomor 4893); \n3. Peraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif \nPajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, \ndan Jaminan Hari Tua yang Dibayarkan Sekaligus \n(Lembaran Negara Republik Indonesia Tahun 2009 Nomor \n169, Tambahan Lembaran Negara Republik Indonesia \nNomor 5082); \n4. Keputusan Presiden Nomor 84/P Tahun 2009;",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan \nUmum dan Tata Cara Perpajakan (Lembaran Negara \nRepublik Indonesia Tahun 1983 Nomor 49, Tambahan \nLembaran Negara Republik Indonesia Nomor 3262), \nsebagaimana telah beberapa kali diubah terakhir dengan \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n2\nUndang-undang Nomor 16 Tahun 2009 (Lembaran Negara \nRepublik Indonesia Tahun 2009 Nomor 62, Tambahan \nLembaran Negara Republik Indonesia Nomor 4999);",
+          "children": [],
+          "halaman_sumber": [
+            1,
+            2
+          ]
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan (Lembaran Negara Republik Indonesia Tahun \n1983 Nomor 50, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3263), sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 (Lembaran Negara Republik Indonesia Tahun 2008 \nNomor 133, Tambahan Lembaran Negara Republik \nIndonesia Nomor 4893);",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Peraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif \nPajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, \ndan Jaminan Hari Tua yang Dibayarkan Sekaligus \n(Lembaran Negara Republik Indonesia Tahun 2009 Nomor \n169, Tambahan Lembaran Negara Republik Indonesia \nNomor 5082);",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Keputusan Presiden Nomor 84/P Tahun 2009;",
+          "children": [],
+          "halaman_sumber": 2
+        }
+      ],
+      "halaman_sumber": [
+        1,
+        2
+      ]
+    },
+    {
+      "jenis_elemen": "MEMUTUSKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "MEMUTUSKAN:",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "MENETAPKAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "PERATURAN MENTERI KEUANGAN TENTANG TATA \nCARA PEMOTONGAN PAJAK PENGHASILAN PASAL \n21 ATAS PENGHASILAN BERUPA UANG PESANGON, \nUANG MANFAAT PENSIUN, TUNJANGAN HARI TUA, \nDAN JAMINAN HARI TUA YANG DIBAYARKAN \nSEKALIGUS.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "1",
+      "judul": null,
+      "teks": "Dalam Peraturan Menteri Keuangan ini, yang dimaksud dengan :",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun \n1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah \nterakhir dengan Undang-Undang Nomor 36 Tahun 2008 tentang Perubahan \nKeempat atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan.",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Pajak Penghasilan Pasal 21 adalah pajak atas penghasilan sehubungan \ndengan pekerjaan, jasa, atau kegiatan dengan nama dan dalam bentuk \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n3\napapun yang diterima atau diperoleh Wajib Pajak orang pribadi dalam negeri \nsebagaimana diatur dalam Pasal 21 Undang-Undang Pajak Penghasilan.",
+          "children": [],
+          "halaman_sumber": [
+            2,
+            3
+          ]
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Pegawai adalah orang pribadi dalam negeri yang menerima penghasilan \nberupa uang pesangon, uang manfaat pensiun, tunjangan hari tua, dan \njaminan hari tua yang dibayarkan sekaligus.",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Uang Pesangon adalah penghasilan yang dibayarkan oleh pemberi kerja \ntermasuk Pengelola Dana Pesangon Tenaga Kerja kepada pegawai, dengan \nnama dan dalam bentuk apapun, sehubungan dengan berakhirnya masa kerja \natau terjadi pemutusan hubungan kerja, termasuk uang penghargaan masa \nkerja dan uang penggantian hak.",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "5",
+          "judul": null,
+          "teks": "Uang Manfaat Pensiun adalah penghasilan dari manfaat pensiun yang \ndibayarkan kepada orang pribadi peserta dana pensiun secara sekaligus \nsesuai ketentuan peraturan perundang-undangan di bidang dana pensiun oleh \nDana Pensiun Pemberi Kerja atau Dana Pensiun Lembaga Keuangan yang \npendiriannya telah disahkan oleh Menteri Keuangan.",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "6",
+          "judul": null,
+          "teks": "Tunjangan Hari Tua adalah penghasilan yang dibayarkan sekaligus oleh \nbadan penyelenggara tunjangan hari tua kepada orang pribadi yang telah \nmencapai usia pensiun.",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "7",
+          "judul": null,
+          "teks": "Jaminan Hari Tua adalah penghasilan yang dibayarkan sekaligus oleh badan \npenyelenggara jaminan sosial tenaga kerja kepada orang pribadi yang berhak \ndalam jangka waktu yang telah ditentukan atau keadaan lain yang \nditentukan.",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "8",
+          "judul": null,
+          "teks": "Pengelola Dana Pesangon Tenaga Kerja adalah badan yang ditunjuk oleh \npemberi kerja untuk mengelola Uang Pesangon yang selanjutnya \nmembayarkan Uang Pesangon tersebut kepada Pegawai dari pemberi kerja \npada saat berakhirnya masa kerja atau terjadi pemutusan hubungan kerja.",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "9",
+          "judul": null,
+          "teks": "Pemotong Pajak adalah pemberi kerja, Pengelola Dana Pesangon Tenaga \nKerja, Dana Pensiun Pemberi Kerja, atau Dana Pensiun Lembaga Keuangan, \nbadan penyelenggara jaminan sosial tenaga kerja, dan badan lain yang \nmembayar Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, \ndan Jaminan Hari Tua.",
+          "children": [],
+          "halaman_sumber": 3
+        }
+      ],
+      "halaman_sumber": [
+        2,
+        3
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Atas penghasilan yang diterima atau diperoleh Pegawai berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari \nTua yang dibayarkan sekaligus, dikenai pemotongan Pajak Penghasilan",
+          "children": [],
+          "halaman_sumber": 3
+        }
+      ],
+      "halaman_sumber": 3
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "21",
+      "judul": null,
+      "teks": "yang bersifat final. \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n4",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Penghasilan berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan \nHari Tua, atau Jaminan Hari Tua sebagaimana dimaksud pada  ayat (1), \ndianggap dibayarkan sekaligus dalam hal sebagian atau seluruh \npembayarannya dilakukan dalam jangka waktu paling lama 2 (dua) tahun \nkalender.",
+          "children": [],
+          "halaman_sumber": 4
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Penghasilan berupa Uang Manfaat Pensiun yang dibayarkan secara \nsekaligus sebagaimana dimaksud pada ayat (1) meliputi:",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "Pembayaran sebanyak-banyaknya 20% (dua puluh persen) dari manfaat \npensiun yang dibayarkan secara sekaligus pada saat Pegawai sebagai \npeserta pensiun atau meninggal dunia;",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "Pembayaran manfaat pensiun bulanan yang lebih kecil dari suatu jumlah \ntertentu yang ditetapkan dari waktu ke waktu oleh Menteri Keuangan \nyang dibayarkan secara sekaligus;",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "c",
+              "judul": null,
+              "teks": "pengalihan Uang Manfaat Pensiun kepada perusahaan asuransi jiwa \ndengan cara Dana Pensiun membeli anuitas seumur hidup.",
+              "children": [],
+              "halaman_sumber": 4
+            }
+          ],
+          "halaman_sumber": 4
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Pajak Penghasilan Pasal 21 yang bersifat final sebagaimana dimaksud pada \nayat (1), terutang pada saat dilakukan pembayaran Uang Pesangon, Uang \nManfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua yang \ndibayarkan sekaligus.",
+          "children": [],
+          "halaman_sumber": 4
+        }
+      ],
+      "halaman_sumber": [
+        3,
+        4
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Tarif Pajak Penghasilan Pasal 21 atas penghasilan berupa Uang Pesangon \nditentukan sebagai berikut:",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "sebesar 0% (nol persen) atas penghasilan bruto sampai dengan \nRp50.000.000,00 (lima puluh juta rupiah);",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "sebesar \n5% \n(lima \npersen) \natas \npenghasilan \nbruto \ndi \natas \nRp50.000.000,00 \n(lima \npuluh \njuta \nrupiah) \nsampai \ndengan \nRp100.000.000,00 (seratus juta rupiah);",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "c",
+              "judul": null,
+              "teks": "sebesar 15% (lima belas persen) atas penghasilan bruto di atas \nRp100.000.000,00 \n(seratus \njuta \nrupiah) \nsampai \ndengan \nRp500.000.000,00 (lima ratus juta rupiah);",
+              "children": [],
+              "halaman_sumber": 4
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "d",
+              "judul": null,
+              "teks": "sebesar 25% (dua puluh lima persen) atas penghasilan bruto di atas \nRp500.000.000,00 (lima ratus juta rupiah).",
+              "children": [],
+              "halaman_sumber": 4
+            }
+          ],
+          "halaman_sumber": 4
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Tarif Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat (1) \nditerapkan atas jumlah kumulatif Uang Pesangon yang dibayarkan dalam \njangka waktu paling lama 2 (dua) tahun kalender. \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n5",
+          "children": [],
+          "halaman_sumber": [
+            4,
+            5
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        4,
+        5
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "4",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Tarif Pajak Penghasilan Pasal 21 atas penghasilan berupa Uang Manfaat \nPensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua ditentukan sebagai \nberikut:",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "sebesar 0% (nol persen) atas penghasilan bruto sampai dengan \nRp50.000.000,00 (lima puluh juta rupiah);",
+              "children": [],
+              "halaman_sumber": 5
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "sebesar \n5% \n(lima \npersen) \natas \npenghasilan \nbruto \ndi \natas \nRp50.000.000,00 (lima puluh juta rupiah).",
+              "children": [],
+              "halaman_sumber": 5
+            }
+          ],
+          "halaman_sumber": 5
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Tarif Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat (1) \ndiberlakukan  atas jumlah kumulatif Uang Manfaat Pensiun, Tunjangan \nHari Tua, atau Jaminan Hari Tua yang dibayarkan dalam jangka waktu \npaling lama 2 (dua) tahun kalender.",
+          "children": [],
+          "halaman_sumber": 5
+        }
+      ],
+      "halaman_sumber": 5
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "5",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Dalam hal terdapat bagian penghasilan sebagaimana dimaksud dalam Pasal \n2 ayat (2) yang terutang atau dibayarkan pada tahun ketiga dan tahun-tahun \nberikutnya, pemotongan Pajak Penghasilan Pasal 21 dilakukan dengan \nmenerapkan tarif Pasal 17 ayat (1) huruf a Undang-Undang Pajak \nPenghasilan atas jumlah bruto seluruh penghasilan yang terutang atau \ndibayarkan kepada Pegawai pada masing-masing tahun kalender yang \nbersangkutan.",
+          "children": [],
+          "halaman_sumber": 5
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Pajak Penghasilan Pasal 21 yang dipotong sebagaimana dimaksud pada \nayat (1) tidak bersifat final dan dapat diperhitungkan sebagai pembayaran \npajak pendahuluan atau kredit pajak.",
+          "children": [],
+          "halaman_sumber": 5
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Dalam hal Pegawai tidak memiliki Nomor Pokok Wajib Pajak, tarif \npemotongan Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat",
+          "children": [],
+          "halaman_sumber": 5
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "lebih tinggi 20% (dua puluh persen) daripada tarif yang diterapkan \nterhadap Pegawai yang dapat menunjukkan Nomor Pokok Wajib Pajak.",
+          "children": [],
+          "halaman_sumber": 5
+        }
+      ],
+      "halaman_sumber": 5
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "6",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Dalam  hal  pemberi   kerja   mengalihkan   Uang Pesangon  secara \nsekaligus kepada Pengelola Dana Pesangon Tenaga Kerja, Pegawai \ndianggap telah menerima hak atas Uang Pesangon.",
+          "children": [],
+          "halaman_sumber": 5
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Atas pengalihan Uang Pesangon  kepada Pengelola Dana Pesangon Tenaga \nKerja melalui pembayaran secara sekaligus sebagaimana dimaksud pada \nayat (1), terutang Pajak Penghasilan Pasal 21 yang bersifat final \nsebagaimana dimaksud dalam Pasal 2 ayat (1). \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n6",
+          "children": [],
+          "halaman_sumber": [
+            5,
+            6
+          ]
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Pajak Penghasilan Pasal 21 yang bersifat final sebagaimana dimaksud pada \nayat (2) dipotong oleh pemberi kerja.",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Pada saat Pengelola Dana Pesangon Tenaga Kerja sebagaimana dimaksud \npada ayat (1) membayar Uang Pesangon kepada Pegawai, tidak dilakukan \npemotongan Pajak Penghasilan Pasal 21.",
+          "children": [],
+          "halaman_sumber": 6
+        }
+      ],
+      "halaman_sumber": [
+        5,
+        6
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "7",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Dalam hal pemberi kerja mengalihkan Uang Pesangon secara bertahap atau \nberkala kepada Pengelola Dana Pesangon Tenaga Kerja, Pegawai dianggap \nbelum menerima hak atas Uang Pesangon.",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Atas pengalihan Uang Pesangon kepada Pengelola Dana Pesangon Tenaga \nKerja melalui pembayaran secara bertahap atau berkala sebagaimana \ndimaksud pada ayat (1) tidak terutang Pajak Penghasilan Pasal 21 yang \nbersifat final sebagaimana dimaksud dalam Pasal 2 ayat (1).",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Pada saat Pengelola Dana Pesangon Tenaga Kerja sebagaimana dimaksud \npada ayat (1) membayar Uang Pesangon kepada Pegawai, dilakukan \npemotongan Pajak Penghasilan Pasal 21 yang bersifat final oleh Pengelola \nDana Pesangon Tenaga Kerja.",
+          "children": [],
+          "halaman_sumber": 6
+        }
+      ],
+      "halaman_sumber": 6
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "8",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Dalam hal terjadi pengalihan Uang Manfaat Pensiun kepada perusahaan \nasuransi jiwa dengan cara Dana Pensiun membeli anuitas seumur hidup, \nPegawai sebagai peserta dianggap telah menerima hak atas Uang Manfaat \nPensiun yang dibayarkan secara sekaligus.",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Atas pengalihan Uang Manfaat Pensiun kepada perusahaan asuransi jiwa \ndengan cara Dana Pensiun membeli anuitas seumur hidup sebagaimana \ndimaksud pada ayat (1) terutang Pajak Penghasilan Pasal 21 yang bersifat \nfinal sebagaimana dimaksud dalam Pasal 2 ayat (1).",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Pemotongan Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "dilakukan oleh Dana Pensiun Pemberi Kerja atau Dana Pensiun \nLembaga Keuangan pada saat pembelian anuitas seumur hidup.",
+          "children": [],
+          "halaman_sumber": 6
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Pada saat perusahaan asuransi jiwa sebagaimana dimaksud pada ayat (1) \nmembayar Uang Manfaat Pensiun kepada Pegawai, tidak dilakukan \npemotongan Pajak Penghasilan Pasal 21.",
+          "children": [],
+          "halaman_sumber": 6
+        }
+      ],
+      "halaman_sumber": 6
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "9",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Pemotong Pajak wajib menghitung, memotong, menyetorkan, dan \nmelaporkan Pajak Penghasilan Pasal 21 yang terutang atas Uang Pesangon, \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n7\nUang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua untuk \nsetiap Masa Pajak.",
+          "children": [],
+          "halaman_sumber": [
+            6,
+            7
+          ]
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Pajak Penghasilan Pasal 21 yang dipotong oleh Pemotong Pajak untuk \nsetiap Masa Pajak wajib disetor ke Kantor Pos atau bank yang ditunjuk \noleh Menteri Keuangan, paling lama 10 (sepuluh) hari setelah Masa Pajak \nberakhir.",
+          "children": [],
+          "halaman_sumber": 7
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Pemotong Pajak wajib melaporkan pemotongan dan penyetoran Pajak \nPenghasilan Pasal 21 untuk setiap Masa Pajak yang dilakukan melalui \npenyampaian Surat Pemberitahuan Masa Pajak Penghasilan Pasal 21 ke \nKantor Pelayanan Pajak tempat Pemotong Pajak terdaftar, paling lama 20 \n(dua puluh) hari setelah Masa Pajak berakhir.",
+          "children": [],
+          "halaman_sumber": 7
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Dalam hal tanggal jatuh tempo penyetoran Pajak Penghasilan Pasal 21 \nsebagaimana dimaksud pada ayat (2) dan batas akhir pelaporan Pajak \nPenghasilan Pasal 21 sebagaimana dimaksud pada ayat (3) bertepatan \ndengan hari libur termasuk hari Sabtu atau hari libur nasional, penyetoran \ndan pelaporan Pajak Penghasilan Pasal 21 dapat dilakukan pada hari kerja \nberikutnya.",
+          "children": [],
+          "halaman_sumber": 7
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "5",
+          "judul": null,
+          "teks": "Pemotong Pajak wajib memberikan bukti pemotongan Pajak Penghasilan",
+          "children": [],
+          "halaman_sumber": 7
+        }
+      ],
+      "halaman_sumber": [
+        6,
+        7
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "21",
+      "judul": null,
+      "teks": "baik diminta maupun tidak pada saat dilakukannya pemotongan \npajak kepada Pegawai yang berhak menerima Uang Pesangon, Uang \nManfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua.",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "6",
+          "judul": null,
+          "teks": "Kewajiban menghitung, memotong, menyetorkan, dan melaporkan \nsebagaimana dimaksud pada ayat (1) dan kewajiban memberikan bukti \npemotongan sebagaimana dimaksud pada ayat (5), tetap dilakukan terhadap \nPegawai yang dikenai tarif pemotongan  sebesar 0% (nol persen).",
+          "children": [],
+          "halaman_sumber": 7
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "7",
+          "judul": null,
+          "teks": "Apabila dalam 1 (satu) Masa Pajak, kepada satu Pegawai dilakukan lebih \ndari 1 (satu) kali pembayaran penghasilan, bukti pemotongan Pajak \nPenghasilan Pasal 21 sebagaimana dimaksud pada ayat (5)  dan ayat (6) \ndapat dibuat sekali untuk 1 (satu) Masa Pajak.",
+          "children": [],
+          "halaman_sumber": 7
+        }
+      ],
+      "halaman_sumber": 7
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "10",
+      "judul": null,
+      "teks": "Dengan berlakunya Peraturan Menteri Keuangan ini, pengenaan Pajak \nPenghasilan Pasal 21 atas Uang Pesangon, Uang Tebusan Pensiun atau Uang \nManfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua, berlaku \nketentuan sebagai berikut: \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n8",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Uang Pesangon, Uang Tebusan Pensiun atau Uang Manfaat Pensiun, \nTunjangan Hari Tua, atau Jaminan Hari Tua yang diperoleh Pegawai \nsebelum berlakunya Peraturan Menteri Keuangan ini dan pembayarannya \ndilakukan sejak tanggal 16 November 2009, berlaku ketentuan Peraturan \nPemerintah Nomor 149 Tahun 2000 tentang Pemotongan Pajak Penghasilan",
+          "children": [],
+          "halaman_sumber": 8
+        }
+      ],
+      "halaman_sumber": [
+        7,
+        8
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "21",
+      "judul": null,
+      "teks": "atas Penghasilan Berupa Uang Pesangon, Uang Tebusan Pensiun, \ndan Tunjangan Hari Tua atau Jaminan Hari Tua;",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2",
+          "judul": null,
+          "teks": "Tata Cara pengenaan Pajak Penghasilan Pasal 21 sebagaimana tersebut pada \nangka 1, berlaku Keputusan Menteri Keuangan Nomor 112/KMK.03/2001 \ntentang Pemotongan Pajak Penghasilan Pasal 21 atas Penghasilan Berupa \nUang Pesangon, Uang Tebusan Pensiun, dan Tunjangan Hari Tua atau \nJaminan Hari Tua;",
+          "children": [],
+          "halaman_sumber": 8
+        },
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Saat diperolehnya penghasilan berupa uang pesangon, uang tebusan pensiun \natau uang manfaat pensiun, tunjangan hari tua, atau jaminan hari tua \nsebagaimana dimaksud pada angka 1 adalah pada saat Pegawai berhenti \nbekerja.",
+          "children": [],
+          "halaman_sumber": 8
+        }
+      ],
+      "halaman_sumber": 8
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "11",
+      "judul": null,
+      "teks": "Tata cara penghitungan Pajak Penghasilan Pasal 21 atas penghasilan berupa \nUang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan \nHari Tua yang dibayarkan sekaligus dengan menggunakan tarif sebagaimana \ndimaksud dalam Pasal 3 ayat (1), Pasal 4 ayat (1) dan Pasal 5 ayat (1), sesuai \ncontoh sebagaimana tercantum dalam Lampiran Peraturan Menteri Keuangan \nini, yang merupakan bagian yang tidak terpisahkan dari Peraturan Menteri \nKeuangan ini.",
+      "children": [],
+      "halaman_sumber": 8
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "12",
+      "judul": null,
+      "teks": "Pada saat berlakunya Peraturan Menteri Keuangan ini, Keputusan Menteri \nKeuangan Nomor 112/KMK.03/2001 Tentang Pemotongan Pajak Penghasilan",
+      "children": [],
+      "halaman_sumber": 8
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "21",
+      "judul": null,
+      "teks": "atas Penghasilan Berupa Uang Pesangon, Uang Tebusan Pensiun, dan \nTunjangan Hari Tua atau Jaminan Hari Tua, dicabut dan dinyatakan tidak \nberlaku.",
+      "children": [],
+      "halaman_sumber": 8
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "13",
+      "judul": null,
+      "teks": "Peraturan Menteri Keuangan ini mulai berlaku pada tanggal 16 November",
+      "children": [
+        {
+          "jenis_elemen": "ANGKA",
+          "nomor": "2009",
+          "judul": null,
+          "teks": "www.djpp.depkumham.go.id\n\n2010, No.33 \n9",
+          "children": [],
+          "halaman_sumber": [
+            8,
+            9
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        8,
+        9
+      ]
+    },
+    {
+      "jenis_elemen": "PENGESAHAN",
+      "nomor": null,
+      "judul": "Pengesahan dan Pengundangan",
+      "teks": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia. \n \nDitetapkan di Jakarta \npada tanggal 25 Januari 2010 \nMENTERI KEUANGAN \nREPUBLIK INDONESIA, \n \nSRI MULYANI INDRAWATI \n \nDiundangkan di Jakarta \npada tanggal 25 Januari 2010 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \n \nPATRIALIS AKBAR \nwww.djpp.depkumham.go.id\n\n2010, No.33 \n10\nwww.djpp.depkumham.go.id",
+      "children": [],
+      "halaman_sumber": [
+        9,
+        10
+      ]
+    },
+    {
+      "jenis_elemen": "LAMPIRAN",
+      "nomor": null,
+      "judul": "Lampiran Peraturan",
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "BAGIAN_LAMPIRAN",
+          "nomor": null,
+          "judul": "Lampiran",
+          "teks": "[HASIL EKSTRAKSI OCR - LAMPIRAN BERBASIS GAMBAR]\n\n2010, No.33 10\n\nAM IPTRAL N\nTER ATTA MMT PRT ETD AR AR\nMMOL PPAR: FER LARS\nTATA TARA FRAT OE A Palak\nPER EA SI LAN PANAL zl ATS\n\nBHAHILAN HERLPA AMG PRSAR stip.\nLANG MANTAAT PONSIUM, TUS [ARI\nHae) 24. AK SMINAY HAKI a YAG\n\nib\n\nCONTOTT PRMGIIT UN CAD PATARK PRM ASIAN IEPA) CASAL. 2I ATAS PURGE ASILAN\nBRUT LANG PESARGCON, DANG MANEAAT PERSILTS, TUN AMGAN HAKI TUA, GAM\nJAMINAN HABRIILLA YANG DIBAYARE AM SKE ALIGLS\n\n1. Conteh Penghitungan PPh Pasal 21 atas Lang Vosangon, Wang Manlaal Pensiun. Tunjangan\nTari Tua, atau Jaminan [Tan Tua yeing Oipayae kin sckeliy us\n\nPirtian Murjaman bekerja sebagai peoawal bap pada PI Asaar Manah sejak tahun 1980, PT\nAggar Manah telah mengikutkan program pension untuk sulurok pepawainva dongan\nmembentuk Dana Pensiun Pl Ascar Manah Fada bulan Januari 310, Firman Wuqamean\nterkena Permusasan | lubunygan Kerja (POLE) moenerioa pembavaran Lang Pesangon sehesar\nBpOUU.O00 UUW dari) Asgar Mlanah.\nSlain ita, Firman Muaramas berbak atas manfaal pensive. sebesar Kp300. MK ODD OS dari Dane\nPensiun Pl Asgar Manal. Firman Murjaman meminta pembayaran sekulives ates miata\npensiun sebesar 20% dari manfaat pensiun diam stvanva (ROS curt amanlaal pension}\ndibavarkan secara bulanan. Dana Tenstun PT Asmar Manan menbavarkan Vang Manfaat\nPons yang dibayarkan sckaligug scbesar 200 x Rp Oi 00. ON OO = R00 00.\nPenpoitingan [Ch Pasal ZI yatip terutarny abaa Lei, Dosa ote\n\nMog EPS OO A 00 Rp 00\n\nBS x RES HOOOO00 Rp 2.500 0000\n\nISS x A pAUOLOUT UDI = Repob ani cnx\n25% x RpLXLOMIODRGd — Rp25.000.000,00 G3\nJuma RpS7.500.000,00\n\nPenghibingan PPh Pasal 20 yang terutang atus 20%s dard neaudinal perngiun Yar dihavarkan\nSicara scxaligus:\n\nDx Rea et = Rp (A\nSha RE LOO NE = BpSu UCL Ot (+)\n\njundah RpSnn. cd 0\nSedangkan pen situigan Pajak Penohasilan Vasal 21 alas pembayaran S05. cert menfuat\nponsiun yang clibayarkan secara bulanan berluko Peraturan Menicri Kcuangan Nomor\n252 / PME IR bentame Putucjuk Crlaksanaan Pemolongan Payak ates Tinghasilan\nSehubungan Dengan Pekorjaan, lasa, dan Keyiatan Oreng Pribaii.\n\n2 Comtoh Penghitungan [Ph Basal 21 alas Vang Pesangon yang Cebavarkan Sucara Perlahap\n\nApabila FI Asgar Manah melakukan pembayatan Vany Peaangem kepada Pirman Murfaman\nkecuTa bertaliap eta jade) pounbay aran schagai herikit:\n\na. Bilan Januari 210 Ep Oon doo\nb. Gulan Januan 2011 Feprl 20.0000\nuv. Bulan Juli 2011 Fpl 0.0\"\n\n4d. Bulan Januari 2012 Ry PAC OO0 00\n\n2010, No.33 \n11\nwww.djpp.depkumham.go.id\n\n[HASIL EKSTRAKSI OCR - LAMPIRAN BERBASIS GAMBAR]\n\n11 2010, No.33\n\nmika Penghitangan [TH Pasal ZI vany heratany:\n4. Bulan Januari 2010:\n\nNS x Rp 3000000100 = Rp ocd\n54 xKp SUU0d.uvuU0 = Kp 2.300.00B.00\n188 x Kpl4Y.UUU WDB = Rp?) A NO C+)\n\nKp33 S00 000\nb Bulan Januari 2011:\n\nISS x RpPEOOOOO = p TEARKULOOUA XI\nu Bulan Juli 201:\n155 x Rpl2 O0 OODAO = ple AKKI OOAI\n\ndo Bulan farari 212:\nMich herent pombayara Vang Pesangon sudah memasuki lahun ketiga masa tank Ph\nTasal 21 untuk Usng Pusan yang dibayarkan pada bulan Januari 2072 adalah Tarif\nPasal 17 ayar (PF) huruf a VWndang-Undanye Pajak Penghasilan dan pemutungan PC 21\npadia bulan Januari 20012 Hdak bersifal Final.\nPenghitungan PPh Pasal 21 unluk lan Jarman 212;\nBa RpBOGOd CD Rp 2.50%) .0000, N\n155 x Bpr O4AH LD = Rp UO OG OOM )\nTumlah Rp AON, N\n\nMENTERI EELAN GAN,\n\nSEL MULYANI IM DRAWATT",
+          "children": [],
+          "halaman_sumber": [
+            10,
+            11
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        10,
+        11
+      ]
+    }
+  ],
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "BERITA NEGARA \nREPUBLIK INDONESIA \nNo.33, 2010 \nKEMENTERIAN KEUANGAN. PPH. Pemotongan. \nDibayarkan sekaligus. \n \nPERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA \nNOMOR 16/PMK.03/2010    \nTENTANG \n TATA CARA PEMOTONGAN PAJAK PENGHASILAN PASAL 21 ATAS \nPENGHASILAN BERUPA UANG PESANGON, UANG MANFAAT \nPENSIUN, TUNJANGAN HARI TUA,  \nDAN JAMINAN HARI TUA YANG DIBAYARKAN SEKALIGUS \nDENGAN RAHMAT TUHAN YANG MAHA ESA \nMENTERI KEUANGAN REPUBLIK INDONESIA,  \nMenimbang  : bahwa dalam rangka melaksanakan ketentuan Pasal 10 \nPeraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif \nPajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan \nJaminan Hari Tua yang Dibayarkan Sekaligus, perlu \nmenetapkan Peraturan Menteri Keuangan tentang Tata Cara \nPemotongan Pajak Penghasilan Pasal 21 Atas Penghasilan \nBerupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan \nHari Tua, Dan Jaminan Hari Tua Yang Dibayarkan Sekaligus; \nMengingat  \n: 1. Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan \nUmum dan Tata Cara Perpajakan (Lembaran Negara \nRepublik Indonesia Tahun 1983 Nomor 49, Tambahan \nLembaran Negara Republik Indonesia Nomor 3262), \nsebagaimana telah beberapa kali diubah terakhir dengan \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 2,
+      "content": "2010, No.33 \n2\nUndang-undang Nomor 16 Tahun 2009 (Lembaran Negara \nRepublik Indonesia Tahun 2009 Nomor 62, Tambahan \nLembaran Negara Republik Indonesia Nomor 4999); \n2. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan (Lembaran Negara Republik Indonesia Tahun \n1983 Nomor 50, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3263), sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 36 Tahun \n2008 (Lembaran Negara Republik Indonesia Tahun 2008 \nNomor 133, Tambahan Lembaran Negara Republik \nIndonesia Nomor 4893); \n3. Peraturan Pemerintah Nomor 68 Tahun 2009 tentang Tarif \nPajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, \ndan Jaminan Hari Tua yang Dibayarkan Sekaligus \n(Lembaran Negara Republik Indonesia Tahun 2009 Nomor \n169, Tambahan Lembaran Negara Republik Indonesia \nNomor 5082); \n4. Keputusan Presiden Nomor 84/P Tahun 2009; \nMEMUTUSKAN: \nMenetapkan \n: PERATURAN MENTERI KEUANGAN TENTANG TATA \nCARA PEMOTONGAN PAJAK PENGHASILAN PASAL \n21 ATAS PENGHASILAN BERUPA UANG PESANGON, \nUANG MANFAAT PENSIUN, TUNJANGAN HARI TUA, \nDAN JAMINAN HARI TUA YANG DIBAYARKAN \nSEKALIGUS. \nPasal 1 \nDalam Peraturan Menteri Keuangan ini, yang dimaksud dengan : \n1. Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun \n1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah \nterakhir dengan Undang-Undang Nomor 36 Tahun 2008 tentang Perubahan \nKeempat atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak \nPenghasilan. \n2. Pajak Penghasilan Pasal 21 adalah pajak atas penghasilan sehubungan \ndengan pekerjaan, jasa, atau kegiatan dengan nama dan dalam bentuk \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 3,
+      "content": "2010, No.33 \n3\napapun yang diterima atau diperoleh Wajib Pajak orang pribadi dalam negeri \nsebagaimana diatur dalam Pasal 21 Undang-Undang Pajak Penghasilan. \n3. Pegawai adalah orang pribadi dalam negeri yang menerima penghasilan \nberupa uang pesangon, uang manfaat pensiun, tunjangan hari tua, dan \njaminan hari tua yang dibayarkan sekaligus. \n4. Uang Pesangon adalah penghasilan yang dibayarkan oleh pemberi kerja \ntermasuk Pengelola Dana Pesangon Tenaga Kerja kepada pegawai, dengan \nnama dan dalam bentuk apapun, sehubungan dengan berakhirnya masa kerja \natau terjadi pemutusan hubungan kerja, termasuk uang penghargaan masa \nkerja dan uang penggantian hak. \n5. Uang Manfaat Pensiun adalah penghasilan dari manfaat pensiun yang \ndibayarkan kepada orang pribadi peserta dana pensiun secara sekaligus \nsesuai ketentuan peraturan perundang-undangan di bidang dana pensiun oleh \nDana Pensiun Pemberi Kerja atau Dana Pensiun Lembaga Keuangan yang \npendiriannya telah disahkan oleh Menteri Keuangan. \n6. Tunjangan Hari Tua adalah penghasilan yang dibayarkan sekaligus oleh \nbadan penyelenggara tunjangan hari tua kepada orang pribadi yang telah \nmencapai usia pensiun. \n7. Jaminan Hari Tua adalah penghasilan yang dibayarkan sekaligus oleh badan \npenyelenggara jaminan sosial tenaga kerja kepada orang pribadi yang berhak \ndalam jangka waktu yang telah ditentukan atau keadaan lain yang \nditentukan. \n8. Pengelola Dana Pesangon Tenaga Kerja adalah badan yang ditunjuk oleh \npemberi kerja untuk mengelola Uang Pesangon yang selanjutnya \nmembayarkan Uang Pesangon tersebut kepada Pegawai dari pemberi kerja \npada saat berakhirnya masa kerja atau terjadi pemutusan hubungan kerja. \n9. Pemotong Pajak adalah pemberi kerja, Pengelola Dana Pesangon Tenaga \nKerja, Dana Pensiun Pemberi Kerja, atau Dana Pensiun Lembaga Keuangan, \nbadan penyelenggara jaminan sosial tenaga kerja, dan badan lain yang \nmembayar Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, \ndan Jaminan Hari Tua.  \nPasal 2 \n(1) Atas penghasilan yang diterima atau diperoleh Pegawai berupa Uang \nPesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari \nTua yang dibayarkan sekaligus, dikenai pemotongan Pajak Penghasilan \nPasal 21 yang bersifat final. \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 4,
+      "content": "2010, No.33 \n4\n(2) Penghasilan berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan \nHari Tua, atau Jaminan Hari Tua sebagaimana dimaksud pada  ayat (1), \ndianggap dibayarkan sekaligus dalam hal sebagian atau seluruh \npembayarannya dilakukan dalam jangka waktu paling lama 2 (dua) tahun \nkalender. \n(3) Penghasilan berupa Uang Manfaat Pensiun yang dibayarkan secara \nsekaligus sebagaimana dimaksud pada ayat (1) meliputi: \na. Pembayaran sebanyak-banyaknya 20% (dua puluh persen) dari manfaat \npensiun yang dibayarkan secara sekaligus pada saat Pegawai sebagai \npeserta pensiun atau meninggal dunia; \nb. Pembayaran manfaat pensiun bulanan yang lebih kecil dari suatu jumlah \ntertentu yang ditetapkan dari waktu ke waktu oleh Menteri Keuangan \nyang dibayarkan secara sekaligus; \nc. pengalihan Uang Manfaat Pensiun kepada perusahaan asuransi jiwa \ndengan cara Dana Pensiun membeli anuitas seumur hidup. \n(4) Pajak Penghasilan Pasal 21 yang bersifat final sebagaimana dimaksud pada \nayat (1), terutang pada saat dilakukan pembayaran Uang Pesangon, Uang \nManfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua yang \ndibayarkan sekaligus.  \nPasal 3 \n(1) Tarif Pajak Penghasilan Pasal 21 atas penghasilan berupa Uang Pesangon \nditentukan sebagai berikut:  \na. sebesar 0% (nol persen) atas penghasilan bruto sampai dengan \nRp50.000.000,00 (lima puluh juta rupiah);  \nb. sebesar \n5% \n(lima \npersen) \natas \npenghasilan \nbruto \ndi \natas \nRp50.000.000,00 \n(lima \npuluh \njuta \nrupiah) \nsampai \ndengan \nRp100.000.000,00 (seratus juta rupiah);  \nc. sebesar 15% (lima belas persen) atas penghasilan bruto di atas \nRp100.000.000,00 \n(seratus \njuta \nrupiah) \nsampai \ndengan \nRp500.000.000,00 (lima ratus juta rupiah);  \nd. sebesar 25% (dua puluh lima persen) atas penghasilan bruto di atas \nRp500.000.000,00 (lima ratus juta rupiah). \n(2) Tarif Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat (1) \nditerapkan atas jumlah kumulatif Uang Pesangon yang dibayarkan dalam \njangka waktu paling lama 2 (dua) tahun kalender. \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 5,
+      "content": "2010, No.33 \n5\nPasal 4 \n(1) Tarif Pajak Penghasilan Pasal 21 atas penghasilan berupa Uang Manfaat \nPensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua ditentukan sebagai \nberikut: \na. sebesar 0% (nol persen) atas penghasilan bruto sampai dengan \nRp50.000.000,00 (lima puluh juta rupiah); \nb. sebesar \n5% \n(lima \npersen) \natas \npenghasilan \nbruto \ndi \natas \nRp50.000.000,00 (lima puluh juta rupiah). \n(2) Tarif Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat (1) \ndiberlakukan  atas jumlah kumulatif Uang Manfaat Pensiun, Tunjangan \nHari Tua, atau Jaminan Hari Tua yang dibayarkan dalam jangka waktu \npaling lama 2 (dua) tahun kalender. \nPasal 5 \n(1) Dalam hal terdapat bagian penghasilan sebagaimana dimaksud dalam Pasal \n2 ayat (2) yang terutang atau dibayarkan pada tahun ketiga dan tahun-tahun \nberikutnya, pemotongan Pajak Penghasilan Pasal 21 dilakukan dengan \nmenerapkan tarif Pasal 17 ayat (1) huruf a Undang-Undang Pajak \nPenghasilan atas jumlah bruto seluruh penghasilan yang terutang atau \ndibayarkan kepada Pegawai pada masing-masing tahun kalender yang \nbersangkutan. \n(2) Pajak Penghasilan Pasal 21 yang dipotong sebagaimana dimaksud pada \nayat (1) tidak bersifat final dan dapat diperhitungkan sebagai pembayaran \npajak pendahuluan atau kredit pajak. \n(3) Dalam hal Pegawai tidak memiliki Nomor Pokok Wajib Pajak, tarif \npemotongan Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat \n(1) lebih tinggi 20% (dua puluh persen) daripada tarif yang diterapkan \nterhadap Pegawai yang dapat menunjukkan Nomor Pokok Wajib Pajak. \nPasal 6 \n(1) Dalam  hal  pemberi   kerja   mengalihkan   Uang Pesangon  secara \nsekaligus kepada Pengelola Dana Pesangon Tenaga Kerja, Pegawai \ndianggap telah menerima hak atas Uang Pesangon. \n(2) Atas pengalihan Uang Pesangon  kepada Pengelola Dana Pesangon Tenaga \nKerja melalui pembayaran secara sekaligus sebagaimana dimaksud pada \nayat (1), terutang Pajak Penghasilan Pasal 21 yang bersifat final \nsebagaimana dimaksud dalam Pasal 2 ayat (1). \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 6,
+      "content": "2010, No.33 \n6\n(3) Pajak Penghasilan Pasal 21 yang bersifat final sebagaimana dimaksud pada \nayat (2) dipotong oleh pemberi kerja. \n(4) Pada saat Pengelola Dana Pesangon Tenaga Kerja sebagaimana dimaksud \npada ayat (1) membayar Uang Pesangon kepada Pegawai, tidak dilakukan \npemotongan Pajak Penghasilan Pasal 21. \nPasal 7 \n(1) Dalam hal pemberi kerja mengalihkan Uang Pesangon secara bertahap atau \nberkala kepada Pengelola Dana Pesangon Tenaga Kerja, Pegawai dianggap \nbelum menerima hak atas Uang Pesangon. \n(2) Atas pengalihan Uang Pesangon kepada Pengelola Dana Pesangon Tenaga \nKerja melalui pembayaran secara bertahap atau berkala sebagaimana \ndimaksud pada ayat (1) tidak terutang Pajak Penghasilan Pasal 21 yang \nbersifat final sebagaimana dimaksud dalam Pasal 2 ayat (1). \n(3) Pada saat Pengelola Dana Pesangon Tenaga Kerja sebagaimana dimaksud \npada ayat (1) membayar Uang Pesangon kepada Pegawai, dilakukan \npemotongan Pajak Penghasilan Pasal 21 yang bersifat final oleh Pengelola \nDana Pesangon Tenaga Kerja. \nPasal 8 \n(1) Dalam hal terjadi pengalihan Uang Manfaat Pensiun kepada perusahaan \nasuransi jiwa dengan cara Dana Pensiun membeli anuitas seumur hidup, \nPegawai sebagai peserta dianggap telah menerima hak atas Uang Manfaat \nPensiun yang dibayarkan secara sekaligus. \n(2) Atas pengalihan Uang Manfaat Pensiun kepada perusahaan asuransi jiwa \ndengan cara Dana Pensiun membeli anuitas seumur hidup sebagaimana \ndimaksud pada ayat (1) terutang Pajak Penghasilan Pasal 21 yang bersifat \nfinal sebagaimana dimaksud dalam Pasal 2 ayat (1). \n(3) Pemotongan Pajak Penghasilan Pasal 21 sebagaimana dimaksud pada ayat \n(2) dilakukan oleh Dana Pensiun Pemberi Kerja atau Dana Pensiun \nLembaga Keuangan pada saat pembelian anuitas seumur hidup. \n(4) Pada saat perusahaan asuransi jiwa sebagaimana dimaksud pada ayat (1) \nmembayar Uang Manfaat Pensiun kepada Pegawai, tidak dilakukan \npemotongan Pajak Penghasilan Pasal 21. \nPasal 9 \n(1) Pemotong Pajak wajib menghitung, memotong, menyetorkan, dan \nmelaporkan Pajak Penghasilan Pasal 21 yang terutang atas Uang Pesangon, \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 7,
+      "content": "2010, No.33 \n7\nUang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua untuk \nsetiap Masa Pajak. \n(2) Pajak Penghasilan Pasal 21 yang dipotong oleh Pemotong Pajak untuk \nsetiap Masa Pajak wajib disetor ke Kantor Pos atau bank yang ditunjuk \noleh Menteri Keuangan, paling lama 10 (sepuluh) hari setelah Masa Pajak \nberakhir. \n(3) Pemotong Pajak wajib melaporkan pemotongan dan penyetoran Pajak \nPenghasilan Pasal 21 untuk setiap Masa Pajak yang dilakukan melalui \npenyampaian Surat Pemberitahuan Masa Pajak Penghasilan Pasal 21 ke \nKantor Pelayanan Pajak tempat Pemotong Pajak terdaftar, paling lama 20 \n(dua puluh) hari setelah Masa Pajak berakhir.  \n(4) Dalam hal tanggal jatuh tempo penyetoran Pajak Penghasilan Pasal 21 \nsebagaimana dimaksud pada ayat (2) dan batas akhir pelaporan Pajak \nPenghasilan Pasal 21 sebagaimana dimaksud pada ayat (3) bertepatan \ndengan hari libur termasuk hari Sabtu atau hari libur nasional, penyetoran \ndan pelaporan Pajak Penghasilan Pasal 21 dapat dilakukan pada hari kerja \nberikutnya. \n(5) Pemotong Pajak wajib memberikan bukti pemotongan Pajak Penghasilan \nPasal 21 baik diminta maupun tidak pada saat dilakukannya pemotongan \npajak kepada Pegawai yang berhak menerima Uang Pesangon, Uang \nManfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua. \n(6) Kewajiban menghitung, memotong, menyetorkan, dan melaporkan \nsebagaimana dimaksud pada ayat (1) dan kewajiban memberikan bukti \npemotongan sebagaimana dimaksud pada ayat (5), tetap dilakukan terhadap \nPegawai yang dikenai tarif pemotongan  sebesar 0% (nol persen). \n(7) Apabila dalam 1 (satu) Masa Pajak, kepada satu Pegawai dilakukan lebih \ndari 1 (satu) kali pembayaran penghasilan, bukti pemotongan Pajak \nPenghasilan Pasal 21 sebagaimana dimaksud pada ayat (5)  dan ayat (6) \ndapat dibuat sekali untuk 1 (satu) Masa Pajak. \nPasal 10 \nDengan berlakunya Peraturan Menteri Keuangan ini, pengenaan Pajak \nPenghasilan Pasal 21 atas Uang Pesangon, Uang Tebusan Pensiun atau Uang \nManfaat Pensiun, Tunjangan Hari Tua, atau Jaminan Hari Tua, berlaku \nketentuan sebagai berikut: \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 8,
+      "content": "2010, No.33 \n8\n1. Uang Pesangon, Uang Tebusan Pensiun atau Uang Manfaat Pensiun, \nTunjangan Hari Tua, atau Jaminan Hari Tua yang diperoleh Pegawai \nsebelum berlakunya Peraturan Menteri Keuangan ini dan pembayarannya \ndilakukan sejak tanggal 16 November 2009, berlaku ketentuan Peraturan \nPemerintah Nomor 149 Tahun 2000 tentang Pemotongan Pajak Penghasilan \nPasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Tebusan Pensiun, \ndan Tunjangan Hari Tua atau Jaminan Hari Tua; \n2. Tata Cara pengenaan Pajak Penghasilan Pasal 21 sebagaimana tersebut pada \nangka 1, berlaku Keputusan Menteri Keuangan Nomor 112/KMK.03/2001 \ntentang Pemotongan Pajak Penghasilan Pasal 21 atas Penghasilan Berupa \nUang Pesangon, Uang Tebusan Pensiun, dan Tunjangan Hari Tua atau \nJaminan Hari Tua; \n3. Saat diperolehnya penghasilan berupa uang pesangon, uang tebusan pensiun \natau uang manfaat pensiun, tunjangan hari tua, atau jaminan hari tua \nsebagaimana dimaksud pada angka 1 adalah pada saat Pegawai berhenti \nbekerja. \nPasal 11 \nTata cara penghitungan Pajak Penghasilan Pasal 21 atas penghasilan berupa \nUang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, atau Jaminan \nHari Tua yang dibayarkan sekaligus dengan menggunakan tarif sebagaimana \ndimaksud dalam Pasal 3 ayat (1), Pasal 4 ayat (1) dan Pasal 5 ayat (1), sesuai \ncontoh sebagaimana tercantum dalam Lampiran Peraturan Menteri Keuangan \nini, yang merupakan bagian yang tidak terpisahkan dari Peraturan Menteri \nKeuangan ini. \nPasal 12 \nPada saat berlakunya Peraturan Menteri Keuangan ini, Keputusan Menteri \nKeuangan Nomor 112/KMK.03/2001 Tentang Pemotongan Pajak Penghasilan \nPasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Tebusan Pensiun, dan \nTunjangan Hari Tua atau Jaminan Hari Tua, dicabut dan dinyatakan tidak \nberlaku. \nPasal 13 \nPeraturan Menteri Keuangan ini mulai berlaku pada tanggal 16 November \n2009. \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 9,
+      "content": "2010, No.33 \n9\nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia. \n \nDitetapkan di Jakarta \npada tanggal 25 Januari 2010 \nMENTERI KEUANGAN \nREPUBLIK INDONESIA, \n \nSRI MULYANI INDRAWATI \n \nDiundangkan di Jakarta \npada tanggal 25 Januari 2010 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \n \nPATRIALIS AKBAR \nwww.djpp.depkumham.go.id"
+    },
+    {
+      "page_number": 10,
+      "content": "2010, No.33 \n10\nwww.djpp.depkumham.go.id\n\n[HASIL EKSTRAKSI OCR - LAMPIRAN BERBASIS GAMBAR]\n\n2010, No.33 10\n\nAM IPTRAL N\nTER ATTA MMT PRT ETD AR AR\nMMOL PPAR: FER LARS\nTATA TARA FRAT OE A Palak\nPER EA SI LAN PANAL zl ATS\n\nBHAHILAN HERLPA AMG PRSAR stip.\nLANG MANTAAT PONSIUM, TUS [ARI\nHae) 24. AK SMINAY HAKI a YAG\n\nib\n\nCONTOTT PRMGIIT UN CAD PATARK PRM ASIAN IEPA) CASAL. 2I ATAS PURGE ASILAN\nBRUT LANG PESARGCON, DANG MANEAAT PERSILTS, TUN AMGAN HAKI TUA, GAM\nJAMINAN HABRIILLA YANG DIBAYARE AM SKE ALIGLS\n\n1. Conteh Penghitungan PPh Pasal 21 atas Lang Vosangon, Wang Manlaal Pensiun. Tunjangan\nTari Tua, atau Jaminan [Tan Tua yeing Oipayae kin sckeliy us\n\nPirtian Murjaman bekerja sebagai peoawal bap pada PI Asaar Manah sejak tahun 1980, PT\nAggar Manah telah mengikutkan program pension untuk sulurok pepawainva dongan\nmembentuk Dana Pensiun Pl Ascar Manah Fada bulan Januari 310, Firman Wuqamean\nterkena Permusasan | lubunygan Kerja (POLE) moenerioa pembavaran Lang Pesangon sehesar\nBpOUU.O00 UUW dari) Asgar Mlanah.\nSlain ita, Firman Muaramas berbak atas manfaal pensive. sebesar Kp300. MK ODD OS dari Dane\nPensiun Pl Asgar Manal. Firman Murjaman meminta pembayaran sekulives ates miata\npensiun sebesar 20% dari manfaat pensiun diam stvanva (ROS curt amanlaal pension}\ndibavarkan secara bulanan. Dana Tenstun PT Asmar Manan menbavarkan Vang Manfaat\nPons yang dibayarkan sckaligug scbesar 200 x Rp Oi 00. ON OO = R00 00.\nPenpoitingan [Ch Pasal ZI yatip terutarny abaa Lei, Dosa ote\n\nMog EPS OO A 00 Rp 00\n\nBS x RES HOOOO00 Rp 2.500 0000\n\nISS x A pAUOLOUT UDI = Repob ani cnx\n25% x RpLXLOMIODRGd — Rp25.000.000,00 G3\nJuma RpS7.500.000,00\n\nPenghibingan PPh Pasal 20 yang terutang atus 20%s dard neaudinal perngiun Yar dihavarkan\nSicara scxaligus:\n\nDx Rea et = Rp (A\nSha RE LOO NE = BpSu UCL Ot (+)\n\njundah RpSnn. cd 0\nSedangkan pen situigan Pajak Penohasilan Vasal 21 alas pembayaran S05. cert menfuat\nponsiun yang clibayarkan secara bulanan berluko Peraturan Menicri Kcuangan Nomor\n252 / PME IR bentame Putucjuk Crlaksanaan Pemolongan Payak ates Tinghasilan\nSehubungan Dengan Pekorjaan, lasa, dan Keyiatan Oreng Pribaii.\n\n2 Comtoh Penghitungan [Ph Basal 21 alas Vang Pesangon yang Cebavarkan Sucara Perlahap\n\nApabila FI Asgar Manah melakukan pembayatan Vany Peaangem kepada Pirman Murfaman\nkecuTa bertaliap eta jade) pounbay aran schagai herikit:\n\na. Bilan Januari 210 Ep Oon doo\nb. Gulan Januan 2011 Feprl 20.0000\nuv. Bulan Juli 2011 Fpl 0.0\"\n\n4d. Bulan Januari 2012 Ry PAC OO0 00"
+    },
+    {
+      "page_number": 11,
+      "content": "2010, No.33 \n11\nwww.djpp.depkumham.go.id\n\n[HASIL EKSTRAKSI OCR - LAMPIRAN BERBASIS GAMBAR]\n\n11 2010, No.33\n\nmika Penghitangan [TH Pasal ZI vany heratany:\n4. Bulan Januari 2010:\n\nNS x Rp 3000000100 = Rp ocd\n54 xKp SUU0d.uvuU0 = Kp 2.300.00B.00\n188 x Kpl4Y.UUU WDB = Rp?) A NO C+)\n\nKp33 S00 000\nb Bulan Januari 2011:\n\nISS x RpPEOOOOO = p TEARKULOOUA XI\nu Bulan Juli 201:\n155 x Rpl2 O0 OODAO = ple AKKI OOAI\n\ndo Bulan farari 212:\nMich herent pombayara Vang Pesangon sudah memasuki lahun ketiga masa tank Ph\nTasal 21 untuk Usng Pusan yang dibayarkan pada bulan Januari 2072 adalah Tarif\nPasal 17 ayar (PF) huruf a VWndang-Undanye Pajak Penghasilan dan pemutungan PC 21\npadia bulan Januari 20012 Hdak bersifal Final.\nPenghitungan PPh Pasal 21 unluk lan Jarman 212;\nBa RpBOGOd CD Rp 2.50%) .0000, N\n155 x Bpr O4AH LD = Rp UO OG OOM )\nTumlah Rp AON, N\n\nMENTERI EELAN GAN,\n\nSEL MULYANI IM DRAWATT"
+    }
+  ]
+}
