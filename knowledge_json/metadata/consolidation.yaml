@@ -19,7 +19,9 @@ chains:
   PP-2015-18: [PP-2016-9]
   PP-2000-20: [PP-2000-147]
   PMK-2023-48: [PMK-2025-11]
-  # Catatan: PMK 69/2024 (perubahan PMK 130/2020) TIDAK ditemukan di BPK.
-  # Rantai tetap dicatat agar gap terlihat di output (unparsed: dokumen tidak ada).
+  # PBB-P3 & Penagihan Pajak dengan Surat Paksa (PPSP)
+  PMK-2019-186: [PMK-2022-234]
+  UU-1997-19: [UU-2000-19]
+  # Tax Holiday (PMK 69/2024 diambil manual dari JDIH Kemenkeu)
   PMK-2020-130: [PMK-2024-69]
 pending_ck: [UU-2020-11, PERPU-2022-2, UU-2023-6]
