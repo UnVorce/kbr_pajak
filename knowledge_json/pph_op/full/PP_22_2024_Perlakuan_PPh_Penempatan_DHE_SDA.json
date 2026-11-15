@@ -1,0 +1,362 @@
+{
+  "document_id": "PP_22_2024",
+  "nama_dokumen": "Perlakuan Pajak Penghasilan atas Penghasilan dari Penempatan Devisa Hasil Ekspor Sumber Daya Alam pada Instrumen Moneter dan/atau Instrumen Keuangan Tertentu di Indonesia",
+  "nomor_peraturan": "PP Nomor 22 Tahun 2024",
+  "jenis_peraturan": "PP",
+  "tahun": 2024,
+  "nama_file_txt": "PP_22_2024_Perlakuan_PPh_Penempatan_DHE_SDA.txt",
+  "nama_file_pdf": "PP Nomor 22 Tahun 2024.pdf",
+  "jumlah_halaman": 19,
+  "metode_ekstraksi": "PyMuPDF (Digital Text)",
+  "status_keterbacaan": "LAYAK",
+  "isi_dokumen": [
+    {
+      "jenis_elemen": "PEMBUKAAN",
+      "nomor": null,
+      "judul": null,
+      "teks": "SALINAN\nPRESIDEN\nREPUELIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 22 TAHUN 2024\nTENTANG\nPERLAKUAN PA.'AK PENGHASILAN ATAS PENGHASILAN DARI\nPENEMPATAN DEVISA HASIL EKSPOR SUMBER DAYA AI\"AM PADA\nINSTRUMEN MONETER DAN/ATAU INSTRUMEN KEUANGAN TERTENTU\nDI INDONESIA\nDENGAN RAHMAT TUHAN YANG MAHA ESA\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang\nbahwa untuk mendukung kebijakan pemasukan dan\npenempatan devisa hasil ekspor yang berasal dari\nbarang ekspor sumber daya alam ke dalam sistem\nkeuangan Indonesia, perlu memberikan kebijakan\nkhusus di bidang Pajak Penghasilan;\nbahwa kebijakan khusus di bidang pajak penghasilan\nsebagaimana dimaksud dalam huruf a dapat diberikan\nmelalui pengenaan Pajak Penghasilan bersifat final\natas penghasilan dari penempatan devisa hasil ekspor\nsumber daya alam pada instmmen moneter dan/atau\ninstmmen keuangan tertentu;\nbahwa berdasarkan pertimbangan sebagaimana\ndimaksud dalam huruf a dan huruf b, serta untuk\nmelaksanakan ketentuan Pasal 4 ayat (21 huruf e\nUndang-Undang Nomor 7 Tahun 1983 tentang pajak\nPenghasilan sebagaimana telah beberapa kali diubah\nterakhir dengan Undang-Undang Nomor 7 Tahun 2O2l\ntentang Harmonisasi Peraturan Perpajakan, perlu\nmenetapkan Peraturan Pemerintah tentang perlakuan\nPajak Penghasilan atas Penghasilan dari penempatan\nDevisa Hasil Ekspor Sumber Daya Alam pada\nInstrumen Moneter dan/atau Instmmen Keuangan\nTertentu di Indonesia;\nMengingat . . .\na.\nb.\nc.\nSK No 170500 A\n\nMengingat\nMenetapkan\n1.\n2.\nPRESIDEN\nREPUBUK INDONESIA\n-2-\nPasal 5 ayat (21 Undang-Undang Dasar Negara\nRepublik Indonesia Tahun 1945;\nUndang-Undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan (Lembaran Negara Republik Indonesia\nTahun 1983 Nomor 50, Tambahan kmbaran Negara\nRepublik Indonesia Nomor 3263l, sebagaimana telah\nbeberapa kali diubah terakhir dengan Undang-Undang\nNomor 7 Tahun 2O2l tentang Harmonisasi Peraturan\nPerpajakan (Lembaran Negara Republik Indonesia",
+      "children": [],
+      "halaman_sumber": [
+        1,
+        2
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": "Penghasilan yang diterima atau diperoleh Eksportir dari\npenempatan DHE SDA pada instrumen moneter dan/atau\ninstrumen keuangan tertentu di Indonesia, dikenai Pajak\nPenghasilan yang bersifat final.",
+      "children": [],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Instrumen moneter dan/atau instrumen keuangan\ntertentu di Indonesia sebagaimana dimaksud dalam",
+          "children": [],
+          "halaman_sumber": 2
+        }
+      ],
+      "halaman_sumber": 2
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "2",
+      "judul": null,
+      "teks": "merupakan instrumen moneter dan/atau\ninstrumen keuangan yang memenuhi kriteria sebagai\nberikut:\nSK No 170281 A\na.merupakan. . .\n\nFRESIDEN\nREPUBLIK INDONESIA\n-4-",
+      "children": [
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "a",
+          "judul": null,
+          "teks": "merupakan instrumen perbankan di Indonesia,\ninstrumen keuangan yang diterbitkan oleh LPEI,\ndan/atau instrumen moneter yang diterbitkan oleh\nBank Indonesia;",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "b",
+          "judul": null,
+          "teks": "dananya berasal dari DHE SDA;",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "c",
+          "judul": null,
+          "teks": "memiliki jangka waktu penempatan paling singkat\n1 (satu) bulan; dan",
+          "children": [],
+          "halaman_sumber": 2
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "d",
+          "judul": null,
+          "teks": "tidak diperdagangkan di pasar se}mnder.\nl2l Instrumen moneter dan/atau instrumen keuangan\ntertentu di Indonesia sebagaimana dimaksud pada\nayat (1) berupa:",
+          "children": [],
+          "halaman_sumber": [
+            2,
+            3
+          ]
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "a",
+          "judul": null,
+          "teks": "deposito yang diterbitkan oleh Bank yang sumber\ndananya berasal dari Rekening Khusus DHE SDA\npada Bank yang sama;",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "b",
+          "judul": null,
+          "teks": "term deposit operasi pasar terbuka konvensional\ndalam valuta asing di Bank Indonesia yang\npenempatannya melalui peserta operasi pasar\nterbuka dan sumber dananya berasal dari\nRekening Khusus DHE SDA pada peserta operasi\npasar terbuka yang sama;",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "c",
+          "judul": null,
+          "teks": "surat sanggup yang diterbitkan oleh LPEI yang\nsumber dananya berasal dari Rekening Khusus\nDHE SDA pada LPEI; dan",
+          "children": [],
+          "halaman_sumber": 3
+        },
+        {
+          "jenis_elemen": "HURUF",
+          "nomor": "d",
+          "judul": null,
+          "teks": "instrumen moneter lain atau instrumen keuangan\nlain yang ditetapkan oleh Menteri Keuangan,\nsetelah berkoordinasi dengan Gubernur Bank\nIndonesia.",
+          "children": [],
+          "halaman_sumber": 3
+        }
+      ],
+      "halaman_sumber": [
+        2,
+        3
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "4",
+      "judul": null,
+      "teks": "(U Pajak Penghasilan yang bersifat final sebagaimana\ndimaksud dalam Pasal 2 dihitung dengan cara\nmengalikan tarif Pajak Penghasilan final dengan dasar\npengenaan pajak.\n(21 Tarif Pajak Penghasilan final sebagaimana dimaksud\npada ayat (1), berlaku ketentuan sebagai berikut:\nSK No 170307 A\na. atas . .\n\na.\nb.\nPRESIDEN\nREPUBUK INDONESTA\n-5-\natas penghasilan dari instrumen moneter\ndan/atau instrumen keuangan tertentu\nsebagaimana dimaksud dalam Pasal 3 yang\ndananya dalam valuta asing dikenai Pajak\nPenghasilan yang bersifat final dengan:\n1. tarif sebesar Oo/o (nol persen), untuk\ninstrumen dengan jangka waktu penempatan\nlebih dari 6 (enam) bulan;\n2. tarif sebesar 2,5o/o (dua koma lima persen)\nuntuk instrumen dengan jangka waktu\npenempatan 6 (enam) bulan;\n3. tarif sebesar 7,5o/o (tujuh koma lima persen),\nuntuk instrumen dengan jangka waktu\npenempatan 3 (tiga) bulan sampai dengan\nkurang dari 6 (enam) bulan; atau\n4. tarif sebesar lOo/o (sepuluh persen), untuk\ninstrumen dengan jangka waktu penempatan\n1 (satu) bulan sampai dengan kurang dari 3\n(tiga) bulan.\natas penghasilan dari instmmen moneter\ndan/atau instrumen keuangan tertentu\nsebagaimana dimaksud dalam Pasal 3 yang\ndananya dikonversi dari valuta asing ke mata uang\nRupiah, dikenai Pajak Penghasilan yang bersifat\nfinal dengan:\n1. tarif sebesar Oo/o (nol persen), untuk\ninstrumen dengan jangka waktu penempatan\n6 (enam) bulan atau lebih dari 6 (enam) bulan;\n2. tarif sebesar 2,5o/o (dua koma lima persen),\nuntuk instmmen dengan jangka waktu\npenempatan 3 (tiga) bulan sampai dengan\nkurang dari 6 (enam) bulan; atau\n3. tarif sebesar 5o/o (lima persen), untuk\ninstrumen dengan jangka waktu penempatan\n1 (satu) bulan sampai dengan kurang dari 3\n(tiga) bulan;\nSK No 170279 A",
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Tarif...\n\nPRESIDEN\nREPUELIK INDONESIA\n-6-",
+          "children": [],
+          "halaman_sumber": 4
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Tarif sebagaimana dimaksud pada ayat l2l berlaku\njuga untuk penempatan kembali dana DHE SDA pada\ninstrumen moneter dan/atau instrumen keuangan\ntertentu sebagaimana dimaksud dalam Pasal 3, setelah\ntanggal jatuh tempo instrumen moneter dan/atau\ninstrumen keuangan tertentu berakhir.",
+          "children": [],
+          "halaman_sumber": 4
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "4",
+          "judul": null,
+          "teks": "Dasar pengenaan pajak sebagaimana dimaksud pada\nayat (1) merupakan jumlah bruto dari penghasilan\nyang diterima Eksportir dari penempatan DHE SDA\npada instmmen moneter dan/atau instmmen\nkeuangan tertentu sebagaimana dimaksud dalam",
+          "children": [],
+          "halaman_sumber": [
+            4,
+            5
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        3,
+        5
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "3",
+      "judul": null,
+      "teks": ".",
+      "children": [],
+      "halaman_sumber": 5
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "5",
+      "judul": null,
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "1",
+          "judul": null,
+          "teks": "Pajak Penghasilan yang bersifat final sebagaimana\ndimaksud dalam Pasal 4 dilunasi melalui mekanisme\npemotongan Pajak Penghasilan.\n(21 Pemotongan Pajak Penghasilan sebagaimana dimaksud\npada ayat (1) dilakukan pada saat pembayaran\npenghasilan kepada Eksportir.",
+          "children": [],
+          "halaman_sumber": 5
+        },
+        {
+          "jenis_elemen": "AYAT",
+          "nomor": "3",
+          "judul": null,
+          "teks": "Pemotongan Pajak Penghasilan sebagaimana dimaksud\npada ayat (1) dilakukan oleh:",
+          "children": [
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "a",
+              "judul": null,
+              "teks": "Bank untuk penghasilan Eksportir dari instrrrmen\nsebagaimana dimaksud dalam Pasal 3 ayat (21\nhuruf a;",
+              "children": [],
+              "halaman_sumber": 5
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "b",
+              "judul": null,
+              "teks": "Peserta operasi pasar terbuka untuk penghasilan\nEksportir dari instrumen sebagaimana dimaksud\ndalam Pasal 3 ayat (2) huruf b;",
+              "children": [],
+              "halaman_sumber": 5
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "c",
+              "judul": null,
+              "teks": "LPEI untuk penghasilan Eksportir dari instrumen\nsebagaimana dimaksud dalam Pasal 3 ayat (21\nhuruf c; atau",
+              "children": [],
+              "halaman_sumber": 5
+            },
+            {
+              "jenis_elemen": "HURUF",
+              "nomor": "d",
+              "judul": null,
+              "teks": "Bank atau LPEI sebagai:\n1) penerbit instrumen keuangan; atau\n2) peserta operasi pasar terbuka,\nuntuk penghasilan Eksportir dari instrumen\nsebagaimana dimaksud dalam Pasal 3 ayat (2)\nhuruf d.\n(a) Tata...\nSK No 170278 A\n\nPRESIDEN\nREPUBUK INDONESIA\n-7-\n(41 Tata cara pelunasan dan pelaporan Pajak Penghasilan\nsebagaimana dimaksud pada ayat (1) dilaksanakan\nsesuai dengan ketentuan peraturan perundang-\nundangan di bidang perpajakan.",
+              "children": [],
+              "halaman_sumber": 5
+            }
+          ],
+          "halaman_sumber": 5
+        }
+      ],
+      "halaman_sumber": 5
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "6",
+      "judul": null,
+      "teks": "Pada saat Peraturan Pemerintah ini mulai berlaku,\nketentuan Pasal 2 Peraturan Pemerintah Nomor 131\nTahun 2OO0 tentang Pajak Penghasilan atas Bunga\nDeposito dan Tabungan serta Diskonto Sertifikat Bank\nIndonesia (Lembaran Negara Republik Indonesia\nTahun 2OO0 Nomor 236, Tambahan Lembaran Negara\nRepublik Indonesia Nomor 4039) sebagaimana telah diubah\ndengan Peraturan Pemerintah Nomor 123 Tahun 2015\ntentang Perubahan atas Peraturan Pemerintah Nomor 131\nTahun 2000 tentang Pajak Penghasilan Atas Bunga\nDeposito dan Tabungan serta Diskonto Sertifikat Bank\nlndonesia (l,embaran Negara Republik Indonesia Tahun\n2015 Nomor 346, Tambahan Lembaran Negara Republik\nIndonesia Nomor 5803), yang mengatur mengenai\npengenaan Pajak Penghasilan atas bunga dari deposito yang\ndananya bersumber dari DHE SDA, dicabut dan dinyatakan\ntidak berlaku.",
+      "children": [],
+      "halaman_sumber": [
+        5,
+        6
+      ]
+    },
+    {
+      "jenis_elemen": "PASAL",
+      "nomor": "7",
+      "judul": null,
+      "teks": "Peraturan Pemerintah ini mulai berlaku pada tanggal\ndiundangkan.\nSK No 170277 A\nAgar\n\nPRESIDEN\nREPUBLTK INDONESIA\n-8-\nAgar setiap\npengundangan\npenempatannya\nIndonesia.\norang mengetahuinya, memerintahkan\nPeraturan Pemerintah ini \ndengan\ndalam kmbaran Negara Republik",
+      "children": [],
+      "halaman_sumber": 6
+    },
+    {
+      "jenis_elemen": "PENGESAHAN",
+      "nomor": null,
+      "judul": "Pengesahan dan Pengundangan",
+      "teks": "Ditetapkan di Jakarta\npada tanggal 20 Mei 2024\nPRESIDEN REPUBLIK INDONESIA,\nttd\nJOKO WIDODO\nDiundangkan di Jakarta\npada tanggal 2O Mei 2024\nMENTERI SEKRETARIS NEGARA\nREPUBLIK INDONESIA,\nPRATIKNO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2024 NOMOR 84\nSalinan sesuai dengan aslinya\nKEMENTERIAN SEKRETAzuAT NEGARA\nREPUBLIK INDONESIA\nPenrndang-undangan dan\nHukum,\nttd\nSK No 170496 A\nDjaman\n\nFRESIDEN\nREPUBLIK INDONESIA",
+      "children": [],
+      "halaman_sumber": 6
+    },
+    {
+      "jenis_elemen": "PENJELASAN",
+      "nomor": null,
+      "judul": "Penjelasan Peraturan",
+      "teks": null,
+      "children": [
+        {
+          "jenis_elemen": "PENJELASAN_UMUM",
+          "nomor": null,
+          "judul": "Penjelasan",
+          "teks": "PENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 22 TAHVN 2024\nTENTANG\nPERLAKUAN PAJAK PENGHASILAN ATAS PENGHASILAN DARI\nPENEMPATAN DEVISA HASIL EKSPOR SUMBER DAYA ALAM PADA\nINSTRUMEN MONETER DAN/ATAU INSTRUMEN KEUANGAN TERTENTU\nDI INDONESIA\nI. \nUMUM\nKetersediaan valuta asing di dalam negeri merupakan salah satu\nfaktor penting dalam menjaga stabilitas moneter dan perekonomian\nnasional. Oleh karena itu, Pemerintah perlu terus melakukan upaya\nuntuk menjaga ketersediaan valuta asing di dalam negeri, antara lain\nmelalui kebijakan optimalisasi pemasukan dan penempatan DHE SDA\nvaluta asing ke dalam sistem keuangan Indonesia.\nDalam rangka mendukung kebijakan optimalisasi pemasukan dan\npenempatan DHE SDA ke dalam sistem keuangan Indonesia tersebut,\nPemerintah perlu mengeluarkan kebijakan perpajakan untuk\nmendorong Eksportir menempatlan DHE SDA-nya ke dalam sistem\nkeuangan Indonesia. Kebijakan perpajakan dimaksud adalah melalui\nperlakuan Pajak Penghasilan yang bersifat final dengan tarif yang lebih\nrendah atas penghasilan yang diterima Eksportir dari penempatan DHE\nSDA pada instrumen moneter dan/atau instrumen keuangan tertentu\ndi Indonesia.\nKebijakan dalam Peraturan Pemerintah ini, selain merupakan\nupaya Pemerintah untuk mendorong Eksportir menempatkan dana\nhasil ekspornya ke dalam sistem keuangan Indonesia, juga bentuk\npenyelarasan dan pengharmonisasian dengan kebijakan yang\ndituangkan dalam peraturan perundang-undangan yang mengatur\nmengenai devisa hasil ekspor dari kegiatan pengusahaan, pengelolaan\ndan/atau pengolahan sumber daya alam.\nMateri . . .\nSK No 1704984\n\nPRESIDEN\nREPUBUK TNDONESIA\n-2-\nMateri pengaturan dalam Peraturan Pemerintah ini mencakup\npengaturan mengenai subjek pajak dan objek pajak yang mendapatkan\nperlakuan khusus berupa pengenaan tarif Pajak Penghasilan yang\nbersifat final dengan tarif lebih rendah, besaran tarif Pajak Penghasilan\nyang bersifat final, dan mekanisme pelunasan Pajak Penghasilan yang\nbersifat final tersebut. Dalam pengaturan objek pajak yang\nmendapatkan perlakuan khusus tersebut, termasuk juga pengaturan\nmengenai kriteria dan cakupan instrumen moneter dan instrumen\nkeuangan tertentu, yang atas penghasilan dari penempatan DHE SDA\npada instrumen-instrumen tersebut mendapatkan perlakuan khusus\nPajak Penghasilan.\nil. \nPASAL DEMI PASAL\nPasal I\nCukup jelas.\nPasal 2\nCukup jelas.\nPasal 3\nAyat (1)\nHuruf a\nCukup jelas.\nHuruf b\nCukup jelas.\nHuruf c\nCukup jelas.\nHuruf d\nYang dimaksud dengan \"tidak diperdagangkan di pasar\nsekunder\" adalah Eksportir tidak menjual atau tidak\nmengalihkan kepemilikan instrumen tersebut kepada\npihak lain.\nAyat (2)\nHuruf a\nTerhadap penghasilan yang diterima atau diperoleh\nEksportir dari penempatan dana DHE SDA pada\ninstrurmen moneter dan/atau instrumen keuangan\nberupa deposito dikenai Pajak Penghasilan bersifat final\ndengan tarif berdasarkan Peraturan Pemerintah ini\nsepanjang sumber dana deposito berasal dari Rekening\nKhusus DHE SDA di Bank yang sama dengan Bank\npenerbit deposito tersebut.\nContoh 1: . . .\nSK No 170273 A\n\nPRESIDEN\nREPUBLIK INDONESIA\n-3-\nContoh 1:\nPT A selaku Eksportir menempatkan dana DHE SDA\npada Rekening Khusus DHE SDA di Bank X, kemudian\nmemindahkan dana tersebut pada Deposito yang\nditerbitkan Bank X. Atas penghasilan yang diterima PT A\ndari deposito tersebut dapat dikenai Pajak Penghasilan\ndengan tarif linal berdasarkan Peraturan Pemerintah ini.\nContoh 2:\nPT A selaku Eksportir menempatkan dana DHE SDA\npada Rekening Khusus di Bank X. Selanjutnya, PT A\nmemindahkan DHE SDA dari Rekening Khusus di Bank\nX ke Rekening Khusus di Bank Y, dan kemudian\nmemindahkan dananya ke Deposito yang diterbitkan oleh\nBank Y. Atas penghasilan yang diterima PT A dari\ndeposito tersebut dapat dikenai Pajak Penghasilan\ndengan tarif final berdasarkan Peraturan Pemerintah ini.\nContoh 3:\nPT A selaku Eksportir SDA menempatkan dana DHE SDA\npada Rekening Khusus di Bank X. Selanjutnya, PT A\nlangsung memindahkan dana tersebut pada Deposito\nyang diterbitkan Bank lain, yaitu Bank Y. Atas\npenghasilan yang diterima PT A dari deposito tersebut\ntidak dapat dikenai Pajak Penghasilan final berdasarkan\nPeraturan Pemerintah ini, melainkan dikenai Pajak\nPenghasilan berdasarkan ketentuan mengenai pengenaan\nPqiak Penghasilan atas bunga deposito yang berlaku\numum.\nHuruf b\nYang dimaksud dengan \"term deposit operasi pasar\nterbuka konvensional dalam valuta asing di Bank\nIndonesia\" mentpakan instrumen yang diterbitkan oleh\nBank Indonesia, sebagaimana diatur dalam peraturan\nperundang-undangan mengenai Devisa Hasil Ekspor dan\nDevisa Pembayaran Impor.\nSK No 170272 A\nYang. . .\n\nPRESIDEN\nREPUBUK INDONESIA\n-4-\nYang dimaksud dengan \"peserta operasi pasar terbuka\"\nmerupakan Bank dan/atau pihak lain sebagaimana\ndiatur dalam Peraturan Bank Indonesia mengenai operasi\nmoneter.\nTerhadap penghasilan yang diterima atau diperoleh\nEksportir dari penempatan dana DHE SDA pada\ninstrumen moneter dan/atau instrumen keuangan\nberupa term deposit operasi pasar terbuka konvensional\ndalam valuta asing, dikenai Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini, sepanjang\ndananya berasal dari Rekening Khusus DHE SDA pada\npeserta operasi pasar terbuka yang sama.\nContoh 1:\nPT B selaku Eksportir SDA memasukkan dana DHE SDA\nke dalam Rekening Khusus DHE SDA di Bank X.\nSelanjutnya PT B memindahkan dana DHE SDA ke\ninstrumen term deposit operasi pasar terbuka\nkonvensional dalam valuta asing melalui Bank X selaku\npeserta operasi pasar terbuka. Atas imbal hasil dari term\ndeposit operasi pasar terbuka konvensional dalam valuta\nasing yang dibayarkan melalui Bank X kepada PT B\ndapat dikenai Pajak Penghasilan dengan tarif\nberdasarkan Peraturan Pemerintah ini.\nContoh 2:\nPT B selaku Eksportir SDA memasukkan dana DHE SDA\nke dalam Rekening Khusus DHE SDA di Bank X.\nSelanjutnya PT B memindahkan dana DHE SDA ke term\ndeposit operasi pasar terbuka konvensional dalam valuta\nasing melalui Bank Z (tanpa membuka dan\nmenempatkan dana DHE SDA di Rekening Khusus DHE\nSDA di BankZl.\nAtas imbal hasil dari penempatan dana tersebut yang\ndibayarkan oleh Bank Z tidak dapat dikenai Pajak\nPenghasilan dengan tarif berdasarkan Peraturan\nPemerintah ini, melainkan dikenai Pajak Penghasilan\nberdasarkan ketentuan Pajak Penghasilan atas\npenghasilan berupa bunga atau diskonto yang berlaku\numum.\nSK No 170271 A\nHuruf c. . .\n\nPRESIDEN\nREPUEUK INDONESTA\n-5-\nHuruf c\nSurat sanggup mempakan promissory notes yang\nmerupakan instmmen keuangan yang diterbitkan oleh\nLPEI yang bersifat tidak dapat dialihkan dan dikuasakan.\nTerhadap penghasilan yang diterima atau diperoleh\nEksportir dari penempatan dana DHE SDA pada\ninstrumen moneter dan/atau instrumen keuangan\nberupa surat sanggup lpromissory notesl yang dananya\nbersumber dari Rekening Khusus DHE SDA Eksportir\nbersangkutan di LPEI, dikenai Pajak Penghasilan final\nberdasarkan Peraturan Pemerintah ini.\nContoh 1:\nPT X selaku Eksportir SDA yang mempakan debitur\nLPEI, memasukkan dana DHE SDA ke dalam Rekening\nKhusus DHE SDA di LPEI. PT X kemudian memindahkan\ndana DHE SDA tersebut untuk membeli surat sanggup\n(promfssory notes)yang diterbitkan oleh LPEI. Atas bunga\nyang diterima PT X dari instnrmen tersebut dapat dikenai\nPajak Penghasilan final dengan tarif berdasarkan\nPeraturan Pemerintah ini.\nContoh 2:\nPT Y selaku Eksportir non SDA merupakan debitur LPEI.\nPT Y membeli promissory notes yang diterbitkan oleh\nLPEL Atas bunga yang diterima PT Y dari LPEI tidak\ndapat dikenai Pajak Penghasilan final berdasarkan\nPeraturan Pemerintah ini, melainkan dikenai Pajak\nPenghasilan berdasarkan ketentuan umum Pajak\nPenghasilan atas penghasilan bunga.\nHuruf d\nCukup jelas.\nPasal 4\nAyat (1)\nCukup jelas.\nAyat (2)\nHuruf a\nCukup jelas.\nSK No 170286 A\nHuruf b .\n\nPRESIDEN\nREPUELIK INDONESIA\n-6-\nHuruf b\nTarif dalam ketentuan ini diterapkan untuk DHE SDA\nyang dikonversi ke dalam mata uang Rupiah dan\nditempatkan pada instmmen moneter atau keuangan\ntertentu di Indonesia.\nDana yang ditempatkan pada instrumen moneter atau\nkeuangan tertentu tersebut harus berasal dari Rekening\nKhusus DHE SDA dalam valuta asing.\nAyat (3)\nDalam hal setelah berakhirnya jatuh tempo penempatan\ninstrumen, Eksportir menempatkan kembali (roll ouefi\ndananya ke instrumen moneter dan/atau instrumen\nkeuangan tertentu, atas penghasilan dari instrumen moneter\ndan/atau instrumen keuangan tertentu tersebut dapat\ndikenai Pajak Penghasilan berdasarkan Peraturan Pemerintah\nini.\nContoh:\nPT A menempatkan dana DHE SDA dalam Rekening Khusus\nDHE SDA pada Bank X, selanjutnya dana tersebut\nditempatkan pada instrumen deposito pada Bank X untuk\njangka waktu penempatan 3 bulan.\nSetelah 3 bulan, PT A menarik dananya dan ditempatkan\nkembali ke Rekening Khusus DHE SDA di Bank X.\nSelanjutnya dana tersebut dipindahkan untuk ditempatkan\nkembali pada deposito di Bank X dengan jangka waktu\npenempatan 1 bulan. Atas penghasilan dari deposito 1 bulan\ntersebut, berlaku juga ketentuan tarif Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini.\nAyat (a)\nContoh:\nPT A menempatkan dana DHE SDA ke instrumen deposito di\nBank X sebesar USDI.OOO.OOO (satu juta Dolar Amerika\nSerikat) dengan tenor 3 bulan dan tingkat suku bunga 6%\nsetahun, dan bunganya dibayarkan setiap bulan kepada PT A.\nPT A menempatkan deposito pada tanggal 1 Juni 2025,\nBesarnya bunga yang diterima PT A di akhir bulan Juni\nadalah sebesar:\nSK No 170269 A\n(USD1.OOO.OO0 x6o/ol x (30/365 hari) = USD4.931,5\nDasar\n\nFRESIDEN\nREPUELTK INDONESIA\n-7-\nDasar pengenaan pajak bunga deposito yang dikenai\npemotongan Pajak Penghasilan final adalah sebesar\nUSD4.931,5 (empat ribu sembilan ratus tiga puluh satu koma\nlima Dolar Amerika Serikat). Untuk penghitungan dasar\npengenaan pajak bulan Juli dan Agustus mengikuti contoh\npenghitungan di atas dengan memperhitungkan jumlah hari\npada bulan pembayaran bunga deposito.\nPasal 5\nAyat (1)\nCukup jelas.\nAyat (2)\nPemotongan Pajak Penghasilan final berdasarkan Peraturan\nPemerintah ini dilakukan pada saat pembayaran bunga,\ndiskonto, atau imbalan lain sejenis oleh Bank atau pihak\nlainnya kepada Eksportir atas penempatan dana DHE SDA.\nContoh 1:\nPT A selaku Eksportir SDA yang merupakan debitur LPEI,\nmemasukkan dana DHE SDA ke dalam Rekening Khusus\nDHE SDA di LPEI kemudian memindahkan dana tersebut\nuntuk ditempatkan pada instrumen surat sanggup\nlhomissory Notesl.\nKontrak penempatan pada instrumen surat sanggup\n(Promrssory Notesl sebagai berikut:\na. ditempatkan sebelum Peraturan Pemerintah ini berlaku;\nb. tenor penempatan 3 (tiga) bulan; dan\nc. pembayaran bunga dilakukan saat akhir tenor\npenempatan.\nPembayaran bunga dan akhir periode jatuh tempo surat\nsanggup (Promessory Notesl tersebut terjadi setelah Peraturan\nPemerintah ini berlaku.\nBerdasarkan contoh tersebut, LPEI melakukan pemotongan\nPajak Penghasilan atas seluruh pembayaran bunga pada saat\npembayaran bunga dengan tarif Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini, pada saat dilakukan\npembayaran penghasilan di akhir periode penempatan surat\nsanggup (Promfsso ry Notesl.\nSK No 170301 A\nContoh 2:\n\nPRESIDEN\nREPUBLTK INDONESIA\n-8-\nContoh 2:\nPT B selaku Eksportir SDA yang merupakan debitur LPEI,\nmemasukkan dana DHE SDA ke dalam Rekening Khusus\nDHE SDA di LPEI kemudian memindahkan dana tersebut\nuntuk ditempatkan pada instrumen surat sanggup\n(Promfssory Notesl.\nKontrak penempatan pada instrumen surat sanggup\n(Promissory Notes) sebagai berikut:\na. ditempatkan pada surat sanggup lhomissory jVotes)\nsebelum Peraturan Pemerintah ini berlaku;\nb. tenor penempatan 3 (tiga) bulan; dan\nc. pembayaran bunga dilakukan setiap akhir bulan\n(pembayaran bunga dilakukan tiga kali, setiap akhir\nbulan).\nPembayaran bunga bulan pertama dan kedua dilakukan\nsebelum Peraturan Pemerintah ini berlaku, dan untuk\npembayaran bunga bulan ketiga dilakukan saat Peraturan\nPemerintah ini berlaku.\nBerdasarkan contoh tersebut, maka LPEI melakukan\npemotongan Pajak Penghasilan sebagai berikut:\na. atas bunga bulan pertama dan kedua yang dibayarkan\nsebelum berlakunya Peraturan Pemerintah ini, dikenai\nPajak Penghasilan berdasarkan ketentuan umum Pajak\nPenghasilan atas penghasilan bunga; dan\nb. atas bunga bulan ketiga yang dibayarkan setelah\nberlakunya Peraturan Pemerintah ini, dipotong Pajak\nPenghasilan yang bersifat final berdasarkan ketentuan\ndalam Peraturan Pemerintah ini.\nContoh 3:\nBerdasarkan Contoh 2 di atas, walaupun kontrak mengatur\nbahwa bunga dibayarkan secara bulanan, ternyata realisasi\npembayaran bunga seluruhnya baru dilakukan oleh LPEI\npada akhir tenor, yang terjadi setelah Peraturan Pemerintah\nini berlaku.\nPemotongan Pajak Penghasilan oleh LPEI sebagai berikut:\na. atas bunga bulan pertama dan kedua yang sesuai kontrak\nseharusnya dibayarkan setiap bulan sebelum Peraturan\nPemerintah ini berlaku, dikenai Pajak Penghasilan\nberdasarkan ketentuan umum Pajak Penghasilan atas\npenghasilan bunga; dan\nb.atas...\nSK No 1703004\n\nPRESIDEN\nREPUBUK INDONESTA\n-9-\nb. atas bunga bulan ketiga yang seharusnya dibayarkan\nsetelah Peraturan Pemerintah ini berlaku, dipotong Pajak\nPenghasilan yang bersifat final berdasarkan ketentuan\ndalam Peraturan Pemerintah ini.\nContoh 4:\nPT C selaku Eksportir SDA memasukkan dana DHE SDA ke\ndalam Rekening Khusus Bank M, kemudian memindahkan\ndana tersebut pada deposito di Bank M.\nKontrak Deposito sebagai berikut:\na. ditempatkan pada deposito sebelum Peraturan Pemerintah\nini berlaku;\nb. tenor penempatan 3 (tiga) bulan; dan\nc. pembayaran bunga dilakukan setiap akhir bulan\n(pembayaran bunga dilakukan tiga kali, setiap akhir\nbulan)\nPembayaran bunga bulan pertama dilakukan sebelum\nPeraturan Pemerintah ini berlaku, dan untuk pembayaran\nbunga bulan kedua dan ketiga dilakukan saat Peraturan\nPemerintah ini berlaku.\nBerdasarkan kondisi tersebut, maka pemotongan Pajak\nPenghasilan oleh Bank M sebagai berikut:\na. Atas bunga bulan pertama yang dibayarkan sebelum\nberlakunya Peraturan Pemerintah ini, dipotong Pajak\nPenghasilan berdasarkan ketentuan dalam Peraturan\nPemerintah Nomor 131 Tahun 2000 tentang Pajak\nPenghasilan atas Bunga Deposito dan Tabungan serta\nDiskonto Sertifikat Bank Indonesia sebagaimana telah\ndiubah dengan Peraturan Pemerintah Nomor 123 Tahun\n2Ol5 tentang Perubahan atas Peraturan Pemerintah\nNomor 131 Tahun 20OO tentang Pajak Penghasilan atas\nBunga Deposito dan Tabungan serta Diskonto Sertifikat\nBank Indonesia.\nb. Atas bunga bulan kedua dan ketiga yang dibayarkan\nsetelah berlakunya Peraturan Pemerintah ini, dipotong\nPajak Penghasilan yang bersifat final berdasarkan\nketentuan dalam Peraturan Pemerintah ini.\nSK No 170299 A\nContoh5:...\n\nPRESIDEN\nREPUEL|K INDONESIA\n-10-\nContoh 5:\nPT D selaku Eksportir SDA memasukkan dana DHE SDA ke\ndalam Rekening Khusus Bank P, kemudian memindahkan\ndana tersebut pada deposito valuta asing di Bank P.\nKontrak Deposito sebagai berikut:\na. ditempatkan pada deposito setelah Peraturan Pemerintah\nini berlaku;\nb. tenor penempatan 6 (enam) bulan; dan\nc. pembayaran bunga dilakukan setiap akhir bulan\n(pembayaran bunga dilakukan enam kali, setiap akhir\nbulan).\nDengan kontrak tenor penempatan 6 (enam) bulan, maka\npada saat pembayaran bunga setiap bulannya, Bank P\nmelakukan pemotongan Pajak Penghasilan bersifat final\ndengan tanf 2,5o/o (dua koma lima persen), sesuai ketentuan\nPasal 4 ayat (2) huruf a Peraturan Pemerintah ini.\nBerdasarkan contoh tersebut di atas, ternyata pada akhir\nbulan ketiga PT D menarik dana Deposito.\nBerdasarkan ketentuan Pasal 4 ayat (2) huruf a Peraturan\nPemerintah ini, karena tenor penempatan menjadi 3 (tiga)\nbulan, maka seharusnya bunga yang dibayarkan kepada PT D\ndikenai Pajak Penghasilan bersifat final dengan tarif 7,5o/o\n(tujuh koma lima persen).\nDengan contoh tersebut, pada saat pembayaran bunga bulan\nketiga (ketika deposito ditarik oleh PT D), Bank P melakukan\npemotongan Pajak Penghasilan sebagai berikut:\na. tartf 7,5o/o (tujuh koma lima persen) dikalikan bunga bulan\nketiga; ditambah\nb. tarif 5o/o (lima persen) dikalikan bunga yang telah\ndibayarkan di bulan pertama dan bulan kedua.\nTarif 5o/o (lima persen) tersebut di atas merupakan\nkekurangan pemotongan Pajak Penghasilan untuk bulan\npertama dan kedua yang disebabkan karena PT D menarik\ndeposito sebelum berakhirnya tenor penempatan.\nTarif 5olo (lima persen) adalah selisih tarif 7,5o/o (tujuh koma\nlima persen) yang merupakan tarif untuk penempatan 3 (tiga)\nbulan dengan tarif 2,5o/o (dua koma lima persen) yang\nmerupakan tarif yang telah digunakan untuk pemotongan\nPajak Penghasilan di bulan pertama dan kedua.\nAyat(3) ...\nSK No 170298 A\n\nPRESIDEN\nREPUBLIK INDONESIA\n-11-\nAyat (3)\nCukup jelas.\nAyat (4)\nCukup jelas.\nPasal 6\nCukup jelas.\nPasal 7\nCukup jelas.\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 6918\nSK No 170497 A",
+          "children": [],
+          "halaman_sumber": [
+            9,
+            19
+          ]
+        }
+      ],
+      "halaman_sumber": [
+        9,
+        19
+      ]
+    }
+  ],
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "SALINAN\nPRESIDEN\nREPUELIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 22 TAHUN 2024\nTENTANG\nPERLAKUAN PA.'AK PENGHASILAN ATAS PENGHASILAN DARI\nPENEMPATAN DEVISA HASIL EKSPOR SUMBER DAYA AI\"AM PADA\nINSTRUMEN MONETER DAN/ATAU INSTRUMEN KEUANGAN TERTENTU\nDI INDONESIA\nDENGAN RAHMAT TUHAN YANG MAHA ESA\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang\nbahwa untuk mendukung kebijakan pemasukan dan\npenempatan devisa hasil ekspor yang berasal dari\nbarang ekspor sumber daya alam ke dalam sistem\nkeuangan Indonesia, perlu memberikan kebijakan\nkhusus di bidang Pajak Penghasilan;\nbahwa kebijakan khusus di bidang pajak penghasilan\nsebagaimana dimaksud dalam huruf a dapat diberikan\nmelalui pengenaan Pajak Penghasilan bersifat final\natas penghasilan dari penempatan devisa hasil ekspor\nsumber daya alam pada instmmen moneter dan/atau\ninstmmen keuangan tertentu;\nbahwa berdasarkan pertimbangan sebagaimana\ndimaksud dalam huruf a dan huruf b, serta untuk\nmelaksanakan ketentuan Pasal 4 ayat (21 huruf e\nUndang-Undang Nomor 7 Tahun 1983 tentang pajak\nPenghasilan sebagaimana telah beberapa kali diubah\nterakhir dengan Undang-Undang Nomor 7 Tahun 2O2l\ntentang Harmonisasi Peraturan Perpajakan, perlu\nmenetapkan Peraturan Pemerintah tentang perlakuan\nPajak Penghasilan atas Penghasilan dari penempatan\nDevisa Hasil Ekspor Sumber Daya Alam pada\nInstrumen Moneter dan/atau Instmmen Keuangan\nTertentu di Indonesia;\nMengingat . . .\na.\nb.\nc.\nSK No 170500 A"
+    },
+    {
+      "page_number": 2,
+      "content": "Mengingat\nMenetapkan\n1.\n2.\nPRESIDEN\nREPUBUK INDONESIA\n-2-\nPasal 5 ayat (21 Undang-Undang Dasar Negara\nRepublik Indonesia Tahun 1945;\nUndang-Undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan (Lembaran Negara Republik Indonesia\nTahun 1983 Nomor 50, Tambahan kmbaran Negara\nRepublik Indonesia Nomor 3263l, sebagaimana telah\nbeberapa kali diubah terakhir dengan Undang-Undang\nNomor 7 Tahun 2O2l tentang Harmonisasi Peraturan\nPerpajakan (Lembaran Negara Republik Indonesia\nMEMUTUSKAN:\nPERATURAN PEMERINTAH TENTANG PERI.AKUAN PAJAK\nPENGHASILAN ATAS PENGHASILAN DARI PENEMPATAN\nDEVISA HASIL EKSPOR SUMBER DAYA ALAM PADA\nINSTRUMEN MONETER DAN/ATAU INSTRUMEN\nKEUANGAN TERTENTU DI INDONESIA.\nPasal 1\nDalam Peraturan Pemerintah ini yang dimaksud dengan:\n1. Pajak Penghasilan adalah pajak penghasilan\nsebagaimana dimaksud dalam Undang-Undang Pajak\nPenghasilan.\n2. Devisa Hasil Ekspor dari Barang Ekspor Sumber Daya\nAlam yang selanjutnya disingkat DHE SDA adalah\ndevisa hasil kegiatan ekspor barang yang berasal dari\nkegiatan pengusahaan, pengelolaan, danf atau\npengolahan sumber daya alam.\n3. Eksportir adalah orang perseorangan atau lembaga\natau badan usaha, baik yang berbentuk badan hukum\nmaupun bukan badan hukum, yang melakukan\nekspor.\n4. Bank. . .\nSK No 170282 A\nTahun 2O2l Nomor 246, Tarrbahan l,embaran Negara\nRepublik Indonesia Nomor 67361;"
+    },
+    {
+      "page_number": 3,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-3-\n4. Bank yang Melakukan Kegiatan Usaha dalam Valuta\nAsing yang selanjutnya disebut Bank adalah bank\numum sebagaimana dimaksud dalam Undang-Undang\nmengenai perbankan dan bank umum syariah\nsebagaimana dimaksud dalam Undang-Undang\nmengenai perbankan syariah, termasuk kantor cabang\nbank yang berkedudukan di luar negeri namun tidak\ntermasuk kantor cabang luar negeri dari bank yang\nberkantor pusat di Indonesia, yang memperoleh\npersetujuan dari otoritas yang berwenang untuk\nmelakukan kegiatan usaha dalam valuta asing.\n5. Bank Indonesia adalah Bank Sentral Republik\nIndonesia sebagaimana dimaksud dalam Undang-\nUndang Dasar Negara Republik Indonesia Tahun 1945.\n6. Lembaga Pembiayaan Ekspor Indonesia yang\nselanjutnya disingkat LPEI adalah l,embaga\nPembiayaan Ekspor Indonesia sebagaimana dimaksud\ndalam Undang-Undang mengenai Lembaga Pembiayaan\nEkspor Indonesia.\n7. Rekening Khusus DHE SDA adalah rekening Eksportir\ndi LPEI dan/atau Bank yang melakukan kegiatan\nusaha dalam valuta asing, yang ditujukan khusus\nuntuk menerima dan menyimpan DHE SDA.\nPasal 2\nPenghasilan yang diterima atau diperoleh Eksportir dari\npenempatan DHE SDA pada instrumen moneter dan/atau\ninstrumen keuangan tertentu di Indonesia, dikenai Pajak\nPenghasilan yang bersifat final.\nPasal 3\n(1) Instrumen moneter dan/atau instrumen keuangan\ntertentu di Indonesia sebagaimana dimaksud dalam\nPasal 2 merupakan instrumen moneter dan/atau\ninstrumen keuangan yang memenuhi kriteria sebagai\nberikut:\nSK No 170281 A\na.merupakan. . ."
+    },
+    {
+      "page_number": 4,
+      "content": "FRESIDEN\nREPUBLIK INDONESIA\n-4-\na. merupakan instrumen perbankan di Indonesia,\ninstrumen keuangan yang diterbitkan oleh LPEI,\ndan/atau instrumen moneter yang diterbitkan oleh\nBank Indonesia;\nb. dananya berasal dari DHE SDA;\nc. memiliki jangka waktu penempatan paling singkat\n1 (satu) bulan; dan\nd. tidak diperdagangkan di pasar se}mnder.\nl2l Instrumen moneter dan/atau instrumen keuangan\ntertentu di Indonesia sebagaimana dimaksud pada\nayat (1) berupa:\na. deposito yang diterbitkan oleh Bank yang sumber\ndananya berasal dari Rekening Khusus DHE SDA\npada Bank yang sama;\nb. term deposit operasi pasar terbuka konvensional\ndalam valuta asing di Bank Indonesia yang\npenempatannya melalui peserta operasi pasar\nterbuka dan sumber dananya berasal dari\nRekening Khusus DHE SDA pada peserta operasi\npasar terbuka yang sama;\nc. surat sanggup yang diterbitkan oleh LPEI yang\nsumber dananya berasal dari Rekening Khusus\nDHE SDA pada LPEI; dan\nd. instrumen moneter lain atau instrumen keuangan\nlain yang ditetapkan oleh Menteri Keuangan,\nsetelah berkoordinasi dengan Gubernur Bank\nIndonesia.\nPasal 4\n(U Pajak Penghasilan yang bersifat final sebagaimana\ndimaksud dalam Pasal 2 dihitung dengan cara\nmengalikan tarif Pajak Penghasilan final dengan dasar\npengenaan pajak.\n(21 Tarif Pajak Penghasilan final sebagaimana dimaksud\npada ayat (1), berlaku ketentuan sebagai berikut:\nSK No 170307 A\na. atas . ."
+    },
+    {
+      "page_number": 5,
+      "content": "a.\nb.\nPRESIDEN\nREPUBUK INDONESTA\n-5-\natas penghasilan dari instrumen moneter\ndan/atau instrumen keuangan tertentu\nsebagaimana dimaksud dalam Pasal 3 yang\ndananya dalam valuta asing dikenai Pajak\nPenghasilan yang bersifat final dengan:\n1. tarif sebesar Oo/o (nol persen), untuk\ninstrumen dengan jangka waktu penempatan\nlebih dari 6 (enam) bulan;\n2. tarif sebesar 2,5o/o (dua koma lima persen)\nuntuk instrumen dengan jangka waktu\npenempatan 6 (enam) bulan;\n3. tarif sebesar 7,5o/o (tujuh koma lima persen),\nuntuk instrumen dengan jangka waktu\npenempatan 3 (tiga) bulan sampai dengan\nkurang dari 6 (enam) bulan; atau\n4. tarif sebesar lOo/o (sepuluh persen), untuk\ninstrumen dengan jangka waktu penempatan\n1 (satu) bulan sampai dengan kurang dari 3\n(tiga) bulan.\natas penghasilan dari instmmen moneter\ndan/atau instrumen keuangan tertentu\nsebagaimana dimaksud dalam Pasal 3 yang\ndananya dikonversi dari valuta asing ke mata uang\nRupiah, dikenai Pajak Penghasilan yang bersifat\nfinal dengan:\n1. tarif sebesar Oo/o (nol persen), untuk\ninstrumen dengan jangka waktu penempatan\n6 (enam) bulan atau lebih dari 6 (enam) bulan;\n2. tarif sebesar 2,5o/o (dua koma lima persen),\nuntuk instmmen dengan jangka waktu\npenempatan 3 (tiga) bulan sampai dengan\nkurang dari 6 (enam) bulan; atau\n3. tarif sebesar 5o/o (lima persen), untuk\ninstrumen dengan jangka waktu penempatan\n1 (satu) bulan sampai dengan kurang dari 3\n(tiga) bulan;\nSK No 170279 A\n(3) Tarif..."
+    },
+    {
+      "page_number": 6,
+      "content": "PRESIDEN\nREPUELIK INDONESIA\n-6-\n(3) Tarif sebagaimana dimaksud pada ayat l2l berlaku\njuga untuk penempatan kembali dana DHE SDA pada\ninstrumen moneter dan/atau instrumen keuangan\ntertentu sebagaimana dimaksud dalam Pasal 3, setelah\ntanggal jatuh tempo instrumen moneter dan/atau\ninstrumen keuangan tertentu berakhir.\n(4) Dasar pengenaan pajak sebagaimana dimaksud pada\nayat (1) merupakan jumlah bruto dari penghasilan\nyang diterima Eksportir dari penempatan DHE SDA\npada instmmen moneter dan/atau instmmen\nkeuangan tertentu sebagaimana dimaksud dalam\nPasal 3.\nPasal 5\n(1) Pajak Penghasilan yang bersifat final sebagaimana\ndimaksud dalam Pasal 4 dilunasi melalui mekanisme\npemotongan Pajak Penghasilan.\n(21 Pemotongan Pajak Penghasilan sebagaimana dimaksud\npada ayat (1) dilakukan pada saat pembayaran\npenghasilan kepada Eksportir.\n(3) Pemotongan Pajak Penghasilan sebagaimana dimaksud\npada ayat (1) dilakukan oleh:\na. Bank untuk penghasilan Eksportir dari instrrrmen\nsebagaimana dimaksud dalam Pasal 3 ayat (21\nhuruf a;\nb. Peserta operasi pasar terbuka untuk penghasilan\nEksportir dari instrumen sebagaimana dimaksud\ndalam Pasal 3 ayat (2) huruf b;\nc. LPEI untuk penghasilan Eksportir dari instrumen\nsebagaimana dimaksud dalam Pasal 3 ayat (21\nhuruf c; atau\nd. Bank atau LPEI sebagai:\n1) penerbit instrumen keuangan; atau\n2) peserta operasi pasar terbuka,\nuntuk penghasilan Eksportir dari instrumen\nsebagaimana dimaksud dalam Pasal 3 ayat (2)\nhuruf d.\n(a) Tata...\nSK No 170278 A"
+    },
+    {
+      "page_number": 7,
+      "content": "PRESIDEN\nREPUBUK INDONESIA\n-7-\n(41 Tata cara pelunasan dan pelaporan Pajak Penghasilan\nsebagaimana dimaksud pada ayat (1) dilaksanakan\nsesuai dengan ketentuan peraturan perundang-\nundangan di bidang perpajakan.\nPasal 6\nPada saat Peraturan Pemerintah ini mulai berlaku,\nketentuan Pasal 2 Peraturan Pemerintah Nomor 131\nTahun 2OO0 tentang Pajak Penghasilan atas Bunga\nDeposito dan Tabungan serta Diskonto Sertifikat Bank\nIndonesia (Lembaran Negara Republik Indonesia\nTahun 2OO0 Nomor 236, Tambahan Lembaran Negara\nRepublik Indonesia Nomor 4039) sebagaimana telah diubah\ndengan Peraturan Pemerintah Nomor 123 Tahun 2015\ntentang Perubahan atas Peraturan Pemerintah Nomor 131\nTahun 2000 tentang Pajak Penghasilan Atas Bunga\nDeposito dan Tabungan serta Diskonto Sertifikat Bank\nlndonesia (l,embaran Negara Republik Indonesia Tahun\n2015 Nomor 346, Tambahan Lembaran Negara Republik\nIndonesia Nomor 5803), yang mengatur mengenai\npengenaan Pajak Penghasilan atas bunga dari deposito yang\ndananya bersumber dari DHE SDA, dicabut dan dinyatakan\ntidak berlaku.\nPasal 7\nPeraturan Pemerintah ini mulai berlaku pada tanggal\ndiundangkan.\nSK No 170277 A\nAgar"
+    },
+    {
+      "page_number": 8,
+      "content": "PRESIDEN\nREPUBLTK INDONESIA\n-8-\nAgar setiap\npengundangan\npenempatannya\nIndonesia.\norang mengetahuinya, memerintahkan\nPeraturan Pemerintah ini \ndengan\ndalam kmbaran Negara Republik\nDitetapkan di Jakarta\npada tanggal 20 Mei 2024\nPRESIDEN REPUBLIK INDONESIA,\nttd\nJOKO WIDODO\nDiundangkan di Jakarta\npada tanggal 2O Mei 2024\nMENTERI SEKRETARIS NEGARA\nREPUBLIK INDONESIA,\nPRATIKNO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2024 NOMOR 84\nSalinan sesuai dengan aslinya\nKEMENTERIAN SEKRETAzuAT NEGARA\nREPUBLIK INDONESIA\nPenrndang-undangan dan\nHukum,\nttd\nSK No 170496 A\nDjaman"
+    },
+    {
+      "page_number": 9,
+      "content": "FRESIDEN\nREPUBLIK INDONESIA\nPENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 22 TAHVN 2024\nTENTANG\nPERLAKUAN PAJAK PENGHASILAN ATAS PENGHASILAN DARI\nPENEMPATAN DEVISA HASIL EKSPOR SUMBER DAYA ALAM PADA\nINSTRUMEN MONETER DAN/ATAU INSTRUMEN KEUANGAN TERTENTU\nDI INDONESIA\nI. \nUMUM\nKetersediaan valuta asing di dalam negeri merupakan salah satu\nfaktor penting dalam menjaga stabilitas moneter dan perekonomian\nnasional. Oleh karena itu, Pemerintah perlu terus melakukan upaya\nuntuk menjaga ketersediaan valuta asing di dalam negeri, antara lain\nmelalui kebijakan optimalisasi pemasukan dan penempatan DHE SDA\nvaluta asing ke dalam sistem keuangan Indonesia.\nDalam rangka mendukung kebijakan optimalisasi pemasukan dan\npenempatan DHE SDA ke dalam sistem keuangan Indonesia tersebut,\nPemerintah perlu mengeluarkan kebijakan perpajakan untuk\nmendorong Eksportir menempatlan DHE SDA-nya ke dalam sistem\nkeuangan Indonesia. Kebijakan perpajakan dimaksud adalah melalui\nperlakuan Pajak Penghasilan yang bersifat final dengan tarif yang lebih\nrendah atas penghasilan yang diterima Eksportir dari penempatan DHE\nSDA pada instrumen moneter dan/atau instrumen keuangan tertentu\ndi Indonesia.\nKebijakan dalam Peraturan Pemerintah ini, selain merupakan\nupaya Pemerintah untuk mendorong Eksportir menempatkan dana\nhasil ekspornya ke dalam sistem keuangan Indonesia, juga bentuk\npenyelarasan dan pengharmonisasian dengan kebijakan yang\ndituangkan dalam peraturan perundang-undangan yang mengatur\nmengenai devisa hasil ekspor dari kegiatan pengusahaan, pengelolaan\ndan/atau pengolahan sumber daya alam.\nMateri . . .\nSK No 1704984"
+    },
+    {
+      "page_number": 10,
+      "content": "PRESIDEN\nREPUBUK TNDONESIA\n-2-\nMateri pengaturan dalam Peraturan Pemerintah ini mencakup\npengaturan mengenai subjek pajak dan objek pajak yang mendapatkan\nperlakuan khusus berupa pengenaan tarif Pajak Penghasilan yang\nbersifat final dengan tarif lebih rendah, besaran tarif Pajak Penghasilan\nyang bersifat final, dan mekanisme pelunasan Pajak Penghasilan yang\nbersifat final tersebut. Dalam pengaturan objek pajak yang\nmendapatkan perlakuan khusus tersebut, termasuk juga pengaturan\nmengenai kriteria dan cakupan instrumen moneter dan instrumen\nkeuangan tertentu, yang atas penghasilan dari penempatan DHE SDA\npada instrumen-instrumen tersebut mendapatkan perlakuan khusus\nPajak Penghasilan.\nil. \nPASAL DEMI PASAL\nPasal I\nCukup jelas.\nPasal 2\nCukup jelas.\nPasal 3\nAyat (1)\nHuruf a\nCukup jelas.\nHuruf b\nCukup jelas.\nHuruf c\nCukup jelas.\nHuruf d\nYang dimaksud dengan \"tidak diperdagangkan di pasar\nsekunder\" adalah Eksportir tidak menjual atau tidak\nmengalihkan kepemilikan instrumen tersebut kepada\npihak lain.\nAyat (2)\nHuruf a\nTerhadap penghasilan yang diterima atau diperoleh\nEksportir dari penempatan dana DHE SDA pada\ninstrurmen moneter dan/atau instrumen keuangan\nberupa deposito dikenai Pajak Penghasilan bersifat final\ndengan tarif berdasarkan Peraturan Pemerintah ini\nsepanjang sumber dana deposito berasal dari Rekening\nKhusus DHE SDA di Bank yang sama dengan Bank\npenerbit deposito tersebut.\nContoh 1: . . .\nSK No 170273 A"
+    },
+    {
+      "page_number": 11,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-3-\nContoh 1:\nPT A selaku Eksportir menempatkan dana DHE SDA\npada Rekening Khusus DHE SDA di Bank X, kemudian\nmemindahkan dana tersebut pada Deposito yang\nditerbitkan Bank X. Atas penghasilan yang diterima PT A\ndari deposito tersebut dapat dikenai Pajak Penghasilan\ndengan tarif linal berdasarkan Peraturan Pemerintah ini.\nContoh 2:\nPT A selaku Eksportir menempatkan dana DHE SDA\npada Rekening Khusus di Bank X. Selanjutnya, PT A\nmemindahkan DHE SDA dari Rekening Khusus di Bank\nX ke Rekening Khusus di Bank Y, dan kemudian\nmemindahkan dananya ke Deposito yang diterbitkan oleh\nBank Y. Atas penghasilan yang diterima PT A dari\ndeposito tersebut dapat dikenai Pajak Penghasilan\ndengan tarif final berdasarkan Peraturan Pemerintah ini.\nContoh 3:\nPT A selaku Eksportir SDA menempatkan dana DHE SDA\npada Rekening Khusus di Bank X. Selanjutnya, PT A\nlangsung memindahkan dana tersebut pada Deposito\nyang diterbitkan Bank lain, yaitu Bank Y. Atas\npenghasilan yang diterima PT A dari deposito tersebut\ntidak dapat dikenai Pajak Penghasilan final berdasarkan\nPeraturan Pemerintah ini, melainkan dikenai Pajak\nPenghasilan berdasarkan ketentuan mengenai pengenaan\nPqiak Penghasilan atas bunga deposito yang berlaku\numum.\nHuruf b\nYang dimaksud dengan \"term deposit operasi pasar\nterbuka konvensional dalam valuta asing di Bank\nIndonesia\" mentpakan instrumen yang diterbitkan oleh\nBank Indonesia, sebagaimana diatur dalam peraturan\nperundang-undangan mengenai Devisa Hasil Ekspor dan\nDevisa Pembayaran Impor.\nSK No 170272 A\nYang. . ."
+    },
+    {
+      "page_number": 12,
+      "content": "PRESIDEN\nREPUBUK INDONESIA\n-4-\nYang dimaksud dengan \"peserta operasi pasar terbuka\"\nmerupakan Bank dan/atau pihak lain sebagaimana\ndiatur dalam Peraturan Bank Indonesia mengenai operasi\nmoneter.\nTerhadap penghasilan yang diterima atau diperoleh\nEksportir dari penempatan dana DHE SDA pada\ninstrumen moneter dan/atau instrumen keuangan\nberupa term deposit operasi pasar terbuka konvensional\ndalam valuta asing, dikenai Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini, sepanjang\ndananya berasal dari Rekening Khusus DHE SDA pada\npeserta operasi pasar terbuka yang sama.\nContoh 1:\nPT B selaku Eksportir SDA memasukkan dana DHE SDA\nke dalam Rekening Khusus DHE SDA di Bank X.\nSelanjutnya PT B memindahkan dana DHE SDA ke\ninstrumen term deposit operasi pasar terbuka\nkonvensional dalam valuta asing melalui Bank X selaku\npeserta operasi pasar terbuka. Atas imbal hasil dari term\ndeposit operasi pasar terbuka konvensional dalam valuta\nasing yang dibayarkan melalui Bank X kepada PT B\ndapat dikenai Pajak Penghasilan dengan tarif\nberdasarkan Peraturan Pemerintah ini.\nContoh 2:\nPT B selaku Eksportir SDA memasukkan dana DHE SDA\nke dalam Rekening Khusus DHE SDA di Bank X.\nSelanjutnya PT B memindahkan dana DHE SDA ke term\ndeposit operasi pasar terbuka konvensional dalam valuta\nasing melalui Bank Z (tanpa membuka dan\nmenempatkan dana DHE SDA di Rekening Khusus DHE\nSDA di BankZl.\nAtas imbal hasil dari penempatan dana tersebut yang\ndibayarkan oleh Bank Z tidak dapat dikenai Pajak\nPenghasilan dengan tarif berdasarkan Peraturan\nPemerintah ini, melainkan dikenai Pajak Penghasilan\nberdasarkan ketentuan Pajak Penghasilan atas\npenghasilan berupa bunga atau diskonto yang berlaku\numum.\nSK No 170271 A\nHuruf c. . ."
+    },
+    {
+      "page_number": 13,
+      "content": "PRESIDEN\nREPUEUK INDONESTA\n-5-\nHuruf c\nSurat sanggup mempakan promissory notes yang\nmerupakan instmmen keuangan yang diterbitkan oleh\nLPEI yang bersifat tidak dapat dialihkan dan dikuasakan.\nTerhadap penghasilan yang diterima atau diperoleh\nEksportir dari penempatan dana DHE SDA pada\ninstrumen moneter dan/atau instrumen keuangan\nberupa surat sanggup lpromissory notesl yang dananya\nbersumber dari Rekening Khusus DHE SDA Eksportir\nbersangkutan di LPEI, dikenai Pajak Penghasilan final\nberdasarkan Peraturan Pemerintah ini.\nContoh 1:\nPT X selaku Eksportir SDA yang mempakan debitur\nLPEI, memasukkan dana DHE SDA ke dalam Rekening\nKhusus DHE SDA di LPEI. PT X kemudian memindahkan\ndana DHE SDA tersebut untuk membeli surat sanggup\n(promfssory notes)yang diterbitkan oleh LPEI. Atas bunga\nyang diterima PT X dari instnrmen tersebut dapat dikenai\nPajak Penghasilan final dengan tarif berdasarkan\nPeraturan Pemerintah ini.\nContoh 2:\nPT Y selaku Eksportir non SDA merupakan debitur LPEI.\nPT Y membeli promissory notes yang diterbitkan oleh\nLPEL Atas bunga yang diterima PT Y dari LPEI tidak\ndapat dikenai Pajak Penghasilan final berdasarkan\nPeraturan Pemerintah ini, melainkan dikenai Pajak\nPenghasilan berdasarkan ketentuan umum Pajak\nPenghasilan atas penghasilan bunga.\nHuruf d\nCukup jelas.\nPasal 4\nAyat (1)\nCukup jelas.\nAyat (2)\nHuruf a\nCukup jelas.\nSK No 170286 A\nHuruf b ."
+    },
+    {
+      "page_number": 14,
+      "content": "PRESIDEN\nREPUELIK INDONESIA\n-6-\nHuruf b\nTarif dalam ketentuan ini diterapkan untuk DHE SDA\nyang dikonversi ke dalam mata uang Rupiah dan\nditempatkan pada instmmen moneter atau keuangan\ntertentu di Indonesia.\nDana yang ditempatkan pada instrumen moneter atau\nkeuangan tertentu tersebut harus berasal dari Rekening\nKhusus DHE SDA dalam valuta asing.\nAyat (3)\nDalam hal setelah berakhirnya jatuh tempo penempatan\ninstrumen, Eksportir menempatkan kembali (roll ouefi\ndananya ke instrumen moneter dan/atau instrumen\nkeuangan tertentu, atas penghasilan dari instrumen moneter\ndan/atau instrumen keuangan tertentu tersebut dapat\ndikenai Pajak Penghasilan berdasarkan Peraturan Pemerintah\nini.\nContoh:\nPT A menempatkan dana DHE SDA dalam Rekening Khusus\nDHE SDA pada Bank X, selanjutnya dana tersebut\nditempatkan pada instrumen deposito pada Bank X untuk\njangka waktu penempatan 3 bulan.\nSetelah 3 bulan, PT A menarik dananya dan ditempatkan\nkembali ke Rekening Khusus DHE SDA di Bank X.\nSelanjutnya dana tersebut dipindahkan untuk ditempatkan\nkembali pada deposito di Bank X dengan jangka waktu\npenempatan 1 bulan. Atas penghasilan dari deposito 1 bulan\ntersebut, berlaku juga ketentuan tarif Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini.\nAyat (a)\nContoh:\nPT A menempatkan dana DHE SDA ke instrumen deposito di\nBank X sebesar USDI.OOO.OOO (satu juta Dolar Amerika\nSerikat) dengan tenor 3 bulan dan tingkat suku bunga 6%\nsetahun, dan bunganya dibayarkan setiap bulan kepada PT A.\nPT A menempatkan deposito pada tanggal 1 Juni 2025,\nBesarnya bunga yang diterima PT A di akhir bulan Juni\nadalah sebesar:\nSK No 170269 A\n(USD1.OOO.OO0 x6o/ol x (30/365 hari) = USD4.931,5\nDasar"
+    },
+    {
+      "page_number": 15,
+      "content": "FRESIDEN\nREPUELTK INDONESIA\n-7-\nDasar pengenaan pajak bunga deposito yang dikenai\npemotongan Pajak Penghasilan final adalah sebesar\nUSD4.931,5 (empat ribu sembilan ratus tiga puluh satu koma\nlima Dolar Amerika Serikat). Untuk penghitungan dasar\npengenaan pajak bulan Juli dan Agustus mengikuti contoh\npenghitungan di atas dengan memperhitungkan jumlah hari\npada bulan pembayaran bunga deposito.\nPasal 5\nAyat (1)\nCukup jelas.\nAyat (2)\nPemotongan Pajak Penghasilan final berdasarkan Peraturan\nPemerintah ini dilakukan pada saat pembayaran bunga,\ndiskonto, atau imbalan lain sejenis oleh Bank atau pihak\nlainnya kepada Eksportir atas penempatan dana DHE SDA.\nContoh 1:\nPT A selaku Eksportir SDA yang merupakan debitur LPEI,\nmemasukkan dana DHE SDA ke dalam Rekening Khusus\nDHE SDA di LPEI kemudian memindahkan dana tersebut\nuntuk ditempatkan pada instrumen surat sanggup\nlhomissory Notesl.\nKontrak penempatan pada instrumen surat sanggup\n(Promrssory Notesl sebagai berikut:\na. ditempatkan sebelum Peraturan Pemerintah ini berlaku;\nb. tenor penempatan 3 (tiga) bulan; dan\nc. pembayaran bunga dilakukan saat akhir tenor\npenempatan.\nPembayaran bunga dan akhir periode jatuh tempo surat\nsanggup (Promessory Notesl tersebut terjadi setelah Peraturan\nPemerintah ini berlaku.\nBerdasarkan contoh tersebut, LPEI melakukan pemotongan\nPajak Penghasilan atas seluruh pembayaran bunga pada saat\npembayaran bunga dengan tarif Pajak Penghasilan\nberdasarkan Peraturan Pemerintah ini, pada saat dilakukan\npembayaran penghasilan di akhir periode penempatan surat\nsanggup (Promfsso ry Notesl.\nSK No 170301 A\nContoh 2:"
+    },
+    {
+      "page_number": 16,
+      "content": "PRESIDEN\nREPUBLTK INDONESIA\n-8-\nContoh 2:\nPT B selaku Eksportir SDA yang merupakan debitur LPEI,\nmemasukkan dana DHE SDA ke dalam Rekening Khusus\nDHE SDA di LPEI kemudian memindahkan dana tersebut\nuntuk ditempatkan pada instrumen surat sanggup\n(Promfssory Notesl.\nKontrak penempatan pada instrumen surat sanggup\n(Promissory Notes) sebagai berikut:\na. ditempatkan pada surat sanggup lhomissory jVotes)\nsebelum Peraturan Pemerintah ini berlaku;\nb. tenor penempatan 3 (tiga) bulan; dan\nc. pembayaran bunga dilakukan setiap akhir bulan\n(pembayaran bunga dilakukan tiga kali, setiap akhir\nbulan).\nPembayaran bunga bulan pertama dan kedua dilakukan\nsebelum Peraturan Pemerintah ini berlaku, dan untuk\npembayaran bunga bulan ketiga dilakukan saat Peraturan\nPemerintah ini berlaku.\nBerdasarkan contoh tersebut, maka LPEI melakukan\npemotongan Pajak Penghasilan sebagai berikut:\na. atas bunga bulan pertama dan kedua yang dibayarkan\nsebelum berlakunya Peraturan Pemerintah ini, dikenai\nPajak Penghasilan berdasarkan ketentuan umum Pajak\nPenghasilan atas penghasilan bunga; dan\nb. atas bunga bulan ketiga yang dibayarkan setelah\nberlakunya Peraturan Pemerintah ini, dipotong Pajak\nPenghasilan yang bersifat final berdasarkan ketentuan\ndalam Peraturan Pemerintah ini.\nContoh 3:\nBerdasarkan Contoh 2 di atas, walaupun kontrak mengatur\nbahwa bunga dibayarkan secara bulanan, ternyata realisasi\npembayaran bunga seluruhnya baru dilakukan oleh LPEI\npada akhir tenor, yang terjadi setelah Peraturan Pemerintah\nini berlaku.\nPemotongan Pajak Penghasilan oleh LPEI sebagai berikut:\na. atas bunga bulan pertama dan kedua yang sesuai kontrak\nseharusnya dibayarkan setiap bulan sebelum Peraturan\nPemerintah ini berlaku, dikenai Pajak Penghasilan\nberdasarkan ketentuan umum Pajak Penghasilan atas\npenghasilan bunga; dan\nb.atas...\nSK No 1703004"
+    },
+    {
+      "page_number": 17,
+      "content": "PRESIDEN\nREPUBUK INDONESTA\n-9-\nb. atas bunga bulan ketiga yang seharusnya dibayarkan\nsetelah Peraturan Pemerintah ini berlaku, dipotong Pajak\nPenghasilan yang bersifat final berdasarkan ketentuan\ndalam Peraturan Pemerintah ini.\nContoh 4:\nPT C selaku Eksportir SDA memasukkan dana DHE SDA ke\ndalam Rekening Khusus Bank M, kemudian memindahkan\ndana tersebut pada deposito di Bank M.\nKontrak Deposito sebagai berikut:\na. ditempatkan pada deposito sebelum Peraturan Pemerintah\nini berlaku;\nb. tenor penempatan 3 (tiga) bulan; dan\nc. pembayaran bunga dilakukan setiap akhir bulan\n(pembayaran bunga dilakukan tiga kali, setiap akhir\nbulan)\nPembayaran bunga bulan pertama dilakukan sebelum\nPeraturan Pemerintah ini berlaku, dan untuk pembayaran\nbunga bulan kedua dan ketiga dilakukan saat Peraturan\nPemerintah ini berlaku.\nBerdasarkan kondisi tersebut, maka pemotongan Pajak\nPenghasilan oleh Bank M sebagai berikut:\na. Atas bunga bulan pertama yang dibayarkan sebelum\nberlakunya Peraturan Pemerintah ini, dipotong Pajak\nPenghasilan berdasarkan ketentuan dalam Peraturan\nPemerintah Nomor 131 Tahun 2000 tentang Pajak\nPenghasilan atas Bunga Deposito dan Tabungan serta\nDiskonto Sertifikat Bank Indonesia sebagaimana telah\ndiubah dengan Peraturan Pemerintah Nomor 123 Tahun\n2Ol5 tentang Perubahan atas Peraturan Pemerintah\nNomor 131 Tahun 20OO tentang Pajak Penghasilan atas\nBunga Deposito dan Tabungan serta Diskonto Sertifikat\nBank Indonesia.\nb. Atas bunga bulan kedua dan ketiga yang dibayarkan\nsetelah berlakunya Peraturan Pemerintah ini, dipotong\nPajak Penghasilan yang bersifat final berdasarkan\nketentuan dalam Peraturan Pemerintah ini.\nSK No 170299 A\nContoh5:..."
+    },
+    {
+      "page_number": 18,
+      "content": "PRESIDEN\nREPUEL|K INDONESIA\n-10-\nContoh 5:\nPT D selaku Eksportir SDA memasukkan dana DHE SDA ke\ndalam Rekening Khusus Bank P, kemudian memindahkan\ndana tersebut pada deposito valuta asing di Bank P.\nKontrak Deposito sebagai berikut:\na. ditempatkan pada deposito setelah Peraturan Pemerintah\nini berlaku;\nb. tenor penempatan 6 (enam) bulan; dan\nc. pembayaran bunga dilakukan setiap akhir bulan\n(pembayaran bunga dilakukan enam kali, setiap akhir\nbulan).\nDengan kontrak tenor penempatan 6 (enam) bulan, maka\npada saat pembayaran bunga setiap bulannya, Bank P\nmelakukan pemotongan Pajak Penghasilan bersifat final\ndengan tanf 2,5o/o (dua koma lima persen), sesuai ketentuan\nPasal 4 ayat (2) huruf a Peraturan Pemerintah ini.\nBerdasarkan contoh tersebut di atas, ternyata pada akhir\nbulan ketiga PT D menarik dana Deposito.\nBerdasarkan ketentuan Pasal 4 ayat (2) huruf a Peraturan\nPemerintah ini, karena tenor penempatan menjadi 3 (tiga)\nbulan, maka seharusnya bunga yang dibayarkan kepada PT D\ndikenai Pajak Penghasilan bersifat final dengan tarif 7,5o/o\n(tujuh koma lima persen).\nDengan contoh tersebut, pada saat pembayaran bunga bulan\nketiga (ketika deposito ditarik oleh PT D), Bank P melakukan\npemotongan Pajak Penghasilan sebagai berikut:\na. tartf 7,5o/o (tujuh koma lima persen) dikalikan bunga bulan\nketiga; ditambah\nb. tarif 5o/o (lima persen) dikalikan bunga yang telah\ndibayarkan di bulan pertama dan bulan kedua.\nTarif 5o/o (lima persen) tersebut di atas merupakan\nkekurangan pemotongan Pajak Penghasilan untuk bulan\npertama dan kedua yang disebabkan karena PT D menarik\ndeposito sebelum berakhirnya tenor penempatan.\nTarif 5olo (lima persen) adalah selisih tarif 7,5o/o (tujuh koma\nlima persen) yang merupakan tarif untuk penempatan 3 (tiga)\nbulan dengan tarif 2,5o/o (dua koma lima persen) yang\nmerupakan tarif yang telah digunakan untuk pemotongan\nPajak Penghasilan di bulan pertama dan kedua.\nAyat(3) ...\nSK No 170298 A"
+    },
+    {
+      "page_number": 19,
+      "content": "PRESIDEN\nREPUBLIK INDONESIA\n-11-\nAyat (3)\nCukup jelas.\nAyat (4)\nCukup jelas.\nPasal 6\nCukup jelas.\nPasal 7\nCukup jelas.\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 6918\nSK No 170497 A"
+    }
+  ]
+}

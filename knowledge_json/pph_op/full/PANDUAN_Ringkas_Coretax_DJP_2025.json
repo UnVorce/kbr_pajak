@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "document_name": "Panduan Ringkas Coretax DJP Versi 1.0 - 14 Januari 2025",
+    "source_file": "PANDUAN_Ringkas_Coretax_DJP_2025.txt",
+    "total_pages": 44,
+    "total_pasal": 0,
+    "document_type": "guide",
+    "extraction_notes": [
+      "Dokumen tipe guide — parsing pasal dilewati"
+    ]
+  },
+  "total_pasal": 0,
+  "raw_pages": [
+    {
+      "page_number": 1,
+      "content": "Panduan Ringkas  | Coretax DJP\nPanduan Ringkas\nCoretax DJP\nVersi 1.0 - 14 Januari 2025\nakan diperbarui sesuai perkembangan"
+    },
+    {
+      "page_number": 2,
+      "content": "DIREKTORAT JENDERAL PAJAK\nKEMENTERIAN KEUANGAN REPUBLIK INDONESIA\n@2025\nTim Manajemen Perubahan Reformasi Perpajakan\nGedung Mari’e Muhammad KPDJP\nJl. Jenderal Gatot Subroto Kav. 40-42 Jakarta Selatan"
+    },
+    {
+      "page_number": 3,
+      "content": "Proses Bisnis Registrasi\nCara Login Coretax DJP\nPembuatan Kode Otorisasi / Sertiﬁkat Elektronik\nPenggantian Penanggung Jawab (PIC)\nPenunjukan Penanggung Jawab (PIC)\nPenambahan Role Akses\nPenetapan Pihak yang dapat ditunjuk sebagai Kuasa Wajib Pajak\n12\n14\nProses Bisnis Pembayaran\nLayanan Mandiri Kode Billing\nKode Billing atas Tagihan Pajak\nDaftar Kode Billing Aktif\n17\n20\nPemindahbukuan\n22\nBukti Potong, SPT Masa PPh,\nFaktur Pajak dan SPT Masa PPN\nBukti Potong Pajak\nSPT Masa PPh\nFaktur Pajak Keluaran\nFaktur Pajak Masukan\nSPT Masa PPN\n33\nProses Bisnis\nLayanan Perpajakan\nLayanan Administrasi\nLayanan Permintaan Informasi\nLayanan Pengaduan, Saran, dan Apresiasi\nLayanan Edukasi Perpajakan"
+    },
+    {
+      "page_number": 4,
+      "content": "Proses Bisnis\nRegistrasi"
+    },
+    {
+      "page_number": 5,
+      "content": "Cara Login Coretax DJP\nCara Akses Layanan Digital DJP\nPascaimplementasi Coretax DJP, wajib pajak dapat mengakses layanan\nperpajakan melalui Portal Layanan Wajib Pajak pada tautan:\nhttps://www.pajak.go.id/portal-layanan-wp/.\nPada Portal Layanan ini, wajib pajak dapat memilih untuk mempelajari\npanduan atau langsung mengakses layanan perpajakan yang terbagi\natas empat kategori sebagai berikut:\n1\n2\n3\n4\n      Registrasi\nMeliputi antara lain pendaftaran NPWP, pengukuhan pengusaha kena\npajak (PKP), pendaftaran objek pajak bumi dan bangunan, perubahan\ndata dan status wajib pajak, serta penghapusan atau pencabutan\nstatus.\n      Pelaporan SPT\nMeliputi antara lain pembuatan faktur dan bukti potong, pelaporan SPT\nMasa, dan pelaporan SPT Tahunan.\n      Pembayaran Pajak\nMeliputi antara lain pembuatan kode billing, pemindahbukuan, dan\npengembalian kelebihan pembayaran pajak.\n      Layanan Administrasi\nMeliputi layanan perpajakan termasuk permohonan dan pemanfaatan\nfasilitas perpajakan, surat keterangan ﬁskal, konﬁrmasi status wajib\npajak, angsuran dan penundaan, dan layanan lain terkait pemeriksaan,\npenagihan, pengawasan, penilaian, dan layanan administrasi lainnya.\nBagi wajib pajak yang ingin melaksanakan hak dan pemenuhan\nkewajibannya mulai tahun pajak 2025 dan seterusnya dapat langsung\nmengakses Coretax DJP (coretaxdjp.pajak.go.id)."
+    },
+    {
+      "page_number": 6,
+      "content": "Cara Login Coretax DJP\nSebelum mengakses Coretax DJP,\npastikan wajib pajak telah melakukan\npemadanan NIK dengan NPWP. Untuk\nmengakses Coretax DJP, wajib pajak dapat\nmengikuti langkah-langkah berikut:\n1\n2\nAkses Coretax DJP melalui alamat:\nhttps://coretaxdjp.pajak.go.id\nmasukkan NIK/NPWP 16 digit;\nMasukkan \"Kata Sandi\" DJP Online;\n3\nMasukkan kode captcha;\n4\nKlik \"Login“.\nMengatur ulang kata sandi setelah\nlogin pertama kali di Coretax DJP\n1\nPilih tujuan konﬁrmasi (”Surat Elek-\ntronik” atau “Nomor Gawai)” dan\nmasukkan alamat email jika memilih\n“Surat Elektronik” atau nomor ponsel\njika memilih “Nomor Gawai”;\n2\nMasukkan kode captcha;\n3\nCentang “Pernyataan”;\n4\nKlik tombol “Kirim”.\nPeriksa email atau SMS yang\nberisikan tautan ubah kata sandi\nyang dikirimkan oleh sistem.\nSetelah melakukan perubahan kata\nsandi, wajib pajak diminta untuk\nmembuat passphrase.\nPassphrase disarankan berbeda\ndengan kata sandi. Kata sandi\n(password) dan passphrase\ndisarankan untuk tidak\nmenggunakan karakter khusus;\n' (apostrop), \\ (backslash), + (plus)."
+    },
+    {
+      "page_number": 7,
+      "content": "Cara Login Coretax DJP\nLangkah-langkah mengatasi kendala akses Coretax DJP\nmelalui internet :\n1\nPeriksa koneksi internet\nPerikasa koneksi internet Anda dan pastikan internet Anda aktif\ndan terhubung dengan benar.\nJika mengalami kendala, coba putuskan dan sambungkan kembali\ninternet Anda.\n2\nGanti browser\nJika mengalami masalah akses di browser yang biasa Anda\ngunakan, coba ganti ke browser lain seperti Google Chrome,\nMozilla Firefox, atau Microsoft Edge.\nPastikan browser yang digunakan adalah versi terbaru.\n3\nHapus cache dan cookies browser\nJika masih mengalami kendala, hapus cache dan cookies pada\nbrowser Anda.\nLangkah ini dapat membantu mengatasi konﬂik data yang\nmungkin menghambat akses.\nGunakan mode incognito/in-private  pada browser Anda.\nSemoga langkah-langkah di atas dapat membantu mengatasi kendala\ndalam mengakses Coretax DJP melalui internet."
+    },
+    {
+      "page_number": 8,
+      "content": "Pembuatan Kode Otorisasi/Sertiﬁkat Elektronik\nuntuk tanda tangan elektronik\nTahapan pembuatan kode otorisasi/sertiﬁkat elektronik dalam rangka\npembuatan tanda tangan elektronik sebagai berikut:\n1\nMasuk ke laman Coretax DJP dan\npilih menu Portal Saya, dan sub\nmenu Permintaan Kode Otori-\nsasi/ Sertiﬁkat Elektronik;\n2\nIsi kolom yang tersedia, khusus-\nnya terkait jenis sertiﬁkat digital.\nJika tidak memiliki sertiﬁkat\ndigital tersertiﬁkasi, maka pilih\nKode Otorisasi DJP dan isikan\npassphrase;\n3\nLakukan veriﬁkasi identitas\ndengan melakukan pengambilan\nfoto. Pastikan pencahayaan baik\ndan samakan pengambilan foto\ndengan foto di KTP. Pastikan\nmuncul notiﬁkasipengambilan\nfoto berhasil;\n4\nKlik Pernyataan lalu klik Tombol\nSimpan."
+    },
+    {
+      "page_number": 9,
+      "content": "Penggantian Penanggung Jawab (PIC)\nPIC adalah entitas yang memiliki wewenang lengkap untuk mendaftar-\nkan, memodiﬁkasi, atau mencabut hak akses dari pihak-pihak terkait\ndalam Coretax. Default PIC di Coretax pada awalnya merujuk pada data\nyang terdapat di kolom Identitas Penanggung jawab pada laman\nDJPOnline.\n“\nWajib pajak Badan dan Instansi Pemerintah dapat melakukan penggantian\nPIC utama sesuai langkah-langkah sebagai berikut:\n1\nUntuk melihat nama PIC yang ditunjuk saat ini dalam Coretax, pada\nakun Badan atau Instansi Pemerintah silakan masuk ke menu\nInformasi Umum;\nPilih menu Edit;\n2\nKemudian pilih submenu Pihak Terkait. Maka akan disajikan daftar\nPihak Terkait. Gulir ke kanan untuk mendapatkan informasi lebih lanjut.\n3\n3"
+    },
+    {
+      "page_number": 10,
+      "content": "Penggantian Penanggung Jawab (PIC)\n4\nKolom ini akan menampilkan pihak yang saat ini berstatus sebagai PIC,\nyang ditandai dengan centang pada kolom ”Apakah Penanggung\nJawab\" ;\n5\nUntuk melakukan pergantian PIC. Pertama, pastikan bahwa pegawai\nyang akan ditunjuk sebagai PIC yang baru telah ditambahkan sebagai\nPihak Terkait. Setelah itu status PIC lama harus lepas dengan cara\nmemilih menu “Edit” ;\n6\nLepas ceklis (uncheck) pada kolom “Apakah PIC?”  kemudian tekan\ntombol “Save”. Selanjutnya, Anda dapat memilih atau meng-update\nPIC Utama yang baru\nCentang “Pernyataan” lalu tekan tombol “Kirim”.\n7"
+    },
+    {
+      "page_number": 11,
+      "content": "Penunjukan Penanggung Jawab (PIC)\n1\n2\nAnda dapat memilih atau menunjuk PIC baru. Untuk menambahkan PIC\nbaru, menu sama dengan penggantian / update PIC Utama, masuk ke\nmenu Informasi Umum lalu pilih “Edit”  dan pilih “Pihak Terkait”.\nSelanjutnya, klik tombol \"Tambah\" untuk menambahkan PIC\nTambahan.\nGulir ke kanan untuk mendapatkan informasi lebih lanjut.\nPada dropdown list, pilih Related Person\n3\nCeklist “Apakah PIC?”.\n4\nPilih jenis orang terkait dalam dropdown list.\n5\n6\nNIK/NPWP pegawai yang ingin ditambahkan, secara otomatis Nama,\nKewarganegaraan, dan Negara Asal, email dan nomor telepon, terisi oleh\nsistem.\n7\nTentukan masa berlaku awal (wajib diisi) dan masa akhir berlaku (tidak\nwajib diisi).\nAkhiri dengan menekan tombol “Save”.\n8\nRelated person yang NIK/NPWP nya sudah terdaftar akan otomatis\nterdaftar sebagai Wakil/Kuasa."
+    },
+    {
+      "page_number": 12,
+      "content": "Penunjukan Penanggung Jawab (PIC)\n9\nSetelah berhasil menambahkan atau berhasil mengubah PIC.\nGulir ke bawah, kemudian centang “Pernyataan”;\n10\nBerikutnya klik “Kirim”."
+    },
+    {
+      "page_number": 13,
+      "content": "Penambahan Role Akses\nPenunjukan wakil/kuasa yang ditunjuk oleh wajib pajak untuk men-\njalankan hak dan kewajiban perpajakan tertentu dilakukan melalui Core-\ntax DJP dengan tahapan sebagai berikut:\n1\nWajib pajak yang akan ditunjuk sebagai wakil/kuasa harus sudah\ndidaftarkan sebagai Pihak Terkait dengan kategori Related Person/\nOrang Terkait;\n2\nWajib pajak yang ditunjuk sebagai Penanggung jawab masuk ke akun\nOrang Pribadi Coretax DJP kemudian memilih wajib pajak badan atau\ninstansi pemerintah yang akan menunjuk wakil/kuasa.\n3\nSetelah masuk dalam status impersonating, pilih menu\n“Wakil/Kuasa Saya” dari panel di sebelah kiri;\nPT. NYA RAKA\nPT. NYA RAKA\nPT. NYA RAKA\n4\nLayar akan menunjukkan daftar Orang Terkait yang dapat ditunjuk\nsebagai wakil/kuasa;\nRAKA 1\nRAKA 2\n5\nKlik “Tetapkan Role” untuk setiap Orang Terkait, dan tetapkan\nperan (role) sesuai kebijakan internal dari wajib pajak badan atau\ninstansi pemerintah."
+    },
+    {
+      "page_number": 14,
+      "content": "Penambahan Role Akses\n6\nJenis role yang dapat ditetapkan adalah:\na. Drafter: melakukan pengisian dan pembuatan dokumen perpajakan\nb. Signer: melakukan penandatanganan dokumen perpajakan\n7\nOrang Terkait yang ditunjuk sebagai wakil/kuasa wajib pajak sudah\ndapat  melaksanakan hak dan kewajiban perpajakan sesuai role yang\nditetapkan Penanggung jawab melalui proses impersonating.\nDalam hal wakil/kuasa sedang login dalam Coretax DJP\nketika penetapan role dilakukan, maka wakil/kuasa\ntersebut harus keluar (logout) terlebih dahulu kemudian\nlogin kembali agar penetapan role dapat mulai berlaku."
+    },
+    {
+      "page_number": 15,
+      "content": "Penetapan Pihak yang dapat ditunjuk\nsebagai Kuasa Wajib Pajak\n1\n2\nPenunjukan Wakil / Kuasa dapat diajukan oleh wajib pajak dengan\nmemilih menu Portal Saya.\nPilih menu Perubahan Status, selanjutnya pilih menu Penunjukan\nWakil/Kuasa.\n3\n4\nKemudian, pada bagian “Identitas Wajib Pajak” , Klik ikon kaca\npembesar untuk mencari wajib pajak yang akan ditunjuk sebagai\nWakil/Kuasa.\nLalu, pilih “Tipe Perwakilan”. Kolom lainnya akan terisi otomatis mengi-\nkuti isian bagian sebelumnya."
+    },
+    {
+      "page_number": 16,
+      "content": "Penetapan Pihak yang dapat ditunjuk\nsebagai Kuasa Wajib Pajak\n5\nKemudian, pada bagian “Detail”, silakan unggah dokumen pendukung\npenunjukan Wakil/Kuasa dengan klik tombol:\nDokumen yang diunggah adalah dokumen format .pdf .\nKemudian Klik “Pernyataan” dan klik Simpan.\n6"
+    },
+    {
+      "page_number": 17,
+      "content": "Proses Bisnis\nPembayaran"
+    },
+    {
+      "page_number": 18,
+      "content": "Layanan Mandiri Kode Billing\nLayanan pembuatan kode billing dibuat melalui menu “Pembayaran” sub-\nmenu “Layanan Mandiri Kode Billing”. Wajib Pajak dapat membuat kode\nbilling atas jenis pajak yang ada di menu tersebut, salah satunya adalah\nsetoran deposit pajak. Berikut cara melakukan pembuatan kode billing di\nCoretax DJP;\n1\nWajib pajak login ke Coretax DJP, masuk ke menu Pembayaran;\n2\nPilih menu ”Layanan Mandiri Kode Billing”;\n3\nVeriﬁkasi Identitas wajib pajak, kemudian klik tombol “Lanjut”;\n4\nPilih kode Kode Akun Pajak (KAP) dan Kode Jenis Setoran (KJS);\n5\nPilih periode dan tahun pajak;"
+    },
+    {
+      "page_number": 19,
+      "content": "Layanan Mandiri Kode Billing\n6\nPilih dan tentukan mata uang, nilai pembayaran dan tuliskan\nketerangan;\n7\nLalu unduh Kode Billing.\nBerikut adalah contoh kode billing yang dihasilkan (generate) oleh sistem.\nSegera lakukan pembayaran sebelum masa aktif kode billing kadaluarsa."
+    },
+    {
+      "page_number": 20,
+      "content": "Kode Billing atas Tagihan Pajak\nWajib pajak dapat melakukan pembuatan kode billing atas tagihan dengan\ntahapan sebagai berikut:\nWajib pajak login ke Coretax DJP, masuk ke menu Pembayaran;\n1\nPilih menu Pilih menu “Pembuatan Kode Billing atas Tagihan Pajak”;\n2\n3\nDalam tampilan Kode Billing Tagihan Pajak, pilih tagihan yang akan\ndilakukan pembayaran\n4\nWP mengisi nominal tagihan pajak yang akan dibayar (maksimal sejum-\nlah nilai sisa tagihan);\n5\nNilai total pembayaran akan ditampilkan di bagian bawah, wajib pajak\nmemilih “Bayar dengan Pemindahbukuan Deposit Pajak” atau “Buat\nKode Billing”;"
+    },
+    {
+      "page_number": 21,
+      "content": "Kode Billing atas Tagihan Pajak\n6\nJika Wajib Pajak memilih “Bayar dengan Pemindahbukuan Deposit\nPajak” maka pastikan saldo deposit mencukupi. Bukti\nPemindahbukuan akan terkirim otomatis kepada WP di folder\n“Dokumen Saya”\n7\nJika Wajib Pajak memilih “Buat Kode Billing”, maka WP mendapatkan\nunduhan kode billing untuk dibayar. kode billing juga dapat dicek di\nmenu “Daftar Kode Billing Belum Dibayar”"
+    },
+    {
+      "page_number": 22,
+      "content": "Daftar Kode Billing Aktif\nWajib Pajak dapat melihat daftar kode billing yang berstatus aktif (sudah\ndibuat dan belum kedaluwarsa), namun belum dilakukan pembayaran.\nLangkah-langkahnya sebagai berikut:\nWajib pajak login ke Coretax DJP, masuk ke menu Pembayaran;\n1\nPilih menu ”Daftar Kode Billing Belum Dibayar”;\n2\n3\nDalam tampilan Daftar Kode Billing Aktif, Wajib Pajak dapat melihat\n(unduh) atau mengirim kode billing ke email yang terdaftar di Proﬁl\nwajib pajak.\n4\nPembayaran kode billing yang masih aktif dapat dilakukan melalui\nsemua saluran pembayaran yang sah seperti internet/mobile banking,\nATM, teller bank, dan penyedia jasa pembayaran digital."
+    },
+    {
+      "page_number": 23,
+      "content": "Pemindahbukuan\nApabila terdapat sisa pembayaran atau saldo deposit yang belum\ndigunakan untuk pembayaran/penyetoran pajak, wajib pajak dapat\nmengajukan permohonan pemindahbukuan secara mandiri melalui menu\n“Pembayaran”, dengan tahapan sebagai berikut:\n1\nWajib pajak login ke Coretax DJP lalu pilih menu pembayaran;\n2\nPilih Sub menu Permohonan Pemindahbukuan;\n3\nPilih tombol Buat Permohonan Pemindahbukuan Baru;\n0012345678910000 PTNYA, RAKA\n0012345678910000\nPTNYA.RAKA\nUntuk membuat permohonan baru, tekan tombol “Buat Permohonan Pemindahbukuan Baru” [3]\n4\nPilih data pembayaran yang akan dilakukan pemindahbukuan;\nPilih data pembayaran yang akan dilakukan pemindahbukuan\ndengan menekan tombol kaca pembesar [4]."
+    },
+    {
+      "page_number": 24,
+      "content": "Pemindahbukuan\nIsikan Jumlah yang akan dipindahbukukan [5] (maksimal sejumlah nominal pembayaran) dan pilih alasan Pemindahbukuan [6]\n5\nIsi kolom isian dan jumlah yang akan dipindahbukukan;\nUnggah Dokumen pendukung pemindahbukuan dengan menekan tombol Pilih File lanjutkan dengan menekan tombol Unggah File\n6\nUnggah dokumen pendukung Pbk;\nSelanjutnya klik Kirim Permohonan\n7\nSelanjutnya Kirim Permohonan."
+    },
+    {
+      "page_number": 25,
+      "content": "Bukti Potong,\nSPT Masa PPh,\nFaktur Pajak\ndan SPT Masa PPN"
+    },
+    {
+      "page_number": 26,
+      "content": "1\nBukti Potong Pajak\nBukti potong di Coretax atau eBupot terdiri dari beberapa sub menu.\nInformasi mengenai submenu tersebut antara lain:\n1\nBPPU: Bukti Potong Pajak Uniﬁkasi;\n2\nBPNR: Bukti Potong Non Residen;\n3\nPenyetoran Sendiri;\n4\nPemotongan Secara Digunggung;\n5\nBukti Pemotongan Final dan Tidak Final Selain Pegawai Tetap (BP21);\n6\nBukti Pemotongan PPh Pasal 26 Bagi Wajib Pajak Luar Negeri (BP26);\n7\nBukti Pemotongan Masa Pajak Desember/ Masa Pajak Terakhir A1\n(BPA1);\n8\nBukti Pemotongan Masa Pajak Desember/ Masa Pajak Terakhir A2\n(BPA2);\n9\nBukti Pemotongan Bulanan Pegawai Tetap dengan TER;\n10 Unggah Dokumen yang dipersamakan dengan Bukti Pemotongan/\nPemungutan.\nInformasi mengenai cara pengisian ebupot di Coretax,\nwajib pajak dapat mengakses informasi pada laman\nhttps://pajak.go.id/coretax atau mengakses kanal youtube\n@DitjenPajakRI\nFAQ Coretax DJP"
+    },
+    {
+      "page_number": 27,
+      "content": "SPT Masa PPh\nPembuatan SPT Masa PPh, khususnya PPh 21/26 dapat dilakukan dengan\ncara sebagai berikut:\n1\nWajib pajak login ke Coretax DJP, masuk ke menu Surat\nPemberitahuan, sub menu Surat Pemberitahuan. Untuk pel-\naporan oleh WP Badan, maka WP OP selaku wakil Badan login\nke Coretax DJP kemudian ubah peran (role impersonate) ke WP\nBadan yang diwakili;\nBuat Konsep SPT;\n2\n3\nPilih jenis SPT yang akan dilaporkan, sebagai contoh PPh Pasal 21/26;\nKlik Lanjut;\n4"
+    },
+    {
+      "page_number": 28,
+      "content": "SPT Masa PPh\nPilih Periode dan Tahun Pajak;\n5\nKlik Lanjut;\n6\n7\nPilih Model SPT, Normal atau Pembetulan;\nBuat Konsep SPT;\n8\n9\nKonsep SPT Masa PPh 21/26 sudah dihasilkan. Wajib pajak\ndapat mengisi SPT Masa PPh dengan mengedit konsep.\n10\nSetelah mengisi SPT, maka dilanjutkan dengan klik “Bayar dan\nLapor”. Apabila SPT menghasilkan nilai Kurang Bayar, maka\npembayaran dapat dilakukan dengan :\n- Deposit (apabila saldo deposit mencukupi); atau\n- Kode billing."
+    },
+    {
+      "page_number": 29,
+      "content": "Faktur Pajak Keluaran\nFaktur pajak keluaran adalah Pembuatan faktur keluaran oleh PKP atas\npenyerahan BKP/JKP kepada lawan transaksi. Cara membuat faktur pajak\nkeluaran sebagai berikut:\nWajib pajak login ke Coretax DJP, masuk ke menu e-Faktur;\n1\n2\nKlik sub menu Pajak Keluaran;\nKlik “Buat Pajak Keluaran / Create Output Invoice”;\n3\n4\nPilih “Kode Transaksi / Transacation Code” dan lengkapi informasi\nyang diperlukan untuk Kode Transaksi tertentu;\nPilih Tanggal Faktur Pajak Keluaran;\n5"
+    },
+    {
+      "page_number": 30,
+      "content": "Faktur Pajak Keluaran\nPilih NPWP Identitas lawan transaksi;\n6\n7\nKlik Tombol “Tambah Transaksi (Add Transaction)”. Isi semua infor-\nmasi termasuk barang dan jasa, nama barang dan jasa, kode, unit\nharga hingga total harga setelah ditambahkan PPN;\nSetelah Detil transaksi muncul di tabel, klik Upload Faktur.\n8"
+    },
+    {
+      "page_number": 31,
+      "content": "Faktur Pajak Keluaran\n9\nPilih penyedia penandatangan serta isi tanda tangan digital\nberupa ID dan password untuk  validasi akhir pembuatan faktur\nKlik tombol “Simpan”;\n9\nLakukan “Konﬁrmasi Tanda Tangan”;\n10"
+    },
+    {
+      "page_number": 32,
+      "content": "Faktur Pajak Masukan\nFaktur pajak masukan adalah pengkreditan pajak masukan oleh PKP.\nCara pengkreditan pajak masukan di Coretax sebagai berikut:\nWajib pajak login ke Coretax DJP, masuk ke menu e-Faktur;\n1\nKlik sub menu Pajak Masukan;\n2\nPilih salah satu pajak masukan yang akan dikreditkan, dan klik\n“Edit” untuk mengkreditkan satu per satu;\n3\nTerdapat list pajak masukan dari lawan transaksi yang\nterprepopulasi by system\n4\nApabila ingin mengkreditkan lebih dari satu pajak masukan\nsekaligus, maka check/centang kolom sebelah kiri pajak masukan\nyang akan dikreditkan;\nPilih faktur pajak masukan yang akan dikreditkan"
+    },
+    {
+      "page_number": 33,
+      "content": "Faktur Pajak Masukan\nKlik tombol  “Credit Invoice” untuk mengkreditkan pajak masukan;\n5\nKemudian pilih “Credit Invoices”\n6\nFaktur pajak masukan yang sudah dikreditkan akan terlihat ikon\nsudah dikreditkan. Selain itu jika digulir ke kanan, akan terlihat\nstatus “Credited”.\nFaktur Pajak Masukan yang sudah dikreditkan akan terlihat\nicon sudah dikreditkan"
+    },
+    {
+      "page_number": 34,
+      "content": "SPT Masa PPN\nPembuatan SPT Masa PPN di Coretax dapat dilakukan dengan cara sebagai\nberikut:\n1\nWajib pajak login ke Coretax DJP, masuk ke menu Surat\nPemberitahuan, klik sub menu Surat Pemberitahuan. Untuk\npelaporan oleh WP Badan, maka WP OP selaku wakil Badan login ke\nCoretax DJP kemudian ubah peran (role impersonate) ke WP Badan\nyang diwakili;\nPilih “Konsep SPT”, Klik tombol ”Buat Konsep SPT”;\n2\n3\nPilih Jenis SPT yang akan dilaporkan. Pada contoh ini SPT Masa PPN\nbagi Pemungut PPN dan Pihak Lain yang Bukan Merupakan PKP;\nSecara umum langkah\npembuatan SPT meliputi\nlangkah:\n• Pilih Jenis Pajak\n• Pilih periode pelaporan\nSPT\n• Pilih Jenis SPT"
+    },
+    {
+      "page_number": 35,
+      "content": "SPT Masa PPN\n4\nPilih Periode dan Tahun Pajak;\nKlik Lanjut;\n5\nInstansi\n0012345678910000\nInstansi Pemerintah XYZ\nIsi pada setiap dropdown Jenis Pajak, Jenis SPT\nPilih Model SPT, Normal atau Pembetulan;\n6\n7\nKlik tombol Buat Konsep SPT;\n8\nKonsep SPT Masa PPN sudah dihasilkan. Wajib pajak dapat\nmengisi SPT Masa PPN dengan mengedit konsep.\nSetelah mengisi SPT, maka dilanjutkan dengan klik “Bayar dan\nLapor”. Apabila SPT menghasilkan nilai Kurang Bayar, maka pem-\nbayaran dapat dilakukan dengan :\n- Deposit (apabila saldo deposit mencukupi); atau\n- Kode billing.\nSPT Masa yang berhasil dibuat akan mucul pada daftar SPT Belum\nDisampaikan pada menu Konsep SPT, selanjutnya:\nKlik icon pensil untuk melihat dan melengkapi data SPT Masa\nKlik icon delete untuk"
+    },
+    {
+      "page_number": 36,
+      "content": "Proses Bisnis\nLayanan\nPerpajakan"
+    },
+    {
+      "page_number": 37,
+      "content": "Layanan Perpajakan\nRuang lingkup layanan perpajakan sebagai berikut:\nLayanan Administratif\nLayanan administratif merupakan layanan untuk menerima pemberita-\nhuan, memroses pengajuan permohonan wajib pajak atau non-wajib pajak\ndalam rangka penerbitan produk hukum, atau menerima laporan produk\nlayanan administratif.\nLayanan Interaktif (Permintaan Informasi Perpajakan, Pengaduan, Saran,\ndan Apresiasi)\nLayanan Interaktif merupakan komunikasi dua arah antara wajib\npajak/non-wajib Pajak dengan Direktorat Jenderal Pajak, termasuk hasil\npermohonan atau pertanyaan Wajib Pajak yang tidak memiliki dampak\ndalam status akun Wajib Pajak dan tidak memiliki nilai moneter.\nLayanan Edukasi\nLayanan edukasi bertujuan untuk meningkatkan pengetahuan, kesadaran,\ndan kepatuhan perpajakan sukarela dengan menyediakan informasi dan\nmemberikan asistensi pelaksanaan hak dan kewajiban perpajakan kepada\nmasyarakat Wajib Pajak."
+    },
+    {
+      "page_number": 38,
+      "content": "Layanan Administrasi\nWajib pajak dapat mengajukan layanan administrasi perpajakan di Coretax\nDJP dengan cara sebagaimana digambarkan di bawah ini.\n1\nWajib Pajak login ke Coretax DJP, masuk ke menu Layanan Wajib\nPajak, lalu pilih Layanan Administrasi, yang terdiri dari:\na. Buat Permohonan Layanan Administrasi, menu untuk memulai\n    pengajuan permohonan layanan administrasi baru.\nb. Permohonan Belum Disampaikan, menampilkan permohonan yang\n    sudah dibuat namun belum diserahkan atau dikirimkan untuk\n    diproses. Apabila layanan tidak dilanjutkan, maka permohonan\n    harap dibatalkan.\nc. Permohonan Dalam Proses, menampilkan permohonan yang sudah\n    disampaikan dan sedang diproses oleh pihak terkait.\nd. Permohonan telah selesai, menampilkan permohonan yang sudah\n    diproses dan selesai.\ne. Daftar Fasilitas saya, menampilkan daftar fasilitas yang sudah\n    dimiliki dan layanan yang sudah  selesai diproses.\n2\nPilih sub menu Buat Permohonan Layanan Administrasi;\n3\nPilih Jenis Pelayanan Wajib Pajak, contohnya layanan SKB PPh;"
+    },
+    {
+      "page_number": 39,
+      "content": "Layanan Administrasi\nSistem akan men-generate nomor kasus secara otomatis;\n3\n4 Langkah berikutnya yaitu memilih “Alur Kasus” untuk men-\njalankan kasus terkait permohonan wajib pajak;\n5 Wajib pajak mengisi formulir permohonan secara lengkap sesuai\ndengan tujuan pembuatan surat ( tanda * : wajib di isi).\n5"
+    },
+    {
+      "page_number": 40,
+      "content": "Layanan Administrasi\n6\nKlik “Pilih File” untuk mengunggah dokumen pendukung.\nPastikan semua kolom wajib telah terisi lalu centang Surat\nPernyataan Wajib Pajak;\n7\nGulir paling bawah, klik tombol “Create PDF” untuk menghasilkan\ndokumen permohonan. Lakukan penandatanganan secara elek-\ntronik dengan klik “Sign”;\n8\nPastikan permohonan sudah diselesaikan proses dengan klik\ntombol Submit.\n9\nPastikan alur kasus sudah selesai dengan dua kemungkinan\ntampilan layar, kasus ditutup atau kasus sedang dalam proses."
+    },
+    {
+      "page_number": 41,
+      "content": "Layanan\nPermintaan Informasi Perpajakan\nWajib pajak dapat melihat register layanan permintaan informasi\nperpajakan terkait permohonan konsultasi, penegasan atau eskalasi di\nCoretax DJP. Untuk pengajuan permintaan informasi perpajakan tetap\ndilakukan di KPP terdekat.\nRegister permintaan informasi perpajakan dapat diakses melalui menu\n“Layanan Wajib Pajak” lalu klik sub menu “Layanan Permintaan Informasi\nPerpajakan”."
+    },
+    {
+      "page_number": 42,
+      "content": "Layanan\nPengaduan, Saran, dan Apresiasi\nWajib pajak dapat mengajukan layanan pengaduan, saran dan apresiasi di\nCoretax DJP dengan cara sebagai berikut:\n1\nKlik menu” Layanan Wajib Pajak” lalu klik menu “Layanan\nPengaduan, Saran dan Apresiasi” dan “Buat Pengaduan, Saran dan\nApresiasi” untuk melakukan Pengaduan Pelayanan Pajak,\nPengaduan Kode Etik dan Disiplin Pegawai, Pengaduan Tindak\nPidana Perpajakan, Saran, atau Apresiasi;\n2\nIsi “Formulir Penyampaian Pengaduan, Saran, dan Apresiasi” secara\nlengkap. Pastikan klik “Tambah Data” untuk menambahkan pihak\nterlapor;\n3\nKlik “Tambah Data” untuk menambahkan bukti pendukung lalu\nklik tombol Simpan."
+    },
+    {
+      "page_number": 43,
+      "content": "Layanan\nEdukasi Perpajakan\nWajib pajak dapat mengajukan layanan edukasi perpajakan di Coretax DJP\ndengan cara sebagaimana digambarkan di bawah ini.\nPilih menu “Layanan Wajib Pajak”, klik sub menu  “Layanan Edukasi\nPerpajakan”. Layanan Edukasi Perpajakan terdiri atas 4 sub menu:\n1\n       Jadwal Kegiatan Edukasi: wajib pajak dapat melihat seluruh\n       kegiatan edukasi yang dilaksanakan oleh seluruh unit kerja DJP\n       dan melakukan reservasi untuk mengikuti kegiatan tersebut;\n2\n      Materi Edukasi:  wajib pajak dapat menemukan dan mengunduh\n      materi edukasi sesuai dengan jenis wajib pajak, seperti pegawai,\n      usaha, dan pekerjaan bebas;\n3\n4\nPenyampaian Permohonan Edukasi: wajib pajak dapat mengajukan\npermohonan kegiatan edukasi ke DJP berupa permohonan\nnarasumber, pembahas, atau moderator;\n Daftar Permohonan Edukasi: wajib pajak dapat melihat daftar\n permohonan edukasi yang telah diajukan."
+    },
+    {
+      "page_number": 44,
+      "content": "[HALAMAN KOSONG]"
+    }
+  ],
+  "articles": []
+}
