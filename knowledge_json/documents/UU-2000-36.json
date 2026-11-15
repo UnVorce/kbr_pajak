@@ -1,0 +1,91 @@
+{
+  "document_id": "UU-2000-36",
+  "jenis": "UU",
+  "tahun": 2000,
+  "judul": "Undang-undang (UU)  Nomor 36 Tahun 2000 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang  Nomor 1 Tahun 2000 tentang Kawasan Perdagangan Bebas dan Pelabuhan Bebas Menjadi Undang-Undang",
+  "articles": [
+    {
+      "locator": "UU-2000-36#BT/1",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "1",
+      "text": "Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 2000 tentang\nKawasan Perdangan Bebas dan Pelabuhan Bebas (Lembaran Negara Republik\nIndonesia Tahun 2000 Nomor 147, Tambahan Lembaran Negara Nomor 3996)\nditetapkan menjadi Undang-undang, dan melampirkannya sebagai bagian yang\ntidak terpisahkan dari Undang-undang ini.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "d06dad5ffd46862e"
+    },
+    {
+      "locator": "UU-2000-36#BT/2",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "2",
+      "text": "Undang-undang ini mulai berlaku sejak tanggal diundangkan.\nAgar setiap orang mengetahui, memerintahkan pengundangan Undang-undang\nini dengan penempatannya dalam Lembaran Negara Republik Indonesia.\nDisahkan di Jakarta\npada tanggal 21 Desember 2000\nPRESIDEN REPUBLIK INDONESIA,\nttd\nABDURRAHMAN WAHID\nDiundangkan di Jakarta\npada tanggal 21 Desember 2000\nSEKRETARIS NEGARA REPUBLIK INDONESIA,\nttd\nDJOHAN EFFENDI\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2000 NOMOR 251\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 4 -\n\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "text_hash": "b5e1bf8cb44c7169"
+    }
+  ],
+  "content_hash": "0652cdd54aaa31df0b5782fbaec245504f6d514abc62e6463bd9b0ad266c4978",
+  "source": {
+    "origin": "fetched_bpk_3b",
+    "url": "https://peraturan.bpk.go.id/Details/45242/uu-no-36-tahun-2000",
+    "pages": 6
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false,
+    "ocr_suspect": false
+  },
+  "status_sumber": "Tidak Berlaku",
+  "tanggal_penetapan": "2000-12-21",
+  "tanggal_pengundangan": "2000-12-21",
+  "tanggal_berlaku_sumber": "2000-12-21",
+  "sumber_publikasi": "LN. 2000/ No. 251, TLN NO. 4053, LL SETNEG : 3 HLM",
+  "subjek_sumber": "PERLINDUNGAN USAHA, PERUSAHAAN, BADAN USAHA, PERDAGANGAN",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/45242/uu-no-36-tahun-2000"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/33726/UU%20Nomor%2036%20Tahun%202000.pdf",
+      "type": "pdf"
+    }
+  ],
+  "structure": "NUMERIC",
+  "preamble": "PRESIDEN\nREPUBLIK INDONESIA\nUNDANG-UNDANG REPUBLIK INDONESIA\nNOMOR 36 TAHUN 2000\nTENTANG\nPENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG\nNOMOR 1 TAHUN 2000 TENTANG KAWASAN PERDAGANGAN BEBAS\nDAN PELABUHAN BEBAS MENJADI UNDANG-UNDANG\nDENGAN RAHMAT TUHAN YANG MAHA ESA\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang\n:\na.\nbahwa dalam menghadapi perkembangan keadaan baik\ndi\ndalam\nmaupun\ndi\nluar\nnegeri\nperlu\nmenjawab\ntantangan persaingan global, dengan semangat otonomi\ndaerah yang memberikan kewenangan luas, nyata, dan\nbertanggung jawab kepada daerah secara proporsional;\nb.\nbahwa\notonomi\ndaerah\nyang\ndiwujudkan\ndengan\npengaturan, pembagian dan pemanfaatan sumber daya\nnasional,\nserta\nperimbangan\nkeuangan\nantara\nPemerintah\nPusat\ndan\nDaerah,\nsesuai\ndengan\nprinsip-prinsip\ndemokrasi,\nperan\nserta\nmasyarakat,\npemerataan\ndan\nkeadilan\nserta\npotensi\ndan\nkeanekaragaman daerah dilaksanakan dalam kerangka\nNegara Kesatuan Republik Indonesia;\nc.\nbahwa suatu daerah perdagangan dan pelabuhan bebas\ndapat\nmendorong\nkegiatan\nlalu\nlintas\nperdagangan\ninternasional yang mendatangkan devisa bagi Negara\nserta dapat memberi pengaruh dan manfaat besar bagi\nIndonesia,\nuntuk\ndapat\nmembuka\nlapangan\nkerja\nseluas-luasnya,\nmeningkatkan\nkepariwisataan\ndan\npenanaman modal baik asing maupun dalam negeri;\nd.\nbahwa dalam rangka upaya mempercepat pengembangan\ndaerah\nseiring\ndengan\nperwujudan\notonomi\ndaerah,\nbeberapa\nwilayah\nperlu\nditetapkan\nsebagai\nKawasan\nPerdagangan Bebas dan Pelabuhan Bebas;\ne. bahwa …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 2 -\ne.\nbahwa ketentuan Undang-undang Nomor 3 tahun 1970\ntentang Ketentuan-ketentuan Pokok Daerah Perdagangan\nBebas dan Pelabuhan Bebas tidak sesuai lagi dengan\nsemangat\notonomi\ndaerah\nsebagaimana\ndiatur\ndalam\nUndang-undang\nNomor\n22\nTahun\n1999\ntentang\nPemerintahan Daerah, sehingga dipandang perlu untuk\ndisempurnakan;\nf.\nbahwa untuk segera mewujudkan Kawasan Perdagangan\nBebas dan Pelabuhan Bebas di Indonesia yang sesuai\ndengan\nsemangat\notonomi\ndaerah,\nPemerintah\ntelah\nmenetapkan\nPeraturan\nPemerintah\nPengganti\nUndang-undang Nomor 1 Tahun 2000 tentang Kawasan\nPerdagangan Bebas dan Pelabuhan Bebas;\ng.\nbahwa\nberdasarkan\npertimbangan\ntersebut\ndi\natas,\ndipandang\nperlu\nmenetapkan\nPeraturan\nPemerintah\nPengganti Undang-undang Nomor 1 Tahun 2000 tentang\nKawasan\nPerdagangan\nBebas\ndan\nPelabuhan\nBebas\nmenjadi Undang-undang;\nMengingat\n:\n1.",
+  "penjelasan": "PENJELASAN\nATAS\nUNDANG-UNDANG REPUBLIK INDONESIA\nNOMOR 36 TAHUN 2000\nTENTANG\nPENETAPAN PERATURAN PEMERINTAH PENGGANTI UNDANG-UNDANG\nNOMOR 1 TAHUN 2000 TENTANG KAWASAN PERDAGANGAN BEBAS\nDAN PELABUHAN BEBAS MENJADI UNDANG-UNDANG\nUMUM\nDalam rangka menghadapi perkembangan keadaan baik di dalam maupun di\nluar negeri perlu menjawab tantangan persaingan global, dengan semangat\notonomi daerah yang memberikan kewenangan luas, nyata, dan bertanggung\njawab kepada daerah secara proporsional. Otonomi daerah yang diwujudkan\ndengan pengaturan, pembagian dan pemanfaatan sumber daya nasional, serta\nperimbangan keuangan antara Pemerintah Pusat dan Daerah, sesuai dengan\nprinsip-prinsip demokrasi, peran serta masyarakat, pemerataan dan keadilan\nserta potensi dan keanekaragaman daerah dilaksanakan dalam kerangka\nNegara Kesatuan Republik Indonesia.\nKawasan perdagangan bebas dan pelabuhan bebas dapat mendorong kegiatan\nlalu-lintas perdagangan internasional yang mendatangkan devisa bagi negara\nserta\ndapat\nmemberi\npengaruh\ndan\nmanfaat\nbesar\nbagi\nkesejahteraan\nmasyarakat Indonesia.\nKetentuan\nmengenai\nDaerah\nPerdagangan\nBebas\ndan\nPelabuhan\nBebas\nsebagaimana diatur dalam Undang-undang Nomor 3 Tahun 1970 tidak sesuai\nlagi dengan semangat otonomi daerah berdasarkan Undang-undang Nomor 22\nTahun\n1999\ntentang\nPemerintahan\nDaerah\nsehingga\nperlu\ndilakukan\npengaturan ulang mengenai Kawasan Perdagangan Bebas dan Pelabuhan\nBebas.\nBerhubung kebutuhan pengaturan mengenai Kawasan Perdagangan Bebas dan\nPelabuhan\nBebas\nsudah\nsangat\nmendesak\ndalam\nupaya\nmempercepat\npertumbuhan perekonomian daerah, Pemerintah telah menetapkan Peraturan\nPemerintah Pengganti Undang-Undang Nomor 1 Tahun 2000 tentang Kawasan\nPerdagangan Bebas dan Pelabuhan Bebas.\nSesuai …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 2 -\nSesuai dengan Pasal 22 ayat (2) Undang-Undang Dasar 1945, Peraturan\nPemerintah Pengganti Undang-undang Nomor 1 Tahun 2000 tentang Kawasan\nPerdagangan\nBebas\ndan\nPelabuhan\nBebas\nperlu\nditetapkan\nmenjadi\nUndang-undang.\nPASAL DEMI PASAL\nPasal 1\nCukup jelas\nPasal 2\nCukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4053\n",
+  "penjelasan_articles": [
+    {
+      "pasal": "1",
+      "text": "Cukup jelas",
+      "locator": "UU-2000-36#PJ/1"
+    },
+    {
+      "pasal": "2",
+      "text": "Cukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4053",
+      "locator": "UU-2000-36#PJ/2"
+    }
+  ],
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "UU-2000-36#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Pemerintah Pengganti Undang-undang Nomor 1 Tahun 2000 tentang\nKawasan Perdangan Bebas dan Pelabuhan Bebas (Lembaran Negara Republik\nIndonesia Tahun 2000 Nomor 147, Tambahan Lembaran Negara Nomor 3996)\nditetapkan menjadi Undang-undang, dan melampirkannya sebagai bagian yang\ntidak terpisahkan dari Undang-undang ini.",
+      "role": "SUBSTANTIVE",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "UU-2000-36#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "Undang-undang ini mulai berlaku sejak tanggal diundangkan.\nAgar setiap orang mengetahui, memerintahkan pengundangan Undang-undang\nini dengan penempatannya dalam Lembaran Negara Republik Indonesia.\nDisahkan di Jakarta\npada tanggal 21 Desember 2000\nPRESIDEN REPUBLIK INDONESIA,\nttd\nABDURRAHMAN WAHID\nDiundangkan di Jakarta\npada tanggal 21 Desember 2000\nSEKRETARIS NEGARA REPUBLIK INDONESIA,\nttd\nDJOHAN EFFENDI\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2000 NOMOR 251\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 4 -\n\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "ord": 1
+    }
+  ]
+}

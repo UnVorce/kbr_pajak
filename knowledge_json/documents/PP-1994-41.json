@@ -1,0 +1,233 @@
+{
+  "document_id": "PP-1994-41",
+  "jenis": "PP",
+  "tahun": 1994,
+  "judul": "Peraturan Pemerintah (PP)  Nomor 41 Tahun 1994 tentang Pajak Penghasilan Atas Penghasilan Dari Transaksi Penjualan Saham Di Bursa Efek",
+  "articles": [
+    {
+      "locator": "PP-1994-41#BT/1",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "1",
+      "text": "(1)\nAtas penghasilan yang diterima atau diperoleh orang pribadi atau\nbadan dari transaksi penjualan saham di bursa efek dipungut Pajak\nPenghasilan yang bersifat final.\n(2)\nBesarnya Pajak Penghasilan sebagaimana dimaksud dalam ayat (1)\nadalah:\na. untuk semua transaksi penjualan saham sebesar 0,1% (satu\nperseribu) dari jumlah bruto nilai transaksi penjualan;\nb. untuk transaksi penjualan saham pendiri, kecuali saham pendiri\nperusahaan\npasangan\nusaha\nyang\ndimiliki oleh perusahaan\nmodal ventura, ditambah dengan 5% (lima persen) dari jumlah\nbruto nilai transaksi penjualan.\nPasal 2…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-",
+      "role": "SUBSTANTIVE",
+      "text_hash": "499b28d96e05842b"
+    },
+    {
+      "locator": "PP-1994-41#BT/2",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "2",
+      "text": "(1)\nPenyelenggara bursa efek wajib memungut Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 1 yang terutang untuk setiap\ntransaksi penjualan saham.\n(2)\nPenyelenggara bursa efek wajib menyetor seluruh pajak yang\ndipungut sebagaimana dimaksud dalam ayat (1) sekali sebulan\nkepada\nbank\npersepsi\natau\nKantor\nPos\ndan\nGiro\ndengan\nmenggunakan Surat Setoran Pajak.\n(3)\nPenyelenggara\nbursa\nefek\nwajib\nmenyampaikan\nlaporan\npemungutan dan\npenyetoran Pajak Penghasilan sebagaimana\ndimaksud dalam ayat (1) dan ayat (2) kepada\nDirektur Jenderal\nPajak.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "31f884d290fa0a8c"
+    },
+    {
+      "locator": "PP-1994-41#BT/3",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "3",
+      "text": "Penyelenggara bursa efek yang tidak memenuhi ketentuan sebagaimana\ndimaksud dalam Pasal 2, dikenakan sanksi sesuai dengan ketentuan\nperaturan perundang-undangan perpajakan yang berlaku.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "b87501b7cf40b747"
+    },
+    {
+      "locator": "PP-1994-41#BT/4",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "4",
+      "text": "Ketentuan lebih lanjut mengenai pelaksanaan Peraturan Pemerintah ini\nditetapkan oleh Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "c88e6f96b9540bf7"
+    },
+    {
+      "locator": "PP-1994-41#BT/5",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "5",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995.\nAgar…\n\n\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nDiundangkan di Jakarta\npada tanggal 23 Desember 1994\nREPUBLIK INDONESIA,\nttd.\nMOERDIONO\nDitetapkan di Jakarta\npada tanggal 23 Desember 1994\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nSOEHARTO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 70\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "text_hash": "9327a6a1f3be8d24"
+    }
+  ],
+  "content_hash": "96071f87528a330e132853879256b03c367341ef784057292c496ea7001574b5",
+  "source": {
+    "origin": "fetched_bpk_3b",
+    "url": "https://peraturan.bpk.go.id/Details/57263/pp-no-41-tahun-1994",
+    "pages": 7
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false,
+    "ocr_suspect": false
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "1994-12-23",
+  "tanggal_pengundangan": "1994-12-23",
+  "tanggal_berlaku_sumber": "1994-12-23",
+  "sumber_publikasi": "LN. 1994 No. 70, TLN No. 3574, LL SETNEG : 4 HLM",
+  "subjek_sumber": "PASAR MODAL DAN PERDAGANGAN BERJANGKA KOMODITI - PERPAJAKAN",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/57263/pp-no-41-tahun-1994"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/46719/PP%20No.%2041%20Th%201994.pdf",
+      "type": "pdf"
+    }
+  ],
+  "structure": "NUMERIC",
+  "preamble": "PRESIDEN\nREPUBLIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 41 TAHUN 1994\nTENTANG\nPAJAK PENGHASILAN ATAS PENGHASILAN DARI TRANSAKSI\nPENJUALAN SAHAM DI BURSA EFEK\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang :\na. bahwa berdasarkan",
+  "penjelasan": "PENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 41 TAHUN 1994\nTENTANG\nPAJAK PENGHASILAN ATAS PENGHASILAN DARI\nTRANSAKSI PENJUALAN SAHAM DI BURSA EFEK\nUMUM\nPelaksanaan pembangunan membutuhkan dana yang semakin meningkat. Sumber\npendanaan tersebut dapat berasal dari tabungan pemerintah dan tabungan masyarakat\nmelalui pasar modal.\nBerdasarkan Pasal 4 ayat (1) Undang-undang Nomor 7 Tahun 1983 tentang Pajak\nPenghasilan, sebagaimana telah diubah terakhir dengan Undang-undang Nomor 10 Tahun\n1994, penghasilan yang diterima atau diperoleh dari transaksi penjualan saham\nmerupakan Objek Pajak Penghasilan. Dalam rangka mendorong perkembangan pasar\nmodal dan untuk meningkatkan kepatuhan Wajib Pajak, maka dipandang perlu untuk\nmengatur ketentuan tersendiri tentang pengenaan Pajak Penghasilan atas penghasilan dari\ntransaksi penjualan saham tersebut. Sesuai dengan ketentuan Pasal 4 ayat (2)\nUndang-undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan, sebagaimana telah\ndiubah terakhir dengan Undang-undang Nomor 10 Tahun 1994, ketentuan tentang Pajak\nPenghasilan atas penghasilan dari transaksi penjualan saham di bursa efek diatur dengan\nPeraturan Pemerintah. Yang dimaksud bursa efek termasuk pula bursa paralel.\nUntuk memberikan kepastian hukum, kesederhanaan dan kemudahan bagi Wajib Pajak,\natas penghasilan dari penjualan saham di bursa efek yang diterima atau diperoleh orang\npribadi atau badan dikenakan Pajak Penghasilan yang bersifat final.\nPASAL…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\nPASAL DEMI PASAL\nPasal 1\nAyat (1)\nSetiap orang pribadi atau badan yang melakukan transaksi penjualan saham di\nbursa efek dipungut Pajak Penghasilan atas penghasilan yang diterima atau\ndiperolehnya dari transaksi tersebut. Pemungutan Pajak Penghasilan tersebut\nbersifat final dan oleh karena itu apabila Wajib Pajak menerima atau\nmemperoleh penghasilan yang berasal dari transaksi penjualan saham di bursa\nefek, penghasilan tersebut tidak perlu digabung dengan penghasilan lainnya\ndalam penghitungan Pajak Penghasilan yang terutang dalam pengisian Surat\nPemberitahuan Tahunan Pajak Penghasilan. Demikian pula Pajak Penghasilan\nyang telah dipotong tidak dapat dikreditkan dengan Pajak Penghasilan yang\nterutang menurut Surat Pemberitahuan Tahunan Pajak Penghasilan.\nAyat (2)\nMengingat terdapat 2 (dua) jenis saham yang dijual-belikan di bursa efek, yaitu\nsaham pendiri dan saham bukan pendiri, yang tingkat penghasilannya sangat\nberbeda, maka besarnya Pajak Penghasilan yang terutang atas penghasilan dari\ntransaksi penjualan saham tersebut ditetapkan sebagai berikut:\na.\natas semua transaksi penjualan saham, baik saham pendiri ataupun saham\nbukan\npendiri,\ndikenakan\nPajak\nPenghasilan\nsebesar\n0,1%\n(satu\nperseribu) dari jumlah bruto nilai transaksi penjualan;\nb.\natas transaksi penjualan saham pendiri dikenakan tambahan Pajak\nPenghasilan sebesar 5% (lima persen) dari jumlah bruto nilai transaksi\npenjualan.\nPenentuan besarnya Pajak Penghasilan tersebut dengan mempertimbangkan\npengenaannya\nyang\nbersifat\nfinal dan\ndengan berpegang pada prinsip\nuntuk mengembangkan kegiatan pasar modal di Indonesia. Pengenaan\ntambahan Pajak Penghasilan sebesar 5% (lima persen) tidak berlaku apabila\nsaham yang dijual tersebut milik perusahaan modal ventura selaku pendiri dari\nbadan pasangan usahanya.\nPasal 2…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nPasal 2\nAyat (1)\nCukup jelas\nAyat (2)\nPajak Penghasilan yang dipungut oleh bursa efek atas setiap transaksi\npenjualan saham wajib disetorkan ke bank persepsi atau Kantor Pos dan Giro\ndengan menggunakan Surat Setoran Pajak. Berhubung transaksi penjualan\nsaham di bursa tersebut berlangsung sangat cepat maka untuk memberikan\nkemudahan dalam pelaksanaan dan tidak menghambat kegiatan transaksi di\npasar modal, penyetoran Pajak Penghasilan dimaksud dilakukan sekali setiap\nbulan atas Pajak Penghasilan yang dipungut selama satu bulan sebelumnya.\nAyat (3)\nPelaksanaan pemungutan dan penyetoran Pajak Penghasilan atas transaksi\npenjualan saham sebagaimana dimaksud dalam ayat (1) dan ayat (2) wajib\ndilaporkan secara berkala oleh bursa efek kepada Direktur Jenderal Pajak.\nPasal 3\nKetentuan ini dimaksudkan untuk memberikan penegasan bahwa sanksi-sanksi\nsebagaimana diatur dalam peraturan perundang-undangan perpajakan yang berlaku\nakan\nditerapkan\nterhadap\nbursa\nefek\nyang\nlalai\nmelaksanakan\nkewajiban\npemungutan, penyetoran, dan pelaporan sebagaimana dimaksud dalam Pasal 2.\nPasal 4\nCukup jelas\nPasal 5\nCukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3574\n",
+  "penjelasan_articles": [
+    {
+      "pasal": "1",
+      "text": "Ayat (1)\nSetiap orang pribadi atau badan yang melakukan transaksi penjualan saham di\nbursa efek dipungut Pajak Penghasilan atas penghasilan yang diterima atau\ndiperolehnya dari transaksi tersebut. Pemungutan Pajak Penghasilan tersebut\nbersifat final dan oleh karena itu apabila Wajib Pajak menerima atau\nmemperoleh penghasilan yang berasal dari transaksi penjualan saham di bursa\nefek, penghasilan tersebut tidak perlu digabung dengan penghasilan lainnya\ndalam penghitungan Pajak Penghasilan yang terutang dalam pengisian Surat\nPemberitahuan Tahunan Pajak Penghasilan. Demikian pula Pajak Penghasilan\nyang telah dipotong tidak dapat dikreditkan dengan Pajak Penghasilan yang\nterutang menurut Surat Pemberitahuan Tahunan Pajak Penghasilan.\nAyat (2)\nMengingat terdapat 2 (dua) jenis saham yang dijual-belikan di bursa efek, yaitu\nsaham pendiri dan saham bukan pendiri, yang tingkat penghasilannya sangat\nberbeda, maka besarnya Pajak Penghasilan yang terutang atas penghasilan dari\ntransaksi penjualan saham tersebut ditetapkan sebagai berikut:\na.\natas semua transaksi penjualan saham, baik saham pendiri ataupun saham\nbukan\npendiri,\ndikenakan\nPajak\nPenghasilan\nsebesar\n0,1%\n(satu\nperseribu) dari jumlah bruto nilai transaksi penjualan;\nb.\natas transaksi penjualan saham pendiri dikenakan tambahan Pajak\nPenghasilan sebesar 5% (lima persen) dari jumlah bruto nilai transaksi\npenjualan.\nPenentuan besarnya Pajak Penghasilan tersebut dengan mempertimbangkan\npengenaannya\nyang\nbersifat\nfinal dan\ndengan berpegang pada prinsip\nuntuk mengembangkan kegiatan pasar modal di Indonesia. Pengenaan\ntambahan Pajak Penghasilan sebesar 5% (lima persen) tidak berlaku apabila\nsaham yang dijual tersebut milik perusahaan modal ventura selaku pendiri dari\nbadan pasangan usahanya.\nPasal 2…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-",
+      "locator": "PP-1994-41#PJ/1"
+    },
+    {
+      "pasal": "2",
+      "text": "Ayat (1)\nCukup jelas\nAyat (2)\nPajak Penghasilan yang dipungut oleh bursa efek atas setiap transaksi\npenjualan saham wajib disetorkan ke bank persepsi atau Kantor Pos dan Giro\ndengan menggunakan Surat Setoran Pajak. Berhubung transaksi penjualan\nsaham di bursa tersebut berlangsung sangat cepat maka untuk memberikan\nkemudahan dalam pelaksanaan dan tidak menghambat kegiatan transaksi di\npasar modal, penyetoran Pajak Penghasilan dimaksud dilakukan sekali setiap\nbulan atas Pajak Penghasilan yang dipungut selama satu bulan sebelumnya.\nAyat (3)\nPelaksanaan pemungutan dan penyetoran Pajak Penghasilan atas transaksi\npenjualan saham sebagaimana dimaksud dalam ayat (1) dan ayat (2) wajib\ndilaporkan secara berkala oleh bursa efek kepada Direktur Jenderal Pajak.",
+      "locator": "PP-1994-41#PJ/2"
+    },
+    {
+      "pasal": "3",
+      "text": "Ketentuan ini dimaksudkan untuk memberikan penegasan bahwa sanksi-sanksi\nsebagaimana diatur dalam peraturan perundang-undangan perpajakan yang berlaku\nakan\nditerapkan\nterhadap\nbursa\nefek\nyang\nlalai\nmelaksanakan\nkewajiban\npemungutan, penyetoran, dan pelaporan sebagaimana dimaksud dalam Pasal 2.",
+      "locator": "PP-1994-41#PJ/3"
+    },
+    {
+      "pasal": "4",
+      "text": "Cukup jelas",
+      "locator": "PP-1994-41#PJ/4"
+    },
+    {
+      "pasal": "5",
+      "text": "Cukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3574",
+      "locator": "PP-1994-41#PJ/5"
+    }
+  ],
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "PP-1994-41#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nAtas penghasilan yang diterima atau diperoleh orang pribadi atau\nbadan dari transaksi penjualan saham di bursa efek dipungut Pajak\nPenghasilan yang bersifat final.\n(2)\nBesarnya Pajak Penghasilan sebagaimana dimaksud dalam ayat (1)\nadalah:\na. untuk semua transaksi penjualan saham sebesar 0,1% (satu\nperseribu) dari jumlah bruto nilai transaksi penjualan;\nb. untuk transaksi penjualan saham pendiri, kecuali saham pendiri\nperusahaan\npasangan\nusaha\nyang\ndimiliki oleh perusahaan\nmodal ventura, ditambah dengan 5% (lima persen) dari jumlah\nbruto nilai transaksi penjualan.\nPasal 2…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-",
+      "role": "SUBSTANTIVE",
+      "ord": 0
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-1994-41#BT/1/1",
+      "parent": "PP-1994-41#BT/1",
+      "heading": "",
+      "text": "Atas penghasilan yang diterima atau diperoleh orang pribadi atau\nbadan dari transaksi penjualan saham di bursa efek dipungut Pajak\nPenghasilan yang bersifat final.",
+      "role": null,
+      "ord": 1
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/1/2",
+      "parent": "PP-1994-41#BT/1",
+      "heading": "",
+      "text": "Besarnya Pajak Penghasilan sebagaimana dimaksud dalam ayat (1)\nadalah:\na. untuk semua transaksi penjualan saham sebesar 0,1% (satu\nperseribu) dari jumlah bruto nilai transaksi penjualan;\nb. untuk transaksi penjualan saham pendiri, kecuali saham pendiri\nperusahaan\npasangan\nusaha\nyang\ndimiliki oleh perusahaan\nmodal ventura, ditambah dengan 5% (lima persen) dari jumlah\nbruto nilai transaksi penjualan.\nPasal 2…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-",
+      "role": null,
+      "ord": 2
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PP-1994-41#BT/1/2/a",
+      "parent": "PP-1994-41#BT/1/2",
+      "heading": "",
+      "text": "untuk semua transaksi penjualan saham sebesar 0,1% (satu\nperseribu) dari jumlah bruto nilai transaksi penjualan;",
+      "role": null,
+      "ord": 3
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PP-1994-41#BT/1/2/b",
+      "parent": "PP-1994-41#BT/1/2",
+      "heading": "",
+      "text": "untuk transaksi penjualan saham pendiri, kecuali saham pendiri\nperusahaan\npasangan\nusaha\nyang\ndimiliki oleh perusahaan\nmodal ventura, ditambah dengan 5% (lima persen) dari jumlah\nbruto nilai transaksi penjualan.\nPasal 2…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-",
+      "role": null,
+      "ord": 4
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nPenyelenggara bursa efek wajib memungut Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 1 yang terutang untuk setiap\ntransaksi penjualan saham.\n(2)\nPenyelenggara bursa efek wajib menyetor seluruh pajak yang\ndipungut sebagaimana dimaksud dalam ayat (1) sekali sebulan\nkepada\nbank\npersepsi\natau\nKantor\nPos\ndan\nGiro\ndengan\nmenggunakan Surat Setoran Pajak.\n(3)\nPenyelenggara\nbursa\nefek\nwajib\nmenyampaikan\nlaporan\npemungutan dan\npenyetoran Pajak Penghasilan sebagaimana\ndimaksud dalam ayat (1) dan ayat (2) kepada\nDirektur Jenderal\nPajak.",
+      "role": "SUBSTANTIVE",
+      "ord": 5
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-1994-41#BT/2/1",
+      "parent": "PP-1994-41#BT/2",
+      "heading": "",
+      "text": "Penyelenggara bursa efek wajib memungut Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 1 yang terutang untuk setiap\ntransaksi penjualan saham.",
+      "role": null,
+      "ord": 6
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/2/2",
+      "parent": "PP-1994-41#BT/2",
+      "heading": "",
+      "text": "Penyelenggara bursa efek wajib menyetor seluruh pajak yang\ndipungut sebagaimana dimaksud dalam ayat (1) sekali sebulan\nkepada\nbank\npersepsi\natau\nKantor\nPos\ndan\nGiro\ndengan\nmenggunakan Surat Setoran Pajak.",
+      "role": null,
+      "ord": 7
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "PP-1994-41#BT/2/3",
+      "parent": "PP-1994-41#BT/2",
+      "heading": "",
+      "text": "Penyelenggara\nbursa\nefek\nwajib\nmenyampaikan\nlaporan\npemungutan dan\npenyetoran Pajak Penghasilan sebagaimana\ndimaksud dalam ayat (1) dan ayat (2) kepada\nDirektur Jenderal\nPajak.",
+      "role": null,
+      "ord": 8
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3",
+      "locator": "PP-1994-41#BT/3",
+      "parent": null,
+      "heading": "",
+      "text": "Penyelenggara bursa efek yang tidak memenuhi ketentuan sebagaimana\ndimaksud dalam Pasal 2, dikenakan sanksi sesuai dengan ketentuan\nperaturan perundang-undangan perpajakan yang berlaku.",
+      "role": "SUBSTANTIVE",
+      "ord": 9
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4",
+      "locator": "PP-1994-41#BT/4",
+      "parent": null,
+      "heading": "",
+      "text": "Ketentuan lebih lanjut mengenai pelaksanaan Peraturan Pemerintah ini\nditetapkan oleh Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 10
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5",
+      "locator": "PP-1994-41#BT/5",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995.\nAgar…\n\n\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nDiundangkan di Jakarta\npada tanggal 23 Desember 1994\nREPUBLIK INDONESIA,\nttd.\nMOERDIONO\nDitetapkan di Jakarta\npada tanggal 23 Desember 1994\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nSOEHARTO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 70\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "ord": 11
+    }
+  ]
+}

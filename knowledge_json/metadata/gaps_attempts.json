@@ -1,4 +1,26 @@
 {
-  "documents": {},
-  "manual_gaps": {}
+  "documents": {
+    "PMK-2008-253": {
+      "reason": "PMK 253/PMK.03/2008 (PPh 22 barang sangat mewah) tidak ditemukan di BPK; perlu unduh manual di jdih.kemenkeu.go.id.",
+      "attempts": [
+        {
+          "source": "peraturan.bpk.go.id",
+          "query": "PMK 253 2008",
+          "result": "tidak terindeks"
+        }
+      ]
+    }
+  },
+  "manual_gaps": {
+    "PMK-2008-253": {
+      "reason": "PMK 253/PMK.03/2008 (PPh 22 barang sangat mewah) tidak ditemukan di BPK; perlu unduh manual di jdih.kemenkeu.go.id.",
+      "attempts": [
+        {
+          "source": "peraturan.bpk.go.id",
+          "query": "PMK 253 2008",
+          "result": "tidak terindeks"
+        }
+      ]
+    }
+  }
 }

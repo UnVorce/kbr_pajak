@@ -1,0 +1,53 @@
+{
+  "target_document_id": "PMK-2009-105",
+  "chain": [
+    "PMK-2010-57",
+    "PMK-2015-207"
+  ],
+  "provision_sources": {
+    "PMK-2010-57": "provisions",
+    "PMK-2015-207": "provisions"
+  },
+  "applied_count": 1,
+  "unparsed_count": 3,
+  "applied": [
+    {
+      "amending": "PMK-2010-57",
+      "ordinal": 3,
+      "action": "SISIP",
+      "target": "5A",
+      "source_quote": "Di antara Pasal 5 dan Pasal 6 disisipkan 1 (satu) pasal, yakni Pasal SA yang \nberbunyi sebagai berikut: \n\n\nAgar setiap orang mengetahuinya, \nmemerintahkan pengundangan Peraturan \nMenteri Keuangan ini ",
+      "note": "ok"
+    }
+  ],
+  "unparsed": [
+    {
+      "amending": "PMK-2010-57",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 angka 3 diubah sehingga Pasal 1 berbunyi sebagai berikut: \nPasal 1\nDalam Peraturan Menteri Keuangan ini yang dimaksud dengan: \n1. Wajib Pajak adalah orang pribadi atau badan, meliput",
+      "note": "target 1 tidak ada"
+    },
+    {
+      "amending": "PMK-2010-57",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "3",
+      "source_quote": "Ketentuan Pasal 3 ayat (1) diubah, diantara ayat (1) dan ayat (2) disisipkan 1 \n(satu) ayat yakni ayat (la), sehingga Pasal 3 berbunyi sebagai berikut: \nPasal 3\n(1) Piutang yang nyata-nyata tidak dapa",
+      "note": "target 3 tidak ada"
+    },
+    {
+      "amending": "PMK-2015-207",
+      "ordinal": 1,
+      "reason": "ayat-level (lite belum menangani)",
+      "raw": "Ketentuan Pasal 3 ayat (1) huruf c dan ayat (la) diubah,\nsehingga Pasal 3 berbunyi sebagai berikut:\n(1) \nPiutang \nyang \nnyata-nyata \ntidak \ndapat \nditagih\n\n- 3 -\n1. telah diserahkan perkara penagihannya \nkepada Pengadilan Negeri atau instansi \npemerintah \nyang \nmenangani \npiutang \nnegara; \n2. terdap"
+    }
+  ],
+  "provisions": [
+    {
+      "nomor": "5A",
+      "text": "Agar setiap orang mengetahuinya, \nmemerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia.\nDiundangkan di Jakarta\npada tanggal 9 Maret 2010\nMENTER! HUKUM DAN HAK ASASI MANUSIA\nP ATRIALIS AKBAR\nDi tetapkan di Jakarta\npada tanggal 9 Maret 2010\nMENTER! KEUANGAN,\nSRI MULYANI INDRAWATI\nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 123"
+    }
+  ]
+}
