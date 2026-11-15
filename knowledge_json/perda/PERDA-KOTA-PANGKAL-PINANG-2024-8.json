@@ -1,0 +1,79 @@
+{
+  "document_id": "PERDA-KOTA-PANGKAL-PINANG-2024-8",
+  "jenis": "PERDA",
+  "tahun": 2024,
+  "judul": "Peraturan Daerah (Perda) Kota Pangkal Pinang Nomor 8 Tahun 2024 tentang Pencabutan Peraturan Daerah Kota Pangkalpinang Nomor 26 Tahun 2010 Tentang Pajak Mineral Bukan Logam Dan Batuan",
+  "articles": [
+    {
+      "locator": "PERDA-KOTA-PANGKAL-PINANG-2024-8#BT/1",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "1",
+      "text": "Peraturan Daerah Kota Pangkal Pinang Nomor 26 Tahun 2010 \ntentang Pajak Mineral Bukan Logam dan Batuan (Lembaran \nDaerah Kota Pangkal Pinang Tahun 2010 Nomor 34) dicabut dan \ndinyatakan tidak berlaku.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "138d11226f56bea9"
+    },
+    {
+      "locator": "PERDA-KOTA-PANGKAL-PINANG-2024-8#BT/2",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "2",
+      "text": "Peraturan Daerah ini mulai berlaku pada tanggal diundangkan. \nAgar \nsetiap \norang \nmengetahuinya, \nmemerintahkan \npengundangan Peraturan Daerah ini dengan penempatannya \ndalam Lembaran Daerah Kota Pangkal Pinang. \n \n \nDitetapkan di Pangkal Pinang \npada tanggal 27 Desember 2024 \n \nPj. WALI KOTA PANGKAL PINANG, \n \ndto \n \n  BUDI UTAMA \n \nDiundangkan di Pangkal Pinang \npada tanggal 27 Desember 2024 \n \nSEKRETARIS DAERAH \nKOTA PANGKAL PINANG, \n \n    dto \n \nMIE GO \n \n \nLEMBARAN DAERAH KOTA PANGKAL PINANG TAHUN 2024 NOMOR 52 \n \nNOMOR REGISTER PERATURAN DAERAH KOTA PANGKAL PINANG  \nPROVINSI KEPULAUAN BANGKA BELITUNG (8.63/2024)",
+      "role": "SUBSTANTIVE",
+      "text_hash": "050696fc0e5d2685"
+    }
+  ],
+  "content_hash": "003b61ecd715fc6fd06134005f5482753a10aa7aa24dde6482542266be4d6fdc",
+  "source": {
+    "origin": "fetched_bpk_perda",
+    "bpk_id": "315580",
+    "pages": 3
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false,
+    "ocr_suspect": false,
+    "ocr_status": "DIGITAL_OK"
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "2024-12-27",
+  "tanggal_pengundangan": "2024-12-27",
+  "subjek_sumber": "PAJAK DAN RETRIBUSI DAERAH - PERTAMBANGAN MIGAS, MINERAL DAN ENERGI",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/315580/perda-kota-pangkal-pinang-no-8-tahun-2024"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/376679/Peraturan%20Daerah%20Kota%20Pangkalpinang%20Nomor%208%20Tahun%202024%20tentang%20Pencabutan%20Perda%20Kota%20Pangkalpinang%20No.26%20tahun%202010%20tentang%20Pajak%20Mineral%20Bukan%20Logam%20dan%20Batuan.pdf",
+      "type": "pdf"
+    }
+  ],
+  "structure": "NUMERIC",
+  "preamble": "WALI KOTA PANGKAL PINANG  \nPROVINSI KEPULAUAN BANGKA BELITUNG \n \n PERATURAN DAERAH KOTA PANGKAL PINANG \n  NOMOR 8 TAHUN 2024 \n    TENTANG \nPENCABUTAN PERATURAN DAERAH KOTA PANGKAL PINANG  \nNOMOR 26 TAHUN 2010 TENTANG PAJAK MINERAL BUKAN LOGAM  \nDAN BATUAN \n DENGAN RAHMAT TUHAN YANG MAHA ESA  \n \nWALI KOTA PANGKAL PINANG, \nMenimbang :      a. \nbahwa Peraturan Daerah Kota Pangkal Pinang Nomor 26 \nTahun 2010 tentang Pajak Mineral Bukan Logam dan \nBatuan tidak sesuai lagi dengan kondisi saat ini dan telah \ndiatur dalam Peraturan Daerah Kota Pangkal Pinang \nNomor Nomor 1 Tahun 2024 tentang Pajak Daerah dan \nRetribusi Daerah, sehingga perlu dicabut; \n \nb. \nbahwa berdasarkan pertimbangan sebagaimana dimaksud \ndalam huruf a, perlu menetapkan Peraturan Daerah \ntentang Pencabutan Peraturan Daerah Kota Pangkal \nPinang Nomor 26 Tahun 2010 tentang Pajak Mineral \nBukan Logam dan Batuan; \n \nMengingat  :    \n1.",
+  "penjelasan": "",
+  "penjelasan_articles": [],
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "PERDA-KOTA-PANGKAL-PINANG-2024-8#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Daerah Kota Pangkal Pinang Nomor 26 Tahun 2010 \ntentang Pajak Mineral Bukan Logam dan Batuan (Lembaran \nDaerah Kota Pangkal Pinang Tahun 2010 Nomor 34) dicabut dan \ndinyatakan tidak berlaku.",
+      "role": "SUBSTANTIVE",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "PERDA-KOTA-PANGKAL-PINANG-2024-8#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Daerah ini mulai berlaku pada tanggal diundangkan. \nAgar \nsetiap \norang \nmengetahuinya, \nmemerintahkan \npengundangan Peraturan Daerah ini dengan penempatannya \ndalam Lembaran Daerah Kota Pangkal Pinang. \n \n \nDitetapkan di Pangkal Pinang \npada tanggal 27 Desember 2024 \n \nPj. WALI KOTA PANGKAL PINANG, \n \ndto \n \n  BUDI UTAMA \n \nDiundangkan di Pangkal Pinang \npada tanggal 27 Desember 2024 \n \nSEKRETARIS DAERAH \nKOTA PANGKAL PINANG, \n \n    dto \n \nMIE GO \n \n \nLEMBARAN DAERAH KOTA PANGKAL PINANG TAHUN 2024 NOMOR 52 \n \nNOMOR REGISTER PERATURAN DAERAH KOTA PANGKAL PINANG  \nPROVINSI KEPULAUAN BANGKA BELITUNG (8.63/2024)",
+      "role": "SUBSTANTIVE",
+      "ord": 1
+    }
+  ]
+}

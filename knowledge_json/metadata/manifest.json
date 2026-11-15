@@ -281,10 +281,10 @@
       "status_sumber": "Berlaku",
       "active_for_rules": true,
       "inactive_reason": null,
-      "structure": "UNKNOWN",
+      "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PMK-2009-105.json",
-      "provisions_pasal_count": 0,
-      "articles_count": 0,
+      "provisions_pasal_count": 7,
+      "articles_count": 7,
       "has_consolidated": true,
       "consolidated": {
         "path": "knowledge_json/consolidated/PMK-2009-105.json",
@@ -292,9 +292,9 @@
           "PMK-2010-57",
           "PMK-2015-207"
         ],
-        "applied_count": 1,
-        "unparsed_count": 3,
-        "pasal_count": 1
+        "applied_count": 3,
+        "unparsed_count": 1,
+        "pasal_count": 8
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2009-105.json",
       "origin": "fetched_bpk_3b",

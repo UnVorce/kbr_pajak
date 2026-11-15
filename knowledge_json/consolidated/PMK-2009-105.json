@@ -8,9 +8,25 @@
     "PMK-2010-57": "provisions",
     "PMK-2015-207": "provisions"
   },
-  "applied_count": 1,
-  "unparsed_count": 3,
+  "applied_count": 3,
+  "unparsed_count": 1,
   "applied": [
+    {
+      "amending": "PMK-2010-57",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 angka 3 diubah sehingga Pasal 1 berbunyi sebagai berikut: \nPasal 1\nDalam Peraturan Menteri Keuangan ini yang dimaksud dengan: \n1. Wajib Pajak adalah orang pribadi atau badan, meliput",
+      "note": "ok"
+    },
+    {
+      "amending": "PMK-2010-57",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "3",
+      "source_quote": "Ketentuan Pasal 3 ayat (1) diubah, diantara ayat (1) dan ayat (2) disisipkan 1 \n(satu) ayat yakni ayat (la), sehingga Pasal 3 berbunyi sebagai berikut: \nPasal 3\n(1) Piutang yang nyata-nyata tidak dapa",
+      "note": "ok"
+    },
     {
       "amending": "PMK-2010-57",
       "ordinal": 3,
@@ -22,22 +38,6 @@
   ],
   "unparsed": [
     {
-      "amending": "PMK-2010-57",
-      "ordinal": 1,
-      "action": "UBAH",
-      "target": "1",
-      "source_quote": "Ketentuan Pasal 1 angka 3 diubah sehingga Pasal 1 berbunyi sebagai berikut: \nPasal 1\nDalam Peraturan Menteri Keuangan ini yang dimaksud dengan: \n1. Wajib Pajak adalah orang pribadi atau badan, meliput",
-      "note": "target 1 tidak ada"
-    },
-    {
-      "amending": "PMK-2010-57",
-      "ordinal": 2,
-      "action": "UBAH",
-      "target": "3",
-      "source_quote": "Ketentuan Pasal 3 ayat (1) diubah, diantara ayat (1) dan ayat (2) disisipkan 1 \n(satu) ayat yakni ayat (la), sehingga Pasal 3 berbunyi sebagai berikut: \nPasal 3\n(1) Piutang yang nyata-nyata tidak dapa",
-      "note": "target 3 tidak ada"
-    },
-    {
       "amending": "PMK-2015-207",
       "ordinal": 1,
       "reason": "ayat-level (lite belum menangani)",
@@ -46,8 +46,36 @@
   ],
   "provisions": [
     {
+      "nomor": "1",
+      "text": "Dalam Peraturan Menteri Keuangan ini yang dimaksud dengan: \n1. Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, \npemotong pajak, dan pemungut pajak, yang mempunyai hak dan \nkewajiban perpajakan sesuai dengan ketentuan peraturan perundang- \nundangan perpajakan. \n2. Piutang yang nyata-nyata tidak dapat ditagih adalah piutang yang \ntimbul dari transaksi bisnis yang wajar sesuai dengan bidang usahanya, \nyang nyata-nyata tidak dapat ditagih meskipun telah dilakukan upaya- \nupaya penagihan yang maksimal atau terakhir oleh Wajib Pajak. \n3. Penerbitan umum atau khusus adalah penerbitan yang meliputi: \na. Penerbitan umum adalah pemuatan pengumuman pada penerbitan \nsurat kabar / majalah a tau media massa cetak yang lazim lainnya \nyang berskala nasional; atau \nb. Penerbitan khusus adalah pemuatan pengumuman pada: \n1) penerbitan Himpunan Bank-Bank Milik Negara (HIMBARA)/ \nPerhimpunan Bank-Bank Umum Nasional (PERBANAS); \n2) penerbitan/ pengumuman khusus Bank Indonesia; dan/ a tau \n3) penerbitan yang dikeluarkan oleh asosiasi yang telah terdaftar \nsebagai Wajib Pajak dan pihak kreditur menjadi anggotanya."
+    },
+    {
+      "nomor": "2",
+      "text": "(1) Piutang yang nyata-nyata tidak dapat ditagih yang timbul di bidang usaha \nbank, lembaga pembiayaan, industri, dagang dan jasa lainnya dapat dibebankan \nsebagai biaya dalam menghitung penghasilan kena pajak. \n(2) Piutang yang nyata-nyata tidak dapat ditagih sebagaimana dimaksud pada ayat \n(1) tidak termasuk piutang yang berasal dari transaksi bisnis dengan pihak- \npihak yang memiliki hubungan istimewa dengan W a jib Pajak."
+    },
+    {
+      "nomor": "3",
+      "text": "(1) Piutang yang nyata-nyata tidak dapat ditagih sebagaimana dimaksud \ndalam Pasal 2 dapat dibebankan sebagai pengurang penghasilan bruto, \nsepanjang memenuhi persyaratan: \na. telah dibebankan sebagai biaya dalam laporan laba rugi komersial: \nb. Wajib Pajak harus menyerahkan daftar piutang yang nyata-nyata \ntidak dapat ditagih kepada Direktorat Jenderal Pajak; dan \nc. \nPiutang yang nyata-nyata tidak dapat ditagih tersebut telah \ndiserahkan perkara penagihannya kepada Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara, atau terdapat \nperjanjian tertulis mengenai penghapusan piutang/ pembebasan \nutang antara kreditur dan debitur atas piutang yang nyata-nyata \ntidak dapat ditagih tersebut, atau telah dipublikasikan dalam \nMenetapkan"
+    },
+    {
+      "nomor": "4",
+      "text": "(1) Daftar piutang yang nyata-nyata tidak dapat ditagih yang diserahkan kepada \nDirektorat J ender al Pajak sebagaimana dimaksud Pasal 3 ayat (1) huruf b harus \nmencantumkan identitas debitur berupa nama, Nomor Pokok Wajib Pajak, \nalamat dan jumlah Piutang yang nyata-nyata tidak dapat ditagih. \n(2) Pemenuhan ketentuan sebagaimana dimaksud Pasal 3 ayat (1) huruf c \ndilakukan dengan cara melampirkan: \na. fotokopi bukti penyerahan perkara penagihannya ke Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara; atau \nb. fotokopi perjanjian tertulis mengenai penghapusan piutang/pembebasan \nutang usaha yang telah dilegalisir oleh notaris: atau \nc. fotokopi bukti publikasi dalam penerbitan umum atau penerbitan khusus; \na tau \nd. surat yang berisi pengakuan dari debitur bahwa utangnya telah dihapuskan \nyang disetujui oleh kreditur tentang penghapusan piutang untuk jumlah \nutang tertentu, yang disetujui oleh kreditur. \n(3) Daftar piutang yang nyata-nyata tidak dapat ditagih dan bukti/ dokumen \nsebagaimana dimaksud pada ayat (1) dan ayat (2) harus disampaikan \nbersamaan dengan penyampaian Surat Pemberitahuan (SPT) Tahunan."
+    },
+    {
+      "nomor": "5",
+      "text": "PERATURAN MENTERI KEUANGAN \nNOMOR 105 \n7/4/2019 \n\n\n4/4 \nhttps://jdih.kemenkeu.go.id/fullText/2009/105-PMK.03-2009Per.HTM \nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 133 \nANDI MATTALATTA \nDiundangkan di Jakarta \nPadatanggal10Juni2009 \nMENTER! HUKUM DAN HAK ASASI \nMANUS IA, \nSRI MULYANI INDRAWATI \nDitetapkan di Jakarta \npadatanggal10Juni2009 \nMENTER! KEUANGAN, \nPiutang yang nyata-nyata tidak dapat ditagih kepada debitur kecil atau debitur \nkecil lainnya sebagaimana dimaksud dalam Pasal 3 harus dilampiri daftar \nnominatif yang berisi identitas debitur berupa nama, Nomor Pokok Wajib Pajak, \nalamat dan jumlah Piutang yang nyata-nyata tidak dapat ditagih."
+    },
+    {
       "nomor": "5A",
       "text": "Agar setiap orang mengetahuinya, \nmemerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia.\nDiundangkan di Jakarta\npada tanggal 9 Maret 2010\nMENTER! HUKUM DAN HAK ASASI MANUSIA\nP ATRIALIS AKBAR\nDi tetapkan di Jakarta\npada tanggal 9 Maret 2010\nMENTER! KEUANGAN,\nSRI MULYANI INDRAWATI\nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 123"
+    },
+    {
+      "nomor": "6",
+      "text": "Pada saat Peraturan Menteri Keuangan ini mulai berlaku, KeP-utusan Menteri \nKeuangan Nomor 130/KMK.04/1998 tentang Penghapusan Piutang Tak Tertagih \nyang Boleh Dikurangkan Sebagai Biaya, dicabut dan dinyatakan tidak berlaku."
+    },
+    {
+      "nomor": "7",
+      "text": "Peraturan Menteri Keuangan ini mulai berlaku pada tanggal 1 Januari 2009. \nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia. \nPERATURAN MENTERI KEUANGAN \nNOMOR 105 \n7/4/2019"
     }
   ]
 }

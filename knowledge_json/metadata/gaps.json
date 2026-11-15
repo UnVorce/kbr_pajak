@@ -1,11 +1,11 @@
 {
   "summary": {
-    "total_cited_documents": 343,
-    "total_citations": 3004,
+    "total_cited_documents": 344,
+    "total_citations": 3005,
     "by_status": {
       "IGNORED_OUT_OF_SCOPE": 56,
       "RESOLVED": 78,
-      "RESOLVED_EQUIVALENT": 187,
+      "RESOLVED_EQUIVALENT": 188,
       "NOT_FOUND_AT_SOURCE": 1,
       "DEFERRED_CK": 21
     }
@@ -2189,6 +2189,26 @@
       "status": "RESOLVED_EQUIVALENT",
       "reason": "dicabut eksplisit oleh PMK-2024-81 Pasal 483",
       "equivalent_document_id": "PMK-2024-81",
+      "citation_count": 1
+    },
+    {
+      "document_id": "KMK-1998-130",
+      "jenis": "KMK",
+      "tahun": 1998,
+      "nomor": "130",
+      "occurrences": 1,
+      "cited_by": [
+        "PMK-2009-105"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut eksplisit oleh PMK-2009-105 Pasal 6",
+      "equivalent_document_id": "PMK-2009-105",
       "citation_count": 1
     },
     {
