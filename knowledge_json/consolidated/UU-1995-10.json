@@ -1,0 +1,1193 @@
+{
+  "target_document_id": "UU-1995-10",
+  "chain": [
+    "UU-2006-17"
+  ],
+  "provision_sources": {
+    "UU-2006-17": "provisions"
+  },
+  "applied_count": 78,
+  "unparsed_count": 9,
+  "applied": [
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 angka 1 dan angka  17 diubah dan\nditambah 4 (empat) angka, yaitu angka 15a, angka 19,\nangka 20, dan angka 21 sehingga Pasal 1 berbunyi\nsebagai berikut:\nPasal 1\nDalam Undang-Undang in",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "2",
+      "source_quote": "Ketentuan Pasal 2 ayat (2) diubah sehingga Pasal 2\nberbunyi sebagai berikut:\nPasal 2\n(1)\nBarang yang dimasukkan ke dalam daerah pabean\ndiperlakukan sebagai barang impor dan terutang bea\nmasuk.\n(2)\nBar",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 3,
+      "action": "SISIP",
+      "target": "2A",
+      "source_quote": "Di antara Pasal 2 dan Pasal 3 disisipkan 1 pasal yaitu\nPasal 2A yang berbunyi sebagai berikut:\nPasal 2A\n(1)\nTerhadap barang ekspor dapat dikenakan bea keluar.\n(2)\nBea keluar dikenakan terhadap barang ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 4,
+      "action": "UBAH",
+      "target": "3",
+      "source_quote": "Ketentuan Pasal 3 ayat (3) dan ayat (4) diubah sehingga\nPasal 3 berbunyi sebagai berikut:\nPasal 3\n(1)\nTerhadap barang impor dilakukan pemeriksaan\npabean.\n(2)\nPemeriksaan pabean sebagaimana dimaksud pa",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 6,
+      "action": "SISIP",
+      "target": "4A",
+      "source_quote": "Di antara Pasal 4 dan Pasal 5 disisipkan 1 (satu) pasal,\nyaitu   Pasal 4A yang berbunyi sebagai berikut:\nPasal 4A\n(1)\nTerhadap barang tertentu dilakukan pengawasan\npengangkutannya dalam daerah pabean.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 7,
+      "action": "UBAH",
+      "target": "5",
+      "source_quote": "Ketentuan Pasal 5 ayat (2) dan ayat (3) diubah sehingga\nPasal 5 berbunyi sebagai berikut:\nPasal 5\n(1)\nPemenuhan kewajiban pabean dilakukan di kantor\npabean atau tempat lain yang disamakan dengan\nkanto",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 8,
+      "action": "SISIP",
+      "target": "5A",
+      "source_quote": "Di antara Pasal 5 dan Pasal 6 disisipkan 1 (satu) pasal,\nyaitu Pasal 5A yang berbunyi sebagai berikut:\nPasal 5A\n(1)\nPemberitahuan \npabean \nsebagaimana \ndimaksud\ndalam Pasal 5 ayat (2) dapat disampaika",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 9,
+      "action": "UBAH",
+      "target": "6",
+      "source_quote": "Ketentuan Pasal 6 diubah dan ditambah 1 (satu) ayat,\nsehingga Pasal 6 berbunyi sebagai berikut:\nPasal 6\n(1)\nTerhadap barang yang diimpor atau diekspor berlaku\nsegala ketentuan sebagaimana diatur dalam",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 10,
+      "action": "SISIP",
+      "target": "6A",
+      "source_quote": "Di antara  Pasal 6 dan Pasal 7 disisipkan 1 (satu) pasal,\nyaitu Pasal 6A yang berbunyi sebagai berikut:\nPasal 6A\n(1)\nOrang yang akan melakukan pemenuhan kewajiban\npabean wajib melakukan registrasi ke ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 14,
+      "action": "HAPUS",
+      "target": "7",
+      "source_quote": "Pasal 7 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 17,
+      "action": "HAPUS",
+      "target": "8",
+      "source_quote": "Pasal 8 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 20,
+      "action": "HAPUS",
+      "target": "9",
+      "source_quote": "Pasal 9 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 26,
+      "action": "HAPUS",
+      "target": "11",
+      "source_quote": "Pasal 11 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 27,
+      "action": "SISIP",
+      "target": "11A",
+      "source_quote": "Di antara Pasal 11 dan BAB III disisipkan 1 (satu) pasal,\nyaitu Pasal 11A yang berbunyi sebagai berikut:\nPasal 11A\n(1) Barang yang akan diekspor wajib diberitahukan\ndengan pemberitahuan pabean.\n(2) Pe",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 28,
+      "action": "UBAH",
+      "target": "13",
+      "source_quote": "Ketentuan Pasal 13 diubah sehingga Pasal 13 berbunyi\nsebagai berikut:\nPasal 13\n(1)\nBea masuk dapat dikenakan berdasarkan tarif yang\nbesarnya berbeda dengan yang dimaksud dalam\nPasal 12 ayat (1) terhad",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 29,
+      "action": "UBAH",
+      "target": "14",
+      "source_quote": "Ketentuan Pasal 14 diubah sehingga Pasal 14 berbunyi\nsebagai berikut:\nPasal 14\n(1) Untuk penetapan tarif bea masuk dan bea keluar,\nbarang \ndikelompokkan \nberdasarkan \nsistem\nklasifikasi barang.\n(2)  K",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 30,
+      "action": "UBAH",
+      "target": "15",
+      "source_quote": "Ketentuan Pasal 15 ayat (2), ayat (3), ayat (4), ayat (5),\nayat (6) dan ayat (7) diubah, dan di antara ayat (3) dan\nayat (4) disisipkan 1 (satu) ayat, yaitu ayat (3a) sehingga\nPasal 15 berbunyi sebaga",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 31,
+      "action": "UBAH",
+      "target": "16",
+      "source_quote": "Ketentuan Pasal 16 ayat (1), ayat (2), ayat (3), ayat (4),\ndan ayat (6) diubah sehingga Pasal 16 berbunyi sebagai\nberikut:\nPasal 16 . . .\n\n\nPasal 16\n(1) Pejabat bea dan cukai dapat menetapkan tarif\nte",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 32,
+      "action": "UBAH",
+      "target": "17",
+      "source_quote": "Ketentuan Pasal 17 ayat (2) huruf b diubah dan ditambah\n1 (satu) ayat, yaitu ayat (4) sehingga Pasal 17 berbunyi\nsebagai berikut:\nPasal 17\n(1) Direktur  Jenderal  dapat menetapkan kembali tarif\ndan ni",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 33,
+      "action": "SISIP",
+      "target": "17A",
+      "source_quote": "Di antara Pasal 17 dan Pasal 18 disisipkan 1 (satu) pasal,\nyaitu Pasal 17A yang berbunyi sebagai berikut:\nPasal 17A\nBerdasarkan \npermohonan, \nDirektur \nJenderal \ndapat\nmenetapkan klasifikasi barang da",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 35,
+      "action": "HAPUS",
+      "target": "20",
+      "source_quote": "Pasal 20 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 36,
+      "action": "HAPUS",
+      "target": "23",
+      "source_quote": "Pasal 23 dihapus.\n37. BAB IV  . . .",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 38,
+      "action": "UBAH",
+      "target": "25",
+      "source_quote": "Ketentuan Pasal 25 ayat (2) dihapus dan ayat (1), ayat (3),\ndan ayat (4) diubah sehingga Pasal 25 berbunyi sebagai\nberikut:\nPasal 25\n(1) Pembebasan bea masuk diberikan atas impor:\na. barang perwakilan",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 40,
+      "action": "UBAH",
+      "target": "27",
+      "source_quote": "Ketentuan Pasal 27 diubah sehingga Pasal 27 berbunyi\nsebagai berikut:\nPasal 27\n(1) Pengembalian dapat diberikan terhadap seluruh atau\nsebagian bea masuk yang telah dibayar atas:\na.  kelebihan pembayar",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 41,
+      "action": "UBAH",
+      "target": "30",
+      "source_quote": "Ketentuan Pasal 30 diubah dengan menambah 2 (dua)\nayat, yaitu ayat (3) dan ayat (4), sehingga Pasal 30\nberbunyi sebagai berikut:\nPasal 30\n(1) Importir bertanggung jawab atas bea masuk yang\nterutang se",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 42,
+      "action": "UBAH",
+      "target": "32",
+      "source_quote": "Ketentuan Pasal 32 ayat (3) diubah dan ditambah 1 (satu)\nayat, yaitu ayat (4) sehingga Pasal 32 berbunyi sebagai\nberikut:\nPasal 32\n(1) Pengusaha \ntempat \npenimbunan \nsementara\nbertanggung jawab atas b",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 45,
+      "action": "UBAH",
+      "target": "36",
+      "source_quote": "Ketentuan Pasal 36 ayat (2) dan ayat (3) diubah sehingga\nPasal 36 berbunyi sebagai berikut:\nPasal 36\n(1) Bea masuk, denda administrasi, dan bunga yang\nterutang kepada negara menurut Undang-Undang ini,",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 46,
+      "action": "UBAH",
+      "target": "37",
+      "source_quote": "Ketentuan Pasal 37 ayat (1), ayat (2), dan ayat (3) diubah,\ndan di antara ayat (2) dan ayat (3) disisipkan 1 (satu)\nayat, yaitu ayat (2a) sehingga Pasal 37 berbunyi sebagai\nberikut:\nPasal 37\n(1) Bea m",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 48,
+      "action": "UBAH",
+      "target": "38",
+      "source_quote": "Ketentuan Pasal 38 diubah dengan menambah 1 (satu),\nyaitu ayat (3) sehingga Pasal 38 berbunyi sebagai berikut:\nPasal 38  . . .\n\n\nPasal 38\n(1)\nUtang atau tagihan kepada negara berdasarkan\nUndang-Undang",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 50,
+      "action": "UBAH",
+      "target": "44",
+      "source_quote": "Ketentuan Pasal 44 ayat (1) dan ayat (2) diubah dan di\nantara ayat (1) dan ayat (2) disisipkan 1 (satu) ayat, yaitu\nayat (1a) sehingga Pasal 44 berbunyi sebagai berikut:\nPasal 44\n(1)\nDengan persyarata",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 52,
+      "action": "UBAH",
+      "target": "49",
+      "source_quote": "Ketentuan Pasal 49 diubah sehingga berbunyi sebagai\nberikut:\nPasal 49\nImportir, \neksportir, \npengusaha \ntempat \npenimbunan\nsementara, \npengusaha \ntempat \npenimbunan \nberikat,\npengusaha pengurusan jasa",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 53,
+      "action": "UBAH",
+      "target": "50",
+      "source_quote": "Ketentuan Pasal 50 diubah sehingga Pasal 50 berbunyi\nsebagai berikut:\nPasal 50\n(1)  Atas permintaan pejabat bea dan cukai, orang\nsebagaimana \ndimaksud \ndalam \nPasal 49\nwajib\nmenyerahkan laporan keuang",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 54,
+      "action": "UBAH",
+      "target": "51",
+      "source_quote": "Ketentuan Pasal 51 diubah dan ditambah 3 (tiga) ayat,\nyaitu ayat (2), ayat (3), dan ayat (4) sehingga Pasal 51\nberbunyi sebagai berikut:\nPasal 51\n(1)\nPembukuan sebagaimana dimaksud dalam Pasal 49\nwaji",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 55,
+      "action": "UBAH",
+      "target": "52",
+      "source_quote": "Ketentuan Pasal 52 diubah dan ditambah 1 (satu) ayat\nsehingga Pasal 52 berbunyi sebagai berikut:\nPasal 52\n(1)  Orang   yang tidak menyelenggarakan pembukuan\nsebagaimana dimaksud dalam Pasal 49 dikenai",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 57,
+      "action": "UBAH",
+      "target": "53",
+      "source_quote": "Ketentuan Pasal 53 ayat (1), ayat (2), dan ayat (3) diubah\nsehingga Pasal 53 berbunyi sebagai berikut:\nPasal 53\n(1)\nUntuk kepentingan pengawasan terhadap pelaksanaan\nketentuan larangan dan pembatasan,",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 58,
+      "action": "UBAH",
+      "target": "54",
+      "source_quote": "Ketentuan Pasal 54 diubah sehingga berbunyi sebagai\nberikut:\nPasal 54\nAtas permintaan pemilik atau pemegang hak atas merek\natau \nhak \ncipta, \nketua \npengadilan \nniaga \ndapat\nmengeluarkan perintah tert",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 59,
+      "action": "UBAH",
+      "target": "56",
+      "source_quote": "Ketentuan Pasal 56 diubah sehingga Pasal 56 berbunyi\nsebagai berikut:\nPasal 56\nBerdasarkan perintah tertulis sebagaimana dimaksud\ndalam Pasal 54, pejabat bea dan cukai:\na.  memberitahukan secara tertu",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 60,
+      "action": "UBAH",
+      "target": "57",
+      "source_quote": "Ketentuan   Pasal  57 ayat (1) dan ayat (2) diubah sehingga\nPasal 57 berbunyi sebagai berikut:\nPasal 57\n(1)\nPenangguhan    pengeluaran  barang  sebagaimana\ndimaksud dalam Pasal 56 huruf b dilaksanakan",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 61,
+      "action": "UBAH",
+      "target": "58",
+      "source_quote": "Ketentuan Pasal 58 diubah sehingga Pasal 58 berbunyi\nsebagai berikut:\nPasal 58\n(1)\nAtas permintaan pemilik atau pemegang hak atas\nmerek \natau \nhak \ncipta \nyang \nmeminta \nperintah\npenangguhan, ketua pe",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 62,
+      "action": "UBAH",
+      "target": "59",
+      "source_quote": "Ketentuan Pasal 59 diubah sehingga Pasal 59 berbunyi\nsebagai berikut:\nPasal 59  . . .\n\n\nPasal 59\n(1)\nApabila  dalam  jangka  waktu 10  (sepuluh)  hari kerja\nsebagaimana dimaksud dalam Pasal 57 ayat (1",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 63,
+      "action": "UBAH",
+      "target": "60",
+      "source_quote": "Ketentuan Pasal  60 diubah sehingga berbunyi sebagai\nberikut:\nPasal 60  . . .\n\n\nPasal 60\nDalam keadaan tertentu, importir, eksportir, atau pemilik\nbarang impor atau ekspor dapat mengajukan permintaan\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 64,
+      "action": "UBAH",
+      "target": "61",
+      "source_quote": "Ketentuan Pasal 61 diubah sehingga Pasal 61 berbunyi\nsebagai berikut:\nPasal 61\n(1)\nApabila dari hasil pemeriksaan perkara terbukti bahwa\nbarang impor atau ekspor tersebut tidak merupakan\natau tidak be",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 65,
+      "action": "SISIP",
+      "target": "64A",
+      "source_quote": "Di antara Pasal 64 dan BAB XI disisipkan 1 (satu) bagian,\nyaitu Bagian Ketiga yang berbunyi sebagai berikut:\nBagian Ketiga\nPenindakan Atas Barang yang Terkait dengan\nTerorisme dan/atau Kejahatan Linta",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 66,
+      "action": "UBAH",
+      "target": "75",
+      "source_quote": "Ketentuan Pasal 75 ayat (1) diubah sehingga Pasal 75\nberbunyi sebagai berikut:\nPasal 75\n(1)\nPejabat \nbea \ndan \ncukai \ndalam \nmelaksanakan\npengawasan terhadap sarana pengangkut di laut atau\ndi sungai m",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 67,
+      "action": "UBAH",
+      "target": "76",
+      "source_quote": "Ketentuan Pasal 76 diubah sehingga Pasal 76 berbunyi\nsebagai berikut:\nPasal 76\n(1) Dalam  melaksanakan  tugas berdasarkan Undang-\nUndang ini pejabat bea dan cukai dapat meminta\nbantuan \nKepolisian \nRe",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 68,
+      "action": "UBAH",
+      "target": "78",
+      "source_quote": "Ketentuan Pasal 78 diubah sehingga berbunyi sebagai\nberikut:\nPasal 78\nPejabat bea dan cukai berwenang untuk mengunci,\nmenyegel, dan/atau melekatkan tanda pengaman yang\ndiperlukan terhadap barang impor",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 69,
+      "action": "UBAH",
+      "target": "82",
+      "source_quote": "Ketentuan Pasal 82  ayat (4) dihapus dan ayat (1), ayat (3),\nayat (5), dan ayat (6)  diubah  sehingga Pasal 82 berbunyi\nsebagai berikut:\nPasal 82\n(1)\nPejabat \nbea \ndan \ncukai \nberwenang \nmelakukan\npem",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 70,
+      "action": "SISIP",
+      "target": "82A",
+      "source_quote": "Di antara Pasal 82 dan Pasal 83 disisipkan satu pasal,\nyaitu Pasal 82A yang berbunyi sebagai berikut:\nPasal 82A\n(1)\nUntuk kepentingan pengawasan, pejabat bea dan\ncukai berwenang melakukan pemeriksaan ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 71,
+      "action": "UBAH",
+      "target": "85",
+      "source_quote": "Ketentuan Pasal 85 ayat (1) diubah dan ditambah 1 (satu)\nayat, yaitu ayat (3) sehingga Pasal 85 berbunyi sebagai\nberikut:\nPasal 85\n(1)\nPejabat  bea  dan  cukai  memberikan persetujuan\nimpor atau ekspo",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 73,
+      "action": "UBAH",
+      "target": "86",
+      "source_quote": "Ketentuan Pasal 86 ayat (1) dan ayat (2) diubah dan di\nantara ayat (1) dan ayat (2) disisipkan 1 (satu) ayat, yaitu\nayat (1a), serta ditambah 1 (satu) ayat, yaitu ayat (3)\nsehingga Pasal 86 berbunyi s",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 75,
+      "action": "UBAH",
+      "target": "88",
+      "source_quote": "Ketentuan Pasal 88 ayat (2) diubah sehingga Pasal 88\nberbunyi sebagai berikut:\nPasal 88\n(1)\nUntuk pemenuhan kewajiban pabean berdasarkan\nUndang-Undang ini, pejabat bea dan cukai berwenang\nmemasuki dan",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 76,
+      "action": "UBAH",
+      "target": "90",
+      "source_quote": "Ketentuan Pasal 90 ayat (3) dan ayat (4) diubah sehingga\nPasal 90 berbunyi sebagai berikut:\nPasal 90\n(1)\nUntuk pemenuhan kewajiban pabean berdasarkan\nUndang-Undang ini pejabat bea dan cukai berwenang\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 77,
+      "action": "SISIP",
+      "target": "92A",
+      "source_quote": "Di antara Pasal 92 dan BAB XIII disisipkan 1 (satu) bagian,\nyaitu Bagian Keempat yang berbunyi sebagai berikut:\nBagian Keempat\nKewenangan Khusus Direktur Jenderal\nPasal 92A\n(1) Direktur \nJenderal \nkar",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 79,
+      "action": "UBAH",
+      "target": "93",
+      "source_quote": "Ketentuan Pasal 93 ayat (1), ayat (2), ayat (3), ayat (4), dan\nayat (5) diubah, dan di antara ayat (1) dan ayat (2)\ndisisipkan 1 (satu) ayat yaitu ayat (1a), serta ditambah 1\n(satu) ayat, yaitu ayat (",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 80,
+      "action": "SISIP",
+      "target": "93A",
+      "source_quote": "Di antara Pasal 93 dan Pasal 94 disisipkan 1 (satu) pasal,\nyaitu Pasal 93A yang berbunyi sebagai berikut:\nPasal 93A\n(1)\nOrang yang berkeberatan terhadap penetapan pejabat\nbea dan cukai selain tarif  d",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 81,
+      "action": "UBAH",
+      "target": "94",
+      "source_quote": "Ketentuan Pasal 94 diubah dan ditambah 1 (satu) ayat,\nyaitu ayat (6) sehingga Pasal 94 berbunyi sebagai berikut:\nPasal 94\n(1)\nOrang  yang  dikenai  sanksi administrasi berupa\ndenda dapat mengajukan ke",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 82,
+      "action": "UBAH",
+      "target": "95",
+      "source_quote": "Ketentuan Pasal 95 diubah sehingga berbunyi sebagai\nberikut:\nPasal 95\nOrang yang berkeberatan terhadap penetapan Direktur\nJenderal \natas \ntarif \ndan \nnilai \npabean \nsebagaimana\ndimaksud dalam Pasal 17",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 83,
+      "action": "HAPUS",
+      "target": "96",
+      "source_quote": "Pasal 96 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 84,
+      "action": "HAPUS",
+      "target": "97",
+      "source_quote": "Pasal 97 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 85,
+      "action": "HAPUS",
+      "target": "98",
+      "source_quote": "Pasal 98 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 86,
+      "action": "HAPUS",
+      "target": "99",
+      "source_quote": "Pasal 99 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 87,
+      "action": "HAPUS",
+      "target": "100",
+      "source_quote": "Pasal 100 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 88,
+      "action": "HAPUS",
+      "target": "101",
+      "source_quote": "Pasal 101 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 90,
+      "action": "UBAH",
+      "target": "102",
+      "source_quote": "Ketentuan Pasal 102 diubah sehingga Pasal 102 berbunyi\nsebagai berikut:\nPasal 102  . . .\n\n\nPasal 102\nSetiap orang yang:\na. mengangkut barang impor yang tidak tercantum dalam\nmanifes sebagaimana dimaks",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 91,
+      "action": "SISIP",
+      "target": "102A",
+      "source_quote": "Di antara Pasal 102 dan Pasal 103 disisipkan 4 (empat)\npasal, yaitu Pasal 102A, Pasal 102B, Pasal 102C, dan Pasal\n102D yang berbunyi sebagai berikut:\nPasal 102A  . . .\n\n\nPasal 102A\nSetiap orang yang:\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 91,
+      "action": "SISIP",
+      "target": "102B",
+      "source_quote": "Di antara Pasal 102 dan Pasal 103 disisipkan 4 (empat)\npasal, yaitu Pasal 102A, Pasal 102B, Pasal 102C, dan Pasal\n102D yang berbunyi sebagai berikut:\nPasal 102A  . . .\n\n\nPasal 102A\nSetiap orang yang:\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 91,
+      "action": "SISIP",
+      "target": "102C",
+      "source_quote": "Di antara Pasal 102 dan Pasal 103 disisipkan 4 (empat)\npasal, yaitu Pasal 102A, Pasal 102B, Pasal 102C, dan Pasal\n102D yang berbunyi sebagai berikut:\nPasal 102A  . . .\n\n\nPasal 102A\nSetiap orang yang:\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 91,
+      "action": "SISIP",
+      "target": "102D",
+      "source_quote": "Di antara Pasal 102 dan Pasal 103 disisipkan 4 (empat)\npasal, yaitu Pasal 102A, Pasal 102B, Pasal 102C, dan Pasal\n102D yang berbunyi sebagai berikut:\nPasal 102A  . . .\n\n\nPasal 102A\nSetiap orang yang:\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 92,
+      "action": "UBAH",
+      "target": "103",
+      "source_quote": "Ketentuan Pasal 103 diubah sehingga berbunyi sebagai\nberikut:\nPasal 103\nSetiap orang yang:\na. menyerahkan \npemberitahuan \npabean \ndan/atau\ndokumen \npelengkap \npabean \nyang \npalsu \natau\ndipalsukan;\nb. ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 93,
+      "action": "SISIP",
+      "target": "103A",
+      "source_quote": "Di antara Pasal 103 dan Pasal 104 disisipkan 1 (satu)\npasal, yaitu Pasal 103A yang berbunyi sebagai berikut:\nPasal 103A\n(1)\nSetiap orang yang secara tidak sah mengakses sistem\nelektronik yang berkaita",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 94,
+      "action": "UBAH",
+      "target": "104",
+      "source_quote": "Ketentuan Pasal 104 diubah sehingga berbunyi sebagai\nberikut:\nPasal 104\nSetiap orang yang:\na. \nmengangkut barang yang berasal dari tindak pidana\nsebagaimana dimaksud dalam Pasal 102, Pasal 102A,\natau ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 95,
+      "action": "UBAH",
+      "target": "105",
+      "source_quote": "Ketentuan Pasal 105 diubah sehingga berbunyi sebagai\nberikut:\nPasal 105\nSetiap orang yang dengan sengaja dan tanpa hak\nmembuka, melepas, atau merusak kunci, segel atau tanda\npengaman yang telah dipasa",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 96,
+      "action": "HAPUS",
+      "target": "106",
+      "source_quote": "Pasal 106 dihapus.\n97. Pasal 107 tetap dengan perubahan penjelasan pasal 107\nsehingga penjelasan Pasal 107 menjadi sebagaimana\nditetapkan dalam penjelasan pasal demi pasal Undang-\nUndang ini.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 98,
+      "action": "UBAH",
+      "target": "108",
+      "source_quote": "Ketentuan Pasal 108 ayat (3) dan ayat (4) diubah sehingga\nPasal 108 berbunyi sebagai berikut:\nPasal 108\n(1)\nDalam hal suatu tindak pidana yang dapat dipidana\nmenurut Undang-Undang ini dilakukan oleh a",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 99,
+      "action": "UBAH",
+      "target": "109",
+      "source_quote": "Ketentuan Pasal 109 ayat (1) dan ayat (2) diubah, dan di\nantara ayat (2) dan ayat (3) disisipkan 1 (satu) ayat, yaitu\nayat  (2a) sehingga Pasal 109 berbunyi sebagai berikut:\nPasal 109 . . .\n\n\nPasal 10",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 101,
+      "action": "SISIP",
+      "target": "115A",
+      "source_quote": "Di antara Pasal 115 dan BAB XVII disisipkan 3 (tiga) pasal,\nyaitu Pasal 115A, Pasal 115B, dan Pasal 115C yang\nberbunyi sebagai berikut:\nPasal 115A  . . .\n\n\nPasal 115A\n(1) Barang yang dimasukkan atau d",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 101,
+      "action": "SISIP",
+      "target": "115B",
+      "source_quote": "Di antara Pasal 115 dan BAB XVII disisipkan 3 (tiga) pasal,\nyaitu Pasal 115A, Pasal 115B, dan Pasal 115C yang\nberbunyi sebagai berikut:\nPasal 115A  . . .\n\n\nPasal 115A\n(1) Barang yang dimasukkan atau d",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 101,
+      "action": "SISIP",
+      "target": "115C",
+      "source_quote": "Di antara Pasal 115 dan BAB XVII disisipkan 3 (tiga) pasal,\nyaitu Pasal 115A, Pasal 115B, dan Pasal 115C yang\nberbunyi sebagai berikut:\nPasal 115A  . . .\n\n\nPasal 115A\n(1) Barang yang dimasukkan atau d",
+      "note": "ok"
+    }
+  ],
+  "unparsed": [
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 15,
+      "action": "UBAH",
+      "target": "7A",
+      "source_quote": "Di antara Pasal 7 dan BAB II Bagian Pertama Paragraf 2\ndisisipkan 1 (satu) pasal yaitu  Pasal  7A yang berbunyi\nsebagai berikut:\nPasal 7A\n(1)\nPengangkut \nyang \nsarana \npengangkutnya \nakan\ndatang dari:",
+      "note": "target 7A tidak ada"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 18,
+      "reason": "ayat-level (lite belum menangani)",
+      "raw": "Di antara Pasal 8 BAB II Bagian Pertama Paragraf 3\ndisisipkan 3 (tiga) pasal yaitu Pasal 8A, Pasal 8B, dan\nPasal 8C yang berbunyi sebagai berikut:\nPasal 8A\n(1) Pengangkutan \n \nbarang \nimpor \ndari \ntempat\npenimbunan sementara atau tempat penimbunan\nberikat \ndengan \ntujuan \ntempat \npenimbunan\nsementar"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 21,
+      "action": "UBAH",
+      "target": "9A",
+      "source_quote": "Di antara Pasal 9 dan BAB II Bagian Kedua disisipkan 1\n(satu) pasal, yaitu Pasal 9A yang berbunyi sebagai\nberikut:\nPasal 9A\n(1)\nPengangkut \nyang \nsarana \npengangkutnya \nakan\nberangkat menuju:\na. ke lu",
+      "note": "target 9A tidak ada"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 23,
+      "reason": "ayat-level (lite belum menangani)",
+      "raw": "Pasal 10 dihapus.\n24. BAB II Bagian Kedua ditambah 3 (tiga) paragraf, yaitu\nParagraf 1, Paragraf 2, dan Paragraf 3 yang berbunyi\nsebagai berikut:\nParagraf 1\nPembongkaran, Penimbunan,\ndan Pengeluaran\nPasal 10A\n(1) Barang impor yang diangkut sarana pengangkut\nsebagaimana dimaksud dalam Pasal 7A ayat ("
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 39,
+      "action": "UBAH",
+      "target": "26",
+      "source_quote": "Ketentuan Pasal 26 ayat (2) dihapus dan ayat (1), ayat (3),\ndan ayat (4) diubah sehingga Pasal 26 berbunyi sebagai\nberikut:\nPasal 26  . . .\n\n\nPasal 26\n(1) Pembebasan atau keringanan bea masuk dapat\ndi",
+      "note": "target 26 tidak ada"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 47,
+      "action": "UBAH",
+      "target": "37A",
+      "source_quote": "Di antara Pasal 37 dan Bagian Kedua BAB VII disisipkan 1\n(satu) pasal, yaitu Pasal 37A yang berbunyi sebagai\nberikut:\nPasal 37A\n(1)\nKekurangan pembayaran bea masuk dan/atau denda\nadministrasi yang ter",
+      "note": "target 37A tidak ada"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 51,
+      "action": "UBAH",
+      "target": "45",
+      "source_quote": "Ketentuan Pasal 45 diubah sehingga Pasal 45 berbunyi\nsebagai berikut:\nPasal 45\n(1)  Barang dapat dikeluarkan dari tempat penimbunan\nberikat atas persetujuan pejabat bea dan cukai untuk:\na. diimpor unt",
+      "note": "target 45 tidak ada"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 72,
+      "action": "UBAH",
+      "target": "85A",
+      "source_quote": "Di antara Pasal 85 dan BAB XII Paragraf 2 disisipkan 1\n(satu) pasal, yaitu Pasal 85A yang berbunyi sebagai\nberikut:\nPasal 85A\n(1)\nBerdasarkan peraturan perundang-undangan yang\nberlaku, pejabat bea dan",
+      "note": "target 85A tidak ada"
+    },
+    {
+      "amending": "UU-2006-17",
+      "ordinal": 74,
+      "action": "UBAH",
+      "target": "86A",
+      "source_quote": "Di antara Pasal  86 dan Paragraf 3 disisipkan 1 (satu)\npasal, yaitu Pasal 86A yang berbunyi sebagai berikut:\nPasal 86A\nApabila dalam pelaksanaan audit kepabeanan ditemukan\nadanya \nkekurangan \npembayar",
+      "note": "target 86A tidak ada"
+    }
+  ],
+  "provisions": [
+    {
+      "nomor": "1",
+      "text": "Dalam Undang-Undang ini yang dimaksud dengan:\n1. Kepabeanan \nadalah \nsegala \nsesuatu \nyang\nberhubungan dengan pengawasan atas lalu lintas\nbarang yang masuk atau keluar daerah pabean serta\npemungutan bea masuk dan bea keluar.\n2. Daerah  . . .\n\n\n2. Daerah pabean adalah wilayah Republik Indonesia\nyang meliputi wilayah darat, perairan dan ruang\nudara di atasnya, serta tempat-tempat tertentu di\nZona Ekonomi Eksklusif dan landas kontinen yang di\ndalamnya berlaku Undang-Undang ini.\n3. Kawasan pabean adalah kawasan dengan batas-\nbatas tertentu di pelabuhan laut, bandar udara, atau\ntempat lain yang ditetapkan untuk lalu lintas barang\nyang sepenuhnya berada di bawah pengawasan\nDirektorat Jenderal Bea dan Cukai.\n4. Kantor pabean adalah kantor dalam lingkungan\nDirektorat \nJenderal \nBea \ndan \nCukai \ntempat\ndipenuhinya \nkewajiban \npabean \nsesuai \ndengan\nketentuan Undang-Undang ini.\n5. Pos \npengawasan \npabean \nadalah \ntempat \nyang\ndigunakan oleh pejabat bea dan cukai untuk\nmelakukan pengawasan terhadap lalu lintas  barang\nimpor dan ekspor.\n6. Kewajiban pabean adalah semua kegiatan di bidang\nkepabeanan yang wajib dilakukan untuk memenuhi\nketentuan dalam Undang-Undang ini.\n7. Pemberitahuan pabean adalah pernyataan yang\ndibuat oleh orang dalam rangka melaksanakan\nkewajiban pabean dalam bentuk dan syarat yang\nditetapkan dalam Undang-Undang ini.\n8. Menteri \nadalah \nMenteri \nKeuangan \nRepublik\nIndonesia.\n9. Direktur jenderal adalah Direktur Jenderal Bea dan\nCukai.\n10. Direktorat Jenderal Bea dan Cukai adalah unsur\npelaksana tugas pokok dan fungsi Departemen\nKeuangan di bidang kepabeanan dan cukai.\n11. Pejabat bea dan cukai adalah pegawai Direktorat\nJenderal Bea dan Cukai yang ditunjuk dalam jabatan\ntertentu \nuntuk \nmelaksanakan \ntugas \ntertentu\nberdasarkan Undang-Undang ini.\n12. Orang adalah orang perseorangan atau badan\nhukum.\n13. Impor  . . .\n\n\n13. Impor adalah kegiatan memasukkan barang ke\ndalam daerah pabean.\n14. Ekspor adalah kegiatan mengeluarkan barang dari\ndaerah pabean.\n15. Bea masuk adalah pungutan negara berdasarkan\nUndang-Undang ini yang dikenakan terhadap barang\nyang diimpor.\n15a. Bea keluar  adalah  pungutan  negara  berdasarkan\nUndang-Undang ini yang dikenakan terhadap barang\nekspor.\n16. Tempat penimbunan sementara adalah bangunan\ndan/atau lapangan atau tempat lain yang disamakan\ndengan itu di kawasan pabean untuk menimbun\nbarang, \nsementara \nmenunggu \npemuatan \natau\npengeluarannya.\n17. Tempat penimbunan berikat adalah bangunan,\ntempat, atau kawasan yang memenuhi persyaratan\ntertentu yang digunakan untuk menimbun barang\ndengan \ntujuan \ntertentu \ndengan \nmendapatkan\npenangguhan bea masuk.\n18. Tempat \npenimbunan \npabean \nadalah \nbangunan\ndan/atau lapangan atau tempat lain yang disamakan\ndengan itu, yang disediakan oleh pemerintah di\nkantor pabean, yang berada di bawah pengelolaan\nDirektorat \nJenderal \nBea \ndan \nCukai \nuntuk\nmenyimpan barang yang dinyatakan tidak dikuasai,\nbarang yang dikuasai negara, dan barang yang\nmenjadi milik negara berdasarkan Undang-Undang\nini.\n19. Barang tertentu adalah barang yang ditetapkan oleh\ninstansi \nteknis \nterkait \nsebagai \nbarang \nyang\npengangkutannya di dalam daerah pabean diawasi.\n20. Audit kepabeanan adalah kegiatan pemeriksaan\nlaporan keuangan, buku, catatan dan dokumen yang\nmenjadi \nbukti \ndasar \npembukuan, \nsurat \nyang\nberkaitan dengan kegiatan usaha termasuk data\nelektronik, surat yang berkaitan dengan kegiatan di\nbidang kepabeanan, dan/atau sediaan barang dalam\nrangka \npelaksanaan \nketentuan \nperaturan\nperundang-undangan di bidang kepabeanan.\n21. Tarif  . . .\n\n\n21. Tarif adalah klasifikasi barang dan pembebanan bea\nmasuk atau bea keluar."
+    },
+    {
+      "nomor": "2",
+      "text": "(1)\nBarang yang dimasukkan ke dalam daerah pabean\ndiperlakukan sebagai barang impor dan terutang bea\nmasuk.\n(2)\nBarang yang telah dimuat di sarana pengangkut\nuntuk dikeluarkan dari daerah pabean dianggap\ntelah diekspor dan diperlakukan sebagai barang\nekspor.\n(3)\nBarang sebagaimana dimaksud pada ayat (2) bukan\nmerupakan \nbarang \nekspor \ndalam \nhal \ndapat\ndibuktikan bahwa barang tersebut ditujukan untuk\ndibongkar di suatu tempat dalam daerah pabean."
+    },
+    {
+      "nomor": "2A",
+      "text": "(1)\nTerhadap barang ekspor dapat dikenakan bea keluar.\n(2)\nBea keluar dikenakan terhadap barang ekspor\ndengan tujuan untuk:\na. menjamin terpenuhinya kebutuhan dalam negeri;\nb. melindungi kelestarian sumber daya alam;\nc. mengantisipasi \nkenaikan \nharga \nyang \ncukup\ndrastis dari komoditi ekspor tertentu di pasaran\ninternasional; atau\nd. menjaga stabilitas harga komoditi tertentu di\ndalam negeri.\n(3)\nKetentuan mengenai pengenaan bea keluar terhadap\nbarang ekspor sebagaimana dimaksud pada ayat (1)\ndiatur lebih lanjut dengan peraturan pemerintah.\n4. Ketentuan  . . ."
+    },
+    {
+      "nomor": "3",
+      "text": "(1)\nTerhadap barang impor dilakukan pemeriksaan\npabean.\n(2)\nPemeriksaan pabean sebagaimana dimaksud pada\nayat \n(1) \nmeliputi \npenelitian \ndokumen \ndan\npemeriksaan fisik barang.\n(3)\nPemeriksaan    pabean sebagaimana  dimaksud pada\nayat (2)  dilakukan secara selektif.\n(4)\nKetentuan mengenai tata cara pemeriksaan pabean\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri.\n5. Pasal 4 tetap dengan perubahan penjelasan Pasal 4\nsehingga  Penjelasan Pasal 4 menjadi sebagaimana\nditetapkan dalam penjelasan pasal demi pasal Undang-\nUndang ini."
+    },
+    {
+      "nomor": "4",
+      "text": "(1)\nTerhadap barang ekspor dilakukan penelitian dokumen.\n(2)\nDalam hal tertentu, dapat dilakukan pemeriksaan fisik atas barang\nekspor.\n(3)\nTata cara pemeriksaan pabean sebagaimana dimaksud pada ayat (1)\ndan ayat (2) diatur lebih lanjut oleh Menteri."
+    },
+    {
+      "nomor": "4A",
+      "text": "(1)\nTerhadap barang tertentu dilakukan pengawasan\npengangkutannya dalam daerah pabean.\n(2)\nInstansi \nteknis \nterkait, \nmelalui \nmenteri \nyang\nmembidangi perdagangan, memberitahukan jenis\nbarang yang ditetapkan sebagai barang tertentu\nkepada Menteri.\n(3)\nKetentuan \nmengenai \npengawasan \npengangkutan\nbarang tertentu sebagaimana dimaksud pada ayat (1)\ndiatur \nlebih \nlanjut \ndengan \natau \nberdasarkan\nperaturan pemerintah.\n7. Ketentuan  . . ."
+    },
+    {
+      "nomor": "5",
+      "text": "(1)\nPemenuhan kewajiban pabean dilakukan di kantor\npabean atau tempat lain yang disamakan dengan\nkantor pabean dengan menggunakan pemberitahuan\npabean.\n(2)\nPemberitahuan  pabean disampaikan kepada pejabat\nbea dan cukai di kantor pabean atau tempat lain\nyang disamakan dengan kantor pabean.\n(3)\nUntuk pelaksanaan dan pengawasan pemenuhan\nkewajiban pabean, ditetapkan kawasan pabean,\nkantor pabean, dan pos pengawasan pabean.\n(4)\nPenetapan kawasan pabean, kantor pabean, dan pos\npengawasan pabean dilakukan oleh Menteri."
+    },
+    {
+      "nomor": "5A",
+      "text": "(1)\nPemberitahuan \npabean \nsebagaimana \ndimaksud\ndalam Pasal 5 ayat (2) dapat disampaikan dalam\nbentuk tulisan di atas formulir atau dalam bentuk\ndata elektronik.\n(2)\nPenetapan kantor pabean tempat penyampaian\npemberitahuan pabean dalam bentuk data elektronik\ndilakukan oleh Menteri.\n(3)\nData elektronik sebagaimana dimaksud pada ayat (1)\nmerupakan alat bukti yang sah menurut Undang-\nUndang ini.\n(4)\nKetentuan \nmengenai \ntata \ncara \nsebagaimana\ndimaksud pada ayat (1) diatur lebih lanjut dengan\natau berdasarkan peraturan menteri.\n9. Ketentuan  . . ."
+    },
+    {
+      "nomor": "6",
+      "text": "(1)\nTerhadap barang yang diimpor atau diekspor berlaku\nsegala ketentuan sebagaimana diatur dalam Undang-\nUndang ini.\n(2)\nDalam \nhal \npengawasan \npengangkutan \nbarang\ntertentu tidak diatur oleh instansi teknis terkait,\npengaturannya didasarkan pada ketentuan Undang-\nUndang ini."
+    },
+    {
+      "nomor": "6A",
+      "text": "(1)\nOrang yang akan melakukan pemenuhan kewajiban\npabean wajib melakukan registrasi ke Direktorat\nJenderal Bea dan Cukai untuk mendapat nomor\nidentitas dalam rangka akses kepabeanan.\n(2)\nDikecualikan    dari   ketentuan  sebagaimana\ndimaksud   pada  ayat (1) orang  yang melakukan\npemenuhan kewajiban pabean tertentu.\n(3)\nKetentuan sebagaimana  dimaksud  pada  ayat (1)\ndan ayat (2) diatur lebih   lanjut dengan atau\nberdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "10",
+      "text": "(1)\nBarang\nyang\nakan\ndiekspor\nwajib\ndiberitahukan\ndengan\nmenggunakan Pemberitahuan Pabean.\n(2)\nPemberitahuan Pabean sebagaimana dimaksud pada ayat (1) tidak\ndiperlukan atas barang pribadi penumpang, awak pengangkut,\npelintas batas, dan barang kiriman sampai batas nilai pabean dan\natau jumlah tertentu.\n(3)\nBarang\nyang\ntelah\ndiberitahukan\nuntuk\ndiekspor,\nsementara\nmenunggu pemuatannya dapat ditimbun di Tempat Penimbunan\nSementara.\n(4)\nBarang yang telah diberitahukan untuk diekspor sebagaimana\ndimaksud pada ayat (1), jika dibatalkan harus dilaporkan kepada\nPejabat Bea dan Cukai.\n(5)\nEksportir\nyang\ntidak\nmelaporkan\npembatalan\nekspornya\nsebagaimana dimaksud pada ayat (4) dikenai saksi administrasi\nberupa denda sebesar Rp. 5.000.000,00 (lima juta rupiah).\n(6)\nKetentuan sebagaimana dimaksud pada ayat (1), ayat (2), ayat (3),\ndan ayat (4) diatur lebih lanjut oleh Menteri.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n11\n-\nBagian…"
+    },
+    {
+      "nomor": "12",
+      "text": "(1)\nBarang\nimpor\ndipungut\nBea\nMasuk\nberdasarkan\ntarif\nsetinggi-tingginya empat puluh persen dari nilai pabean untuk\nperhitungan Bea Masuk.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n13\n-\n(2)\nDikecualikan...\n(2)\nDikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1) :\na. barang impor hasil pertanian tertentu;\nb. barang\nimpor\ntermasuk\ndalam\ndaftar\neksklusif\nSkedul\nXXI-Indonesia pada Persetujuan Umum Mengenai tarif dan\nPerdagangan; dan\nc. barang impor sebagaimana dimaksud dalam Pasal 13 ayat (1).\n(3) Pelaksanaan lebih lanjut ketentuan sebagaimana dimaksud pada\nayat (1) dan ayat (2) ditetapkan oleh Menteri."
+    },
+    {
+      "nomor": "13",
+      "text": "(1)\nBea masuk dapat dikenakan berdasarkan tarif yang\nbesarnya berbeda dengan yang dimaksud dalam\nPasal 12 ayat (1) terhadap:\na.  barang  . . .\n\n\na. barang impor yang dikenakan tarif bea masuk\nberdasarkan \nperjanjian \natau \nkesepakatan\ninternasional; atau\nb. barang  impor bawaan penumpang, awak sarana\npengangkut, pelintas batas, atau barang kiriman\nmelalui pos atau jasa titipan.\n(2)\nTata  cara  pengenaan  dan besarnya tarif bea masuk\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan peraturan menteri."
+    },
+    {
+      "nomor": "14",
+      "text": "(1) Untuk penetapan tarif bea masuk dan bea keluar,\nbarang \ndikelompokkan \nberdasarkan \nsistem\nklasifikasi barang.\n(2)  Ketentuan tentang klasifikasi barang sebagaimana\ndimaksud pada ayat (1) diatur lebih lanjut dengan\nperaturan menteri."
+    },
+    {
+      "nomor": "15",
+      "text": "(1) Nilai pabean untuk penghitungan bea masuk adalah\nnilai transaksi dari barang yang bersangkutan.\n(2)  Dalam  hal   nilai   pabean  untuk penghitungan bea\nmasuk tidak dapat ditentukan berdasarkan nilai\ntransaksi sebagaimana dimaksud pada ayat (1), nilai\npabean untuk penghitungan bea masuk ditentukan\nberdasarkan nilai transaksi barang dari barang\nidentik.\n(3) Dalam hal nilai pabean untuk penghitungan bea\nmasuk tidak dapat ditentukan berdasarkan nilai\ntransaksi sebagaimana dimaksud pada ayat (1) dan\nayat (2), nilai pabean untuk penghitungan bea\nmasuk ditentukan berdasarkan nilai transaksi dari\nbarang serupa.\n(3a) Dalam . . .\n\n\n(3a) Dalam hal nilai pabean untuk penghitungan bea\nmasuk tidak dapat ditentukan berdasarkan nilai\ntransaksi sebagaimana dimaksud pada ayat (1), ayat\n(2), dan ayat (3) nilai pabean untuk penghitungan\nbea masuk ditentukan berdasarkan ketentuan pada\nayat (4) dan ayat (5) secara berurutan, kecuali atas\npermintaan importir, urutan penentuan nilai pabean\nsebagaimana \ndimaksud \npada \nayat \n(5) \ndapat\ndigunakan mendahului ayat (4).\n(4) Dalam hal nilai pabean untuk penghitungan bea\nmasuk tidak dapat ditentukan berdasarkan nilai\ntransaksi sebagaimana dimaksud pada ayat (1), ayat\n(2), dan ayat (3), nilai pabean untuk penghitungan\nbea masuk ditentukan berdasarkan metode deduksi.\n(5)  Dalam hal nilai pabean untuk penghitungan bea\nmasuk tidak dapat ditentukan berdasarkan nilai\ntransaksi sebagaimana dimaksud pada ayat (1), ayat\n(2), ayat (3), dan metode deduksi sebagaimana\ndimaksud \npada \nayat \n(4), nilai \npabean \nuntuk\npenghitungan bea masuk ditentukan berdasarkan\nmetode komputasi.\n(6)  Dalam hal nilai pabean untuk penghitungan bea\nmasuk tidak dapat ditentukan berdasarkan nilai\ntransaksi sebagaimana dimaksud pada ayat (1), ayat\n(2), ayat (3), metode deduksi sebagaimana dimaksud\npada ayat (4), atau metode komputasi sebagaimana\ndimaksud \npada \nayat \n(5), nilai \npabean \nuntuk\npenghitungan \nbea \nmasuk \nditentukan \ndengan\nmenggunakan tata cara yang wajar dan konsisten\ndengan prinsip dan ketentuan sebagaimana diatur\npada ayat (1), ayat (2), ayat (3), ayat (4) atau ayat (5)\nberdasarkan data yang tersedia di daerah pabean\ndengan pembatasan tertentu.\n(7) Ketentuan \nmengenai \nnilai \npabean \nuntuk\npenghitungan bea masuk diatur lebih lanjut dengan\natau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "16",
+      "text": "(1) Pejabat bea dan cukai dapat menetapkan tarif\nterhadap \nbarang \nimpor \nsebelum \npenyerahan\npemberitahuan pabean atau dalam waktu 30 (tiga\npuluh) hari sejak tanggal pemberitahuan pabean.\n(2) Pejabat bea dan cukai dapat menetapkan nilai\npabean barang impor untuk penghitungan bea\nmasuk sebelum penyerahan pemberitahuan pabean\natau dalam waktu 30 (tiga puluh) hari sejak tanggal\npemberitahuan pabean.\n(3)  Dalam hal penetapan sebagaimana dimaksud pada\nayat \n(1) \ndan/atau \nayat \n(2) \nmengakibatkan\nkekurangan pembayaran bea masuk kecuali importir\nmengajukan \nkeberatan \nsebagaimana \ndimaksud\ndalam Pasal 93 ayat (1), importir wajib melunasi bea\nmasuk \nyang \nkurang \ndibayar \nsesuai \ndengan\npenetapan.\n(4)  Importir   yang  salah memberitahukan nilai pabean\nuntuk \npenghitungan \nbea \nmasuk \nsehingga\nmengakibatkan kekurangan pembayaran bea masuk\ndikenai sanksi administrasi berupa denda paling\nsedikit 100% (seratus persen) dari bea masuk yang\nkurang dibayar dan paling banyak 1000% (seribu\npersen) dari bea masuk yang kurang dibayar.\n(5)  Dalam hal penetapan sebagaimana  dimaksud  pada\nayat (1)  dan/atau ayat (2) mengakibatkan kelebihan\npembayaran bea masuk, pengembalian bea masuk\ndibayar sebesar kelebihannya.\n(6) Ketentuan \nmengenai \npenetapan \nsebagaimana\ndimaksud pada ayat (1) dan ayat (2) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "17",
+      "text": "(1) Direktur  Jenderal  dapat menetapkan kembali tarif\ndan nilai pabean untuk penghitungan bea masuk\ndalam jangka waktu 2 (dua) tahun terhitung sejak\ntanggal pemberitahuan pabean.\n(2) Dalam . . .\n\n\n(2)  Dalam hal penetapan sebagaimana dimaksud pada\nayat (1) berbeda dengan penetapan sebagaimana\ndimaksud \ndalam \nPasal \n16, \nDirektur \nJenderal\nmemberitahukan secara tertulis kepada importir\nuntuk:\na. melunasi bea masuk yang kurang dibayar; atau\nb. mendapatkan pengembalian bea masuk yang\nlebih dibayar.\n(3) Bea masuk yang kurang dibayar atau pengembalian\nbea \nmasuk \nyang \nlebih \ndibayar \nsebagaimana\ndimaksud pada ayat (2) dibayar sesuai dengan\npenetapan kembali.\n(4)  Penetapan  kembali  sebagaimana  dimaksud  pada\nayat (2), apabila diakibatkan oleh adanya kesalahan\nnilai \ntransaksi \nyang \ndiberitahukan \nsehingga\nmengakibatkan kekurangan pembayaran bea masuk,\ndikenai sanksi administrasi berupa denda paling\nsedikit 100% (seratus persen) dari bea masuk yang\nkurang dibayar dan paling banyak 1000% (seribu\npersen) dari bea masuk yang kurang dibayar."
+    },
+    {
+      "nomor": "17A",
+      "text": "Berdasarkan \npermohonan, \nDirektur \nJenderal \ndapat\nmenetapkan klasifikasi barang dan nilai pabean atas\nbarang impor sebagai dasar penghitungan bea masuk\nsebelum diajukan pemberitahuan pabean."
+    },
+    {
+      "nomor": "18",
+      "text": "Bea Masuk Antidumping dikenakan terhadap barang impor dalam hal :\na.\nharga ekspor dari barang tersebut lebih rendah dari nilai normalnya;\ndan\nb.\nimpor barang tersebut :\n1. menyebabkan kerugian terhadap industri dalam negeri yang\nmemproduksi barang sejenis dengan barang tersebut;\n2. mengecam terjadinya kerugian terhadap industri dalam negeri\nyang memproduksi barang sejenis dengan barang tersebut; dan\n3. menghalangi pengembangan industri barang sejenis di dalam\nnegeri.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n18\n-\nPasal 19…"
+    },
+    {
+      "nomor": "19",
+      "text": "(1)\nBea\nMasuk\nAntidumping\ndikenakan\nterhadap\nbarang\nimpor\nsebagaimana dimaksud dalam Pasal 18 setinggi-tingginya sebesar\nselisih antara nilai normal dengan harga ekspor dari barang tersebut.\n(2)\nBea Masuk Antidumping sebagaimana dimaksud pada ayat (1)\nmerupakan tambahan dari Bea Masuk yang dipungut berdasarkan\nPasal 12 ayat (1)."
+    },
+    {
+      "nomor": "21",
+      "text": "Bea Masuk Imbalan dikenakan terhadap barang impor dalam hal :\na.\nditemukan adanya subsidi yang diberikan di negara pengekspor\nterhadap barang tersebut; dan\nb.\nimpor barang tersebut :\n1. menyebabkan kerugian terhadap industri dalam negeri yang\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n19\n-\nmemproduksi barang sejenis dengan barang tersebut;\n2. mengancam terjadinya kerugian terhadap industri dalam negeri\nyang memproduksi barang sejenis dengan barang tersebut; atau\n3.\nmenghalangi…\n3. menghalangi pengembangan industri barang sejenis di dalam\nnegeri."
+    },
+    {
+      "nomor": "22",
+      "text": "(1)\nBea Masuk Imbalan dikenakan terhadap barang impor sebagaimana\ndimaksud dalam Pasal 21 setinggi-tingginya sebesar selisih antara\nsubsidi dengan :\na. biaya\npermohonan,\ntanggungan\natau\npungutan\nlain\nyang\ndikeluarkan untuk memperoleh subsidi; dan/atau\nb. pungutan yang dikenakan pada saat ekspor untuk mengganti\nsubsidi yang diberikan kepada barang ekspor tersebut.\n(2)\nBea\nMasuk\nImbalan\nsebagaimana\ndimaksud\npada\nayat\n(1)\nmerupakan tambahan dari Bea Masuk yang dipungut berdasarkan\nPasal 12 ayat (1)."
+    },
+    {
+      "nomor": "24",
+      "text": "Barang yang dimasukkan ke Daerah Pabean untuk diangkut terus atau\ndiangkut lanjut ke luar Daerah Pabean tidak dipungut Bea Masuk."
+    },
+    {
+      "nomor": "25",
+      "text": "(1) Pembebasan bea masuk diberikan atas impor:\na. barang perwakilan negara asing beserta para\npejabatnya yang bertugas di Indonesia berdasarkan\nasas timbal balik;\nb. barang \nuntuk \nkeperluan \nbadan \ninternasional\nbeserta pejabatnya yang bertugas di Indonesia;\nc. buku ilmu pengetahuan;\nd. barang kiriman hadiah/hibah untuk keperluan\nibadah untuk umum, amal, sosial, kebudayaan\natau untuk kepentingan penanggulangan bencana\nalam;\ne. barang untuk keperluan museum, kebun binatang,\ndan tempat lain semacam itu yang terbuka untuk\numum serta barang untuk konservasi alam;\nf. barang \nuntuk \nkeperluan \npenelitian \ndan\npengembangan ilmu pengetahuan;\ng. barang untuk keperluan khusus kaum tunanetra\ndan penyandang cacat lainnya;\nh. persenjataan . . .\n\n\nh. persenjataan, amunisi, perlengkapan militer dan\nkepolisian, \ntermasuk \nsuku \ncadang \nyang\ndiperuntukkan bagi keperluan pertahanan dan\nkeamanan negara;\ni. barang dan bahan yang dipergunakan untuk\nmenghasilkan barang bagi keperluan pertahanan\ndan keamanan negara;\nj. barang contoh yang tidak untuk diperdagangkan;\nk. peti atau kemasan lain yang berisi jenazah atau\nabu jenazah;\nl. barang pindahan;\nm. barang \npribadi \npenumpang, \nawak \nsarana\npengangkut, pelintas batas, dan barang kiriman\nsampai batas nilai pabean dan/atau jumlah\ntertentu;\nn.  obat-obatan yang diimpor dengan menggunakan\nanggaran pemerintah yang diperuntukkan bagi\nkepentingan masyarakat;\no. barang yang telah diekspor untuk keperluan\nperbaikan, pengerjaan, dan pengujian;\np. barang  yang  telah  diekspor kemudian diimpor\nkembali dalam kualitas yang sama dengan kualitas\npada saat diekspor;\nq. bahan  terapi  manusia, pengelompokan darah, dan\nbahan penjenisan jaringan.\n(2) Dihapus.\n(3) Ketentuan \n \ntentang \npembebasan \nsebagaimana\ndimaksud pada ayat (1) diatur lebih lanjut dengan\nperaturan menteri.\n(4) Orang yang tidak memenuhi ketentuan tentang\npembebasan bea masuk yang ditetapkan menurut\nUndang-Undang ini wajib membayar bea masuk yang\nterutang  dan  dikenai sanksi administrasi berupa\ndenda sebesar paling sedikit 100% (seratus persen)\ndari bea masuk yang seharusnya dibayar dan paling\nbanyak 500% (lima ratus persen) dari bea masuk yang\nseharusnya dibayar."
+    },
+    {
+      "nomor": "27",
+      "text": "(1) Pengembalian dapat diberikan terhadap seluruh atau\nsebagian bea masuk yang telah dibayar atas:\na.  kelebihan pembayaran bea masuk sebagaimana\ndimaksud dalam Pasal 16 ayat (5), Pasal 17 ayat\n(3), atau karena kesalahan tata usaha;\nb.  impor barang sebagaimana dimaksud dalam Pasal\n25 dan Pasal 26;\nc. impor barang yang oleh sebab tertentu harus\ndiekspor kembali atau dimusnahkan di bawah\npengawasan pejabat bea dan cukai;\nd. impor barang yang sebelum diberikan persetujuan\nimpor untuk dipakai kedapatan jumlah yang\nsebenarnya lebih kecil daripada yang telah dibayar\nbea masuknya, cacat, bukan barang yang dipesan,\natau berkualitas lebih rendah; atau\ne.  kelebihan pembayaran bea masuk akibat putusan\nPengadilan Pajak.\n(2) Ketentuan \ntentang \npengembalian \nbea \nmasuk\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "28",
+      "text": "Ketentuan dan tata cara tentang :\na.\nbentuk, isi, dan keabsahan Pemberitahuan Pabean dan buku catatan\npabean;\nb.\npenyerahan dan pendaftaran Pemberitahuan Pabean;\nc.\npenelitian, perubahan, penambahan, dan pembatalan Pemberitahuan\nPabean dan buku catatan pabean;\nd.\npendistribusian dan penatausahaan Pemberitahuan Pabean dan buku\ncatatan pabean;\ne.\npenggunaan dokumen pelengkap pabean;\ndiatur oleh Menteri.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n25\n-\nBagian…"
+    },
+    {
+      "nomor": "29",
+      "text": "(1)\nPengurusan\nPemberitahuan\nPabean\nyang\ndiwajibkan\nUndang-undang ini dilakukan oleh pengangkut, importir, atau\neksportir.\n(2)\nDalam\nhal\npengurusan\nPemberitahuan\nPabean\nsebagaimana\ndimaksud pada ayat (1) tidak dilakukan sendiri, importir atau\neksportir menguasakannya kepada pengusaha pengurusan jasa\nkepabeanan.\n(3)\nKetentuan tentang pengurusan Pemberitahuan Pabean diatur lebih\nlanjut oleh Manteri."
+    },
+    {
+      "nomor": "30",
+      "text": "(1) Importir bertanggung jawab atas bea masuk yang\nterutang sejak tanggal pemberitahuan pabean atas\nimpor.\n(2) Bea  . . .\n\n\n(2) Bea \nmasuk \nyang \nharus \ndibayar \nsebagaimana\ndimaksud pada ayat (1) dihitung berdasarkan tarif\nyang berlaku pada tanggal pemberitahuan pabean atas\nImpor dan nilai pabean sebagaimana dimaksud dalam\nPasal 15\n(3) Bea masuk harus dibayar dalam mata uang rupiah.\n(4) Ketentuan mengenai nilai tukar mata uang yang\ndigunakan untuk penghitungan dan pembayaran bea\nmasuk diatur lebih lanjut dengan peraturan menteri."
+    },
+    {
+      "nomor": "31",
+      "text": "Pengusaha\npengurusan\njasa\nkepabeanan\nyang\nmendapat\nkuasa\nsebagaimana dimaksud dalam Pasal 29 ayat (2) bertanggung jawab\nterhadap Bea Masuk yang terutang dalam hal importir tidak ditemukan."
+    },
+    {
+      "nomor": "32",
+      "text": "(1) Pengusaha \ntempat \npenimbunan \nsementara\nbertanggung jawab atas bea masuk yang terutang atas\nbarang \nyang \nditimbun \ndi \ntempat \npenimbunan\nsementara.\n(2) Pengusaha tempat penimbunan sementara dibebaskan\ndari tanggung jawab sebagaimana dimaksud pada ayat\n(1), dalam hal barang yang ditimbun di tempat\npenimbunan sementaranya:\na.  musnah tanpa sengaja;\nb. telah diekspor kembali, diimpor untuk dipakai,\natau diimpor sementara; atau\nc. telah \ndipindahkan \nke \ntempat \npenimbunan\nsementara lain, tempat penimbunan berikat atau\ntempat penimbunan pabean.\n(3) Perhitungan bea masuk yang terutang sebagaimana\ndimaksud pada ayat (1), sepanjang tidak dapat\ndidasarkan pada tarif dan nilai pabean barang yang\nbersangkutan, didasarkan pada tarif tertinggi untuk\ngolongan barang yang tertera dalam pemberitahuan\npabean pada saat barang tersebut ditimbun di tempat\npenimbunan sementara dan nilai pabean ditetapkan\noleh pejabat bea dan cukai.\n(4) Ketentuan sebagaimana dimaksud pada ayat (2) dan\nayat (3) termasuk tata cara penagihan diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri.\n43. Judul . . ."
+    },
+    {
+      "nomor": "33",
+      "text": "(1)\nPengusaha\nTempat\nPenimbunan\nBerikat\nbertanggung\njawab\nterhadap Bea Masuk yang terutang atas barang yang ditimbun di\nTempat Penimbunan Berikatnya.\n(2) Pengusaha Tempat Penimbunan Berikat dibebaskan dari tanggung\njawab sebagaimana dimaksud pada ayat (1), dalam hal barang yang\nditimbun di Tempat Penimbunan Berikatnya :\na. musnah tanpa sengaja;\nb. telah diekspor kembali, diimpor untuk dipakai, atau diimpor\nsementara; atau\nc. telah dipindahkan ke Tempat Penimbunan Sementara, Tempat\nPenimbunan Berikat lain, atau Tempat Penimbunan Pabean.\n(3)\nPerhitungan Bea Masuk atas barang sebagaimana dimaksud pada\nayat (1) yang harus dilunasi didasarkan pada tarif yang berlaku pada\nsaat dilakukan pencacahan dan nilai pabean barang pada saat\nditimbun di Tempat Penimbunan Berikat."
+    },
+    {
+      "nomor": "34",
+      "text": "(1)\nDalam hal ketentuan sebagaimana dimaksud dalam Pasal 25 dan\nPasal 26 tidak lagi dipenuhi, Bea Masuk atas barang impor yang\nterutang menjadi tanggung jawab :\na. Orang yang mendapatkan pembebasan atau kekeringan; atau\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n28\n-\nb. Orang yang menguasai barang yang bersangkutan dalam hal\nOrang sebagaimana dimaksud huruf a tidak ditemukan.\n(2)\nPerhitungan...\n(2)\nPerhitungan Bea Masuk yang terutang sebagaimana dimaksud pada\nayat (a) didasarkan pada tarif dan nilai pabean yang berlaku pada\ntanggal Pemberitahuan Pabean atas Impor."
+    },
+    {
+      "nomor": "35",
+      "text": "Barangsiapa\nyang\nkedapatan\nmenguasai\nbarang\nimpor\ndi\ntempat\nkedatangan sarana pengangkutan atau di daerah perbatasan yang ditunjuk\nbertanggung jawab terhadap Bea Masuk yang terutang atas barang\ntersebut."
+    },
+    {
+      "nomor": "36",
+      "text": "(1) Bea masuk, denda administrasi, dan bunga yang\nterutang kepada negara menurut Undang-Undang ini,\ndibayar di kas negara atau di tempat pembayaran lain\nyang ditunjuk oleh Menteri.\n(2) Bea \nmasuk, \ndenda \nadministrasi, \ndan \nbunga\nsebagaimana dimaksud pada ayat (1) dibulatkan\njumlahnya dalam ribuan rupiah.\n(3) Ketentuan   mengenai   tata  cara pembayaran,\npenerimaan, \n \npenyetoran \n \nbea \nmasuk, \ndenda\nadministrasi, dan bunga sebagaimana dimaksud pada\nayat (1) serta pembulatan jumlahnya sebagaimana\ndimaksud pada ayat (2) diatur lebih lanjut dengan\natau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "37",
+      "text": "(1) Bea masuk yang terutang wajib dibayar paling lambat\npada tanggal pendaftaran pemberitahuan pabean.\n(2) Kewajiban . . .\n\n\n(2) Kewajiban \nmembayar \nbea \nmasuk \nsebagaimana\ndimaksud pada ayat (1) dapat diberikan penundaan\ndalam hal pembayarannya ditetapkan secara berkala\natau \nmenunggu \nkeputusan \npembebasan \natau\nkeringanan.\n(2a) Penundaan \nkewajiban \nmembayar \nbea \nmasuk\nsebagaimana dimaksud pada ayat (2):\na. tidak  dikenai  bunga sepanjang pembayarannya\nditetapkan secara berkala;\nb. dikenai bunga sepanjang permohonan pembebasan\natau keringanan ditolak.\n(3) Ketentuan \nmengenai \npenundaan \nsebagaimana\ndimaksud pada ayat (2) dan ayat (2a) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "38",
+      "text": "(1)\nUtang atau tagihan kepada negara berdasarkan\nUndang-Undang ini yang tidak atau kurang dibayar\ndikenai bunga sebesar 2% (dua persen) setiap bulan\nuntuk paling lama 24 (dua puluh empat) bulan\ndihitung sejak tanggal jatuh tempo sampai hari\npembayarannya, dan bagian bulan dihitung 1 (satu)\nbulan.\n(2)\nPenghitungan utang atau tagihan kepada negara\nmenurut Undang-Undang ini dibulatkan jumlahnya\ndalam ribuan rupiah.\n(3)\nJatuh tempo sebagaimana dimaksud pada ayat (1),\nsebagai berikut:\na. dalam hal tagihan negara kepada pihak yang\nterutang yaitu 60 (enam puluh) hari sejak tanggal\npenetapan sebagaimana diatur dalam Pasal 37A\nayat (1);\nb. dalam hal tagihan pihak yang berpiutang kepada\nnegara yaitu 30 (tiga puluh) hari sejak tanggal surat\nkeputusan pengembalian oleh Menteri.\n49. Pasal 41 tetap dengan perubahan penjelasan Pasal 41\nsehingga \npenjelasan \nPasal 41\nmenjadi \nsebagaimana\nditetapkan dalam penjelasan pasal demi pasal dalam\nUndang-Undang ini."
+    },
+    {
+      "nomor": "39",
+      "text": "(1)\nNegara mempunyai hak mendahulu untuk tagihan pebean atas\nbarang-barang milik yang berutang.\n(2)\nKetentuan...\n(2)\nKetentuan tentang hak mendahulu sebagaimana dimaksud pada ayat\n(1) meliputi Bea Masuk, denda administrasi, bunga, dan biaya\npenagihan.\n(3)\nHak\nmendahulu\nuntuk\ntagihan\npabean\nmelebihi\nsegala\nhak\nmendahulu lainnya, kecuali :\na. biaya perkara semata-mata disebabkan oleh suatu penghukuman\nuntuk melelang barang bergerak dan/atau tidak bergerak;\nb. biaya yang telah dikeluarkan untuk menyelamatkan suatu barang;\nc. biaya perkara yang semata-mata disebabkan oleh pelelangan dan\npenyelesaian suatu warisan.\n(4)\nHak mendahulu itu hilang setelah lampau waktu dua tahun sejak\ntanggal diterbitkannya surat tagihan, kecuali apabila dalam jangka\nwaktu tersebut diberikan penundaan pembayaran.\n(5)\nDalam hal diberikan penundaan pembayaran, jangka waktu dua\ntahun sebagaimana dimaksud pada ayat (4) dihitung sejak tanggal\npenundaan pembayaran diberikan."
+    },
+    {
+      "nomor": "40",
+      "text": "(1)\nHak\npenagihan\natas\nutang\nberdasarkan\nUndang-undang\nini\nkedaluwarsa setelah sepuluh tahun sejak timbulnya kewajiban\nmembayar.\n(2)\nMasa kadaluwarsa sebagaimana dimaksud pada ayat (1) tidak dapat\ndiperhitungkan dalam hal :\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n31\n-\na. yang terutang tidak bertempat tinggal di Indonesia;\nb. yang terutang memperoleh penundaan sebagaimana dimaksud\ndalam Pasal 37 ayat (2); atau\nc. yang terutang melakukan pelanggaran Undang-undang ini.\nPasal 41…"
+    },
+    {
+      "nomor": "41",
+      "text": "Pelaksanaan penagihan utang dan penghapusan penagihan utang yang\ntidak dapat ditagih berpedoman pada peraturan perundang-undangan\nyang berlaku."
+    },
+    {
+      "nomor": "42",
+      "text": "(1)\nJaminan yang disyaratkan menurut Undang-undang ini dapat\ndipergunakan :\na. sekali; atau\nb. terus-menerus.\n(2)\nJaminan sebagaimana dimaksud pada ayat (1) dapat berbentuk :\na. uang tunai;\nb. jaminan bank;\nc. jaminan dari perusahaan asuransi; atau\nd. jaminan lainnya.\n(3)\nKetentuan tentang jaminan diatur lebih lanjut oleh Menteri.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n32\n-\nBAB V…"
+    },
+    {
+      "nomor": "43",
+      "text": "(1)\nDi\nsetiap\nKawasan\nPabean\ndisediakan\nTempat\nPenimbunan\nSementara yang dikelola oleh pengusaha Tempat Penimbunan\nSementara.\n(2)\nDalam hal barang ditimbun di Tempat Penimbunan Sementara,\njangka waktu penimbunan barang paling lama tiga puluh hari sejak\npenimbunannya.\n(3)\nPengusaha Tempat Penimbunan Sementara yang tidak dapat\nmempertanggungjawabkan\nbarang\nyang\nseharusnya\nberada\ndi\ntempat tersebut dikenai sanksi administrasi berupa denda sebesar\ndua puluh lima persen dari Bea Masuk yang seharusnya dibayar.\n(4)\nKetentuan tentang penunjukan Tempat Penimbunan Sementara, tata\ncara penggunaannya, dan perubahan jangka waktu penimbunan\ndiatur lebih lanjut oleh Menteri.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n33\n-\nBagian…"
+    },
+    {
+      "nomor": "44",
+      "text": "(1)\nDengan persyaratan tertentu, suatu kawasan, tempat,\natau bangunan dapat ditetapkan sebagai tempat\npenimbunan \nberikat \ndengan \nmendapatkan\npenangguhan bea masuk untuk:\na. menimbun barang impor guna diimpor untuk\ndipakai, \ndikeluarkan \nke \ntempat \npenimbunan\nberikat lainnya  atau diekspor;\nb. menimbun barang guna diolah atau digabungkan\nsebelum diekspor atau diimpor untuk dipakai;\n  c. menimbun . . .\n\n\nc. menimbun barang impor, dengan atau tanpa\nbarang \ndari \ndalam \ndaerah \npabean, \nguna\ndipamerkan;\nd. menimbun, menyediakan untuk dijual dan menjual\nbarang impor kepada orang dan/atau orang\ntertentu;\ne. menimbun barang impor guna dilelang sebelum\ndiekspor atau diimpor untuk dipakai;\nf.\nmenimbun barang asal daerah pabean guna\ndilelang \nsebelum \ndiekspor \natau \ndimasukkan\nkembali ke dalam daerah pabean; atau\ng. menimbun barang impor guna didaur ulang\nsebelum diekspor atau diimpor untuk dipakai.\n(1a) Menteri   dapat    menetapkan   suatu   kawasan,\ntempat, atau bangunan untuk dilakukannya suatu\nkegiatan \ntertentu \nselain \nkegiatan \nsebagaimana\ndimaksud pada ayat (1) sebagai tempat penimbunan\nberikat.\n(2)\nKetentuan  mengenai persyaratan, tata cara pendirian\npenyelenggaraan, \npengusahaan, \ndan \nperubahan\nbentuk tempat penimbunan berikat diatur lebih lanjut\ndengan atau berdasarkan peraturan pemerintah."
+    },
+    {
+      "nomor": "46",
+      "text": "(1)\nBarang dapat dikeluarkan dari Tempat Penimbunan Berikat atas\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n34\n-\npersyaratan Pejabat Bea dan Cukai untuk :\na. diimpor untuk dipakai;\nb. diolah;\nc. diekspor sebelum atau sesudah diolah; atau\nd. diangkut\nke\nTempat\nPenimbunan\nBerikat\natau\nTempat\nPenimbunan Sementara.\n(2) Barang...\n(2)\nBarang dari Tempat Penimbunan Berikat yang diimpor untuk\ndipakai, dipungut Bea Masuk berdasarkan tarif yang berlaku pada\nsaat diimpor untuk dipakai serta nilai pabean yang terjadi pada saat\nbarang dimasukkan ke Tempat Penimbunan Berikat.\n(3)\nBarangsiapa yang mengeluarkan barang dari Tempat Penimbunan\nBerikat sebelum diberikan persetujuan oleh Pejabat Bea dan Cukai\ndikenai sanksi administrasi berupa denda sebesar Rp. 5.000.000,00\n(lima juta rupiah).\n(4)\nPengusaha\nTempat\nPenimbunan\nBerikat\nyang\ntidak\ndapat\nmempertanggungjawabkan\nbarang\nyang\nseharusnya\nberada\ndi\ntempat tersebut, dikenakan sanksi administrasi berupa denda\nsebesar seratus persen dari Bea Masuk yang seharusnya dibayar.\nPasal 46\n(1)\nIzin\nTempat\nPenimbunan\nBerikat\ndibekukan\nbilamana\npenyelenggara Tempat Penimbunan Berikat :\na. berada\ndalam\npengawasan\nkurator\nsehubungan\nTempat\nPenimbunan Berikat.\nb. menunjukkan ketidakmampuan dalam penyelenggaraan Tempat\nPenimbunan Berikat.\n(2)\nPembekuan izin dimaksud pada ayat (1) dapat diubah menjadi\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n35\n-\npencabutan bilamana penyelenggara Tempat Penimbunan Berikat :\na. tidak melunasi utangnya dalam jangka waktu yang ditetapkan;\natau\nb. tidak mampu lagi mengusahakan Tempat Penimbunan Berikat\ntersebut.\n(3)\nIzin sebagaimana dimaksud pada ayat (1) dapat diberlakukan\nkembali bilamana penyelenggara Tempat Penimbunan Berikat :\na.\ntelah...\na. telah melunasi utangnya; atau\nb. telah mengusahakan Tempat Penimbunan Berikat tersebut.\n(4)\nIzin Tempat Penimbunan Berikat dalam hal :\na. penyelenggara Tempat Penimbunan Berikat untuk jangka waktu\nsatu tahun terus menerus tidak lagi melakukan kegiatan;\nb. penyelenggara Tempat Penimbunan Berikat mengalami pailit;\nc. penyelenggara Tempat Penimbunan Berikat bertindak tidak jujur\ndalam usahanya; atau\nd. terdapat permintaan dari yang bersangkutan.\n(5)\nKetentuan\ntentang\npembekuan,\npemberlakuan\nkembali,\ndan\npencabutan izin Tempat Penimbunan Berikat diatur lebih lanjut\ndengan Peraturan Pemerintah."
+    },
+    {
+      "nomor": "47",
+      "text": "Bilamana izin Tempat Penimbunan Berikat telah dicabut sebagaimana\ndimaksud dalam Pasal 46, pengusaha dalam batas waktu tiga puluh hari\nsejak pencabutan izin harus :\na.\nmelunasi semua Bea Masuk yang terutang;\nb.\nmengekspor kembali barang yang masih ada di Tempat Penimbunan\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n36\n-\nBerikat; atau\nc.\nmemindahkan barang yang masih ada di Tempat Penimbunan\nBerikat ke Tempat Penimbunan Berikat lain.\nBagian…"
+    },
+    {
+      "nomor": "48",
+      "text": "(1)\nDi setiap Kantor Pabean disediakan Tempat Penimbunan Pabean\nyang dikelola oleh Direktorat Jenderal Bea dan Cukai.\n(2)\nPenunjukan\ntempat\nlain\nyang\nberfungsi\nsebagai\nTempat\nPenimbunan\nPabean\nsebagaimana\ndimaksud\npada\nayat\n(1)\nditetapkan oleh Menteri."
+    },
+    {
+      "nomor": "49",
+      "text": "Importir, \neksportir, \npengusaha \ntempat \npenimbunan\nsementara, \npengusaha \ntempat \npenimbunan \nberikat,\npengusaha pengurusan jasa kepabeanan, atau pengusaha\npengangkutan wajib menyelenggarakan pembukuan."
+    },
+    {
+      "nomor": "50",
+      "text": "(1)  Atas permintaan pejabat bea dan cukai, orang\nsebagaimana \ndimaksud \ndalam \nPasal 49\nwajib\nmenyerahkan laporan keuangan, buku, catatan dan\ndokumen yang menjadi bukti dasar pembukuan, surat\nyang berkaitan dengan kegiatan usaha termasuk data\nelektronik, serta surat yang berkaitan dengan kegiatan\ndi bidang kepabeanan untuk kepentingan audit\nkepabeanan.\n(2) Dalam . . .\n\n\n(2) Dalam hal orang sebagaimana dimaksud pada ayat (1)\ntidak berada di tempat, kewajiban untuk menyerahkan\nlaporan keuangan, buku, catatan dan dokumen yang\nmenjadi bukti dasar pembukuan, surat yang berkaitan\ndengan kegiatan usaha termasuk data elektronik,\nsurat yang berkaitan dengan kegiatan di bidang\nkepabeanan beralih kepada yang mewakili."
+    },
+    {
+      "nomor": "51",
+      "text": "(1)\nPembukuan sebagaimana dimaksud dalam Pasal 49\nwajib \ndiselenggarakan \ndengan \nbaik \nagar\nmenggambarkan keadaan atau kegiatan usaha yang\nsebenarnya, dan sekurang-kurangnya terdiri dari\ncatatan \nmengenai \nharta, \nkewajiban, \nmodal,\npendapatan, dan biaya.\n(2)\nPembukuan \nwajib \ndiselenggarakan \ndi \nIndonesia\ndengan menggunakan huruf latin, angka Arab, mata\nuang rupiah, dan bahasa Indonesia, atau dengan mata\nuang asing dan bahasa asing yang diizinkan oleh\nmenteri.\n(3)\nLaporan keuangan, buku, catatan dan dokumen yang\nmenjadi bukti dasar pembukuan, surat yang berkaitan\ndengan kegiatan usaha termasuk data elektronik,\nsurat yang berkaitan dengan kegiatan di bidang\nkepabeanan wajib disimpan selama 10 (sepuluh)\ntahun pada tempat usahanya di Indonesia.\n(4)\nKetentuan \nmengenai \npedoman \npenyelenggaraan\npembukuan \ndiatur \nlebih \nlanjut \ndengan \natau\nberdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "52",
+      "text": "(1)  Orang   yang tidak menyelenggarakan pembukuan\nsebagaimana dimaksud dalam Pasal 49 dikenai sanksi\nadministrasi berupa denda sebesar Rp50.000.000,00\n(lima puluh juta rupiah).\n(2) Orang  . . .\n\n\n(2)  Orang yang tidak memenuhi ketentuan sebagaimana\ndimaksud dalam Pasal 51 ayat (1), ayat (2), atau ayat\n(3) dikenai sanksi administrasi berupa denda sebesar\nRp25.000.000,00 (dua puluh lima juta rupiah)"
+    },
+    {
+      "nomor": "53",
+      "text": "(1)\nUntuk kepentingan pengawasan terhadap pelaksanaan\nketentuan larangan dan pembatasan, instansi teknis\nyang \nmenetapkan \nperaturan \nlarangan \ndan/atau\npembatasan \natas \nimpor \natau \nekspor \nwajib\nmemberitahukan kepada Menteri.\n(2)\nKetentuan \nmengenai \npelaksanaan \npengawasan\nperaturan \nlarangan \ndan/atau \npembatasan\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri.\n(3)\nSemua barang yang dilarang atau dibatasi yang tidak\nmemenuhi syarat untuk diimpor atau  diekspor, jika\ntelah diberitahukan dengan pemberitahuan pabean,\natas permintaan importir atau eksportir:\na. dibatalkan ekspornya;\nb. diekspor kembali; atau\nc. dimusnahkan di bawah pengawasan pejabat bea\ndan cukai\nkecuali terhadap barang dimaksud ditetapkan lain\nberdasarkan peraturan perundang-undangan yang\nberlaku.\n(4) Barang  . . .\n\n\n(4)\nBarang yang dilarang atau dibatasi untuk diimpor\natau \ndiekspor \nyang \ntidak \ndiberitahukan \natau\ndiberitahukan secara tidak benar dinyatakan sebagai\nbarang yang dikuasai negara sebagaimana dimaksud\ndalam Pasal 68, kecuali terhadap barang dimaksud\nditetapkan lain berdasarkan peraturan perundang-\nundangan yang berlaku."
+    },
+    {
+      "nomor": "54",
+      "text": "Atas permintaan pemilik atau pemegang hak atas merek\natau \nhak \ncipta, \nketua \npengadilan \nniaga \ndapat\nmengeluarkan perintah tertulis kepada pejabat bea dan\ncukai untuk menangguhkan sementara waktu pengeluaran\nbarang impor atau ekspor dari kawasan pabean yang\nberdasarkan bukti yang cukup, diduga merupakan hasil\npelanggaran merek dan hak cipta yang dilindungi di\nIndonesia."
+    },
+    {
+      "nomor": "55",
+      "text": "Permintaan sebagaimana dimaksud dalam Pasal 54 diajukan dengan\ndisertai :\na.\nbukti yang cukup mengenai adanya pelanggaran merek atau hak\ncipta yang bersangkutan;\nb.\nbukti pemilikan merek atau hak cipta yang bersangkutan;\nc.\nperincian…\nc.\nperincian dan keterangan yang jelas mengenai barang impor atau\nekspor yang dimintakan penangguhan pengeluarannya, agar dengan\ncepat dapat dikenali oleh Pejabat Bea dan Cukai; dan\nd.\njaminan."
+    },
+    {
+      "nomor": "56",
+      "text": "Berdasarkan perintah tertulis sebagaimana dimaksud\ndalam Pasal 54, pejabat bea dan cukai:\na.  memberitahukan secara tertulis kepada importir,\neksportir, atau pemilik barang mengenai adanya\nperintah penangguhan pengeluaran barang impor dan\nekspor;\nb.  melaksanakan \npenangguhan \npengeluaran \nbarang\nimpor atau ekspor yang bersangkutan dari kawasan\npabean terhitung sejak tanggal diterimanya perintah\ntertulis ketua pengadilan niaga.\n60. Ketentuan . . ."
+    },
+    {
+      "nomor": "57",
+      "text": "(1)\nPenangguhan    pengeluaran  barang  sebagaimana\ndimaksud dalam Pasal 56 huruf b dilaksanakan untuk\njangka waktu paling lama 10 (sepuluh) hari kerja.\n(2)\nJangka waktu sebagaimana dimaksud pada ayat (1),\nberdasarkan alasan dan dengan syarat tertentu, dapat\ndiperpanjang satu kali untuk paling lama 10 (sepuluh)\nhari kerja dengan perintah tertulis ketua pengadilan\nniaga.\n(3)\nPerpanjangan  penangguhan terhadap pengeluaran\nbarang impor atau ekspor sebagaimana dimaksud\npada ayat (2) disertai dengan perpanjangan jaminan\nsebagaimana dimaksud dalam Pasal 55 huruf d."
+    },
+    {
+      "nomor": "58",
+      "text": "(1)\nAtas permintaan pemilik atau pemegang hak atas\nmerek \natau \nhak \ncipta \nyang \nmeminta \nperintah\npenangguhan, ketua pengadilan niaga dapat memberi\nizin kepada pemilik atau pemegang hak tersebut guna\nmemeriksa barang impor atau ekspor yang diminta\npenangguhan pengeluarannya.\n(2)\nPemberian  izin  pemeriksaan  sebagaimana  dimaksud\npada  ayat (1) dilakukan oleh ketua pengadilan niaga\nsetelah \nmendengarkan \ndan \nmempertimbangkan\npenjelasan serta memperhatikan kepentingan pemilik\nbarang \nimpor \natau \nekspor \nyang \ndimintakan\npenangguhan pengeluarannya."
+    },
+    {
+      "nomor": "59",
+      "text": "(1)\nApabila  dalam  jangka  waktu 10  (sepuluh)  hari kerja\nsebagaimana dimaksud dalam Pasal 57 ayat (1),\npejabat bea dan cukai tidak menerima pemberitahuan\ndari pihak yang meminta penangguhan pengeluaran\nbahwa tindakan hukum yang diperlukan untuk\nmempertahankan haknya sesuai dengan peraturan\nperundang-undangan yang berlaku telah dilakukan\ndan ketua pengadilan niaga tidak memperpanjang\nsecara tertulis perintah penangguhan, pejabat bea dan\ncukai \nwajib \nmengakhiri \ntindakan \npenangguhan\npengeluaran \nbarang \nimpor \natau \nekspor \nyang\nbersangkutan dan menyelesaikannya sesuai dengan\nketentuan kepabeanan berdasarkan Undang-Undang\nini.\n(2)\nDalam hal tindakan hukum untuk mempertahankan\nhak telah mulai dilakukan sesuai dengan peraturan\nperundang-undangan yang berlaku dalam jangka\nwaktu 10 (sepuluh) hari kerja sebagaimana dimaksud\npada ayat (1), pihak yang meminta penangguhan\npengeluaran \nbarang \nimpor \natau \nekspor \nwajib\nsecepatnya melaporkannya kepada pejabat bea dan\ncukai yang menerima perintah dan melaksanakan\npenangguhan barang impor atau ekspor.\n(3)\nDalam hal tindakan hukum sebagaimana dimaksud\npada \nayat \n(2) \ntelah \ndiberitahukan \ndan \nketua\npengadilan niaga tidak memperpanjang secara tertulis\nperintah penangguhan sebagaimana dimaksud dalam\nPasal 57 ayat (2), pejabat bea dan cukai mengakhiri\ntindakan penangguhan pengeluaran barang impor\natau ekspor yang bersangkutan dan menyelesaikannya\nsesuai dengan ketentuan kepabeanan berdasarkan\nUndang-Undang ini."
+    },
+    {
+      "nomor": "60",
+      "text": "Dalam keadaan tertentu, importir, eksportir, atau pemilik\nbarang impor atau ekspor dapat mengajukan permintaan\nkepada ketua pengadilan niaga untuk memerintahkan\nsecara tertulis kepada pejabat bea dan cukai agar\nmengakhiri penangguhan sebagaimana dimaksud dalam\nPasal 54 dengan menyerahkan jaminan yang sama\nsebagaimana dimaksud dalam Pasal 55 huruf d."
+    },
+    {
+      "nomor": "61",
+      "text": "(1)\nApabila dari hasil pemeriksaan perkara terbukti bahwa\nbarang impor atau ekspor tersebut tidak merupakan\natau tidak berasal dari hasil pelanggaran merek atau\nhak cipta, pemilik barang impor atau ekspor berhak\nuntuk memperoleh ganti rugi dari pemilik atau\npemegang \nhak \nyang \nmeminta \npenangguhan\npengeluaran barang impor atau ekspor tersebut.\n(2)\nPengadilan      niaga     yang memeriksa dan memutus\nperkara sebagaimana dimaksud pada ayat (1) dapat\nmemerintahkan agar jaminan sebagaimana dimaksud\ndalam \nPasal 55\nhuruf \nd \ndigunakan \nsebagai\npembayaran atau bagian pembayaran ganti rugi yang\nharus dibayarkan."
+    },
+    {
+      "nomor": "62",
+      "text": "Tindakan penangguhan pengeluaran barang impor atau ekspor dapat pula\ndilakukan karena jabatan oleh Pejabat Bea dan Cukai apabila terdapat\nbukti yang cukup bahwa barang tersebut merupakan atau berasal dari\nhasil pelanggaran merek atau hak cipta."
+    },
+    {
+      "nomor": "63",
+      "text": "Ketentuan penangguhan pengeluaran barang yang diduga merupakan\nhasil pelanggaran hak atas kekayaan intelektual tidak diberlakukan\nterhadap barang bawaan penumpang, awak sarana pengangkut, pelintas\nbatas, atau barang kiriman melalui pos atau jasa titipan yang tidak\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n44\n-\ndimaksudkan untuk tujuan komersial."
+    },
+    {
+      "nomor": "64",
+      "text": "(1)\nPengendalian impor atau ekspor barang yang diduga merupakan\nhasil pelanggaran hak atas kekayaan intelektual, selain merek dan\nhak cipta sebagaimana diatur dalam Undang-undang ini, ditetapkan\ndengan Peraturan Pemerintah.\n(2)\nKetentuan lebih lanjut yang diperlukan bagi pelaksanaan Pasal 54\nsampai dengan Pasal 63 diatur dengan Peraturan Pemerintah.\nBAB XI…"
+    },
+    {
+      "nomor": "64A",
+      "text": "(1) Barang yang berdasarkan bukti permulaan diduga\nterkait dengan tindakan terorisme dan/atau kejahatan\nlintas negara dapat dilakukan penindakan oleh pejabat\nbea dan cukai.\n(2) Ketentuan  . . .\n\n\n(2) Ketentuan \nmengenai \ntata \ncara \npenindakan\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "65",
+      "text": "(1)\nBarang yang dinyatakan sebagai barang tidak dikuasai adalah :\na. barang yang ditimbun di Tempat Penimbunan Sementara yang\nmelebihi jangka waktu sebagaimana dimaksud dalam Pasal 43\nayat (2);\nb. barang yang tidak dikeluarkan dari Tempat Penimbunan Berikat\nyang telah dicabut izinnya dalam jangka waktu sebagaimana\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n45\n-\ndimaksud dalam Pasal 47; atau\nc. barang yang dikirim melalui pos :\n1. yang ditolak oleh si alamat atau orang yang dituju dan tidak\ndapat dikirim kembali kepada pengirim di luar Daerah\nPabean;\n2. dengan tujuan luar Daerah Pabean yang diterima kembali\nkarena ditolak atau tidak dapat disampaikan kepada alamat\nyang dituju, dan tidak diselesaikan oleh pengirim dalam\njangka waktu tiga puluh hari sejak diterimanya pemberitahuan\ndari kantor pos.\n(2)\nbarang...\n(2)\nbarang sebagaimana dimaksud pada ayat (1) disimpan di Tempat\nPenimbunan Pabean dan dipungut sewa gudang yang ditetapkan\noleh Menteri."
+    },
+    {
+      "nomor": "66",
+      "text": "(1)\nbarang yang dinyatakan sebagai barang tidak dikuasai selain yang\ndimaksud pada ayat (3) pasal ini, oleh Pejabat Bea dan Cukai segera\ndiberitahukan secara tertulis kepada pemiliknya bahwa barang\ntersebut akan dilelang jika tidak diselesaikan dalam jangka waktu\nenam puluh hari sejak disimpan di Tempat Penimbunan Pabean.\n(2)\nbarang sebagaimana dimaksud pada ayat (1) sepanjang belum\ndilelang, oleh pemiliknya dapat :\na. diimpor untuk dipakai setelah Bea Masuk dan biaya lainnya yang\nterutang dilunasi;\nb. diekspor kembali setelah biaya yang terutang dilunasi;\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n46\n-\nc. dibatalkan ekspornya setelah biaya yang terutang dilunasi;\nd. diekspor setelah biaya yang terutang dilunasi; atau\ne. dikeluarkan dengan tujuan Tempat Penimbunan Berikat setelah\nbiaya yang terutang dilunasi.\n(3)\nBarang sebagaimana dimaksud dalam Pasal 65 ayat (1) yang :\na. busuk segera dimusnahkan;\nb. karena sifatnya tidak tahan lama, merusak, berbahaya, atau\npengurusannya memerlukan biaya tinggi dapat segera dilelang\ndengan memberitahukan secara tertulis kepada pemiliknya;\nc. merupakan barang yang dilarang dinyatakan menjadi milik\nnegara sebagaimana dimaksud dalam Pasal 73; atau\nd.\nmerupakan...\nd. merupakan barang yang dibatasi disediakan untuk diselesaikan\noleh pemiliknya dalam jangka waktu enam puluh hari terhitung\nsejak disimpan di Tempat Penimbunan Pabean."
+    },
+    {
+      "nomor": "67",
+      "text": "(1)\nPelelangan sebagaimana dimaksud dalam Pasal 66 ayat (1) dan ayat\n(3) huruf b dilakukan melalui lelang umum.\n(2)\nHasil lelang sebagaimana dimaksud pada ayat (1) setelah dikurangi\nBea Masuk yang terutang dan biaya yang harus dibayar, sisanya\ndisediakan untuk pemiliknya.\n(3)\nPejabat Bea dan Cukai memberitahukan secara tertulis kepada\npemiliknya sisa hasil lelang sebagaimana dimaksud pada ayat (2)\ndalam waktu tujuh hari setelah tanggal pelelangan.\n(4)\nSisa hasil lelang menjadi miliki negara apabila tidak diambil oleh\npemiliknya dalam jangka waktu sembilan puluh setelah tanggal\nsurat pemberitahuan sebagaimana dimaksud pada ayat (3).\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n47\n-\n(5)\nHarga terendah untuk barang yang akan dilelang sebagaimana\ndimaksud pada ayat (1) ditetapkan oleh Menteri, jika harga yang\nditetapkan tidak tercapai, barang dapat dimusnahkan atau untuk\ntujuan lain atas persetujuan Menteri."
+    },
+    {
+      "nomor": "68",
+      "text": "(1)\nBarang yang dikuasai negara adalah :\na.\nbarang...\na. barang yang dilarang atau dibatasi sebagaimana dimaksud dalam\nPasal 53 ayat (4);\nb. barang dan/atau sarana pengangkut yang ditegah oleh Pejabat\nBea dan Cukai sebagaimana dimaksud dalam Pasal 77 ayat (1);\natau\nc. barang\ndan/atau\nsarana\npengangkut\nyang\nditinggalkan\ndi\nKawasan Pabean oleh pemilik yang tidak kenal.\n(2)\nBarang sebagaimana dimaksud pada ayat (1) huruf a atau huruf b\ndiberitahukan oleh Pejabat Bea dan Cukai secara tertulis kepada\npemiliknya dengan menyebutkan alasan dan barang sebagaimana\ndimaksud pada ayat (1) huruf c diumumkan selama tiga puluh hari\nsejak disimpan di Tempat Penimbunan Pabean.\n(3)\nBarang sebagaimana dimaksud pada ayat (1) disimpan di Tempat\nPenimbunan Pabean."
+    },
+    {
+      "nomor": "69",
+      "text": "PRESIDEN\nREPUBLIK INDONESIA\n-\n48\n-\nBarang sebagaimana dimaksud dalam Pasal 68 ayat (1) yang :\na.\nbusuk segera dimusnahkan;\nb.\nkarena sifatnya tidak tahan lama, merusak, berbahaya, atau\npengurusannya\nmemerlukan\nbiaya\ntinggi\nsepanjang\nbukan\nmerupakan barang yang dilarang atau dibatasi dapat segera dilelang\ndengan memberitahukan secara tertulis kepada pemiliknya; atau\nc.\nmerupakan barang yang dilarang atau dibatasi dinyatakan menjadi\nbarang milik negara sebagaimana dimaksud dalam Pasal 73.\nPasal 70…"
+    },
+    {
+      "nomor": "70",
+      "text": "Barang dan sarana pengangkut sebagaimana dimaksud dalam Pasal 68\nayat (1) huruf b diserahkan kembali kepada pemiliknya dalam jangka\nwaktu tiga puluh hari sejak penyimpanan di Tempat Penimbunan Pabean\ndalam hal :\na.\nBea Masuk yang terutang telah dibayar dan apabila merupakan\nbarang larangan atau pembatasan telah diserahkan dokumen atau\nketerangan yang diperlukan sehubungan dengan larangan atau\npembatasan impor atau ekspor; atau\nb.\nBea Masuk yang terutang telah dibayar dan apabila merupakan\nbarang larangan atau pembatasan telah diserahkan dokumen atau\nketerangan yang diperlukan sehubungan dengan larangan atau\npembatasan impor atau ekspor serta telah diserahkan sejumlah uang\nditetapkan oleh Menteri sebagai ganti barang yang besarnya tidak\nmelebihi harga barang, sepanjang barang tersebut tidak diperlukan\nuntuk bukti di pengadilan.\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n49\n-"
+    },
+    {
+      "nomor": "71",
+      "text": "(1)\nPelelangan\nsebagaimana\ndimaksud\ndalam\nPasal 69\nhuruf\nb\ndilakukan melalui lelang umum.\n(2) Harga terendah untuk barang yang akan dilelang sebagaimana\ndimaksud pada ayat (1) ditetapkan oleh Menteri, dan jika harga\nyang ditetapkan tidak tercapai, barang dapat dimusnahkan untuk\ntujuan lain atas persetujuan Menteri.\n(3)\nHasil...\n(3)\nHasil lelang sebagaimana dimaksud pada ayat (1) disimpan sebagai\nganti\nbarang\nyang\nbersangkutan\nsambil\nkeputusan\nMenteri\nsebagaimana dimaksud dalam Pasal 72 ayat (2) atau untuk alat bukti\ndi sidang pengadilan."
+    },
+    {
+      "nomor": "72",
+      "text": "(1)\nPemilik barang dan/atau sarana pengangkut sebagaimana dimaksud\ndalam Pasal 68 dapat mengajukan keberatan secara tertulis kepada\nMenteri dalam jangka waktu tiga puluh hari sejak diberitahukan\noleh Pejabat Bea dan Cukai dengan menyebutkan alasan dan bukti\nyang menguatkan keberatannya.\n(2)\nDalam jangka waktu sembilan puluh hari sejak diterimanya\npermohonan keberatan sebagaimana dimaksud pada ayat (1),\nMenteri memberikan keputusan bahwa :\na. tidak terdapat pelanggaran terhadap Undang-undang ini dan\nsegera memerintahkan agar dan/tau sarana pengangkut yang\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n50\n-\ndikuasai negara atau uang sebagaimana dimaksud dalam Pasal 69\nhuruf b dan Pasal 70 huruf b diserahkan kepada pemiliknya; atau\nb. telah terjadi pelanggaran terhadap Undang-undang ini, barang\ndan/atau sarana pengangkut atau uang sebagaimana dimaksud\ndalam Pasal 69 huruf b diselesaikan lebih lanjut berdasarkan\nUndang-undang ini.\n(3)\nKeputusan yang diambil sebagaimana dimaksud pada ayat (2)\ndiberitahukan kepada pemiliknya dan Direktur Jenderal.\n(4)\nApabila dalam jangka waktu sebagaimana dimaksud pada ayat (2)\nMenteri\ntidak\nmemberikan\nkeputusan,\npermohonan\nyang\nbersangkutan dianggap diterima.\nBagian…"
+    },
+    {
+      "nomor": "73",
+      "text": "(1)\nbarang yang menjadi milik negara adalah :\na. barang yang dilarang sebagaimana dimaksud dalam Pasal 66 ayat\n(3) huruf c;\nb. barang yang dibatasi sebagaimana dimaksud dalam Pasal 66 ayat\n(3) huruf d yang tidak diselesaikan oleh\npemiliknya\ndalam\njangka waktu enam puluh hari terhitung sejak disimpan di\nTempat Penimbunan Pabean.\nc. barang dan/sarana pengangkut sebagaimana dimaksud dalam\nPasal 68 ayat (1) huruf b yang berasal dari tindak pidana yang\npelakunya tidak dikenal;\nd. barang dan/sarana pengangkut sebagaimana dimaksud dalam\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n51\n-\nPasal 68 ayat (1) huruf c yang tidak diselesaikan dalam jangka\nwaktu sebagaimana dimaksud dalam Pasal 68 ayat (2);\ne. barang sebagaimana dimaksud dalam Pasal 69 huruf c; atau\nf. barang dan/atau sarana pengangkut yang berdasarkan putusan\nhakim yang telah mempunyai kekuatan hukum tetap dinyatakan\ndirampas untuk negara sebagaimana dimaksud dalam Pasal 109\nayat 91) atau ayat (2).\n(2)\nBarang sebagaimana dimaksud pada ayat (1) merupakan kekayaan\nnegara dan disimpan di Tempat Penimbunan Pabean.\n(3)\nKetentuan tentang penggunaan barang yang menjadi milik negara\nditetapkan oleh Menteri.\nBAB XII…"
+    },
+    {
+      "nomor": "74",
+      "text": "(1)\nDalam melaksanakan tugas berdasarkan Undang-undang ini dan\nperaturan perudang-undangan lain yang pelaksanaannya dibebankan\nkepada\nDirektorat\nJenderal,\nPejabat\nBea\ndan\nCukai\nuntuk\nmengamankan hak-hak negara berwenang mengambil tindakan\nyang diperlukan terhadap barang.\n(2)\nDalam melaksanakan kewenangan sebagaimana dimaksud pada\nayat (1), Pejabat Bea dan Cukai dapat dilengkapi dengan senjata api\nyang jenis dan syarat-syarat penggunaannya diatur dengan Peraturan\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n52\n-\nPemerintah."
+    },
+    {
+      "nomor": "75",
+      "text": "(1)\nPejabat \nbea \ndan \ncukai \ndalam \nmelaksanakan\npengawasan terhadap sarana pengangkut di laut atau\ndi sungai menggunakaan kapal patroli atau sarana\nlainnya.\n(2)\nKapal patroli atau sarana lain yang digunakan oleh\npejabat bea dan cukai sebagaimana dimaksud pada\nayat (1) dapat dilengkapi dengan senjata api yang\njumlah dan jenisnya ditetapkan dengan peraturan\npemerintah."
+    },
+    {
+      "nomor": "76",
+      "text": "(1) Dalam  melaksanakan  tugas berdasarkan Undang-\nUndang ini pejabat bea dan cukai dapat meminta\nbantuan \nKepolisian \nRepublik \nIndonesia, \nTentara\nNasional Indonesia, dan/atau instansi lainnya.\n(2)  Atas permintaan sebagaimana dimaksud pada ayat (1),\nKepolisian \nRepublik \nIndonesia, \nTentara \nNasional\nIndonesia, dan/atau instansi lainnya berkewajiban\nuntuk memenuhinya."
+    },
+    {
+      "nomor": "77",
+      "text": "(1)\nUntuk\ndipenuhinya\nKewajibannya\nPabean\nberdasarkan\nUndang-undang ini, Pejabat Bea dan Cukai berwenang menengah\nbarang dan/atau sarana pengangkut.\n(2)\nKetentuan tentang tata cara pencegahan diatur lebih lanjut dengan\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n53\n-\nPeraturan Pemerintah."
+    },
+    {
+      "nomor": "78",
+      "text": "Pejabat bea dan cukai berwenang untuk mengunci,\nmenyegel, dan/atau melekatkan tanda pengaman yang\ndiperlukan terhadap barang impor yang belum diselesaikan\nkewajiban pabeannya dan barang ekspor atau barang lain\nyang harus diawasi menurut Undang-Undang ini yang\nberada di sarana pengangkut, tempat penimbunan atau\ntempat lain.\n69. Ketentuan  . . ."
+    },
+    {
+      "nomor": "79",
+      "text": "(1)\nSegel dan/atau tanda pengaman yang digunakan oleh instansi\npabean di negara lain atau pihak lain dapat diterima sebagai\npengganti segel atau tanda pengaman sebagaimana dimaksud\ndalam Pasal 78.\n(2)\nPersyaratan dapat diterimanya segel atau tanda pengamannya\nsebagaimana dimaksud pada ayat (1) ditetapkan oleh Menteri."
+    },
+    {
+      "nomor": "80",
+      "text": "(1)\nPemilik\ndan/atau\nyang\nmenguasai\nsarana\npengangkut\natau\ntempat-tempat\nyang\ndikunci,\ndisegel, dan/atau dilekati tanda\npengaman oleh Pejabat Bea dan Cukai sebagaimana dimaksud\ndalam Pasal 78 wajib menjamin agar semua kunci segel, atau tanda\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n54\n-\npengaman tersebut tidak rusak, lepas, atau hilang.\n(2)\nKunci,\nsegel,\natau\ntanda\npengaman\nyang\ntelah\ndipasang\nsebagaimana dimaksud dalam Pasal 78 dan Pasal 79 tidak boleh\ndibuka, dilepas, atau dirusak tanpa izin Pejabat Bea dan Cukai."
+    },
+    {
+      "nomor": "81",
+      "text": "(1)\nDi atas sarana pengangkut atau di tempat lain yang berisi barang di\nbawah pengawasan pebean dapat ditempat Pejabat Bea dan Cukai.\n(2)\nApabila di sarana pengangkut atau tempat lain sebagaimana\ndimaksud pada ayat (1) tidak tersedia akomodasi, pengangkut atau\npengusaha yang bersangkutan wajib memberikan bantuan yang\nlayak.\n(3)\nPengangkut...\n(3)\nPengangkut atau pengusaha yang memberikan bantuan yang layak\nsebagaimana dimaksud pada ayat (2) dikenai sanksi administrasi\nberupa denda sebesar Rp. 5.000.000,00 (lima juta rupiah)."
+    },
+    {
+      "nomor": "82",
+      "text": "(1)\nPejabat \nbea \ndan \ncukai \nberwenang \nmelakukan\npemeriksaan pabean atas  barang impor atau barang\nekspor setelah pemberitahuan pabean diserahkan.\n(2)\nPejabat bea dan cukai berwenang meminta importir,\neksportir, pengangkut, pengusaha tempat penimbunan\nsementara, pengusaha tempat penimbunan berikat,\natau yang mewakilinya menyerahkan barang untuk\ndiperiksa, \nmembuka \nsarana \npengangkut \natau\nbagiannya, dan membuka setiap bungkusan atau\npengemas yang akan diperiksa.\n(3)\nJika permintaan sebagaimana dimaksud pada ayat (2)\ntidak dipenuhi:\na. pejabat  bea dan cukai berwenang melakukan\ntindakan sebagaimana dimaksud pada ayat (2) atas\nrisiko dan biaya yang bersangkutan; dan\nb. yang bersangkutan dikenai sanksi administrasi\nberupa denda sebesar Rp25.000.000,00 (dua puluh\nlima juta rupiah).\n(4)\nDihapus.\n(5)\nSetiap orang yang  salah memberitahukan jenis\ndan/atau \njumlah \nbarang \ndalam \npemberitahuan\npabean atas impor yang mengakibatkan kekurangan\npembayaran bea masuk dikenai sanksi administrasi\nberupa denda paling sedikit 100% (seratus persen)\ndari bea masuk yang kurang dibayar  dan paling\nbanyak 1.000% (seribu persen) dari bea masuk yang\nkurang dibayar.\n(6)\nSetiap orang  yang salah memberitahukan jenis\ndan/atau \njumlah \nbarang \ndalam \npemberitahuan\npabean \natas \nekspor \nyang \nmengakibatkan \ntidak\nterpenuhinya pungutan negara di bidang ekspor\ndikenai sanksi administrasi berupa denda paling\nsedikit 100% (seratus persen) dari pungutan negara di\nbidang ekspor yang kurang dibayar dan paling banyak\n1.000% (seribu persen) dari pungutan negara di\nbidang ekspor yang kurang dibayar.\n70. Di antara . . ."
+    },
+    {
+      "nomor": "82A",
+      "text": "(1)\nUntuk kepentingan pengawasan, pejabat bea dan\ncukai berwenang melakukan pemeriksaan karena\njabatan atas fisik barang impor atau barang ekspor\nsebelum \natau \nsesudah \npemberitahuan \npabean\ndisampaikan.\n(2)\nKetentuan mengenai tata cara sebagaimana dimaksud\npada ayat (1) diatur lebih lanjut dengan atau\nberdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "83",
+      "text": "Surat yang dicurigai berisi barang impor atau barang ekspor yang dikirim\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n56\n-\nmelalui pos dapat dibuka di hadapan si alamat, atau jika si alamat tidak\ndapat ditemukan, surat dapat dibuka oleh Pejabat Bea dan Cukai bersama\npetugas kantor pos."
+    },
+    {
+      "nomor": "84",
+      "text": "(1)\nPejabat Bea dan Cukai berwenang meminta kepada importir atau\neksportir untuk menyerahkan buku, catatan, surat menyurat yang\nbertalian dengan Impor atau Ekspor, dan mengambil contoh barang\nuntuk pemeriksaan Pemberitahuan Pabean.\n(2)\nPengambilan contoh barang dapat pula dilakukan atas permintaan\nimportir.\nPasal 85…"
+    },
+    {
+      "nomor": "85",
+      "text": "(1)\nPejabat  bea  dan  cukai  memberikan persetujuan\nimpor atau ekspor setelah pemberitahuan pabean yang\ntelah memenuhi persyaratan diterima dan hasil\npemeriksaan \nbarang \ntersebut \nsesuai \ndengan\npemberitahuan pabean.\n(2)\nPejabat  bea dan  cukai  berwenang  menunda\npemberian persetujuan impor atau ekspor dalam hal\npemberitahuan pabean tidak memenuhi persyaratan.\n(3)\nPejabat \nbea \ndan \ncukai \nberwenang \nmenolak\nmemberikan pelayanan kepabeanan dalam hal orang\nyang \nbersangkutan \nbelum \nmemenuhi \nkewajiban\nkepabeanan berdasarkan Undang-Undang ini."
+    },
+    {
+      "nomor": "86",
+      "text": "(1) Pejabat bea dan cukai berwenang melakukan audit\nkepabeanan terhadap orang sebagaimana dimaksud\ndalam Pasal 49.\n(1a) Dalam melaksanakan audit kepabeanan sebagaimana\ndimaksud pada ayat (1), pejabat bea dan cukai\nberwenang:\na. meminta laporan keuangan, buku, catatan dan\ndokumen yang menjadi bukti dasar pembukuan,\nsurat yang berkaitan dengan kegiatan usaha\ntermasuk \ndata \nelektronik, \nserta \nsurat \nyang\nberkaitan dengan kegiatan di bidang kepabeanan;\nb. meminta keterangan lisan dan/atau tertulis dari\norang dan pihak lain yang terkait;\nc. memasuki bangunan kegiatan usaha, ruangan\ntempat untuk menyimpan laporan keuangan, buku,\ncatatan dan dokumen yang menjadi bukti dasar\npembukuan, \ndan \nsurat-surat \nyang \nberkaitan\ndengan kegiatan usaha, termasuk sarana/media\npenyimpan data elektronik, dan barang yang dapat\nmemberi petunjuk tentang keadaan kegiatan usaha\nyang berkaitan dengan kegiatan kepabeanan; dan\nd. melakukan tindakan pengamanan yang dipandang\nperlu terhadap tempat atau ruangan penyimpanan\ndokumen \nyang \nberkaitan \ndengan \nkegiatan\nkepabeanan.\n(2) Orang  . . .\n\n\n(2) Orang sebagaimana dimaksud dalam Pasal 49 yang\nmenyebabkan pejabat bea dan cukai tidak dapat\nmenjalankan kewenangan audit kepabeanan dikenai\nsanksi \nadministrasi \nberupa \ndenda \nsebesar\nRp75.000.000,00 (tujuh puluh lima juta rupiah).\n(3) Ketentuan mengenai tata cara pelaksanaan audit\nkepabeanan sebagaimana dimaksud pada ayat (1)\ndiatur lebih lanjut dengan atau berdasarkan peraturan\nmenteri."
+    },
+    {
+      "nomor": "87",
+      "text": "(1)\nPejabat Bea dan Cukai berwenang melakukan pemeriksaan atas\nbangunan dan tempat lain :\na. yang penyelenggaraannya berdasarkan izin yang telah diberikan\nmenurut Undang-undang ini; atau\nb. yang menurut Pemberitahuan Pabean berisi barang di bawah\npengawasan pabean.\n(2)\nPejabat Bea dan Cukai berwenang melakukan pemeriksaan atas\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n58\n-\nbangunan dan tempat lain yang secara langsung atau tidak langsung\nberhubungan dengan bangunan atau tempat sebagimana dimaksud\npada ayat (1)."
+    },
+    {
+      "nomor": "88",
+      "text": "(1)\nUntuk pemenuhan kewajiban pabean berdasarkan\nUndang-Undang ini, pejabat bea dan cukai berwenang\nmemasuki dan memeriksa bangunan atau tempat\nyang bukan rumah tinggal selain yang dimaksud\ndalam Pasal 87 dan dapat memeriksa setiap barang\nyang ditemukan.\n(2)\nSelama pemeriksaan atas bangunan atau tempat\nsebagaimana dimaksud pada ayat (1) dan atas\npermintaan pejabat bea dan cukai, pemilik atau yang\nmenguasai bangunan atau tempat tersebut wajib\nmenyerahkan surat atau dokumen yang berkaitan\ndengan barang yang berada di tempat tersebut.\n76. Ketentuan . . ."
+    },
+    {
+      "nomor": "89",
+      "text": "(1)\nPemeriksaan atas bangunan atau tempat lain sebagaimana dimaksud\ndalam Pasal 87 ayat (2) atau Pasal 88 ayat (1) harus dengan surat\nperintah dari Direktur Jenderal.\n(2)\nSurat\nperintah\nsebagaimana\ndimaksud\npada\nayat\n(1)\ntidak\ndiperlukan untuk melakukan :\na. pemeriksaan\nbangunan\natau\ntempat\nyang\nmenurut\nUndang-undang ini berada di bawah pengawasan Direktorat\nJenderal Bea dan Cukai;\nb. pengejaran orang dan/atau barang yang memasuki bangunan atau\ntempat lain.\n(3)\nPengelola bangunan atau tempat sebagaimana dimaksud dalam\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n59\n-\nPasal 87 dan Pasal 88 tidak boleh menghalangi Pejabat Bea dan\nCukai yang masuk ke dalam bangunan atau tempat lain dimaksud,\nkecuali bangunan atau tempat lain tersebut merupakan rumah\ntinggal.\n(4)\nBarangsiapa yang menyebabkan Pejabat Bea dan Cukai tidak dapat\nmelaksanakan ketentuan sebagaimana dimaksud dalam Pasal 87 dan\nPasal 88 dikenai sanksi administrasi berupa denda sebesar Rp.\n5.000.000,00 (lima juta rupiah)."
+    },
+    {
+      "nomor": "90",
+      "text": "(1)\nUntuk pemenuhan kewajiban pabean berdasarkan\nUndang-Undang ini pejabat bea dan cukai berwenang\nuntuk \nmenghentikan \ndan \nmemeriksa \nsarana\npengangkut serta barang di atasnya.\n(2)\nSarana pengangkut yang disegel oleh penegak hukum\nlain atau dinas pos dikecualikan dari pemeriksaan\nsebagaimana dimaksud pada ayat (1).\n(3)\nPejabat bea dan cukai berdasarkan pemberitahuan\npabean sebagaimana dimaksud dalam Pasal 7A ayat\n(3) berwenang untuk menghentikan pembongkaran\nbarang dari sarana pengangkut apabila ternyata\nbarang yang dibongkar tersebut bertentangan dengan\nketentuan yang berlaku.\n(4)\nOrang yang tidak melaksanakan perintah penghentian\npembongkaran sebagaimana dimaksud pada ayat (3)\ndikenai sanksi administrasi berupa denda sebesar\nRp25.000.000,00 (dua puluh lima juta rupiah)."
+    },
+    {
+      "nomor": "91",
+      "text": "(1)\nUntuk keperluan pemeriksaan sebagaimana dimaksud dalam Pasal\n90 ayat (1) atas permintaan atau isyarat Pejabat Bea dan Cukai,\npengangkut wajib menghentikan sarana pengangkutnya.\n(2)\nPejabat\nBea\ndan\nCukai\nberwenang\nagar\nsarana\npengangkut\nsebagaimana dimaksud pada ayat (1) dibawa ke Kantor Pabean atau\ntempat lain yang sesuai untuk keperluan pemeriksaan atas biaya\nyang bersalah.\n(3)\nPengangkut\natas\npermintaan\nPejabat\nBea\ndan\nCukai\nwajib\nmenunjukkan semua dokumen pengangkutan serta Pemberitahuan\nPabean yang diwajibkan menurut Undang-undang ini.\n(4)\nPengangkut yang menolak untuk memenuhi permintaan Pejabat Bea\ndan Cukai sebagaimana dimaksud pada ayat (1), ayat (2), dan/atau\nayat (3) dikenai sanksi administrasi berupa denda sebesar Rp.\n5.000.000,00 (lima juta rupiah).\nParagraf 5…"
+    },
+    {
+      "nomor": "92",
+      "text": "(1)\nUntuk pemenuhan Kewajiban Pabean berdasarkan Undang-undang\nini atau peraturan perundang-undangan lain tentang larangan dan\npembatasan impor atau ekspor barang, Pejabat Bea dan Cukai\nberwenang memeriksa badan setiap orang:\na. yang berada di atas atau baru saja turun dari sarana pengangkut\nyang masuk ke dalam Daerah Pabean;\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n61\n-\nb. yang berada di atas atau siap naik ke sarana pengangkut yang\ntujuannya adalah tempat di luar Daerah Pabean;\nc. yang sedang berada atau baru saja meninggalkan Tempat\nPenimbunan Sementara atau Tempat Penimbunan Berikat; atau\nd. yang sedang berada di atau saja meninggalkan Kawasan Pabean.\n(2)\nOrang yang diperiksa sebagaimana dimaksud pada ayat (1) wajib\nmemenuhi permintaan Pejabat Bea dan Cukai menuju tempat\npemeriksaan.\nBAB XIII…"
+    },
+    {
+      "nomor": "92A",
+      "text": "(1) Direktur \nJenderal \nkarena \njabatan \natau \natas\npermohonan dari orang  yang bersangkutan dapat:\na. membetulkan \n \nsurat \npenetapan \ntagihan\nkekurangan pembayaran bea masuk yang dalam\npenerbitannya terdapat kesalahan tulis, kesalahan\nhitung, dan/atau kekeliruan dalam penerapan\nketentuan Undang-Undang ini; atau\nb. mengurangi  atau  menghapus sanksi administrasi\nberupa denda dalam hal sanksi tersebut dikenakan\npada orang yang dikenai sanksi karena kekhilafan\natau bukan karena kesalahannya.\n(2) Ketentuan . . .\n\n\n(2) Ketentuan mengenai tata cara pengajuan permohonan,\npembetulan, \npengurangan, \natau \npenghapusan\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "93",
+      "text": "(1)  Orang    yang    berkeberatan terhadap penetapan\npejabat bea dan cukai mengenai tarif dan/atau nilai\npabean \nuntuk \npenghitungan \nbea \nmasuk \ndapat\nmengajukan keberatan secara tertulis hanya kepada\nDirektur Jenderal dalam waktu 60 (enam puluh) hari\nsejak \ntanggal \npenetapan \ndengan \nmenyerahkan\njaminan sebesar tagihan yang harus dibayar.\n(1a) Jaminan sebagaimana dimaksud pada ayat (1) tidak\nwajib diserahkan dalam hal barang impor belum\ndikeluarkan dari kawasan pabean.\n(2) Direktur \nJenderal \nmemutuskan \nkeberatan\nsebagaimana dimaksud pada ayat (1) dalam jangka\nwaktu 60 (enam puluh hari) sejak diterimanya\npengajuan keberatan.\n(3) Apabila keberatan sebagaimana dimaksud pada ayat\n(1) ditolak oleh Direktur Jenderal, jaminan dicairkan\nuntuk \nmembayar \nbea \nmasuk \ndan/atau \nsanksi\nadministrasi berupa denda yang ditetapkan, dan\napabila keberatan dikabulkan jaminan dikembalikan.\n(4) Apabila dalam jangka waktu 60 (enam puluh) hari\nsebagaimana \ndimaksud \npada \nayat \n(2) \nDirektur\nJenderal tidak memberikan keputusan, keberatan\nyang bersangkutan dianggap dikabulkan dan jaminan\ndikembalikan.\n(5) Apabila . . .\n\n\n(5) Apabila jaminan sebagaimana dimaksud pada ayat (1)\nberupa \nuang \ntunai \ndan \npengembalian \njaminan\nsebagaimana dimaksud pada ayat (3) dan ayat (4)\ndilakukan setelah jangka waktu 30 (tiga puluh) hari\nsejak keberatan dikabulkan, pemerintah memberikan\nbunga sebesar 2% (dua persen) setiap bulannya paling\nlama 24 (dua puluh empat) bulan.\n(6) Ketentuan mengenai tatacara pengajuan keberatan\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "93A",
+      "text": "(1)\nOrang yang berkeberatan terhadap penetapan pejabat\nbea dan cukai selain tarif  dan/atau nilai pabean\nuntuk penghitungan bea masuk dapat mengajukan\nkeberatan secara tertulis hanya kepada Direktur\nJenderal dalam waktu 60 (enam puluh) hari sejak\ntanggal penetapan.\n(2)\nSepanjang keberatan sebagaimana dimaksud pada\nayat (1) menyangkut kekurangan pembayaran bea\nmasuk, jaminan wajib diserahkan sebesar tagihan\nyang harus dibayar.\n(3)\nJaminan sebagaimana dimaksud pada ayat (2) tidak\nwajib diserahkan dalam hal barang impor belum di\nkeluarkan dari kawasan pabean.\n(4)\nDirektur \nJenderal \nmemutuskan \nkeberatan\nsebagaimana dimaksud pada ayat (1) dalam jangka\nwaktu 60 (enam puluh hari) sejak diterimanya\npengajuan keberatan.\n(5)\nApabila keberatan sebagaimana dimaksud pada ayat\n(1) ditolak oleh Direktur Jenderal, jaminan dicairkan\nuntuk \nmembayar \nbea \nmasuk \ndan/atau \nsanksi\nadministrasi berupa denda yang ditetapkan, dan\napabila keberatan dikabulkan jaminan dikembalikan.\n(6) Apabila  . . .\n\n\n(6)\nApabila dalam jangka waktu 60 (enam puluh) hari\nsebagaimana \ndimaksud \npada \nayat \n(3) \nDirektur\nJenderal tidak memberikan keputusan, keberatan\nyang bersangkutan dianggap dikabulkan dan jaminan\ndikembalikan.\n(7)\nApabila jaminan sebagaimana dimaksud pada ayat (1)\nberupa \nuang \ntunai \ndan \npengembalian \njaminan\nsebagaimana dimaksud pada ayat (5) dan ayat (6)\ndilakukan setelah jangka waktu 30 (tiga puluh) hari\nsejak keberatan diterima, pemerintah memberikan\nbunga sebesar 2% (dua persen) setiap bulannya paling\nlama 24 (dua puluh empat) bulan.\n(8)\nKetentuan \nmengenai \npengajuan \nkeberatan\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "94",
+      "text": "(1)\nOrang  yang  dikenai  sanksi administrasi berupa\ndenda dapat mengajukan keberatan secara tertulis\nhanya kepada Direktur Jenderal dalam jangka waktu\n60 (enam puluh hari) sejak tanggal penetapan dengan\nmenyerahkan jaminan sebesar sanksi administrasi\nberupa denda yang ditetapkan.\n(2)\nDirektur \n \nJenderal \n \nmemutuskan \nkeberatan\nsebagaimana dimaksud pada ayat (1) dalam jangka\nwaktu 60 (enam puluh) hari sejak diterimanya\npengajuan keberatan.\n(3)\nApabila keberatan sebagaimana dimaksud pada ayat\n(1) ditolak oleh Direktur Jenderal, jaminan dicairkan\nuntuk membayar sanksi administrasi berupa denda\nyang ditetapkan, dan apabila keberatan dikabulkan,\njaminan dikembalikan.\n(4)\nApabila dalam jangka waktu 60 (enam puluh) hari\nsebagaimana \ndimaksud \npada \nayat \n(2) \nDirektur\nJenderal tidak memberikan keputusan, keberatan\nyang bersangkutan dianggap dikabulkan dan jaminan\ndikembalikan.\n(5) Apabila  . . .\n\n\n(5)\nApabila  jaminan sebagaimana dimaksud pada ayat (1)\nberupa \nuang \ntunai \ndan \npengembalian \njaminan\nsebagaimana dimaksud pada ayat (3) dan ayat (4)\ndilakukan setelah jangka waktu 30 (tiga puluh) hari\nsejak keberatan dikabulkan, pemerintah memberikan\nbunga sebesar 2% (dua persen) setiap bulannya paling\nlama 24 (dua puluh empat) bulan.\n(6)\nKetentuan mengenai tatacara pengajuan keberatan\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "95",
+      "text": "Orang yang berkeberatan terhadap penetapan Direktur\nJenderal \natas \ntarif \ndan \nnilai \npabean \nsebagaimana\ndimaksud dalam Pasal 17 ayat (2), keputusan Direktur\nJenderal sebagaimana dimaksud dalam Pasal 93 ayat (2),\nPasal 93A ayat (4), atau Pasal 94 ayat (2) dapat\nmengajukan permohonan banding kepada Pengadilan\nPajak dalam jangka waktu 60 (enam puluh) hari sejak\ntanggal \npenetapan \natau \ntanggal \nkeputusan, \nsetelah\npungutan yang terutang dilunasi."
+    },
+    {
+      "nomor": "102",
+      "text": "Setiap orang yang:\na. mengangkut barang impor yang tidak tercantum dalam\nmanifes sebagaimana dimaksud dalam Pasal 7A ayat (2);\nb. membongkar barang impor di luar kawasan pabean\natau tempat lain tanpa izin kepala kantor pabean;\nc. membongkar barang impor yang tidak tercantum dalam\npemberitahuan pabean sebagaimana  dimaksud dalam\nPasal 7A ayat (3);\nd. membongkar atau menimbun barang impor yang masih\ndalam pengawasan pabean di tempat selain tempat\ntujuan yang ditentukan dan/atau diizinkan;\ne. menyembunyikan \nbarang \nimpor \nsecara \nmelawan\nhukum;\nf. mengeluarkan barang impor yang belum diselesaikan\nkewajiban pabeannya dari kawasan pabean atau dari\ntempat penimbunan berikat atau dari tempat lain di\nbawah pengawasan pabean tanpa persetujuan pejabat\nbea dan cukai yang mengakibatkan tidak terpenuhinya\npungutan negara berdasarkan Undang-Undang ini;\ng. mengangkut barang impor dari tempat penimbunan\nsementara atau tempat penimbunan berikat yang tidak\nsampai ke kantor pabean tujuan dan tidak dapat\nmembuktikan \nbahwa \nhal \ntersebut \ndi \nluar\nkemampuannya; atau\nh. dengan sengaja memberitahukan jenis dan/atau jumlah\nbarang impor dalam pemberitahuan pabean secara\nsalah,\ndipidana karena melakukan penyelundupan di bidang\nimpor dengan pidana penjara paling singkat 1 (satu) tahun\ndan pidana penjara paling lama 10 (sepuluh) tahun dan\npidana denda paling sedikit Rp50.000.000,00 (lima puluh\njuta rupiah) dan paling banyak Rp5.000.000.000,00 (lima\nmiliar rupiah)."
+    },
+    {
+      "nomor": "102A",
+      "text": "Setiap orang yang:\na. mengekspor barang tanpa menyerahkan pemberitahuan\npabean;\nb. dengan sengaja memberitahukan jenis dan/atau jumlah\nbarang ekspor dalam  pemberitahuan  pabean secara\nsalah sebagaimana  dimaksud  dalam  Pasal 11A ayat\n(1) yang mengakibatkan tidak terpenuhinya pungutan\nnegara di bidang ekspor;\nc. memuat barang ekspor di luar kawasan pabean tanpa\nizin kepala kantor pabean sebagaimana dimaksud\ndalam Pasal 11A ayat (3);\nd. membongkar barang ekspor di dalam daerah pabean\ntanpa izin kepala kantor pabean; atau\ne. mengangkut barang ekspor tanpa dilindungi dengan\ndokumen yang sah sesuai dengan pemberitahuan\npabean sebagaimana dimaksud dalam Pasal 9A ayat (1)\ndipidana karena melakukan penyelundupan di bidang\nekspor dengan pidana penjara paling singkat 1 (satu) tahun\ndan pidana penjara paling lama 10 (sepuluh) tahun dan\npidana denda paling sedikit Rp50.000.000,00 (lima puluh\njuta rupiah) dan paling banyak Rp5.000.000.000,00 (lima\nmiliar rupiah)."
+    },
+    {
+      "nomor": "102B",
+      "text": "Pelanggaran sebagaimana dimaksud dalam Pasal 102 dan\nPasal 102A yang mengakibatkan terganggunya sendi-\nsendi perekonomian negara dipidana dengan pidana\npenjara paling singkat 5 (lima) tahun dan pidana penjara\npaling lama 20 (dua puluh) tahun dan pidana denda\npaling sedikit Rp5.000.000.000,00 (lima miliar rupiah)\ndan paling banyak Rp100.000.000.000,00 (seratus miliar\nrupiah).\nPasal 102C . . ."
+    },
+    {
+      "nomor": "102C",
+      "text": "Dalam hal perbuatan tindak pidana sebagaimana diatur\ndalam Pasal 102, Pasal 102A, Pasal 102B dilakukan oleh\npejabat \ndan \naparat \npenegak \nhukum, \npidana \nyang\ndijatuhkan dengan pidana sebagaimana ancaman pidana\ndalam Undang-Undang ini ditambah 1/3 (satu pertiga)."
+    },
+    {
+      "nomor": "102D",
+      "text": "Setiap orang  yang mengangkut barang tertentu yang tidak\nsampai ke kantor pabean tujuan dan tidak dapat\nmembuktikan bahwa hal tersebut di luar kemampuannya\ndipidana dengan pidana penjara paling singkat 1 (satu)\ntahun dan pidana penjara paling lama 5 (lima) tahun\ndan/atau pidana denda paling sedikit Rp10.000.000.00\n(sepuluh \njuta \nrupiah) \ndan \npaling \nbanyak\nRp1.000.000.000.00 (satu miliar rupiah)."
+    },
+    {
+      "nomor": "103",
+      "text": "Setiap orang yang:\na. menyerahkan \npemberitahuan \npabean \ndan/atau\ndokumen \npelengkap \npabean \nyang \npalsu \natau\ndipalsukan;\nb.  \nmembuat, \nmenyetujui, \natau \nturut \nserta \ndalam\npemalsuan data ke dalam buku atau catatan;\nc. memberikan keterangan lisan atau tertulis yang tidak\nbenar, yang digunakan untuk pemenuhan kewajiban\npabean; atau\nd. menimbun, menyimpan, memiliki, membeli, menjual,\nmenukar, memperoleh, atau memberikan barang impor\nyang diketahui atau patut diduga  berasal dari tindak\npidana sebagaimana dimaksud dalam Pasal 102\ndipidana dengan pidana penjara paling singkat 2 (dua)\ntahun dan  pidana penjara paling lama 8 (delapan) tahun\ndan/atau pidana denda paling sedikit Rp100.000.000,00\n(seratus \njuta \nrupiah) \ndan \npaling \nbanyak\nRp5.000.000.000,00 (lima miliar rupiah).\n93. Di antara . . ."
+    },
+    {
+      "nomor": "103A",
+      "text": "(1)\nSetiap orang yang secara tidak sah mengakses sistem\nelektronik yang berkaitan dengan pelayanan dan/atau\npengawasan di bidang kepabeanan dipidana dengan\npidana penjara paling singkat 1 (satu) tahun dan\npidana penjara paling lama 5 (lima) tahun dan/atau\npidana denda paling sedikit Rp50.000.000,00 (lima\npuluh \njuta \nrupiah) \ndan \npaling \nbanyak\nRp1.000.000.000,00 (satu miliar rupiah).\n(2)\nPerbuatan sebagaimana dimaksud pada ayat (1) yang\nmengakibatkan tidak terpenuhinya pungutan negara\nberdasarkan Undang-Undang ini dipidana dengan\npidana penjara paling singkat 2 (dua) tahun dan\npidana penjara paling lama 10 (sepuluh) tahun\ndan/atau \npidana \ndenda \npaling \nsedikit\nRp1.000.000.000,00 (satu miliar rupiah) dan paling\nbanyak Rp5.000.000.000,00 (lima miliar rupiah)."
+    },
+    {
+      "nomor": "104",
+      "text": "Setiap orang yang:\na. \nmengangkut barang yang berasal dari tindak pidana\nsebagaimana dimaksud dalam Pasal 102, Pasal 102A,\natau Pasal 102B;\nb. \nmemusnahkan, memotong, menyembunyikan, atau\nmembuang buku atau catatan yang menurut Undang-\nUndang ini harus disimpan;\nc. \nmenghilangkan, menyetujui, atau turut serta dalam\npenghilangan keterangan dari pemberitahuan pabean,\ndokumen pelengkap pabean, atau catatan; atau\nd. menyimpan . . .\n\n\nd. \nmenyimpan dan/atau menyediakan blangko faktur\ndagang dari perusahaan yang berdomisili di luar\nnegeri yang diketahui dapat digunakan sebagai\nkelengkapan pemberitahuan pabean menurut Undang-\nUndang ini\ndipidana dengan pidana penjara paling singkat 1 (satu)\ntahun, dan pidana penjara paling lama 3 (tiga) tahun\ndan/atau pidana denda paling sedikit Rp500.000.000,00\n(lima \nratus \njuta \nrupiah) \ndan \npaling \nbanyak\nRp3.000.000.000,00 (tiga miliar rupiah)."
+    },
+    {
+      "nomor": "105",
+      "text": "Setiap orang yang dengan sengaja dan tanpa hak\nmembuka, melepas, atau merusak kunci, segel atau tanda\npengaman yang telah dipasang oleh pejabat bea dan cukai\ndipidana dengan pidana penjara paling singkat 1 (satu)\ntahun dan pidana penjara paling lama 3 (tiga) tahun\ndan/atau pidana denda paling sedikit Rp500.000.000,00\n(lima \nratus \njuta \nrupiah) \ndan \npaling \nbanyak\nRp1.000.000.000,00 (satu miliar rupiah)."
+    },
+    {
+      "nomor": "107",
+      "text": "Pengusaha pengurusan jasa kepabeanan yang melakukan pengurusan\nPemberitahuan Pabean atas kuasa yang diterimanya dari importir atau\neksportir, apabila melakukan perbuatan yang diancam dengan pidana\nberdasarkan Undang-undang ini, ancaman pidana tersebut berlaku juga\nterhadapnya."
+    },
+    {
+      "nomor": "108",
+      "text": "(1)\nDalam hal suatu tindak pidana yang dapat dipidana\nmenurut Undang-Undang ini dilakukan oleh atau atas\nnama \nsuatu \nbadan \nhukum, \nperseroan \natau\nperusahaan, perkumpulan, yayasan atau koperasi,\ntuntutan \npidana \nditujukan \ndan \nsanksi \npidana\ndijatuhkan kepada:\na. badan  . . .\n\n\na. badan \nhukum, \nperseroan \natau \nperusahaan,\nperkumpulan, yayasan atau koperasi tersebut;\ndan/atau\nb. mereka \nyang \nmemberikan \nperintah \nuntuk\nmelakukan tindak pidana tersebut atau yang\nbertindak sebagai pimpinan atau yang melalaikan\npencegahannya.\n(2)\nTindak pidana menurut Undang-Undang ini dilakukan\njuga oleh atau atas nama badan hukum, perseroan\natau \nperusahaan, \nperkumpulan, \nyayasan \natau\nkoperasi, apabila tindak pidana tersebut dilakukan\noleh orang-orang yang baik berdasarkan hubungan\nkerja maupun berdasarkan hubungan lain bertindak\ndalam lingkungan badan hukum, perseoran atau\nperusahaan, perkumpulan, yayasan atau koperasi\ntersebut tanpa memperhatikan apakah orang tersebut\nmasing-masing telah melakukan tindakan secara\nsendiri-sendiri atau bersama-sama.\n(3)\nDalam  hal  suatu tuntutan pidana dilakukan\nterhadap badan hukum, perseroan atau perusahaan,\nperkumpulan, yayasan atau koperasi, pada waktu\npenuntutan diwakili oleh pengurus yang secara\nhukum dapat dimintai pertanggungjawaban sesuai\nbentuk badan hukum yang bersangkutan.\n(4)\nTerhadap \n \nbadan \n \n \nhukum, \nperseroan \natau\nperusahaan, perkumpulan, yayasan atau koperasi\nyang dipidana dengan pidana sebagaimana dimaksud\ndalam \nUndang-Undang \nini, \npidana \npokok \nyang\ndijatuhkan senantiasa berupa pidana denda paling\nbanyak Rp1.500.000.000,00 (satu miliar lima ratus\njuta rupiah) jika atas tindak pidana tersebut diancam\ndengan pidana penjara, dengan tidak menghapuskan\npidana denda apabila atas tindak pidana tersebut\ndiancam dengan pidana penjara dan pidana denda."
+    },
+    {
+      "nomor": "109",
+      "text": "(1)\nBarang impor sebagaimana dimaksud dalam Pasal\n102, Pasal 103 huruf d, atau Pasal 104 huruf a,\nbarang ekspor sebagaimana dimaksud dalam Pasal\n102A, atau barang tertentu sebagaimana dimaksud\ndalam Pasal 102D yang berasal dari tindak pidana,\ndirampas untuk negara.\n(2)\nSarana pengangkut yang semata-mata digunakan\nuntuk \nmelakukan \ntindak \npidana \nsebagaimana\ndimaksud dalam Pasal 102 dan Pasal 102A, dirampas\nuntuk negara.\n  (2a) Sarana pengangkut yang digunakan untuk melakukan\ntindak pidana sebagaimana dimaksud dalam Pasal\n102D, dapat dirampas untuk negara.\n(3)\nBarang \nsebagaimana \ndimaksud \npada \nayat \n(1)\ndiselesaikan \nberdasarkan \nketentuan \nsebagaimana\ndiatur dalam Pasal 73."
+    },
+    {
+      "nomor": "110",
+      "text": "(1)\nDalam hal pidana denda tidak dibayar oleh terpidana, sebagai\ngantinya diambil dari kekayaan dan/atau pendapatan terpidana.\n(2)\nDalam hal penggantian sebagaimana dimaksud pada ayat (1) tidak\ndapat dipenuhi, pidana denda diganti dengan pidana kurungan\npaling lama enam bulan.\nPasal 111…"
+    },
+    {
+      "nomor": "111",
+      "text": "Tindak pidana di bidang Kepabeanan tidak dapat dituntut setelah lampau\nwaktu sepuluh tahun sejak diserahkan Pemberitahuan Pabean atau sejak\nterjadinya tindak pidana."
+    },
+    {
+      "nomor": "112",
+      "text": "PRESIDEN\nREPUBLIK INDONESIA\n-\n71\n-\n(1)\nPejabat Pegawai Negeri Sipil tertentu di lingkungan Direktorat\nJenderal Bea dan Cukai diberi wewenang khusus sebagai penyidik\nsebagaimana dimaksud dalam Undang-undang Nomor 8 Tahun\n1981 tentang Hukum Acara Pidana untuk melakukan penyidikan\ntindak pidana di bidang Kepabeanan.\n(2)\nPenyidik sebagaimana dimaksud ayat (1) karena kewajibannya\nberwenang :\na. menerima laporan atau keterangan dari seseorang tentang adanya\ntindak pidana di bidang Kepabeanan;\nb. memanggil orang untuk didengar dan diperiksa sebagai tersangka\natau saksi;\nc. meneliti, mencari, dan mengumpulkan keterangan dengan tindak\npidana di bidang Kepabeanan;\nd. melakukan penangkapan dan penahanan terhadap orang yang\ndisangka melakukan tindak pidana di bidang Kepabeanan;\ne.\nmeminta...\ne. meminta keterangan dan bukti dari orang yang sangka melakukan\ntindak pidana di bidang Kepabeanan;\nf. memotret dan/atau merekam melalui media audiovisual terhadap\norang, barang, sarana pengangkut, atau apa saja yang dapat\ndijadikan bukti adanya tindak pidana di bidang Kepabeanan;\ng. memeriksa catatan dan pembukuan yang diwajibkan menurut\nUndang-undang ini dan pembukuan lainnya yang terkait;\nh. mengambil sidik jari orang;\ni. menggeledah rumah tinggal, pakaian, atau badan;\nj. menggeledah tempat atau sarana pengangkut dan memeriksa\nbarang yang terdapat di dalamnya apabila dicurigai adanya tindak\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n72\n-\npidana di bidang Kepabeanan;\nk. menyita benda-benda yang diduga keras merupakan barang yang\ndapat dijadikan sebagai bukti sehubungan dengan tindak pidana\ndi bidang Kepabeanan;\nl. memberikan tanda pengaman dan mengamankan apa saja yang\ndapat dijadikan sebagai bukti sehubungan dengan tindak pidana\ndi bidang Kepabeanan;\nm.mendatangkan tenaga ahli yang diperlukan dalam hubungannya\ndengan\npemeriksaan\nperkara\ntindak\npidana\ndi\nbidang\nKepabeanan;\nn. menyuruh berhenti orang yang disangka melakukan tindak\npidana di bidang Kepabeanan serta memeriksa tanda pengenal\ndiri tersangka;\no. menghentikan penyidikan;\np. melakukan tindakan lain yang perlu untuk kelancaran penyidikan\ntindak pidana di bidang Kepabeanan menurut hukum yang\nbertanggung jawab.\n(3) Penyidikan...\n(3)\nPenyidikan sebagaimana dimaksud pada ayat (1) memberitahukan\ndimulainya penyidikan dan menyampaikan hasil penyidikannya\nkepada Penuntut Umum sesuai dengan ketentuan\nyang\ndiatur\ndalam Undang-undang Nomor 8 Tahun 1981 tentang Hukum Acara\nPidana."
+    },
+    {
+      "nomor": "113",
+      "text": "(1)\nUntuk kepentingan penerimaan negara, atas permintaan Menteri,\nJaksa Agung dapat menghentikan penyidikan tindak pidana di\nBidang Kepabeanan.\n(2)\nPenghentian penyidikan tindak pidana di bidang Kepabeanan\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n73\n-\nsebagaimana dimaksud pada ayat (1) hanya dilakukan setelah yang\nbersangkutan melunasi Bea Masuk yang tidak atau kurang dibayar,\nditambah dengan sanksi administrasi berupa denda empat kali\njumlah Bea Masuk yang tidak atau kurang dibayar."
+    },
+    {
+      "nomor": "114",
+      "text": "(1)\nSemua pelanggaran yang oleh Undang-undang ini diancam dengan\nsanksi\nadministrasi\nberupa denda yang dihitung berdasarkan\npersentase dari Bea Masuk, jika tarif atau tarif akhir Bea Masuk\natas barang yang berkaitan dengan pelanggaran tersebut nol persen,\nmaka atas pelanggaran tersebut, si pelanggar dikenai sanksi\nadministrasi berupa denda sebesar Rp. 5.000.000,00 (lima juta\nrupiah).\n(2)\nKetentuan...\n(2)\nKetentuan tentang pengenaan sanksi administrasi dan penyesuaian\nbesarnya sanksi administrasi serta penyesuaian besarnya bunga\nmenurut\nUndang-undang\nini\nditetapkan\nlebih\nlanjut\ndengan\nPeraturan Pemerintah."
+    },
+    {
+      "nomor": "115",
+      "text": "Persyaratan dan atas cara :\na.\nbarang yang diimpor dari suatu kawasan yang telah ditunjuk sebagai\ndaerah perdagangan bebas dan/atau pelabuhan bebas;\nb.\nPemberitahuan Pabean di instalasi dan alat-alat yang berada di\nLandas Kontinen Indonesia dan Zona Ekonomi Eksklusif Indonesia,\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n74\n-\ndiatur dengan Peraturan Pemerintah."
+    },
+    {
+      "nomor": "115A",
+      "text": "(1) Barang yang dimasukkan atau dikeluarkan ke dan\ndari serta berada di kawasan yang telah ditunjuk\nsebagai \ndaerah \nperdagangan \nbebas \ndan/atau\npelabuhan bebas dapat diawasi oleh Direktorat\nJenderal Bea dan Cukai.\n(2) Ketentuan sebagaimana dimaksud pada ayat (1)\nditetapkan lebih lanjut dengan atau berdasarkan\nperaturan pemerintah."
+    },
+    {
+      "nomor": "115B",
+      "text": "(1) \n Berdasarkan \npermintaan \nmasyarakat, \nDirektur\nJenderal memberikan informasi yang dikelolanya,\nkecuali informasi yang sifatnya tertentu.\n(2) Ketentuan \n \nmengenai \n \npemberian \n \ninformasi\nsebagaimana dimaksud pada ayat (1) diatur lebih\nlanjut  dengan peraturan menteri."
+    },
+    {
+      "nomor": "115C",
+      "text": "(1)\nSetiap  pegawai    Direktorat Jenderal Bea dan Cukai\ndilarang \nmemberitahukan \nsegala \nsesuatu \nyang\ndiketahuinya atau diberitahukan kepadanya oleh\norang dalam rangka jabatan atau pekerjaannya untuk\nmenjalankan ketentuan Undang-Undang ini kepada\npihak lain yang tidak berhak.\n(2)\nLarangan sebagaimana dimaksud pada ayat (1)\nberlaku juga terhadap tenaga ahli yang ditunjuk oleh\nDirektur Jenderal untuk membantu pelaksanaan\nketentuan Undang-Undang ini.\n(3)\nMenteri secara tertulis berwenang memerintahkan\npegawai Direktorat Jenderal Bea dan Cukai dan tenaga\nahli sebagaimana dimaksud pada ayat (1) dan ayat (2)\nagar memberikan keterangan dan memperlihatkan\nbukti dari orang kepada pejabat pemeriksa untuk\nkeperluan pemeriksaan keuangan negara.\n(4) Untuk  . . .\n\n\n(4)\nUntuk kepentingan pemeriksaan di pengadilan dalam\nperkara pidana, atas permintaan hakim sebagaimana\ndimaksud dalam Pasal 180 Undang-Undang Nomor 8\nTahun 1981 tentang Hukum Acara Pidana, Menteri\ndapat memberi izin tertulis kepada pegawai Direktorat\nJenderal Bea dan Cukai dan tenaga ahli sebagaimana\ndimaksud \npada \nayat \n(1) \ndan \nayat \n(2) \nuntuk\nmemberikan bukti dan keterangan yang ada padanya\nkepada hakim"
+    },
+    {
+      "nomor": "116",
+      "text": "Dengan mulai berlakunya Undang-undang ini :\na.\nsemua urusan Kepabeanan yang belum dapat diselesaikan, untuk\npenyelesaian tetap berlaku ketentuan peraturan perundang-undang\nKepabeanan yang lama sampai dengan tanggal 1 April 1997;\nb.\nsemua barang yang disimpan di dalam Tempat Penimbunan Pabean,\npenyelesaiannya berdasarkan ketentuan Undang-undang ini.\nBAB XVIII…"
+    },
+    {
+      "nomor": "117",
+      "text": "dengan berlakunya Undang-undang ini, dinyatakan tidak berlaku lagi :\n1.\nIndische Tarief Wet Staatsblad Tahun 1873 Nomor 35 sebagaimana\ntelah diubah dan ditambah;\n2.\nRechten\nOrdonnantie\nStaatsblad\nTahun\n1882\nNomor\n240\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n75\n-\nsebagaimana telah diubah dan ditambah;\n3.\nTarief Ordonnantie Staatsblad tahun 1910 Nomor 628 sebagaimana\ntelah diubah dan ditambah."
+    },
+    {
+      "nomor": "118",
+      "text": "Undang-undang ini mulai berlaku pada tanggal 1 April 1996.\nAgar…\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nUndang-undang ini dengan penempatannya dalam Lembaran Negara\nRepublik Indonesia.\nDisahkan di Jakarta\npada tanggal 30 Desember 1995\nPRESIDEN REPUBLIK INDONESIA\nttd.\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 30 Desember 1995\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n76\n-\nMENTERI NEGARA SEKRETARIS NEGARA\nREPUBLIK INDONESIA\nttd.\nMOERDIONO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 75\n\n\nPRESIDEN\nREPUBLIK INDONESIA"
+    },
+    {
+      "nomor": "11A",
+      "text": "(1) Barang yang akan diekspor wajib diberitahukan\ndengan pemberitahuan pabean.\n(2) Pemberitahuan pabean  sebagaimana  dimaksud  pada\nayat (1) tidak diperlukan terhadap barang pribadi\npenumpang, awak sarana pengangkut, pelintas batas,\ndan barang kiriman sampai dengan batas nilai pabean\ndan/atau jumlah tertentu.\n(3) Pemuatan barang ekspor dilakukan di kawasan\npabean atau dalam hal tertentu dapat dimuat di\ntempat lain dengan izin kepala kantor pabean.\n(4) Barang yang telah diberitahukan untuk diekspor,\nsementara menunggu pemuatannya, dapat ditimbun\ndi tempat penimbunan sementara atau tempat lain\ndengan izin kepala kantor pabean.\n(5) Barang yang telah diberitahukan untuk diekspor\nsebagaimana dimaksud pada ayat (1) jika ekspornya\ndibatalkan wajib dilaporkan kepada pejabat bea dan\ncukai.\n(6) Eksportir yang tidak melaporkan pembatalan ekspor\nsebagaimana dimaksud pada ayat (5) dikenai sanksi\nadministrasi berupa denda sebesar Rp5.000.000,00\n(lima juta rupiah).\n(7) Ketentuan sebagaimana dimaksud pada ayat (1), ayat\n(2), ayat (3), dan ayat (4) diatur lebih lanjut dengan\natau berdasarkan peraturan menteri."
+    }
+  ]
+}

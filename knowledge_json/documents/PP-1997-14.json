@@ -1,0 +1,141 @@
+{
+  "document_id": "PP-1997-14",
+  "jenis": "PP",
+  "tahun": 1997,
+  "judul": "Peraturan Pemerintah (PP)  Nomor 14 Tahun 1997 tentang Perubahan Atas Peraturan Pemerintah Nomor 41 Tahun 1994 Tentang Pajak Penghasilan Atas Penghasilan Dari Transaksi Penjualan Saham Di Bursa Efek",
+  "articles": [
+    {
+      "locator": "PP-1997-14#BT/I",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "I",
+      "text": "Mengubah beberapa ketentuan dan menambah ketentuan baru dalam\nPeraturan Pemerintah Nomor 41 Tahun 1994, sebagai berikut:\n1. Ketentuan Pasal 1 ayat (2) diubah seluruhnya, sehingga menjadi\nberbunyi sebagai berikut:\nPasal 1\n(2) Besarnya Pajak Penghasilan sebagaimana dimaksud pada ayat (1)\nadalah 0,1% (satu per seribu) dari jumlah bruto nilai transaksi\npenjualan.\"\n2. Menambah ketentuan baru di antara Pasal 1 dan Pasal 2 yang dijadikan\nPasal 1A, yang berbunyi sebagai berikut:\nPasal 1A\n(1)\nPemilik saham pendiri dikenakan tambahan Pajak Penghasilan\nsebesar 0,5% (setengah persen) dari nilai saham perusahaan pada\nsaat penutupan bursa di akhir tahun 1996.\n(2)\nDalam hal saham perusahaan diperdagangkan di bursa efek\nsetelah 1 januari 1997, maka nilai saham sebagaimana dimaksud\npada ayat (1) ditetapkan sebesar harga saham pada saat\npenawaran umum perdana.\"\n2. Menambah ketentuan baru di antara Pasal 2 dan pasal 3 yang dijadikan\nPasal 2A, yang berbunyi sebagai berikut:\nPasal 2A…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nPasal 2A\nPenyetoran tambahan Pajak Penghasilan atas saham pendiri sebagaimana\ndimaksud dalam Pasal 1A dilakukan oleh pemilik saham pendiri:\na.\nselambat-lambatnya 6 (enam) bulan setelah ditetapkannya Peraturan\nPemerintah ini, apabila saham perusahaan telah diperdagangkan di\nbursa efek sebelum Peraturan Pemerintah ini ditetapkan;\nb.\nselambat-lambatnya\n1\n(satu)\nbulan\nsetelah\nsaham\ntersebut\ndiperdagangkan\ndi\nbursa,\napabila\nsaham\nperusahaan\nbaru\ndiperdagangkan di bursa efek pada saat atau setelah Peraturan\nPemerintah ini ditetapkan.\"\n4.\nMenambah ketentuan baru diantara Pasal 3 dan Pasal 4 yang\ndijadikan Pasal 3A, yang berbunyi sebagai berikut:\nPasal 3A\nWajib\nPajak\nyang\nmemilih\nuntuk\nmemenuhi\nkewajiban\nPajak\nPenghasilannya tidak berdasarkan ketentuan sebagaimana dimaksud\ndalam Pasal 2A, atas penghasilan dari transaksi penjualan saham pendiri\ndikenakan Pajak Penghasilan sesuai dengan tarif umum sebagaimana\ndimaksud dalam Pasal 17 Undang-undang Nomor 7 Tahun 1983 tentang\nPajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994.\"",
+      "role": "SUBSTANTIVE",
+      "text_hash": "c2b7d7eb8a24739d"
+    },
+    {
+      "locator": "PP-1997-14#BT/II",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "II",
+      "text": "Peraturan pemerintah ini mulai berlaku pada tanggal diundangkan.\nAgar...\n\n\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nREPUBLIK INDONESIA\nttd.\nMOERDIONO\nDitetapkan di Jakarta\npada tanggal 29 Mei 1997\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 29 Mei 1997\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "text_hash": "49bd1fc81bef9954"
+    }
+  ],
+  "content_hash": "397dfe6ff68f559f1df42897789803199835156a67fb9a118207e0f5e7ac4557",
+  "source": {
+    "origin": "fetched_bpk_3b",
+    "url": "https://peraturan.bpk.go.id/Details/56237/pp-no-14-tahun-1997",
+    "pages": 8
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false,
+    "ocr_suspect": false
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "1997-05-29",
+  "tanggal_pengundangan": "1997-05-29",
+  "tanggal_berlaku_sumber": "1997-05-29",
+  "sumber_publikasi": "LN. 1997/No.45, LL Setkab : 4 HLM",
+  "subjek_sumber": "PASAR MODAL DAN PERDAGANGAN BERJANGKA KOMODITI",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/56237/pp-no-14-tahun-1997"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/45728/PP%20No.%2014%20Th%201997.pdf",
+      "type": "pdf"
+    }
+  ],
+  "structure": "AMENDING_ROMAN",
+  "preamble": "PRESIDEN\nREPUBLIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 14 TAHUN 1997\nTENTANG\nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 41 TAHUN 1994\nTENTANG PAJAK PENGHASILAN ATAS PENGHASILAN DARI TRANSAKSI\nPENJUALAN SAHAM DI BURSA EFEK\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang :\na. bahwa dengan semakin meningkatnya kegiatan perdagangan saham di\nbursa efek serta akan dilaksanakannya perdagangan saham tanpa\nwarkat, pengenaan Pajak Penghasilan atas saham yang diperdagangkan\ndi bursa efek, khususnya atas saham pendiri, perlu lebih ditingkatkan\nagar dapat berlangsung secara lebih efektif;\nb. bahwa sehubungan dengan hal tersebut di atas, dipandang perlu untuk\nmenyempurnakan Peraturan Pemerintah tentang pengenaan Pajak\nPenghasilan atas penghasilan dari transaksi penjualan saham pendiri di\nbursa efek dengan Peraturan Pemerintah;\nMengingat\n:\n1.",
+  "penjelasan": "PENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 14 TAHUN 1997\nTENTANG\nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 41 TAHUN 1994\nTENTANG PAJAK PENGHASILAN ATAS PENGHASILAN DARI\nTRANSAKSI PENJUALAN SAHAM DI BURSA EFEK\nI.\nUMUM\nPerkembangan perdagangan saham di bursa efek dari tahun ke tahun terus\nmeningkat. Untuk mengantisipasi perkembangan tersebut penyelenggara bursa\nefek merencanakan meningkatkan efisiensi dalam pelaksanaan perdagangan saham\ndengan cara perdagangan tanpa warkat (scriptless trading). Apabila perdagangan\ntanpa\nwarkat\ntersebut\ndilaksanakan,\npenyelenggara\nbursa\nefek\nakan\nsulit\nmembedakan perdagangan saham biasa dan saham pendiri. Hal ini berakibat\nketentuan pajak penghasilan atas penghasilan dari transaksi penjualan saham di\nbursa yangtarifnya berbeda untuk saham biasa dan saham pendiri akan menjadi\nsemakin sulit untuk diawasi. Sehingga dipandang perlu untuk menyempurnakan\nPeraturan Pemerintah Nomor 41 Tahun 1994 dengan Peraturan Pemerintah.\nPokok-pokok perubahan atau penyermpurnaan tersebut adalah:\na.\nSetiap transaksi penjualan saham di bursa efek akan dikenakan Pajak\nPenghasilan sebesar 0,1% (satu per seribu) baik untuk saham biasa maupun\nsaham pendiri.\nb.\nTambahan Pajak Penghasilan untuk transaksi penjualan saham pendiri yang\nsebelumnya dikenakan sebesar 5 % (lima persen) pada saat penjualan saham\ndilakukan, diubah menjadi dikenakan sebesar 0,5 % (setengah persen) dari\nnilai jual saham.\nc.\nBagi perusahaan yang telah menjual sahamnya di bursa sebelum 1 Januari\n1997, nilai jual saham pendiri ditetapkan sebesar nilai saham pada saat\nperdagangan saham di bursa ditutup pada akhir tahun 1996 (tanggal 30\nDesember 1996). Sedangkan bagi perusahaan yang menjual sahamnya di\nbursa setelah 1 Januari 1997, nilai jual saham pendiri ditetapkan sebesar nilai\njual saham perusahaan pada saat penawaran umum perdana.\nd.\nPemilik saham pendiri diberikan kemudahan untuk memenuhi kewajiban\npajaknya berdasarkan perhitungan sendiri sesuai dengan ketentuan di atas.\nDalam…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n2\n-\nDalam hal ini, pemilik saham pendiri untuk kepentingan perpajakan dapat\nmenghitung final atas dasar anggapannya sendiri bahwa sudah ada penghasilan.\nNamun apabila pemilik saham pendiri tidak memanfaatkan kemudahan tersebut,\nmaka penghitungan Pajak Penghasilannya dilakukan berdasarkan tarif Pajak\nPenghasilan yang berlaku umum sesuai dengan Pasal 17 Undang-undang Nomor 7\nTahun 1983 tentang Pajak Penghasilan sebagaimana telah diubah terakhir dengan\nUndang-undang Nomor 10 Tahun 1994.\nII.\nPASAL DEMI PASAL\nPasal I\nAngka 1\nPasal 1\nAyat (2)\nCukup jelas\nAngka 2\nPasal 1A\nAyat (1) dan Ayat (2)\nYang dimaksud dengan \"pendiri\" adalah orang pribadi\natau badan yang namanya tercatat dalam Daftar\nPemegang Saham Perseroan Terbatas atau tercantum\ndalam Anggaran Dasar Perseroan Terbatas sebelum\nPernyataan Pendaftaran yang diajukan kepada Badan\nPengawas Pasar Modal (Bapepam) dalam rangka\npenawaran umum perdana (\"initial public offering\")\nmenjadi efektif.\nTermasuk dalam pengertian \"pendiri\" adalah orang\npribadi atau badan yang menerima pengalihan saham\ndari pendiri karena:\na.\nwarisan;\nb.\nhibah yang memenuhi syarat Pasal 4 ayat (3)\nhuruf a angka 2 Undang-undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana\ntelah diubah terakhir dengan Undang-undang\nNomor 10 Tahun 1994;\nc.\ncara\nlain\nyang\ntidak\ndikenakan\nPajak\nPenghasilan pada saat pengalihan tersebut.\nYang…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nYang dimaksud dengan \"saham pendiri\" adalah saham\nyang dimiliki oleh mereka yang termasuk kategori\n\"pendiri\" sebagaimana dimaksud di atas.\nTermasuk dalam pengertian \"saham pendiri\" adalah :\na.\nsaham yang diperoleh pendiri yang berasal dari\nkapitalisasi\nagio\nyang\ndikeluarkan\nsetelah\npenawaran\numum\nperdana\n(\"initial\npublic\noffering\");\nb.\nsaham\nyang\nberasal\ndari\npemecahan\nsaham\npendiri.\nTidak termasuk dalam pengertian \"saham pendiri\"\nadalah:\na.\nsaham yang diperoleh pendiri yang berasal dari\npembagian dividen dalam bentuk saham;\nb.\nsaham yang diperoleh pendiri setelah penawaran\numum perdana (\"initial public offering\") yang\nberasal dari pelaksanaan hak pemesanan efek\nterlebih dahulu (right issue), waran, obligasi\nkonversi dan efek konversi lainnya;\nc.\nsaham yang diperoleh pendiri perusahaan Reksa\ndana.\nBerdasarkan Peraturan Pemerintah ini, atas saham\npendiri yang dimiliki pemilik saham pendiri dan\nbelum\ndialihkan\nsampai\ndengan\nditetapkannya\nPeraturan Pemerintah ini dikenakan tambahan Pajak\nPenghasilan sebesar 0,5% (setengah persen) dari nilai\nsaham. Yang dimaksud dengan nilai saham adalah\nnilai saham pada saat penutupan bursa di akhir tahun\n1996 atau tanggal 30 Desember 1996.\nDalam hal pada saat penutupan bursa per 30 Desember\n1996,\nsaham\nperusahaan\ntersebut\nbelum\ndiperdagangkan di bursa efek maka nilai saham\nsebagai\ndasar\npengenaan\nPajak\nPenghasilan\nsebagaimana dimaksud pada ayat (1) adalah harga\nsaham pada saat penawaran umum perdana.\nAngka 3…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n4\n-\nAngka 3\nPasal 2A\nKepada pemilik saham pendiri diberikan kemudahan untuk memilih\ntarif\ndan\ntata\ncara\npenyetoran\ntambahan\nPajak\nPenghasilan\nsebagaimana dimaksud dalam Pasal 1 A berdasarkan perhitungannya\nsendiri sebagai berikut:\na.\nBagi pemilik saham pendiri dari perusahaan yang sahamnya\ntelah\ndiperdagangkan\ndi\nbursa\nefek\nsebelum\nPeraturan\nPemerintah ini ditetapkan, Pajak Penghasilan harus sudah\ndisetor dalam jangka waktu selambat-lambatnya dari 6 (enam)\nbulan setelah ditetapkannya Peraturan Pemerintah ini.\nb.\nDalam hal saham perusahaan tersebut belum diperdagangkan di\nbursa efek pada saat Peraturan Pemerintah ini ditetapkan,\npemilik saham pendiri tersebut harus menyetor tambahan Pajak\nPenghasilan selambat-lambatnya 1 (satu) bulan setelah saham\nperusahaan tersebut pertama kali diperdagangkan di bursa efek.\nc.\nDalam hal pemilik saham pendiri memilih untuk tidak\nmenggunakan kemudahan dalam penyetoran kewajiban Pajak\nPenghasilannya sebagaimana dimaksud dalam huruf a atau\nhuruf b, maka terhadapnya dikenakan Pajak Penghasilan sesuai\ndengan\ntarif\numum\nsebagaimana\ndimaksud\ndalam\nUndang-undang\nNomor\n7\nTahun\n1983\ntentang\nPajak\nPenghasilan\nsebagiamana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994.\nAngka 4\nPasal 3A\nCukup jelas\nPasal II\nCukup jelas\n",
+  "penjelasan_articles": [
+    {
+      "pasal": "1",
+      "text": "Ayat (2)\nCukup jelas\nAngka 2",
+      "locator": "PP-1997-14#PJ/1"
+    },
+    {
+      "pasal": "1A",
+      "text": "Ayat (1) dan Ayat (2)\nYang dimaksud dengan \"pendiri\" adalah orang pribadi\natau badan yang namanya tercatat dalam Daftar\nPemegang Saham Perseroan Terbatas atau tercantum\ndalam Anggaran Dasar Perseroan Terbatas sebelum\nPernyataan Pendaftaran yang diajukan kepada Badan\nPengawas Pasar Modal (Bapepam) dalam rangka\npenawaran umum perdana (\"initial public offering\")\nmenjadi efektif.\nTermasuk dalam pengertian \"pendiri\" adalah orang\npribadi atau badan yang menerima pengalihan saham\ndari pendiri karena:\na.\nwarisan;\nb.\nhibah yang memenuhi syarat Pasal 4 ayat (3)\nhuruf a angka 2 Undang-undang Nomor 7 Tahun\n1983 tentang Pajak Penghasilan sebagaimana\ntelah diubah terakhir dengan Undang-undang\nNomor 10 Tahun 1994;\nc.\ncara\nlain\nyang\ntidak\ndikenakan\nPajak\nPenghasilan pada saat pengalihan tersebut.\nYang…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nYang dimaksud dengan \"saham pendiri\" adalah saham\nyang dimiliki oleh mereka yang termasuk kategori\n\"pendiri\" sebagaimana dimaksud di atas.\nTermasuk dalam pengertian \"saham pendiri\" adalah :\na.\nsaham yang diperoleh pendiri yang berasal dari\nkapitalisasi\nagio\nyang\ndikeluarkan\nsetelah\npenawaran\numum\nperdana\n(\"initial\npublic\noffering\");\nb.\nsaham\nyang\nberasal\ndari\npemecahan\nsaham\npendiri.\nTidak termasuk dalam pengertian \"saham pendiri\"\nadalah:\na.\nsaham yang diperoleh pendiri yang berasal dari\npembagian dividen dalam bentuk saham;\nb.\nsaham yang diperoleh pendiri setelah penawaran\numum perdana (\"initial public offering\") yang\nberasal dari pelaksanaan hak pemesanan efek\nterlebih dahulu (right issue), waran, obligasi\nkonversi dan efek konversi lainnya;\nc.\nsaham yang diperoleh pendiri perusahaan Reksa\ndana.\nBerdasarkan Peraturan Pemerintah ini, atas saham\npendiri yang dimiliki pemilik saham pendiri dan\nbelum\ndialihkan\nsampai\ndengan\nditetapkannya\nPeraturan Pemerintah ini dikenakan tambahan Pajak\nPenghasilan sebesar 0,5% (setengah persen) dari nilai\nsaham. Yang dimaksud dengan nilai saham adalah\nnilai saham pada saat penutupan bursa di akhir tahun\n1996 atau tanggal 30 Desember 1996.\nDalam hal pada saat penutupan bursa per 30 Desember\n1996,\nsaham\nperusahaan\ntersebut\nbelum\ndiperdagangkan di bursa efek maka nilai saham\nsebagai\ndasar\npengenaan\nPajak\nPenghasilan\nsebagaimana dimaksud pada ayat (1) adalah harga\nsaham pada saat penawaran umum perdana.\nAngka 3…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n4\n-\nAngka 3",
+      "locator": "PP-1997-14#PJ/1A"
+    },
+    {
+      "pasal": "2A",
+      "text": "Kepada pemilik saham pendiri diberikan kemudahan untuk memilih\ntarif\ndan\ntata\ncara\npenyetoran\ntambahan\nPajak\nPenghasilan\nsebagaimana dimaksud dalam Pasal 1 A berdasarkan perhitungannya\nsendiri sebagai berikut:\na.\nBagi pemilik saham pendiri dari perusahaan yang sahamnya\ntelah\ndiperdagangkan\ndi\nbursa\nefek\nsebelum\nPeraturan\nPemerintah ini ditetapkan, Pajak Penghasilan harus sudah\ndisetor dalam jangka waktu selambat-lambatnya dari 6 (enam)\nbulan setelah ditetapkannya Peraturan Pemerintah ini.\nb.\nDalam hal saham perusahaan tersebut belum diperdagangkan di\nbursa efek pada saat Peraturan Pemerintah ini ditetapkan,\npemilik saham pendiri tersebut harus menyetor tambahan Pajak\nPenghasilan selambat-lambatnya 1 (satu) bulan setelah saham\nperusahaan tersebut pertama kali diperdagangkan di bursa efek.\nc.\nDalam hal pemilik saham pendiri memilih untuk tidak\nmenggunakan kemudahan dalam penyetoran kewajiban Pajak\nPenghasilannya sebagaimana dimaksud dalam huruf a atau\nhuruf b, maka terhadapnya dikenakan Pajak Penghasilan sesuai\ndengan\ntarif\numum\nsebagaimana\ndimaksud\ndalam\nUndang-undang\nNomor\n7\nTahun\n1983\ntentang\nPajak\nPenghasilan\nsebagiamana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994.\nAngka 4",
+      "locator": "PP-1997-14#PJ/2A"
+    },
+    {
+      "pasal": "3A",
+      "text": "Cukup jelas\nPasal II\nCukup jelas",
+      "locator": "PP-1997-14#PJ/3A"
+    }
+  ],
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "I",
+      "locator": "PP-1997-14#BT/I",
+      "parent": null,
+      "heading": "",
+      "text": "Mengubah beberapa ketentuan dan menambah ketentuan baru dalam\nPeraturan Pemerintah Nomor 41 Tahun 1994, sebagai berikut:\n1. Ketentuan Pasal 1 ayat (2) diubah seluruhnya, sehingga menjadi\nberbunyi sebagai berikut:\nPasal 1\n(2) Besarnya Pajak Penghasilan sebagaimana dimaksud pada ayat (1)\nadalah 0,1% (satu per seribu) dari jumlah bruto nilai transaksi\npenjualan.\"\n2. Menambah ketentuan baru di antara Pasal 1 dan Pasal 2 yang dijadikan\nPasal 1A, yang berbunyi sebagai berikut:\nPasal 1A\n(1)\nPemilik saham pendiri dikenakan tambahan Pajak Penghasilan\nsebesar 0,5% (setengah persen) dari nilai saham perusahaan pada\nsaat penutupan bursa di akhir tahun 1996.\n(2)\nDalam hal saham perusahaan diperdagangkan di bursa efek\nsetelah 1 januari 1997, maka nilai saham sebagaimana dimaksud\npada ayat (1) ditetapkan sebesar harga saham pada saat\npenawaran umum perdana.\"\n2. Menambah ketentuan baru di antara Pasal 2 dan pasal 3 yang dijadikan\nPasal 2A, yang berbunyi sebagai berikut:\nPasal 2A…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nPasal 2A\nPenyetoran tambahan Pajak Penghasilan atas saham pendiri sebagaimana\ndimaksud dalam Pasal 1A dilakukan oleh pemilik saham pendiri:\na.\nselambat-lambatnya 6 (enam) bulan setelah ditetapkannya Peraturan\nPemerintah ini, apabila saham perusahaan telah diperdagangkan di\nbursa efek sebelum Peraturan Pemerintah ini ditetapkan;\nb.\nselambat-lambatnya\n1\n(satu)\nbulan\nsetelah\nsaham\ntersebut\ndiperdagangkan\ndi\nbursa,\napabila\nsaham\nperusahaan\nbaru\ndiperdagangkan di bursa efek pada saat atau setelah Peraturan\nPemerintah ini ditetapkan.\"\n4.\nMenambah ketentuan baru diantara Pasal 3 dan Pasal 4 yang\ndijadikan Pasal 3A, yang berbunyi sebagai berikut:\nPasal 3A\nWajib\nPajak\nyang\nmemilih\nuntuk\nmemenuhi\nkewajiban\nPajak\nPenghasilannya tidak berdasarkan ketentuan sebagaimana dimaksud\ndalam Pasal 2A, atas penghasilan dari transaksi penjualan saham pendiri\ndikenakan Pajak Penghasilan sesuai dengan tarif umum sebagaimana\ndimaksud dalam Pasal 17 Undang-undang Nomor 7 Tahun 1983 tentang\nPajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994.\"",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 0
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "1",
+      "locator": "PP-1997-14#BT/I/1",
+      "parent": "PP-1997-14#BT/I",
+      "heading": "",
+      "text": "Ketentuan Pasal 1 ayat (2) diubah seluruhnya, sehingga menjadi\nberbunyi sebagai berikut:\nPasal 1\n(2) Besarnya Pajak Penghasilan sebagaimana dimaksud pada ayat (1)\nadalah 0,1% (satu per seribu) dari jumlah bruto nilai transaksi\npenjualan.\"",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 1
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "2",
+      "locator": "PP-1997-14#BT/I/2",
+      "parent": "PP-1997-14#BT/I",
+      "heading": "",
+      "text": "Menambah ketentuan baru di antara Pasal 1 dan Pasal 2 yang dijadikan\nPasal 1A, yang berbunyi sebagai berikut:\nPasal 1A\n(1)\nPemilik saham pendiri dikenakan tambahan Pajak Penghasilan\nsebesar 0,5% (setengah persen) dari nilai saham perusahaan pada\nsaat penutupan bursa di akhir tahun 1996.\n(2)\nDalam hal saham perusahaan diperdagangkan di bursa efek\nsetelah 1 januari 1997, maka nilai saham sebagaimana dimaksud\npada ayat (1) ditetapkan sebesar harga saham pada saat\npenawaran umum perdana.\"",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 2
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "2",
+      "locator": "PP-1997-14#BT/I/2",
+      "parent": "PP-1997-14#BT/I",
+      "heading": "",
+      "text": "Menambah ketentuan baru di antara Pasal 2 dan pasal 3 yang dijadikan\nPasal 2A, yang berbunyi sebagai berikut:\nPasal 2A…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nPasal 2A\nPenyetoran tambahan Pajak Penghasilan atas saham pendiri sebagaimana\ndimaksud dalam Pasal 1A dilakukan oleh pemilik saham pendiri:\na.\nselambat-lambatnya 6 (enam) bulan setelah ditetapkannya Peraturan\nPemerintah ini, apabila saham perusahaan telah diperdagangkan di\nbursa efek sebelum Peraturan Pemerintah ini ditetapkan;\nb.\nselambat-lambatnya\n1\n(satu)\nbulan\nsetelah\nsaham\ntersebut\ndiperdagangkan\ndi\nbursa,\napabila\nsaham\nperusahaan\nbaru\ndiperdagangkan di bursa efek pada saat atau setelah Peraturan\nPemerintah ini ditetapkan.\"",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 3
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "4",
+      "locator": "PP-1997-14#BT/I/4",
+      "parent": "PP-1997-14#BT/I",
+      "heading": "",
+      "text": "Menambah ketentuan baru diantara Pasal 3 dan Pasal 4 yang\ndijadikan Pasal 3A, yang berbunyi sebagai berikut:\nPasal 3A\nWajib\nPajak\nyang\nmemilih\nuntuk\nmemenuhi\nkewajiban\nPajak\nPenghasilannya tidak berdasarkan ketentuan sebagaimana dimaksud\ndalam Pasal 2A, atas penghasilan dari transaksi penjualan saham pendiri\ndikenakan Pajak Penghasilan sesuai dengan tarif umum sebagaimana\ndimaksud dalam Pasal 17 Undang-undang Nomor 7 Tahun 1983 tentang\nPajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994.\"",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 4
+    },
+    {
+      "level": "PASAL",
+      "nomor": "II",
+      "locator": "PP-1997-14#BT/II",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan pemerintah ini mulai berlaku pada tanggal diundangkan.\nAgar...\n\n\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nREPUBLIK INDONESIA\nttd.\nMOERDIONO\nDitetapkan di Jakarta\npada tanggal 29 Mei 1997\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 29 Mei 1997\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "EFFECTIVITY",
+      "ord": 5
+    }
+  ]
+}

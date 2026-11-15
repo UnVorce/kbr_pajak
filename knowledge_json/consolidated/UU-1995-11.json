@@ -1,0 +1,719 @@
+{
+  "target_document_id": "UU-1995-11",
+  "chain": [
+    "UU-2007-39",
+    "UU-2021-7"
+  ],
+  "provision_sources": {
+    "UU-2007-39": "provisions",
+    "UU-2021-7": "text_top_level"
+  },
+  "applied_count": 47,
+  "unparsed_count": 8,
+  "applied": [
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 diubah sehingga Pasal 1 berbunyi sebagai \nberikut:  \n  \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 2 -\nPasal 1\nDalam undang-undang ini yang dimaksud dengan: \n1. Cukai adalah pungutan ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "2",
+      "source_quote": "Ketentuan Pasal 2 ayat (1) diubah sehingga Pasal 2 berbunyi \nsebagai berikut: \nPasal 2\n(1) Barang-barang \ntertentu \nyang \nmempunyai \nsifat \natau \nkarakteristik: \na. konsumsinya perlu dikendalikan;  \nb",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 3,
+      "action": "SISIP",
+      "target": "3A",
+      "source_quote": "Di antara Pasal 3 dan Pasal 4 disisipkan 2 (dua) pasal, yakni Pasal \n3A dan Pasal 3B sehingga berbunyi sebagai berikut: \nPasal 3A\n(1) Dokumen \ncukai \ndan/atau \ndokumen \npelengkap \ncukai \nsebagaimana d",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 3,
+      "action": "SISIP",
+      "target": "3B",
+      "source_quote": "Di antara Pasal 3 dan Pasal 4 disisipkan 2 (dua) pasal, yakni Pasal \n3A dan Pasal 3B sehingga berbunyi sebagai berikut: \nPasal 3A\n(1) Dokumen \ncukai \ndan/atau \ndokumen \npelengkap \ncukai \nsebagaimana d",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 5,
+      "action": "UBAH",
+      "target": "5",
+      "source_quote": "Ketentuan Pasal 5 ayat (1), ayat (2), dan ayat (4) diubah dan \nditambah 1 (satu) ayat, yakni ayat (5) sehingga Pasal 5 berbunyi \nsebagai berikut: \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 4 -\nPas",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 6,
+      "action": "UBAH",
+      "target": "6",
+      "source_quote": "Ketentuan Pasal 6 ayat (3) diubah sehingga Pasal 6 berbunyi \nsebagai berikut: \nPasal 6\n(1) Harga dasar yang digunakan untuk perhitungan cukai atas \nbarang kena cukai yang dibuat di Indonesia adalah ha",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 9,
+      "action": "UBAH",
+      "target": "7",
+      "source_quote": "Ketentuan Pasal 7 ayat (3), ayat (4), ayat (5), dan ayat (8) diubah, \ndi antara ayat (3) dan ayat (4) disisipkan 2 (dua) ayat, yakni ayat \n(3a) dan ayat (3b), serta ayat (6) dan ayat (7) dihapus sehin",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 11,
+      "action": "UBAH",
+      "target": "8",
+      "source_quote": "Ketentuan Pasal 8 ayat (3) dan ayat (4) diubah, dan di antara ayat \n(2) dan ayat (3) disisipkan 1 (satu) ayat, yakni ayat (2a) sehingga \nPasal 8 berbunyi sebagai berikut: \nPasal 8\n(1) Cukai tidak dipu",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 12,
+      "action": "UBAH",
+      "target": "9",
+      "source_quote": "Ketentuan Pasal 9 ayat (3) dan ayat (4) diubah, dan di antara ayat \n(1) dan ayat (2) disisipkan 1 (satu) ayat, yakni ayat (1a) sehingga \nPasal 9 berbunyi sebagai berikut: \n \n \n \n\n\n \n \nPRESIDEN \nREPUBL",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 13,
+      "action": "UBAH",
+      "target": "10",
+      "source_quote": "Ketentuan Pasal 10 ayat (1), ayat (2), dan ayat (3) diubah, dan di \nantara ayat (2) dan ayat (3) disisipkan 3 (tiga) ayat, yakni ayat \n(2a), ayat (2b), dan ayat (2c) sehingga Pasal 10 berbunyi sebagai",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 14,
+      "action": "UBAH",
+      "target": "12",
+      "source_quote": "Ketentuan Pasal 12 diubah sehingga Pasal 12 berbunyi sebagai \nberikut: \nPasal 12\n(1) Pengembalian cukai yang telah dibayar diberikan dalam hal: \na. terdapat \nkelebihan \npembayaran \nkarena \nkesalahan \n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 15,
+      "action": "UBAH",
+      "target": "14",
+      "source_quote": "Ketentuan Pasal 14 ayat (1), ayat (2), ayat (4), ayat (5), ayat (6), \nayat (7), dan ayat (8) diubah; di antara ayat (1) dan ayat (2) \ndisisipkan 3 (tiga) ayat, yakni ayat (1a), ayat (1b), dan ayat (1c",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 18,
+      "action": "UBAH",
+      "target": "16",
+      "source_quote": "Ketentuan Pasal 16 diubah sehingga Pasal 16 berbunyi sebagai \nberikut: \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 12 -\nPasal 16\n(1) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 19,
+      "action": "SISIP",
+      "target": "16A",
+      "source_quote": "Di antara Pasal 16 dan Pasal 17 disisipkan 2 (dua) pasal, yakni Pasal \n16A dan Pasal 16B sehingga berbunyi sebagai berikut: \nPasal 16A\n(1) Pembukuan \nwajib \ndiselenggarakan \ndengan \nbaik \nyang \nmencer",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 19,
+      "action": "SISIP",
+      "target": "16B",
+      "source_quote": "Di antara Pasal 16 dan Pasal 17 disisipkan 2 (dua) pasal, yakni Pasal \n16A dan Pasal 16B sehingga berbunyi sebagai berikut: \nPasal 16A\n(1) Pembukuan \nwajib \ndiselenggarakan \ndengan \nbaik \nyang \nmencer",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 20,
+      "action": "UBAH",
+      "target": "17",
+      "source_quote": "Ketentuan Pasal 17 ayat (2) diubah sehingga Pasal 17 berbunyi \nsebagai berikut: \nPasal 17\n(1) Pejabat bea dan cukai wajib menyelenggarakan buku rekening \nbarang kena cukai untuk setiap pengusaha pabri",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 21,
+      "action": "UBAH",
+      "target": "18",
+      "source_quote": "Ketentuan Pasal 18 ayat (1) diubah sehingga Pasal 18 berbunyi \nsebagai berikut: \nPasal 18\n(1) Buku rekening barang kena cukai ditutup pada setiap akhir \ntahun kalender. \n(2) Buku rekening barang kena ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 22,
+      "action": "UBAH",
+      "target": "19",
+      "source_quote": "Ketentuan Pasal 19 ayat (1) dan ayat (2) diubah, dan di antara ayat \n(1) dan ayat (2) disisipkan 1 (satu) ayat, yakni ayat (1a) sehingga \nPasal 19 berbunyi sebagai berikut: \nPasal 19\n(1) \nPejabat bea ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 24,
+      "action": "UBAH",
+      "target": "25",
+      "source_quote": "Ketentuan Pasal 25 ayat (4) dan ayat (5) diubah, dan di antara ayat \n(4) dan ayat (5) disisipkan 1 (satu) ayat, yakni ayat (4a) sehingga \nPasal 25 berbunyi sebagai berikut: \nPasal 25\n(1) Pemasukan ata",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 25,
+      "action": "UBAH",
+      "target": "26",
+      "source_quote": "Ketentuan Pasal 26 ayat (3) dan ayat (4) diubah sehingga Pasal 26 \nberbunyi sebagai berikut: \nPasal 26\n(1) Dalam keadaan darurat, barang kena cukai yang belum dilunasi \ncukainya dapat dipindahkan ke l",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 26,
+      "action": "UBAH",
+      "target": "27",
+      "source_quote": "Ketentuan Pasal 27 ayat (3), ayat (4), dan ayat (5) diubah sehingga \nPasal 27 berbunyi sebagai berikut: \n \nPasal 27\n(1) Pengangkutan barang kena cukai yang belum dilunasi cukainya \nharus dilindungi de",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 27,
+      "action": "UBAH",
+      "target": "29",
+      "source_quote": "Ketentuan Pasal 29 ayat (1), ayat (2), dan ayat (3) diubah, dan di \nantara ayat (2) dan ayat (3) disisipkan 1 (satu) ayat, yakni ayat (2a) \nsehingga Pasal 29 berbunyi sebagai berikut: \n \nPasal 29\n(1) ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 28,
+      "action": "UBAH",
+      "target": "31",
+      "source_quote": "Ketentuan Pasal 31 ayat (3) diubah sehingga Pasal 31 berbunyi \nsebagai berikut: \n \nPasal 31\n(1) \nDi dalam tempat penyimpanan dilarang: \na. menyimpan barang kena cukai yang telah dilunasi \ncukainya ata",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 29,
+      "action": "UBAH",
+      "target": "32",
+      "source_quote": "Ketentuan Pasal 32 diubah sehingga Pasal 32 berbunyi sebagai \nberikut: \n \nPasal 32\n(1) Di dalam pabrik, tempat usaha importir barang kena cukai, \ntempat usaha penyalur, dan tempat penjualan eceran, ya",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 31,
+      "action": "UBAH",
+      "target": "34",
+      "source_quote": "Ketentuan Pasal 34 diubah sehingga Pasal 34 berbunyi sebagai \nberikut : \n \nPasal 34\n(1) Dalam melaksanakan tugas berdasarkan undang-undang ini \npejabat bea dan cukai dapat meminta bantuan Kepolisian \n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 33,
+      "action": "UBAH",
+      "target": "35",
+      "source_quote": "Ketentuan Pasal 35 diubah sehingga Pasal 35 berbunyi sebagai \nberikut: \n \nPasal 35\n(1) Pejabat bea dan cukai berwenang melakukan pemeriksaan \nterhadap: \na. pabrik, tempat penyimpanan, atau tempat lain",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 34,
+      "action": "UBAH",
+      "target": "36",
+      "source_quote": "Ketentuan Pasal 36 ayat (1) dan ayat (2) diubah, dan di antara ayat \n(1) dan ayat (2) disisipkan 1 (satu) ayat, yakni ayat (1a) sehingga \nPasal 36 berbunyi sebagai berikut: \n \nPasal 36\n(1) Pengusaha p",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 35,
+      "action": "UBAH",
+      "target": "37",
+      "source_quote": "Ketentuan Pasal 37 ayat (1) dan ayat (4) diubah sehingga Pasal 37 \nberbunyi sebagai berikut: \n \nPasal 37\n(1) Pejabat bea dan cukai berwenang untuk menghentikan dan \nmemeriksa sarana pengangkut serta b",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 36,
+      "action": "UBAH",
+      "target": "39",
+      "source_quote": "Ketentuan Pasal 39 ayat (1) dan ayat (2) diubah, dan di antara ayat \n(1) dan ayat (2) disisipkan 3 (tiga) ayat, yakni ayat (1a), ayat (1b), \ndan ayat (1c), serta ditambah 1 (satu) ayat, yakni ayat (3)",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 37,
+      "action": "UBAH",
+      "target": "40",
+      "source_quote": "Ketentuan Pasal 40 diubah sehingga Pasal 40 berbunyi sebagai \nberikut: \nPasal 40\nPejabat bea dan cukai berwenang untuk mengunci, menyegel, \ndan/atau melekatkan tanda pengaman yang diperlukan terhadap ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 42,
+      "action": "HAPUS",
+      "target": "42",
+      "source_quote": "Pasal 42 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 43,
+      "action": "HAPUS",
+      "target": "43",
+      "source_quote": "Pasal 43 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 45,
+      "action": "HAPUS",
+      "target": "44",
+      "source_quote": "Pasal 44 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 47,
+      "action": "UBAH",
+      "target": "50",
+      "source_quote": "Ketentuan Pasal 50 diubah sehingga Pasal 50 berbunyi sebagai \nberikut: \nPasal 50\nSetiap orang yang tanpa memiliki izin sebagaimana dimaksud dalam \nPasal 14 menjalankan kegiatan pabrik, tempat penyimpa",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 50,
+      "action": "UBAH",
+      "target": "53",
+      "source_quote": "Ketentuan Pasal 53 diubah sehingga Pasal 53 berbunyi sebagai \nberikut: \nPasal 53\nSetiap \norang \nyang \ndengan \nsengaja \nmemperlihatkan \natau \nmenyerahkan buku, catatan, dan/atau dokumen, sebagaimana \nd",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 53,
+      "action": "UBAH",
+      "target": "56",
+      "source_quote": "Ketentuan Pasal 56 diubah sehingga Pasal 56 berbunyi sebagai \nberikut: \n \nPasal 56\nSetiap orang yang menimbun, menyimpan, memiliki, menjual, \nmenukar, memperoleh, atau memberikan barang kena cukai yan",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 56,
+      "action": "SISIP",
+      "target": "58A",
+      "source_quote": "Di antara Pasal 58 dan Pasal 59 disisipkan 1 (satu) pasal, yakni Pasal \n58A sehingga berbunyi sebagai berikut: \n \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 25 -\nPasal 58A\n(1) Setiap orang yang sec",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 57,
+      "action": "UBAH",
+      "target": "62",
+      "source_quote": "Ketentuan Pasal 62 ayat (3) diubah sehingga Pasal 62 berbunyi \nsebagai berikut: \n \nPasal 62\n(1) Barang kena cukai yang tersangkut tindak pidana berdasarkan \nketentuan undang-undang ini dirampas negara",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 59,
+      "action": "UBAH",
+      "target": "65",
+      "source_quote": "Ketentuan Pasal 65 diubah sehingga Pasal 65 berbunyi sebagai \nberikut: \n \nPasal 65\nPengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, penyalur, pengusaha tempat penjualan ece",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 60,
+      "action": "UBAH",
+      "target": "66",
+      "source_quote": "Ketentuan Pasal 66 ayat (3) diubah sehingga Pasal 66 berbunyi \nsebagai berikut: \n \n \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 27 -\nPasal 66\n(1) Barang kena cukai dan barang lain yang berasal dari",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 61,
+      "action": "SISIP",
+      "target": "66A",
+      "source_quote": "Di antara Pasal 66 dan Pasal 67 disisipkan 4 (empat) pasal, yakni \nPasal 66A, Pasal 66B, Pasal 66C, dan Pasal 66D sehingga berbunyi \nsebagai berikut: \n \nPasal 66A\n(1) Penerimaan negara dari cukai hasi",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 61,
+      "action": "SISIP",
+      "target": "66B",
+      "source_quote": "Di antara Pasal 66 dan Pasal 67 disisipkan 4 (empat) pasal, yakni \nPasal 66A, Pasal 66B, Pasal 66C, dan Pasal 66D sehingga berbunyi \nsebagai berikut: \n \nPasal 66A\n(1) Penerimaan negara dari cukai hasi",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 61,
+      "action": "SISIP",
+      "target": "66C",
+      "source_quote": "Di antara Pasal 66 dan Pasal 67 disisipkan 4 (empat) pasal, yakni \nPasal 66A, Pasal 66B, Pasal 66C, dan Pasal 66D sehingga berbunyi \nsebagai berikut: \n \nPasal 66A\n(1) Penerimaan negara dari cukai hasi",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 61,
+      "action": "SISIP",
+      "target": "66D",
+      "source_quote": "Di antara Pasal 66 dan Pasal 67 disisipkan 4 (empat) pasal, yakni \nPasal 66A, Pasal 66B, Pasal 66C, dan Pasal 66D sehingga berbunyi \nsebagai berikut: \n \nPasal 66A\n(1) Penerimaan negara dari cukai hasi",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "4",
+      "source_quote": "Ketentuan Pasal 4 diubah sehingga berbunyi sebagai\nberikut:\nPasal 4\n(1) Cukai dikenakan terhadap Barang Kena Cukai yang\nterdiri atas:\na. etil alkohol atau etanol, dengan tidak\nmengindahkan bahan yang ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 2,
+      "action": "SISIP",
+      "target": "40B",
+      "source_quote": "Di antara Pasal 40A dan Pasal 41 disisipkan 1 (satu) pasal,\nyakni Pasal 40B sehingga berbunyi sebagai berikut:\nPasal 408\n(1) Pejabat Bea dan Cukai berwenang melakukan\npenelitian dugaan pelanggaran di ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 3,
+      "action": "UBAH",
+      "target": "64",
+      "source_quote": "Ketentuan Pasal 64 diubah sehingga berbunyi sebagai\nberikut:\nPasal 64\n(1) Untuk kepentingan penerimaan negara, atas\npermintaan Menteri, Jaksa Agung dapat\nmenghentikan penyidikan tindak pidana di bidan",
+      "note": "ok"
+    }
+  ],
+  "unparsed": [
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 30,
+      "action": "UBAH",
+      "target": "33",
+      "source_quote": "Ketentuan Pasal 33 diubah sehingga Pasal 33 berbunyi sebagai \nberikut : \n \nPasal 33\n(1) Pejabat bea dan cukai berwenang: \na. mengambil tindakan yang diperlukan atas barang kena cukai \ndan/atau barang ",
+      "note": "target 33 tidak ada"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 41,
+      "action": "UBAH",
+      "target": "41",
+      "source_quote": "Ketentuan Pasal 41 ayat (1) dihapus, ayat (2), ayat (3), ayat (4), \nayat (5), ayat (6), dan ayat (7) diubah, dan  ditambah 1 (satu) ayat, \nyakni ayat (8) sehingga Pasal 41 berbunyi sebagai berikut: \nP",
+      "note": "target 41 tidak ada"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 48,
+      "action": "HAPUS",
+      "target": "51",
+      "source_quote": "Pasal 51 dihapus.",
+      "note": "target 51 tidak ada untuk dihapus"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 49,
+      "action": "UBAH",
+      "target": "52",
+      "source_quote": "Ketentuan Pasal 52 diubah sehingga Pasal 52 berbunyi sebagai \nberikut: \nPasal 52\nPengusaha pabrik atau pengusaha tempat penyimpanan yang \nmengeluarkan barang kena cukai dari pabrik atau tempat \npenyim",
+      "note": "target 52 tidak ada"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 51,
+      "action": "UBAH",
+      "target": "54",
+      "source_quote": "Ketentuan Pasal 54 diubah sehingga Pasal 54 berbunyi sebagai \nberikut: \nPasal 54\nSetiap orang yang menawarkan, menyerahkan, menjual, atau \nmenyediakan untuk dijual barang kena cukai yang tidak dikemas",
+      "note": "target 54 tidak ada"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 52,
+      "action": "UBAH",
+      "target": "55",
+      "source_quote": "Ketentuan Pasal 55 diubah sehingga Pasal 55 berbunyi sebagai \nberikut: \nPasal 55\nSetiap orang yang: \na. membuat secara melawan hukum, meniru, atau memalsukan \npita cukai atau tanda pelunasan cukai lai",
+      "note": "target 55 tidak ada"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 54,
+      "action": "UBAH",
+      "target": "57",
+      "source_quote": "Ketentuan Pasal 57 diubah sehingga Pasal 57 berbunyi sebagai \nberikut: \n \nPasal 57\nSetiap orang yang tanpa izin membuka, melepas, atau merusak \nkunci, segel, atau tanda pengaman sebagaimana diatur dal",
+      "note": "target 57 tidak ada"
+    },
+    {
+      "amending": "UU-2007-39",
+      "ordinal": 55,
+      "action": "UBAH",
+      "target": "58",
+      "source_quote": "Ketentuan Pasal 58 diubah sehingga Pasal 58 berbunyi sebagai \nberikut: \n \nPasal 58\nSetiap orang yang menawarkan, menjual, atau menyerahkan pita \ncukai atau tanda pelunasan cukai  lainnya kepada yang t",
+      "note": "target 58 tidak ada"
+    }
+  ],
+  "provisions": [
+    {
+      "nomor": "1",
+      "text": "Dalam undang-undang ini yang dimaksud dengan: \n1. Cukai adalah pungutan negara yang dikenakan terhadap \nbarang-barang \ntertentu \nyang \nmempunyai \nsifat \natau \nkarakteristik yang ditetapkan dalam undang-undang ini. \n2. Pabrik adalah tempat tertentu termasuk bangunan, halaman, \ndan lapangan yang merupakan bagian daripadanya, yang \ndipergunakan \nuntuk \nmenghasilkan \nbarang \nkena \ncukai \ndan/atau untuk mengemas barang kena cukai dalam kemasan \nuntuk penjualan eceran. \n3. Orang adalah orang pribadi atau badan hukum.  \n4. Pengusaha pabrik adalah orang yang mengusahakan pabrik. \n5. Tempat penyimpanan adalah tempat, bangunan, dan/atau \nlapangan yang bukan merupakan bagian dari pabrik, yang \ndipergunakan untuk menyimpan barang kena cukai berupa \netil alkohol yang masih terutang cukai dengan tujuan untuk \ndisalurkan, dijual, atau diekspor. \n6. Pengusaha \ntempat \npenyimpanan \nadalah \norang \nyang \nmengusahakan tempat penyimpanan. \n7. Tempat penjualan eceran adalah tempat untuk menjual \nsecara eceran barang kena cukai kepada konsumen akhir. \n8. Pengusaha tempat penjualan eceran adalah orang yang \nmengusahakan tempat penjualan eceran. \n9. Penyalur adalah orang yang menyalurkan atau menjual barang \nkena cukai yang sudah dilunasi cukainya yang semata-mata \nditujukan bukan kepada konsumen akhir. \n10. Dokumen cukai adalah dokumen yang digunakan dalam rangka \npelaksanaan undang-undang ini dalam bentuk formulir atau \nmelalui media elektronik. \n11. Kantor adalah Kantor Direktorat Jenderal Bea dan Cukai. \n12. Direktorat Jenderal Bea dan Cukai adalah unsur pelaksana \ntugas pokok dan fungsi Departemen Keuangan di bidang \nkepabeanan dan cukai. \n13. Menteri adalah Menteri Keuangan Republik Indonesia. \n14. Direktur Jenderal adalah Direktur Jenderal Bea dan Cukai. \n15. Pejabat bea dan cukai adalah pegawai Direktorat Jenderal \nBea dan Cukai yang ditunjuk dalam jabatan tertentu untuk \nmelaksanakan tugas tertentu berdasarkan undang-undang ini. \n16. Tempat penimbunan sementara adalah bangunan dan/atau \nlapangan atau tempat lain yang disamakan dengan itu di \nkawasan \npabean \nuntuk \nmenimbun \nbarang \nsementara \nmenunggu pemuatan atau pengeluarannya. \n17. Tempat penimbunan berikat adalah bangunan, tempat, atau \nkawasan yang memenuhi persyaratan tertentu yang digunakan \nuntuk menimbun barang dengan tujuan tertentu dengan \nmendapatkan penangguhan bea masuk. \n18. Daerah pabean adalah wilayah Republik Indonesia yang \nmeliputi wilayah darat, perairan, dan ruang udara di atasnya, \nserta tempat-tempat tertentu di zona ekonomi eksklusif dan \nlandas kontinen yang di dalamnya berlaku undang-undang di \nbidang kepabeanan. \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 3 -\n19. Audit cukai adalah serangkaian kegiatan pemeriksaan laporan \nkeuangan, buku, catatan dan dokumen yang menjadi bukti \ndasar pembukuan, dan dokumen lain yang berkaitan dengan \nkegiatan usaha, termasuk data elektronik, serta surat yang \nberkaitan dengan kegiatan di bidang cukai dan/atau sediaan \nbarang dalam rangka pelaksanaan ketentuan perundang-\nundangan di bidang cukai. \n20. Surat tagihan adalah surat berupa ketetapan yang digunakan \nuntuk melakukan tagihan utang cukai, kekurangan cukai, \nsanksi administrasi berupa denda, dan/atau bunga."
+    },
+    {
+      "nomor": "2",
+      "text": "(1) Barang-barang \ntertentu \nyang \nmempunyai \nsifat \natau \nkarakteristik: \na. konsumsinya perlu dikendalikan;  \nb. peredarannya perlu diawasi;  \nc. pemakaiannya dapat menimbulkan dampak negatif bagi \nmasyarakat atau lingkungan hidup; atau \nd. pemakaiannya perlu pembebanan pungutan negara demi \nkeadilan dan keseimbangan, \ndikenai cukai berdasarkan undang-undang ini. \n(2) Barang-barang \nsebagaimana \ndimaksud \npada \nayat \n(1) \ndinyatakan sebagai barang kena cukai."
+    },
+    {
+      "nomor": "4",
+      "text": "(1) Cukai dikenakan terhadap Barang Kena Cukai yang\nterdiri atas:\na. etil alkohol atau etanol, dengan tidak\nmengindahkan bahan yang digunakan dan\nproses pembuatannya;\nb. minuman yang mengandung etil alkohol dalam\nkadar berapa pun, dengan tidak mengindahkan\nbahan yang digunakan dan \nproses\npembuatannya, termasuk konsentrat yang\nmengandung etil alkohol; dan\nc. hasil tembakau, yang meliputi sigaret, cerutu,\nrokok daun, tembakau iris, rokok elektrik, dan\nhasil pengolahan tembakau lainnya, dengan\ntidak mengindahkan digunakan atau tidak\nbahan pengganti atau bahan pembantu dalam\npembuatannya.\n(21 Penambahan atau pengurangan jenis Barang Kena\nCukai diatur dengan Peraturan Pemerintah setelah\ndisampaikan oleh Pemerintah kepada Dewan\nPerwakilan Rakyat Republik Indonesia untuk dibahas\ndan disepakati dalam penJrusunan Rancangan\nAnggaran Pendapatan dan Belanja Negara."
+    },
+    {
+      "nomor": "5",
+      "text": "(1) Barang kena cukai berupa hasil tembakau dikenai cukai \nberdasarkan tarif paling tinggi: \na. untuk yang dibuat di Indonesia: \n1. 275% (dua ratus tujuh puluh lima persen) dari harga \ndasar apabila harga dasar yang digunakan adalah harga \njual pabrik; atau \n2. 57% (lima puluh tujuh persen) dari harga dasar apabila \nharga dasar yang digunakan adalah harga jual eceran. \nb. untuk yang diimpor: \n1. 275% (dua ratus tujuh puluh lima persen) dari harga \ndasar apabila harga dasar yang digunakan adalah nilai \npabean ditambah bea masuk; atau \n2. 57% (lima puluh tujuh persen) dari harga dasar apabila \nharga dasar yang digunakan adalah harga jual eceran. \n(2) Barang kena cukai lainnya dikenai cukai berdasarkan tarif \npaling tinggi: \na.  untuk yang dibuat di Indonesia: \n1. 1.150% (seribu seratus lima puluh persen) dari harga \ndasar apabila harga dasar yang digunakan adalah harga \njual pabrik; atau \n2. 80% (delapan puluh persen) dari harga dasar apabila \nharga dasar yang digunakan adalah harga jual eceran.  \nb. untuk yang diimpor: \n1. 1.150% (seribu seratus lima puluh persen) dari harga \ndasar apabila harga dasar yang digunakan adalah nilai \npabean ditambah bea masuk; atau \n2. 80% (delapan puluh persen) dari harga dasar apabila \nharga dasar yang digunakan adalah harga jual eceran. \n(3) Tarif cukai sebagaimana dimaksud pada ayat (1) dan ayat (2) \ndapat diubah dari persentase harga dasar menjadi jumlah \ndalam rupiah untuk setiap satuan barang kena cukai atau \nsebaliknya atau penggabungan dari keduanya. \n(4) Penentuan besaran target penerimaan negara dari cukai pada \nRancangan Anggaran Pendapatan dan Belanja Negara (RAPBN) \ndan alternatif kebijakan Menteri dalam mengoptimalkan \nupaya mencapai target penerimaan, dengan memperhatikan \nkondisi \nindustri \ndan \naspirasi \npelaku \nusaha \nindustri, \ndisampaikan kepada Dewan Perwakilan Rakyat Repubik \nIndonesia (DPR RI) untuk mendapat persetujuan. \n(5) Ketentuan lebih lanjut mengenai besaran tarif cukai \nsebagaimana dimaksud pada ayat (1) dan ayat (2), serta \nperubahan tarif sebagaimana dimaksud pada ayat (3) diatur \ndengan peraturan menteri."
+    },
+    {
+      "nomor": "6",
+      "text": "(1) Harga dasar yang digunakan untuk perhitungan cukai atas \nbarang kena cukai yang dibuat di Indonesia adalah harga jual \npabrik atau harga jual eceran. \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 5 -\n(2) Harga dasar yang digunakan untuk perhitungan cukai atas \nbarang kena cukai yang diimpor adalah nilai pabean ditambah \nbea masuk atau harga jual eceran. \n(3) Ketentuan lebih lanjut mengenai penetapan harga dasar \ndiatur dengan peraturan menteri."
+    },
+    {
+      "nomor": "7",
+      "text": "(1) Cukai atas barang kena cukai yang dibuat di Indonesia, \ndilunasi pada saat pengeluaran barang kena cukai dari pabrik \natau tempat penyimpanan. \n(2) Cukai atas barang kena cukai yang diimpor dilunasi pada saat \nbarang kena cukai diimpor untuk dipakai. \n(3) Cara pelunasan cukai sebagaimana dimaksud pada  ayat (1) \ndan ayat (2) dilaksanakan dengan: \na. pembayaran;  \nb. pelekatan pita cukai; atau \nc. pembubuhan tanda pelunasan cukai lainnya. \n(3a)  Pencetakan pita cukai sebagaimana dimaksud pada ayat (3) \nhuruf b dan pengadaan tanda pelunasan cukai lainnya \nsebagaimana dimaksud pada ayat (3) huruf c dilaksanakan \noleh badan usaha milik negara dan/atau badan atau lembaga \nyang ditunjuk oleh Menteri dengan syarat-syarat yang \nditetapkan. \n(3b) Syarat-syarat yang ditetapkan sebagaimana dimaksud pada \nayat \n(3a) \npaling \nsedikit \nmemenuhi \nasas \nkeamanan, \nkontinuitas, efektivitas, efisiensi, dan memberi kesempatan \nyang sama. \n(4) Pita cukai sebagaimana dimaksud pada ayat (3) huruf b dan \ntanda pelunasan cukai lainnya sebagaimana dimaksud pada \nayat (3) huruf c disediakan oleh Menteri.   \n(5) Dalam hal pelunasan cukai dengan cara pelekatan pita cukai \nsebagaimana dimaksud pada ayat (3) huruf b atau \npembubuhan tanda pelunasan cukai lainnya sebagaimana \ndimaksud pada ayat (3) huruf c, dalam pelaksanaannya tidak \nsesuai dengan peraturan perundang-undangan di bidang \ncukai, cukai dianggap tidak dilunasi. \n(6) Dihapus. \n(7) Dihapus. \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 6 -\n(8) Ketentuan lebih lanjut mengenai pelunasan cukai diatur \ndengan atau berdasarkan peraturan  menteri."
+    },
+    {
+      "nomor": "8",
+      "text": "(1) Cukai tidak dipungut atas barang kena cukai sebagaimana \ndimaksud dalam Pasal 4 ayat (1) terhadap: \na. tembakau iris yang dibuat dari tembakau hasil tanaman di \nIndonesia yang tidak dikemas untuk penjualan eceran atau \ndikemas untuk penjualan eceran dengan bahan pengemas \ntradisional yang lazim dipergunakan, apabila dalam \npembuatannya tidak dicampur atau ditambah dengan \ntembakau yang berasal dari luar negeri atau bahan lain \nyang \nlazim \ndipergunakan \ndalam \npembuatan \nhasil \ntembakau dan/atau pada kemasannya ataupun tembakau \nirisnya tidak dibubuhi merek dagang, etiket, atau yang \nsejenis itu; \nb. minuman yang mengandung etil alkohol hasil peragian \natau penyulingan yang dibuat oleh rakyat di Indonesia \nsecara sederhana, semata-mata untuk mata pencaharian \ndan tidak dikemas untuk penjualan eceran. \n(2) Cukai juga tidak dipungut atas barang kena cukai apabila: \na. diangkut terus atau diangkut lanjut dengan tujuan luar \ndaerah pabean; \nb. diekspor; \nc. dimasukkan ke dalam pabrik atau tempat penyimpanan; \nd. digunakan sebagai bahan baku atau bahan penolong dalam \npembuatan barang hasil akhir yang merupakan barang \nkena cukai; \ne. telah musnah atau rusak sebelum dikeluarkan dari pabrik, \ntempat penyimpanan atau sebelum diberikan persetujuan \nimpor untuk dipakai. \n(2a) Perubahan barang kena cukai yang tidak dipungut cukai \nsebagaimana dimaksud pada ayat (1) dan perubahan tujuan \nbarang kena cukai yang tidak dipungut cukai sebagaimana \ndimaksud pada ayat (2) ditetapkan oleh Menteri. \n(3) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, atau setiap orang yang melanggar \nketentuan tentang tidak dipungutnya cukai sebagaimana \ndimaksud pada ayat (2) dikenai sanksi administrasi berupa \ndenda paling sedikit 2 (dua) kali nilai cukai dan paling banyak \n10 (sepuluh) kali nilai cukai yang seharusnya dibayar. \n(4) Ketentuan lebih lanjut mengenai pelaksanaan ayat (1) dan \nayat (2) diatur dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "9",
+      "text": "(1) Pembebasan cukai dapat diberikan atas barang kena cukai: \na. yang digunakan sebagai bahan baku atau bahan penolong \ndalam pembuatan barang hasil akhir yang bukan \nmerupakan barang kena cukai; \nb. untuk keperluan penelitian dan pengembangan ilmu \npengetahuan; \nc. untuk keperluan perwakilan negara asing beserta para \npejabatnya yang bertugas di Indonesia berdasarkan asas \ntimbal balik; \nd. untuk keperluan tenaga ahli bangsa asing yang bertugas \npada badan atau organisasi internasional di Indonesia; \ne. yang dibawa oleh penumpang, awak sarana pengangkut, \npelintas batas atau kiriman dari luar negeri dalam jumlah \nyang ditentukan; \nf.  yang dipergunakan untuk tujuan sosial; \ng. yang dimasukkan ke dalam tempat penimbunan berikat. \n(1a) Perubahan tujuan barang kena cukai yang diberikan \npembebasan cukai sebagaimana dimaksud pada ayat (1) \nditetapkan oleh Menteri. \n(2) Pembebasan cukai dapat juga diberikan atas barang kena \ncukai tertentu yaitu: \na. etil alkohol yang dirusak sehingga tidak baik untuk \ndiminum; \nb. minuman yang mengandung etil alkohol dan hasil \ntembakau, yang dikonsumsi oleh penumpang dan awak \nsarana pengangkut yang berangkat langsung ke luar \ndaerah pabean. \n(3) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, atau setiap orang yang melanggar \nketentuan tentang pembebasan cukai sebagaimana dimaksud \npada ayat (1) atau ayat (2), dikenai sanksi administrasi \nberupa denda paling sedikit 2 (dua) kali nilai cukai dan paling \nbanyak 10 (sepuluh) kali nilai cukai yang seharusnya dibayar.  \n(4) Ketentuan lebih lanjut mengenai tata cara pembebasan cukai \nsebagaimana dimaksud pada ayat (1) dan ayat (2) diatur \ndengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "10",
+      "text": "(1) Penagihan dilakukan atas: \na. utang cukai yang tidak dibayar pada waktunya; \nb. kekurangan cukai; dan/atau \nc. sanksi administrasi berupa denda. \n(2) Utang cukai, kekurangan cukai, dan sanksi administrasi \nberupa denda sebagaimana dimaksud pada ayat (1) wajib \ndibayar paling lama 30 (tiga puluh) hari sejak tanggal \nditerima surat tagihan. \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 9 -\n(2a) Pembayaran utang cukai, kekurangan cukai, dan/atau sanksi \nadministrasi berupa denda sebagaimana dimaksud pada ayat \n(1), yang melebihi jangka waktu sebagaimana dimaksud pada \nayat (2), dikenai bunga sebesar 2% (dua persen) setiap bulan \nuntuk paling lama 24 (dua puluh empat) bulan dari nilai utang \ncukai, kekurangan cukai, dan/atau sanksi administrasi berupa \ndenda yang tidak dibayar. \n(2b) Dalam hal tertentu, atas permintaan pengusaha pabrik, \nDirektur Jenderal dapat memberikan kemudahan untuk \nmengangsur pembayaran tagihan sebagaimana dimaksud pada \nayat (1) dalam jangka waktu paling lama 12 (dua belas) bulan \ndan dikenai bunga sebesar 2% (dua persen) setiap bulan. \n(2c) Pembayaran utang cukai, kekurangan cukai, dan sanksi \nadministrasi berupa denda sebagaimana dimaksud pada ayat \n(2) dan bunga sebagaimana dimaksud pada ayat (2a) \njumlahnya dibulatkan dalam ribuan rupiah.  \n(3) Ketentuan lebih lanjut mengenai tata cara penagihan dan \npengangsuran diatur dengan atau berdasarkan peraturan \nmenteri."
+    },
+    {
+      "nomor": "11",
+      "text": "(3) Hak ...\na. utang cukai yang tidak dilunasi pada waktunya;\nb. kekurangan cukai karena kesalahan perhitungan dalam dokumen\npemberitahuan atau pemesanan pita cukai;\n(2) Cukai dan denda administrasi sebagaimana dimaksud pada ayat (1),\ndilunasi selambat-lambatnya dalam waktu empat belas hari setelah\n(3) Ketentuan tentang tata cara penagihan diatur lebih lanjut oleh\n(1) Tagihan negara berdasarkan undang-undang ini mempunyai hak\nmendahulu atas segala tagihan terhadap harta yang berutang.\n(2) Hak mendahulu sebagaimana dimaksud pada ayat (1) tidak berlaku\na. biaya perkara yang semata-mata disebabkan oleh suatu penghu-\nb. biaya\nyang\ntelah\ndikeluarkan\nuntuk\nmenyelamatkan\nsuatu\nc. biaya perkara yang semata-mata disebabkan pelelangan dan\n\npembayaran.\n'\n..\nI:\nI,,{\n- 14 -"
+    },
+    {
+      "nomor": "12",
+      "text": "(1) Pengembalian cukai yang telah dibayar diberikan dalam hal: \na. terdapat \nkelebihan \npembayaran \nkarena \nkesalahan \npenghitungan; \nb. barang kena cukai diekspor; \nc. barang kena cukai diolah kembali di pabrik atau \ndimusnahkan; \nd. barang \nkena \ncukai \nmendapat \npembebasan \ncukai \nsebagaimana dimaksud dalam Pasal 9; \ne. pita cukai dikembalikan karena rusak atau tidak dipakai; \natau \nf.  terdapat kelebihan pembayaran sebagai akibat putusan \nPengadilan Pajak. \n(2) Pengembalian cukai sebagaimana dimaksud pada ayat (1) \ndilakukan \npaling \nlama \n30 \n(tiga \npuluh) \nhari \nsejak \nditetapkannya kelebihan pembayaran. \n(3) Apabila pengembalian cukai dilakukan setelah jangka waktu \n30 (tiga puluh) hari sebagaimana dimaksud pada ayat (2), \npemerintah memberikan bunga 2% (dua persen) perbulan, \ndihitung setelah jangka waktu tersebut berakhir sampai \ndengan saat dilakukan pengembalian. \n(4) Ketentuan lebih lanjut mengenai pengembalian cukai diatur \ndengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "13",
+      "text": ""
+    },
+    {
+      "nomor": "14",
+      "text": "(1) \nSetiap orang yang akan menjalankan kegiatan sebagai:   \na. pengusaha pabrik; \nb. pengusaha tempat penyimpanan;  \nc. importir barang kena cukai;  \nd. penyalur; atau \ne. pengusaha tempat penjualan eceran, \nwajib memiliki izin berupa Nomor Pokok Pengusaha Barang \nKena Cukai dari Menteri. \n(1a) Kewajiban memiliki izin untuk menjalankan kegiatan sebagai \npenyalur sebagaimana dimaksud pada ayat (1) huruf d atau \npengusaha tempat penjualan eceran sebagaimana dimaksud \npada ayat (1) huruf e berlaku untuk etil alkohol dan minuman \nyang mengandung etil alkohol. \n(1b) Kewajiban memiliki izin untuk menjalankan kegiatan sebagai \npenyalur atau pengusaha tempat penjualan eceran selain etil \nalkohol dan minuman yang mengandung etil alkohol \nsebagaimana dimaksud pada ayat (1a) ditetapkan dengan \nperaturan menteri. \n(1c)  Importir barang kena cukai yang telah memiliki izin berupa \nNomor Pokok Pengusaha Barang Kena Cukai sebagaimana \ndimaksud pada ayat (1) huruf c dapat melaksanakan impor \nbarang kena cukai. \n(2) \nIzin sebagaimana dimaksud pada ayat (1) diberikan kepada: \na. orang yang berkedudukan di Indonesia; atau \nb. orang yang secara sah mewakili badan hukum atau orang \npribadi yang berkedudukan di luar Indonesia. \n(3) \nDalam hal pemegang izin sebagaimana dimaksud pada ayat \n(2) huruf a adalah orang pribadi, apabila yang bersangkutan \nmeninggal dunia, izin dapat dipergunakan selama dua belas \nbulan sejak tanggal meninggal yang bersangkutan oleh ahli \nwaris atau yang dikuasakan dan setelah lewat jangka waktu \ntersebut, izin wajib diperbaharui. \n(3a) Izin sebagaimana dimaksud pada ayat (1) dapat dibekukan, \ndalam hal: \na. adanya bukti permulaan yang cukup bahwa pemegang izin \nmelakukan pelanggaran pidana di bidang cukai; \nb. adanya bukti yang cukup sehingga persyaratan perizinan \ntidak lagi dipenuhi; atau  \nc. pemegang \nizin \nberada \ndalam \npengawasan \nkurator \nsehubungan dengan utangnya.  \n(4) \nIzin sebagaimana dimaksud pada ayat (1) dapat dicabut \ndalam hal: \na. atas permohonan pemegang izin yang bersangkutan; \nb. tidak dilakukan kegiatan selama 1 (satu) tahun; \nc. persyaratan perizinan tidak lagi dipenuhi; \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 11 -\nd. pemegang izin tidak lagi secara sah mewakili badan \nhukum atau orang pribadi yang berkedudukan di luar \nIndonesia; \ne. pemegang izin dinyatakan pailit; \nf.  tidak dipenuhi ketentuan sebagaimana dimaksud pada \nayat (3); \ng. pemegang izin dipidana berdasarkan keputusan hakim \nyang telah mempunyai kekuatan hukum tetap karena \nmelanggar ketentuan undang-undang ini; \nh. pemegang izin melanggar ketentuan Pasal 30; atau \ni.  Izin berupa Nomor Pokok Pengusaha Barang Kena Cukai \ndipindahtangankan, dikuasakan, dan/atau dikerjasamakan \ndengan orang/pihak lain tanpa persetujuan Menteri. \n(5) \nDalam hal izin sebagaimana dimaksud pada ayat (1) dicabut, \nterhadap barang kena cukai yang belum dilunasi cukainya \nyang masih berada di dalam pabrik atau tempat penyimpanan \nharus dilunasi cukainya dan dikeluarkan dari pabrik atau \ntempat penyimpanan dalam waktu 30 (tiga puluh) hari sejak \nditerimanya surat keputusan pencabutan izin. \n(5a)  Dalam hal ketentuan sebagaimana dimaksud pada   ayat (5) \ntidak dipenuhi, barang kena cukai sebagaimana dimaksud \ndalam Pasal 2 ayat (1) huruf a, huruf b, dan huruf c \ndimusnahkan. \n(5b)  Dalam hal ketentuan sebagaimana dimaksud pada   ayat (5) \ntidak dipenuhi, barang kena cukai sebagaimana dimaksud \ndalam Pasal 2 ayat (1) huruf d diatur lebih lanjut dengan \nperaturan menteri. \n(6)   Ketentuan mengenai pelunasan sebagaimana dimaksud pada \nayat (5) tidak berlaku bagi importir barang kena cukai, \npenyalur, dan pengusaha tempat penjualan eceran. \n(7)   Setiap orang yang menjalankan kegiatan sebagaimana \ndimaksud pada ayat (1) tanpa memiliki izin dikenai sanksi \nadministrasi berupa denda paling sedikit Rp20.000.000,00 \n(dua puluh juta rupiah) dan paling banyak Rp200.000.000,00 \n(dua ratus juta rupiah).  \n(8)  Ketentuan lebih lanjut mengenai perizinan diatur dengan \natau berdasarkan peraturan pemerintah."
+    },
+    {
+      "nomor": "15",
+      "text": ""
+    },
+    {
+      "nomor": "16",
+      "text": "(1) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, atau penyalur yang wajib memiliki izin \nsebagaimana dimaksud dalam Pasal 14 ayat (1) huruf a, huruf \nb, huruf c, dan huruf d wajib menyelenggarakan pembukuan. \n(2) Dikecualikan dari kewajiban sebagaimana dimaksud pada ayat \n(1) tetapi wajib melakukan pencatatan adalah pengusaha \npabrik skala kecil, penyalur skala kecil yang wajib memiliki \nizin, dan pengusaha tempat penjualan eceran yang wajib \nmemiliki izin. \n(3) Pengusaha pabrik wajib memberitahukan secara berkala \nkepada Kepala Kantor tentang barang kena cukai yang selesai \ndibuat. \n(4) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, atau penyalur yang wajib memiliki izin, \nyang \ntidak \nmenyelenggarakan \npembukuan \nsebagaimana \ndimaksud pada ayat (1) dikenai sanksi administrasi berupa \ndenda sebesar Rp50.000.000,00 (lima puluh juta rupiah). \n(5) Pengusaha pabrik skala kecil, penyalur skala kecil yang wajib \nmemiliki izin, dan pengusaha tempat penjualan eceran yang \nwajib memiliki izin, yang tidak melakukan pencatatan \nsebagaimana \ndimaksud \npada \nayat \n(2) \ndikenai \nsanksi \nadministrasi berupa denda sebesar Rp10.000.000,00 (sepuluh \njuta rupiah). \n(6) Pengusaha pabrik yang tidak memberitahukan barang kena \ncukai yang selesai dibuat sebagaimana dimaksud pada ayat (3) \ndikenai sanksi administrasi berupa denda sebesar 2 (dua) kali \nnilai cukai dari barang kena cukai yang tidak diberitahukan. \n(7) Ketentuan lebih lanjut mengenai pencatatan sebagaimana \ndimaksud pada ayat (2) dan pemberitahuan mengenai barang \nkena cukai yang selesai dibuat sebagaimana dimaksud pada \nayat (3) diatur dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "16A",
+      "text": "(1) Pembukuan \nwajib \ndiselenggarakan \ndengan \nbaik \nyang \nmencerminkan keadaan atau kegiatan usaha yang sebenarnya \ndan sekurang-kurangnya terdiri dari catatan mengenai harta, \nkewajiban, modal, pendapatan, biaya, dan arus keluar \nmasuknya barang kena cukai. \n(2) Pembukuan wajib diselenggarakan di Indonesia dengan \nmenggunakan huruf latin, angka arab, mata uang rupiah, serta \nbahasa Indonesia, atau dengan mata uang asing dan bahasa \nlain yang diizinkan oleh Menteri.  \n(3) Laporan keuangan, buku, catatan dan dokumen yang menjadi \nbukti dasar pembukuan, dan dokumen lain yang berkaitan \ndengan kegiatan usaha serta surat yang berkaitan dengan \nkegiatan di bidang cukai wajib disimpan selama 10 (sepuluh) \ntahun pada tempat usahanya di Indonesia. \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 13 -\n(4) Ketentuan lebih lanjut mengenai pedoman penyelenggaraan \npembukuan \ndiatur \ndengan \natau \nberdasarkan \nperaturan \nmenteri."
+    },
+    {
+      "nomor": "16B",
+      "text": "Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, atau penyalur yang wajib memiliki izin, yang \ntidak melaksanakan ketentuan sebagaimana dimaksud dalam Pasal \n16A \ndikenai \nsanksi \nadministrasi \nberupa \ndenda \nsebesar \nRp25.000.000,00 (dua puluh lima juta rupiah)."
+    },
+    {
+      "nomor": "17",
+      "text": "(1) Pejabat bea dan cukai wajib menyelenggarakan buku rekening \nbarang kena cukai untuk setiap pengusaha pabrik atau \npengusaha tempat penyimpanan mengenai barang kena cukai \ntertentu yang masih terutang cukai dan berada di pabrik atau \ntempat penyimpanan. \n(2) Pejabat bea dan cukai mencatat barang kena cukai \nsebagaimana dimaksud dalam Pasal 16 ayat (3) dan Pasal 25 \nayat (1) atau ayat (3) yang masih terutang cukai ke dalam buku \nrekening barang kena cukai. \n(3) Pengusaha pabrik atau pengusaha tempat penyimpanan \nbertanggung jawab atas utang cukai dari barang kena cukai \nyang ada menurut buku rekening barang kena cukai."
+    },
+    {
+      "nomor": "18",
+      "text": "(1) Buku rekening barang kena cukai ditutup pada setiap akhir \ntahun kalender. \n(2) Buku rekening barang kena cukai juga ditutup setelah \ndilakukan pencacahan atau atas permintaan pengusaha pabrik \natau pengusaha tempat penyimpanan. \n(3) Ketentuan \ntentang \nbuku \nrekening \nbarang \nkena \ncukai \nsebagaimana dimaksud pada ayat (1) dan ayat (2), serta dalam \nPasal 17 ayat (1) dan ayat (2) diatur lebih lanjut oleh Menteri."
+    },
+    {
+      "nomor": "19",
+      "text": "(1) \nPejabat bea dan cukai wajib menyelenggarakan buku \nrekening kredit untuk setiap pengusaha pabrik yang \nmendapatkan kemudahan pembayaran berkala sebagaimana  \ndimaksud dalam Pasal 7A ayat (1). \n(1a) Pejabat bea dan cukai wajib menyelenggarakan buku \nrekening kredit untuk setiap pengusaha pabrik atau importir \nbarang kena cukai mengenai cukai yang mendapatkan \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 14 -\npenundaan pembayaran sebagaimana dimaksud dalam Pasal \n7A ayat (2) dan ayat (3). \n(2) \nKetentuan lebih lanjut mengenai buku rekening kredit \nsebagaimana dimaksud pada ayat (1) dan ayat (1a) diatur \ndengan atau berdasarkan peraturan menteri. \n \n23. Pasal 20 tetap dengan perubahan penjelasan Pasal 20 ayat (2) \nsehingga penjelasan Pasal 20 menjadi sebagaimana ditetapkan \ndalam penjelasan pasal demi pasal undang-undang ini."
+    },
+    {
+      "nomor": "20",
+      "text": ""
+    },
+    {
+      "nomor": "21",
+      "text": "potongan ...\nyang mendapatkan penundaan sebagaimana dimaksud dalam Pasal 7\nayat (6) dan pelunasan atau penyelesaiannya.\n(2) Ketentuan tentang\nBuku Rekening Kredit diatur lebih lanjut oleh\n(1) Barang Kena Cukai tertentu yang ada dalam Pabrik atau Tempat\nPenyimpanan\nsetiap waktu dapat dicacah oleh Pejabat Bea dan\n(2) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan wajib\nmenunjukkan semua Barang Kena Cukai yang ada di dalam tempat\nyang dimaksud pada ayat (1), serta menyediakan tenaga dan\nperalatan untuk keperluan pencacahan.\n(3) Ketentuan tentang pencacahan diatur lebih lanjut oleh Menteri.\n(1) Dalam hal jumlah hasil pencacahan sebagaimana dimaksud dalam\nPasal 20 kedapatan lebih kecil daripada jumlah yang tercantum\ndalam Buku Rekening Barang Kena Cukai, kepada Pengusaha\nPabrik\natau\nPengusaha\nTempat\nPenyimpanan\ndiberikan\n\nterakhir.\nCukai.\nPasal 21 ayat (1).\n- 22 -"
+    },
+    {
+      "nomor": "22",
+      "text": ""
+    },
+    {
+      "nomor": "23",
+      "text": "(2) Kelebihan ...\npotongan setinggi-tingginya sepuluh persen\ndari jurnlah Barang\nKena Cukai yang dihasilkan atau dirnasukkan sejak pencacahan\n(2) Potongan sebagairnana dirnaksud pada ayat (1), dikurangkan dari\nselisih antara hasil pencacahan\ndengan\nBuku\nRekening\nBarang\nKena Cukai,\ndan\nsisanya rnerupakan kekurangan yang cukainya\nharus dilunasi oleh Pengusaha Pabrik atau Pengusaha Ternpat\nPenyirnpanan dalarn waktu tiga puluh hari setelah tanggal penutupan\n(3) Ketentuan tentang jenis Barang Kena Cukai yang dapat diberikan\npotongan dan besarnya potongan diatur lebih lanjut oleh Menteri.\nPotongan tidak diberikan apabila jurnlah hasil pencacahan sebagairnana\ndirnaksud dalarn Pasal 20 kedapatan sarna atau lebih besar daripada\njurnlah sediaan yang\ntercanturn\ndalarn Buku Rekening Barang Kena\n(1) Kekurangan Barang Kena Cukai sebagairnana dirnaksud dalarn\nPasal 21 ayat (2) diberikan kelonggaran yang besarnya tidak\nrnelebihi tiga kali jurnlah potongan sebagairnana dirnaksud dalarn\n\nlebih.\ntentang Kepabeanan.\n! ;\n- 23 -"
+    },
+    {
+      "nomor": "24",
+      "text": "(3) Ketentuan ...\n(2) Kelebihan\nBarang\nKena Cukai\nsebagaimana\ndimaksud\ndalam\nPasal 22, diberikan kelonggaran yang besarnya tidak melebihi satu\npersen dari jumlah Barang Kena Cukai yang seharusnya ada\nmenurut Buku Rekening Barang Kena Cukai.\n(3) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan yang di\ndalam Pabrik atau Tempat Penyimpanannya kedapatan kekurangan\nBarang Kena Cukai sebagaimana dimaksud dalam Pasal 21 ayat (2)\natau kelebihan Barang Kena Cukai sebagaimana dimaksud dalam\nPasal 22 yang melebihi kelonggaran sebagaimana dimaksud pada\nayat (1) atau ayat (2), dikenai sanksi administrasi berupa denda\npaling banyak sepuluh kali nilai cukai dan paling sedikit dua kali\nnilai cukai dari Barang Kena Cukai yang kedapatan kurang atau\n(1) Barang\nKena\nCukai\nyang belum\ndilunasi\ncukainya dapat\nditimbun dalam Tempat\nPenimbunan\nSementara\natau Tempat\nPenimbunan Berikat sebagaimana diatur dalam Undang-undang\n(2) Barang\nKena\nCukai\nyang\nbelum\ndilunasi\ncukainya\nyang\ndipergunakan\nsebagai bahan baku atau bahan penolong dapat\n\n(5) Ketentuan ...\n(4) Pengusaha Pabrik\natau Pengusaha Tempat Penyimpanan\nyang\nmengeluarkan\nBarang\nKena\nCukai\ndari\nPabrik\natau\nTempat\nPenyimpanan tanpa mengindahkan ketentuan sebagaimana dimaksud\npada ayat (1), dikenai sanksi administrasi berupa denda sebesar satu\nkali nilai cukai dari Barang Kena Cukai yang dikeluarkan.\n(3) Dalam hal pemasukan atau pengeluaran Barang Kena Cukai di\nbawah pengawasan Pejabat Bea dan Cukai, yang menjadi dasar\nuntuk membukukan dalam Buku Rekening Barang Kena Cukai\nsebagaimana dimaksud dalam Pasal 17 adalah yang didapati oleh\nPejabat Bea dan Cukai yang bersangkutan.\n(2) Pemasukan atau pengeluaran Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dapat dilakukan di bawah pengawasan\nPejabat Bea dan Cukai.\n(1) Pemasukan atau pengeluaran Barang Kena Cukai ke atau dari\nPabrik atau Tempat Penyimpanan,\nwajib diberitahukan kepada\nKepala Kantor dan dilindungi dengan dokumen cukai."
+    },
+    {
+      "nomor": "25",
+      "text": "(1) Pemasukan atau pengeluaran barang kena cukai ke atau dari \npabrik atau tempat penyimpanan, wajib diberitahukan kepada \nKepala Kantor dan dilindungi dengan dokumen cukai. \n(2) Pemasukan atau pengeluaran barang kena cukai sebagaimana \ndimaksud pada ayat (1) dapat dilakukan di bawah pengawasan \npejabat bea dan cukai. \n(3) Dalam hal pemasukan atau pengeluaran barang kena cukai di \nbawah pengawasan pejabat bea dan cukai, yang menjadi dasar \nuntuk membukukan dalam buku rekening barang kena cukai \nsebagaimana dimaksud dalam Pasal 17 adalah yang didapati \noleh pejabat bea dan cukai yang bersangkutan. \n(4) Pengusaha pabrik atau pengusaha tempat penyimpanan yang \nmengeluarkan barang kena cukai dari pabrik atau tempat \npenyimpanan, \nyang \ntidak \nmelaksanakan \nketentuan \nsebagaimana \ndimaksud \npada \nayat \n(1) \ndikenai \nsanksi \nadministrasi berupa denda sebesar 2 (dua) kali nilai cukai dari \nbarang kena cukai yang dikeluarkan. \n(4a)  \nPengusaha pabrik atau pengusaha tempat penyimpanan, \nyang memasukkan barang kena cukai ke pabrik atau tempat \npenyimpanan tanpa mengindahkan ketentuan sebagaimana \ndimaksud pada ayat (1) dikenai sanksi administrasi berupa \ndenda paling sedikit Rp10.000.000,00 (sepuluh juta rupiah) dan \npaling banyak Rp50.000.000,00 (lima puluh juta rupiah).  \n(5) Ketentuan lebih lanjut mengenai pemasukan atau pengeluaran \nbarang kena cukai sebagaimana dimaksud pada ayat (1), ayat \n(2), dan ayat (3) diatur dengan atau berdasarkan peraturan \nmenteri."
+    },
+    {
+      "nomor": "26",
+      "text": "(1) Dalam keadaan darurat, barang kena cukai yang belum dilunasi \ncukainya dapat dipindahkan ke luar pabrik atau tempat \npenyimpanan tanpa dilindungi dokumen cukai. \n(2) Pemindahan barang kena cukai sebagaimana dimaksud pada \nayat (1) harus segera dilaporkan kepada Kepala Kantor dalam \njangka waktu yang ditetapkan. \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 15 -\n(3) Pengusaha pabrik atau pengusaha tempat penyimpanan yang \ntidak melaporkan pemindahan barang kena cukai yang belum \ndilunasi cukainya karena keadaan darurat sebagaimana \ndimaksud pada ayat (2) dikenai sanksi administrasi berupa \ndenda paling sedikit Rp1.000.000,00 (satu juta rupiah) dan \npaling banyak Rp10.000.000,00 (sepuluh juta rupiah). \n(4) Ketentuan lebih lanjut mengenai  pelaksanaan ayat (1) dan \nayat (2) diatur dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "27",
+      "text": "(1) Pengangkutan barang kena cukai yang belum dilunasi cukainya \nharus dilindungi dengan dokumen cukai. \n(2) Pengangkutan barang kena cukai tertentu, walaupun sudah \ndilunasi cukainya, harus dilindungi dengan dokumen cukai. \n(3) Setiap orang yang tidak memenuhi ketentuan tentang \npengangkutan barang kena cukai yang belum dilunasi cukainya \nsebagaimana \ndimaksud \npada \nayat \n(1) \ndikenai \nsanksi \nadministrasi berupa denda paling sedikit 2 (dua) kali nilai cukai \ndan paling banyak 10 (sepuluh) kali nilai cukai yang seharusnya \ndibayar. \n(4) Setiap orang yang tidak memenuhi ketentuan tentang \npengangkutan barang kena cukai sebagaimana dimaksud pada \nayat (2) dikenai sanksi administrasi berupa denda paling sedikit \nRp5.000.000,00 \n(lima \njuta \nrupiah) \ndan \npaling \nbanyak \nRp50.000.000,00 (lima puluh juta rupiah). \n(5) Ketentuan lebih lanjut mengenai pengangkutan barang kena \ncukai sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur \ndengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "28",
+      "text": "dilampaui ...\n(1) Pengangkutan Barang Kena Cukai yang belum dilunasi cukainya\nharus dilindungi dengan dokumen cukai.\n(2) Pengangkutan Barang\nKena\nCukai tertentu, walaupun\nsudah\ndilunasi cukainya, harus dilindungi dengan dokumen cukai.\n(3) Barangsiapa\ntidak\nmemenuhi\nketentuan\ntentang\npengangkutan\nBarang Kena Cukai yang belum dilunasi cukainya sebagaimana\ndimaksud pada ayat (1), dikenai sanksi administrasi berupa denda\npaling banyak sepuluh kali nilai cukai dan paling sedikit dua kali\n(4) Barangsiapa\ntidak memenuhi ketentuan tentang pengangkutan\nBarang Kena Cukai sebagaimana dimaksud pada ayat (2), dikenai\nsanksi administrasi berupa denda paling banyak Rp5.000.000,OO\n(lima juta rupiah) dan paling sedikit Rp500.000,OO(lima ratus ribu\n(5) Ketentuan tentang pengangkutan Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dan ayat (2) diatur lebih lanjut oleh\nJangka waktu\nyang\ntelah ditetapkan\ndalam dokumen\ncukai\nsebagaimana dimaksud dalam Pasal 27 ayat (1) atau ayat (2), sebelum\n\nMenteri.\nterhadap:\n- 27 -"
+    },
+    {
+      "nomor": "29",
+      "text": "(1) \nBarang kena cukai yang pelunasan cukainya dengan cara \npelekatan pita cukai atau pembubuhan tanda pelunasan cukai \nlainnya hanya boleh ditawarkan, diserahkan, dijual, atau \ndisediakan untuk dijual, setelah dikemas untuk penjualan \neceran dan dilekati pita cukai atau dibubuhi tanda pelunasan \ncukai lainnya yang diwajibkan. \n(2) \nBarang kena cukai yang pelunasan cukainya dengan cara \npelekatan pita cukai atau pembubuhan tanda pelunasan cukai \nlainnya yang berada dalam tempat penjualan eceran atau \ntempat lain yang kegiatannya adalah untuk menjual dianggap \ndisediakan untuk dijual. \n(2a) Pengusaha pabrik atau importir barang kena cukai yang \nmelekatkan pita cukai atau membubuhkan tanda pelunasan \ncukai lainnya pada barang kena cukai yang tidak sesuai \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 16 -\ndengan pita cukai atau tanda pelunasan cukai lainnya yang \ndiwajibkan, yang menyebabkan kekurangan pembayaran \ncukai, \nwajib \nmelunasi \ncukainya \ndan \ndikenai \nsanksi \nadministrasi berupa denda paling sedikit 2 (dua) kali nilai \ncukai dan paling banyak 10 (sepuluh) kali nilai cukai dari nilai \ncukai yang seharusnya dilunasi.  \n(3) \nKetentuan lebih lanjut mengenai pelaksanaan ayat (1) dan \nayat (2) diatur dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "30",
+      "text": "a. Pabrik ...\ndilampaui\ndapat diperpanjang\nmasa berlakunya\noleh\nKepala\nKantor\nyang\nmengawasi tempat Barang Kena Cukai bersangkutan\nberada.\n(1) Barang\nKena\nCukai\nyang\npelunasan\ncukainya\ndengan\ncara\npelekatan\npita cukai hanya boleh ditawarkan,\ndiserahkan,\ndijual,\natau\ndisediakan\nuntuk\ndijual,\nsetelah dikemas\nuntuk\npenjualan\neceran dan dilekati pita cukai yang diwajibkan.\n(2) Barang Kena Cukai yang pelunasan cukainya dengan cara pelekatan\npita cukai yang berada dalam Tempat Penjualan Eceran atau tempat\nlain\nyang\nkegiatannya\nadalah\nuntuk\nmenjual\neceran\ndianggap\n(3) Ketentuan\ntentang\nperdagangan\nBarang\nKena Cukai\nsebagaimana\ndimaksud\npada\nayat\n(I)\ndan\nayat\n(2) diatur\nlebih\nlanjut\noleh\n(1) Di dalam Pabrik dilarang menghasilkan\nbarang selain Barang Kena\nCukai yang ditetapkan dalam surat izin yang bersangkutan.\n(2)\nLarangan\nsebagaimana\ndimaksud\npada\nayat\n(1)\ntidak\nberlaku\n\n(3) Pengusaha\nTempat\nPenyimpanan\nyang\nmelanggar\nketentuan\nlarangan sebagaimana dimaksud pada ayat (1) huruf b, dikenai\nsanksi administrasi berupa denda paling banyak\nRpl0.000.000,OO\n(sepuluh juta rupiah) dan paling sedikit Rpl.000.000,OO (satu juta\nrupiah).\nPasal 32 ...\n(2) Barang Kena Cukai yang telah dilunasi\ncukainya\natau yang\nmendapatkan pembebasan cukai yang kedapatan berada di dalam\nTempat Penyimpanan dianggap belum dilunasi cukainya atau tidak\nmendapatkan pembebasan cukai.\nb. menyimpan barang\nselain Barang Kena Cukai yang ditetapkan\ndalam surat izin bersangkutan.\na. menyimpan Barang Kena Cukai yang telah dilunasi cukainya\natau yang mendapatkan pembebasan cukai;\n(1) Di dalam Tempat Penyimpanan dilarang:"
+    },
+    {
+      "nomor": "31",
+      "text": "(1) \nDi dalam tempat penyimpanan dilarang: \na. menyimpan barang kena cukai yang telah dilunasi \ncukainya atau yang mendapatkan pembebasan cukai; \nb. menyimpan barang selain barang kena cukai yang \nditetapkan dalam surat izin bersangkutan. \n(2) \nBarang kena cukai yang telah dilunasi cukainya atau yang \nmendapatkan pembebasan cukai yang kedapatan berada di \ndalam tempat penyimpanan dianggap belum dilunasi cukainya \natau tidak mendapatkan pembebasan cukai. \n(3) \nPengusaha tempat penyimpanan yang melanggar ketentuan \nmengenai larangan sebagaimana dimaksud pada ayat (1) \nhuruf b dikenai sanksi administrasi berupa denda paling \nsedikit Rp5.000.000,00 (lima juta rupiah) dan paling banyak \nRp50.000.000,00 (lima puluh juta rupiah)."
+    },
+    {
+      "nomor": "32",
+      "text": "(1) Di dalam pabrik, tempat usaha importir barang kena cukai, \ntempat usaha penyalur, dan tempat penjualan eceran, yang \npelunasan cukainya dengan cara pelekatan pita cukai atau \npembubuhan tanda pelunasan cukai lainnya dilarang: \na. menyimpan atau menyediakan pita cukai dan/atau tanda \npelunasan cukai lainnya yang telah dipakai; dan/atau \nb. menyimpan atau menyediakan pengemas barang kena cukai \nyang telah dipakai dengan pita cukai dan/atau tanda \npelunasan cukai lainnya yang masih utuh. \n(2) Pengusaha pabrik, importir barang kena cukai, penyalur, atau \npengusaha tempat penjualan eceran, yang pelunasan cukainya \ndengan cara pelekatan pita cukai atau pembubuhan tanda \npelunasan cukai lainnya, yang melanggar ketentuan larangan \nsebagaimana \ndimaksud \npada \nayat \n(1) \ndikenai \nsanksi \nadministrasi berupa denda paling sedikit 2 (dua) kali nilai \ncukai dan paling banyak 10 (sepuluh) kali nilai cukai dari pita \ncukai atau tanda pelunasan cukai lainnya yang didapati telah \ndipakai. \n \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 17 -"
+    },
+    {
+      "nomor": "34",
+      "text": "(1) Dalam melaksanakan tugas berdasarkan undang-undang ini \npejabat bea dan cukai dapat meminta bantuan Kepolisian \nRepublik Indonesia, Tentara Nasional Indonesia, dan/atau \ninstansi lainnya. \n(2) Atas permintaan sebagaimana dimaksud pada ayat (1), \nKepolisian Republik Indonesia, Tentara Nasional Indonesia, \ndan/atau instansi lainnya wajib untuk memenuhinya."
+    },
+    {
+      "nomor": "35",
+      "text": "(1) Pejabat bea dan cukai berwenang melakukan pemeriksaan \nterhadap: \na. pabrik, tempat penyimpanan, atau tempat lain yang \ndigunakan untuk menyimpan barang kena cukai dan/atau \nbarang lainnya yang terkait dengan barang kena cukai, yang \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 18 -\nbelum dilunasi cukainya atau memperoleh pembebasan \ncukai; \nb. bangunan atau tempat lain yang secara langsung atau tidak \nlangsung berhubungan dengan bangunan atau tempat \nsebagaimana dimaksud pada huruf a; \nc. tempat usaha penyalur, tempat penjualan eceran, atau \ntempat lain yang bukan rumah tinggal, yang di dalamnya \nterdapat barang kena cukai; dan \nd. barang kena cukai dan/atau barang lainnya yang terkait \ndengan barang kena cukai yang berada di tempat \nsebagaimana dimaksud pada huruf a, huruf b, dan huruf c. \n(2) Dalam melakukan pemeriksaan sebagaimana dimaksud pada \nayat (1), pejabat bea dan cukai berwenang mengambil contoh \nbarang kena cukai. \n(3) Dalam melakukan pemeriksaan sebagaimana dimaksud pada \nayat (1) huruf d, pejabat bea dan cukai berwenang meminta \ncatatan sediaan barang, dokumen cukai, dan/atau dokumen \npelengkap cukai, yang wajib diselenggarakan berdasarkan \nundang-undang ini. \n(4) Setiap orang yang menyebabkan pejabat bea dan cukai tidak \ndapat melaksanakan ketentuan sebagaimana dimaksud pada \nayat (1), ayat (2), dan ayat (3) dikenai sanksi administrasi \nberupa denda paling sedikit Rp10.000.000,00 (sepuluh juta \nrupiah) dan paling banyak Rp100.000.000,00 (seratus juta \nrupiah)."
+    },
+    {
+      "nomor": "36",
+      "text": "(1) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, penyalur, pengusaha tempat penjualan \neceran, pengguna barang kena cukai yang mendapatkan \nfasilitas pembebasan cukai sebagaimana dimaksud dalam Pasal \n9, \nyang \nterhadapnya \ndilakukan \npemeriksaan, \nwajib \nmenyediakan tenaga, peralatan, dan menyerahkan buku, \ncatatan, dan/atau dokumen yang wajib diselenggarakan \nberdasarkan undang-undang ini. \n(1a) Dalam hal pengusaha pabrik, pengusaha tempat penyimpanan, \nimportir barang kena cukai, penyalur, pengusaha tempat \npenjualan eceran, pengguna barang kena cukai yang \nmendapatkan \nfasilitas \npembebasan \ncukai \nsebagaimana \ndimaksud dalam Pasal 9, yang terhadapnya dilakukan \npemeriksaan, tidak berada di tempat atau berhalangan, \nkewajiban sebagaimana dimaksud pada ayat (1) beralih \nkepada yang mewakilinya.  \n(2) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, penyalur, pengusaha tempat penjualan \neceran, pengguna barang kena cukai yang mendapatkan \nfasilitas pembebasan cukai sebagaimana dimaksud dalam Pasal \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 19 -\n9, yang terhadapnya dilakukan pemeriksaan, yang tidak \nmenyediakan tenaga atau peralatan atau tidak menyerahkan \nbuku, catatan, dan/atau dokumen pada waktu dilakukan \npemeriksaan sebagaimana dimaksud pada ayat (1) dikenai \nsanksi \nadministrasi \nberupa \ndenda \npaling \nsedikit \nRp25.000.000,00 (dua puluh lima juta rupiah) dan paling \nbanyak Rp250.000.000,00 (dua ratus lima puluh juta rupiah)."
+    },
+    {
+      "nomor": "37",
+      "text": "(1) Pejabat bea dan cukai berwenang untuk menghentikan dan \nmemeriksa sarana pengangkut serta barang kena cukai \ndan/atau barang lainnya yang terkait dengan barang kena \ncukai yang berada di sarana pengangkut. \n(2) Pengangkut wajib menunjukkan dokumen cukai dan/atau \ndokumen pelengkap cukai yang diwajibkan menurut undang-\nundang ini. \n(3) Sarana pengangkut yang disegel oleh dinas pos atau penegak \nhukum lain, dikecualikan dari pemeriksaan sebagaimana \ndimaksud pada ayat (1). \n(4) Setiap orang yang menyebabkan pejabat bea dan cukai tidak \ndapat melaksanakan ketentuan sebagaimana dimaksud pada \nayat (1) dan pengangkut yang tidak mengindahkan ketentuan \nsebagaimana \ndimaksud \npada \nayat \n(2) \ndikenai \nsanksi \nadministrasi berupa denda paling sedikit Rp2.500.000,00 (dua \njuta \nlima \nratus \nribu \nrupiah) \ndan \npaling \nbanyak \nRp25.000.000,00 (dua puluh lima juta rupiah)."
+    },
+    {
+      "nomor": "38",
+      "text": ""
+    },
+    {
+      "nomor": "39",
+      "text": "(1) \nPejabat bea dan cukai berwenang melakukan audit cukai \nterhadap pengusaha pabrik, pengusaha tempat penyimpanan, \nimportir barang kena cukai, penyalur, dan pengguna barang \nkena cukai yang mendapatkan fasilitas pembebasan cukai \nsebagaimana dimaksud dalam Pasal 9. \n(1a) Dalam melaksanakan audit cukai sebagaimana dimaksud pada \nayat (1), pejabat bea dan cukai berwenang: \na. meminta laporan keuangan, buku, catatan dan dokumen \nyang menjadi bukti dasar pembukuan, dan dokumen lain \nyang berkaitan dengan kegiatan usaha, termasuk data \nelektronik serta surat yang berkaitan dengan kegiatan di \nbidang cukai; \nb. meminta keterangan lisan dan/atau tertulis kepada \npengusaha pabrik,  pengusaha tempat penyimpanan, \nimportir barang kena cukai, penyalur, pengguna barang \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 20 -\nkena cukai yang mendapatkan fasilitas pembebasan cukai \nsebagaimana dimaksud dalam Pasal 9, dan/atau pihak \nlain yang terkait;  \nc. memasuki \nbangunan \natau \nruangan \ntempat \nuntuk \nmenyimpan laporan keuangan, buku, catatan dan \ndokumen yang menjadi bukti dasar pembukuan, dan \ndokumen lain yang berkaitan dengan kegiatan usaha, \ntermasuk sarana/media penyimpan data elektronik, pita \ncukai atau tanda pelunasan cukai lainnya, sediaan \nbarang, dan/atau barang yang dapat memberi petunjuk \ntentang keadaan kegiatan usaha dan/atau tempat lain \nyang dianggap penting, serta melakukan pemeriksaan di \ntempat tersebut; atau \nd. melakukan tindakan pengamanan yang dipandang perlu \nterhadap bangunan atau ruangan sebagaimana dimaksud \ndalam huruf c. \n(1b) Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, penyalur, atau pengguna barang kena \ncukai \nyang \nmendapatkan \nfasilitas \npembebasan \ncukai \nsebagaimana dimaksud dalam Pasal 9, yang terhadapnya \ndilakukan audit cukai, wajib memberikan keterangan lisan \ndan/atau tertulis, menyediakan tenaga, peralatan, dan \nmenyerahkan laporan keuangan, buku, catatan dan dokumen \nyang menjadi bukti dasar pembukuan, dan dokumen lain yang \nberkaitan dengan kegiatan usaha, termasuk data elektronik \nserta surat yang berkaitan dengan kegiatan di bidang cukai. \n(1c) Dalam \nhal \npengusaha \npabrik, \npengusaha \ntempat \npenyimpanan,  importir barang kena cukai, penyalur, atau \npengguna barang kena cukai yang mendapatkan fasilitas \npembebasan cukai sebagaimana dimaksud dalam Pasal 9, \nyang terhadapnya dilakukan audit cukai, tidak berada di \ntempat atau berhalangan, kewajiban sebagaimana dimaksud \npada ayat (1b) beralih kepada yang mewakilinya. \n(2) \nSetiap orang yang menyebabkan pejabat bea dan cukai tidak \ndapat menjalankan kewenangan audit cukai dikenai sanksi \nadministrasi berupa denda sebesar Rp75.000.000,00 (tujuh \npuluh lima juta rupiah). \n(3) \nKetentuan lebih lanjut mengenai audit cukai sebagaimana \ndimaksud pada ayat (1) diatur dengan atau berdasarkan \nperaturan menteri."
+    },
+    {
+      "nomor": "40",
+      "text": "Pejabat bea dan cukai berwenang untuk mengunci, menyegel, \ndan/atau melekatkan tanda pengaman yang diperlukan terhadap \nbagian-bagian dari pabrik, tempat penyimpanan, tempat usaha \nimportir barang kena cukai, tempat usaha penyalur, tempat \npenjualan eceran, tempat lain, atau sarana pengangkut yang di \ndalamnya terdapat barang kena cukai guna pengamanan cukai. \n \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 21 -\n38. Setelah Bagian Ketiga pada BAB X ditambah 1 (satu) bagian, yakni \nBagian Keempat yang berbunyi sebagai berikut: \nBagian Keempat \nKewenangan Khusus Direktur Jenderal  \nPasal 40A\n(1) \nDirektur Jenderal karena jabatan atau atas permohonan dari \norang yang bersangkutan dapat: \na. membetulkan \nsurat \ntagihan \natau \nsurat \nkeputusan \nkeberatan, yang dalam penerbitannya terdapat kesalahan \ntulis, kesalahan hitung, dan/atau kekeliruan dalam \npenerapan ketentuan undang-undang ini; atau  \nb. mengurangi atau menghapus sanksi administrasi berupa \ndenda dalam hal sanksi tersebut dikenakan pada orang \nyang dikenai sanksi karena kekhilafan atau bukan karena \nkesalahannya. \n(2) \nKetentuan lebih lanjut mengenai tata cara pengajuan \npermohonan, pembetulan, pengurangan, atau penghapusan \nsebagaimana dimaksud pada ayat (1) diatur dengan atau \nberdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "45",
+      "text": ""
+    },
+    {
+      "nomor": "46",
+      "text": "Pasal 47 ...\n(2) Permohonan sebagaimana dimaksud pada ayat (1) diajukan secara\ntertulis dalam bahasa Indonesia dengan alasan yang jelas, dilampiri\nsalinan dari penetapan atau keputusan pejabat administrasi yang\n(3) Putusan badan peradilan pajak merupakan putusan\nakhir dan\n(1) Lembaga banding sebagaimana dimaksud dalam Pasal 44 ayat (1)\ndisebut Lembaga Pertimbangan Bea dan Cukai.\n(2) Lembaga Pertimbangan Bea dan Cukai berkedudukan di Jakarta.\n(3) Lembaga Pertimbangan Bea dan Cukai dipimpin\noleh seorang\nketua dan beranggotakan unsur pemerintah, pengusaha swasta, dan\n(1) Ketua Lembaga Pertimbangan Bea dan Cukai menunjuk majelis\nuntuk memutuskan permohonan banding yang diajukan.\n(2) Setiap majelis terdiri dari tiga anggota, yakni satu dari unsur\npemerintah, satu dari unsur pengusaha swasta, dan satu dari unsur"
+    },
+    {
+      "nomor": "47",
+      "text": "- 38 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nPasal 53 ...\nPengusaha\nPabrik\natau\nPengusaha\nTempat\nPenyimpanan\nyang\nmengeluarkan\nBarang\nKena\nCukai\ndari\nPabrik\natau\nTempat\nPenyimpanan tanpa mengindahkan ketentuan sebagaimana dimaksud\ndalam Pasal 25 ayat (1), yang mengakibatkan kerugian negara, dipidana\ndengan pidana penjara paling lama empat tahun dan denda paling\nbanyak sepuluh kali nilai cukai yang seharusnya dibayar.\nPasal 52\nPengusaha\nPabrik\nyang\ntidak\nmelakukan pencatatan\nsebagaimana\ndimaksud dalam Pasal 16 ayat (1) huruf a atau Pengusaha Tempat\nPenyimpanan yang tidak melakukan pencatatan sebagaimana dimaksud\ndalam Pasal 16 ayat (2), yang mengakibatkan kerugian negara, dipidana\ndengan pidana penjara paling lama empat tahun dan/atau\ndenda paling\nbanyak sepuluh kali nilai cukai yang seharusnya dibayar.\nPasal 51\nBarangsiapa tanpa memiliki izin sebagaimana dimaksud dalam Pasal 14,\nmenjalankan usaha Pabrik, Tempat Penyimpanan,\natau mengimpor\nBarang Kena Cukai yang pelunasan cukainya dengan cara pelekatan pita\ncukai yang mengakibatkan kerugian negara, dipidana dengan pidana\npenjara paling lama empat tahun dan denda paling banyak sepuluh kali\nnilai cukai yang seharusnya dibayar."
+    },
+    {
+      "nomor": "50",
+      "text": "Setiap orang yang tanpa memiliki izin sebagaimana dimaksud dalam \nPasal 14 menjalankan kegiatan pabrik, tempat penyimpanan, atau \nmengimpor barang kena cukai dengan maksud mengelakkan \npembayaran cukai dipidana dengan pidana penjara paling singkat 1 \n(satu) tahun dan paling lama 5 (lima) tahun dan pidana denda \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 23 -\npaling sedikit 2 (dua) kali nilai cukai dan paling banyak 10 (sepuluh) \nkali nilai cukai yang seharusnya dibayar."
+    },
+    {
+      "nomor": "53",
+      "text": "Setiap \norang \nyang \ndengan \nsengaja \nmemperlihatkan \natau \nmenyerahkan buku, catatan, dan/atau dokumen, sebagaimana \ndimaksud dalam Pasal 36 ayat (1) atau laporan keuangan, buku, \ncatatan dan dokumen yang menjadi bukti dasar pembukuan, dan \ndokumen lain yang berkaitan dengan kegiatan usaha, termasuk data \nelektronik serta surat yang berkaitan dengan kegiatan di bidang \ncukai sebagaimana dimaksud dalam Pasal 39  ayat  (1b) yang palsu \natau dipalsukan, dipidana dengan pidana penjara paling singkat 1 \n(satu) tahun dan paling lama 6 (enam) tahun dan pidana denda \npaling sedikit Rp75.000.000,00 (tujuh puluh lima juta rupiah) dan \npaling banyak Rp750.000.000,00 (tujuh ratus lima puluh juta \nrupiah)."
+    },
+    {
+      "nomor": "56",
+      "text": "Setiap orang yang menimbun, menyimpan, memiliki, menjual, \nmenukar, memperoleh, atau memberikan barang kena cukai yang \ndiketahuinya atau patut harus diduganya berasal dari tindak pidana \nberdasarkan undang-undang ini dipidana dengan pidana penjara \npaling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun dan \npidana denda paling sedikit 2 (dua) kali nilai cukai dan paling \nbanyak 10 (sepuluh) kali nilai cukai yang seharusnya dibayar."
+    },
+    {
+      "nomor": "58A",
+      "text": "(1) Setiap orang yang secara tidak sah mengakses sistem \nelektronik \nyang \nberkaitan \ndengan \npelayanan \ndan/atau \npengawasan di bidang cukai dipidana dengan pidana penjara \npaling singkat 1 (satu) tahun dan paling lama 5 (lima) tahun \ndan/atau pidana denda paling sedikit Rp50.000.000,00 (lima \npuluh juta rupiah) dan paling banyak Rp1.000.000.000,00 (satu \nmilyar rupiah). \n(2) Perbuatan sebagaimana dimaksud pada ayat (1) yang \nmengakibatkan \ntidak \nterpenuhinya \npungutan \nnegara \nberdasarkan undang-undang ini dipidana dengan pidana \npenjara paling singkat 2 (dua) tahun dan paling lama 10 \n(sepuluh) tahun dan/atau pidana denda paling sedikit \nRp1.000.000.000,00 (satu milyar rupiah) dan paling banyak \nRp5.000.000.000,00 (lima milyar rupiah)."
+    },
+    {
+      "nomor": "59",
+      "text": "- 42 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\n(3) Ketentuan ...\n(2) Barang-barang lain yang tersangkut tindak pidana berdasarkan\nketentuan Undang-undang ini dapat dirampas untuk negara.\n(1) Barang Kena Cukai yang tersangkut tindak pidana berdasarkan\nketentuan Undang-undang ini dirampas untuk negara."
+    },
+    {
+      "nomor": "62",
+      "text": "(1) Barang kena cukai yang tersangkut tindak pidana berdasarkan \nketentuan undang-undang ini dirampas negara. \n(2) Barang-barang lain yang tersangkut tindak pidana berdasarkan \nketentuan undang-undang ini dapat dirampas untuk negara. \n(3) Ketentuan lebih lanjut mengenai penyelesaian atas barang \nyang dirampas untuk negara sebagaimana dimaksud pada ayat \n(1) dan ayat (2) diatur dengan peraturan menteri."
+    },
+    {
+      "nomor": "63",
+      "text": ""
+    },
+    {
+      "nomor": "64",
+      "text": "(1) Untuk kepentingan penerimaan negara, atas\npermintaan Menteri, Jaksa Agung dapat\nmenghentikan penyidikan tindak pidana di bidang\ncukai paling lama dalam jangka waktu 6 (enam) bulan\nsejak tanggal surat permintaan.\n(21 Penghentian penyidikan sebagaimana dimaksud pada\nayat (1) hanya dilakukan atas tindak pidana\nsebagaimana dimaksud dalam Pasal 50, Pasal 52,\nPasal 54, Pasal 56, dan Pasal 58, setelah yang\nbersangkutan membayar sanksi administratif berupa\ndenda sebesar 4 (empat) kali nilai cukai yang\nseharusnya dibayar.\n(3) Dalam hal perkara pidana telah dilimpahkan\nke pengadilan, terdakwa tetap dapat membayar\nsanksi administratif sebagaimana dimaksud pada\nayat (2l..\n(4) Pembayaran ...\nSK No 115601 A\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 100-\n(4) Pembayaran sebagaimana dimaksud pada ayat (3)\nmenjadi pertimbangan untuk dituntut tanpa disertai\npenjatuhan pidana penjara.\n(5) Dalam hal pembayaran yang dilakukan oleh\ntersangka atau terdakwa pada tahap penyidikan\nsampai dengan persidangan belum memenuhi jumlah\nsebagaimana dimaksud pada ayat (2), atas\npembayaran tersebut dapat diperhitungkan sebagai\npembayaran pidana denda yang dibebankan kepada\nterdakwa.\n(6) Barang kena cukai yang terkait dengan penghentian\npenyidikan tindak pidana di bidang cukai\nsebagaimana dimaksud pada ayat (1) ditetapkan\nmenjadi barang milik negara.\n(71 Barang-barang lain yang terkait dengan penghentian\npenyidikan tindak pidana di bidang cukai\nsebagaimana dimaksud pada ayat (1) dapat\nditetapkan menjadi barang milik negara.\n(8) Menteri dan Jaksa Agung dapat melimpahkan\nkewenangan lebih lanjut kepada pejabat yang\nditunjuk, terkait permintaan dan penghentian\npenyidikan tindak pidana di bidang cukai\nsebagaimana dimaksud pada ayat (1).\n(9) Ketentuan lebih lanjut mengenai penghentian\npenyidikan sebagaimana dimaksud pada ayat (1)\ndiatur dengan atau berdasarkan Peraturan\nPemerintah.\nBAB VIII\nKETENTUAN PERALIHAN"
+    },
+    {
+      "nomor": "65",
+      "text": "Pengusaha pabrik, pengusaha tempat penyimpanan, importir \nbarang kena cukai, penyalur, pengusaha tempat penjualan eceran, \natau pengguna barang kena cukai yang mendapat fasilitas \npembebasan \ncukai \nsebagaimana \ndimaksud \ndalam \nPasal \n9, \nbertanggung jawab atas perbuatan orang yang dipekerjakan atau \nyang ditunjuk sebagai wakil atau sebagai kuasa yang berhubungan \ndengan pekerjaan mereka dalam rangka pelaksanaan undang-\nundang ini."
+    },
+    {
+      "nomor": "66",
+      "text": "(1) Barang kena cukai dan barang lain yang berasal dari pelanggar \ntidak dikenal dikuasai negara dan berada di bawah pengawasan \nDirektorat Jenderal Bea dan Cukai, dan apabila dalam jangka \nwaktu empat belas hari sejak dikuasai negara pelanggarnya \ntetap tidak diketahui, barang kena cukai dan barang lain \ntersebut menjadi milik negara. \n(2) Barang kena cukai yang pemiliknya tidak diketahui, dikuasai \nnegara dan berada di bawah pengawasan serta wajib \ndiumumkan secara resmi oleh Direktorat Jenderal Bea dan \nCukai untuk diselesaikan oleh yang bersangkutan dalam waktu \ntiga puluh hari terhitung sejak dikuasai negara, dan apabila \ndalam jangka waktu dimaksud yang bersangkutan tidak \nmenyelesaikan kewajibannya, barang kena cukai tersebut \nmenjadi milik negara. \n(3) Ketentuan lebih lanjut mengenai penyelesaian barang kena \ncukai sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur \ndengan peraturan menteri."
+    },
+    {
+      "nomor": "66A",
+      "text": "(1) Penerimaan negara dari cukai hasil tembakau yang dibuat di \nIndonesia dibagikan kepada provinsi penghasil cukai hasil \ntembakau sebesar 2% (dua persen) yang digunakan untuk \nmendanai peningkatan kualitas bahan baku, pembinaan \nindustri, pembinaan lingkungan sosial, sosialisasi ketentuan di \nbidang cukai, dan/atau pemberantasan barang kena cukai \nilegal. \n(2) Alokasi dana bagi hasil cukai hasil tembakau sebagaimana \ndimaksud pada ayat (1) ditetapkan berdasarkan realisasi \npenerimaan cukai hasil tembakau pada tahun berjalan. \n(3) Gubernur mengelola dan menggunakan dana bagi hasil cukai \nhasil tembakau dan mengatur pembagian dana bagi hasil cukai \nhasil tembakau kepada bupati/walikota di daerahnya masing-\nmasing berdasarkan besaran kontribusi penerimaan cukai hasil \ntembakaunya. \n(4) Pembagian dana bagi hasil cukai hasil tembakau sebagaimana \ndimaksud pada ayat (3) dilakukan dengan persetujuan Menteri, \ndengan komposisi 30% (tiga puluh persen) untuk provinsi \npenghasil, 40% (empat puluh persen) untuk kabupaten/kota \ndaerah penghasil, dan 30% (tiga puluh persen) untuk \nkabupaten/kota lainnya. \n \n \n \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n \n \n- 28 -"
+    },
+    {
+      "nomor": "66B",
+      "text": "Penyaluran dana bagi hasil cukai hasil tembakau dilakukan dengan \ncara pemindahbukuan dari rekening kas umum negara ke rekening \nkas umum daerah provinsi dan rekening kas umum daerah \nkabupaten/kota."
+    },
+    {
+      "nomor": "66C",
+      "text": "(1) Menteri melakukan pemantauan dan evaluasi atas penggunaan \nanggaran peningkatan kualitas bahan baku, pembinaan \nindustri, pembinaan lingkungan sosial, sosialisasi ketentuan di \nbidang cukai, dan/atau pemberantasan barang kena cukai \nilegal yang berasal dari dana bagi hasil cukai hasil tembakau \nyang dibuat di Indonesia. \n(2) Apabila hasil pemantauan dan evaluasi atas penggunaan \nanggaran peningkatan kualitas bahan baku, pembinaan \nindustri, pembinaan lingkungan sosial, sosialisasi ketentuan di \nbidang cukai, dan/atau pemberantasan barang kena cukai \nilegal yang berasal dari dana bagi hasil cukai hasil tembakau \nmengindikasikan adanya penyimpangan pelaksanaan akan \nditindaklanjuti sesuai dengan peraturan perundangan yang \nberlaku."
+    },
+    {
+      "nomor": "66D",
+      "text": "(1) Atas penyalahgunaan alokasi dana bagi hasil cukai hasil \ntembakau dapat diberikan sanksi berupa penangguhan sampai \ndengan penghentian penyaluran dana bagi hasil cukai hasil \ntembakau yang dibuat di Indonesia. \n(2) Ketentuan lebih lanjut mengenai sanksi atas penyalahgunaan \nalokasi dana bagi hasil cukai hasil tembakau sebagaimana \ndimaksud pada ayat (1) diatur dengan peraturan menteri"
+    },
+    {
+      "nomor": "67",
+      "text": "Pasal 68 ...\n(1) Barang Kena Cukai dan barang lain yang berasal dari pelanggar\ntidak dikenal\ndikuasai negara dan berada di bawah pengawasan\nDirektorat Jenderal Bea dan Cukai, dan apabila dalam jangka waktu\nempat belas hari sejak dikuasai negara pelanggarnya tetap tidak\ndiketahui, Barang Kena Cukai dan barang lain tersebut menjadi\n(2) Barang Kena Cukai yang pemiliknya tidak diketahui, dikuasai\nnegara dan berada di bawah pengawasan serta wajib diumumkan\nsecara resmi\noleh Direktorat\nJenderal\nBea dan Cukai\nuntuk\ndiselesaikan oleh yang bersangkutan dalam waktu tiga puluh hari\nterhitung sejak dikuasai negara, dan apabila dalam jangka waktu\ndimaksud yang bersangkutan tidak menyelesaikan kewajibannya,\nBarang Kena Cukai tersebut menjadi milik negara.\n(3) Ketentuan tentang penyelesaian Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dan ayat (2)\ndiatur lebih lanjut oleh\nPersyaratan dan tata cara impor Barang Kena Cukai dari suatu kawasan\nyang telah ditunjuk\nsebagai daerah perdagangan\nbebas dan/atau\npelabuhan bebas serta Pemberitahuan Pabean di instalasi dan alat-alat\nyang berada di Landas Kontinen Indonesia dan Zona Ekonomi Eksklusif\nIndonesia berlaku Undang-undang tentang Kepabeanan.\n\nPemerintah.\nUndang-undang ini.\n- 48 -\nPasal.68\nBABXV"
+    },
+    {
+      "nomor": "69",
+      "text": "Pasal 70 ...\nKetentuan\ntentang\ntata\ncara\npengenaan\nsanksi\nadministrasi\ndan\npenyesuaian besarnya sanksi administrasi serta penyesuaian besarnya\nbunga menurut Undang-undang ini diatur lebih lanjut dengan Peraturan\n(1) Dengan berlakunya Undang-undang ini, semua izin yang telah ada\ndan ditentukan batas waktunya dinyatakan tetap berlaku sampai\nhabis masa berlakunya, sedangkan bagi izin yang tidak ditentukan\nmasa\nberlakunya\ndinyatakan\ntetap\nberlaku\nselama satu tahun\n(2) Izin sebagaimana dimaksud pada ayat (1) apabila telah berakhir\nmasa berlakunya, harus diperbaharui berdasarkan ketentuan dalam\n(3) Terhadap Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan\nyang sebelum berlakunya Undang-undang ini telah menjalankan\nusahanya yang karena peraturan perundang-undangan cukai yang\nlama tidak diwajibkan memiliki izin sebagaimana diatur dalam\nUndang-undang ini,\ndalam\njangka\nwaktu\ntiga bulan\nsejak\nberlakunya Undang-undang ini harus sudah memiliki izin.\n\n3. Ordonansi ...\n2.\nOrdonansi Cukai Alkohol Sulingan (Ordonnantie Van 27 Februari\n1898 Stb!. 1898 No. 90 en 92 dan Ordonnantie Van 10 Juli 1923\nStbl. 1923 No. 344), sebagaimana telah beberapa kali diubah dan\nditambah, terakhir dengan Peraturan Pemerintah Pengganti Undang-\nundang\nNomor\n2\nPrp\nTahun\n1965\ntentang\nKebijaksanaan\nPenerimaan\nNegara\nTahun\n1966 (Lembaran\nNegara\nRepublik\nIndonesia Tahun 1965 Nomor 121);\n1.\nOrdonansi Cukai Minyak Tanah (Ordonnantie Van 27 Desember\n1886 Stb!. 1886 No. 249 dan Ordonnantie Van 11 Mai 1908 Stb!.\n1908 No.\n361),\nsebagaimana telah beberapa kali diubah dan\nditambah, terakhir dengan Peraturan Pemerintah Pengganti Undang-\nundang\nNomor\n2\nPrp\nTahun\n1965\ntentang\nKebijaksanaan\nPenerimaan\nNegara\nTahun\n1966 (Lembaran\nNegara\nRepublik\nIndonesia Tahun 1965 Nomor 121);\nDengan berlakunya undang-undang ini, dinyatakan tidak berlaku 1agi :\nPasal 71"
+    },
+    {
+      "nomor": "70",
+      "text": "- 49 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\n1965 Nomor 121);\n1965 Nomor 121);\n121).\n&0\n- 50 -"
+    },
+    {
+      "nomor": "72",
+      "text": "Agar ...\n3.\nOrdonansi Cukai Bir (Bieraccijns Ordonnantie siu. 1931 No. 488\nen 489), sebagaimana\ntelah\nbeberapa kali diubah dan ditambah,\nterakhir dengan Peraturan Pemerintah Pengganti Undang-undang\nNomor 2 Prp Tahun\n1965 tentang Kebijaksanaan Penerimaan\nNegara Tahun 1966 (Lembaran Negara Republik Indonesia Tahun\n4.\nOrdonansi Cukai Tembakau (Tabacsaccijns Ordonnantie Stbl. 1932\nNo. 517) sebagaimana telah beberapa kali diubah dan ditambah,\nterakhir dengan Peraturan Pemerintah Pengganti Undang-undang\nNomor 2 Prp Tahun 1965 tentang Kebijaksanaan Penerimaan\nNegara Tahun 1966 (Lembaran Negara Republik Indonesia Tahun\n5.\nOrdonansi Cukai Gula (Suikeraccijns Ordonnantie Stb!. 1933 No.\n351) sebagaimana telah beberapa kali diubah dan ditambah, terakhir\ndengan Peraturan Pemerintah Pengganti Undang-undang Nomor 2\nPrp Tahun 1965 tentang Kebijaksanaan Penerimaan Negara Tahun\n1966 (Lembaran Negara Republik Indonesia Tahun 1965 Nomor\nUndang-undang ini mulai berlaku pada tanggall\nApril 1996.\n\nRepublik Indonesia.\nDiundangkan di Jakarta\npada tanggal\n30\nDesember\n1995\nREPUBLIK INDONESIA\nMOERDIONO\n\"\n,\ni\n•\ni\nI\n~,\n- 51 -\nDisahkan di Jakarta\npada tanggal\n30 Des ember\n1995\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nUndang-undang ini dengan penempatannya dalam Lembaran Negara\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 76\n\n3. Peraturan ...\n2. Dalam mewujudkan peraturan perundang-undangan yang berdasarkan Pancasila\ndan Undang-Undang Dasar 1945 serta dalam rangka mendukung kesinarnbungan\npembangunan\nnasional,\ndiperlukan suatu undang-undang tentang cukai yang\nmampu\nmenjawab\ntuntutan\npembangunan\ndengan\nmenempatkan\nkewajiban\nmembayar cukai sebagai perwujudan kewajiban kenegaraan dan merupakan peran\nserta masyarakat dalam pembiayaan pembangunan.\n1. Republik Indonesia sebagai negara hukum menghendaki terwujudnya sistem hukum\nnasional yang mengabdi pada kepentingan nasional dan bersumber pada Pancasila\ndan Undang-Undang Dasar 1945. Akan tetapi, sejak kemerdekaan belum dibentuk\nundang-undang tentang cukai yang sesuai dengan perkembangan hukum nasional\nsebagai pengganti Ordonansi Cukai Minyak Tanah (Ordonnantie Van 27 Desember\n1886, Stbl. 1886 No. 249), Ordonansi Cukai Alkohol Sulingan (Ordonnantie Van\n27 Februari 1898, Stb~. 1898 No. 90 en 92), Ordonansi Cukai Bir (Bieraccijns\nOrdonnantie,\nStbl.\n1931 No.\n488\nen\n489),\nOrdonansi\nCukai\nTembakau\n(Tabaksaccijns Ordonnantie, Stbl. 1932 No. 517), dan Ordonansi Cukai Gula\n(Suikeraccijns Ordonnantie, Stbl. 1933 No. 351) beserta peraturan pelaksanaannya\nsehingga sampai pada saat ini produk-produk hukum tersebut masih diberlakukan\nberdasarkan Pasal II Aturan Peralihan Undang-Undang Dasar 1945.\nUMUM"
+    },
+    {
+      "nomor": "I",
+      "text": "4. Tempat ...\n2.\nUndang-undang\nNomor\n10 Tahun\n1995 tentang\nKepabeanan\n(Lembaran Negara Tahun 1995 Nomor 75, Tambahan Lembaran\nDEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA\nUNDANG-UNDANG TENTANG CUKAI.\nDalam undang-undang ini yang dimaksud dengan:\n1.\nCukai adalah pungutan negara yang dikenakan terhadap barang-\nbarang tertentu yang mempunyai sifat atau karakteristik yang\n2.\nPabrik adalah tempat tertentu termasuk bangunan, halaman, dan\nlapangan yang merupakan bagian daripadanya, yang dipergunakan\nuntuk menghasilkan Barang Kena Cukai dan/atau untuk mengemas\nBarang Kena Cukai dalam kemasan untuk penjualan eceran.\n3.\nPengusaha Pabrik adalah orang yang mengusahakan Pabrik.\n\ndiekspor.\nTempat Penyimpanan.\ncukai.\n- 3 -\n14. Tempat ...\n4.\nTempat Penyimpanan adalah tempat, bangunan, dan/atau lapangan\nyang bukan merupakan bagian dari Pabrik, yang dipergunakan\nuntuk menyimpan Barang Kena Cukai berupa etil alkohol\nyang\nmasih terutang cukai dengan tujuan untuk disalurkan, dijual atau\n5.\nPengusaha Tempat Penyimpanan adalah orang yang mengusahakan\n6.\nTempat Penjualan Eceran adalah tempat untuk menjual secara\neceran Barang Kena Cukai kepada konsumen akhir.\n7.\nDokumen cukai adalah dokumen yang digunakan dalam rangka\npelaksanaan\nUndang-undang\nini,\ndalam\nbentuk\nformulir\natau\n8.\nOrang adalah badan hukum atau orang pribadi.\n9.\nKantor adalah Kantor Direktorat Ienderal Bea dan Cukai.\n10. Direktorat Ienderal Bea dan Cukai adalah unsur pelaksana tugas\npokok dan fungsi Departemen Keuangan di bidang kepabeanan dan\n11. Menteri adalah Menteri Keuangan Republik Indonesia.\n12. Direktur Ienderal adalah Direktur Ienderal Bea dan Cukai.\n13. Pejabat Bea dan Cukai adalah pegawai Direktorat Ienderal Bea dan\nCukai yang ditunjuk dalam jabatan tertentu untuk melaksanakan\ntugas tertentu berdasarkan Undang-undang ini.\n\nDaerah ...\n(1) Pengenaan cukai mulai berlaku untuk Barang Kena Cukai yang\ndibuat di Indonesia\npada\nsaat\nselesai dibuat dan untuk Barang\nKena Cukai yang\ndiimpor pada\nsaat pemasukannya ke dalam\nPasal 3\n(2) Barang-barang sebagaimana dimaksud pada ayat (1) dinyatakan\nsebagai Barang Kena Cukai.\n(1) Barang-barang tertentu yang mempunyai sifat atau karakteristik\nyang ditetapkan dikenai cukai berdasarkan Undang-undang ini.\nPasal 2\n16. Daerah Pabean adalah wilayah Republik Indonesia yang meliputi\nwilayah darat, perairan, dan ruang udara di atasnya serta tempat-\ntempat tertentu di zona ekonomi eksklusif dan landas kontirien yang\ndi dalamnya berlaku Undang-undang tentang Kepabeanan.\n15. Tempat\nPenimbunan\nBerikat adalah bangunan,\ntempat atau\nkawasan yang memenuhi persyaratan tertentu yang digunakan untuk\nmenimbun, mengolah, memamerkan, dan/atau menyediakan barang\nuntuk dijual dengan mendapatkan penangguhan bea masuk.\n14. Tempat Penimbunan Sementara adalah bangunan dan/atau lapangan\natau tempat lain yang disamakan dengan itu di Kawasan Pabean\nuntuk\nmenimbun barang\nsementara\nmenunggu pemuatan\natau\npengeluarannya.\n- 4 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nKepabeanan.\netil alkohol;\n- 5 -\nBAB\nII\nPasal 4\nc. hasil ...\nDaerah\nPabean\nsesuai dengan\nketentuan\nUndang-undang\ntentang\n(2) Tanggung jawab\ncukai untuk Barang Kena Cukai yang dibuat di\nIndonesia\nberada\npada Pengusaha Pabrik atau Pengusaha Tempat\nPenyimpanan,\ndan untuk Barang Kena Cukai yang diimpor berada\npada Importir\natau pihak-pihak\nlain sebagaimana\ndimaksud\ndalam\n(3) Pemenuhan\nketentuan\ndalam undang-undang\nini dilakukan\ndengan\nmenggunakan dokumen cukai dan/atau dokumen pelengkap cukai.\nBARANG KENA CUKAI, TARIF CUKAI,\n(1) Cukai dikenakan terhadap Barang Kena Cukai yang terdiri dari:\na. etil alkohol atau etanol, dengan tidak mengindahkan\nbahan yang\ndigunakan\ndan proses pembuatannya;\nb. minuman\nyang mengandung\netil alkohol\ndalam\nkadar\nberapa\npun,\ndengan\ntidak\nmengindahkan\nbahan\nyang digunakan\ndan\nproses\npembuatannya,\ntermasuk\nkonsentrat\nyang mengandung\n\nsetinggi-tingginya:\nMasuk; atau\n- 6 -\nPasal 5\nc. hasil tembakau, yang meliputi sigaret, cerutu, rokok daun,\ntembakau iris, dan hasil pengolahan tembakau lainnya, dengan\ntidak mengindahkan digunakan atau tidak bahan pengganti atau\nbahan pembantu dalam pembuatannya.\n(2) Penambahan atau pengurangan jenis\nBarang\nKena Cukai diatur\nlebih lanjut dengan Peraturan Pemerintah.\n(1) Barang Kena Cukai\nyang dibuat di Indonesia\ndikenai\ncukai\na. dua ratus lima puluh persen dari Harga Dasar apabila Harga\nDasar yang digunakan adalah Harga Jual Pabrik; atau\nb. lima puluh lima persen\ndari\nHarga\nDasar\napabila Harga\nDasar yang digunakan adalah Harga Jual Eceran.\n(2) Barang Kena Cukai yang diimpor dikenai cukai berdasarkan tarif\na. dua ratus lima puluh persen dari Harga Dasar apabila Harga\nb. lima puluh lima persen\ndari\nHarga\nDasar\napabila Harga\n(3) Tarif ...\n\"\n,\n\nHarga Jual Eceran.\nMenteri.\n- 7 -\nPasal 6\nBAB III ...\n(3) Tarif cukai sebagaimana dimaksud pada ayat (1) dan ayat (2) dapat\ndiubah dari persentase harga dasar menjadi jumlah dalam rupiah\nuntuk setiap satuan Barang Kena Cukai atau sebaliknya atau\n(4) Ketentuan tentang besarnya tarif cukai untuk setiap jenis Barang\nKena Cukai sebagaimana dimaksud pada ayat (1) dan ayat (2), serta\nperubahan tarif cukai sebagaimana dimaksud pada ayat (3) diatur\n(1) Harga Dasar yang digunakan untuk perhitungan cukai atas Barang\nKena Cukai yang dibuat di Indonesia adalah Harga JualPabrik atau\n(2) Harga Dasar yang digunakan untuk perhitungan cukai atas Barang\nKena Cukai yang diimpor\nadalah\nNilai Pabean ditambah Bea\n(3) Ketentuan tentang penetapan Harga Dasar diatur lebih lanjut oleh\n\nPenyimpanan.\na. pembayaran; atau\noleh Menteri.\n(J\n- 8 -\nBAB III\nPasal 7\ncukai ...\n(1) Cukai atas Barang Kena Cukai yang dibuat di Indonesia, dilunasi\npada saat pengeluaran Barang Kena Cukai dari Pabrik atau Tempat\n(2) Cukai\natas Barang\nKena Cukai\nyang diimpor dilunasi pada saat\nBarang Kena Cukai diimpor untuk dipakai.\n(3) Pelunasan cukai sebagaimana dimaksud pada ayat (1) dan ayat (2)\n(4) Pita cukai sebagaimana dimaksud pada ayat (3) huruf b disediakan\n(5) Dalam hal pelunasan cukai dengan cara pelekatan pita, cukai, cukai\ndianggap\ntidak\ndilunasi\napabila\npelekatan\npita\ncukai\ntidak\ndilaksanakan sesuai dengan ketentuan Undang-undang ini.\n(6) Pengusaha Pabrik atau Importir yang melunasi cukainya dengan\ncara pelekatan pita cukai,\ndapat diberi penundaan pembayaran\n\nluar ...\na. tembakau iris\nyang dibuat dari tembakau hasil tanaman di\nIndonesia yang tidak dikemas untuk penjualan eceran atau dike-\nmas untuk penjualan eceran dengan bahan pengemas tradisional\nyang lazim dipergunakan, apabila dalam pembuatannya tidak\ndicampur atau ditambah dengan\ntembakau yang\nberasal dari\n(1) Cukai tidak dipungut\natas Barang Kena Cukai sebagaimana di-\nmaksud dalam Pasal4 ayat (I) terhadap:\nPasal 8\nTidak Dipungut Cukai\nParagraf 1\nFasilitas\nBagian Kedua\n(8) Ketentuan tentang pelunasan cukai diatur lebih lanjut oleh Menteri.\n(7) Pengusaha Pabrik atau Importir yang melunasi cukainya dengan\ncara pelekatan pita cukai yang tidak melunasi utang cukai sampai\ndengan jangka waktu penundaan berakhir, selain harus melunasi\nutang cukai dimaksud juga dikenai sanksi administrasi berupa denda\nsebesar sepuluh persen setiap bulan dari nilai cukai yang seharus-\nnya dibayar.\ncukai atas pemesanan pita cukai selama-lamanya tiga bulan sejak\ndilakukan pemesanan pita cukai.\n- 9 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nsejenis itu;\nPabean;\nb. diekspor;\nCukai;\nuntuk dipakai.\n'10\n- 10 -\ncukai ...\nluar negeri atau bahan lain yang lazim\ndipergunakan dalam\npembuatan hasil tembakau dan/atau pada kemasannya ataupun\ntembakau irisnya tidak dibubuhi merek dagang, etiket, atau yang\nb. minuman yang mengandung etil alkohol hasil peragian atau pe-\n(2) Cukai juga tidak dipungut atas Barang Kena Cukai apabila:\na. diangkut terus atau diangkut lanjut dengan tujuan luar Daerah\nc. dimasukkan ke dalam Pabrik atau Tempat Penyimpanan;\nd. digunakan sebagai bahan baku atau bahan penolong dalam\ne. telah musnah atau rusak sebelum dikeluarkan dari Pabrik,\n(3) Pengusaha Pabrik, Pengusaha Tempat Penyimpanan, Importir atau\nsetiap orang yang melanggar ketentuan tentang tidak dipungutnya\n\nlanjut oleh Menteri.\nKena Cukai;\ntahuan;\nbalik;\nkan;\n- 11 -\nParagraf2\nPasal 9\ncukai sebagaimana dimaksud pada\nayat (2), dikenai sanksi admi-\nnistrasi berupa denda paling banyak sepuluh kali nilai cukai dan\npaling sedikit dua kali nilai cukai yang seharusnya dibayar.\n(4) Ketentuan tentang pelaksanaan ayat (1) dan ayat (2) diatur lebih\n(1) Pembebasan cukai dapat diberikan atas Barang Kena Cukai:\na. yang digunakan sebagai bahan baku atau bahan penolong dalam\nb. untuk keperluan penelitian dan pengembangan ilmu penge-\nc. untuk\nkeperluan\nperwakilan\nnegara\nasmg\nbeserta\npara\nd. untuk keperluan tenaga ahli bangsa asing yang bertugas pada\ne. yang dibawa oleh penumpang, awak sarana pengangkut, pelintas\n.'.\n'\nf. yang ...\n\na. utang ...\n(1) Direktur Jenderal melakukan penagihan terhadap:\nPasal 10\nPenagihan\nBagian Pertama\nPENAGIHAN, PENGEMBALIAN, DAN KEDALUWARSA\nBAB IV\n(4) Ketentuan tentang pembebasan cukai sebagaimana dimaksud pada\nayat (1) dan ayat (2) diatur lebih lanjut oleh Menteri.\n(3) Pengusaha Pabrik, Pengusaha Tempat Penyimpanan, Importir atau\nsetiap orang yang melanggar ketentuan tentang pembebasan cukai\nsebagaimana dimaksud pada ayat (1) atau ayat (2), dikenai sanksi\nadministrasi berupa denda paling banyak sepuluh kali nilai cukai\ndan paling sedikit dua kali nilai cukai yang seharusnya dibayar.\nb. minuman yang mengandung etil alkohol dan hasil tembakau,\nyang dikonsumsi oleh penumpang dan awak sarana pengangkut\nyang berangkat langsung ke luar Daerah Pabean.\na. etil alkohol yang dirusak sehingga tidak baik untuk diminum;\n(2) Pembebasan cukai dapat juga diberikan atas Barang Kena Cukai\ntertentu yaitu:\ng. yang dimasukkan ke dalam Tempat Penimbunan Berikat.\nf. yang dipergunakan untuk tujuan sosial;\n- 12 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nc. denda administrasi.\nMenteri.\nterhadap:\nbergerak;\nbarang;\n'i\nf\n;::\n17\n- 13 -\nPasal 11\n(3) Hak ...\na. utang cukai yang tidak dilunasi pada waktunya;\nb. kekurangan cukai karena kesalahan perhitungan dalam dokumen\npemberitahuan atau pemesanan pita cukai;\n(2) Cukai dan denda administrasi sebagaimana dimaksud pada ayat (1),\ndilunasi selambat-lambatnya dalam waktu empat belas hari setelah\n(3) Ketentuan tentang tata cara penagihan diatur lebih lanjut oleh\n(1) Tagihan negara berdasarkan undang-undang ini mempunyai hak\nmendahulu atas segala tagihan terhadap harta yang berutang.\n(2) Hak mendahulu sebagaimana dimaksud pada ayat (1) tidak berlaku\na. biaya perkara yang semata-mata disebabkan oleh suatu penghu-\nb. biaya\nyang\ntelah\ndikeluarkan\nuntuk\nmenyelamatkan\nsuatu\nc. biaya perkara yang semata-mata disebabkan pelelangan dan\n\npembayaran.\n'\n..\nI:\nI,,{\n- 14 -\nPasal 12\natau ...\n(3) Hak mendahulu sebagaimana dimaksud pada ayat (1) hilang setelah\nlampau waktu dua tahun sejak dikeluarkannya Surat Tagihan,\nkecuali apabila dalam jangka waktu tersebut\ndiberikan penundaan\n(4) Apabila diberikan penundaan pembayaran sebagaimana dimaksud\npada ayat (3), jangka waktu dua tahun itu harus ditambah dengan\njangka waktu penundaan pembayaran.\n(1) Pengembalian cukai yang telah dibayar diberikan dalam hal:\na. terdapat kelebihan pembayaran karena kesalahan perhitungan;\nc. Barang Kena Cukai dimasukkan kembali ke Pabrik untuk di-\nd. Barang Kena Cukai mendapatkan pembebasan\nsebagaimana\ne. pita cukai yang telah diterima dan belum dilekatkan oleh\n\ndiimpor;\npembayaran.\nMenteri.\nyar.\n-~,\nIe;\n- 15 -\nPasal 13\nBAB V ...\nf. terdapat kelebihan pembayaran sebagai akibat putusan lembaga\n(2) Pengembalian cukai sebagaimana dimaksud pada ayat (1) dilakukan\nselambat-lambatnya tiga puluh hari sejak ditetapkannya kelebihan\n(3) Apabila pengembalian dilakukan setelah jangka waktu tiga puluh\nhari sebagaimana dimaksud pada ayat (2), Pemerintah memberikan\nbunga dua persen sebulan, dihitung setelah jangka waktu tersebut\nberakhir sampai dengan saat dilakukan pengembalian.\n(4) Ketentuan tentang pengembalian cukai diatur lebih lanjut oleh\n(1) Hak menagih utang berdasarkan undang-undang ini menjadi keda-\nluwarsa setelah sepuluh tahun sejak timbulnya kewajiban memba-\n(2) Masa kedaluwarsa sebagaimana dimaksud pada ayat (1) tidak dapat\ndiperhitungkan dalam hal ada pengakuan utang.\n\ntertentu; atau\nsia; atau\nIndonesia.\nharui.\n- 16 -\nBAB\nV\nPasal 14\n(4) Izin ...\nb. Pengusaha Tempat Penyimpanan; atau\nc.\nPengusaha\nTempat\nPenjualan\nEceran\nBarang\nKena\nCukai\nd. Importir\nBarang\nKena\nCukai\nyang\npelunasan\ncukainya\nmasing-masing wajib memiliki izin dari Menteri.\n(2) Izin sebagaimana dimaksud pada ayat (1) diberikan kepada:\na. badan hukum atau orang pribadi yang berkedudukan di Indone-\nb. badan\nhukum atau orang pribadi yang secara sah mewakili\n(3) Dalam hal pemegang izin sebagaimana dimasud pada ayat (2) huruf\na\nadalah orang pribadi, apabila yang bersangkutan meninggal\ndunia, izin dapat dipergunakan selama dua belas bulan sejak tanggal\nmeninggal yang bersangkutan oleh ahli waris\natau yang\ndikuasa-\nkan dan\nsetelah lewat jangka waktu tersebut, izin wajib diperba-\n\n(7) Barangsiapa tanpa memiliki izin sebagaimana dimaksud pada ayat\n(1), menjalankan\nusaha\nPabrik, Tempat\nPenyimpanan, Tempat\n(6) Ketentuan sebagaimana dimaksud pada ayat (5) tidak berlaku untuk\npengusaha Tempat Penjualan Eceran Barang Kena Cukai tertentu.\n(5) Dalam hal izin sebagaimana dimaksud pada ayat (1) dicabut, ter-\nhadap Barang Kena Cukai yang belum dilunasi cukainya yang\nmasih berada di dalam Pabrik atau Tempat Penyimpanan harus di-\nlunasi cukainya dan dikeluarkan dari Pabrik atau Tempat Penyim-\npanan dalam waktu tiga puluh hari sejak diterimanya surat kepu-\ntusan pencabutan izin.\nh. pemegang izin melanggar ketentuan Pasal 30.\ng. pemegang izin dipidana berdasarkan\nkeputusan hakim yang\ntelah mempunyai kekuatan hukum tetap karena\nmelanggar\nketentuan Undang-undang ini;\nPenjualan ...\nf. tidak dipenuhi ketentuan sebagaimana dimaksud pada ayat (3);\ne. pemegang izin dinyatakan pailit;\nd. pemegang izin tidak\nlagi secara sah mewakili badan hukum\natau orang pribadi yang berkedudukan di luar Indonesia;\nc. persyaratan perizinan tidak lagi dipenuhi;\nb. tidak dilakukan kegiatan selama satu tahun;\na. atas permohonan pemegang izin yang bersangkutan;\n(4) Izin sebagaimana dimaksud pada ayat (1) dapat dicabut dalam hal:\n- 17 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nMenteri.\n,\nJ'\nI\nfbi\n- 18 -\nPasal 15\nBAB VI\nPasal 16\nyang ...\nPenjualan Eceran Barang Kena Cukai tertentu, atau mengimpor\nBarang Kena Cukai yang pelunasan cukainya dengan cara pelekatan\npita cukai, dikenai sanksi administrasi berupa denda paling banyak\nRpl00.000.000,OO (seratus juta rupiah).\n(8) Ketentuan tentang pemberian izin dan pencabutan izin diatur lebih\n(1) Pembuatan Barang Kena Cukai berupa hasil tembakau dapat di-\nizinkan dilakukan di luar Pabrik dan merupakan tanggung jawab\n(2) Ketentuan tentang pelaksanaan ayat (1) diatur lebih lanjut oleh\nPENCATATAN DAN PENCACAHAN\na. mencatat dalam Buku Persediaan mengenai Barang Kena Cukai\n\ndari Pabrik;\ndicatat.\n- 19 -\nPasal 17\nTempat ...\nyang dibuat di Pabrik, dimasukkan ke Pabrik atau dikeluarkan\nb. memberitahukan secara berkala kepada Kepala Kantor tentang\nBarang Kena Cukai yang selesai dibuat.\n(2) Pengusaha Tempat Penyimpanan\nwajib\nmencatat dalam Buku\nPersediaan mengenai Barang Kena Cukai yang dimasukkan ke atau\ndikeluarkan dari Tempat Penyimpanan.\n(3) Pengusaha Pabrik yang tidak melakukan pencatatan sebagaimana\ndimaksud\npada\nayat\n(1)\nhuruf\na\ndan\nPengusaha\nTempat\nPenyimpanan\nyang\ntidak\nmelakukan\npencatatan\nsebagaimana\ndimaksud pada ayat (2), dikenai sanksi administrasi berupa denda\nsebesar satu kali nilai cukai dari Barang Kena Cukai yang tidak\n(4) Pengusaha\nPabrik\nyang\ntidak\nmelakukan\npemberitahuan\nsebagaimana\ndimaksud pada ayat (1) huruf b, dikenai sanksi\nadministrasi berupa denda sebesar satu kali nilai cukai dari Barang\n(5) Ketentuan tentang Buku Persediaan dan pemberitahuan Barang\nKena Cukai yang selesai dibuat sebagaimana dimaksud pada ayat\n(1) dan ayat (2) diatur lebih lanjut oleh Menteri.\n(1) Pejabat Bea dan Cukai wajib menyelenggarakan Buku Rekening\nBarang Kena Cukai untuk setiap Pengusaha Pabrik atau Pengusaha\n\nPenyimpanan.\nBarang Kena Cukai.\ntakwim.\n- 20 -\nPasal 18\nPasal 19\nTempat Penyimpanan\nmengenai Barang Kena Cukai tertentu yang\nmasih\nterutang\ncukai\ndan\nberada\ndi\nPabrik\natau\nTempat\n(2) Pejabat Bea dan Cukai mencatat Barang Kena Cukai yang masih\nterutang cukai sebagaimana dimaksud dalam Pasal 16 ayat (1) huruf\nb dan Pasal 25 ayat (1) atau ayat (3) ke dalam Buku Rekening\n(3) Pengusaha\nPabrik\natau\nPengusaha\nTempat\nPenyimpanan\nbertanggung jawab atas utang cukai dari Barang Kena Cukai yang\nada menurut Buku Rekening Barang Kena Cukai.\n(1) Buku Rekening Barang Kena Cukai ditutup pada setiap akhir tahun\n(2) Buku Rekening Barang Kena Cukai juga ditutup setelah dilakukan\natau\natas\npermintaan\nPengusaha\nPabrik\natau\npencacahan\n(3) Ketentuan tentang Buku Rekening Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dan ayat (2), serta dalam Pasal 17 ayat (1)\ndan ayat (2) diatur lebih lanjut oleh Menteri.\n(1) Pejabat Bea dan Cukai wajib menyelenggarakan Buku Rekening\nKredit untuk setiap Pengusaha Pabrik atau Importir mengenai cukai\n,\n~.\nyang ...\n\nMenteri.\nCukai.\n- 21 -\nPasal 20\nPasal 21\npotongan ...\nyang mendapatkan penundaan sebagaimana dimaksud dalam Pasal 7\nayat (6) dan pelunasan atau penyelesaiannya.\n(2) Ketentuan tentang\nBuku Rekening Kredit diatur lebih lanjut oleh\n(1) Barang Kena Cukai tertentu yang ada dalam Pabrik atau Tempat\nPenyimpanan\nsetiap waktu dapat dicacah oleh Pejabat Bea dan\n(2) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan wajib\nmenunjukkan semua Barang Kena Cukai yang ada di dalam tempat\nyang dimaksud pada ayat (1), serta menyediakan tenaga dan\nperalatan untuk keperluan pencacahan.\n(3) Ketentuan tentang pencacahan diatur lebih lanjut oleh Menteri.\n(1) Dalam hal jumlah hasil pencacahan sebagaimana dimaksud dalam\nPasal 20 kedapatan lebih kecil daripada jumlah yang tercantum\ndalam Buku Rekening Barang Kena Cukai, kepada Pengusaha\nPabrik\natau\nPengusaha\nTempat\nPenyimpanan\ndiberikan\n\nterakhir.\nCukai.\nPasal 21 ayat (1).\n- 22 -\nPasal 22\nPasal 23\n(2) Kelebihan ...\npotongan setinggi-tingginya sepuluh persen\ndari jurnlah Barang\nKena Cukai yang dihasilkan atau dirnasukkan sejak pencacahan\n(2) Potongan sebagairnana dirnaksud pada ayat (1), dikurangkan dari\nselisih antara hasil pencacahan\ndengan\nBuku\nRekening\nBarang\nKena Cukai,\ndan\nsisanya rnerupakan kekurangan yang cukainya\nharus dilunasi oleh Pengusaha Pabrik atau Pengusaha Ternpat\nPenyirnpanan dalarn waktu tiga puluh hari setelah tanggal penutupan\n(3) Ketentuan tentang jenis Barang Kena Cukai yang dapat diberikan\npotongan dan besarnya potongan diatur lebih lanjut oleh Menteri.\nPotongan tidak diberikan apabila jurnlah hasil pencacahan sebagairnana\ndirnaksud dalarn Pasal 20 kedapatan sarna atau lebih besar daripada\njurnlah sediaan yang\ntercanturn\ndalarn Buku Rekening Barang Kena\n(1) Kekurangan Barang Kena Cukai sebagairnana dirnaksud dalarn\nPasal 21 ayat (2) diberikan kelonggaran yang besarnya tidak\nrnelebihi tiga kali jurnlah potongan sebagairnana dirnaksud dalarn\n\nlebih.\ntentang Kepabeanan.\n! ;\n- 23 -\nBAB VII\nPasal 24\n(3) Ketentuan ...\n(2) Kelebihan\nBarang\nKena Cukai\nsebagaimana\ndimaksud\ndalam\nPasal 22, diberikan kelonggaran yang besarnya tidak melebihi satu\npersen dari jumlah Barang Kena Cukai yang seharusnya ada\nmenurut Buku Rekening Barang Kena Cukai.\n(3) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan yang di\ndalam Pabrik atau Tempat Penyimpanannya kedapatan kekurangan\nBarang Kena Cukai sebagaimana dimaksud dalam Pasal 21 ayat (2)\natau kelebihan Barang Kena Cukai sebagaimana dimaksud dalam\nPasal 22 yang melebihi kelonggaran sebagaimana dimaksud pada\nayat (1) atau ayat (2), dikenai sanksi administrasi berupa denda\npaling banyak sepuluh kali nilai cukai dan paling sedikit dua kali\nnilai cukai dari Barang Kena Cukai yang kedapatan kurang atau\n(1) Barang\nKena\nCukai\nyang belum\ndilunasi\ncukainya dapat\nditimbun dalam Tempat\nPenimbunan\nSementara\natau Tempat\nPenimbunan Berikat sebagaimana diatur dalam Undang-undang\n(2) Barang\nKena\nCukai\nyang\nbelum\ndilunasi\ncukainya\nyang\ndipergunakan\nsebagai bahan baku atau bahan penolong dapat\n\n(5) Ketentuan ...\n(4) Pengusaha Pabrik\natau Pengusaha Tempat Penyimpanan\nyang\nmengeluarkan\nBarang\nKena\nCukai\ndari\nPabrik\natau\nTempat\nPenyimpanan tanpa mengindahkan ketentuan sebagaimana dimaksud\npada ayat (1), dikenai sanksi administrasi berupa denda sebesar satu\nkali nilai cukai dari Barang Kena Cukai yang dikeluarkan.\n(3) Dalam hal pemasukan atau pengeluaran Barang Kena Cukai di\nbawah pengawasan Pejabat Bea dan Cukai, yang menjadi dasar\nuntuk membukukan dalam Buku Rekening Barang Kena Cukai\nsebagaimana dimaksud dalam Pasal 17 adalah yang didapati oleh\nPejabat Bea dan Cukai yang bersangkutan.\n(2) Pemasukan atau pengeluaran Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dapat dilakukan di bawah pengawasan\nPejabat Bea dan Cukai.\n(1) Pemasukan atau pengeluaran Barang Kena Cukai ke atau dari\nPabrik atau Tempat Penyimpanan,\nwajib diberitahukan kepada\nKepala Kantor dan dilindungi dengan dokumen cukai.\nPasal 25\nBagian Pertama\nPemasukan dan Pengeluaran\nnAB VIII\nPEMASUKAN, PENGELUARAN,\nPENGANGKUTAN,DANPERDAGANGAN\n(3) Ketentuan tentang penimbunan sebagaimana dimaksud pada ayat (1)\ndan ayat (2) diatur lebih lanjut oleh Menteri.\n- 24 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nwaktu yang ditetapkan.\nlanjut oleh Menteri.\n- 25 -\nPasal 26\nBagian ...\n(5) Ketentuan tentang pemasukan atau pengeluaran Barang Kena Cukai\nsebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur\n(1) Dalam keadaan darurat, Barang Kena Cukai yang belum dilunasi\ncukainya\ndapat\ndipindahkan\nke\nluar\nPabrik\natau\nTempat\nPenyimpanan tanpa dilindungi dokumen cukai.\n(2) Pemindahan Barang Kena Cukai sebagaimana dimaksud pada ayat\n(1) harus segera dilaporkan kepada Kepala Kantor dalam jangka\n(3) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan yang tidak\nmelaporkan pemindahan Barang Kena Cukai yang belum dilunasi\ncukainya karena keadaan darurat sebagaimana dimaksud pada ayat\n(2),\ndikenai\nsanksi administrasi berupa\ndenda paling banyak\nRp5.000.000,OO (lima juta rupiah) dan paling sedikit Rp500.000,OO\n(4) Ketentuan tentang pelaksanaan ayat (1) dan ayat (2) diatur lebih\n\nrupiah).\nMenteri.\n- 26 -\nPasal 27\nPasal 28\ndilampaui ...\n(1) Pengangkutan Barang Kena Cukai yang belum dilunasi cukainya\nharus dilindungi dengan dokumen cukai.\n(2) Pengangkutan Barang\nKena\nCukai tertentu, walaupun\nsudah\ndilunasi cukainya, harus dilindungi dengan dokumen cukai.\n(3) Barangsiapa\ntidak\nmemenuhi\nketentuan\ntentang\npengangkutan\nBarang Kena Cukai yang belum dilunasi cukainya sebagaimana\ndimaksud pada ayat (1), dikenai sanksi administrasi berupa denda\npaling banyak sepuluh kali nilai cukai dan paling sedikit dua kali\n(4) Barangsiapa\ntidak memenuhi ketentuan tentang pengangkutan\nBarang Kena Cukai sebagaimana dimaksud pada ayat (2), dikenai\nsanksi administrasi berupa denda paling banyak Rp5.000.000,OO\n(lima juta rupiah) dan paling sedikit Rp500.000,OO(lima ratus ribu\n(5) Ketentuan tentang pengangkutan Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dan ayat (2) diatur lebih lanjut oleh\nJangka waktu\nyang\ntelah ditetapkan\ndalam dokumen\ncukai\nsebagaimana dimaksud dalam Pasal 27 ayat (1) atau ayat (2), sebelum\n\nMenteri.\nterhadap:\n- 27 -\nPasal 29\nBABIX\nPasal 30\na. Pabrik ...\ndilampaui\ndapat diperpanjang\nmasa berlakunya\noleh\nKepala\nKantor\nyang\nmengawasi tempat Barang Kena Cukai bersangkutan\nberada.\n(1) Barang\nKena\nCukai\nyang\npelunasan\ncukainya\ndengan\ncara\npelekatan\npita cukai hanya boleh ditawarkan,\ndiserahkan,\ndijual,\natau\ndisediakan\nuntuk\ndijual,\nsetelah dikemas\nuntuk\npenjualan\neceran dan dilekati pita cukai yang diwajibkan.\n(2) Barang Kena Cukai yang pelunasan cukainya dengan cara pelekatan\npita cukai yang berada dalam Tempat Penjualan Eceran atau tempat\nlain\nyang\nkegiatannya\nadalah\nuntuk\nmenjual\neceran\ndianggap\n(3) Ketentuan\ntentang\nperdagangan\nBarang\nKena Cukai\nsebagaimana\ndimaksud\npada\nayat\n(I)\ndan\nayat\n(2) diatur\nlebih\nlanjut\noleh\n(1) Di dalam Pabrik dilarang menghasilkan\nbarang selain Barang Kena\nCukai yang ditetapkan dalam surat izin yang bersangkutan.\n(2)\nLarangan\nsebagaimana\ndimaksud\npada\nayat\n(1)\ntidak\nberlaku\n\n(3) Pengusaha\nTempat\nPenyimpanan\nyang\nmelanggar\nketentuan\nlarangan sebagaimana dimaksud pada ayat (1) huruf b, dikenai\nsanksi administrasi berupa denda paling banyak\nRpl0.000.000,OO\n(sepuluh juta rupiah) dan paling sedikit Rpl.000.000,OO (satu juta\nrupiah).\nPasal 32 ...\n(2) Barang Kena Cukai yang telah dilunasi\ncukainya\natau yang\nmendapatkan pembebasan cukai yang kedapatan berada di dalam\nTempat Penyimpanan dianggap belum dilunasi cukainya atau tidak\nmendapatkan pembebasan cukai.\nb. menyimpan barang\nselain Barang Kena Cukai yang ditetapkan\ndalam surat izin bersangkutan.\na. menyimpan Barang Kena Cukai yang telah dilunasi cukainya\natau yang mendapatkan pembebasan cukai;\n(1) Di dalam Tempat Penyimpanan dilarang:\nPasal 31\nb.\nPabrik Barang Kena Cukai selain etil alkohol yang menghasilkan\nbarang lainnya yang bukan Barang Kena Cukai, sepanjang di dalam\nPabrik tersebut dilakukan pemisahan secara fisik antara Barang\nKena Cukai dan bukan Barang Kena Cukai, baik dalam produksinya\nmaupun tempat penimbunan bahan baku atau bahan penolong dan\nhasil produksi akhirnya.\na.\nPabrik etil alkohol yang memproduksi secara terpadu barang lain\nyang bukan merupakan Barang Kena Cukai dengan menggunakan\netil alkohol sebagai bahan baku atau bahan penolong;\n- 28 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\n(1) Pejabat Bea dan Cukai berwenang\nmengambil tindakan yang\ndiperlukan\natas\nBarang\nKena\nCukai\nberupa\npenghentian,\nPasal 33\nBagian Pertama\nUmum\nKEWENANGAN DI BIDANG CUKAI\nBABX\n(2) Pengusaha Pabrik,\nImportir\natau pengusaha Tempat Penjualan\nEceran Barang Kena Cukai yang pelunasan cukainya dengan cara\npelekatan\npita\ncukai\nyang\nmelanggar\nketentuan\nlarangan\nsebagaimana dimaksud pada ayat (1), dikenai sanksi administrasi\nberupa denda paling banyak sepuluh kali nilai cukai dan paling\nsedikit dua kali nilai cukai dari pita\ncukai yang kedapatan telah\ndipakai atau masih utuh.\nb. menyimpan atau menyediakan pengemas Barang Kena Cukai\nyang telah dipakai dengan pita cukai yang masih utuh.\na. menyimpan atau menyediakan pita cukai yang telah dipakai;\npemeriksaan ...\n(1) Di dalam Pabrik, tempat usaha Importir, dan Tempat Penjualan\nEceran Barang Kena Cukai yang pelunasan cukainya dengan cara\npelekatan pita cukai dilarang:\nPasal 32\n- 29 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nUndang-undang ini.\nmemenuhinya.\n- 30 -\nPasal 34\nBagian ...\npemeriksaan,\npenegahan,\ndan penyegelan\nuntuk\nmelaksanakan\n(2) Pejabat Bea dan Cukai berwenang menegah Barang Kena Cukai\n(3) Dalam melaksanakan kewenangan sebagaimana dimaksud pada ayat\n(1) dan ayat (2) Pejabat Bea dan Cukai dapat dilengkapi dengan\nsenjata api yang jenis dan syarat-syarat penggunaannya diatur\n(4) Ketentuan tentang tata cara penindakan sebagaimana dimaksud pada\nayat (1) dan penegahan sebagaimana dimaksud pada ayat (2) diatur\nlebih lanjut dengan Peraturan Pemerintah.\n(1) Dalam melaksanakan tugas berdasarkan Undang-undang ini, Pejabat\nBea dan Cukai dapat\nmeminta bantuan angkatan bersenjata\n(2) Atas permintaan sebagaimana dimaksud pada ayat (1), angkatan\nbersenjata\ndan/atau\ninstansi\nlainnya\nberkewajiban\nuntuk\n\nPasal 36 ...\n(5) Barangsiapa menyebabkan Pejabat Bea dan Cukai tidak dapat\nmelaksanakan ketentuan sebagaimana dimaksud pada ayat (1), ayat\n(2), dan ayat (3), dikenai sanksi administrasi berupa denda paling\nbanyak Rp50.000.000,OO(lima puluh juta rupiah) dan paling sedikit\nRp5.000.000,OO(limajuta rupiah).\n(4) Dalam melakukan pemeriksaan sebagaimana dimaksud pada ayat\n(1), ayat (2), dan ayat (3), Pejabat Bea dan Cukai berwenang\nmengambil contoh Barang Kena Cukai.\n(3) Pejabat Bea dan Cukai berwenang\nuntuk memeriksa Tempat\nPenjualan Eceran atau tempat-tempat lain yang bukan rumah tinggal\nyang di dalamnya terdapat Barang Kena Cukai.\n(2) Pejabat Bea dan Cukai berwenang melakukan pemeriksaan atas\nbangunan atau tempat lain yang secara langsung atau tidak langsung\nberhubungan dengan bangunan atau tempat sebagaimana dimaksud\npada ayat (1).\n(1) Pejabat Bea dan Cukai berwenang melakukan pemeriksaan atas\nPabrik,\nTempat\nPenyimpanan\natau\ntempat-tempat\nlain\nyang\ndigunakan untuk menyimpan Barang Kena Cukai yang belum\ndilunasi cukainya atau memperoleh pembebasan cukai.\nPasal 35\nBagian Kedua\nPemeriksaan Bangunan dan Sarana Pengangkut\n- 31 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n3'\n\n\nperusahaan.\nberada di atasnya.\nayat (1).\n- 32 -\nPasal 36\nPasal 37\n(4) Barangsiapa ...\n(1) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan atau orang\nyang\nterhadapnya\ndilakukan\npemeriksaan,\nwajib\nmenyediakan\ntenaga, peralatan dan menyerahkan catatan atau dokumen yang\nwajib diadakan berdasarkan Undang-undang ini dan pembukuan\n(2) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan atau orang\nyang terhadapnya dilakukan pemeriksaan yang tidak menyediakan\ntenaga atau\nperalatan atau tidak menyerahkan catatan, dokumen\natau pembukuan perusahaan pada waktu dilakukan pemeriksaan\nsebagaimana dimaksud pada ayat (1), dikenai sanksi administrasi\nberupa denda paling banyak Rp50.000.000,OO (lima puluh juta\nrupiah) dan paling sedikit Rp5.000.000,OO(limajuta rupiah).\n(1) Pejabat\nBea dan\nCukai\nberwenang\nuntuk\nmenghentikan\ndan\nmemeriksa sarana pengangkut serta Barang Kena Cukai yang\n(2) Pengangkut wajib menunjukkan dokumen cukai dan/atau dokumen\npelengkap cukai yang diwajibkan menurut Undang-undang ini.\n(3) Sarana pengangkut yang disegel oleh dinas pos atau penegak hukum\nlain, dikecualikan dari pemeriksaan sebagaimana dimaksud pada\n\nuntuk melakukan:\nbangunan;\n- 33 -\nPasal 38\nPasal 39\n(2) Barangsiapa ...\n(4) Barangsiapa menyebabkan Pejabat Bea dan Cukai tidak dapat\nmelaksanakan ketentuan sebagaimana dimaksud pada ayat (1) dan\npengangkut\nyang\ntidak\nmengindahkan\nketentuan\nsebagaimana\ndimaksud pada ayat (2), dikenai sanksi administrasi berupa denda\npaling banyak Rp 5.000.000,00 (lima juta rupiah) dan paling sedikit\nRp 500.000,00 (lima ratus ribu rupiah).\n(1) Pemeriksaan atas bangunan atau tempat lain sebagaimana dimaksud\ndalam Pasal 35 harus dengan surat perintah dari Direktur Jenderal.\n(2) Surat Perintah sebagaimana dimaksud pada ayat (1) tidak diperlukan\na. pengejaran orang dan/atau Barang Kena Cukai yang memasuki\nb. pemeriksaan bangunan atau tempat lain oleh Pejabat Bea dan\n(1) Pejabat Bea dan Cukai berwenang memeriksa buku, catatan, atau\ndokumen yang diwajibkan oleh Undang-undang ini dan pembukuan\nperusahaan\nyang berkaitan\ndengan\nBarang Kena\nCukai\nserta\nsediaan Barang Kena Cukai dari Pabrik, Tempat Penyimpanan atau\ntempat-tempat lain sebagaimana dimaksud dalam Pasal 35 untuk\n\nJenderal ...\n(1) Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan dapat\nmengajukan keberatan\nsecara\ntertulis\nhanya\nkepada\nDirektur\nPasal 41\nBagian Pertama\nKeberatan dan Banding\nBABXI\nKEBERATAN, BANDING, DAN LEMBAGA BANDING\nPejabat Bea dan Cukai berwenang untuk mengunci, menyegel,\ndan/atau melekatkan tanda pengaman yang diperlukan pada bagian-\nbagian dari\nPabrik,\nTempat\nPenyimpanan,\nTempat\nPenjualan\nEceran,\ntempat-tempat lain\natau\nsarana\npengangkut\nyang\ndi\ndalamnya terdapat Barang Kena Cukai guna pengamanan cukai.\nPasal 40\nBagian Ketiga\nPenyegelan\n(2) Barangsiapa menyebabkan Pejabat Bea dan Cukai\ntidak dapat\nmelaksanakan ketentuan sebagaimana dimaksud pada ayat (1),\ndikenai\nsanksi\nadministrasi\nberupa\ndenda\npaling\nbanyak\nRp50.000.000,OO (lima puluh juta\nrupiah)\ndan paling\nsedikit\nRp5.000.000,OO(limajuta rupiah).\n- 34 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nditetapkan.\njaminan dikembalikan.\n., .\n- 35 -\n(7) Apabila ...\nJenderal\natas\nhasil\npenutupan\nBuku\nRekening\nBarang Kena\nCukai sebagaimana\ndimaksud dalam Pasal 18 dalam jangka waktu\ntiga puluh hari setelah tanggal penutupan,\ndengan\nmenyerahkan\njaminan sebesar cukai yang kurang dibayar.\n(2) Orang yang dikenai sanksi administrasi dapat mengajukan keberatan\nsecara\ntertulis\nhanya kepada Direktur\nJenderal\ndalam\njangka\nwaktu\ntiga\npuluh\nhari sejak diterimanya\nsurat pemberitahuan\ndengan\nmenyerahkan\njaminan\nsebesar\nsanksi\nadministrasi\nyang\n(3) Direktur\nJenderal\nmemutuskan\nkeberatan\nsebagaimana\ndimaksud\npada ayat (1) dan ayat (2) dalam jangka\nwaktu enam puluh hari\n(4) Apabila dalam\njangka\nwaktu\nenam puluh\nhari\nsebagaimana\ndimaksud\npada\nayat\n(3)\nDirektur\nJenderal\ntidak\nmemberikan\nkeputusan,\nkeberatan\nyang\nbersangkutan\ndianggap\nditerima\ndan\n(5) Apabila Direktur\nJenderal\nmemutuskan\nmenerima\nkeberatan\nyang\n(6) Dalam\nhal\njaminan\nberupa\nuang\ntunai,\napabila\npengembalian\njaminan sebagaimana dimaksud pada ayat (4) dan ayat (5) dilakukan\nsetelah jangka waktu enam puluh hari sebagaimana\ndimaksud pada\nayat (3), Pemerintah\nmemberikan\nbunga dua persen sebulan untuk\nselama-lamanya\ndua puluh empat bulan.\n\nyang terutang dilunasi.\nNomor 9 Tahun 1994.\n., .\nI,.\n- 36 -\nPasal 42\nPasal 43\nPasal 44\n(2) Permohonan\n...\n(7) Apabila\nDirektur\nJenderal\nmemutuskan\nmeno1ak keberatan\nyang\ndiajukan, jaminan dicairkan dan cukai dan/atau\nsanksi administrasi\nyang ditetapkan dianggap te1ah di1unasi.\nOrang yang berkeberatan\natas pencabutan\nizin bukan atas permohonan\nsendiri sebagaimana dimaksud da1am Pasal 14 ayat (4) huruf b, huruf c,\nhuruf d, huruf\ne, huruf f, huruf g, atau huruf h, atau atas keputusan\nDirektur Jenderal sebagaimana dimaksud da1am Pasal 41 ayat (3) dapat\nmengajukan banding da1am jangka waktu enam puluh hari sejak tanggal\npenetapan\natau keputusan,\nsetelah cukai dan/atau\nsanksi\nadministrasi\nPermohonan\nbanding\nsebagaimana\ndimaksud\ndalam Pasal 42 diajukan\nhanya\nkepada\nbadan\nperadilan\npajak\nsebagaimana\ndimaksud\nda1am\nUndang-undang\nNomor\n6 Tahun\n1983 tentang Ketentuan\nUmum\ndan\nTata Cara Perpajakan\nsebagaimana te1ah diubah dengan Undang-undang\n(1) Sebe1um badan\nperadilan\npajak\ndibentuk,\npermohonan\nbanding\nyang\nputusannya\nbukan\ndiajukan\nkepada\n1embaga\nbanding\nmerupakan keputusan Tata Usaha Negara .\n\ndimohonkan banding.\nbersifat tetap.\npakar.\npakar.\n- 37 -\nPasal 45\nPasal 46\nPasal 47 ...\n(2) Permohonan sebagaimana dimaksud pada ayat (1) diajukan secara\ntertulis dalam bahasa Indonesia dengan alasan yang jelas, dilampiri\nsalinan dari penetapan atau keputusan pejabat administrasi yang\n(3) Putusan badan peradilan pajak merupakan putusan\nakhir dan\n(1) Lembaga banding sebagaimana dimaksud dalam Pasal 44 ayat (1)\ndisebut Lembaga Pertimbangan Bea dan Cukai.\n(2) Lembaga Pertimbangan Bea dan Cukai berkedudukan di Jakarta.\n(3) Lembaga Pertimbangan Bea dan Cukai dipimpin\noleh seorang\nketua dan beranggotakan unsur pemerintah, pengusaha swasta, dan\n(1) Ketua Lembaga Pertimbangan Bea dan Cukai menunjuk majelis\nuntuk memutuskan permohonan banding yang diajukan.\n(2) Setiap majelis terdiri dari tiga anggota, yakni satu dari unsur\npemerintah, satu dari unsur pengusaha swasta, dan satu dari unsur\n\nBAB XII ...\nSusunan organisasi dan tata kerja serta urusan mengenai administrasi,\ntunjangan, pengeluaran, dan tata tertib Lembaga Pertimbangan Bea dan\nCukai ditetapkan dengan Peraturan Pemerintah.\nPasal 49\npermasalahan yang diperiksa harus mengundurkan diri dari majelis.\nmempunyai\nkepentingan\npribadi\ndengan\nAnggota\nmajelis\nyang\nPasal 48\n(4) Putusan\nmajelis\ndiberitahukan\nkepada\npemohon\nbanding\ndan\nDirektur\nJenderal\nselambat-lambatnya empat\nbelas\nhari\nsejak\ntanggal ditetapkan putusan.\n(3) Dalam hal tidak dicapai permufakatan sebagaimana dimaksud pada\nayat (2), putusan didasarkan pada suara terbanyak.\n(2) Putusan majelis diambil berdasarkan musyawarah untuk mufakat.\n(1) Persidangan majelis untuk memutuskan suatu permohonan banding\nbersifat tertutup.\nPasal 47\n- 38 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nPasal 53 ...\nPengusaha\nPabrik\natau\nPengusaha\nTempat\nPenyimpanan\nyang\nmengeluarkan\nBarang\nKena\nCukai\ndari\nPabrik\natau\nTempat\nPenyimpanan tanpa mengindahkan ketentuan sebagaimana dimaksud\ndalam Pasal 25 ayat (1), yang mengakibatkan kerugian negara, dipidana\ndengan pidana penjara paling lama empat tahun dan denda paling\nbanyak sepuluh kali nilai cukai yang seharusnya dibayar.\nPasal 52\nPengusaha\nPabrik\nyang\ntidak\nmelakukan pencatatan\nsebagaimana\ndimaksud dalam Pasal 16 ayat (1) huruf a atau Pengusaha Tempat\nPenyimpanan yang tidak melakukan pencatatan sebagaimana dimaksud\ndalam Pasal 16 ayat (2), yang mengakibatkan kerugian negara, dipidana\ndengan pidana penjara paling lama empat tahun dan/atau\ndenda paling\nbanyak sepuluh kali nilai cukai yang seharusnya dibayar.\nPasal 51\nBarangsiapa tanpa memiliki izin sebagaimana dimaksud dalam Pasal 14,\nmenjalankan usaha Pabrik, Tempat Penyimpanan,\natau mengimpor\nBarang Kena Cukai yang pelunasan cukainya dengan cara pelekatan pita\ncukai yang mengakibatkan kerugian negara, dipidana dengan pidana\npenjara paling lama empat tahun dan denda paling banyak sepuluh kali\nnilai cukai yang seharusnya dibayar.\nPasal 50\nBAB XII\nKETENTUAN PIDANA\n- 39 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nc. mempergunakan ...\nb.\nmembeli,\nmenyimpan,\nmempergunakan,\nmenjual,\nmenawarkan,\nmenyerahkan, menyediakan untuk dijual, atau mengimpor pita\ncukai yang palsu atau dipalsukan atau dibuat secara melawan\nhukum; atau\na.\nmembuat, meniru, atau memalsukan pita cukai; atau\nBarangsiapa secara melawan hukum:\nPasal 55\nBarangsiapa menawarkan, menyerahkan, menjual, atau menyediakan\nuntuk dijual Barang Kena Cukai yang tidak dikemas untuk penjualan\neceran atau tidak dilekati pita cukai sebagaimana dimaksud dalam Pasal\n29 ayat (1), dipidana dengan pidana denda paling banyak sepuluh kali\nnilai cukai yang seharusnya dibayar.\nPasal 54\nRpI50.000.000,00 (seratus lima puluh juta rupiah).\npaling\nlama\nenam\ntahun\ndan\ndenda\npaling\nbanyak\npenjara\nBarangsiapa\nmembuat,\nmenggunakan,\natau\nmenyerahkan\nbuku\nsebagaimana dimaksud dalam Pasal 16, Pasal 17, dan Pasal 19, atau\ndokumen cukai yang palsu atau dipalsukan,\ndipidana dengan\npidana\nPasal 53\n- 40 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\nPasal 59 ...\nBarangsiapa menawarkan, menjual, atau menyerahkan pita cukai kepada\nyang tidak berhak, atau membeli, menerima, atau menggunakan pita\ncukai yang bukan haknya, dipidana dengan pidana penjara paling lama\nempat tahun dan/atau denda paling banyak sepuluh kali nilai cukai yang\nseharusnya dibayar.\nPasal 58\nBarangsiapa tanpa izin membuka, melepas, atau merusak kunci, segel,\natau\ntanda pengaman sebagaimana\ndimaksud dalam Pasal 40, di-\npidana dengan pidana penjara paling lama dua tahun dan/atau denda\npaling banyak RpI50.000.000,OO (seratus lima puluh juta rupiah).\nPasal 57\nBarangsiapa menimbun, menyimpan,· memiliki, menjual,\nmenukar,\nmemperoleh, atau memberikan Barang Kena Cukai yang berasal dari\ntindak pidana berdasarkan Undang-undang ini, dipidana dengan pidana\npenjara paling lama empat tahun dan/atau denda paling banyak sepuluh\nkali nilai cukai yang seharusnya dibayar.\nPasal 56\ndipidana dengan pidana penjara paling lama delapan tahun dan denda\npaling banyak dua puluh kali nilai cukai yang seharusnya dibayar.\nc.\nmempergunakan, menjual, menawarkan, menyerahkan, menyedia-\nkan untuk dijual, atau mengimpor pita cukai yang sudah dipakai,\n- 41 -\nPRESIDEN\nREPUBLIK INDONESIA\nV(\\\n\n\nyayasan ...\n(2) Tindak pidana menurut Undang-undang ini dianggap dilakukan oleh\natau atas nama badan hukum, perseroan, perusahaan, perkumpulan,\nb. mereka yang memberikan perintah untuk melakukan tindak\npidana tersebut atau yang bertindak sebagai pimpinan atau yang\nmelalaikan pencegahannya.\na. badan\nhukum, perseroan, perusahaan, perkumpulan, yayasan,\natau koperasi tersebut; dan/atau\n(1) Jika suatu tindak pidana menurut Undang-undang ini dilakukan oleh\natau\natas\nnama\nsuatu badan\nhukum,\nperseroan,\nperusahaan,\nperkumpulan, yayasan, atau koperasi, tuntutan pidana dan sanksi\npidana dijatuhkan terhadap:\nPasal 61\nTindak pidana dalam Undang-undang ini tidak dapat dituntut setelah\nlampau waktu sepuluh tahun sejak terjadinya tindak pidana.\nPasal 60\n(2) Dalam hal penggantian sebagaimana dimaksud pada ayat (1) tidak\ndapat dipenuhi, pidana denda diganti dengan pidana kurungan\npaling lama enam bulan.\n(1) Dalam hal pidana denda tidak dibayar oleh yang bersangkutan,\ndiambilkan dari kekayaan dan/atau pendapatan yang bersangkutan\nsebagai gantinya.\nPasal 59\n- 42 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\n(3) Ketentuan ...\n(2) Barang-barang lain yang tersangkut tindak pidana berdasarkan\nketentuan Undang-undang ini dapat dirampas untuk negara.\n(1) Barang Kena Cukai yang tersangkut tindak pidana berdasarkan\nketentuan Undang-undang ini dirampas untuk negara.\nPasal 62\n(4) Terhadap\nbadan hukum, perseroan, perusahaan, perkumpulan,\nyayasan, atau koperasi yang dipidana berdasarkan Undang-undang\nini, pidana pokok yang dijatuhkan senantiasa berupa pidana denda\npaling banyak Rp300.000.000,OO(tiga ratus juta rupiah) jika tindak\npidana tersebut diancam dengan pidana penjara,\ndengan tidak\nmenghapuskan pidana denda apabila tindak pidana tersebut diancam\ndengan pidana penjara dan pidana denda.\n(3) Jika suatu tuntutan pidana dilakukan terhadap suatu badan hukum,\nperseroan,\nperkumpulan,\nyayasan,\natau\nkoperasi\npada\nwaktu\npenuntutan diwakili oleh seorang pengurus, atau jika ada lebih dari\nseorang pengurus oleh salah seorang dari mereka itu dan wakil\ntersebut dapat diwakili oleh orang lain.\nyayasan, atau koperasi jika tindak pidana tersebut dilakukan oleh\norang-orang, baik berdasarkan hubungan kerja maupun berdasarkan\nhubungan lain, bertindak dalam lingkungan badan hukum, perseroan,\nperusahaan, perkumpulan, yayasan, atau koperasi tersebut, tanpa\nmemperhatikan\napakah\norang-orang\nitu\nmasing-masing\ntelah\nmelakukan tindak secara sendiri-sendiri atau bersama-sama.\n- 43 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\ne. memeriksa ...\nd. memotret\ndan/atau\nmerekam\nmelalui\nmedia\naudio\nvisual\nterhadap orang, barang, sarana pengangkut, atau apa saja yang\ndapat dijadikan bukti adanya tindak pidana di bidang cukai;\nc. melakukan penangkapan dan penahanan terhadap orang yang\ndisangka melakukan tindak pidana di bidang cukai;\nb. memanggil\norang\nuntuk\ndidengar\ndan\ndiperiksa\nsebagai\ntersangka atau saksi;\na. menerima laporan atau keterangan dari seseorang tentang adanya\ntindak pidana di bidang cukai;\n(2) Penyidik sebagaimana dimaksud pada ayat (I) karena kewajibannya\nberwenang:\n(I) Pejabat Pegawai Negeri Sipil tertentu di lingkungan Direktorat\nJenderal Bea dan Cukai diberi wewenang khusus sebagai penyidik\nsebagaimana dimaksud dalam Undang-undang Nomor\n8 Tahun\n1981 tentang Hukum Acara Pidana untuk melakukan penyidikan\ntindak pidana di bidang cukai.\nPasal 63\nBAB XIII\nPENYIDIKAN\n(3) Ketentuan tentang penyelesaian\natas barang yang dirampas untuk\nnegara sebagaimana dimaksud pada ayat (1) dan ayat (2) diatur\nlebih lanjut oleh Menteri.\n- 44 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\ncukai;\nbidang cukai;\n- 45 -\n(3) Penyidik ...\ne. memeriksa catatan dan pembukuan yang diwajibkan menurut\nUndang-undang ini dan pembukuan lainnya;\ng. menggeledah rumah tinggal, pakaian dan badan;\nh. menggeledah tempat atau sarana pengangkut dan memeriksa\nbarang yang terdapat di dalamnya apabila dicurigai adanya\n1. menyita benda-benda yang diduga keras merupakan barang yang\nJ.\nmemberikan tanda pengaman dan mengamankan apa saja yang\nk. mendatangkan tenaga ahli yang diperlukan dalam hubungannya\n1. menyuruh berhenti\nseorang tersangka pelaku tindak pidana di\nlain\nyang\nperlu untuk kelancaran\nn. melakukan\ntindakan\n\nPidana.\nbidang cukai.\nUndang-undang ini.\n- 46 -\nPasal 64\nBAB XIV\nPasal 65\nPasal 66 ...\n(3) Penyidik sebagaimana dimaksud pada ayat (1) memberitahukan\ndimulainya penyidikan dan menyampaikan hasil penyidikannya\nkepada Penuntut Umum sesuai dengan ketentuan yang diatur oleh\nUndang-undang Nomor\n8 Tahun\n1981 tentang Hukum Acara\n(1) Untuk kepentingan penerimaan negara, atas permintaan Menteri,\nJaksa Agung dapat menghentikan penyidikan tindak pidana di\n(2) Penghentian penyidikan tindak pidana di bidang cukai sebagaimana\ndimaksud pada ayat (1), hanya dilakukan setelah yang bersangkutan\nmelunasi cukai yang tidak dan/atau\nkurang\ndibayar\nditambah\ndengan sanksi administrasi berupa denda sebesar empat kali nilai\ncukai yang tidak dan/atau kurang dibayar.\nPengusaha Pabrik,\nPengusaha Tempat\nPenyimpanan, atau\nImportir\nBarang Kena Cukai bertanggung jawab atas perbuatan orang yang\ndipekerjakan atau yang ditunjuknya sebagai wakil atau sebagai kuasa\nyang berhubungan dengan pekerjaan mereka dalam rangka pelaksanaan\n\nmilik negara.\nMenteri.\n- 47 -\nPasal 66\nPasal 67\nPasal 68 ...\n(1) Barang Kena Cukai dan barang lain yang berasal dari pelanggar\ntidak dikenal\ndikuasai negara dan berada di bawah pengawasan\nDirektorat Jenderal Bea dan Cukai, dan apabila dalam jangka waktu\nempat belas hari sejak dikuasai negara pelanggarnya tetap tidak\ndiketahui, Barang Kena Cukai dan barang lain tersebut menjadi\n(2) Barang Kena Cukai yang pemiliknya tidak diketahui, dikuasai\nnegara dan berada di bawah pengawasan serta wajib diumumkan\nsecara resmi\noleh Direktorat\nJenderal\nBea dan Cukai\nuntuk\ndiselesaikan oleh yang bersangkutan dalam waktu tiga puluh hari\nterhitung sejak dikuasai negara, dan apabila dalam jangka waktu\ndimaksud yang bersangkutan tidak menyelesaikan kewajibannya,\nBarang Kena Cukai tersebut menjadi milik negara.\n(3) Ketentuan tentang penyelesaian Barang Kena Cukai sebagaimana\ndimaksud pada ayat (1) dan ayat (2)\ndiatur lebih lanjut oleh\nPersyaratan dan tata cara impor Barang Kena Cukai dari suatu kawasan\nyang telah ditunjuk\nsebagai daerah perdagangan\nbebas dan/atau\npelabuhan bebas serta Pemberitahuan Pabean di instalasi dan alat-alat\nyang berada di Landas Kontinen Indonesia dan Zona Ekonomi Eksklusif\nIndonesia berlaku Undang-undang tentang Kepabeanan.\n\nPemerintah.\nUndang-undang ini.\n- 48 -\nPasal.68\nBABXV\nPasal 69\nPasal 70 ...\nKetentuan\ntentang\ntata\ncara\npengenaan\nsanksi\nadministrasi\ndan\npenyesuaian besarnya sanksi administrasi serta penyesuaian besarnya\nbunga menurut Undang-undang ini diatur lebih lanjut dengan Peraturan\n(1) Dengan berlakunya Undang-undang ini, semua izin yang telah ada\ndan ditentukan batas waktunya dinyatakan tetap berlaku sampai\nhabis masa berlakunya, sedangkan bagi izin yang tidak ditentukan\nmasa\nberlakunya\ndinyatakan\ntetap\nberlaku\nselama satu tahun\n(2) Izin sebagaimana dimaksud pada ayat (1) apabila telah berakhir\nmasa berlakunya, harus diperbaharui berdasarkan ketentuan dalam\n(3) Terhadap Pengusaha Pabrik atau Pengusaha Tempat Penyimpanan\nyang sebelum berlakunya Undang-undang ini telah menjalankan\nusahanya yang karena peraturan perundang-undangan cukai yang\nlama tidak diwajibkan memiliki izin sebagaimana diatur dalam\nUndang-undang ini,\ndalam\njangka\nwaktu\ntiga bulan\nsejak\nberlakunya Undang-undang ini harus sudah memiliki izin.\n\n3. Ordonansi ...\n2.\nOrdonansi Cukai Alkohol Sulingan (Ordonnantie Van 27 Februari\n1898 Stb!. 1898 No. 90 en 92 dan Ordonnantie Van 10 Juli 1923\nStbl. 1923 No. 344), sebagaimana telah beberapa kali diubah dan\nditambah, terakhir dengan Peraturan Pemerintah Pengganti Undang-\nundang\nNomor\n2\nPrp\nTahun\n1965\ntentang\nKebijaksanaan\nPenerimaan\nNegara\nTahun\n1966 (Lembaran\nNegara\nRepublik\nIndonesia Tahun 1965 Nomor 121);\n1.\nOrdonansi Cukai Minyak Tanah (Ordonnantie Van 27 Desember\n1886 Stb!. 1886 No. 249 dan Ordonnantie Van 11 Mai 1908 Stb!.\n1908 No.\n361),\nsebagaimana telah beberapa kali diubah dan\nditambah, terakhir dengan Peraturan Pemerintah Pengganti Undang-\nundang\nNomor\n2\nPrp\nTahun\n1965\ntentang\nKebijaksanaan\nPenerimaan\nNegara\nTahun\n1966 (Lembaran\nNegara\nRepublik\nIndonesia Tahun 1965 Nomor 121);\nDengan berlakunya undang-undang ini, dinyatakan tidak berlaku 1agi :\nPasal 71\nBAB XVI\nKETENTUANPENUTUP\norang.\nTerhadap urusan cukai yang pada saat berlakunya Undang-undang ini\nbelum\ndapat\ndiselesaikan,\npenyelesaiannya\ndilakukan\nberdasarkan\nketentuan perundang-undangan di bidang cukai yang meringankan setiap\nPasal 70\n- 49 -\nPRESIDEN\nREPUBLIK\nINDONESIA\n\n\n1965 Nomor 121);\n1965 Nomor 121);\n121).\n&0\n- 50 -\nPasal 72\nAgar ...\n3.\nOrdonansi Cukai Bir (Bieraccijns Ordonnantie siu. 1931 No. 488\nen 489), sebagaimana\ntelah\nbeberapa kali diubah dan ditambah,\nterakhir dengan Peraturan Pemerintah Pengganti Undang-undang\nNomor 2 Prp Tahun\n1965 tentang Kebijaksanaan Penerimaan\nNegara Tahun 1966 (Lembaran Negara Republik Indonesia Tahun\n4.\nOrdonansi Cukai Tembakau (Tabacsaccijns Ordonnantie Stbl. 1932\nNo. 517) sebagaimana telah beberapa kali diubah dan ditambah,\nterakhir dengan Peraturan Pemerintah Pengganti Undang-undang\nNomor 2 Prp Tahun 1965 tentang Kebijaksanaan Penerimaan\nNegara Tahun 1966 (Lembaran Negara Republik Indonesia Tahun\n5.\nOrdonansi Cukai Gula (Suikeraccijns Ordonnantie Stb!. 1933 No.\n351) sebagaimana telah beberapa kali diubah dan ditambah, terakhir\ndengan Peraturan Pemerintah Pengganti Undang-undang Nomor 2\nPrp Tahun 1965 tentang Kebijaksanaan Penerimaan Negara Tahun\n1966 (Lembaran Negara Republik Indonesia Tahun 1965 Nomor\nUndang-undang ini mulai berlaku pada tanggall\nApril 1996.\n\nRepublik Indonesia.\nDiundangkan di Jakarta\npada tanggal\n30\nDesember\n1995\nREPUBLIK INDONESIA\nMOERDIONO\n\"\n,\ni\n•\ni\nI\n~,\n- 51 -\nDisahkan di Jakarta\npada tanggal\n30 Des ember\n1995\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nUndang-undang ini dengan penempatannya dalam Lembaran Negara\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1995 NOMOR 76\n\n3. Peraturan ...\n2. Dalam mewujudkan peraturan perundang-undangan yang berdasarkan Pancasila\ndan Undang-Undang Dasar 1945 serta dalam rangka mendukung kesinarnbungan\npembangunan\nnasional,\ndiperlukan suatu undang-undang tentang cukai yang\nmampu\nmenjawab\ntuntutan\npembangunan\ndengan\nmenempatkan\nkewajiban\nmembayar cukai sebagai perwujudan kewajiban kenegaraan dan merupakan peran\nserta masyarakat dalam pembiayaan pembangunan.\n1. Republik Indonesia sebagai negara hukum menghendaki terwujudnya sistem hukum\nnasional yang mengabdi pada kepentingan nasional dan bersumber pada Pancasila\ndan Undang-Undang Dasar 1945. Akan tetapi, sejak kemerdekaan belum dibentuk\nundang-undang tentang cukai yang sesuai dengan perkembangan hukum nasional\nsebagai pengganti Ordonansi Cukai Minyak Tanah (Ordonnantie Van 27 Desember\n1886, Stbl. 1886 No. 249), Ordonansi Cukai Alkohol Sulingan (Ordonnantie Van\n27 Februari 1898, Stb~. 1898 No. 90 en 92), Ordonansi Cukai Bir (Bieraccijns\nOrdonnantie,\nStbl.\n1931 No.\n488\nen\n489),\nOrdonansi\nCukai\nTembakau\n(Tabaksaccijns Ordonnantie, Stbl. 1932 No. 517), dan Ordonansi Cukai Gula\n(Suikeraccijns Ordonnantie, Stbl. 1933 No. 351) beserta peraturan pelaksanaannya\nsehingga sampai pada saat ini produk-produk hukum tersebut masih diberlakukan\nberdasarkan Pasal II Aturan Peralihan Undang-Undang Dasar 1945.\nUMUM"
+    },
+    {
+      "nomor": "3A",
+      "text": "(1) Dokumen \ncukai \ndan/atau \ndokumen \npelengkap \ncukai \nsebagaimana dimaksud dalam Pasal 3 ayat (3) disampaikan \ndalam bentuk tulisan di atas formulir atau dalam bentuk data \nelektronik. \n(2) Dokumen \ncukai \ndan/atau \ndokumen \npelengkap \ncukai \nsebagaimana dimaksud pada ayat (1) merupakan alat bukti \nyang sah menurut undang-undang ini. \n(3) Ketentuan lebih lanjut mengenai dokumen cukai dan/atau \ndokumen pelengkap cukai sebagaimana dimaksud pada ayat \n(1) diatur dengan atau berdasarkan peraturan menteri."
+    },
+    {
+      "nomor": "3B",
+      "text": "Terhadap \nbarang \nkena \ncukai \nberlaku \nseluruh \nketentuan \nsebagaimana diatur dalam undang-undang ini. \n \n4. Pasal 4 tetap dengan perubahan penjelasan Pasal 4 ayat (2) \nsehingga penjelasan Pasal 4 menjadi sebagaimana ditetapkan \ndalam penjelasan pasal demi pasal undang-undang ini."
+    },
+    {
+      "nomor": "40B",
+      "text": "Pasal 408\n(1) Pejabat Bea dan Cukai berwenang melakukan\npenelitian dugaan pelanggaran di bidang cukai.\n(2) Dalam hal hasil penelitian dugaan pelanggaran\nsebagaimana dimaksud pada ayat (1) merupakan\npelanggaran administratif di bidang cukai,\ndiselesaikan secara administratif sesuai dengan\nketentuan peraturan perundang-undangan di bidang\ncukai.\n2\nSK No I15600 A\n(3) Hasil\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-99 -\n(3) Hasil penelitian sebagaimana dimaksud pada ayat (1)\ndapat tidak dilakukan penyidikan dalam hal:\na. terdapat dugaan pelanggaran sebagaimana\ndimaksud dalam Pasal 50, Pasal 52, Pasal 54,\nPasal 56, dan Pasal 58; dan\nb. yang bersangkutan membayar sanksi\nadministratif berupa denda sebesar 3 (tiga) kali\nnilai cukai yang seharusnya dibayar.\n(4) Barang kena cukai terkait dugaan pelanggaran yang\ntidak dilakukan penyidikan sebagaimana dimaksud\npada ayat (3) ditetapkan menjadi barang milik negara.\n(5) Barang-barang lain terkait dugaan pelanggaran yang\ntidak dilakukan penyidikan sebagaimana dimaksud\npada ayat (3) dapat ditetapkan menjadi barang milik\nnegara.\n(6) Ketentuan lebih lanjut mengenai dugaan pelanggaran\nyang tidak dilakukan penyidikan sebagaimana\ndimaksud pada ayat (3) diatur dengan Peraturan\nMenteri.\n3"
+    }
+  ]
+}

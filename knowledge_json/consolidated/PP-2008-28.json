@@ -1,0 +1,84 @@
+{
+  "target_document_id": "PP-2008-28",
+  "chain": [
+    "PP-2019-39"
+  ],
+  "provision_sources": {
+    "PP-2019-39": "provisions"
+  },
+  "applied_count": 2,
+  "unparsed_count": 0,
+  "applied": [
+    {
+      "amending": "PP-2019-39",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "6",
+      "source_quote": "Ketentuan ayat (1) Pasal 6 diubah sehingga berbunyi\nsebagai berikut:\nPasal 6\n(1) Besarnya denda yang dinyatakan dalam persentase\ntertentu minimum sampai dengan maksimum dari\nkekurangan pembayaran bea ",
+      "note": "ok"
+    },
+    {
+      "amending": "PP-2019-39",
+      "ordinal": 2,
+      "action": "SISIP",
+      "target": "10A",
+      "source_quote": "Diantara Pasal 10 dan Pasal 11 disisipkan 1 (satu) pasal\nyakni Pasal 10A yang berbunyi sebagai berikut:\nPasal 10A\nKetentuan lebih lanjut mengenai tata cara penghitungan\nsanksi administrasi berupa dend",
+      "note": "ok"
+    }
+  ],
+  "unparsed": [],
+  "provisions": [
+    {
+      "nomor": "1",
+      "text": "Dalam Peraturan Pemerintah ini yang dimaksud dengan: \n1. Undang-Undang adalah Undang-Undang Nomor 10 Tahun 1995 \ntentang Kepabeanan sebagaimana telah diubah dengan Undang-\nUndang Nomor 17 Tahun 2006 tentang Perubahan Atas \nUndang-Undang Nomor 10 Tahun 1995 tentang Kepabeanan. \n2. Menteri adalah Menteri Keuangan Republik Indonesia. \n3. Pejabat bea dan cukai adalah pegawai Direktorat Jenderal Bea \ndan Cukai yang ditunjuk dalam jabatan tertentu untuk \nmelaksanakan tugas tertentu berdasarkan Undang-Undang."
+    },
+    {
+      "nomor": "2",
+      "text": "(1) Sanksi administrasi berupa denda dikenakan hanya terhadap \npelanggaran yang diatur dalam Undang-Undang. \n(2)  Sanksi administrasi berupa denda sebagaimana dimaksud pada \nayat (1)  besarnya dinyatakan dalam:                      \na. nilai rupiah tertentu; \nb. nilai rupiah minimum sampai dengan maksimum; \nc. persentase tertentu dari bea masuk yang seharusnya \ndibayar; \nd. persentase tertentu minimum sampai dengan maksimum \ndari kekurangan pembayaran bea masuk atau bea keluar; \natau \ne. persentase tertentu minimum sampai dengan maksimum \ndari bea masuk yang seharusnya dibayar."
+    },
+    {
+      "nomor": "3",
+      "text": "(1)  Besarnya denda yang dinyatakan dalam nilai rupiah tertentu \nsebagaimana dimaksud dalam Pasal 2 ayat (2) huruf a \ndilaksanakan sesuai dengan Undang-Undang. \n(2) \nKetentuan  sebagaimana dimaksud pada ayat (1) berlaku \nuntuk Pasal 10A ayat (8), Pasal 11A ayat (6), Pasal 45 ayat (3), \nPasal 52 ayat (1) dan ayat (2), Pasal 81 ayat (3), Pasal 82 ayat \n(3) huruf b, Pasal 86 ayat (2), Pasal 89 ayat (4), Pasal 90 ayat \n(4), dan Pasal 91 ayat (4) Undang-Undang."
+    },
+    {
+      "nomor": "4",
+      "text": "(1) Besarnya denda yang dinyatakan dalam nilai rupiah minimum \nsampai dengan maksimum sebagaimana dimaksud dalam Pasal \n2 ayat (2) huruf b ditetapkan secara berjenjang dengan \nketentuan apabila dalam 6 (enam) bulan terakhir terjadi: \na. 1 (satu) kali pelanggaran, dikenai denda sebesar 1 (satu) kali \ndenda minimum; \nb. 2 (dua) kali pelanggaran, dikenai denda sebesar 2 (dua) kali \ndenda minimum; \nc. 3 (tiga) sampai dengan 4 (empat) kali pelanggaran, dikenai \ndenda sebesar 5 (lima) kali denda minimum; \nd. 5 (lima) sampai 6 (enam) kali pelanggaran, dikenai denda \nsebesar 7 (tujuh) kali denda minimum; \ne. lebih dari 6 (enam) kali pelanggaran, dikenai denda sebesar 1 \n(satu) kali denda maksimum. \n(2)  Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 7A ayat (7), Pasal 7A ayat (8), Pasal 8A ayat (2) dan ayat \n(3), Pasal 8C ayat (3) dan ayat (4), Pasal 9A ayat (3), dan      \nPasal 10A ayat (3) dan ayat (4) Undang-Undang."
+    },
+    {
+      "nomor": "5",
+      "text": "(1)  Besarnya denda yang dinyatakan dalam persentase tertentu dari \nbea masuk yang seharusnya dibayar sebagaimana dimaksud \ndalam Pasal 2 ayat (2) huruf c diperoleh dari hasil perkalian \npersentase tertentu dengan bea masuk yang seharusnya \ndibayar.  \n(2) Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 10B ayat (6), Pasal 10D ayat (5) dan ayat (6), Pasal 43 ayat \n(3),  dan Pasal 45 ayat (4) Undang-Undang."
+    },
+    {
+      "nomor": "6",
+      "text": "(1) Besarnya denda yang dinyatakan dalam persentase\ntertentu minimum sampai dengan maksimum dari\nkekurangan pembayaran bea masuk atau bea keluar\nsebagaimana dimaksud dalam Pasal 2 ayat (21\nhuruf d ditetapkan secara berjenjang berdasarkan\nperbandingan antara total kekurangan pembayaran\nbea masuk atau bea keluar yang terkena denda\ndengan total pembayaran bea masuk atau bea\nkeluar yang telah dibayar dari seluruh barang impor\natau barang ekspor yang dikenai denda dalam satu\npemberitahuan pabean, dengan ketentuan apabila\ntotal kekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda:\na. sampai dengan 5Oo/o (lima puluh persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar LOOo/o (seratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nb. di atas 50% (lima puluh persen) sampai dengan\nlOOo/o (seratus persen) dari total bea masuk\natau bea keluar yang telah dibayar yang dikenai\ndenda, dikenai denda sebesar 125% (seratus\ndua puluh lima persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;\nc. di atas lOOo/o (seratus persen) sampai dengan\n150% (seratus lima puluh persen) dari total bea\nmasuk atau bea keluar yang telah dibayar yang\ndikenai denda, dikenai denda sebesar l5O%\n(seratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nd. di atas\n\n\nPRES I DEN\nREPUBLIK INDONESIA\n-4-\nd. di atas l5Oo/o (seratus lima puluh persen)\nsampai dengan 2OOo/o (dua ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 175% (seratus tujuh puluh lima persen)\ndari total kekurangan pembayaran bea masuk\natau bea keluar yang terkena denda;\ne. di atas 2OOo/o (dua ratus persen) sampai dengan\n25ooh (dua ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n2OOo/o (dua ratus persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;\nf. di atas 25ooh (dua ratus lima puluh persen)\nsampai dengan 3OOo/o (tiga ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 225% (dua ratus dua puluh lima\npersen) dari total kekurangan pembayaran bea\nmasuk atau bea keluar yang terkena denda;\ng. di atas 300% (tiga ratus persen) sampai dengan\n350% (tiga ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n25Oo/o (dua ratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nh. di atas 350% (tiga ratus lima puluh persen)\nsampai dengan 4OOo/o (empat ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 3OOo/o (tiga ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\ni. di atas . .\n\n\n2\nPRES I DEN\nREPUBLIK INDONESIA\n-5-\ni. di atas 4OOo/o (empat ratus persen) sampai\ndengan 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 6000/o (enam ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda; atau\nj. \ndi atas 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 1000% (seribu persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda.\n(21 Ketentuan sebagaimana dimaksud pada ayat (1)\nberlaku untuk Pasal 16 ayat (4), Pasal 17 ayat (41,\nPasal 82 ayat (5) dan ayat (6), dan Pasal 86A\nUndang-Undang."
+    },
+    {
+      "nomor": "7",
+      "text": "(1)  Besarnya denda yang  dinyatakan dalam  persentase   minimum \nsampai dengan maksimum dari bea masuk yang seharusnya \ndibayar sebagaimana dimaksud dalam Pasal 2 ayat (2) huruf e \nditetapkan secara berjenjang berdasarkan perbandingan antara \nbea masuk atas fasilitas yang disalahgunakan dengan total bea \nmasuk yang mendapat fasilitas dengan ketentuan apabila \nkekurangan pembayaran bea masuk : \n\n\na. sampai dengan 20% (dua puluh persen), dikenai denda \nsebesar 100% (seratus persen) dari bea masuk yang \nseharusnya dibayar; \nb. di atas 20% (dua puluh persen) sampai dengan 40% (empat \npuluh persen), dikenai denda sebesar 200% (dua ratus \npersen) dari bea masuk yang seharusnya dibayar; \nc. di atas 40% (empat puluh persen) sampai dengan 60% (enam \npuluh persen), dikenai denda sebesar 300% (tiga ratus \npersen) dari bea masuk yang seharusnya dibayar; \nd. di atas 60% (enam puluh persen) sampai dengan 80% \n(delapan puluh persen), dikenai denda sebesar 400% (empat \nratus persen) dari bea masuk yang seharusnya dibayar; atau \ne. di atas 80% (delapan puluh persen) sampai dengan 100% \n(seratus persen), dikenai denda sebesar 500% (lima ratus \npersen) dari bea masuk yang seharusnya dibayar. \n \n(2) Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 25 ayat (4) dan Pasal 26 ayat (4) Undang-Undang."
+    },
+    {
+      "nomor": "8",
+      "text": "Terhadap pelanggaran yang dikenai sanksi administrasi berupa \ndenda yang dihitung berdasarkan persentase dari bea masuk, dalam \nhal tarif atau tarif akhir bea masuk atas barang yang berkaitan \ndengan pelanggaran tersebut besarnya 0% (nol persen), dikenai \nsanksi adminstrasi berupa denda sebesar Rp 5.000.000,00 (lima juta \nrupiah)."
+    },
+    {
+      "nomor": "9",
+      "text": "Terhadap pelanggaran yang ditemukan berdasarkan hasil audit \nyang dikenai denda sebagaimana dimaksud dalam Pasal 10A ayat \n(8), Pasal 11A ayat (6), Pasal 45 ayat (3), Pasal 52 ayat (1) dan ayat \n(2) Undang-Undang, dikenai denda 1 (satu) kali."
+    },
+    {
+      "nomor": "10",
+      "text": "Pengenaan \nsanksi \nadministrasi \nsebagaimana \ndiatur \ndalam \nPeraturan \nPemerintah \nini, \nditetapkan \ndalam \nbentuk \nsurat \npenetapan."
+    },
+    {
+      "nomor": "10A",
+      "text": "Ketentuan lebih lanjut mengenai tata cara penghitungan\nsanksi administrasi berupa denda sebagaimana\ndimaksud dalam Pasal 3 sampai dengan Pasal 8 diatur\ndengan Peraturan Menteri"
+    },
+    {
+      "nomor": "11",
+      "text": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan \nPemerintah Nomor 22 Tahun 1996 tentang Pengenaan Sanksi \nAdministrasi Kepabeanan (Lembaran Negara Republik Indonesia \nTahun 1996 Nomor 37, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3627), dicabut dan dinyatakan tidak berlaku."
+    },
+    {
+      "nomor": "12",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. \n \nAgar setiap orang mengetahuinya, memerintahkan pengundangan \nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran \nNegara Republik Indonesia. \n \nDitetapkan di Jakarta \npada tanggal 11 April 2008 \nPRESIDEN REPUBLIK INDONESIA, \n \nttd \n \nDR. H. SUSILO BAMBANG YUDHOYONO \n \n \nDiundangkan di Jakarta \nPada tanggal 11 April 2008 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \n                   REPUBLIK INDONESIA, \nttd \n   ANDI MATTALATA \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 53"
+    }
+  ]
+}

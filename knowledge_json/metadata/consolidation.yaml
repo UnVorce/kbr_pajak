@@ -24,4 +24,20 @@ chains:
   UU-1997-19: [UU-2000-19]
   # Tax Holiday (PMK 69/2024 diambil manual dari JDIH Kemenkeu)
   PMK-2020-130: [PMK-2024-69]
+  # Jasa Konstruksi, Saham, Piutang, Konsultan (Fase 3B)
+  PP-2008-51: [PP-2009-40, PP-2022-9]
+  PP-1994-41: [PP-1997-14]
+  PMK-2009-105: [PMK-2010-57, PMK-2015-207]
+  PMK-2014-111: [PMK-2022-175]
+  # PPnBM, KEK, KPBPB, Migas, Batubara, Kepabeanan & Cukai (Fase 3B)
+  PP-2019-73: [PP-2021-74]
+  PMK-2021-96: [PMK-2023-15]
+  PMK-2020-237: [PMK-2021-33]
+  PP-2021-41: [PP-2025-25, PP-2026-23]
+  PP-2010-79: [PP-2017-27, PP-2021-93]
+  PP-2022-15: [PP-2025-18]
+  UU-1995-10: [UU-2006-17]
+  UU-1995-11: [UU-2007-39, UU-2021-7]
+  PP-2008-28: [PP-2019-39]
+  PP-2009-32: [PP-2015-85]
 pending_ck: [UU-2020-11, PERPU-2022-2, UU-2023-6]

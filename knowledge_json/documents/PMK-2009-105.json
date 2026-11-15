@@ -1,0 +1,40 @@
+{
+  "document_id": "PMK-2009-105",
+  "jenis": "PMK",
+  "tahun": 2009,
+  "judul": "Peraturan Menteri Keuangan  Nomor 105/PMK.03/2009 Tahun 2009 tentang Piutang Yang Nyata-Nyata Tidak Dapat Ditagih Yang Dapat Dikurangkan Dari Penghasilan Bruto",
+  "articles": [],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source": {
+    "origin": "fetched_bpk_3b",
+    "url": "https://peraturan.bpk.go.id/Details/127433/pmk-no-105pmk032009",
+    "pages": 4
+  },
+  "quality": {
+    "zero_pasal": true,
+    "garbled_title": false,
+    "ocr_suspect": false
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "2009-06-10",
+  "tanggal_pengundangan": "2009-06-10",
+  "tanggal_berlaku_sumber": "2009-06-10",
+  "sumber_publikasi": "BN.2009/NO.133, jdih.kemenkeu.go.id : 4 hlm.",
+  "subjek_sumber": "PIUTANG, UTANG, DAN HIBAH NEGARA / DAERAH",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/127433/pmk-no-105pmk032009"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/247234/PMK%20Nomor%20105%20Tahun%202009.pdf",
+      "type": "pdf"
+    }
+  ],
+  "structure": "UNKNOWN",
+  "preamble": "I \n. w \n\n\n2/4 \nhttps://jdih.kemenkeu.go.id/fullText/2009/105-PMK.03-2009Per.HTM",
+  "penjelasan": "",
+  "penjelasan_articles": [],
+  "provisions": []
+}
