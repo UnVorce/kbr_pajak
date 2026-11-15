@@ -1,0 +1,1256 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ontology/pajak_badan"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ontology/pajak_badan">
+    <Prefix name="" IRI="http://www.semanticweb.org/ontology/pajak_badan#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Indonesian Corporate Tax (PPh Badan) Ontology - UC2: Corporate Entity Taxation</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="id">Ontologi PPh Badan Usaha Indonesia</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en">Indonesian Corporate Income Tax Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Based on UU 7/2021 (Harmonisasi Peraturan Perpajakan) and related regulations</Literal>
+    </Annotation>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes - Taxpayer Entities
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- WajibPajak (Taxpayer) -->
+    <Declaration>
+        <Class IRI="#WajibPajak"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WajibPajak</IRI>
+        <Literal xml:lang="id">Wajib Pajak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WajibPajak</IRI>
+        <Literal xml:lang="en">Taxpayer</Literal>
+    </AnnotationAssertion>
+
+    <!-- Badan (Corporate Entity) -->
+    <Declaration>
+        <Class IRI="#Badan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Badan"/>
+        <Class IRI="#WajibPajak"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Badan</IRI>
+        <Literal xml:lang="id">Badan Usaha</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Badan</IRI>
+        <Literal xml:lang="en">Corporate Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Badan</IRI>
+        <Literal>Legal entities subject to corporate income tax (PPh Badan)</Literal>
+    </AnnotationAssertion>
+
+    <!-- PT (Perseroan Terbatas / Limited Liability Company) -->
+    <Declaration>
+        <Class IRI="#PT"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#PT"/>
+        <Class IRI="#Badan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PT</IRI>
+        <Literal xml:lang="id">Perseroan Terbatas (PT)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PT</IRI>
+        <Literal>Limited Liability Company - most common corporate entity in Indonesia</Literal>
+    </AnnotationAssertion>
+
+    <!-- CV (Commanditaire Vennootschap / Limited Partnership) -->
+    <Declaration>
+        <Class IRI="#CV"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CV"/>
+        <Class IRI="#Badan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CV</IRI>
+        <Literal xml:lang="id">Commanditaire Vennootschap (CV)</Literal>
+    </AnnotationAssertion>
+
+    <!-- Koperasi (Cooperative) -->
+    <Declaration>
+        <Class IRI="#Koperasi"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Koperasi"/>
+        <Class IRI="#Badan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Koperasi</IRI>
+        <Literal xml:lang="id">Koperasi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Koperasi</IRI>
+        <Literal>Cooperative entity with special tax treatment under PP 55/2022</Literal>
+    </AnnotationAssertion>
+
+    <!-- Yayasan (Foundation) -->
+    <Declaration>
+        <Class IRI="#Yayasan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Yayasan"/>
+        <Class IRI="#Badan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Yayasan</IRI>
+        <Literal xml:lang="id">Yayasan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yayasan</IRI>
+        <Literal>Foundation - non-profit entity with limited tax obligations</Literal>
+    </AnnotationAssertion>
+
+    <!-- BadanUsahaTetap (Permanent Establishment / BUT) -->
+    <Declaration>
+        <Class IRI="#BadanUsahaTetap"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BadanUsahaTetap"/>
+        <Class IRI="#Badan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BadanUsahaTetap</IRI>
+        <Literal xml:lang="id">Bentuk Usaha Tetap (BUT)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BadanUsahaTetap</IRI>
+        <Literal xml:lang="en">Permanent Establishment</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes - Tax Rates and Calculations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- TarifPajak (Tax Rate) -->
+    <Declaration>
+        <Class IRI="#TarifPajak"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TarifPajak</IRI>
+        <Literal xml:lang="id">Tarif Pajak</Literal>
+    </AnnotationAssertion>
+
+    <!-- TarifBadanStandar (Standard Corporate Rate) -->
+    <Declaration>
+        <Class IRI="#TarifBadanStandar"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#TarifBadanStandar"/>
+        <Class IRI="#TarifPajak"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TarifBadanStandar</IRI>
+        <Literal xml:lang="id">Tarif Standar PPh Badan 22%</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TarifBadanStandar</IRI>
+        <Literal>Standard corporate tax rate of 22% based on UU 7/2021 Pasal 17 Ayat (1) huruf b</Literal>
+    </AnnotationAssertion>
+
+    <!-- TarifBadanPublik (Public Company Rate) -->
+    <Declaration>
+        <Class IRI="#TarifBadanPublik"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#TarifBadanPublik"/>
+        <Class IRI="#TarifPajak"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TarifBadanPublik</IRI>
+        <Literal xml:lang="id">Tarif PPh Badan Go Public</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TarifBadanPublik</IRI>
+        <Literal>Public companies meeting specific criteria receive 3% discount (19% effective rate) under UU 7/2021 Pasal 17 Ayat (2b)</Literal>
+    </AnnotationAssertion>
+
+    <!-- FasilitasPengurangan (Tax Reduction Facility) -->
+    <Declaration>
+        <Class IRI="#FasilitasPengurangan"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#FasilitasPengurangan"/>
+        <Class IRI="#TarifPajak"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FasilitasPengurangan</IRI>
+        <Literal xml:lang="id">Fasilitas Pengurangan Tarif 50%</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FasilitasPengurangan</IRI>
+        <Literal>50% tax reduction for qualifying SME corporations (revenue between IDR 4.8B - 50B) under PP 55/2022</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes - Income and Financial Data
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- PenghasilanKenaPajak (Taxable Income) -->
+    <Declaration>
+        <Class IRI="#PenghasilanKenaPajak"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PenghasilanKenaPajak</IRI>
+        <Literal xml:lang="id">Penghasilan Kena Pajak</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PenghasilanKenaPajak</IRI>
+        <Literal>Taxable Income = Gross Revenue - Deductible Expenses</Literal>
+    </AnnotationAssertion>
+
+    <!-- BiayaFiskal (Fiscal Expenses) -->
+    <Declaration>
+        <Class IRI="#BiayaFiskal"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BiayaFiskal</IRI>
+        <Literal xml:lang="id">Biaya Fiskal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BiayaFiskal</IRI>
+        <Literal>Fiscally deductible expenses</Literal>
+    </AnnotationAssertion>
+
+    <!-- BiayaNonFiskal (Non-deductible Expenses) -->
+    <Declaration>
+        <Class IRI="#BiayaNonFiskal"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI="#BiayaNonFiskal</IRI>
+        <Literal xml:lang="id">Biaya Non-Fiskal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BiayaNonFiskal</IRI>
+        <Literal>Non-deductible expenses (e.g., dividends, fines, personal expenses)</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes - Compliance and Reporting
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- StatusPerdagangan (Trading Status) -->
+    <Declaration>
+        <Class IRI="#StatusPerdagangan"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StatusPerdagangan</IRI>
+        <Literal xml:lang="id">Status Perdagangan Saham</Literal>
+    </AnnotationAssertion>
+
+    <!-- PerusahaanTerbuka (Publicly Traded Company) -->
+    <Declaration>
+        <Class IRI="#PerusahaanTerbuka"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#PerusahaanTerbuka"/>
+        <Class IRI="#StatusPerdagangan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PerusahaanTerbuka</IRI>
+        <Literal xml:lang="id">Perusahaan Terbuka (Go Public)</Literal>
+    </AnnotationAssertion>
+
+    <!-- PerusahaanTertutup (Private Company) -->
+    <Declaration>
+        <Class IRI="#PerusahaanTertutup"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#PerusahaanTertutup"/>
+        <Class IRI="#StatusPerdagangan"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PerusahaanTertutup</IRI>
+        <Literal xml:lang="id">Perusahaan Tertutup</Literal>
+    </AnnotationAssertion>
+
+    <!-- Rekomendasi (Recommendation) -->
+    <Declaration>
+        <Class IRI="#Rekomendasi"/>
+    </Declaration>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rekomendasi</IRI>
+        <Literal xml:lang="id">Rekomendasi Perpajakan</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- appliesTaxRate -->
+    <Declaration>
+        <ObjectProperty IRI="#appliesTaxRate"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appliesTaxRate"/>
+        <Class IRI="#Badan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appliesTaxRate"/>
+        <Class IRI="#TarifPajak"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#appliesTaxRate</IRI>
+        <Literal>applies tax rate</Literal>
+    </AnnotationAssertion>
+
+    <!-- qualifiesFor -->
+    <Declaration>
+        <ObjectProperty IRI="#qualifiesFor"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#qualifiesFor"/>
+        <Class IRI="#Badan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#qualifiesFor"/>
+        <Class IRI="#FasilitasPengurangan"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#qualifiesFor</IRI>
+        <Literal>qualifies for</Literal>
+    </AnnotationAssertion>
+
+    <!-- hasRecommendation -->
+    <Declaration>
+        <ObjectProperty IRI="#hasRecommendation"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Badan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRecommendation"/>
+        <Class IRI="#Rekomendasi"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI="#hasRecommendation</IRI>
+        <Literal>has recommendation</Literal>
+    </AnnotationAssertion>
+
+    <!-- hasTradingStatus -->
+    <Declaration>
+        <ObjectProperty IRI="#hasTradingStatus"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTradingStatus"/>
+        <Class IRI="#Badan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTradingStatus"/>
+        <Class IRI="#StatusPerdagangan"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI="#hasTradingStatus</IRI>
+        <Literal>has trading status</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties - Financial Data
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- companyName -->
+    <Declaration>
+        <DataProperty IRI="#companyName"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#companyName"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#companyName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#companyName</IRI>
+        <Literal xml:lang="id">nama perusahaan</Literal>
+    </AnnotationAssertion>
+
+    <!-- npwp -->
+    <Declaration>
+        <DataProperty IRI="#npwp"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#npwp"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#npwp"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#npwp</IRI>
+        <Literal xml:lang="id">Nomor Pokok Wajib Pajak</Literal>
+    </AnnotationAssertion>
+
+    <!-- annualRevenue -->
+    <Declaration>
+        <DataProperty IRI="#annualRevenue"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#annualRevenue"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#annualRevenue"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#annualRevenue</IRI>
+        <Literal xml:lang="id">peredaran bruto tahunan</Literal>
+    </AnnotationAssertion>
+
+    <!-- deductibleExpenses -->
+    <Declaration>
+        <DataProperty IRI="#deductibleExpenses"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#deductibleExpenses"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#deductibleExpenses"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#deductibleExpenses</IRI>
+        <Literal xml:lang="id">biaya yang dapat dikurangkan</Literal>
+    </AnnotationAssertion>
+
+    <!-- nonDeductibleExpenses -->
+    <Declaration>
+        <DataProperty IRI="#nonDeductibleExpenses"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nonDeductibleExpenses"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#nonDeductibleExpenses"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nonDeductibleExpenses</IRI>
+        <Literal xml:lang="id">biaya yang tidak dapat dikurangkan</Literal>
+    </AnnotationAssertion>
+
+    <!-- taxableIncome -->
+    <Declaration>
+        <DataProperty IRI="#taxableIncome"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taxableIncome"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#taxableIncome"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#taxableIncome</IRI>
+        <Literal xml:lang="id">penghasilan kena pajak</Literal>
+    </AnnotationAssertion>
+
+    <!-- taxLiability -->
+    <Declaration>
+        <DataProperty IRI="#taxLiability"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#taxLiability"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#taxLiability"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#taxLiability</IRI>
+        <Literal xml:lang="id">pajak terutang</Literal>
+    </AnnotationAssertion>
+
+    <!-- effectiveTaxRate -->
+    <Declaration>
+        <DataProperty IRI="#effectiveTaxRate"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#effectiveTaxRate"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#effectiveTaxRate"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#effectiveTaxRate</IRI>
+        <Literal>effective tax rate (actual percentage)</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties - Public Company Requirements
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- isPubliclyTraded -->
+    <Declaration>
+        <DataProperty IRI="#isPubliclyTraded"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isPubliclyTraded"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#isPubliclyTraded"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPubliclyTraded</IRI>
+        <Literal>is publicly traded</Literal>
+    </AnnotationAssertion>
+
+    <!-- sharesOwnedByPublic -->
+    <Declaration>
+        <DataProperty IRI="#sharesOwnedByPublic"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#sharesOwnedByPublic"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#sharesOwnedByPublic"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sharesOwnedByPublic</IRI>
+        <Literal>percentage of shares owned by public (%)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sharesOwnedByPublic</IRI>
+        <Literal>Minimum 40% public ownership required for 3% discount under UU 7/2021 Pasal 17 Ayat (2b)</Literal>
+    </AnnotationAssertion>
+
+    <!-- minimumShareholders -->
+    <Declaration>
+        <DataProperty IRI="#minimumShareholders"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#minimumShareholders"/>
+        <Class IRI="#Badan"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#minimumShareholders"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#minimumShareholders</IRI>
+        <Literal>minimum number of shareholders</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#minimumShareholders</IRI>
+        <Literal>Minimum 300 shareholders required for public company tax benefit</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data Properties - Recommendations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- recommendedAction -->
+    <Declaration>
+        <DataProperty IRI="#recommendedAction"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#recommendedAction"/>
+        <Class IRI="#Rekomendasi"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#recommendedAction"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#recommendedAction</IRI>
+        <Literal>recommended action</Literal>
+    </AnnotationAssertion>
+
+    <!-- potentialSavings -->
+    <Declaration>
+        <DataProperty IRI="#potentialSavings"/>
+    </Declaration>
+    <DataPropertyDomain>
+        <DataProperty IRI="#potentialSavings"/>
+        <Class IRI="#Rekomendasi"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#potentialSavings"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#potentialSavings</IRI>
+        <Literal>potential tax savings</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Named Individuals - Tax Rate Instances
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Standard Corporate Tax Rate 22% -->
+    <Declaration>
+        <NamedIndividual IRI="#TarifStandar22Persen"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#TarifBadanStandar"/>
+        <NamedIndividual IRI="#TarifStandar22Persen"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TarifStandar22Persen</IRI>
+        <Literal>Standard corporate tax rate of 22% per UU 7/2021 Pasal 17 Ayat (1) huruf b</Literal>
+    </AnnotationAssertion>
+
+    <!-- Public Company Tax Rate 19% -->
+    <Declaration>
+        <NamedIndividual IRI="#TarifPublik19Persen"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#TarifBadanPublik"/>
+        <NamedIndividual IRI="#TarifPublik19Persen"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TarifPublik19Persen</IRI>
+        <Literal>Public company rate: 22% - 3% = 19% effective rate per UU 7/2021 Pasal 17 Ayat (2b)</Literal>
+    </AnnotationAssertion>
+
+    <!-- SME Facility Instance -->
+    <Declaration>
+        <NamedIndividual IRI="#FasilitasUKM"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#FasilitasPengurangan"/>
+        <NamedIndividual IRI="#FasilitasUKM"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FasilitasUKM</IRI>
+        <Literal>50% tax reduction facility for SME corporations with revenue between IDR 4.8B - 50B per PP 55/2022</Literal>
+    </AnnotationAssertion>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // SWRL Rules for PPh Badan (Corporate Income Tax)
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- Rule 1: Calculate Taxable Income -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 1: Calculate Taxable Income = Revenue - Deductible Expenses - Non-deductible Expenses</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#annualRevenue"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#revenue"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#deductibleExpenses"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#deductible"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#nonDeductibleExpenses"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#nonDeductible"/>
+            </DataPropertyAtom>
+            <!-- Taxable Income = Revenue - Deductible + Non-deductible (correction) -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#temp"/>
+                <Variable IRI="urn:swrl:var#revenue"/>
+                <Variable IRI="urn:swrl:var#deductible"/>
+            </BuiltInAtom>
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#temp"/>
+                <Variable IRI="urn:swrl:var#nonDeductible"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 2a: Apply Standard Corporate Tax Rate 22% -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 2a: Standard corporate rate 22% for non-public companies. Based on UU 7/2021 Pasal 17 Ayat (1) huruf b</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isPubliclyTraded"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+            <!-- Tax = Taxable Income * 22% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#tax"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.22</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiability"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#tax"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#effectiveTaxRate"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.22</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#appliesTaxRate"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <NamedIndividual IRI="#TarifStandar22Persen"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 2b: Check Public Company Eligibility -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 2b: Public companies with >= 40% public ownership and >= 300 shareholders qualify for 3% discount (19% rate). UU 7/2021 Pasal 17 Ayat (2b)</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isPubliclyTraded"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#sharesOwnedByPublic"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#publicOwnership"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#minimumShareholders"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#shareholders"/>
+            </DataPropertyAtom>
+            <!-- Check: Public ownership >= 40% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="urn:swrl:var#publicOwnership"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">40</Literal>
+            </BuiltInAtom>
+            <!-- Check: Shareholders >= 300 -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="urn:swrl:var#shareholders"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">300</Literal>
+            </BuiltInAtom>
+            <!-- Tax = Taxable Income * 19% (22% - 3%) -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#tax"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.19</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiability"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#tax"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#effectiveTaxRate"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.19</Literal>
+            </DataPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#appliesTaxRate"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <NamedIndividual IRI="#TarifPublik19Persen"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 3: Check SME Facility Eligibility (Revenue 4.8B - 50B) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 3: Corporations with revenue between IDR 4.8B - 50B qualify for 50% tax reduction facility. PP 55/2022 Pasal 59</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#annualRevenue"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#revenue"/>
+            </DataPropertyAtom>
+            <!-- Check: Revenue >= 4.8B -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual">
+                <Variable IRI="urn:swrl:var#revenue"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+            </BuiltInAtom>
+            <!-- Check: Revenue <= 50B -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#revenue"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50000000000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#qualifiesFor"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <NamedIndividual IRI="#FasilitasUKM"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 4: Apply SME Facility (50% reduction on first 4.8B) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 4: For companies qualifying for SME facility, apply 50% reduction on tax calculated from first IDR 4.8B of taxable income. PP 55/2022 Pasal 59</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#qualifiesFor"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <NamedIndividual IRI="#FasilitasUKM"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+            </DataPropertyAtom>
+            <!-- Portion eligible for facility: min(taxableIncome, 4.8B) -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#lessThanOrEqual">
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+            </BuiltInAtom>
+            <!-- If taxable income <= 4.8B: all qualifies -->
+            <!-- Tax on eligible portion = taxableIncome * 22% * 50% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#taxEligible"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.11</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiability"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxEligible"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#effectiveTaxRate"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.11</Literal>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 5: Apply SME Facility (mixed calculation for taxable income > 4.8B) -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 5: For SME with taxable income > 4.8B, apply 50% reduction on first 4.8B, then 22% on remainder. PP 55/2022 Pasal 59</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#qualifiesFor"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <NamedIndividual IRI="#FasilitasUKM"/>
+            </ObjectPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+            </DataPropertyAtom>
+            <!-- Check: taxableIncome > 4.8B -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+            </BuiltInAtom>
+            <!-- Tax on first 4.8B with facility: 4.8B * 22% * 50% = 4.8B * 11% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#taxFirst4p8B"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.11</Literal>
+            </BuiltInAtom>
+            <!-- Remainder = taxableIncome - 4.8B -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#remainder"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4800000000</Literal>
+            </BuiltInAtom>
+            <!-- Tax on remainder: remainder * 22% -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#taxRemainder"/>
+                <Variable IRI="urn:swrl:var#remainder"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.22</Literal>
+            </BuiltInAtom>
+            <!-- Total tax -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#add">
+                <Variable IRI="urn:swrl:var#totalTax"/>
+                <Variable IRI="urn:swrl:var#taxFirst4p8B"/>
+                <Variable IRI="urn:swrl:var#taxRemainder"/>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiability"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#totalTax"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+    <!-- Rule 6: Recommend Going Public if savings significant -->
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>Rule 6: Recommend going public if company meets criteria and potential savings > 100M IDR annually</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Badan"/>
+                <Variable IRI="urn:swrl:var#company"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#isPubliclyTraded"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxableIncome"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#taxLiability"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#currentTax"/>
+            </DataPropertyAtom>
+            <!-- Calculate potential tax with 19% rate -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#multiply">
+                <Variable IRI="urn:swrl:var#potentialTax"/>
+                <Variable IRI="urn:swrl:var#taxableIncome"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0.19</Literal>
+            </BuiltInAtom>
+            <!-- Calculate savings -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#subtract">
+                <Variable IRI="urn:swrl:var#savings"/>
+                <Variable IRI="urn:swrl:var#currentTax"/>
+                <Variable IRI="urn:swrl:var#potentialTax"/>
+            </BuiltInAtom>
+            <!-- Check if savings > 100M -->
+            <BuiltInAtom IRI="http://www.w3.org/2003/11/swrlb#greaterThan">
+                <Variable IRI="urn:swrl:var#savings"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">100000000</Literal>
+            </BuiltInAtom>
+        </Body>
+        <Head>
+            <DataPropertyAtom>
+                <DataProperty IRI="#recommendedAction"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Consider going public to reduce tax rate from 22% to 19%</Literal>
+            </DataPropertyAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#potentialSavings"/>
+                <Variable IRI="urn:swrl:var#company"/>
+                <Variable IRI="urn:swrl:var#savings"/>
+            </DataPropertyAtom>
+        </Head>
+    </DLSafeRule>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Sample Instances for Testing
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- PT Tech Startup (Private, qualifies for SME facility) -->
+    <Declaration>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#PT"/>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PT Teknologi Maju Nusantara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualRevenue"/>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10000000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deductibleExpenses"/>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7000000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nonDeductibleExpenses"/>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPubliclyTraded"/>
+        <NamedIndividual IRI="#PT_TechStartup_001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+
+    <!-- PT Manufaktur (Public company, qualifies for 19% rate) -->
+    <Declaration>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#PT"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">PT Manufaktur Indonesia Tbk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualRevenue"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">500000000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deductibleExpenses"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">350000000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nonDeductibleExpenses"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2000000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPubliclyTraded"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#sharesOwnedByPublic"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#minimumShareholders"/>
+        <NamedIndividual IRI="#PT_Manufaktur_002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">500</Literal>
+    </DataPropertyAssertion>
+
+    <!-- CV Perdagangan (Small business, standard rate) -->
+    <Declaration>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#CV"/>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#companyName"/>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CV Sinar Jaya Abadi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#annualRevenue"/>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3000000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#deductibleExpenses"/>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2200000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nonDeductibleExpenses"/>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#isPubliclyTraded"/>
+        <NamedIndividual IRI="#CV_Perdagangan_003"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+
+</Ontology>
