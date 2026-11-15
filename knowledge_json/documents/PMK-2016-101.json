@@ -1,0 +1,135 @@
+{
+  "document_id": "PMK-2016-101",
+  "jenis": "PMK",
+  "tahun": 2016,
+  "judul": "Peraturan Menteri Keuangan  Nomor 101/PMK.010/2016 Tahun 2016 tentang Penyesuaian Besarnya Penghasilan Tidak Kena Pajak",
+  "articles": [
+    {
+      "locator": "PMK-2016-101#BT/1",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "1",
+      "text": "Besarnya penghasilan tidak kena pajak disesuaikan menjadi \nsebagai berikut: \na. Rp54.000.000,00 (lima puluh empat juta rupiah) untuk \ndiri Wajib Pajak orang pribadi; \nK \nwww.jdih.kemenkeu.go.id\n\n\n\n- 3 -\nb. Rp4.500.000,00 (empat juta lima ratus ribu rupiah) \ntambahan untuk Wajib Pajak yang kawin; \nc. Rp54.000.000,00 (lima puluh empat juta rupiah) \ntambahan untuk seorang isteri yang penghasilannya \ndigabung dengan penghasilan suam1 sebagaimana \ndimaksud dalam Pasal 8 ayat (1) Undang-Undang Nomor \n7 Tahun 1983 tentang Pajak Penghasilan sebagaimana \ntelah beberapa kali diubah terakhir dengan Undang­\nUndang Nomor 36 Tahun 2008; \nd. Rp4.500.000,00 (empat juta lima ratus ribu rupiah) \ntambahan untuk setiap anggota keluarga sedarah clan \nkeluarga semenda dalam garis keturunan lurus serta \nanak angkat, yang menjadi tanggungan sepenuhnya, \npaling banyak 3 (tiga) orang untuk setiap keluarga.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "34a9c815547f53b6"
+    },
+    {
+      "locator": "PMK-2016-101#BT/2",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "2",
+      "text": "Ketentuan lebih lanjut mengenai tata cara penghitungan \nbesarnya Penghasilan Tidak Kena Pajak untuk Wajib Pajak \norang pribadi diatur dengan Peraturan Direktur Jenderal \nPajak.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "297d9b44a3d21143"
+    },
+    {
+      "locator": "PMK-2016-101#BT/3",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "3",
+      "text": "Ketentuan mengenai penyesuaian besarnya penghasilan tidak \nkena pajak sebagaimana dimaksud dalam Pasal 1 mulai \nberlaku pada Tahun Pajak 2016.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "7a19ebb8c2b457da"
+    },
+    {
+      "locator": "PMK-2016-101#BT/4",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "4",
+      "text": "Pada saat Peraturan Menteri m1 mulai berlaku, Peraturan \nMenteri Keuangan Nomor 122/PMK.010/2015 tentang \nPenyesuaian Besarnya Penghasilan Tidak Kena Pajak, dicabut \ndan dinyatakan tidak berlaku.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "204f8ca61dc37366"
+    },
+    {
+      "locator": "PMK-2016-101#BT/5",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "5",
+      "text": "Peraturan Menteri 1m mulai berlaku pada tanggal \ndiundangkan. \nwww.jdih.kemenkeu.go.id\n\n\n\n- 4 -\nAgar setiap orang mengetahuinya, memerin tahkan \npengundangan Peraturan Menteri ini dengan penempatannya \ndalam Berita Negara Republik Indonesia. \nDiundangkan di Jakarta \npada tanggal 27 Juni 2016 Ditetapkan di Jakarta \npada tanggal 22 Juni 2016 \nMENTERI KEUANGAN \nREPUBLIK INDONESIA, \nttd. \nBAMBANG P.S.BRODJONEGORO \nDIREKTUR JENDERAL \nPERATURAN PERUNDANG-UNDANGAN \nKEMENTERIAN HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \nttd. \nWIDODO EKATJAHJANA \nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 950 \nwww.jdih.kemenkeu.go.id",
+      "role": "SUBSTANTIVE",
+      "text_hash": "6f9863f561a9f529"
+    }
+  ],
+  "content_hash": "8cd950c35c679bbe528038a4c3d6b12e0d9c124a019abe1d9a72a985c2bde5c4",
+  "source": {
+    "origin": "corpus",
+    "file": "3_PMK_MinFinRegulations/101~PMK.010~2016Per.json"
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "2016-06-22",
+  "tanggal_pengundangan": "2016-06-27",
+  "tanggal_berlaku_sumber": "2016-06-27",
+  "sumber_publikasi": "BN.2016/NO.950,jdih.kemenkeu.go.id: 4 hlm.",
+  "subjek_sumber": "HONORARIUM, GAJI, PENGHASILAN, UANG KEHORMATAN, TUNJANGAN, PENGHARGAAN, HAK LAINNYA - PERPAJAKAN",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/121096/pmk-no-101pmk0102016"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/111866/PMK%20Nomor%20101%20Tahun%202016.pdf",
+      "type": "pdf"
+    }
+  ],
+  "structure": "NUMERIC",
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "PMK-2016-101#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "Besarnya penghasilan tidak kena pajak disesuaikan menjadi \nsebagai berikut: \na. \nRp54.000.000,00 (lima puluh empat juta rupiah) untuk \ndiri Wajib Pajak orang pribadi; \nK \nwww.jdih.kemenkeu.go.id\n\n\n- 3 -\nb. \nRp4.500.000,00 (empat juta lima ratus ribu rupiah) \ntambahan untuk Wajib Pajak yang kawin; \nc. \nRp54.000.000,00 \n(lima \npuluh \nempat \njuta \nrupiah) \ntambahan untuk seorang isteri yang penghasilannya \ndigabung \ndengan \npenghasilan \nsuam1 \nsebagaimana \ndimaksud dalam Pasal 8 ayat (1) Undang-Undang Nomor \n7 Tahun 1983 tentang Pajak Penghasilan sebagaimana \ntelah beberapa kali diubah terakhir dengan Undang­\nUndang Nomor 36 Tahun 2008; \nd. \nRp4.500.000,00 (empat juta lima ratus ribu rupiah) \ntambahan untuk setiap anggota keluarga sedarah clan \nkeluarga semenda dalam garis keturunan lurus serta \nanak angkat, yang menjadi tanggungan sepenuhnya, \npaling banyak 3 (tiga) orang untuk setiap keluarga.",
+      "role": "SUBSTANTIVE",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "PMK-2016-101#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "Ketentuan lebih lanjut mengenai tata cara penghitungan \nbesarnya Penghasilan Tidak Kena Pajak untuk Wajib Pajak \norang pribadi diatur dengan Peraturan Direktur Jenderal \nPajak.",
+      "role": "SUBSTANTIVE",
+      "ord": 1
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3",
+      "locator": "PMK-2016-101#BT/3",
+      "parent": null,
+      "heading": "",
+      "text": "Ketentuan mengenai penyesuaian besarnya penghasilan tidak \nkena pajak sebagaimana dimaksud dalam Pasal 1 mulai \nberlaku pada Tahun Pajak 2016.",
+      "role": "SUBSTANTIVE",
+      "ord": 2
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4",
+      "locator": "PMK-2016-101#BT/4",
+      "parent": null,
+      "heading": "",
+      "text": "Pada saat Peraturan Menteri m1 mulai berlaku, Peraturan \nMenteri \nKeuangan \nNomor \n122/PMK.010/2015 \ntentang \nPenyesuaian Besarnya Penghasilan Tidak Kena Pajak, dicabut \ndan dinyatakan tidak berlaku.",
+      "role": "SUBSTANTIVE",
+      "ord": 3
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5",
+      "locator": "PMK-2016-101#BT/5",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan \nMenteri \n1m \nmulai \nberlaku \npada \ntanggal \ndiundangkan. \nwww.jdih.kemenkeu.go.id\n\n\n- 4 -\nAgar \nsetiap \norang \nmengetahuinya, \nmemerin tahkan \npengundangan Peraturan Menteri ini dengan penempatannya \ndalam Berita Negara Republik Indonesia. \nDiundangkan di Jakarta \npada tanggal 27 Juni 2016 \nDitetapkan di Jakarta \npada tanggal 22 Juni 2016 \nMENTERI KEUANGAN \nREPUBLIK INDONESIA, \nttd. \nBAMBANG P.S.BRODJONEGORO \nDIREKTUR JENDERAL \nPERATURAN PERUNDANG-UNDANGAN \nKEMENTERIAN HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \nttd. \nWIDODO EKATJAHJANA \nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2016 NOMOR 950 \nwww.jdih.kemenkeu.go.id",
+      "role": "SUBSTANTIVE",
+      "ord": 4
+    }
+  ],
+  "preamble": "MENTER!KEUANGAN \nREPUBLIK !NDONESIA \nSALINAN \nPERATURAN MENTER! KEUANGAN REPUBLIK INDONESIA \nNOMOR 101 /PMK.010/2016 \nTENTANG \nPENYESUAIAN BESARNYA PENGHASILAN TIDAK KENA PAJAK \nMenimbang \nDENGAN RAHMAT TUHAN YANG MAHA ESA \nMENTER! KEUANGAN REPUBLIK INDONESIA, \na. \nbahwa ketentuan mengenai besarnya penghasilan tidak \nkena pajak telah diatur dalam Peraturan Menteri \nKeuangan \nNomor \n122/PMK.010/2015 \ntentang \nPenyesuaian Besarnya Penghasilan Tidak Kena Pajak; \nb. \nbahwa dengan mempertimbangkan perkembangan di \nbidang ekonomi dan moneter serta perkembangan harga \nkebutuhan pokok yang semakin \nmeningkat, \nperlu \nmelakukan penyesuaian terhadap ketentuan mengenai \nbesarnya penghasilan tidak kena pajak sebagaimana \ndimaksud pada huruf a; \nc. \nbahwa dalam rangka penyesuaian terhadap besarnya \npenghasilan tidak kena pajak sebagaimana dimaksud \ndalam huruf b di atas dan untuk melaksanakan \nketentuan",
+  "penjelasan": "",
+  "penjelasan_articles": []
+}

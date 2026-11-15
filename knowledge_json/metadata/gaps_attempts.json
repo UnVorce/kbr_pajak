@@ -1,0 +1,20 @@
+{
+  "documents": {},
+  "manual_gaps": {
+    "PMK-2024-69": {
+      "reason": "PMK 69/2024 (perubahan PMK 130/2020 tentang tax holiday) tidak ditemukan di BPK; pencarian habis. Perlu tindak lanjut manual.",
+      "attempts": [
+        {
+          "source": "peraturan.bpk.go.id",
+          "query": "PMK 69 2024",
+          "result": "tidak ada hasil yang cocok"
+        },
+        {
+          "source": "jdih.kemenkeu.go.id",
+          "query": "PMK 69/2024",
+          "result": "timeout / tidak terindeks"
+        }
+      ]
+    }
+  }
+}

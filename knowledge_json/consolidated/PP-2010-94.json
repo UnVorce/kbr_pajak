@@ -1,0 +1,206 @@
+{
+  "target_document_id": "PP-2010-94",
+  "chain": [
+    "PP-2019-45",
+    "PP-2021-9"
+  ],
+  "provision_sources": {
+    "PP-2019-45": "provisions",
+    "PP-2021-9": "text_top_level"
+  },
+  "applied_count": 5,
+  "unparsed_count": 0,
+  "applied": [
+    {
+      "amending": "PP-2019-45",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "29",
+      "source_quote": "Ketentuan ayat (21 Pasal 29 diubah sehingga\nberbunyi sebagai berikut:\nPasal 29\n(1) Kepada Wajib Pajak yang melakukan penanaman\nmodal baru yang merupakan industri pionir, yang\ntidak mendapatkan fasilit",
+      "note": "ok"
+    },
+    {
+      "amending": "PP-2019-45",
+      "ordinal": 3,
+      "action": "SISIP",
+      "target": "29A",
+      "source_quote": "Di antara Pasal 29 dan Pasal 30 disisipkan 3 (tiga) pasal,\nyakni Pasal 29A, Pasal 29H_, dan Pasal 29C sehingga\nberbunyi sebagai berikut:\nPasal 29A\nKepada Wajib Pajak badan dalam negeri yang\nmelakukan ",
+      "note": "ok"
+    },
+    {
+      "amending": "PP-2019-45",
+      "ordinal": 4,
+      "action": "UBAH",
+      "target": "30",
+      "source_quote": "Ketentuan Pasal 30 diubah sehingga berbunyi\nsebagai berikut:\nPasal 30\nKetentuan lebih lanjut mengenai pemberian:\na. fasilitas pembebasan atau pengurangan\npenghasilan badan sebagaimana dimaksud\nPasal 2",
+      "note": "ok"
+    },
+    {
+      "amending": "PP-2021-9",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 1 \nDalam Peraturan Pemerintah ini yang dimaksud dengan:",
+      "note": "ok"
+    },
+    {
+      "amending": "PP-2021-9",
+      "ordinal": 3,
+      "action": "SISIP",
+      "target": "2A",
+      "source_quote": "Undang-Undang Pajak Pertambahan Nilai adalah \nUndang-Undang Nomor 8 Tahun 1983 tentang Pajak \nPertambahan Nilai Barang dan Jasa dan Pajak \nPenjualan atas Barang Mewah sebagaimana telah \nbeberapa kali ",
+      "note": "ok"
+    }
+  ],
+  "unparsed": [],
+  "provisions": [
+    {
+      "nomor": "1",
+      "text": "Dalam Peraturan Pemerintah ini yang dimaksud dengan:"
+    },
+    {
+      "nomor": "2",
+      "text": "Objek pajak berupa dividen sebagaimana dimaksud dalam \nPasal 4 ayat (1) huruf g Undang-Undang Pajak Penghasilan \ntidak termasuk pemberian saham bonus yang dilakukan \ntanpa penyetoran yang berasal dari: \na. \nkapitalisasi agio saham kepada pemegang saham yang \ntelah menyetor modal atau membeli saham di atas harga \nnominal, sepanjang jumlah nilai nominal saham yang \ndimilikinya setelah pembagian saham bonus tidak \nmelebihi jumlah setoran modal; dan \nb. \nkapitalisasi selisih lebih penilaian kembali aktiva tetap \nsebagaimana dimaksud dalam Pasal 19 ayat (1) Undang-\nUndang Pajak Penghasilan."
+    },
+    {
+      "nomor": "2A",
+      "text": "(1) \nPengecualian penghasilan berupa dividen atau \npenghasilan lain dari objek Pajak Penghasilan \nsebagaimana dimaksud dalam Pasal 4 ayat (3) \nhuruf \nf \nUndang-Undang \nPajak \nPenghasilan \nberlaku untuk dividen atau penghasilan lain yang \nditerima atau diperoleh oleh Wajib Pajak orang \npribadi \ndan \nbadan \ndalam \nnegeri \nsejak \ndiundangkannya \nUndang-Undang \nNomor \n11 \nTahun 2020 tentang Cipta Kerja. \n(2) \nDividen yang dikecualikan dari objek Pajak \nPenghasilan sebagaimana dimaksud pada ayat (1) \nmerupakan dividen yang dibagikan berdasarkan \nrapat umum pemegang saham atau dividen \ninterim sesuai dengan ketentuan peraturan \nperundang-undangan. \n(3) \nRapat umum pemegang saham atau dividen \ninterim sebagaimana dimaksud pada ayat (2) \ntermasuk \nrapat \nsejenis \ndan \nmekanisme \npembagian dividen sejenis. \n(4) \nPenghasilan lain sebagaimana dimaksud pada \nayat (1) merupakan penghasilan setelah pajak \ndari suatu bentuk usaha tetap di luar negeri dan \npenghasilan aktif dari luar negeri tidak melalui \nbentuk usaha tetap. \n\n\n2021, No.19 \n-9- \n(5) \nDividen yang berasal dari dalam negeri yang \nditerima atau diperoleh Wajib Pajak orang pribadi \ndalam negeri atau Wajib Pajak badan dalam \nnegeri sebagaimana dimaksud dalam Pasal 4 ayat \n(3) huruf f angka 1 Undang-Undang Pajak \nPenghasilan, tidak dipotong Pajak Penghasilan. \n(6) \nDalam hal Wajib Pajak orang pribadi dalam \nnegeri yang tidak memenuhi ketentuan investasi \nsebagaimana dimaksud dalam Pasal 4 ayat (3) \nhuruf f angka 1 butir a) Undang-Undang Pajak \nPenghasilan, atas dividen yang berasal dari \ndalam negeri yang diterima atau diperoleh Wajib \nPajak orang pribadi dalam negeri terutang Pajak \nPenghasilan pada saat dividen diterima atau \ndiperoleh. \n(7) \nPajak Penghasilan yang terutang sebagaimana \ndimaksud pada ayat (6) wajib disetor sendiri oleh \nWajib Pajak orang pribadi dalam negeri. \n(8) \nKetentuan lebih lanjut mengenai tata cara \npenyetoran sendiri oleh Wajib Pajak orang pribadi \nsebagaimana dimaksud pada ayat (7) diatur \ndalam Peraturan Menteri Keuangan.  \n \nBAB IV \nPENYESUAIAN PENGATURAN DI BIDANG PAJAK \nPERTAMBAHAN NILAI UNTUK KEMUDAHAN BERUSAHA"
+    },
+    {
+      "nomor": "3",
+      "text": "Dalam hal terjadi pengalihan harta perusahaan kepada \npegawainya, maka keuntungan berupa selisih antara harga \npasar harta tersebut dengan nilai sisa buku merupakan \npenghasilan bagi perusahaan."
+    },
+    {
+      "nomor": "4",
+      "text": "(1) Agio saham yang timbul dari selisih lebih antara nilai \npasar saham dan nilai nominal saham, tidak termasuk \nobjek pajak.  \n(2) Disagio saham yang timbul dari selisih lebih antara nilai \nnominal saham dan nilai pasar saham, bukan merupakan \npengurang dari penghasilan bruto. \n \n \n \nPasal 5 . . . \n\n\n \n- 4 -"
+    },
+    {
+      "nomor": "5",
+      "text": "(1) Bagian laba yang diterima atau diperoleh oleh pemegang \nunit penyertaan Kontrak Investasi Kolektif termasuk \nkeuntungan atas pelunasan kembali unit penyertaannya, \ntidak termasuk sebagai objek pajak.  \n(2) Ketentuan terhadap bagian laba termasuk keuntungan \natas pelunasan kembali unit penyertaannya sebagaimana \ndimaksud pada ayat (1) berlaku juga bagi pemegang unit \npenyertaan yang merupakan  Subjek Pajak luar negeri."
+    },
+    {
+      "nomor": "6",
+      "text": "[ \nPembagian laba secara langsung dan/atau tidak langsung \nyang berasal dari saldo laba termasuk saldo laba berdasarkan \nproyeksi laba tahun berjalan merupakan objek pajak, kecuali"
+    },
+    {
+      "nomor": "7",
+      "text": "(1) Surplus Bank Indonesia yang merupakan objek Pajak \nPenghasilan adalah surplus Bank Indonesia menurut \nlaporan keuangan audit setelah dilakukan penyesuaian \natau koreksi fiskal sesuai dengan Undang-Undang Pajak \nPenghasilan dengan memperhatikan karakteristik Bank \nIndonesia. \n(2) Ketentuan \nmengenai \ntata \ncara \npenghitungan \ndan \npembayaran Pajak Penghasilan atas surplus Bank \nIndonesia sebagaimana dimaksud pada ayat (1) diatur \ndengan Peraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "8",
+      "text": "(1) Hubungan di antara pihak-pihak yang bersangkutan \nsebagaimana dimaksud dalam Pasal 4 ayat (3) huruf a \nUndang-Undang Pajak Penghasilan dapat terjadi karena \nketergantungan atau keterikatan satu dengan yang lain  \nsecara  langsung atau tidak langsung berkenaan dengan: \n \n \na. usaha . . . \n\n\n \n- 5 -\n \na. usaha;  \nb. pekerjaan; atau \nc. kepemilikan  atau penguasaan.   \n(2) Hubungan  di antara pihak-pihak yang bersangkutan \nberkenaan dengan usaha sebagaimana dimaksud pada \nayat (1) huruf a antara Wajib Pajak pemberi dengan Wajib \nPajak penerima, dapat terjadi apabila terdapat transaksi \nyang bersifat rutin antara kedua belah pihak. \n(3) Hubungan  di antara pihak-pihak yang bersangkutan \nberkenaan dengan pekerjaan sebagaimana dimaksud \npada ayat (1) huruf b antara Wajib Pajak pemberi dengan \nWajib Pajak penerima terjadi apabila terdapat  hubungan \nyang \nberupa \npekerjaan, \npemberian \njasa, \natau \npelaksanaan \nkegiatan \nsecara \nlangsung \natau \ntidak \nlangsung antara kedua pihak tersebut. \n(4) Hubungan  di antara pihak-pihak yang bersangkutan \nberkenaan dengan kepemilikan atau penguasaan antara \nWajib Pajak pemberi dengan Wajib Pajak penerima \nsebagaimana dimaksud pada ayat (1) huruf c terjadi \napabila terdapat: \na. \npenyertaan modal secara langsung atau tidak \nlangsung sebagaimana dimaksud dalam Pasal 18 \nayat (4) huruf a  Undang-Undang Pajak Penghasilan; \natau \nb. \nhubungan penguasaan secara langsung atau tidak \nlangsung sebagaimana dimaksud dalam Pasal 18 \nayat (4) huruf b  Undang-Undang Pajak Penghasilan."
+    },
+    {
+      "nomor": "9",
+      "text": "(1) Keuntungan atau kerugian selisih kurs mata uang asing \ndiakui sebagai penghasilan atau biaya berdasarkan \nsistem pembukuan yang dianut dan dilakukan secara \ntaat asas sesuai dengan Standar Akuntansi Keuangan \nyang berlaku di Indonesia. \n \n(2) Keuntungan . . . \n\n\n \n- 6 -\n \n(2) Keuntungan atau kerugian selisih kurs mata uang asing \nsebagaimana dimaksud pada ayat (1) yang berkaitan \nlangsung dengan usaha Wajib Pajak yang:  \na. dikenakan Pajak Penghasilan yang bersifat final; atau  \nb. tidak termasuk objek pajak,  \ntidak diakui sebagai penghasilan atau biaya. \n(3) Keuntungan atau kerugian selisih kurs mata uang asing \nsebagaimana \ndimaksud \npada \nayat \n(1) \nyang \ntidak \nberkaitan langsung dengan usaha Wajib Pajak yang:  \na. dikenakan Pajak Penghasilan yang bersifat final; atau  \nb. tidak termasuk objek pajak,  \ndiakui sebagai penghasilan atau biaya sepanjang biaya \ntersebut dipergunakan untuk mendapatkan, menagih, \ndan memelihara penghasilan."
+    },
+    {
+      "nomor": "10",
+      "text": "(1) Pajak \nMasukan \nyang \ntidak \ndapat \ndikreditkan \nsebagaimana dimaksud dalam Pasal 9 ayat (8) Undang-\nUndang Pajak Pertambahan Nilai Barang dan Jasa dan \nPajak Penjualan atas Barang Mewah dapat dikurangkan \ndari penghasilan bruto sepanjang dapat dibuktikan Pajak \nMasukan tersebut: \na. benar-benar telah dibayar; dan  \nb. berkenaan dengan pengeluaran yang berhubungan \ndengan kegiatan untuk mendapatkan, menagih, dan \nmemelihara penghasilan.  \n(2) Pajak \nMasukan \nyang \n \ndapat \ndikurangkan \ndari \npenghasilan bruto sebagaimana dimaksud pada ayat (1) \nsehubungan dengan pengeluaran untuk memperoleh \nharta berwujud dan/atau harta tidak berwujud serta \nbiaya lainnya yang mempunyai masa manfaat lebih dari 1 \n(satu) tahun sebagaimana dimaksud dalam Pasal 11 dan \nPasal 11A Undang-Undang Pajak Penghasilan, harus \ndikapitalisasi dengan pengeluaran atau biaya tersebut \ndan dibebankan melalui penyusutan atau amortisasi. \n \n \n \nPasal 11 . . . \n\n\n \n- 7 -"
+    },
+    {
+      "nomor": "11",
+      "text": "[ \n(1) Biaya pengembangan tanaman industri yang berumur \nlebih dari 1 (satu)  tahun dan hanya 1 (satu) kali \nmemberikan \nhasil, \ndikapitalisasi \nselama \nperiode \npengembangan dan merupakan bagian dari harga pokok \npenjualan pada saat  hasil tanaman industri dijual. \n(2) Biaya pemeliharaan ternak yang berumur lebih dari 1 \n(satu)  tahun dan hanya 1 (satu) kali memberikan hasil, \ndikapitalisasi \nselama \nperiode \npemeliharaan \ndan \nmerupakan bagian dari harga pokok penjualan pada saat  \nternak dijual."
+    },
+    {
+      "nomor": "12",
+      "text": "(1) Pinjaman tanpa bunga dari pemegang saham yang \nditerima oleh Wajib Pajak berbentuk perseroan terbatas \ndiperkenankan apabila: \na. \npinjaman tersebut berasal dari dana milik pemegang \nsaham itu sendiri dan bukan berasal dari pihak lain; \nb. \nmodal yang seharusnya disetor oleh pemegang \nsaham pemberi pinjaman telah disetor seluruhnya; \nc. \npemegang saham pemberi pinjaman tidak dalam \nkeadaan merugi; dan \nd. \nperseroan \nterbatas \npenerima \npinjaman \nsedang \nmengalami kesulitan keuangan untuk kelangsungan \nusahanya. \n(2) Apabila pinjaman yang diterima oleh Wajib Pajak \nberbentuk perseroan terbatas dari pemegang sahamnya \ntidak memenuhi ketentuan sebagaimana dimaksud pada \nayat (1), atas pinjaman tersebut terutang bunga dengan \ntingkat suku bunga wajar."
+    },
+    {
+      "nomor": "13",
+      "text": "Pengeluaran dan biaya yang tidak boleh dikurangkan dalam \nmenentukan besarnya Penghasilan Kena Pajak bagi Wajib \nPajak dalam negeri dan bentuk usaha tetap, termasuk: \n \na. biaya . . . \n\n\n \n- 8 -\n \na. \nbiaya untuk mendapatkan, menagih, dan memelihara \npenghasilan yang: \n1) \nbukan merupakan objek pajak;  \n2) \npengenaan pajaknya bersifat final; dan/atau \n3) \ndikenakan pajak berdasarkan Norma Penghitungan \nPenghasilan Neto sebagaimana dimaksud dalam \nPasal 14 Undang-Undang Pajak Penghasilan dan \nNorma Penghitungan Khusus sebagaimana dimaksud \ndalam Pasal 15 Undang-Undang Pajak Penghasilan. \nb. \nPajak \nPenghasilan \nyang \nditanggung \noleh \npemberi \npenghasilan."
+    },
+    {
+      "nomor": "14",
+      "text": "Orang pribadi dalam negeri yang menerima atau memperoleh \npenghasilan di atas Penghasilan Tidak Kena Pajak (PTKP) \nsehubungan dengan pekerjaan dari badan-badan yang tidak \nwajib melakukan pemotongan pajak sebagaimana dimaksud \ndalam Pasal 21 ayat (2) Undang-Undang Pajak Penghasilan, \nwajib: \na. \nmemiliki Nomor Pokok Wajib Pajak; \nb. \nmelaksanakan sendiri penghitungan dan pembayaran \nPajak Penghasilan   yang terutang dalam tahun berjalan; \ndan \nc. \nmelaporkan \npenghitungan \ndan \npembayaran \nPajak \nPenghasilan yang terutang dalam tahun berjalan dalam \nSurat Pemberitahuan Tahunan."
+    },
+    {
+      "nomor": "15",
+      "text": "(1) Pemotongan Pajak Penghasilan oleh pihak sebagaimana \ndimaksud dalam Pasal 21 ayat (1) Undang-Undang Pajak \nPenghasilan dilakukan pada akhir bulan: \na. \nterjadinya pembayaran; atau  \nb. \nterutangnya penghasilan yang bersangkutan,  \ntergantung peristiwa yang terjadi terlebih dahulu. \n(2) Pemungutan Pajak Penghasilan oleh pihak sebagaimana \ndimaksud dalam Pasal 22 ayat (1) Undang-Undang Pajak \nPenghasilan, dilakukan pada saat: \na. \npembayaran; atau \nb. \ntertentu lainnya yang diatur oleh Menteri Keuangan. \n(3) Pemotongan Pajak Penghasilan oleh pihak sebagaimana \ndimaksud dalam Pasal 23  ayat (1)  dan ayat (3)  Undang-\nUndang Pajak Penghasilan, dilakukan pada akhir bulan: \na. \ndibayarkannya penghasilan; \nb. \ndisediakan untuk dibayarkannya penghasilan; atau \nc. \njatuh \ntemponya \npembayaran \npenghasilan \nyang \nbersangkutan,  \ntergantung peristiwa yang terjadi terlebih dahulu. \n(4) Pemotongan Pajak Penghasilan oleh pihak sebagaimana \ndimaksud dalam Pasal 26 ayat (1) Undang-Undang Pajak \nPenghasilan, dilakukan pada akhir bulan: \na. \ndibayarkannya penghasilan; \nb. \ndisediakan untuk dibayarkannya penghasilan; atau  \nc. \njatuh \ntemponya \npembayaran \npenghasilan \nyang \nbersangkutan, \ntergantung peristiwa yang terjadi terlebih dahulu. \n \nPasal 16 . . . \n\n\n \n- 10 -"
+    },
+    {
+      "nomor": "16",
+      "text": "Dalam hal pemotongan Pajak Penghasilan Pasal 23 Undang-\nUndang Pajak Penghasilan atau Pasal 26 Undang-Undang \nPajak \nPenghasilan \nberdasarkan \nketentuan \nsebagaimana \ndimaksud dalam Pasal 15 dilakukan pada tahun pajak yang \nberbeda dengan tahun pajak pengakuan penghasilan, maka \natas Pajak Penghasilan yang telah dipotong tersebut dapat \ndikreditkan pada tahun pajak dilakukan pemotongan."
+    },
+    {
+      "nomor": "17",
+      "text": "Dengan Peraturan Direktur Jenderal Pajak, dapat ditetapkan \nsaat pengakuan penghasilan dan biaya dalam hal-hal tertentu \nsesuai dengan kebijakan Pemerintah."
+    },
+    {
+      "nomor": "18",
+      "text": "(1) Pajak Penghasilan atas pembayaran royalti sebagaimana \ndimaksud dalam Pasal 23 ayat (1) huruf a angka 3 \nUndang–Undang \nPajak \nPenghasilan \nyang \ndilakukan \ndengan cara bagi hasil dipotong oleh pihak yang wajib \nmembayarkan. \n(2) Ketentuan \nmengenai \ndasar \npemotongan \nPajak \nPenghasilan \natas \npembayaran \nroyalti \nsebagaimana \ndimaksud pada ayat (1) diatur dengan Peraturan Direktur \nJenderal Pajak."
+    },
+    {
+      "nomor": "19",
+      "text": "Dalam hal penghasilan tidak dikenai Pajak Penghasilan yang \nbersifat final dengan Peraturan Pemerintah tersendiri, atas \npenghasilan tersebut dikenai Pajak Penghasilan berdasarkan \ntarif sebagaimana dimaksud dalam Pasal 17 Undang-Undang \nPajak Penghasilan.  \n \n \n \nPasal 20 . . . \n\n\n \n- 11 -"
+    },
+    {
+      "nomor": "20",
+      "text": "Pajak Penghasilan yang dipotong atau dipungut berdasarkan \ntarif pemotongan atau pemungutan sebagaimana dimaksud \ndalam Pasal 21 ayat (5a), Pasal 22 ayat (3), dan Pasal 23  ayat \n(1a) Undang-Undang Pajak Penghasilan, dapat dikreditkan \nterhadap Pajak Penghasilan yang terutang untuk tahun pajak \nyang bersangkutan setelah Wajib Pajak tersebut memiliki \nNomor Pokok Wajib Pajak."
+    },
+    {
+      "nomor": "21",
+      "text": "(1) Wajib Pajak yang dalam tahun pajak berjalan dapat \nmembuktikan tidak akan terutang Pajak Penghasilan \nkarena: \na. \nmengalami kerugian fiskal; \nb. \nberhak melakukan kompensasi kerugian fiskal; atau \nc. \nPajak Penghasilan yang telah dibayar lebih besar dari \nPajak Penghasilan yang akan terutang, \ndapat \nmengajukan \npermohonan \npembebasan \ndari \npemotongan dan/atau pemungutan Pajak Penghasilan \noleh pihak lain kepada Direktur Jenderal Pajak. \n(2) Wajib Pajak yang atas penghasilannya  hanya dikenakan \npajak bersifat final, dapat mengajukan permohonan \npembebasan dari pemotongan dan/atau pemungutan \nPajak \nPenghasilan \nyang \ndapat \ndikreditkan \nkepada  \nDirektur Jenderal Pajak.  \n(3) Ketentuan lebih lanjut mengenai tata cara pengajuan \npermohonan pembebasan dari pemotongan dan/atau \npemungutan \nPajak \nPenghasilan \noleh \npihak \nlain \nsebagaimana dimaksud pada ayat (1) dan ayat (2) diatur \ndengan Peraturan Direktur Jenderal Pajak."
+    },
+    {
+      "nomor": "22",
+      "text": "Dalam menghitung Pajak Penghasilan sebagaimana dimaksud \ndalam Pasal 26 ayat (4) Undang-Undang Pajak Penghasilan, \nterhadap bentuk usaha tetap yang terutang Pajak Penghasilan \npada suatu tahun pajak, kerugian fiskal tidak dapat \ndikompensasikan lagi dengan Penghasilan Kena Pajak setelah \ndikurangi dengan Pajak Penghasilan.  \nPasal 23 . . . \n\n\n \n- 12 -"
+    },
+    {
+      "nomor": "23",
+      "text": "(1) Pajak Penghasilan yang terutang dari Penghasilan Kena \nPajak sesudah dikurangi pajak dari suatu bentuk usaha \ntetap di Indonesia sebagaimana dimaksud dalam Pasal 26 \nayat (4) Undang-Undang Pajak Penghasilan harus dibayar \nlunas sebelum Surat Pemberitahuan Tahunan Pajak \nPenghasilan disampaikan. \n(2) Dalam \nhal \nWajib \nPajak \nbentuk \nusaha \ntetap \nmemperpanjang \njangka \nwaktu \npenyampaian \nSurat \nPemberitahuan Tahunan Pajak Penghasilan sebagaimana \ndimaksud pada ayat (1), Pajak Penghasilan yang terutang \nberdasarkan penghitungan sementara harus dibayar \nlunas \nsebelum \npenyampaian \npemberitahuan \nperpanjangan \njangka \nwaktu \npenyampaian \nSurat \nPemberitahuan Tahunan Pajak Penghasilan."
+    },
+    {
+      "nomor": "24",
+      "text": "(1) Persetujuan Penghindaran Pajak Berganda hanya berlaku \nbagi orang pribadi atau badan yang merupakan Subjek \nPajak: \na. \ndalam negeri dari Indonesia; dan/atau  \nb. \ndari negara mitra persetujuan penghindaran pajak \nberganda, \nyang dibuktikan dengan Surat Keterangan Domisili. \n(2) Ketentuan lebih lanjut mengenai tata cara penerapan \nPersetujuan Penghindaran Pajak Berganda sebagaimana \ndimaksud pada ayat (1) diatur dengan Peraturan Direktur \nJenderal Pajak. \n \n \nPasal 25 . . . \n\n\n \n- 13 -"
+    },
+    {
+      "nomor": "25",
+      "text": "(1) \nDirektur \nJenderal \nPajak \ndapat \nmelaksanakan \nkesepakatan \ndengan \nnegara \nmitra \ndalam \nrangka \npertukaran informasi, prosedur persetujuan bersama, \ndan bantuan penagihan. \n(2) \nKetentuan mengenai tata cara penyampaian pertukaran \ninformasi, pelaksanaan prosedur persetujuan bersama, \ndan pelaksanaan bantuan penagihan diatur dengan \nPeraturan Direktur Jenderal Pajak."
+    },
+    {
+      "nomor": "26",
+      "text": "(1) Dalam hal terdapat ketentuan perpajakan yang diatur \ndalam perjanjian internasional yang berbeda dengan \nketentuan perpajakan yang diatur dalam Undang-Undang \nPajak Penghasilan, perlakuan perpajakannya didasarkan \npada ketentuan dalam perjanjian tersebut sampai dengan \nberakhirnya \nperjanjian \ndimaksud, \ndengan \nsyarat \nperjanjian tersebut telah sesuai dengan Undang-Undang \ntentang Perjanjian Internasional. \n(2) Pelaksanaan \nperlakuan \nperpajakan \nsebagaimana \ndimaksud pada ayat (1) dilakukan setelah mendapat \npersetujuan Menteri Keuangan. \n(3) Ketentuan lebih lanjut mengenai pelaksanaan perlakuan \nperpajakan sebagaimana dimaksud pada ayat (2) diatur \ndengan Peraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "27",
+      "text": "(1) Wajib Pajak harus menyelenggarakan pembukuan secara \nterpisah dalam hal:  \na. \nmemiliki usaha yang penghasilannya dikenai Pajak \nPenghasilan yang bersifat final dan tidak final;  \nb. \nmenerima \natau \nmemperoleh \npenghasilan \nyang \nmerupakan objek pajak dan bukan objek pajak; atau \n \n \nc. mendapatkan . . . \n\n\n \n- 14 -\n \nc. \nmendapatkan \ndan \ntidak \nmendapatkan \nfasilitas \nperpajakan sebagaimana diatur dalam Pasal 31A \nUndang-Undang Pajak Penghasilan.  \n(2) Biaya bersama bagi Wajib Pajak sebagaimana dimaksud \npada ayat (1) yang tidak dapat dipisahkan dalam rangka \npenghitungan \nbesarnya \nPenghasilan \nKena \nPajak, \npembebanannya dialokasikan secara proporsional."
+    },
+    {
+      "nomor": "28",
+      "text": "(1) Wajib Pajak yang melakukan perubahan tahun buku dan \ntelah mendapat persetujuan dari Direktur Jenderal Pajak \nsebagaimana dimaksud dalam Pasal 28 ayat (6) Undang-\nUndang Ketentuan Umum dan Tata Cara Perpajakan, \nharus melaporkan penghasilan yang diterima atau \ndiperoleh dalam bagian tahun buku yang tidak termasuk \ndalam \ntahun \nbuku \nyang \nbaru \ndalam \nSurat \nPemberitahuan Tahunan Pajak Penghasilan tersendiri \nuntuk Bagian Tahun Pajak yang bersangkutan. \n(2) Sisa rugi fiskal yang masih dapat dikompensasikan yang \nberasal dari tahun-tahun pajak sebelum perubahan \ntahun buku dapat dikompensasikan dengan penghasilan \nuntuk Bagian Tahun Pajak dan Tahun Pajak berikutnya."
+    },
+    {
+      "nomor": "29",
+      "text": "(1) Kepada Wajib Pajak yang melakukan penanaman\nmodal baru yang merupakan industri pionir, yang\ntidak mendapatkan fasilitas sebagaimana\ndimaksud dalam Pasal 31A Undang-Undang\nPajak Penghasilan dapat diberikan fasilitas\npembebasan atau pengurangan Pajak Penghasilan\nbadan sebagaimana dimaksud dalam Pasal 18 ayat\n(5) Undang-Undang Nomor 25 Tahun 2OO7 tentang\nPenanaman Modal.\n(21 Industri pionir sebagaimana dimaksud pada ayat (1)\nmerupakan industri yang memiliki keterkaitan yang\nluas, memberi nilai tambah dan eksternalitas yang\ntinggi, memperkenalkan teknologi baru, serta\nmemiliki nilai strategis bagi perekonomian nasional."
+    },
+    {
+      "nomor": "29A",
+      "text": "Kepada Wajib Pajak badan dalam negeri yang\nmelakukan penanaman modal baru atau perluasan\nusaha pada bidang usaha tertentu yang:\na. merupakan industri padat karya; dan\nb. tidak\n\n\nPRES I DEN\nREPUBLIK INDONESIA\n-4-\nb. tidak mendapatkan fasilitas sebagaimana dimaksud\ndalam Pasal 31A Undang-Undang Pajak Penghasilan\natau fasilitas sebagaimana dimaksud dalam Pasal 29\nayat (1),\ndapat diberikan fasilitas pajak penghasilan berupa\npengurangan penghasilan neto sebesar 600/o (enam\npuluh persen) dari jumlah penanaman modal berupa\naktiva tetap berwujud termasuk tanah yang digunakan\nuntuk kegiatan usaha utama, yang dibebankan dalam\njangka waktu tertentu.\nPasal 29B\n(1) Kepada Wajib Pajak badan dalam negeri yang\nmenyelenggarakan kegiatan praktik \nkerja,\npemagangan, dan latau pembelajaran dalam rangka\npembinaan dan pengembangan sumber daya\nmanusia berbasis kompetensi tertentu dapat\ndiberikan pengurangan penghasilan bruto paling\ntinggi 2OOo/o (dua ratus persen) dari jumlah biaya\nyang dikeluarkan untuk kegiatan praktik kerja,\npemagangan, dan/ atau pembelajaran.\n(21 Kompetensi tertentu sebagaimana dimaksud pada\nayat (1) merupakan kompetensi untuk meningkatkan\nkualitas tenaga kerja melalui program praktik kerja,\npemagangan, dan latau pembelajaran yang strategis\nuntuk mencapai efektivitas dan efisiensi tenaga kerja\nsebagai bagian dari investasi sumber daya manusia,\ndan memenuhi struktur kebutuhan tenaga kerja\nyang dibutuhkan oleh dunia usaha dan/atau dunia\nindustri.\nPasal 29C\n(1) Kepada Wajib Pajak badan dalam negeri yang\nmelakukan kegiatan penelitian dan pengembangan\ntertentu di \nIndonesia, dapat diberikan\npengurangan penghasilan bruto paling tinggi 3OOo/o\n(tiga ratus persen) dari jumlah biaya yang\ndikeluarkan untuk kegiatan penelitian dan\npengembangan tertentu di Indonesia yang\ndibebankan dalam jangka waktu tertentu.\n(2) Kegiatan . .\n\n\nPRES I DEN\nREPUBLIK INDONESIA\n-5-\n(21 Kegiatan penelitian dan pengembangan tertentu\nsebagaimana dimaksud pada ayat (1) merupakan\nkegiatan penelitian dan pengembangan yang\ndilakukan di Indonesia untuk menghasilkan\ninvensi, menghasilkan inovasi, penguasaan\nteknologi baru, dan/atau alih teknologi bagi\npengembangan industri untuk peningkatan daya\nsaing industri nasional."
+    },
+    {
+      "nomor": "30",
+      "text": "Ketentuan lebih lanjut mengenai pemberian:\na. fasilitas pembebasan atau pengurangan\npenghasilan badan sebagaimana dimaksud\nPasal 29 ayat (Il;\nb. fasilitas pengurangan penghasilan neto atas\npenanaman modal baru atau perluasan usaha\npada bidang usaha tertentu yang merupakan industri\npadat karya sebagaimana dimaksud dalam Pasal\n29P^;\nc. pengurangan penghasilan bruto \natas\npenyelenggaraan kegiatan praktik \nkerja,\npemagangan, dan latau pembelajaran dalam rangka\npembinaan dan pengembangan sumber daya\nmanusia berbasis kompetensi tertentu sebagaimana\ndimaksud dalam Pasal 298 ayat (1); dan\nd. pengurangan penghasilan bruto atas kegiatan\npenelitian dan pengembangan tertentu di Indonesia\nsebagaimana dimaksud dalam Pasal 29C ayat (ll,\ndiatur dengan Peraturan Menteri Keuangan"
+    },
+    {
+      "nomor": "31",
+      "text": "Penghitungan pajak bagi Wajib Pajak yang tahun bukunya \nberakhir sebelum tanggal 1 Juli 2009 dilakukan berdasarkan \nketentuan dalam Undang-Undang Nomor 7 Tahun 1983 \ntentang Pajak Penghasilan sebagaimana telah beberapa kali \ndiubah terakhir dengan Undang-Undang Nomor 17 Tahun \n2000 tentang Perubahan Ketiga Atas Undang-Undang Nomor 7 \nTahun 1983 tentang Pajak Penghasilan."
+    },
+    {
+      "nomor": "32",
+      "text": "Penghitungan pajak dalam tahun berjalan sampai dengan \nDesember 2008,  untuk tahun pajak 2009, bagi Wajib Pajak \nyang tahun bukunya berakhir setelah tanggal 30 Juni 2009, \ndilakukan berdasarkan ketentuan dalam Undang-Undang \nNomor 7 Tahun 1983 tentang Pajak Penghasilan  sebagaimana  \n \n \ntelah . . . \n\n\n \n- 16 -\ntelah beberapa kali diubah terakhir dengan Undang-Undang \nNomor 17 Tahun 2000  tentang Perubahan Ketiga Atas \nUndang-Undang \nNomor \n7 \nTahun \n1983 \ntentang \nPajak \nPenghasilan."
+    },
+    {
+      "nomor": "33",
+      "text": "Fasilitas perpajakan dengan jangka waktu yang terbatas yang \ndiperoleh Wajib Pajak sebelum tanggal 1 Januari 2009 tetap \nberlaku sampai dengan berakhirnya jangka waktu fasilitas \nperpajakan tersebut."
+    },
+    {
+      "nomor": "34",
+      "text": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan \nPemerintah Nomor 138 Tahun 2000 tentang Penghitungan \nPenghasilan Kena Pajak dan Pelunasan Pajak Penghasilan \nDalam Tahun Berjalan (Lembaran Negara Republik Indonesia \nTahun 2000 Nomor 253, Tambahan Lembaran Negara \nRepublik Indonesia Nomor 4055), dicabut dan dinyatakan \ntidak berlaku."
+    },
+    {
+      "nomor": "35",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal \ndiundangkan. \n \n \n \n \nAgar . . . \n\n\n \n- 17 -\nAgar \nsetiap \norang \nmengetahuinya, \nmemerintahkan \npengundangan \nPeraturan \nPemerintah \nini \ndengan \npenempatannya dalam Lembaran Negara Republik Indonesia. \n \n \n \n \nDitetapkan di Jakarta \n \n \npada tanggal 30 Desember 2010 \n \n \nPRESIDEN REPUBLIK INDONESIA, \n                             \n                          ttd.  \n \nDR. H. SUSILO BAMBANG YUDHOYONO \n \nDiundangkan di Jakarta \npada tanggal 30 Desember 2010 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \nREPUBLIK INDONESIA, \n \nttd. \n \nPATRIALIS AKBAR \n \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 161 \n \n \n \n \n \n \n \n \n \nSalinan sesuai dengan aslinya \nSEKRETARIAT NEGARA REPUBLIK INDONESIA \nKepala Biro Peraturan Perundang-undangan \nBidang Perekonomian dan Industri, \n \n \n \n \nSetio Sapto Nugroho"
+    }
+  ]
+}

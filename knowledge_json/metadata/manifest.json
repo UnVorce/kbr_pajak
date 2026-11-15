@@ -1,0 +1,1582 @@
+{
+  "version": "fase3-v3.1",
+  "total_documents": 78,
+  "total_consolidated": 13,
+  "pending_ck": [
+    "UU-2020-11",
+    "PERPU-2022-2",
+    "UU-2023-6"
+  ],
+  "documents": [
+    {
+      "document_id": "CORETAX-buku-manual-coretax-2024-seri-pembayaran",
+      "jenis": "MANUAL",
+      "tahun": null,
+      "judul": "Buku Manual Coretax 2024 - Seri Pembayaran.json",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/CORETAX-buku-manual-coretax-2024-seri-pembayaran.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/CORETAX-buku-manual-coretax-2024-seri-pembayaran.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "CORETAX-buku-manual-coretax-2024-taxpayer-account-management",
+      "jenis": "MANUAL",
+      "tahun": null,
+      "judul": "Buku Manual Coretax 2024 - Taxpayer Account Management.json",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/CORETAX-buku-manual-coretax-2024-taxpayer-account-management.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/CORETAX-buku-manual-coretax-2024-taxpayer-account-management.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "CORETAX-buku-panduan-coretax-bagi-instansi-pemerintah-2025",
+      "jenis": "MANUAL",
+      "tahun": null,
+      "judul": "Buku Panduan Coretax bagi Instansi Pemerintah 2025.json",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/CORETAX-buku-panduan-coretax-bagi-instansi-pemerintah-2025.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/CORETAX-buku-panduan-coretax-bagi-instansi-pemerintah-2025.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "CORETAX-kt-10-kebijakan-penghapusan-sanksi-administratif-sehubungan-denganimplementasi-coretax-djp",
+      "jenis": "MANUAL",
+      "tahun": null,
+      "judul": "Kebijakan  Penghapusan",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/CORETAX-kt-10-kebijakan-penghapusan-sanksi-administratif-sehubungan-denganimplementasi-coretax-djp.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/CORETAX-kt-10-kebijakan-penghapusan-sanksi-administratif-sehubungan-denganimplementasi-coretax-djp.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "CORETAX-panduan-ringkas-coretax-djp",
+      "jenis": "MANUAL",
+      "tahun": null,
+      "judul": "Panduan Ringkas Coretax DJP.json",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/CORETAX-panduan-ringkas-coretax-djp.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/CORETAX-panduan-ringkas-coretax-djp.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "PER-DJP-2015-17-LAMPIRAN-1",
+      "jenis": "LAMPIRAN",
+      "tahun": 2015,
+      "judul": "Lampiran 1 PER-17/PJ/2015 (NPPN)",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-1.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-1.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "PER-DJP-2015-17-LAMPIRAN-2",
+      "jenis": "LAMPIRAN",
+      "tahun": 2015,
+      "judul": "Lampiran 2 PER-17/PJ/2015 (NPPN)",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-2.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-2.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "PER-DJP-2015-17-LAMPIRAN-3",
+      "jenis": "LAMPIRAN",
+      "tahun": 2015,
+      "judul": "Lampiran 3 PER-17/PJ/2015 (NPPN)",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-3.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-3.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "PER-DJP-2015-17-LAMPIRAN-4",
+      "jenis": "LAMPIRAN",
+      "tahun": 2015,
+      "judul": "Lampiran 4 PER-17/PJ/2015 (NPPN)",
+      "status_sumber": null,
+      "structure": null,
+      "document_path": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-4.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-4.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "PER-DJP-2015-17",
+      "jenis": "PER-DJP",
+      "tahun": 2015,
+      "judul": "Peraturan Direktur Jenderal Pajak Nomor PER-17/PJ/2015 tentang Norma Penghitungan Penghasilan Neto",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PER-DJP-2015-17.json",
+      "provisions_pasal_count": 149,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
+      "document_id": "PERPU-2008-5",
+      "jenis": "PERPU",
+      "tahun": 2008,
+      "judul": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu)  Nomor 5 Tahun 2008 tentang Perubahan Keempat Atas Undang-Undang Nomor 6 Tahun 1983 Tentang Ketentuan Umum Dan Tata Cara Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PERPU-2008-5.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PERPU-2008-5.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/53229/perpu-no-5-tahun-2008",
+        "https://peraturan.bpk.go.id/Download/42607/Perpu%205%20Tahun%202008.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2010-68",
+      "jenis": "PMK",
+      "tahun": 2010,
+      "judul": "Peraturan Menteri Keuangan  Nomor 68/PMK.03/2010 Tahun 2010 tentang Batasan Pengusaha Kecil Pajak Pertambahan Nilai",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2010-68.json",
+      "provisions_pasal_count": 9,
+      "articles_count": 9,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2010-68.json",
+        "chain": [
+          "PMK-2013-197"
+        ],
+        "applied_count": 4,
+        "unparsed_count": 0,
+        "pasal_count": 9
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2010-68.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/150340/pmk-no-68pmk032010",
+        "https://peraturan.bpk.go.id/Download/142520/PMK%20Nomor%2068%20Tahun%202010.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2013-197",
+      "jenis": "PMK",
+      "tahun": 2013,
+      "judul": "Peraturan Menteri Keuangan  Nomor 197/PMK.03/2013 Tahun 2013 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 68/PMK.03/2010 tentang Batasan Pengusaha Kecil Pajak Pertambahan Nilai",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2013-197.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2013-197.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/150339/pmk-no-197pmk032013",
+        "https://peraturan.bpk.go.id/Download/142519/PMK%20Nomor%20197%20Tahun%202013.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2016-101",
+      "jenis": "PMK",
+      "tahun": 2016,
+      "judul": "Peraturan Menteri Keuangan  Nomor 101/PMK.010/2016 Tahun 2016 tentang Penyesuaian Besarnya Penghasilan Tidak Kena Pajak",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2016-101.json",
+      "provisions_pasal_count": 5,
+      "articles_count": 5,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2016-101.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/121096/pmk-no-101pmk0102016",
+        "https://peraturan.bpk.go.id/Download/111866/PMK%20Nomor%20101%20Tahun%202016.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2018-109",
+      "jenis": "PMK",
+      "tahun": 2018,
+      "judul": "Peraturan Menteri Keuangan  Nomor 109/PMK.03/2018 Tahun 2018 tentang Pengadaan Barang dan/atau Jasa Untuk Pembaruan Sistem Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2018-109.json",
+      "provisions_pasal_count": 29,
+      "articles_count": 28,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2018-109.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/113203/pmk-no-109pmk032018",
+        "https://peraturan.bpk.go.id/Download/104162/PMK%20Nomor%20109%20Tahun%202018.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2018-151",
+      "jenis": "PMK",
+      "tahun": 2018,
+      "judul": "Peraturan Menteri Keuangan  Nomor 151/PMK.03/2018 Tahun 2018 tentang Pengadaan Agen Pengadaan Untuk Pembaruan Sistem Administrasi Perpajakan Serta Standar Dokumen Pengadaan Dan Standar Dokumen Kontrak",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2018-151.json",
+      "provisions_pasal_count": 17,
+      "articles_count": 16,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2018-151.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/113462/pmk-no-151pmk032018",
+        "https://peraturan.bpk.go.id/Download/104418/PMK%20Nomor%20151%20Tahun%202018.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2019-121",
+      "jenis": "PMK",
+      "tahun": 2019,
+      "judul": "Peraturan Menteri Keuangan  Nomor 121/PMK.03/2019 Tahun 2019 tentang Pengadaan Jasa Konsultansi Badan Usaha Untuk Pembaruan Sistem Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2019-121.json",
+      "provisions_pasal_count": 1,
+      "articles_count": 13,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2019-121.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/128144/pmk-no-121pmk032019",
+        "https://peraturan.bpk.go.id/Download/119139/121~PMK.03~2019Per.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2019-56",
+      "jenis": "PMK",
+      "tahun": 2019,
+      "judul": "Peraturan Menteri Keuangan  Nomor 56/PMK.03/2019 Tahun 2019 tentang Pengadaan Sistem Informasi Untuk Pembaruan Sistem Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2019-56.json",
+      "provisions_pasal_count": 1,
+      "articles_count": 42,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2019-56.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/128042/pmk-no-56pmk032019",
+        "https://peraturan.bpk.go.id/Download/119039/56~PMK.03~2019Per.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2020-130",
+      "jenis": "PMK",
+      "tahun": 2020,
+      "judul": "Peraturan Menteri Keuangan  Nomor 130/PMK.010/2020 Tahun 2020 tentang Pemberian Fasilitas Pengurangan Pajak Penghasilan Badan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2020-130.json",
+      "provisions_pasal_count": 5,
+      "articles_count": 25,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2020-130.json",
+        "chain": [
+          "PMK-2024-69"
+        ],
+        "applied_count": 0,
+        "unparsed_count": 1,
+        "pasal_count": 25
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2020-130.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/148016/pmk-no-130pmk0102020",
+        "https://peraturan.bpk.go.id/Download/139954/130_PMK.010_2020.pdf"
+      ],
+      "note": "Perubahan PMK-2024-69 asli belum ditemukan di BPK (lihat gaps_attempts.json)"
+    },
+    {
+      "document_id": "PMK-2020-96",
+      "jenis": "PMK",
+      "tahun": 2020,
+      "judul": "Peraturan Menteri Keuangan  Nomor 96/PMK.010/2020 Tahun 2020 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 11/PMK.010/2020 tentang Pelaksanaan Peraturan Pemerintah Nomor 78 Tahun 2019 tentang Fasilitas Pajak Penghasilan untuk Penanaman Modal di Bidang-bidang Usaha Tertentu dan/atau di Daerah-daerah Tertentu",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2020-96.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2020-96.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/143651/pmk-no-96pmk0102020",
+        "https://peraturan.bpk.go.id/Download/135177/96_PMK.010_2020Per.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2022-112",
+      "jenis": "PMK",
+      "tahun": 2022,
+      "judul": "Peraturan Menteri Keuangan  Nomor 112/PMK.03/2022 Tahun 2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2022-112.json",
+      "provisions_pasal_count": 8,
+      "articles_count": 8,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2022-112.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/217310/pmk-no-112pmk032022",
+        "https://peraturan.bpk.go.id/Download/211675/112_PMK.03_2022.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2023-142",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 142 Tahun 2023 tentang Biaya Operasional Pemungutan Pajak Bumi Dan Bangunan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-142.json",
+      "provisions_pasal_count": 6,
+      "articles_count": 6,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-142.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/283709/pmk-no-142-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/342748/2023pmkeuangan142.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2023-164",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 164 Tahun 2023 tentang Tata Cara Pengenaan Pajak Penghasilan Atas Penghasilan Dari Usaha Yang Diterima Atau Diperoleh Oleh Wajib Pajak Yang Memiliki Peredaran Bruto Tertentu Dan Kewajiban Pelpaoran Usaha Untuk Dikukuhkan Sebagai Pengusaha Kena Pajak",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-164.json",
+      "provisions_pasal_count": 25,
+      "articles_count": 24,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-164.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/286921/pmk-no-164-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/346063/2023pmkeuangan164.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2023-168",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 168 Tahun 2023 tentang Petunjuk Pelaksanaan Pemotongan Pajak Atas Penghasilan Sehubungan Dengan Pekerjaan, Jasa Atau Kegiatan Orang Pribadi",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-168.json",
+      "provisions_pasal_count": 25,
+      "articles_count": 27,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-168.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/286951/pmk-no-168-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/346093/2023pmkeuangan168.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2023-172",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 172 Tahun 2023 tentang Penerapan Prinsip Kewajaran Dan Kelaziman Usaha Dalam Transaksi Yang Dipengaruhi Hubungan Istimewa",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-172.json",
+      "provisions_pasal_count": 25,
+      "articles_count": 69,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-172.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/288349/pmk-no-172-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/347583/2023pmkeuangan172.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2023-41",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 41 Tahun 2023 tentang Pajak Pertambahan Nilai atas Penyerahan Agunan yang Diambil Alih oleh Kreditur kepada Pembeli Agunan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-41.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 10,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-41.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/247419/pmk-no-41-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/303660/2023pmkeuangan041.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2023-48",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 48 Tahun 2023 tentang Pajak Penghasilan dan/atau Pajak Pertambahan Nilai atas Penjualan/Penyerahan Emas Perhiasan, Emas Batangan, Perhiasan yang Bahan Seluruhnya Bukan dari Emas, Batu Permata dan/atau Batu Lainnya yang Sejenis, serta Jasa yang terkait dengan Emas Perhiasan, Emas Batangan, Perhiasan yang Bahan Seluruhnya Bukan dari Emas, dan/atau Batu Permata dan/atau Batu Lainnya yang Sejenis, yang Dilakukan oleh Pabrikan Emas Perhiasan, Pedagang Emas Perhiasan, dan/atau Pengusaha Emas Batangan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-48.json",
+      "provisions_pasal_count": 28,
+      "articles_count": 5,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2023-48.json",
+        "chain": [
+          "PMK-2025-11"
+        ],
+        "applied_count": 2,
+        "unparsed_count": 0,
+        "pasal_count": 28
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2023-48.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/248649/pmk-no-48-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/304998/2023pmkeuangan048.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2024-127",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan  Nomor 127 Tahun 2024 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 65 Tahun 2024 tentang Peta Kapasitas Fiskal Daerah",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2024-127.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 9,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2024-127.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/313088/pmk-no-127-tahun-2024"
+      ]
+    },
+    {
+      "document_id": "PMK-2024-131",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan  Nomor 131 Tahun 2024 tentang Perlakuan Pajak Pertambahan Nilai atas Impor Barang Kena Pajak, Penyerahan Barang Kena Pajak, Penyerahan Jasa Kena Pajak, Pemanfaatan Barang Kena Pajak Tidak Berwujud dari Luar Daerah Pabean di Dalam Daerah Pabean dan Pemanfaatan Jasa Kena Pajak dari Luar Daerah",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2024-131.json",
+      "provisions_pasal_count": 6,
+      "articles_count": 6,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2024-131.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/311485/pmk-no-131-tahun-2024",
+        "https://peraturan.bpk.go.id/Download/372221/131%20th%202024.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2024-78",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan  Nomor 78 Tahun 2024 tentang Ketentuan Pelaksanaan Bea Materai",
+      "status_sumber": "Berlaku",
+      "structure": "UNKNOWN",
+      "document_path": "knowledge_json/documents/PMK-2024-78.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 72,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2024-78.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/306425/pmk-no-78-tahun-2024",
+        "https://peraturan.bpk.go.id/Download/366665/2024pmkeuangan078.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2024-79",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan  Nomor 79 Tahun 2024 tentang Perlakukan Perpajakan Dalam Kerja Sama Operasi",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2024-79.json",
+      "provisions_pasal_count": 4,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2024-79.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/306437/pmk-no-79-tahun-2024",
+        "https://peraturan.bpk.go.id/Download/366677/2024pmkeuangan079.pdf"
+      ],
+      "text_fallback_path": "knowledge_json/text_fallback/PMK-2024-79.txt",
+      "note": "PDF 2 kolom: provisions hanya Pasal 1-4; teks lengkap di text_fallback_path"
+    },
+    {
+      "document_id": "PMK-2024-81",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan  Nomor 81 Tahun 2024 tentang Ketentuan Perpajakan dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "UNKNOWN",
+      "document_path": "knowledge_json/documents/PMK-2024-81.json",
+      "provisions_pasal_count": 0,
+      "articles_count": 466,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2024-81.json",
+        "chain": [
+          "PMK-2025-11",
+          "PMK-2025-53",
+          "PMK-2025-54",
+          "PMK-2026-1"
+        ],
+        "applied_count": 47,
+        "unparsed_count": 4,
+        "pasal_count": 427
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2024-81.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/306614/pmk-no-81-tahun-2024",
+        "https://peraturan.bpk.go.id/Download/366884/2024pmkeuangan081.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2025-105",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Peraturan Menteri Keuangan  Nomor 105 Tahun 2025 tentang Pajak Penghasilan Pasal 21 atas Penghasilan Tertentu yang Ditanggung Pemerintah dalam Rangka Stimulus Ekonomi Tahun Anggaran 2026",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-105.json",
+      "provisions_pasal_count": 9,
+      "articles_count": 0,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-105.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/341778/pmk-no-105-tahun-2025",
+        "https://peraturan.bpk.go.id/Download/404917/2025pmkeuangan105.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2025-11",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Peraturan Menteri Keuangan  Nomor 11 Tahun 2025 tentang Ketentuan Nilai Lain Sebagai Dasar Pengenaan Pajak dan Besaran Tertentu Pajak Pertambahan Nilai",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-11.json",
+      "provisions_pasal_count": 24,
+      "articles_count": 24,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2025-11.json",
+        "chain": [
+          "PMK-2025-53"
+        ],
+        "applied_count": 1,
+        "unparsed_count": 0,
+        "pasal_count": 24
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2025-11.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/313574/pmk-no-11-tahun-2025",
+        "https://peraturan.bpk.go.id/Download/374467/2025pmkeuangan11.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2025-53",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Peraturan Menteri Keuangan  Nomor 53 Tahun 2025 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 11 Tahun 2025 tentang Ketentuan Nilai Lain sebagai Dasar Pengenaan Pajak dan Besaran Tertentu Pajak Pertambahan Nilai",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2025-53.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-53.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/326338/pmk-no-53-tahun-2025",
+        "https://peraturan.bpk.go.id/Download/388141/53%20th%202025.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2025-54",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Peraturan Menteri Keuangan  Nomor 54 Tahun 2025 tentang Perubahan Ketiga atas Peraturan Menteri Keuangan Nomor 81 Tahun 2024 tentang Ketentuan Perpajakan dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2025-54.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-54.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/326365/pmk-no-54-tahun-2025",
+        "https://peraturan.bpk.go.id/Download/388168/54%20th%202025.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2026-1",
+      "jenis": "PMK",
+      "tahun": 2026,
+      "judul": "Peraturan Menteri Keuangan  Nomor 1 Tahun 2026 tentang Perubahan Keempat atas Peraturan Menteri Keuangan Nomor 81 Tahun 2024 Tentang Ketentuan Perpajakan dalam rangka Pelaksanaan Sistem Inti Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2026-1.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2026-1.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/342160/pmk-no-1-tahun-2026",
+        "https://peraturan.bpk.go.id/Download/405303/2026pmkeuangan001.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2026-6",
+      "jenis": "PMK",
+      "tahun": 2026,
+      "judul": "Peraturan Menteri Keuangan  Nomor 6 Tahun 2026 tentang Pajak Penghasilan Pasal 21 atas Penghasilan yang Diterima dan/atau Diperoleh Peserta Pemagangan Lulusan Perguruan Tinggi yang Ditanggung Pemerintah Tahun Anggaran 2026",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2026-6.json",
+      "provisions_pasal_count": 12,
+      "articles_count": 13,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2026-6.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/345004/pmk-no-6-tahun-2026"
+      ]
+    },
+    {
+      "document_id": "PP-2000-147",
+      "jenis": "PP",
+      "tahun": 2000,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 147 Tahun 2000 tentang Perubahan Atas Peraturan Pemerintah Nomor 20 Tahun 2000 Tentang Perlakuan Perpajakan Di Kawasan Pengembangan Ekonomi Terpadu",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PP-2000-147.json",
+      "provisions_pasal_count": 3,
+      "articles_count": 3,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2000-147.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/54032/pp-no-147-tahun-2000",
+        "https://peraturan.bpk.go.id/Download/43437/PP%20No.147%20TH%202000.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2000-20",
+      "jenis": "PP",
+      "tahun": 2000,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 20 Tahun 2000 tentang Perlakuan Perpajakan Di Kawasan Pengembangan Ekonomi Terpadu",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2000-20.json",
+      "provisions_pasal_count": 5,
+      "articles_count": 5,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PP-2000-20.json",
+        "chain": [
+          "PP-2000-147"
+        ],
+        "applied_count": 1,
+        "unparsed_count": 0,
+        "pasal_count": 5
+      },
+      "recommended_source": "knowledge_json/consolidated/PP-2000-20.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/53196/pp-no-20-tahun-2000",
+        "https://peraturan.bpk.go.id/Download/42574/PP%20No.20%20TH%202000.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2010-94",
+      "jenis": "PP",
+      "tahun": 2010,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 94 Tahun 2010 tentang Penghitungan Penghasilan Kena Pajak Dan Pelunasan Pajak Penghasilan Dalam Tahun Berjalan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2010-94.json",
+      "provisions_pasal_count": 35,
+      "articles_count": 35,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PP-2010-94.json",
+        "chain": [
+          "PP-2019-45",
+          "PP-2021-9"
+        ],
+        "applied_count": 5,
+        "unparsed_count": 0,
+        "pasal_count": 37
+      },
+      "recommended_source": "knowledge_json/consolidated/PP-2010-94.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/5119/pp-no-94-tahun-2010",
+        "https://peraturan.bpk.go.id/Download/36193/PP%2094%20Tahun%202010.pdf"
+      ],
+      "note": "Pasal 2A dicabut sebagian oleh PP-2022-55 Pasal 72 huruf b"
+    },
+    {
+      "document_id": "PP-2015-18",
+      "jenis": "PP",
+      "tahun": 2015,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 18 Tahun 2015 tentang Fasilitas Pajak Penghasilan Untuk Penanaman Modal Di Bidang-bidang Usaha Tertentu Dan Atau Di Daerah-daerah Tertentu",
+      "status_sumber": "Tidak Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2015-18.json",
+      "provisions_pasal_count": 13,
+      "articles_count": 13,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PP-2015-18.json",
+        "chain": [
+          "PP-2016-9"
+        ],
+        "applied_count": 0,
+        "unparsed_count": 1,
+        "pasal_count": 13
+      },
+      "recommended_source": "knowledge_json/consolidated/PP-2015-18.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/5582/pp-no-18-tahun-2015",
+        "https://peraturan.bpk.go.id/Download/28685/PP%20Nomor%2018%20Tahun%202015.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2015-40",
+      "jenis": "PP",
+      "tahun": 2015,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 40 Tahun 2015 tentang Penyerahan Air Bersih Yang Dibebaskan Dari Pengenaan Pajak Pertambahan Nilai",
+      "status_sumber": "Tidak Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2015-40.json",
+      "provisions_pasal_count": 7,
+      "articles_count": 7,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2015-40.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/5608/pp-no-40-tahun-2015",
+        "https://peraturan.bpk.go.id/Download/28866/PP%20Nomor%2040%20Tahun%202015.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2015-81",
+      "jenis": "PP",
+      "tahun": 2015,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 81 Tahun 2015 tentang Impor Dan  Atau Penyerahan Barang Kena Pajak Tertentu Yang Bersifat Strategis Yang Dibebaskan Dari Pengenaan Pajak Pertambahan Nilai",
+      "status_sumber": "Tidak Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2015-81.json",
+      "provisions_pasal_count": 8,
+      "articles_count": 8,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2015-81.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/5659/pp-no-81-tahun-2015",
+        "https://peraturan.bpk.go.id/Download/29643/PP%20Nomor%2081%20Tahun%202015.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2016-55",
+      "jenis": "PP",
+      "tahun": 2016,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 55 Tahun 2016 tentang Ketentuan Umum Dan Tata Cara Pemungutan Pajak Daerah",
+      "status_sumber": "Tidak Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2016-55.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 71,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2016-55.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/5776/pp-no-55-tahun-2016"
+      ]
+    },
+    {
+      "document_id": "PP-2016-9",
+      "jenis": "PP",
+      "tahun": 2016,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 9 Tahun 2016 tentang Perubahan atas Peraturan Pemerintah Nomor 18 Tahun 2015 tentang Fasilitas Pajak Penghasilan untuk Penanaman Modal di Bidang-Bidang Usaha Tertentu dan/atau di Daerah-daerah Tertentu",
+      "status_sumber": "Tidak Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PP-2016-9.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2016-9.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/5730/pp-no-9-tahun-2016",
+        "https://peraturan.bpk.go.id/Download/28135/PP%20Nomor%209%20Tahun%202016.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2018-40",
+      "jenis": "PP",
+      "tahun": 2018,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 40 Tahun 2018 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Badan Standardisasi Nasional",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2018-40.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 19,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2018-40.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/99174/pp-no-40-tahun-2018",
+        "https://peraturan.bpk.go.id/Download/89871/PP%20Nomor%2040%20Tahun%202018.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2019-45",
+      "jenis": "PP",
+      "tahun": 2019,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 45 Tahun 2019 tentang Perubahan atas Peraturan Pemerintah Nomor 94 Tahun 2010 tentang Penghitungan Penghasilan Kena Pajak dan Pelunasan Pajak Penghasilan dalam Tahun Berjalan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PP-2019-45.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2019-45.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/110284/pp-no-45-tahun-2019",
+        "https://peraturan.bpk.go.id/Download/101295/PP%20Nomor%2045%20Tahun%202019.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2019-78",
+      "jenis": "PP",
+      "tahun": 2019,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 78 Tahun 2019 tentang Fasilitas Pajak Penghasilan untuk Penanaman Modal di Bidang-Bidang Usaha Tertentu dan/atau di Daerah-Daerah Tertentu",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2019-78.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 23,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2019-78.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/126141/pp-no-78-tahun-2019",
+        "https://peraturan.bpk.go.id/Download/117170/PP%20Nomor%2078%20Tahun%202019.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2021-9",
+      "jenis": "PP",
+      "tahun": 2021,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 9 Tahun 2021 tentang Perlakuan Perpajakan Untuk Mendukung Kemudahan Berusaha",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2021-9.json",
+      "provisions_pasal_count": 12,
+      "articles_count": 12,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2021-9.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/161839/pp-no-9-tahun-2021",
+        "https://peraturan.bpk.go.id/Download/244291/PP%20Nomor%209%20Tahun%202021.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2022-3",
+      "jenis": "PP",
+      "tahun": 2022,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 3 Tahun 2022 tentang Pemberian Fasilitas Pembebasan dari Pengenaan Bea Meterai",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2022-3.json",
+      "provisions_pasal_count": 7,
+      "articles_count": 11,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2022-3.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/196160/pp-no-3-tahun-2022",
+        "https://peraturan.bpk.go.id/Download/190019/PP%20Nomor%203%20Tahun%202022.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2022-44",
+      "jenis": "PP",
+      "tahun": 2022,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 44 Tahun 2022 tentang Penerapan terhadap Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2022-44.json",
+      "provisions_pasal_count": 20,
+      "articles_count": 62,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2022-44.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/232656/pp-no-44-tahun-2022",
+        "https://peraturan.bpk.go.id/Download/277124/PP%20Nomor%2044%20Tahun%202022.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2022-49",
+      "jenis": "PP",
+      "tahun": 2022,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 49 Tahun 2022 tentang Pajak Pertambahan Nilai Dibebaskan dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah Tidak Dipungut atas Impor dan/atau Penyerahan Barang Kena Pajak Tertentu dan/atau Penyerahan Jasa Kena Pajak Tertentu dan/atau Pemanfaatan Jasa Kena Pajak Tertentu dari Luar Daerah Pabean",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2022-49.json",
+      "provisions_pasal_count": 9,
+      "articles_count": 68,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2022-49.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/232943/pp-no-49-tahun-2022",
+        "https://peraturan.bpk.go.id/Download/280043/PP%20Nomor%2049%20Tahun%202022.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2022-50",
+      "jenis": "PP",
+      "tahun": 2022,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 50 Tahun 2022 tentang Tata Cara Pelaksanaan Hak dan Pemenuhan Kewajiban Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2022-50.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 10,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2022-50.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/232952/pp-no-50-tahun-2022",
+        "https://peraturan.bpk.go.id/Download/280141/PP%20Nomor%2050%20Tahun%202022.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2022-55",
+      "jenis": "PP",
+      "tahun": 2022,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 55 Tahun 2022 tentang Penyesuaian Pengaturan di Bidang Pajak Penghasilan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2022-55.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 131,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PP-2022-55.json",
+        "chain": [
+          "PP-2026-20"
+        ],
+        "applied_count": 5,
+        "unparsed_count": 0,
+        "pasal_count": 71
+      },
+      "recommended_source": "knowledge_json/consolidated/PP-2022-55.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/233488/pp-no-55-tahun-2022",
+        "https://peraturan.bpk.go.id/Download/284096/PP%20Nomor%2055%20Tahun%202022.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2023-35",
+      "jenis": "PP",
+      "tahun": 2023,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 35 Tahun 2023 tentang Ketentuan Umum Pajak Daerah dan Retribusi Daerah",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2023-35.json",
+      "provisions_pasal_count": 20,
+      "articles_count": 265,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2023-35.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/252130/pp-no-35-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/308745/PP%20Nomor%2035%20Tahun%202023.pdf"
+      ]
+    },
+    {
+      "document_id": "PP-2026-20",
+      "jenis": "PP",
+      "tahun": 2026,
+      "judul": "Peraturan Pemerintah (PP)  Nomor 20 Tahun 2026 tentang Perubahan atas Peraturan Pemerintah Nomor 55 Tahun 2022 tentang Penyesuaian Pengaturan di Bidang Pajak Penghasilan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PP-2026-20.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 8,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2026-20.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/349415/pp-no-20-tahun-2026",
+        "https://peraturan.bpk.go.id/Download/413101/PP%20Nomor%2020%20Tahun%202026.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1983-6",
+      "jenis": "UU",
+      "tahun": 1983,
+      "judul": "Undang-undang (UU)  Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-1983-6.json",
+      "provisions_pasal_count": 50,
+      "articles_count": 100,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/UU-1983-6.json",
+        "chain": [
+          "UU-1994-9",
+          "UU-2000-16",
+          "UU-2007-28",
+          "PERPU-2008-5",
+          "UU-2021-7"
+        ],
+        "applied_count": 158,
+        "unparsed_count": 0,
+        "pasal_count": 75
+      },
+      "recommended_source": "knowledge_json/consolidated/UU-1983-6.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46986/uu-no-6-tahun-1983",
+        "https://peraturan.bpk.go.id/Download/35803/UU%20Nomor%206%20Tahun%201983.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1983-7",
+      "jenis": "UU",
+      "tahun": 1983,
+      "judul": "Undang-undang (UU)  Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-1983-7.json",
+      "provisions_pasal_count": 36,
+      "articles_count": 36,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/UU-1983-7.json",
+        "chain": [
+          "UU-1991-7",
+          "UU-1994-10",
+          "UU-2000-17",
+          "UU-2008-36",
+          "UU-2021-7"
+        ],
+        "applied_count": 92,
+        "unparsed_count": 2,
+        "pasal_count": 42
+      },
+      "recommended_source": "knowledge_json/consolidated/UU-1983-7.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46988/uu-no-7-tahun-1983",
+        "https://peraturan.bpk.go.id/Download/35806/UU%20Nomor%207%20Tahun%201983.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1983-8",
+      "jenis": "UU",
+      "tahun": 1983,
+      "judul": "Undang-undang (UU)  Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-1983-8.json",
+      "provisions_pasal_count": 21,
+      "articles_count": 42,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/UU-1983-8.json",
+        "chain": [
+          "UU-1994-11",
+          "UU-2000-18",
+          "UU-2009-42",
+          "UU-2021-7"
+        ],
+        "applied_count": 66,
+        "unparsed_count": 0,
+        "pasal_count": 31
+      },
+      "recommended_source": "knowledge_json/consolidated/UU-1983-8.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46990/uu-no-8-tahun-1983",
+        "https://peraturan.bpk.go.id/Download/35808/UU%20Nomor%208%20Tahun%201983.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1985-12",
+      "jenis": "UU",
+      "tahun": 1985,
+      "judul": "Undang-undang (UU)  Nomor 12 Tahun 1985 tentang Pajak Bumi Dan Bangunan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-1985-12.json",
+      "provisions_pasal_count": 31,
+      "articles_count": 31,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/UU-1985-12.json",
+        "chain": [
+          "UU-1994-12"
+        ],
+        "applied_count": 4,
+        "unparsed_count": 0,
+        "pasal_count": 29
+      },
+      "recommended_source": "knowledge_json/consolidated/UU-1985-12.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46963/uu-no-12-tahun-1985",
+        "https://peraturan.bpk.go.id/Download/35768/UU%20Nomor%2012%20Tahun%201985.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1991-7",
+      "jenis": "UU",
+      "tahun": 1991,
+      "judul": "Undang-undang (UU)  Nomor 7 Tahun 1991 tentang  Perubahan atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-1991-7.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-1991-7.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46659/uu-no-7-tahun-1991",
+        "https://peraturan.bpk.go.id/Download/35397/UU%20Nomor%207%20Tahun%201991.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1994-10",
+      "jenis": "UU",
+      "tahun": 1994,
+      "judul": "Undang-undang (UU)  Nomor 10 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah Diubah Dengan Undang-Undang Nomor 7 Tahun 1991",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-1994-10.json",
+      "provisions_pasal_count": 3,
+      "articles_count": 3,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-1994-10.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46232/uu-no-10-tahun-1994",
+        "https://peraturan.bpk.go.id/Download/34820/UU%20Nomor%2010%20tahun%201994.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1994-11",
+      "jenis": "UU",
+      "tahun": 1994,
+      "judul": "Undang-undang (UU)  Nomor 11 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-1994-11.json",
+      "provisions_pasal_count": 4,
+      "articles_count": 4,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-1994-11.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46235/uu-no-11-tahun-1994",
+        "https://peraturan.bpk.go.id/Download/34833/UU%20Nomor%2011%20Tahun%201994.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1994-12",
+      "jenis": "UU",
+      "tahun": 1994,
+      "judul": "Undang-undang (UU)  Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-1994-12.json",
+      "provisions_pasal_count": 4,
+      "articles_count": 4,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-1994-12.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46237/uu-no-12-tahun-1994",
+        "https://peraturan.bpk.go.id/Download/34835/UU%20Nomor%2012%20Tahun%201994.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-1994-9",
+      "jenis": "UU",
+      "tahun": 1994,
+      "judul": "Undang-undang (UU)  Nomor 9 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-1994-9.json",
+      "provisions_pasal_count": 4,
+      "articles_count": 4,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-1994-9.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46230/uu-no-9-tahun-1994",
+        "https://peraturan.bpk.go.id/Download/34818/UU%20Nomor%209%20tahun%201994.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2000-16",
+      "jenis": "UU",
+      "tahun": 2000,
+      "judul": "Undang-undang (UU)  Nomor 16 Tahun 2000 tentang Perubahan Kedua atas Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2000-16.json",
+      "provisions_pasal_count": 3,
+      "articles_count": 3,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2000-16.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/44967/uu-no-16-tahun-2000",
+        "https://peraturan.bpk.go.id/Download/33345/UU%20Nomor%2016%20Tahun%202000.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2000-17",
+      "jenis": "UU",
+      "tahun": 2000,
+      "judul": "Undang-undang (UU)  Nomor 17 Tahun 2000 tentang Perubahan Ketiga atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2000-17.json",
+      "provisions_pasal_count": 3,
+      "articles_count": 3,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2000-17.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/44968/uu-no-17-tahun-2000",
+        "https://peraturan.bpk.go.id/Download/33347/UU%20Nomor%2017%20Tahun%202000.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2000-18",
+      "jenis": "UU",
+      "tahun": 2000,
+      "judul": "Undang-undang (UU)  Nomor 18 Tahun 2000 tentang Perubahan Kedua atas Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2000-18.json",
+      "provisions_pasal_count": 3,
+      "articles_count": 3,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2000-18.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/44982/uu-no-18-tahun-2000",
+        "https://peraturan.bpk.go.id/Download/33373/UU%20Nomor%2018%20Tahun%202000.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2007-28",
+      "jenis": "UU",
+      "tahun": 2007,
+      "judul": "Undang-undang (UU)  Nomor 28 Tahun 2007 tentang Perubahan Ketiga atas Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2007-28.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 1,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2007-28.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/39916/uu-no-28-tahun-2007",
+        "https://peraturan.bpk.go.id/Download/29510/UU%20Nomor%2028%20Tahun%202007.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2008-36",
+      "jenis": "UU",
+      "tahun": 2008,
+      "judul": "Undang-undang (UU)  Nomor 36 Tahun 2008 tentang Perubahan Keempat Atas Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2008-36.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2008-36.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/39704/uu-no-36-tahun-2008",
+        "https://peraturan.bpk.go.id/Download/29283/UU%20Nomor%2036%20Tahun%202008.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2009-16",
+      "jenis": "UU",
+      "tahun": 2009,
+      "judul": "Undang-undang (UU)  Nomor 16 Tahun 2009 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 5 Tahun 2008 Tentang Perubahan Keempat Atas Undang-Undang Nomor 6 Tahun 1983 Tentang Ketentuan Umum dan Tata Cara Perpajakan Menjadi Undang-Undang",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-2009-16.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2009-16.json",
+      "origin": "fetched_bpk",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/38624/uu-no-16-tahun-2009",
+        "https://peraturan.bpk.go.id/Download/27897/UU%20Nomor%2016%20Tahun%202009.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2009-28",
+      "jenis": "UU",
+      "tahun": 2009,
+      "judul": "Undang-undang (UU)  Nomor 28 Tahun 2009 tentang Pajak Daerah dan Retribusi Daerah",
+      "status_sumber": "Tidak Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-2009-28.json",
+      "provisions_pasal_count": 185,
+      "articles_count": 370,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2009-28.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/38763/uu-no-28-tahun-2009",
+        "https://peraturan.bpk.go.id/Download/28092/UU%20Nomor%2028%20Tahun%202009.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2009-42",
+      "jenis": "UU",
+      "tahun": 2009,
+      "judul": "Undang-undang (UU)  Nomor 42 Tahun 2009 tentang Perubahan Ketiga Atas Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa\r\ndan Pajak Penjualan Atas Barang Mewah",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2009-42.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 25,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2009-42.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/38787/uu-no-42-tahun-2009"
+      ]
+    },
+    {
+      "document_id": "UU-2020-10",
+      "jenis": "UU",
+      "tahun": 2020,
+      "judul": "Undang-undang (UU)  Nomor 10 Tahun 2020 tentang Bea Meterai",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-2020-10.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 59,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2020-10.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/149748/uu-no-10-tahun-2020",
+        "https://peraturan.bpk.go.id/Download/141992/UU%20Nomor%2010%20Tahun%202020.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2021-7",
+      "jenis": "UU",
+      "tahun": 2021,
+      "judul": "Undang-undang (UU)  Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-2021-7.json",
+      "provisions_pasal_count": 11,
+      "articles_count": 103,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2021-7.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/185162/uu-no-7-tahun-2021",
+        "https://peraturan.bpk.go.id/Download/178620/UU%20Nomor%207%20Tahun%202021.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2022-1",
+      "jenis": "UU",
+      "tahun": 2022,
+      "judul": "Undang-undang (UU)  Nomor 1 Tahun 2022 tentang Hubungan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-2022-1.json",
+      "provisions_pasal_count": 20,
+      "articles_count": 373,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2022-1.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/195696/uu-no-1-tahun-2022"
+      ]
+    },
+    {
+      "document_id": "UU-2023-6",
+      "jenis": "UU",
+      "tahun": 2023,
+      "judul": "Undang-undang (UU)  Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-2023-6.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2439,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2023-6.json",
+      "origin": "corpus",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/246523/uu-no-6-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/302681/UU%20Nomor%206%20Tahun%202023.pdf"
+      ]
+    }
+  ]
+}

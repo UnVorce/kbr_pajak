@@ -1,0 +1,107 @@
+{
+  "document_id": "PP-2000-147",
+  "jenis": "PP",
+  "tahun": 2000,
+  "judul": "Peraturan Pemerintah (PP)  Nomor 147 Tahun 2000 tentang Perubahan Atas Peraturan Pemerintah Nomor 20 Tahun 2000 Tentang Perlakuan Perpajakan Di Kawasan Pengembangan Ekonomi Terpadu",
+  "articles": [
+    {
+      "locator": "PP-2000-147#BT/I",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "I",
+      "text": "Mengubah ketentuan Pasal 1 Peraturan Pemerintah Nomor 20 Tahun 2000 tentang Perlakuan\nPerpajakan di Kawasan Pengembangan Ekonomi Terpadu (Lembaran Negara Republik Indonesia Tahun\n2000 Nomor 46, Tambahan Lembaran Negara Nomor 3949), sehingga keseluruhan Pasal 1 berbunyi\nsebagai berikut :\n\"Pasal 1\nKepada Pengusaha yang melakukan kegiatan usaha di dalam Kawasan Pengembangan Ekonomi\nTerpadu, untuk selanjutnya disebut KAPET, diberikan perlakuan di bidang Pajak Penghasilan sebagai\nberikut :\na.\nPengurangan penghasilan neto sebesar 30% (tiga puluh persen) dari jumlah penanaman modal\nyang dilakukan;\nb.\nPilihan untuk menerapkan penyusutan dan atau amortisasi yang dipercepat, sebagai berikut :\n.................................................................\n|\n| Masa\n| Tarif Penyusutan dan|\n|\n| Manfaat\n| Amortisasi Berdasarka|\n| Kelompok Harta\n| Menjadi\n|\nMetode\n|\n|\n|\n........................\n|\n|\n| Garis\n| Saldo |\n|\n| Lurus\n| Menurun|\n................................................................\n| I. Bukan Bangunan\n|\natau Harta Tak\n|\nBerwujud\n|\nKelompok I\n| 2 th\n|\n50%\n| 100% |\n|\nKelompok II\n| 4 th\n|\n25%\n|\n50% |\n|\nKelompok III\n| 8 th\n|\n12,5% |\n25% |\n|\nKelompok IV\n| 10 th\n|\n10%\n|\n20% |\n.................................................................\n|II. Bangunan\n|\nPermanen\n| 10 th\n|\n10%\n|\n-\n|\n|\nTidak Permanen\n| 5 th\n|\n20%\n|\n-\n|\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 3 -\n.................................................................\nc. Kompensasi …\nc.\nKompensasi kerugian fiskal, mulai tahun pajak berikutnya berturut-turut sampai paling lama 10\n(sepuluh) tahun;\nd.\nPengenaan Pajak Penghasilan atas Dividen yang dibayarkan kepada Subyek Pajak Luar negeri\nsebesar 10% (sepuluh persen), atau tarif yang lebih rendah menurut Persetujuan Penghindaran\nPajak Berganda yang berlaku.”",
+      "role": "SUBSTANTIVE",
+      "text_hash": "6385396c2e839446"
+    },
+    {
+      "locator": "PP-2000-147#BT/II",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "II",
+      "text": "(1)\nPermohonan Pengusaha untuk memperoleh fasilitas perpajakan di Kawasan Pengembangan\nEkonomi Terpadu yang telah diterima sebelum berlakunya Peraturan Pemerintah ini dan belum\ndiputuskan sampai dengan berlakunya Peraturan Pemerintah ini maka untuk fasilitas Pajak\nPenghasilan dapat diberikan fasilitas Pajak Penghasilan sesuai dengan Peraturan Pemerintah ini.\n(2)\nBagi Pengusaha telah ditetapkan mendapat fasilitas perpajakan di Kawasan Pengembangan\nEkonomi Terpadu sebelum berlakunya Peraturan Pemerintah ini, dapat mengajukan permohonan\nuntuk memperoleh tambahan fasilitas Pajak Penghasilan sesuai dengan peraturan Pemerintah ini.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "9b8d77b7f1189b94"
+    },
+    {
+      "locator": "PP-2000-147#BT/III",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "III",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada 1 Januari 2000.\nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini\ndengan penempatannya dalam Lembaran Negara Republik Indonesia\nDitetapkan di Jakarta\npada tanggal 25 Desember 2000\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nABDURRAHMAN WAHID\nDiundangkan di Jakarta\npada tanggal 23 Desember 2000\nSEKRETARIS NEGARA REPUBLIK INDONESIA,\nttd\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 4 -\nDJOHAN EFFENDI\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2000 NOMOR 264\n\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "text_hash": "79461fef87b5fdac"
+    }
+  ],
+  "content_hash": "749791b30f0611c38900d4e1e7b4448e1bd1dca647b46594eee3b93e17538f7b",
+  "source": {
+    "origin": "fetched_bpk",
+    "url": "https://peraturan.bpk.go.id/Details/54032/pp-no-147-tahun-2000"
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false,
+    "ocr_suspect": false,
+    "pages": 6,
+    "avg_chars_page": 1149.3,
+    "rough_split": true
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "2000-12-25",
+  "tanggal_pengundangan": "2000-12-23",
+  "tanggal_berlaku_sumber": "2001-01-01",
+  "sumber_publikasi": "LN. 2000 No. 264, TLN No. 4065, LL SETNEG : 4 HLM",
+  "subjek_sumber": "PERPAJAKAN",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/54032/pp-no-147-tahun-2000"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/43437/PP%20No.147%20TH%202000.pdf",
+      "type": "pdf"
+    }
+  ],
+  "preamble": "PRESIDEN\nREPUBLIK INDONESIA\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 147 TAHUN 2000\nTENTANG\nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 20 TAHUN 2000\nTENTANG PERLAKUAN PERPAJAKAN DI KAWASAN PENGEMBANGAN\nEKONOMI TERPADU\nPRESIDEN REPUBLIK INDONESIA,\nMenimbang\n:\nbahwa sehubungan dengan adanya perubahan ketentuan",
+  "penjelasan": "PENJELASAN\nATAS\nPERATURAN PEMERINTAH REPUBLIK INDONESIA\nNOMOR 147 TAHUN 2000\nTENTANG\nPERUBAHAN ATAS PERATURAN PEMERINTAH NOMOR 20 TAHUN 2000\nTENTANG PERLAKUAN PERPAJAKAN DI KAWASAN PENGEMBANGAN\nEKONOMI TERPADU\nUMUM\nSalah satu ketentuan yang diubah dalam Undang-undang Nomor 17 Tahun 2000 tentang\nPerubahan Ketiga Atas Undang-undang Nomor 7 Tahun 1988 tentang Pajak Penghasilan adalah Pasal\n31A, yaitu menambah fasilitas Pajak Penghasilan yang diberikan kepada Wajib Pajak yang melakukan\npenanaman modal di bidang-bidang tertentu dan atau di daerah-daerah tertentu. Fasilitas tersebut berupa\npengurangan penghasilan neto paling tinggi 30% (tiga puluh persen) dari investasi yang dilakukan di\nIndonesia (invenstmen allowance).\nDengan perubahan Pasal 31A tersebut maka fasilitas Pajak Penghasilan dimaksud selengkapnya\nmenjadi sebagai berikut :\na.\nPengurangan penghasilan neto sebesar 30% (tiga puluh persen) dari jumlah penanaman modal\nyang dilakukan;\nb.\nPenyusutan dan amortisasi yang dipercepat;\nc.\nKompensasi kerugian yang lebih lama tetapi tidak lebih dari 10\n(sepuluh) tahun;\nd.\nPengenaan Pajak Penghasilan Pasal 26 atas dividen sebesar 10% (sepuluh persen), kecuali tarif\nberdasarkan Persetujuan Penghindaran Pajak Berganda yang berlaku menetapkan lebih rendah.\nBerdasarkan Peraturan Pemerintah Nomor 20 Tahun 2000, fasilitas Pajak Penghasilan yang\ndiberikan kepada pengusaha yang melakukan kegiatan usaha di Kawasan Pengembangan Ekonomi\nTerpadu (KAPET) masih mengacu pada ketentuan Pasal 31A yang belum diubah yang hanya mencakup\nfasilitas perpajakan sebagaimana dimaksud dalam Pasal 1 huruf b, huruf c dan huruf d.\nSesuai dengan perubahan ketentuan Pasal 31A tersebut, maka pemberian fasilitas Pajak\nPenghasilan dalam Peraturan Pemerintah Nomor 20 Tahun 2000 perlu disesuaikan kembali.\nPASAL DEMI PASAL …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 2 -\nPASAL DEMI PASAL\nPasal I\nPasal 1\nFasilitas pengurangan penghasilan neto diberikan selama 6 (enam) tahun terhitung sejak\ntahun dimulainya produksi komersial, yaitu sebesar 5% (lima persen) dari jumlah realisasi\npenanaman modal baik dalam aktiva tetap yang dapat disusutkan maupun yang tidak disusutkan.\nPasal II\nCukup jelas\nPasal III\nCukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4065\n",
+  "structure": "AMENDING_ROMAN",
+  "penjelasan_articles": [
+    {
+      "pasal": "1",
+      "text": "Fasilitas pengurangan penghasilan neto diberikan selama 6 (enam) tahun terhitung sejak\ntahun dimulainya produksi komersial, yaitu sebesar 5% (lima persen) dari jumlah realisasi\npenanaman modal baik dalam aktiva tetap yang dapat disusutkan maupun yang tidak disusutkan.\nPasal II\nCukup jelas\nPasal III\nCukup jelas\nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 4065",
+      "locator": "PP-2000-147#PJ/1"
+    }
+  ],
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "I",
+      "locator": "PP-2000-147#BT/I",
+      "parent": null,
+      "heading": "",
+      "text": "Mengubah ketentuan Pasal 1 Peraturan Pemerintah Nomor 20 Tahun 2000 tentang Perlakuan\nPerpajakan di Kawasan Pengembangan Ekonomi Terpadu (Lembaran Negara Republik Indonesia Tahun\n2000 Nomor 46, Tambahan Lembaran Negara Nomor 3949), sehingga keseluruhan Pasal 1 berbunyi\nsebagai berikut :\n\"Pasal 1\nKepada Pengusaha yang melakukan kegiatan usaha di dalam Kawasan Pengembangan Ekonomi\nTerpadu, untuk selanjutnya disebut KAPET, diberikan perlakuan di bidang Pajak Penghasilan sebagai\nberikut :\na.\nPengurangan penghasilan neto sebesar 30% (tiga puluh persen) dari jumlah penanaman modal\nyang dilakukan;\nb.\nPilihan untuk menerapkan penyusutan dan atau amortisasi yang dipercepat, sebagai berikut :\n.................................................................\n|\n| Masa\n| Tarif Penyusutan dan|\n|\n| Manfaat\n| Amortisasi Berdasarka|\n| Kelompok Harta\n| Menjadi\n|\nMetode\n|\n|\n|\n........................\n|\n|\n| Garis\n| Saldo |\n|\n| Lurus\n| Menurun|\n................................................................\n| I. Bukan Bangunan\n|\natau Harta Tak\n|\nBerwujud\n|\nKelompok I\n| 2 th\n|\n50%\n| 100% |\n|\nKelompok II\n| 4 th\n|\n25%\n|\n50% |\n|\nKelompok III\n| 8 th\n|\n12,5% |\n25% |\n|\nKelompok IV\n| 10 th\n|\n10%\n|\n20% |\n.................................................................\n|II. Bangunan\n|\nPermanen\n| 10 th\n|\n10%\n|\n-\n|\n|\nTidak Permanen\n| 5 th\n|\n20%\n|\n-\n|\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 3 -\n.................................................................\nc. Kompensasi …\nc.\nKompensasi kerugian fiskal, mulai tahun pajak berikutnya berturut-turut sampai paling lama 10\n(sepuluh) tahun;\nd.\nPengenaan Pajak Penghasilan atas Dividen yang dibayarkan kepada Subyek Pajak Luar negeri\nsebesar 10% (sepuluh persen), atau tarif yang lebih rendah menurut Persetujuan Penghindaran\nPajak Berganda yang berlaku.”",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "II",
+      "locator": "PP-2000-147#BT/II",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nPermohonan Pengusaha untuk memperoleh fasilitas perpajakan di Kawasan Pengembangan\nEkonomi Terpadu yang telah diterima sebelum berlakunya Peraturan Pemerintah ini dan belum\ndiputuskan sampai dengan berlakunya Peraturan Pemerintah ini maka untuk fasilitas Pajak\nPenghasilan dapat diberikan fasilitas Pajak Penghasilan sesuai dengan Peraturan Pemerintah ini.\n(2)\nBagi Pengusaha telah ditetapkan mendapat fasilitas perpajakan di Kawasan Pengembangan\nEkonomi Terpadu sebelum berlakunya Peraturan Pemerintah ini, dapat mengajukan permohonan\nuntuk memperoleh tambahan fasilitas Pajak Penghasilan sesuai dengan peraturan Pemerintah ini",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 1
+    },
+    {
+      "level": "PASAL",
+      "nomor": "III",
+      "locator": "PP-2000-147#BT/III",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada 1 Januari 2000.\nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Pemerintah ini\ndengan penempatannya dalam Lembaran Negara Republik Indonesia\nDitetapkan di Jakarta\npada tanggal 25 Desember 2000\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nABDURRAHMAN WAHID\nDiundangkan di Jakarta\npada tanggal 23 Desember 2000\nSEKRETARIS NEGARA REPUBLIK INDONESIA,\nttd\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 4 -\nDJOHAN EFFENDI\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2000 NOMOR 264\n\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "EFFECTIVITY",
+      "ord": 2
+    }
+  ]
+}

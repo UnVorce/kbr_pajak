@@ -1,0 +1,16 @@
+{
+  "document_id": "CORETAX-kt-10-kebijakan-penghapusan-sanksi-administratif-sehubungan-denganimplementasi-coretax-djp",
+  "jenis": "MANUAL",
+  "tahun": null,
+  "judul": "Kebijakan  Penghapusan",
+  "articles": [],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source": {
+    "origin": "corpus",
+    "file": "5_Coretax_Manuals/KT-10 Kebijakan Penghapusan Sanksi Administratif Sehubungan DenganImplementasi Coretax DJP.json"
+  },
+  "quality": {
+    "zero_pasal": true,
+    "garbled_title": false
+  }
+}

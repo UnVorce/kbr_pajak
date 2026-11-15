@@ -1,0 +1,171 @@
+{
+  "document_id": "UU-1994-12",
+  "jenis": "UU",
+  "tahun": 1994,
+  "judul": "Undang-undang (UU)  Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan",
+  "articles": [
+    {
+      "locator": "UU-1994-12#BT/I",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "I",
+      "text": "Mengubah beberapa ketentuan dalam Undang-undang Nomor 12 Tahun 1985 \ntentang Pajak Bumi dan Bangunan, sebagai berikut :  \n \n1.  Ketentuan Pasal 3 ayat (3) dan ayat (4) diubah, sehingga Pasal 3 seluruhnya \nmenjadi berbunyi sebagai berikut :  \n \n“Pasal 3 \n \n(1)  Objek Pajak yang tidak dikenakan Pajak Bumi dan Bangunan adalah \nobjek pajak yang :  \na.  digunakan semata-mata untuk melayani kepentingan umum di \nbidang ibadah, sosial, kesehatan, pendidikan dan kebudayaan \nnasional, yang tidak dimaksudkan untuk memperoleh keuntungan; \nb.  digunakan untuk kuburan, peninggalan purbakala, atau yang sejenis \ndengan itu; \nc.  merupakan hutan lindung, hutan suaka alam, hutan wisata, taman \nnasional, tanah penggembalaan yang dikuasai oleh desa, dan tanah \nnegara yang belum dibebani suatu hak; \nd.  digunakan oleh perwakilan diplomatik, konsulat berdasarkan asas \nperlakuan timbal balik; \ne.  digunakan oleh badan atau perwakilan organisasi internasional yang \nditentukan oleh Menteri Keuangan. \n(2) Objek Pajak yang digunakan oleh negara untuk penyelenggaraan \npemerintahan, penentuan pengenaan pajaknya diatur lebih lanjut \ndengan Peraturan Pemerintah. \n \n(3) Besarnya Nilai Jual Objek Pajak Tidak Kena Pajak ditetapkan sebesar \nRp.8.000.000,00 (delapan juta rupiah) untuk setiap Wajib Pajak. \n \n(4) Penyesuaian besarnya Nilai Jual Objek Pajak Tidak Kena Pajak \nsebagaimana dimaksud pada ayat (3) ditetapkan oleh Menteri \nKeuangan”. \n\n\n- 3 - \n2.  Ketentuan Pasal 17 dihapus \n3. Ketentuan Pasal 23 diubah, sehingga Pasal 23 seluruhnya menjadi berbunyi \nsebagai berikut :  \n \n“Pasal 23 \n \n             \nTerhadap hal-hal yang tidak diatur secara khusus dalam Undang-undang \nini, berlaku ketentuan dalam Undang-undang Nomor 6 Tahun 1983 tentang \nKetentuan Umum dan Tata Cara Perpajakan sebagaimana telah diubah \ndengan Undang-undang Nomor 9 Tahun 1994 (Lembaran Negara Tahun \n1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566) serta peraturan \nperundang-undangan lainnya”. \n \n         \n 4. Ketentuan Pasal 27 dihapus.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "b7620377eb00ad33"
+    },
+    {
+      "locator": "UU-1994-12#BT/II",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "II",
+      "text": "Dengan berlakunya Undang-undang ini, peraturan pelaksanaan yang telah ada \ndibidang Pajak Bumi dan Bangunan berdasarkan Undang-undang Nomor 12 \nTahun 1985 tentang Pajak Bumi dan Bangunan, tetap berlaku sepanjang tidak \nbertentangan dan belum diatur dengan peraturan pelaksanaan yang baru \nberdasarkan Undang-undang ini.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "ae9dd4c60b31bb90"
+    },
+    {
+      "locator": "UU-1994-12#BT/III",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "III",
+      "text": "Undang-undang ini dapat disebut \"Undang-undang Perubahan Undang undang \nPajak Bumi dan Bangunan”.",
+      "role": "SUBSTANTIVE",
+      "text_hash": "9687eb65c5489e98"
+    },
+    {
+      "locator": "UU-1994-12#BT/IV",
+      "part": "BATANG_TUBUH",
+      "level": "PASAL",
+      "nomor": "IV",
+      "text": "Undang-undang ini mulai berlaku pada tanggal 1 Januari 1995. \n \n             \nAgar setiap orang mengetahuinya, memerintahkan pengundangan Undang-\nundang ini dengan penempatannya dalam Lembaran Negara Republik \nIndonesia. \n \n                                                    \n\n\n- 4 - \n \nDisahkan di Jakarta \n                                                     \npada tanggal 9 Nopember 1994 \n                                                      \nPRESIDEN REPUBLIK INDONESIA \n \nttd \n \nS O E H A R T O \nDiundangkan di Jakarta \npada tanggal 9 Nopember 1994 \nMENTERI NEGARA SEKRETARIS NEGARA \n \nREPUBLIK INDONESIA \n \nttd \n \nM O E R D I O N O \n \n                  \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 62 \n \n\n\n- 5 -",
+      "role": "SUBSTANTIVE",
+      "text_hash": "fe1704702e037b2d"
+    }
+  ],
+  "content_hash": "6fea742d215990c68781f6c31f8e251e9fab35f0345c0f426b82d044fa18524d",
+  "source": {
+    "origin": "fetched_bpk",
+    "url": "https://peraturan.bpk.go.id/Details/46237/uu-no-12-tahun-1994"
+  },
+  "quality": {
+    "zero_pasal": false,
+    "garbled_title": false,
+    "ocr_suspect": false,
+    "pages": 9,
+    "avg_chars_page": 1640.8,
+    "rough_split": true
+  },
+  "status_sumber": "Berlaku",
+  "tanggal_penetapan": "1994-11-09",
+  "tanggal_pengundangan": "1994-11-09",
+  "tanggal_berlaku_sumber": "1995-01-01",
+  "sumber_publikasi": "LN. 1994/ No. 62, TLN NO. 3569, LL SETNEG : 4 HLM",
+  "subjek_sumber": "PERPAJAKAN",
+  "source_urls": [
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Details/46237/uu-no-12-tahun-1994"
+    },
+    {
+      "source": "peraturan.bpk.go.id",
+      "url": "https://peraturan.bpk.go.id/Download/34835/UU%20Nomor%2012%20Tahun%201994.pdf",
+      "type": "pdf"
+    }
+  ],
+  "preamble": "UNDANG-UNDANG REPUBLIK INDONESIA \nNOMOR 12 TAHUN 1994 \n \nTENTANG \n \nPERUBAHAN ATAS UNDANG-UNDANG NOMOR 12 TAHUN 1985 \nTENTANG PAJAK BUMI DAN BANGUNAN \n \nDENGAN RAHMAT TUHAN YANG MAHA ESA \n \nPRESIDEN REPUBLIK INDONESIA, \n \nMenimbang  : a. bahwa \npelaksanaan \npembangunan \nnasional \ntelah \nmenghasilkan \nperkembangan yang pesat dalam kehidupan nasional, khususnya di bidang \nperekonomian, termasuk berkembangnya bentuk-bentuk dan praktek \npenyelenggaraan kegiatan usaha yang belum tertampung dalam Undang \nundang Perpajakan yang sekarang berlaku; \n \nb.  bahwa \ndalam \nusaha \nuntuk \nselalu \nmenjaga \nagar \nperkembangan \nperekonomian sebagai tersebut di atas dapat tetap berjalan sesuai dengan \nkebijakan pembangunan yang bertumpu pada Trilogi Pembangunan \nsebagaimana diamanatkan dalam Garis-garis Besar Haluan Negara, dan \nseiring dengan itu dapat diciptakan kepastian hukum yang berkaitan dengan \naspek perpajakan bagi bentuk-bentuk dan praktek penyelenggaraan kegiatan \nusaha yang terus berkembang, diperlukan langkah-langkah penyesuaian \nyang memadai terhadap berbagai Undang-undang perpajakan yang telah \nada; \n \n \nc.  bahwa untuk mewujudkan hal-hal tersebut, dipandang perlu mengubah \nbeberapa ketentuan dalam Undang-undang Nomor 12 Tahun 1985 tentang \nPajak Bumi dan Bangunan; \n \nMengingat \n: 1.",
+  "penjelasan": "PENJELASAN \nATAS \n \nUNDANG-UNDANG REPUBLIK INDONESIA \nNOMOR 12 TAHUN 1994 \n \nTENTANG \n \nPERUBAHAN ATAS UNDANG-UNDANG NOMOR 12 TAHUN 1985 \nTENTANG PAJAK BUMI DAN BANGUNAN \n \nUMUM \n \nNegara Republik  Indonesia adalah negara hukum berdasarkan Pancasila dan Undang Undang \nDasar 1945 yang menjunjung tinggi hak dan kewajiban setiap orang, oleh karena itu \nmenempatkan  perpajakan sebagai salah satu perwujudan kewajiban kenegaraan dalam \nkegotongroyongan nasional sebagai peran serta masyarakat dalam membiayai pembangunan. \n \nSesuai dengan ketentuan Pasal 23 ayat (2) Undang Undang Dasar 1945, ketentuan-ketentuan \nperpajakan yang merupakan landasan pemungutan pajak ditetapkan dengan Undang-undang. \nUndang-undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan yang berlaku sejak \ntahun 1986 merupakan landasan hukum dalam pengenaan pajak sehubungan dengan hak atas \nbumi dan/atau perolehan manfaat atas bumi dan/atau kepemilikan, pengusaan dan/atau \nperolehan manfaat atas bangunan. \n \nPada hakekatnya, pembayaran Pajak Bumi dan Bangunan merupakan salah satu sarana \nperwujudan kegotongroyongan nasional dalam pembiayaan negara dan pembangunan nasional, \nsehingga dalam pengenaannya harus memperhatikan prinsip kepastian hukum, keadilan, dan \nkesederhanaan serta ditunjang oleh sistem administrasi perpajakan yang memudahkan Wajib \nPajak dalam memenuhi kewajiban pembayaran pajak. Setelah hampir satu dasawarsa berlakunya \nUndang-undang Nomor 12 Tahun 1985, dengan makin meningkatnya kesejahteraan masyarakat \ndan meningkatnya jumlah Objek Pajak serta untuk menyelaraskan pengenaan pajak dengan \namanat dalam Garis-Garis Besar Haluan Negara, dirasakan sudah masanya untuk \nmenyempurnakan Undang-undang Nomor 12 Tahun 1985. \n \nDengan berpegang teguh pada prinsip kepastian hukum dan keadilan, maka arah dan tujuan \npenyempurnaan Undang-undang ini adalah sebagai berikut : \n \na. Menunjang kebijaksanaan pemerintah menuju kemandirian bangsa dalam pembiayaan \npembangunan yang sumber utamanya berasal dari penerimaan pajak; \n \nb. Lebih memberikan kepastian hukum dan keadilan bagi masyarakat untuk berpartisipasi dalam \npembiayaan pembangunan sesuai dengan kemampuannya. \n \nDengan berlandaskan pada arah dan tujuan penyempurnaan tersebut, maka dalam \npenyempurnaan Undang-undang Nomor 12 Tahun 1985 perlu diatur kembali ketentuan \n\n\n- 6 - \nketentuan mengenai Pajak Bumi dan Bangunan yang dituangkan dalam Undang-undang tentang \nPerubahan atas Undang-undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan, \ndengan pokok-pokok antara lain sebagai berikut: \n \na. Untuk lebih memberikan keadilan dalam pengenaan pajak, diatur ketentuan mengenai \nbesarnya Nilai Jual Objek Pajak Tidak Kena Pajak untuk setiap Wajib Pajak; \n \nb. Memperjelas ketentuan mengenai upaya banding ke badan peradilan pajak. \n \nPASAL DEMI PASAL \n \nPasal I \n \nAngka 1 \n \nPasal 3  \n \n \n \n \nAyat (1) \n \n \nYang dimaksud dengan tidak dimaksudkan untuk memperoleh keuntungan adalah bahwa \nobjek pajak itu diusahakan untuk melayani kepentingan umum, dan nyata-nyata tidak \nditujukan untuk mencari keuntungan. \n \n \nHal ini dapat diketahui antara lain dari anggaran dasar dan anggaran rumah tangga dari \nyayasan/badan yang bergerak dalam bidang ibadah, sosial, kesehatan, pendidikan, dan \nkebudayaan nasional tersebut. \n \n \nTermasuk pengertian ini adalah hutan wisata milik Negara sesuai Pasal 2 Undang undang \nNomor 5 Tahun 1967 tentang Ketentuan-ketentuan Pokok Kehutanan. \n \n \n \nContoh : \n \n \n- pesantren atau sejenis dengan itu; \n \n \n- madrasah; \n \n \n- tanah wakaf; \n \n \n- rumah sakit umum. \n \n \nAyat (2) \n \nYang dimaksud dengan objek pajak dalam ayat ini adalah objek pajak yang \ndimiliki/dikuasai/digunakan oleh Pemerintah Pusat dan Pemerintah Daerah dalam \nmenyelenggarakan pemerintahan. \n \nPajak Bumi dan Bangunan adalah pajak negara yang sebagian besar penerimaannya \nmerupakan pendapatan daerah yang antara lain dipergunakan untuk penyediaan fasilitas \nyang juga dinikmati oleh Pemerintah Pusat dan Pemerintah Daeah. \n \nOleh sebab itu wajar Pemerintah Pusat juga ikut membiayai penyediaan fasilitas tersebut \nmelalui pembayaran Pajak Bumi dan Bangunan. \n \nMengenai bumi dan/atau bangunan milik perorangan dan/atau  badan yang digunakan oleh \nnegara, kewajiban perpajakannya tergantung pada perjanjian yang diadakan. \n \n \nAyat (3) \n\n\n- 7 - \n \n \nUntuk setiap Wajib Pajak diberikan Nilai Jual Objek Pajak Tidak Kena Pajak sebesar Rp \n8.000.000,00 (delapan juta rupiah). \n \n \nApabila seorang Wajib Pajak mempunyai beberapa Objek Pajak, yang diberikan Nilai Jual \nObjek Pajak hanya salah satu Objek Pajak yang nilainya terbesar, sedangkan Objek Pajak \nlainnya tetap dikenakan secara penuh tanpa dikurangi Nilai Jual Objek Pajak Tidak Kena \nPajak. \n \n \n \nContoh : \n \n1. Seorang Wajib Pajak hanya mempunyai Objek Pajak berupa bumi dengan nilai sebagai \nberikut : \n-  Nilai Jual Objek Pajak Bumi ..............................  \nRp 3.000.0000,00 \n- Nilai Jual Objek Pajak Kena Pajak ..................... \nRp 8.000.0000,00 \nKarena Nilai Jual Objek Pajak berada dibawah Nilai Jual Objek Pajak Tidak Kena \nPajak, maka Objek Pajak tersebut tidak dikenakan Pajak Bumi dan Bangunan. \n \n2. Seorang Wajib Pajak mempunyai  dua Objek Pajak berupa bumi dan bangunan masing-\nmasing di Desa A dan Desa B dengan nilai sebagai berikut : \na. Desa A \n- Nilai Jual Objek Pajak Bumi  \nRp. 8.000.000,00 \n- Nilai Jual Objek Pajak Bangunan \nRp. 5.000.000,00 \n \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n- Nilai Jual Objek Pajak Bumi \nRp. 8.000.000,00  \n-  Nilai Jual Objek Pajak Bangunan \nRp. 5.000.000,00(+) \n- Nilai Jual Objek Pajak sebagai dasar  \n \npengenaan pajak ............................................ \nRp13.000.000,00  \n-    Nilai Jual Objek Pajak .................................. \nRp. 8.000.000,00(-) \n- Nilai Jual Objek Pajak untuk \n \nPenghitungan Pajak ...................................... \nRp. 5.000.000,00  \n \n \n \n \nb. Desa B \n \n- Nilai Jual Objek Pajak Bumi \nRp. 5.000.000,00 \n- Nilai Jual Objek Pajak Bangunan \nRp. 3.000.000,00 \n \n\n\n- 8 - \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n \n- Nilai Jual Objek Pajak Bumi ............................. \nRp. 5.000.000,00 \n \n- Nilai Jual Objek Pajak Bangunan .................... \nRp. 3.000.000,00(+) \n \n- Nilai Jual Objek Pajak sebagai dasar  \n \n \npengenaan pajak .............................................. \nRp. 8.000.000,00 \n \n- Nilai Jual Objek Pajak \n \n \nTidak Kena Pajak \nRp.  \n  0,00(-) \n \n- Nilai Jual Objek Pajak untuk \n \n \nPenghitungan Pajak ........................................ \nRp. 8.000.000,00 \n \n \nUntuk Objek Pajak di Desa B, tidak diberikan Nilai Jual Objek Pajak Tidak Kena Pajak \nsebesar Rp 8.000.000,00 (delapan juta rupiah), karena Nilai Jual Objek Pajak Tidak \nKena Pajak telah diberikan untuk Objek Pajak yang berada di Desa A. \n \n \n \n \n \n3. Seorang Wajib Pajak mempunyai dua Objek Pajak berupa bumi dan bangunan pada \nsatu Desa C dengan nilai sebagai berikut : \n \na. Objek I \n \n \n \n- Nilai Jual Objek Pajak Bumi \nRp. 4.000.000,00 \n \n \n \n- Nilai Jual Objek Pajak Bangunan \nRp. 2.000.000,00 \n \n \n \n \n \n \n \n \n \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n \n \n \n- Nilai Jual Objek Pajak Bumi ............................ \nRp. 4.000.000,00 \n \n \n \n- Nilai Jual Objek Pajak Bangunan .................... \nRp. 2.000.000,00(+) \n \n \n \n- Nilai Jual Objek Pajak sebagai dasar \n \n \n \npengenaan pajak ............................................. \nRp. 6.000.000,00 \n \n \n \n- Nilai Jual Objek Pajak \n \n \n \n \nTidak Kena Pajak .......................................... \nRp. 8.000.000,00 \n \n \n \n \n \nKarena Nilai Jual Objek Pajak berada di bawah Nilai Jual Objek Pajak Tidak Kena \nPajak, maka Objek Pajak tersebut dikenakan Pajak Bumi dan Bangunan. \n \n \n \n \n \nb. Objek II \n \n \n- Nilai Jual Objek Pajak Bumi \nRp. 4.000.000,00 \n \n \n- Nilai Jual Objek Pajak Bangunan \nRp. 1.000.000,00 \n \n \n \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n \n \n- Nilai Jual Objek Pajak Bumi ...................... \nRp. 4.000.000,00 \n \n \n- Nilai Jual Objek pajak Bangunan ............... \nRp. 1.000.000,00(+) \n \n \n- Nilai Jual Objek Pajak sebagai dasar \n \n \npengenaan pajak ........................................ \nRp. 5.000.000,00 \n \n \n- Nilai Jual Objek Pajak \n \n \n \nTidak Kena Pajak ........................................ \nRp.               0,00(-) \n \n \n-  Nilai Jual Objek Pajak untuk \n \n \n \nPenghitungan Pajak ................................... \nRp. 5.000.000,00 \n \n \nAyat (4) \n\n\n- 9 - \n \n \nBerdasarkan ketentuan ini Menteri Keuangan diberikan wewenang untuk mengubah \nbesarnya Nilai Jual Objek Pajak Tidak Kena Pajak sebagaimana dimaksud pada ayat (3) \ndengan mempertimbangkan perkembangan ekonomi dan moneter serta perkembangan \nharga umum objek pajak setiap tahunnya. \n \nAngka 2 \n \n \nDengan dihapuskannya Pasal 17, ketentuan banding Pajak Bumi dan Bangunan mengikuti \nketentuan Pasal 27 Undang-undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata \nCara Perpajakan sebagaimana telah diubah dengan Undang-undang Nomor 9 Tahun 1994 \n(Lembaran Negara Tahun 1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566). \n \nAngka 3 \n \n \nPasal 23 \n \n \nYang dimaksud dengan peraturan perundang-undangan lainnya adalah antara lain Undang \nundang Nomor 19 Tahun 1959 tentang penagihan Pajak Negara dengan Surat Paksa. \n \nAngka 4 \n \n \nCukup Jelas \n \nPasal II \n \n \nCukup Jelas \n \nPasal III \n \n \nCukup Jelas \n \nPasal IV \n \n \nCukup Jelas \n \n     \n \nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3569 \n \n \n \n \n \n \n \n \n \n \n \n",
+  "structure": "AMENDING_ROMAN",
+  "provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "I",
+      "locator": "UU-1994-12#BT/I",
+      "parent": null,
+      "heading": "",
+      "text": "Mengubah beberapa ketentuan dalam Undang-undang Nomor 12 Tahun 1985 \ntentang Pajak Bumi dan Bangunan, sebagai berikut :  \n \n1.  Ketentuan Pasal 3 ayat (3) dan ayat (4) diubah, sehingga Pasal 3 seluruhnya \nmenjadi berbunyi sebagai berikut :  \n \n“Pasal 3 \n \n(1)  Objek Pajak yang tidak dikenakan Pajak Bumi dan Bangunan adalah \nobjek pajak yang :  \na.  digunakan semata-mata untuk melayani kepentingan umum di \nbidang ibadah, sosial, kesehatan, pendidikan dan kebudayaan \nnasional, yang tidak dimaksudkan untuk memperoleh keuntungan; \nb.  digunakan untuk kuburan, peninggalan purbakala, atau yang sejenis \ndengan itu; \nc.  merupakan hutan lindung, hutan suaka alam, hutan wisata, taman \nnasional, tanah penggembalaan yang dikuasai oleh desa, dan tanah \nnegara yang belum dibebani suatu hak; \nd.  digunakan oleh perwakilan diplomatik, konsulat berdasarkan asas \nperlakuan timbal balik; \ne.  digunakan oleh badan atau perwakilan organisasi internasional yang \nditentukan oleh Menteri Keuangan. \n(2) Objek Pajak yang digunakan oleh negara untuk penyelenggaraan \npemerintahan, penentuan pengenaan pajaknya diatur lebih lanjut \ndengan Peraturan Pemerintah. \n \n(3) Besarnya Nilai Jual Objek Pajak Tidak Kena Pajak ditetapkan sebesar \nRp.8.000.000,00 (delapan juta rupiah) untuk setiap Wajib Pajak. \n \n(4) Penyesuaian besarnya Nilai Jual Objek Pajak Tidak Kena Pajak \nsebagaimana dimaksud pada ayat (3) ditetapkan oleh Menteri \nKeuangan”. \n\n\n- 3 - \n2.  Ketentuan Pasal 17 dihapus \n3. Ketentuan Pasal 23 diubah, sehingga Pasal 23 seluruhnya menjadi berbunyi \nsebagai berikut :  \n \n“Pasal 23 \n \n             \nTerhadap hal-hal yang tidak diatur secara khusus dalam Undang-undang \nini, berlaku ketentuan dalam Undang-undang Nomor 6 Tahun 1983 tentang \nKetentuan Umum dan Tata Cara Perpajakan sebagaimana telah diubah \ndengan Undang-undang Nomor 9 Tahun 1994 (Lembaran Negara Tahun \n1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566) serta peraturan \nperundang-undangan lainnya”. \n \n         \n 4. Ketentuan Pasal 27 dihapus",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 0
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "1",
+      "locator": "UU-1994-12#BT/I/1",
+      "parent": "UU-1994-12#BT/I",
+      "heading": "",
+      "text": "Ketentuan Pasal 3 ayat (3) dan ayat (4) diubah, sehingga Pasal 3 seluruhnya \nmenjadi berbunyi sebagai berikut :  \n \n“Pasal 3 \n \n(1)  Objek Pajak yang tidak dikenakan Pajak Bumi dan Bangunan adalah \nobjek pajak yang :  \na.  digunakan semata-mata untuk melayani kepentingan umum di \nbidang ibadah, sosial, kesehatan, pendidikan dan kebudayaan \nnasional, yang tidak dimaksudkan untuk memperoleh keuntungan; \nb.  digunakan untuk kuburan, peninggalan purbakala, atau yang sejenis \ndengan itu; \nc.  merupakan hutan lindung, hutan suaka alam, hutan wisata, taman \nnasional, tanah penggembalaan yang dikuasai oleh desa, dan tanah \nnegara yang belum dibebani suatu hak; \nd.  digunakan oleh perwakilan diplomatik, konsulat berdasarkan asas \nperlakuan timbal balik; \ne.  digunakan oleh badan atau perwakilan organisasi internasional yang \nditentukan oleh Menteri Keuangan. \n(2) Objek Pajak yang digunakan oleh negara untuk penyelenggaraan \npemerintahan, penentuan pengenaan pajaknya diatur lebih lanjut \ndengan Peraturan Pemerintah. \n \n(3) Besarnya Nilai Jual Objek Pajak Tidak Kena Pajak ditetapkan sebesar \nRp.8.000.000,00 (delapan juta rupiah) untuk setiap Wajib Pajak. \n \n(4) Penyesuaian besarnya Nilai Jual Objek Pajak Tidak Kena Pajak \nsebagaimana dimaksud pada ayat (3) ditetapkan oleh Menteri \nKeuangan”. \n\n\n- 3 -",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 1
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "2",
+      "locator": "UU-1994-12#BT/I/2",
+      "parent": "UU-1994-12#BT/I",
+      "heading": "",
+      "text": "Ketentuan Pasal 17 dihapus",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 2
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "3",
+      "locator": "UU-1994-12#BT/I/3",
+      "parent": "UU-1994-12#BT/I",
+      "heading": "",
+      "text": "Ketentuan Pasal 23 diubah, sehingga Pasal 23 seluruhnya menjadi berbunyi \nsebagai berikut :  \n \n“Pasal 23 \n \n             \nTerhadap hal-hal yang tidak diatur secara khusus dalam Undang-undang \nini, berlaku ketentuan dalam Undang-undang Nomor 6 Tahun 1983 tentang \nKetentuan Umum dan Tata Cara Perpajakan sebagaimana telah diubah \ndengan Undang-undang Nomor 9 Tahun 1994 (Lembaran Negara Tahun \n1994 Nomor 59, Tambahan Lembaran Negara Nomor 3566) serta peraturan \nperundang-undangan lainnya”.",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 3
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "4",
+      "locator": "UU-1994-12#BT/I/4",
+      "parent": "UU-1994-12#BT/I",
+      "heading": "",
+      "text": "Ketentuan Pasal 27 dihapus",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 4
+    },
+    {
+      "level": "PASAL",
+      "nomor": "II",
+      "locator": "UU-1994-12#BT/II",
+      "parent": null,
+      "heading": "",
+      "text": "Dengan berlakunya Undang-undang ini, peraturan pelaksanaan yang telah ada \ndibidang Pajak Bumi dan Bangunan berdasarkan Undang-undang Nomor 12 \nTahun 1985 tentang Pajak Bumi dan Bangunan, tetap berlaku sepanjang tidak \nbertentangan dan belum diatur dengan peraturan pelaksanaan yang baru \nberdasarkan Undang-undang ini",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 5
+    },
+    {
+      "level": "PASAL",
+      "nomor": "III",
+      "locator": "UU-1994-12#BT/III",
+      "parent": null,
+      "heading": "",
+      "text": "Undang-undang ini dapat disebut \"Undang-undang Perubahan Undang undang \nPajak Bumi dan Bangunan”",
+      "role": "AMENDING_INSTRUCTION",
+      "ord": 6
+    },
+    {
+      "level": "PASAL",
+      "nomor": "IV",
+      "locator": "UU-1994-12#BT/IV",
+      "parent": null,
+      "heading": "",
+      "text": "Undang-undang ini mulai berlaku pada tanggal 1 Januari 1995. \n \n             \nAgar setiap orang mengetahuinya, memerintahkan pengundangan Undang-\nundang ini dengan penempatannya dalam Lembaran Negara Republik \nIndonesia. \n \n                                                    \n\n\n- 4 - \n \nDisahkan di Jakarta \n                                                     \npada tanggal 9 Nopember 1994 \n                                                      \nPRESIDEN REPUBLIK INDONESIA \n \nttd \n \nS O E H A R T O \nDiundangkan di Jakarta \npada tanggal 9 Nopember 1994 \nMENTERI NEGARA SEKRETARIS NEGARA \n \nREPUBLIK INDONESIA \n \nttd \n \nM O E R D I O N O \n \n                  \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 62 \n \n\n\n- 5 -",
+      "role": "EFFECTIVITY",
+      "ord": 7
+    }
+  ],
+  "penjelasan_articles": [
+    {
+      "pasal": "3",
+      "text": "Ayat (1) \n \n \nYang dimaksud dengan tidak dimaksudkan untuk memperoleh keuntungan adalah bahwa \nobjek pajak itu diusahakan untuk melayani kepentingan umum, dan nyata-nyata tidak \nditujukan untuk mencari keuntungan. \n \n \nHal ini dapat diketahui antara lain dari anggaran dasar dan anggaran rumah tangga dari \nyayasan/badan yang bergerak dalam bidang ibadah, sosial, kesehatan, pendidikan, dan \nkebudayaan nasional tersebut. \n \n \nTermasuk pengertian ini adalah hutan wisata milik Negara sesuai Pasal 2 Undang undang \nNomor 5 Tahun 1967 tentang Ketentuan-ketentuan Pokok Kehutanan. \n \n \n \nContoh : \n \n \n- pesantren atau sejenis dengan itu; \n \n \n- madrasah; \n \n \n- tanah wakaf; \n \n \n- rumah sakit umum. \n \n \nAyat (2) \n \nYang dimaksud dengan objek pajak dalam ayat ini adalah objek pajak yang \ndimiliki/dikuasai/digunakan oleh Pemerintah Pusat dan Pemerintah Daerah dalam \nmenyelenggarakan pemerintahan. \n \nPajak Bumi dan Bangunan adalah pajak negara yang sebagian besar penerimaannya \nmerupakan pendapatan daerah yang antara lain dipergunakan untuk penyediaan fasilitas \nyang juga dinikmati oleh Pemerintah Pusat dan Pemerintah Daeah. \n \nOleh sebab itu wajar Pemerintah Pusat juga ikut membiayai penyediaan fasilitas tersebut \nmelalui pembayaran Pajak Bumi dan Bangunan. \n \nMengenai bumi dan/atau bangunan milik perorangan dan/atau  badan yang digunakan oleh \nnegara, kewajiban perpajakannya tergantung pada perjanjian yang diadakan. \n \n \nAyat (3) \n\n\n- 7 - \n \n \nUntuk setiap Wajib Pajak diberikan Nilai Jual Objek Pajak Tidak Kena Pajak sebesar Rp \n8.000.000,00 (delapan juta rupiah). \n \n \nApabila seorang Wajib Pajak mempunyai beberapa Objek Pajak, yang diberikan Nilai Jual \nObjek Pajak hanya salah satu Objek Pajak yang nilainya terbesar, sedangkan Objek Pajak \nlainnya tetap dikenakan secara penuh tanpa dikurangi Nilai Jual Objek Pajak Tidak Kena \nPajak. \n \n \n \nContoh : \n \n1. Seorang Wajib Pajak hanya mempunyai Objek Pajak berupa bumi dengan nilai sebagai \nberikut : \n-  Nilai Jual Objek Pajak Bumi ..............................  \nRp 3.000.0000,00 \n- Nilai Jual Objek Pajak Kena Pajak ..................... \nRp 8.000.0000,00 \nKarena Nilai Jual Objek Pajak berada dibawah Nilai Jual Objek Pajak Tidak Kena \nPajak, maka Objek Pajak tersebut tidak dikenakan Pajak Bumi dan Bangunan. \n \n2. Seorang Wajib Pajak mempunyai  dua Objek Pajak berupa bumi dan bangunan masing-\nmasing di Desa A dan Desa B dengan nilai sebagai berikut : \na. Desa A \n- Nilai Jual Objek Pajak Bumi  \nRp. 8.000.000,00 \n- Nilai Jual Objek Pajak Bangunan \nRp. 5.000.000,00 \n \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n- Nilai Jual Objek Pajak Bumi \nRp. 8.000.000,00  \n-  Nilai Jual Objek Pajak Bangunan \nRp. 5.000.000,00(+) \n- Nilai Jual Objek Pajak sebagai dasar  \n \npengenaan pajak ............................................ \nRp13.000.000,00  \n-    Nilai Jual Objek Pajak .................................. \nRp. 8.000.000,00(-) \n- Nilai Jual Objek Pajak untuk \n \nPenghitungan Pajak ...................................... \nRp. 5.000.000,00  \n \n \n \n \nb. Desa B \n \n- Nilai Jual Objek Pajak Bumi \nRp. 5.000.000,00 \n- Nilai Jual Objek Pajak Bangunan \nRp. 3.000.000,00 \n \n\n\n- 8 - \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n \n- Nilai Jual Objek Pajak Bumi ............................. \nRp. 5.000.000,00 \n \n- Nilai Jual Objek Pajak Bangunan .................... \nRp. 3.000.000,00(+) \n \n- Nilai Jual Objek Pajak sebagai dasar  \n \n \npengenaan pajak .............................................. \nRp. 8.000.000,00 \n \n- Nilai Jual Objek Pajak \n \n \nTidak Kena Pajak \nRp.  \n  0,00(-) \n \n- Nilai Jual Objek Pajak untuk \n \n \nPenghitungan Pajak ........................................ \nRp. 8.000.000,00 \n \n \nUntuk Objek Pajak di Desa B, tidak diberikan Nilai Jual Objek Pajak Tidak Kena Pajak \nsebesar Rp 8.000.000,00 (delapan juta rupiah), karena Nilai Jual Objek Pajak Tidak \nKena Pajak telah diberikan untuk Objek Pajak yang berada di Desa A. \n \n \n \n \n \n3. Seorang Wajib Pajak mempunyai dua Objek Pajak berupa bumi dan bangunan pada \nsatu Desa C dengan nilai sebagai berikut : \n \na. Objek I \n \n \n \n- Nilai Jual Objek Pajak Bumi \nRp. 4.000.000,00 \n \n \n \n- Nilai Jual Objek Pajak Bangunan \nRp. 2.000.000,00 \n \n \n \n \n \n \n \n \n \nNilai Jual Objek Pajak untuk Penghitungan Pajak : \n \n \n \n- Nilai Jual Objek Pajak Bumi ............................ \nRp. 4.000.000,00 \n \n \n \n- Nilai Jual Objek Pajak Bangunan .................... \nRp. 2.000.000,00(+) \n \n \n \n- Nilai Jual Objek Pajak sebagai dasar \n \n \n \npengenaan pajak ............................................. \nRp. 6.000.000,00 \n \n \n \n- Nilai Jual Objek Pajak \n \n \n \n \nTidak Kena Pajak .......................................... \nRp. 8.000.000,00 \n \n \n \n \n \nKarena Nilai Jual Objek Pajak berada di bawah Nilai Jual Objek Pajak Tidak Kena \nPajak, maka Objek Pajak tersebut dikenakan Pajak Bumi dan Bangunan. \n \n \n \n \n \nb. Objek II \n \n \n- Nilai Jual Objek Pajak Bumi \nRp. 4.000.000,00 \n \n \n- Nilai Jual Objek Pajak Bangunan \nRp. 1.000.000,00 \n \n \n \nNilai Jual Objek Pajak untu",
+      "locator": "UU-1994-12#PJ/3"
+    },
+    {
+      "pasal": "23",
+      "text": "Yang dimaksud dengan peraturan perundang-undangan lainnya adalah antara lain Undang \nundang Nomor 19 Tahun 1959 tentang penagihan Pajak Negara dengan Surat Paksa. \n \nAngka 4 \n \n \nCukup Jelas \n \nPasal II \n \n \nCukup Jelas \n \nPasal III \n \n \nCukup Jelas \n \nPasal IV \n \n \nCukup Jelas \n \n     \n \nTAMBAHAN LEMBARAN NEGARA REPUBLIK INDONESIA NOMOR 3569",
+      "locator": "UU-1994-12#PJ/23"
+    }
+  ]
+}
