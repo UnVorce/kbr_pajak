@@ -1,0 +1,25 @@
+# Rantai konsolidasi-lite (Fase 2). Urutan = kronologis pengubahan.
+# Catatan: lapisan Cipta Kerja (UU-2020-11, PERPU-2022-2, UU-2023-6) DITUNDA —
+# dicatat sebagai PENDING_CK di laporan (butuh penanganan khusus).
+chains:
+  # KUP: Perppu 5/2008 memuat teks perubahan; UU 16/2009 hanya penetapan.
+  UU-1983-6: [UU-1994-9, UU-2000-16, UU-2007-28, PERPU-2008-5, UU-2021-7]
+  UU-1983-7: [UU-1991-7, UU-1994-10, UU-2000-17, UU-2008-36, UU-2021-7]
+  UU-1983-8: [UU-1994-11, UU-2000-18, UU-2009-42, UU-2021-7]
+  UU-1985-12: [UU-1994-12]
+  PP-2022-55: [PP-2026-20]
+  # PMK 81/2024: Pertama=PMK 11/2025, Kedua=PMK 53/2025 (via PMK 11/2025 Pasal 20,
+  # nested), Ketiga=PMK 54/2025, Keempat=PMK 1/2026.
+  PMK-2024-81: [PMK-2025-11, PMK-2025-53, PMK-2025-54, PMK-2026-1]
+  PMK-2025-11: [PMK-2025-53]
+  PMK-2010-68: [PMK-2013-197]
+  # PPh: penghitungan PPh & pelunasan tahun berjalan; fasilitas penanaman modal;
+  # perlakuan perpajakan KAPET.
+  PP-2010-94: [PP-2019-45, PP-2021-9]
+  PP-2015-18: [PP-2016-9]
+  PP-2000-20: [PP-2000-147]
+  PMK-2023-48: [PMK-2025-11]
+  # Catatan: PMK 69/2024 (perubahan PMK 130/2020) TIDAK ditemukan di BPK.
+  # Rantai tetap dicatat agar gap terlihat di output (unparsed: dokumen tidak ada).
+  PMK-2020-130: [PMK-2024-69]
+pending_ck: [UU-2020-11, PERPU-2022-2, UU-2023-6]

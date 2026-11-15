@@ -1,0 +1,674 @@
+{
+  "target_document_id": "UU-1983-8",
+  "chain": [
+    "UU-1994-11",
+    "UU-2000-18",
+    "UU-2009-42",
+    "UU-2021-7"
+  ],
+  "provision_sources": {
+    "UU-1994-11": "provisions",
+    "UU-2000-18": "provisions",
+    "UU-2009-42": "provisions",
+    "UU-2021-7": "text_top_level"
+  },
+  "applied_count": 66,
+  "unparsed_count": 0,
+  "applied": [
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 huruf a sampai dengan huruf i, huruf k sampai \ndengan huruf p, huruf r sampai dengan huruf w, diubah, dan \nditambah dengan huruf x, sehingga Pasal 1 seluruhnya menjadi \nberbunyi seba",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "2",
+      "source_quote": "Ketentuan Pasal 2 ayat (2) diubah, sehingga Pasal 2 seluruhnya \nmenjadi berbunyi sebagai berikut: \n \n\"Pasal 2… \n \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n-  9  - \n \n\"Pasal 2 \n \n \n(1) Dalam hal Harga Jual ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 3,
+      "action": "HAPUS",
+      "target": "3",
+      "source_quote": "Ketentuan Pasal 3 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 5,
+      "action": "SISIP",
+      "target": "3A",
+      "source_quote": "Menambah ketentuan baru di antara Pasal 3 dan Pasal 4 yang \ndijadikan Pasal 3A dalam BAB IIA tentang Kewajiban Mempunyai \nNomor Pengukuhan Pengusaha Kena Pajak dan Kewajiban \nMemungut, Menyetor, dan M",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 6,
+      "action": "UBAH",
+      "target": "4",
+      "source_quote": "Ketentuan Pasal 4 diubah, sehingga menjadi berbunyi sebagai berikut \n: \n \n\"Pasal 4 \n \nPajak Pertambahan Nilai dikenakan atas : \na. penyerahan Barang Kena Pajak di dalam Daerah Pabean yang \ndilakukan o",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 7,
+      "action": "SISIP",
+      "target": "4A",
+      "source_quote": "Menambah ketentuan baru di antara Pasal 4 dan Pasal 5 yang \ndijadikan Pasal 4A dalam BAB III tentang Objek Pajak dan \nKewajiban Pencatatan, yang berbunyi sebagai berikut : \n \n\"Pasal 4A \n \nJenis Barang",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 8,
+      "action": "UBAH",
+      "target": "5",
+      "source_quote": "Ketentuan Pasal 5 diubah, sehingga menjadi berbunyi sebagai berikut \n: \n\"Pasal 5 \n \n \n(1) Di samping pengenaan pajak sebagaimana dimaksud dalam Pasal \n4, dikenakan juga Pajak Penjualan Atas Barang Mew",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 9,
+      "action": "SISIP",
+      "target": "5A",
+      "source_quote": "Menambah ketentuan baru di antara Pasal 5 dan Pasal 6 yang \ndijadikan Pasal 5A dalam BAB III tentang Objek Pajak dan \nKewajiban Pencatatan, yang berbunyi sebagai berikut : \n \n\"Pasal 5A \nPajak Pertamba",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 10,
+      "action": "UBAH",
+      "target": "6",
+      "source_quote": "Ketentuan Pasal 6 diubah, sehingga menjadi berbunyi sebagai berikut \n: \n \n\"Pasal 6 \n \n \n(1) Setiap Pengusaha Kena Pajak diwajibkan mencatat semua jumlah \nharga perolehan dan penyerahan Barang Kena Paj",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 11,
+      "action": "UBAH",
+      "target": "7",
+      "source_quote": "Ketentuan Pasal 7 diubah, sehingga menjadi berbunyi sebagai berikut \n: \n \n\"Pasal 7 \n \n \n(1) Tarif Pajak Pertambahan Nilai adalah 10% (sepuluh persen). \n \n(2) Tarif Pajak Pertambahan Nilai atas ekspor ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 12,
+      "action": "UBAH",
+      "target": "8",
+      "source_quote": "Ketentuan Pasal 8 diubah, sehingga menjadi berbunyi sebagai berikut \n: \n \n\"Pasal 8 \n \n \n(1) Tarif \nPajak \nPenjualan \nAtas \nBarang \nMewah \nadalah \nserendah-rendahnya 10% (sepuluh persen) dan setinggi-t",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 13,
+      "action": "UBAH",
+      "target": "9",
+      "source_quote": "Ketentuan Pasal 9 diubah, dan ditambah dengan ayat (9) sampai \ndengan ayat (14), sehingga Pasal 9 seluruhnya menjadi berbunyi \nsebagai berikut : \n \n \n \n \n \n\"Pasal 9… \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESI",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 14,
+      "action": "UBAH",
+      "target": "10",
+      "source_quote": "Ketentuan Pasal 10 diubah, sehingga menjadi berbunyi sebagai \nberikut : \n \n\"Pasal 10 \n \n \n(1) Pajak Penjualan Atas Barang Mewah yang terutang dihitung \ndengan mengalikan tarif sebagaimana dimaksud dal",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 15,
+      "action": "UBAH",
+      "target": "11",
+      "source_quote": "Ketentuan Pasal 11 diubah, dan ditambah dengan ayat (3), ayat (4), \ndan ayat (5), sehingga Pasal 11 seluruhnya menjadi berbunyi sebagai \nberikut : \n \n\"Pasal 11 \n \n \n(1) Terutangnya pajak terjadi pada ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 16,
+      "action": "UBAH",
+      "target": "12",
+      "source_quote": "Ketentuan Pasal 12 ayat (1), ayat (2), dan ayat (3) diubah, dan \nditambah dengan ayat (4), sehingga Pasal 12 seluruhnya menjadi \nberbunyi sebagai berikut: \n \n\"Pasal 12 \n \n \n(1) Pengusaha Kena Pajak te",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 17,
+      "action": "UBAH",
+      "target": "13",
+      "source_quote": "Ketentuan Pasal 13 ayat (1) sampai dengan ayat (7) diubah, dan ayat \n(8) dihapus, sehingga Pasal 13 seluruhnya menjadi berbunyi sebagai \nberikut : \n \n\"Pasal 13 \n \n \n(1) Pengusaha Kena Pajak wajib memb",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 18,
+      "action": "UBAH",
+      "target": "14",
+      "source_quote": "Ketentuan Pasal 14 diubah, sehingga menjadi berbunyi sebagai \nberikut : \n \n \n\"Pasal 14… \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n-  23  - \n \n \n\"Pasal 14 \n \n \n(1) Orang pribadi atau badan yang tidak dikuku",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 19,
+      "action": "HAPUS",
+      "target": "15",
+      "source_quote": "Ketentuan Pasal 15 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 20,
+      "action": "HAPUS",
+      "target": "16",
+      "source_quote": "Ketentuan Pasal 16 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 22,
+      "action": "SISIP",
+      "target": "16A",
+      "source_quote": "Menambah 4 (empat) ketentuan baru di antara Pasal 16 dan Pasal 17 \nyang dijadikan Pasal 16A, Pasal 16B, Pasal 16C, dan Pasal 16D \ndalam Bab VA tentang Ketentuan Khusus, yang masing-masing \nberbunyi se",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 22,
+      "action": "SISIP",
+      "target": "16B",
+      "source_quote": "Menambah 4 (empat) ketentuan baru di antara Pasal 16 dan Pasal 17 \nyang dijadikan Pasal 16A, Pasal 16B, Pasal 16C, dan Pasal 16D \ndalam Bab VA tentang Ketentuan Khusus, yang masing-masing \nberbunyi se",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 22,
+      "action": "SISIP",
+      "target": "16C",
+      "source_quote": "Menambah 4 (empat) ketentuan baru di antara Pasal 16 dan Pasal 17 \nyang dijadikan Pasal 16A, Pasal 16B, Pasal 16C, dan Pasal 16D \ndalam Bab VA tentang Ketentuan Khusus, yang masing-masing \nberbunyi se",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 22,
+      "action": "SISIP",
+      "target": "16D",
+      "source_quote": "Menambah 4 (empat) ketentuan baru di antara Pasal 16 dan Pasal 17 \nyang dijadikan Pasal 16A, Pasal 16B, Pasal 16C, dan Pasal 16D \ndalam Bab VA tentang Ketentuan Khusus, yang masing-masing \nberbunyi se",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-1994-11",
+      "ordinal": 23,
+      "action": "UBAH",
+      "target": "17",
+      "source_quote": "Ketentuan Pasal 17 diubah, sehingga menjadi berbunyi sebagai \nberikut : \n \n \n \n \n \n \n\"Pasal 17… \n\n\n \n \nPRESIDEN \nREPUBLIK INDONESIA \n-  26  - \n \n\"Pasal 17 \n \nHal-hal yang menyangkut pengertian dan tat",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 diubah, sehingga keseluruhan Pasal 1 berbunyi\nsebagai berikut :\n\"Pasal 1\nDalam Undang-undang ini yang dimaksud dengan :\n1. Daerah Pabean adalah wilayah Republik Indonesia yang melipu",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 2,
+      "action": "SISIP",
+      "target": "1A",
+      "source_quote": "Di antara Pasal 1 dan Pasal 2 disisipkan 1 (satu) pasal yaitu Pasal 1 A\nyang berbunyi sebagai berikut :\n\"Pasal 1A\n(1)\nYang termasuk dalam pengertian penyerahan Barang Kena Pajak\nadalah :\na.\npenyerahan",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 4,
+      "action": "UBAH",
+      "target": "3A",
+      "source_quote": "Ketentuan Pasal 3A diubah, sehingga keseluruhan Pasal 3A berbunyi\nsebagai berikut :\n\"Pasal 3A\n(1)\nPengusaha yang melakukan penyerahan sebagaimana dimaksud\ndalam Pasal 4 huruf a, huruf c, atau huruf f,",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 6,
+      "action": "UBAH",
+      "target": "4",
+      "source_quote": "Ketentuan Pasal 4 diubah, sehingga keseluruhan Pasal 4 berbunyi\nsebagai berikut :\n\"Pasal 4\nPajak Pertambahan Nilai dikenakan atas :\na.\npenyerahan Barang Kena Pajak di dalam Daerah Pabean yang\ndilakuka",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 7,
+      "action": "UBAH",
+      "target": "4A",
+      "source_quote": "Ketentuan Pasal 4A diubah dan dijadikan ayat (1) dan ditambah 2 (dua)\nayat yaitu ayat (2) dan ayat (3), sehingga keseluruhan Pasal 4A berbunyi\nsebagai berikut :\n\"Pasal 4A\n(1)\nJenis barang sebagaimana ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 8,
+      "action": "UBAH",
+      "target": "5",
+      "source_quote": "Ketentuan Pasal 5 ayat (1) diubah, sehingga keseluruhan Pasal 5\nberbunyi sebagai berikut :\n\"Pasal 5\n(1)\nDisamping pengenaan Pajak sebagaimana dimaksud dalam Pasal\n4, dikenakan juga Pajak Penjualan Ata",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 9,
+      "action": "HAPUS",
+      "target": "6",
+      "source_quote": "Ketentuan Pasal 6 dihapus.",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 10,
+      "action": "UBAH",
+      "target": "8",
+      "source_quote": "Ketentuan Pasal 8 ayat (1), ayat (3) dan ayat (4) diubah, sehingga\nkeseluruhan Pasal 8 berbunyi sebagai berikut :\n\"Pasal 8\n(1)\nTarif Pajak Penjualan Atas Barang Mewah adalah paling rendah\n10% (sepuluh",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 11,
+      "action": "UBAH",
+      "target": "9",
+      "source_quote": "Ketentuan Pasal 9 ayat (1), ayat (2), ayat (4), ayat (5), ayat (6), ayat (7),\nayat (8), ayat (9), dan ayat (13) diubah, ayat (10), ayat (11), ayat (12), dan\nayat (14) dihapus, dan diantara ayat (2) da",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 12,
+      "action": "UBAH",
+      "target": "10",
+      "source_quote": "Ketentuan Pasal 10 ayat (1) dan ayat (3) diubah, sehingga keseluruhan\nPasal 10 berbunyi sebagai berikut :\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 11 -\n\"Pasal 10\n(1)\nPajak\nPenjualan\nAtas\nBarang\nMewah\nyang\nteru",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 13,
+      "action": "UBAH",
+      "target": "11",
+      "source_quote": "Ketentuan Pasal 11 ayat (1), ayat (2), dan ayat (4) diubah, ayat (3) dan\nayat (5) dihapus, sehingga keseluruhan Pasal 11 berbunyi sebagai\nberikut :\n\"Pasal 11\n(1)\nTerutangnya pajak terjadi pada saat :\n",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 14,
+      "action": "UBAH",
+      "target": "12",
+      "source_quote": "Ketentuan Pasal 12 ayat (1) dan ayat (4) diubah, sehingga keseluruhan\nPasal 12 berbunyi sebagai berikut :\n\"Pasal 12\n(1)\nPengusaha Kena Pajak yang melakukan penyerahan sebagaimana\ndimaksud dalam Pasal ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 15,
+      "action": "UBAH",
+      "target": "13",
+      "source_quote": "Ketentuan Pasal 13 ayat (1), ayat (2), ayat (5), ayat (6), dan ayat (7)\ndiubah, sehingga keseluruhan Pasal 13 berbunyi sebagai berikut :\n\"Pasal 13\n(1)\nPengusaha Kena Pajak wajib membuat Faktur Pajak u",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 16,
+      "action": "UBAH",
+      "target": "16A",
+      "source_quote": "Ketentuan Pasal 16A diubah, sehingga keseluruhan Pasal 16A berbunyi\nsebagai berikut :\n\"Pasal 16A\n(1)\nPajak yang terutang atas penyerahan Barang Kena Pajak dan atau\npenyerahan\nJasa\nKena\nPajak\nkepada\nPe",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 17,
+      "action": "UBAH",
+      "target": "16B",
+      "source_quote": "Ketentuan Pasal 16B diubah, sehingga keseluruhan Pasal 16B berbunyi\nsebagai berikut :\n\"Pasal 16B\n(1)\nDengan\nPeraturan\nPemerintah\ndapat\nditetapkan\nbahwa\npajak\nterutang tidak dipungut sebagian atau selu",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2000-18",
+      "ordinal": 18,
+      "action": "UBAH",
+      "target": "16C",
+      "source_quote": "Ketentuan Pasal 16C diubah, sehingga keseluruhan Pasal 16C berbunyi\nsebagai berikut :\n\"Pasal 16C …\n\"Pasal 16C\nPajak Pertambahan Nilai dikenakan atas kegiatan membangun sendiri\nyang dilakukan tidak dal",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1",
+      "source_quote": "Ketentuan Pasal 1 diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 1 \nDalam Undang-Undang ini yang dimaksud dengan: \n1. Daerah Pabean adalah wilayah Republik Indonesia \nyang meliputi wilayah darat,",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "1A",
+      "source_quote": "Ketentuan Pasal 1A diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 1A \n(1) \nYang termasuk dalam pengertian penyerahan Barang \nKena Pajak adalah: \na.   penyerahan hak atas Barang Kena Pajak karena ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 3,
+      "action": "UBAH",
+      "target": "3A",
+      "source_quote": "Ketentuan Pasal 3A diubah sehingga berbunyi sebagai \nberikut: \n \n Pasal 3A \n(1) \nPengusaha yang melakukan penyerahan sebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf a, huruf c, \nhuruf f, huruf g, d",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 4,
+      "action": "UBAH",
+      "target": "4",
+      "source_quote": "Ketentuan Pasal 4 diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 4 \n(1) \nPajak Pertambahan Nilai dikenakan atas: \na.  penyerahan Barang Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh peng",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 5,
+      "action": "UBAH",
+      "target": "4A",
+      "source_quote": "Ketentuan Pasal 4A diubah sehingga berbunyi sebagai \nberikut: \n \n \nPasal 4A ... \n\n\n \n \n \n- 10 -\n \nPasal 4A \n(1) \nDihapus.  \n(2) \nJenis barang yang tidak dikenai Pajak Pertambahan \nNilai adalah barang ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 6,
+      "action": "UBAH",
+      "target": "5",
+      "source_quote": "Ketentuan Pasal 5 diubah sehingga berbunyi sebagai \nberikut: \n \n Pasal 5 \n(1) \nDi samping pengenaan Pajak Pertambahan Nilai \nsebagaimana dimaksud dalam Pasal 4 ayat (1), dikenai \njuga Pajak Penjualan ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 7,
+      "action": "UBAH",
+      "target": "5A",
+      "source_quote": "Ketentuan Pasal 5A diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 5A \n(1) \nPajak Pertambahan Nilai atau Pajak Pertambahan Nilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \natas \npenyerahan Baran",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 8,
+      "action": "UBAH",
+      "target": "7",
+      "source_quote": "Ketentuan Pasal 7 ayat (2) dan ayat (3) diubah sehingga \nPasal 7 berbunyi sebagai berikut: \n \nPasal 7 \n(1) \nTarif Pajak Pertambahan Nilai adalah 10% (sepuluh \npersen). \n(2) \nTarif Pajak Pertambahan Ni",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 9,
+      "action": "UBAH",
+      "target": "8",
+      "source_quote": "Ketentuan Pasal 8 diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 8 \n(1) \nTarif Pajak Penjualan atas Barang Mewah ditetapkan \npaling rendah 10% (sepuluh persen) dan paling tinggi \n200% (dua ratus ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 10,
+      "action": "SISIP",
+      "target": "8A",
+      "source_quote": "Di antara Pasal 8 dan Pasal 9 disisipkan 1 (satu) pasal, \nyakni Pasal 8A yang berbunyi sebagai berikut: \n \nPasal 8A \n(1) \nPajak Pertambahan Nilai yang terutang dihitung \ndengan cara mengalikan tarif s",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 11,
+      "action": "UBAH",
+      "target": "9",
+      "source_quote": "Ketentuan Pasal 9 ayat (1) dihapus, ayat (2), ayat (2a), ayat \n(3), ayat (4), ayat (5), ayat (6), ayat (7), ayat (8), ayat (13) dan \nayat (14) diubah, di antara ayat (2a) dan ayat (3) disisipkan \n1 (s",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 12,
+      "action": "UBAH",
+      "target": "11",
+      "source_quote": "Ketentuan Pasal 11 ayat (1) dan Penjelasan ayat (2) diubah \nsehingga Pasal 11 berbunyi sebagai berikut: \n \nPasal 11 \n(1) \nTerutangnya pajak terjadi pada saat: \na. \npenyerahan Barang Kena Pajak; \nb. \ni",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 13,
+      "action": "UBAH",
+      "target": "12",
+      "source_quote": "Ketentuan Pasal 12 ayat (1), ayat (2), dan ayat (4) diubah \nsehingga Pasal 12 berbunyi sebagai berikut: \n \nPasal 12 \n(1) \nPengusaha Kena Pajak yang melakukan penyerahan \nsebagaimana dimaksud dalam Pas",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 14,
+      "action": "UBAH",
+      "target": "13",
+      "source_quote": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 13 \n(1) \nPengusaha Kena Pajak wajib membuat Faktur Pajak \nuntuk setiap: \na. \npenyerahan \nBarang \nKena \nPajak \nsebagaimana \ndimaks",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 15,
+      "action": "SISIP",
+      "target": "15A",
+      "source_quote": "Di antara Pasal 15 dan Pasal 16 disisipkan 1 (satu) pasal, \nyakni Pasal 15A sehingga berbunyi sebagai berikut: \n \nPasal 15A \n(1) \nPenyetoran Pajak Pertambahan Nilai oleh Pengusaha \nKena Pajak sebagaim",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 16,
+      "action": "UBAH",
+      "target": "16B",
+      "source_quote": "Ketentuan Pasal 16B ayat (1) diubah sehingga Pasal 16B \nberbunyi sebagai berikut: \n \nPasal 16B \n(1) \nPajak \nterutang \ntidak \ndipungut \nsebagian \natau \nseluruhnya atau dibebaskan dari pengenaan pajak, ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 17,
+      "action": "UBAH",
+      "target": "16D",
+      "source_quote": "Ketentuan Pasal 16D diubah sehingga berbunyi sebagai \nberikut: \n \nPasal 16D \nPajak Pertambahan Nilai dikenakan atas penyerahan Barang \nKena Pajak berupa aktiva yang menurut tujuan semula \ntidak untuk ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 18,
+      "action": "SISIP",
+      "target": "16E",
+      "source_quote": "Di antara Pasal 16D dan Pasal 17 disisipkan 2 (dua) pasal, \nyakni Pasal 16E dan Pasal 16F sehingga berbunyi sebagai \nberikut: \n \n Pasal 16E \n(1) \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBara",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2009-42",
+      "ordinal": 18,
+      "action": "SISIP",
+      "target": "16F",
+      "source_quote": "Di antara Pasal 16D dan Pasal 17 disisipkan 2 (dua) pasal, \nyakni Pasal 16E dan Pasal 16F sehingga berbunyi sebagai \nberikut: \n \n Pasal 16E \n(1) \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBara",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "4A",
+      "source_quote": "1. Ketentuan ayat (2) dan ayat (3) Pasal 4A diubah sehingga\nPasal 4A berbunyi sebagai berikut:\nPasal 4A\n(1)\n(21\nDihapus.\nJenis barang yang tidak dikenai Pajak Pertambahan\nNilai, yakni barang tertentu ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "7",
+      "source_quote": "Ketentuan ayat (1) dan ayat (3) Pasal 7 diubah,\nditambahkan 1 (satu) ayat, yakni ayat (4), serta penjelasan\nayat (21 Pasal 7 diubah sebagaimana tercantum dalam\npenjelasan pasal demi pasal sehingga Pas",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 3,
+      "action": "UBAH",
+      "target": "8A",
+      "source_quote": "Ketentuan Pasal 8A ayat (2) dihapus, dan ditambahkan 1\n(satu) ayat, yakni ayat (3) sehingga Pasal 8A berbunyi\nsebagai berikut:\nPasal 8A\n(1) Pajak Pertambahan Nilai yang terutang dihitung\ndengan cara m",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 4,
+      "action": "UBAH",
+      "target": "9",
+      "source_quote": "Ketentuan ayat (5), ayat (6), dan ayat (8) huruf f dan\nhuruf g Pasal 9 diubah, Pasal 9 ayat (4d), ayat (71, ayat\n(7a), ayat (7b), ayat (8) huruf c, dan ayat (13) dihapus, serta\npenjelasan Pasal9 ayat ",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 5,
+      "action": "SISIP",
+      "target": "9A",
+      "source_quote": "Di antara Pasal 9 dan Pasal 10 disisipkan 1 (satu) pasal,\nyakni Pasal 9A sehingga berbunyi sebagai berikut:\nPasal 9A\n(1) Pengusaha Kena Pajak yang:\na. mempunyai peredaran usaha dalam 1 (satu)\ntahun bu",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 6,
+      "action": "UBAH",
+      "target": "16B",
+      "source_quote": "Ketentuan ayat (2) dan ayat (3) Pasal 16B diubah serta di\nantara ayat (1) dan ayat (21 Pasal 168 disisipkan I (satu)\nayat, yakni ayat (1a) sehingga Pasal 168 berbunyi sebagai\nberikut:\nPasal 16B\n(1) Pa",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2021-7",
+      "ordinal": 7,
+      "action": "SISIP",
+      "target": "16G",
+      "source_quote": "Di antara Pasal 16F dan Pasal 17 disisipkan 1 (satu) pasal,\nyakni Pasal 16G sehingga berbunyi sebagai berikut:\nPasal 16G\nKetentuan lebih lanjut mengenai:\na. nilai lain sebagaimana dimaksud dalam Pasal",
+      "note": "ok"
+    }
+  ],
+  "unparsed": [],
+  "provisions": [
+    {
+      "nomor": "1",
+      "text": "Dalam Undang-Undang ini yang dimaksud dengan: \n1. Daerah Pabean adalah wilayah Republik Indonesia \nyang meliputi wilayah darat, perairan, dan ruang udara \ndi atasnya, serta tempat-tempat tertentu di Zona \nEkonomi Eksklusif dan landas kontinen yang di \ndalamnya berlaku Undang-Undang yang mengatur \nmengenai kepabeanan. \n2. Barang adalah barang berwujud, yang menurut sifat \natau hukumnya dapat berupa barang bergerak atau \nbarang tidak bergerak, dan barang tidak berwujud. \n3. Barang Kena Pajak adalah barang yang dikenai pajak \nberdasarkan Undang-Undang ini. \n4. Penyerahan Barang Kena Pajak adalah setiap kegiatan \npenyerahan Barang Kena Pajak. \n5. Jasa \nadalah \nsetiap \nkegiatan \npelayanan \nyang \nberdasarkan suatu perikatan atau perbuatan hukum \nyang \nmenyebabkan \nsuatu \nbarang, \nfasilitas, \nkemudahan, \natau \nhak \ntersedia \nuntuk \ndipakai, \ntermasuk jasa yang dilakukan untuk menghasilkan \nbarang karena pesanan atau permintaan dengan bahan \ndan atas petunjuk dari pemesan. \n6. Jasa ... \n\n\n \n \n \n- 4 -\n \n6. Jasa Kena Pajak adalah jasa yang dikenai pajak \nberdasarkan Undang-Undang ini. \n7. Penyerahan Jasa Kena Pajak adalah setiap kegiatan \npemberian Jasa Kena Pajak.  \n8. Pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean \nadalah setiap kegiatan pemanfaatan Jasa Kena Pajak \ndari luar Daerah Pabean di dalam Daerah Pabean. \n9. Impor adalah setiap kegiatan memasukkan barang dari \nluar Daerah Pabean ke dalam Daerah Pabean. \n10. Pemanfaatan Barang Kena Pajak Tidak Berwujud dari \nluar \nDaerah \nPabean \nadalah \nsetiap \nkegiatan \npemanfaatan Barang Kena Pajak Tidak Berwujud dari \nluar Daerah Pabean di dalam Daerah Pabean. \n11. Ekspor Barang Kena Pajak Berwujud adalah setiap \nkegiatan mengeluarkan Barang Kena Pajak Berwujud \ndari dalam Daerah Pabean ke luar Daerah Pabean.  \n12. Perdagangan adalah kegiatan usaha membeli dan \nmenjual, termasuk kegiatan tukar-menukar barang, \ntanpa mengubah bentuk dan/atau sifatnya. \n13. Badan adalah sekumpulan orang dan/atau modal yang \nmerupakan kesatuan baik yang melakukan usaha \nmaupun yang tidak melakukan usaha yang meliputi \nperseroan terbatas, perseroan komanditer, perseroan \nlainnya, badan usaha milik negara atau badan usaha \nmilik daerah dengan nama dan dalam bentuk apapun, \nfirma, kongsi, koperasi, dana pensiun, persekutuan, \nperkumpulan, yayasan, organisasi massa, organisasi \nsosial politik, atau organisasi lainnya, lembaga dan \nbentuk badan lainnya termasuk kontrak investasi \nkolektif dan bentuk usaha tetap.  \n14. Pengusaha adalah orang pribadi atau badan dalam \nbentuk apa pun yang dalam kegiatan usaha atau \npekerjaannya \nmenghasilkan \nbarang, \nmengimpor \nbarang, \nmengekspor \nbarang, \nmelakukan \nusaha \nperdagangan, memanfaatkan barang tidak berwujud \ndari luar Daerah Pabean, melakukan usaha jasa \ntermasuk mengekspor jasa, atau memanfaatkan jasa \ndari luar Daerah Pabean. \n \n \n15. Pengusaha ... \n\n\n \n \n \n- 5 -\n \n15. Pengusaha \nKena \nPajak \nadalah \npengusaha \nyang \nmelakukan penyerahan Barang Kena Pajak dan/atau \npenyerahan Jasa Kena Pajak yang dikenai pajak \nberdasarkan Undang-Undang ini. \n16. Menghasilkan adalah kegiatan mengolah melalui proses \nmengubah bentuk dan/atau sifat suatu barang dari \nbentuk aslinya menjadi barang baru atau mempunyai \ndaya guna baru atau kegiatan mengolah sumber daya \nalam, termasuk menyuruh orang pribadi atau badan \nlain melakukan kegiatan tersebut. \n17. Dasar Pengenaan Pajak adalah jumlah Harga Jual, \nPenggantian, Nilai Impor, Nilai Ekspor, atau nilai lain \nyang dipakai sebagai dasar untuk menghitung pajak \nyang terutang. \n18. Harga Jual adalah nilai berupa uang, termasuk semua \nbiaya yang diminta atau seharusnya diminta oleh \npenjual karena penyerahan Barang Kena Pajak, tidak \ntermasuk Pajak Pertambahan Nilai yang dipungut \nmenurut Undang-Undang ini dan potongan harga yang \ndicantumkan dalam Faktur Pajak. \n19. Penggantian adalah nilai berupa uang, termasuk \nsemua biaya yang diminta atau seharusnya diminta \noleh pengusaha karena penyerahan Jasa Kena Pajak, \nekspor Jasa Kena Pajak, atau ekspor Barang Kena \nPajak Tidak Berwujud, tetapi tidak termasuk Pajak \nPertambahan Nilai yang dipungut menurut Undang-\nUndang ini dan potongan harga yang dicantumkan \ndalam Faktur Pajak atau nilai berupa uang yang \ndibayar atau seharusnya dibayar oleh Penerima Jasa \nkarena pemanfaatan Jasa Kena Pajak dan/atau oleh \npenerima manfaat Barang Kena Pajak Tidak Berwujud \nkarena \npemanfaatan \nBarang \nKena \nPajak \nTidak \nBerwujud dari luar Daerah Pabean di dalam Daerah \nPabean. \n20. Nilai Impor adalah nilai berupa uang yang menjadi \ndasar penghitungan bea masuk ditambah pungutan \nberdasarkan ketentuan dalam peraturan perundang-\nundangan yang mengatur mengenai kepabeanan dan \ncukai untuk impor Barang Kena Pajak, tidak termasuk \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang dipungut menurut Undang-\nUndang ini. \n21. Pembeli ... \n\n\n \n \n \n- 6 -\n \n21. Pembeli adalah orang pribadi atau badan yang \nmenerima atau seharusnya menerima penyerahan \nBarang \nKena \nPajak \ndan \nyang \nmembayar \natau \nseharusnya membayar harga Barang Kena Pajak \ntersebut. \n22. Penerima Jasa adalah orang pribadi atau badan yang \nmenerima atau seharusnya menerima penyerahan Jasa \nKena Pajak dan yang membayar atau seharusnya \nmembayar Penggantian atas Jasa Kena Pajak tersebut. \n23. Faktur Pajak adalah bukti pungutan pajak yang dibuat \noleh \nPengusaha \nKena \nPajak \nyang \nmelakukan \npenyerahan Barang Kena Pajak atau penyerahan Jasa \nKena Pajak. \n24. Pajak Masukan adalah Pajak Pertambahan Nilai yang \nseharusnya sudah dibayar oleh Pengusaha Kena Pajak \nkarena \nperolehan \nBarang \nKena \nPajak \ndan/atau \nperolehan Jasa Kena Pajak dan/atau pemanfaatan \nBarang Kena Pajak Tidak Berwujud dari luar Daerah \nPabean dan/atau pemanfaatan Jasa Kena Pajak dari \nluar Daerah Pabean dan/atau impor Barang Kena \nPajak. \n25. Pajak Keluaran adalah Pajak Pertambahan Nilai \nterutang yang wajib dipungut oleh Pengusaha Kena \nPajak yang melakukan penyerahan Barang Kena Pajak, \npenyerahan Jasa Kena Pajak, ekspor Barang Kena \nPajak Berwujud, ekspor Barang Kena Pajak Tidak \nBerwujud, dan/atau ekspor Jasa Kena Pajak. \n26. Nilai Ekspor adalah nilai berupa uang, termasuk \nsemua biaya yang diminta atau seharusnya diminta \noleh eksportir.  \n27. Pemungut Pajak Pertambahan Nilai adalah bendahara \npemerintah, badan, atau instansi pemerintah yang \nditunjuk oleh Menteri Keuangan untuk memungut, \nmenyetor, dan melaporkan pajak yang terutang oleh \nPengusaha Kena Pajak atas penyerahan Barang Kena \nPajak dan/atau penyerahan Jasa Kena Pajak kepada \nbendahara \npemerintah, \nbadan, \natau \ninstansi \npemerintah tersebut. \n28. Ekspor Barang Kena Pajak Tidak Berwujud adalah \nsetiap kegiatan pemanfaatan Barang Kena Pajak Tidak \nBerwujud dari dalam Daerah Pabean di luar Daerah \nPabean. \n29. Ekspor ... \n\n\n \n \n \n- 7 -\n \n29. Ekspor Jasa Kena Pajak adalah setiap kegiatan \npenyerahan Jasa Kena Pajak ke luar Daerah Pabean."
+    },
+    {
+      "nomor": "1A",
+      "text": "(1) \nYang termasuk dalam pengertian penyerahan Barang \nKena Pajak adalah: \na.   penyerahan hak atas Barang Kena Pajak karena \nsuatu perjanjian; \nb.  pengalihan Barang Kena Pajak karena suatu \nperjanjian sewa beli dan/atau perjanjian sewa \nguna usaha (leasing);  \nc. \npenyerahan Barang Kena Pajak kepada pedagang \nperantara atau melalui juru lelang; \nd. \npemakaian sendiri dan/atau pemberian cuma-\ncuma atas Barang Kena Pajak; \ne.    Barang Kena Pajak berupa persediaan dan/atau \naktiva yang menurut tujuan semula tidak untuk \ndiperjualbelikan, yang masih tersisa pada saat \npembubaran perusahaan; \nf. \npenyerahan Barang Kena Pajak dari pusat ke \ncabang atau sebaliknya dan/atau penyerahan \nBarang Kena Pajak antar cabang;  \ng. \npenyerahan Barang Kena Pajak secara konsinyasi; \ndan \nh. penyerahan Barang Kena Pajak oleh Pengusaha \nKena Pajak dalam rangka perjanjian pembiayaan \nyang dilakukan berdasarkan prinsip syariah, yang \npenyerahannya dianggap langsung dari Pengusaha \nKena Pajak kepada pihak yang membutuhkan \nBarang Kena Pajak. \n(2) \nYang tidak termasuk dalam pengertian penyerahan \nBarang Kena Pajak adalah: \na.  penyerahan Barang Kena Pajak kepada makelar \nsebagaimana dimaksud dalam Kitab Undang-\nUndang Hukum Dagang; \n \n \nb. penyerahan ... \n\n\n \n \n \n- 8 -\n \nb. \npenyerahan Barang Kena Pajak untuk jaminan \nutang-piutang; \nc. \npenyerahan \nBarang \nKena \nPajak \nsebagaimana \ndimaksud pada ayat (1) huruf f dalam hal \nPengusaha Kena Pajak melakukan pemusatan \ntempat pajak terutang; \nd.  pengalihan Barang Kena Pajak dalam rangka \npenggabungan, \npeleburan, \npemekaran, \npemecahan, dan pengambilalihan usaha dengan \nsyarat pihak yang melakukan pengalihan dan yang \nmenerima pengalihan adalah Pengusaha Kena \nPajak; dan \ne.  Barang Kena Pajak berupa aktiva yang menurut \ntujuan semula tidak untuk diperjualbelikan, yang \nmasih tersisa pada saat pembubaran perusahaan, \ndan yang Pajak Masukan atas perolehannya tidak \ndapat dikreditkan sebagaimana dimaksud dalam \nPasal 9 ayat (8) huruf b dan huruf c."
+    },
+    {
+      "nomor": "2",
+      "text": "(1) Dalam hal Harga Jual atau Penggantian dipengaruhi oleh \nhubungan istimewa, maka Harga Jual atau Penggantian dihitung \natas dasar harga pasar wajar pada saat penyerahan Barang Kena \nPajak atau Jasa Kena Pajak itu dilakukan. \n \n(2) Hubungan istimewa dianggap ada apabila: \n \n \n a. Pengusaha mempunya penyertaan langsung atau tidak \nlangsung sebesar 25% (dua puluh lima persen) atau lebih \npada Pengusaha lain, atau hubungan antara Pengusaha \ndengan penyertaan 25% (dua puluh lima persen) atau lebih \npada dua Pengusaha atau lebih, demikian pula hubungan \nantara dua Pengusaha atau lebih yang disebut terakhir; atau \n \n \n b. Pengusaha menguasai Pengusaha lainnya atau dua atau lebih \nPengusaha berada di bawah pengusaaan Pengusaha yang \nsama baik langsung maupun tidak langsung; atau \n \n \n c. Terdapat hubungan keluarga baik sedarah maupun semenda \ndalam garis keturunan lurus satu derajat dan/atau ke samping \nsatu derajat."
+    },
+    {
+      "nomor": "3A",
+      "text": "(1) \nPengusaha yang melakukan penyerahan sebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf a, huruf c, \nhuruf f, huruf g, dan huruf h, kecuali pengusaha kecil \nyang batasannya ditetapkan oleh Menteri Keuangan, \nwajib melaporkan usahanya untuk dikukuhkan sebagai \nPengusaha Kena Pajak dan wajib memungut, menyetor, \ndan melaporkan Pajak Pertambahan Nilai dan Pajak \nPenjualan atas Barang Mewah yang terutang. \n(1a) Pengusaha kecil sebagaimana dimaksud pada ayat (1) \ndapat memilih untuk dikukuhkan sebagai Pengusaha \nKena Pajak. \n(2)  \nPengusaha kecil yang memilih untuk dikukuhkan \nsebagai Pengusaha Kena Pajak wajib melaksanakan \nketentuan sebagaimana dimaksud pada ayat (1). \n \n \n \n(3) Orang ... \n\n\n \n \n \n- 9 -\n \n(3) \nOrang pribadi atau badan yang memanfaatkan Barang \nKena Pajak Tidak Berwujud dari luar Daerah Pabean \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d \ndan/atau yang memanfaatkan Jasa Kena Pajak dari \nluar Daerah Pabean sebagaimana dimaksud dalam \nPasal 4 ayat (1) huruf e wajib memungut, menyetor, \ndan \nmelaporkan \nPajak \nPertambahan \nNilai \nyang \nterutang yang penghitungan dan tata caranya diatur \ndengan Peraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "4",
+      "text": "(1) \nPajak Pertambahan Nilai dikenakan atas: \na.  penyerahan Barang Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha; \nb.  impor Barang Kena Pajak; \nc. \npenyerahan Jasa Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha; \nd. \npemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean di dalam Daerah Pabean; \ne.  pemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean di dalam Daerah Pabean; \nf.  ekspor \nBarang \nKena \nPajak \nBerwujud \noleh \nPengusaha Kena Pajak; \ng. \nekspor Barang Kena Pajak Tidak Berwujud oleh \nPengusaha Kena Pajak; dan  \nh. ekspor Jasa Kena Pajak oleh Pengusaha Kena \nPajak. \n(2) \nKetentuan mengenai batasan kegiatan dan jenis Jasa \nKena \nPajak \nyang \natas \nekspornya \ndikenai \nPajak \nPertambahan Nilai sebagaimana dimaksud pada ayat (1) \nhuruf h diatur dengan Peraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "4A",
+      "text": "(1)\n(21\nDihapus.\nJenis barang yang tidak dikenai Pajak Pertambahan\nNilai, yakni barang tertentu dalam kelompok barang\nsebagai berikut:\na. dihapus;\nb. dihapus;\nc. makanan dan minuman yang disajikan di hotel,\nrestoran, rumah makan, warung, dan\nsejenisnya, meliputi makanan dan minuman\nbaik yang dikonsumsi di tempat maupun tidak,\ntermasuk makanan dan minuman yang\ndiserahkan oleh usaha jasa boga atau katering,\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah; dan\nSK No 115567 A\nd. uang\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-66-\nd. uang, emas batangan untuk kepentingan\ncadangan devisa negara, dan surat berharga.\n(3) Jenis jasa yang tidak dikenai Pajak Pertambahan Nilai\nyakni jasa tertentu dalam kelompok jasa sebagai\nberikut:\na. dihapus;\nb. dihapus;\nc. dihapus;\nd. dihapus;\ne. dihapus;\nf. \njasa keagamaan;\ng. dihapus;\nh. jasa kesenian dan hiburan, meliputi semua jenis\njasa yang dilakukan oleh pekerja seni dan\nhiburan yang merupakan objek pajak daerah\ndan retribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah;\ni. \ndihapus;\nj. \ndihapus;\nk. dihapus;\nl. \njasa perhotelan, meliputi jasa penyewaan kamar\ndan/atau jasa penyewaan ruangan di hotel yang\nmerupakan objek pajak daerah dan retribusi\ndaerah sesuai dengan ketentuan peraturan\nperundang-undangan di bidang pajak daerah\ndan retribusi daerah;\nm. jasa yang disediakan oleh pemerintah dalam\nrangka menjalankan pemerintahan secara\numum, meliputi semua jenis jasa sehubungan\ndengan kegiatan pelayanan yang hanya dapat\ndilakukan oleh pemerintah sesuai dengan\nkewenangannya berdasarkan peraturan\nperundang-undangan dan jasa tersebut tidak\ndapat disediakan oleh bentuk usaha lain;\nSK No 115568 A\nn. Jasa ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-67 -\n2\nn. jasa penyediaan tempat parkir, meliputi jasa\npenyediaan atau penyelenggaraan tempat parkir\nyang dilakukan oleh pemilik tempat parkir atau\npengusaha pengelola tempat parkir kepada\npengguna tempat parkir yang merupakan objek\npajak daerah dan retribusi daerah sesuai dengan\nketentuan peraturan perundang-undangan di\nbidang pajak daerah dan retribusi daerah;\no. dihapus;\np. dihapus; dan\nq. jasa boga atau katering, meliputi semua kegiatan\npelayanan penyediaan makanan dan minuman\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah."
+    },
+    {
+      "nomor": "5",
+      "text": "(1) \nDi samping pengenaan Pajak Pertambahan Nilai \nsebagaimana dimaksud dalam Pasal 4 ayat (1), dikenai \njuga Pajak Penjualan atas Barang Mewah terhadap: \na. \npenyerahan Barang Kena Pajak yang tergolong \nmewah yang dilakukan oleh pengusaha yang \nmenghasilkan barang tersebut di dalam Daerah \nPabean dalam kegiatan usaha atau pekerjaannya; \ndan \nb. \nimpor Barang Kena Pajak yang tergolong mewah. \n(2) \nPajak Penjualan atas Barang Mewah dikenakan hanya \n1 (satu) kali pada waktu penyerahan Barang Kena \nPajak yang tergolong mewah oleh pengusaha yang \nmenghasilkan atau pada waktu impor Barang Kena \nPajak yang tergolong mewah."
+    },
+    {
+      "nomor": "5A",
+      "text": "(1) \nPajak Pertambahan Nilai atau Pajak Pertambahan Nilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \natas \npenyerahan Barang Kena Pajak yang dikembalikan \ndapat dikurangkan dari Pajak Pertambahan Nilai atau \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang terutang dalam Masa Pajak \nterjadinya pengembalian Barang Kena Pajak tersebut. \n(2) \nPajak Pertambahan Nilai atas penyerahan Jasa Kena \nPajak yang dibatalkan, baik seluruhnya maupun \nsebagian, dapat dikurangkan dari Pajak Pertambahan \nNilai yang terutang dalam Masa Pajak terjadinya \npembatalan tersebut.   \n(3) Ketentuan ... \n\n\n \n \n \n- 12 -\n \n(3) \nKetentuan mengenai tata cara pengurangan Pajak \nPertambahan Nilai atau Pajak Pertambahan Nilai dan \nPajak Penjualan atas Barang Mewah sebagaimana \ndimaksud pada ayat (1) dan pengurangan Pajak \nPertambahan Nilai sebagaimana dimaksud pada ayat \n(2) diatur dengan Peraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "7",
+      "text": "(1) Tarif Pajak Pertambahan Nilai yaitu:\na. sebesar 11% (sebelas persen) yang mulai berlaku\npada tanggal 1 April 2022;\nb. sebesar 12% (dua belas persen) yang mulai\nberlaku paling lambat pada tanggal\n1 Januari2025.\n(21 Tarif Pajak Pertambahan Nilai sebesar 0% (nol persen)\nditerapkan atas:\na. ekspor Barang Kena Pajak Berwujud;\nb. ekspor Barang Kena Pajak Tidak Berwujud; dan\nc. ekspor Jasa Kena Pajak.\n(3) Tarif ...\nSK No I15569 A\n\n\n3\ntrRESIDEN\nREPUBLIK INDONESIA\n-68-\n(3) Tarif Pajak Pertambahan Nilai sebagaimana\ndimaksud pada ayat (1) dapat diubah menjadi paling\nrendah 5% (lima persen) dan paling tinggi 15% (lima\nbelas persen).\n(41 Perubahan tarif Pajak Pertambahan Nilai\nsebagaimana dimaksud pada ayat (3) diatur dengan\nPeraturan Pemerintah setelah disampaikan oleh\nPemerintah kepada Dewan Perwakilan Ratryat\nRepublik Indonesia untuk dibahas dan disepakati\ndalam penyusunan Rancangan Anggaran Pendapatan\ndan Belanja Negara."
+    },
+    {
+      "nomor": "8",
+      "text": "(1) \nTarif Pajak Penjualan atas Barang Mewah ditetapkan \npaling rendah 10% (sepuluh persen) dan paling tinggi \n200% (dua ratus persen). \n(2) \nEkspor Barang Kena Pajak yang tergolong mewah \ndikenai pajak dengan tarif 0% (nol persen). \n(3) \nKetentuan mengenai kelompok Barang Kena Pajak yang \ntergolong mewah yang dikenai Pajak Penjualan atas \nBarang Mewah dengan tarif sebagaimana dimaksud \npada ayat (1) diatur dengan Peraturan Pemerintah. \n \n \n(4) Ketentuan ... \n\n\n \n \n \n- 13 -\n \n(4) \nKetentuan mengenai jenis barang yang dikenai Pajak \nPenjualan atas Barang Mewah sebagaimana dimaksud \npada \nayat \n(3) \ndiatur \ndengan \natau \nberdasarkan \nPeraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "8A",
+      "text": "(1) Pajak Pertambahan Nilai yang terutang dihitung\ndengan cara mengalikan tarif sebagaimana dimaksud\ndalam Pasal 7 dengan Dasar Pengenaan Pajak yang\nmeliputi Harga Jual, Penggantian, Nilai Impor, Nilai\nEkspor, atau nilai lain.\n(21 Dihapus.\n(3) Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean,\nyang dalam penghitungan Pajak Pertambahan Nilai\nterutang menggunakan Dasar Pengenaan Pajak\nberupa nilai lain sebagaimana dimaksud pada\nayat (1), dapat dikreditkan."
+    },
+    {
+      "nomor": "9",
+      "text": "PRESIDEN\nREPUELIK INDONESIA\n_69_\nPasal 9\n(1) Dihapus.\n(2) Pajak Masukan dalam suatu Masa Pajak dikreditkan\ndengan Pajak Keluaran dalam Masa Pajak yang sama.\n(2a) Bagi Pengusaha Kena Pajak yang belum melakukan\npenyerahan Barang Kena Pajak dan/atau Jasa Kena\nPajak dan/atau ekspor Barang Kena Pajak dan/atau\nJasa Kena Pajak, Pajak Masukan atas perolehan\nBarang Kena Pajak dan/atau Jasa Kena Pajak, impor\nBarang Kena Pajak, serta pemanfaatan Barang Kena\nPajak Tidak Berwujud dan/atau pemanfaatan Jasa\nKena Pajak dari luar Daerah Pabean di dalam Daerah\nPabean dapat dikreditkan sepanjang memenuhi\nketentuan pengkreditan sesuai dengan Undang-\nUndang ini.\n(2b) Pajak Masukan yang dikreditkan harus\nmenggunakan Faktur Pajak yang memenuhi\npersyaratan sebagaimana dimaksud dalam Pasal 13\nayat (5) dan ayat (9).\n(3) Apabila dalam suatu Masa Pajak, Pajak Keluaran\nlebih besar daripada Pajak Masukan, selisihnya\nmerupakan Pajak Pertambahan Nilai yang harus\ndisetor oleh Pengusaha Kena Pajak.\n(41 Apabila dalam suatu Masa Pajak, Pajak Masukan\nyang dapat dikreditkan lebih besar daripada Pajak\nKeluaran, selisihnya merupakan kelebihan pajak\nyang dikompensasikan ke Masa Pajak berikutnya.\n(4a) Atas kelebihan Pajak Masukan sebagaimana\ndimaksud pada ayat (4) dapat diajukan permohonan\npengembalian pada akhir tahun buku.\n(ab) Dikecualikan dari ketentuan sebagaimana dimaksud\npada ayat (41 dan ayat (4a), atas kelebihan Pajak\nMasukan dapat diajukan permohonan pengembalian\npada setiap Masa Pajak oleh:\na. Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Berwujud;\nSK No 115571 A\nb. Pengusaha\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_70_\nb. Pengusaha Kena Pajak yang melakukan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak kepada Pemungut\nPajak Pertambahan Nilai;\nc. Pengusaha Kena Pajak yang melaku.kan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak yang Pajak\nPertambahan Nilainya tidak dipungut;\nd. Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Tidak Berwujud;\ne. Pengusaha Kena Pajak yang melakukan ekspor\nJasa Kena Pajak; dan/atau\nf. \ndihapus.\n(4c) Pengembalian kelebihan Pajak Masukan kepada\nPengusaha Kena Pajak sebagaimana dimaksud pada\nayat (4b) huruf a sampai dengan huruf e, yang\nmempunyai kriteria sebagai Pengusaha Kena Pajak\nberisiko rendah, dilakukan dengan pengembalian\npendahuluan kelebihan pajak sesuai ketentuan\nsebagaimana dimaksud dalam Pasal l7C ayat (1)\nUndang-Undang Nomor 6 Tahun 1983 tentang\nKetentuan Umum dan Tata Cara Perpajakan dan\nperubahannya.\n(4d) Dihapus.\n(4e) Drrektur Jenderal Pajak dapat melakukan\npemeriksaan terhadap Pengusaha Kena Pajak\nsebagaimana. dimaksud pada ayat (4c) dan\nmenerbitkan surat ketetapan pajak setelah\nmelakukan pengembalian pendahuluan kelebihan\npajak.\n(40 Apabila berdasarkan hasil pemeriksaan sebagaimana\ndimaksud pada ayat (4e), Direktur Jenderal Pajak\nmenerbitkan Surat Ketetapan Pajak Kurang Bayar,\njumlah kekurangan pajak ditambah dengan sanksi\nadministrasi berupa bunga sebagaimana dimaksud\nddlam Pasal 13 ayat (2) Undang-Undang Nomor 6\nTahun 1983 tentang Ketentuan Umum dan Tata Cara\nPerpajakan dan perubahannya.\nSK No 115572 A\n(5) Apabila ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 7t -\n(5) Apabila dalam suatu Masa Pajak Pengusaha Kena\nPajak melakukan:\na. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan\nb. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\ndalam hal bagian penyerahan yang terutang pajak\nsebagaimana dimaksud dalam huruf a dapat\ndiketahui dengan pasti dari pembukuannya, jumlah\nPajak Masukan yang dapat dikreditkan merLrpakan\nPajak Masukan yang berkenaan dengan penyerahan\nsebagaimana dimaksud dalam huruf a.\n(6) Apabila dalam suatu Masa Pajak Pengusaha Kena\nPajak melakukan:\na. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan\nb. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\nsedangkan Pajak Masukan sehubungan dengan\npenyerahan yang terutang pajak sebagaimana\ndimaksud dalam huruf a tidak dapat diketahui\ndengan pasti, jumlah Pajak Masukan yang dapat\ndikreditkan dihitung dengan menggunakan pedoman\npengkreditan Pajak Masukan.\n(6a) Apabila sampai dengan jangka waktu 3 (tiga) tahun\nsejak Masa Pajak pengkreditan pertama kali Pajak\nMasukan sebagaimana dimaksud pada ayat (2a)\nPengusaha Kena Pajak belum melakukan penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak\ndanlatau ekspor Barang Kena Pajak dan/atau Jasa\nKena Pajak terkait dengan Pajak Masukan tersebut,\nPajak Masukan yang telah dikreditkan dalam jangka\nwaktu 3 (tiga) tahun tersebut menjadi tidak dapat\ndikreditkan.\nSK No 115573 A\n(6b) Dihapus .\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-72-\n(6b) Dihapus.\n(6c) Jangka waktu sebagaimana dimaksud pada ayat (6a)\nbagi sektor usaha tertentu dapat ditetapkan lebih dari\n3 (tiga) tahun.\n(6d) Ketentuan sebagaimana dimaksud pada ayat (6a)\nberlaku juga bagi Pengusaha Kena Pajak yang\nmelakukan pembubaran (pengakhiran) usaha,\nmelakukan pencabutan Pengusaha Kena Pajak, atau\ndilakukan pencabutan Pengusaha Kena Pajak secara\njabatan dalam jangka waktu 3 (tiga) tahun sejak Masa\nPajak pengkreditan pertama kali Pajak Masukan.\n(6e) Pajak Masukan yang tidak dapat dikreditkan\nsebagaimana dimaksud pada ayat (6a):\na. wajib dibayar kembali ke kas negara oleh\nPengusaha Kena Pajak, dalam hal Pengusaha\nKena Pajak:\n1. telah menerima pengembalian kelebihan\npembayaran pajak atas Pajak Masukan\ndimaksud; dan/atau\n2. telah mengkreditkan Pajak Masukan\ndimaksud dengan Pajak Keluaran yang\nterutang dalam suatu Masa Pajak;\ndan/atau\nb. tidak dapat dikompensasikan ke Masa Pajak\nberikutnya dan tidak dapat diajukan\npermohonan pengembalian, setelah jangka\nwaktu 3 (tiga) tahun sebagaimana dimaksud\npada ayat (6a) berakhir atau pada saat\npembubaran (pengakhiran) usaha, atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d) oleh Pengusaha Kena\nPajak, dalam hal Pengusaha Kena Pajak\nmelakukan kompensasi atas kelebihan\npembayaran pajak dimaksud.\nSK No 115574 A\n(60 Pembayaran\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_73_\n(60 Pembayaran kembali Pajak Masukan sebagaimana\ndimaksud pada ayat (6e) huruf a dilakukan paling\nlambat:\na. akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu 3 (tiga) tahun\nsebagaimana dimaksud pada ayat (6a);\nb. akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu bagi sektor usaha\ntertentu sebagaimana dimaksud pada ayat (6c);\natau\nc. akhir bulan berikutnya setelah tanggal\npembubaran (pengakhiran) usaha atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d).\n(6g) Dalam hal Pengusaha Kena Pajak tidak\nmelaksanakan kewajiban pembayaran kembali sesuai\ndengan jangka waktu sebagaimana dimaksud pada\nayat (6f), Direktur Jenderal Pajak menerbitkan Surat\nKetetapan Pajak Kurang Bayar atas jumlah pajak\nyang seharusnya dibayar kembali sebagaimana\ndimaksud pada ayat (6e) huruf a oleh Pengusaha\nKena Pajak ditambah sanksi administrasi berupa\nbunga sebagaimana dimaksud dalam Pasal 13 ayat\n(2a) Undang-Undang Nomor 6 Tahun 1983 tentang\nKetentuan Umum dan Tata Cara Perpajakan dan\nperubahannya.\n(7) Dihapus.\n(7a) Dihapus.\n(7b) Dihapus.\n(8) Pengkreditan Pajak Masukan sebagaimana dimaksud\npada ayat (21 tidak dapat diberlakukan bagi\npengeluaran untuk:\na. dihapus;\nb. perolehan Barang Kena Pajak atau Jasa Kena\nPajak yang tidak mempunyai hubungan\nlangsung dengan kegiatan usaha;\nc. dihapus...\nSK No 115575 A\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-74-\nc. dihapus;\nd. dihapus;\ne. dihapus;\nf. \nperolehan Barang Kena Pajak atau Jasa Kena\nPajak yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (5) atau ayat (9) atau tidak\nmencantumkan nama, alamat, dan Nomor Pokok\nWajib Pajak pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak;\ng. pemanfaatan Barang Kena Pajak Tidak\nBerwujud atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah\nPabean yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (6);\nh. dihapus;\ni. \ndihapus; dan\nj. \ndihapus.\n(9) Pajak Masukan yang dapat dikreditkan tetapi belum\ndikreditkan dengan Pajak Keluaran pada Masa Pajak\nyang sama dapat dikreditkan pada Masa Pajak\nberikutnya paling lama 3 (tiga) Masa Pajak setelah\nberakhirnya Masa Pajak saat Faktur Pajak dibuat\nsepanjang belum dibebankan sebagai biaya atau\nbelum ditambahkan (dikapitalisasi) dalam harga\nperolehan Barang Kena Pajak atau Jasa Kena Pajak\nserta memenuhi ketentuan pengkreditan sesuai\ndengan Undang-Undang ini.\n(9a) Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nsebelum Pengusaha dikukuhkan sebagai Pengusaha\nKena Pajak, dapat dikreditkan oleh Pengusaha Kena\nPajak dengan menggunakan pedoman pengkreditan\nPajak Masukan sebesar 80% (delapan puluh persen)\ndari Pajak Keluaran yang seharusnya dipungut.\nSK No 115576 A\n(9b) Pajak\n\n\n(eb)\n(ec)\n(10)\n(11)\n(r2l\n(13)\n(14)\nPRESIDEN\nREPUELIK INDONESIA\n_75_\nPajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nyang tidak dilaporkan dalam Surat Pemberitahuan\nMasa Pajak Pertambahan Nilai yang diberitahukan\ndan/atau ditemukan pada waktu dilakukan\npemeriksaan dapat dikreditkan oleh Pengusaha Kena\nPajak sepanjang memenuhi ketentuan pengkreditan\nsesuai dengan Undang-Undang ini.\nPajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nyang ditagih dengan penerbitan ketetapan pajak\ndapat dikreditkan oleh Pengusaha Kena Pajak sebesar\njumlah pokok Pajak Pertambahan Nilai yang\ntercantum dalam ketetapan pajak dengan ketentuan\nketetapan pajak dimaksud telah dilakukan pelunasan\ndan tidak dilakukan upaya hukum serta memenuhi\nketentuan pengkreditan sesuai dengan Undang-\nUndang ini.\nDihapus.\nDihapus.\nDihapus.\nDihapus.\nDalam hal tedadi pengalihan Barang Kena Pajak\ndalam rangka penggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha, Pajak\nMasukan atas Barang Kena Pajak yang dialihkan\nyang belum dikreditkan oleh Pengusaha Kena Pajak\nyang mengalihkan dapat dikreditkan oleh Pengusaha\nKena Pajak yang menerima pengalihan sepanjang\nFaktur Pajaknya diterima setelah terjadinya\npengalihan dan Pajak Masukan tersebut belum\ndibebankan sebagai biaya atau dikapitalisasi.\nSK No 115577 A\n5. Di antara\n\n\n5\nPRES!DEN\nREtrUBLIK INDONESIA\n-76-"
+    },
+    {
+      "nomor": "9A",
+      "text": "(1) Pengusaha Kena Pajak yang:\na. mempunyai peredaran usaha dalam 1 (satu)\ntahun buku tidak melebihi jumlah tertentu;\nb. melakukan kegiatan usaha tertentu; dan/atau\nc. melakukan penyerahan Barang Kena Pajak\ntertentu dan/atau Jasa Kena Pajak tertentu,\ndapat memungut dan menyetorkan Pajak\nPertambahan Nilai yang terutang atas penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak dengan\nbesaran tertentu.\n(2) Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean,\nyang berhubungan dengan penyerahan oleh\nPengusaha Kena Pajak sebagaimana dimaksud pada\nayat (1) tidak dapat dikreditkan."
+    },
+    {
+      "nomor": "10",
+      "text": "(1)\nPajak\nPenjualan\nAtas\nBarang\nMewah\nyang\nterutang\ndihitung\ndengan cara mengalihkan tarif sebagaimana dimaksud dalam Pasal\n8 dengan Dasar Pengenaan Pajak.\n(2)\nPajak Penjualan Atas Barang Mewah yang sudah dibayar pada\nwaktu perolehan atau impor Barang Kena Pajak Yang Tergolong\nMewah, tidak dapat dikreditkan dengan Pajak Pertambahan Nilai\nmaupun\nPajak\nPenjualan\nAtas\nBarang Mewah yang dipungut\nberdasarkan Undang-undang ini.\n(3)\nPengusaha Kena Pajak Yang mengekspor Barang Kena Pajak Yang\nTergolong Mewah dapat meminta kembali Pajak Penjualan Atas\nBarang Mewah yang telah dibayar pada waktu perolehan Barang\nKena Pajak Yang Tergolong Mewah yang diekspor tersebut.\"\n13. Ketentuan …"
+    },
+    {
+      "nomor": "11",
+      "text": "(1) \nTerutangnya pajak terjadi pada saat: \na. \npenyerahan Barang Kena Pajak; \nb. \nimpor Barang Kena Pajak; \nc. \npenyerahan Jasa Kena Pajak; \nd. \npemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean; \ne. \npemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean; \nf. \nekspor Barang Kena Pajak Berwujud;   \ng. \nekspor Barang Kena Pajak Tidak Berwujud; atau \n \nh. ekspor ... \n\n\n \n \n \n- 19 -\n \nh. \nekspor Jasa Kena Pajak.  \n(2) \nDalam hal pembayaran diterima sebelum penyerahan \nBarang Kena Pajak atau sebelum penyerahan Jasa \nKena Pajak atau dalam hal pembayaran dilakukan \nsebelum dimulainya pemanfaatan Barang Kena Pajak \nTidak Berwujud atau Jasa Kena Pajak dari luar Daerah \nPabean, saat terutangnya pajak adalah pada saat \npembayaran. \n(3) \nDihapus. \n(4) \nDirektur Jenderal Pajak dapat menetapkan saat lain \nsebagai saat terutangnya pajak dalam hal saat \nterutangnya pajak sukar ditetapkan atau terjadi \nperubahan \nketentuan \nyang \ndapat \nmenimbulkan \nketidakadilan. \n(5) \nDihapus."
+    },
+    {
+      "nomor": "12",
+      "text": "(1) \nPengusaha Kena Pajak yang melakukan penyerahan \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a, \nhuruf c, huruf f, huruf g, dan/atau huruf h terutang \npajak di tempat tinggal atau tempat kedudukan \ndan/atau tempat kegiatan usaha dilakukan atau \ntempat \nlain \nselain \ntempat \ntinggal \natau \ntempat \nkedudukan dan/atau tempat kegiatan usaha dilakukan \nyang diatur dengan Peraturan Direktur Jenderal Pajak. \n(2) \nAtas pemberitahuan secara tertulis dari Pengusaha \nKena Pajak, Direktur Jenderal Pajak dapat menetapkan \n1 (satu) tempat atau lebih sebagai tempat pajak \nterutang.  \n(3) \nDalam hal impor, terutangnya pajak terjadi di tempat \nBarang Kena Pajak dimasukkan dan dipungut melalui \nDirektorat Jenderal Bea dan Cukai. \n \n \n(4) Orang ... \n\n\n \n \n \n- 20 -\n \n(4) \nOrang pribadi atau badan yang memanfaatkan Barang \nKena Pajak Tidak Berwujud dan/atau Jasa Kena Pajak \ndari luar Daerah Pabean di dalam Daerah Pabean \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d \ndan huruf e terutang pajak di tempat tinggal atau \ntempat kedudukan dan/atau tempat kegiatan usaha."
+    },
+    {
+      "nomor": "13",
+      "text": "(1) \nPengusaha Kena Pajak wajib membuat Faktur Pajak \nuntuk setiap: \na. \npenyerahan \nBarang \nKena \nPajak \nsebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf a atau \nhuruf f dan/atau Pasal 16D;  \nb. \npenyerahan \nJasa \nKena \nPajak \nsebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf c;  \nc. \nekspor \nBarang \nKena \nPajak \nTidak \nBerwujud \nsebagaimana dimaksud dalam Pasal 4 ayat (1) \nhuruf g; dan/atau  \nd. \nekspor Jasa Kena Pajak sebagaimana dimaksud \ndalam Pasal 4 ayat (1) huruf h. \n(1a)  Faktur Pajak sebagaimana dimaksud pada ayat (1) \nharus dibuat pada: \na. \nsaat penyerahan Barang Kena Pajak dan/atau \npenyerahan Jasa Kena Pajak;  \nb. \nsaat \npenerimaan \npembayaran \ndalam \nhal \npenerimaan \npembayaran \nterjadi \nsebelum \npenyerahan Barang Kena Pajak dan/atau sebelum \npenyerahan Jasa Kena Pajak;  \nc.  saat penerimaan pembayaran termin dalam hal \npenyerahan sebagian tahap pekerjaan; atau \nd. \nsaat lain yang diatur dengan atau berdasarkan \nPeraturan Menteri Keuangan. \n \n \n(2) Dikecualikan ... \n\n\n \n \n \n- 21 -\n \n(2) \nDikecualikan dari ketentuan sebagaimana dimaksud \npada ayat (1), Pengusaha Kena Pajak dapat membuat 1 \n(satu) Faktur Pajak meliputi seluruh penyerahan yang \ndilakukan kepada pembeli Barang Kena Pajak atau \npenerima Jasa Kena Pajak yang sama selama 1 (satu) \nbulan kalender. \n(2a)  Faktur Pajak sebagaimana dimaksud pada ayat (2) \nharus \ndibuat \npaling \nlama \npada \nakhir \nbulan \npenyerahan. \n(3) \nDihapus. \n(4) \nDihapus. \n(5) \nDalam Faktur Pajak harus dicantumkan keterangan \ntentang penyerahan Barang Kena Pajak dan/atau \npenyerahan Jasa Kena Pajak yang paling sedikit \nmemuat: \na. \nnama, alamat, dan Nomor Pokok Wajib Pajak yang \nmenyerahkan Barang Kena Pajak atau Jasa Kena \nPajak; \nb. \nnama, alamat, dan Nomor Pokok Wajib Pajak \npembeli Barang Kena Pajak atau penerima Jasa \nKena Pajak; \nc. \njenis barang atau jasa, jumlah Harga Jual atau \nPenggantian, dan potongan harga;  \nd. \nPajak Pertambahan Nilai yang dipungut; \ne. \nPajak \nPenjualan \natas \nBarang \nMewah \nyang \ndipungut; \nf. \nkode, nomor seri, dan tanggal pembuatan Faktur \nPajak; dan \ng. \nnama \ndan \ntanda \ntangan \nyang \nberhak \nmenandatangani Faktur Pajak. \n(6) \nDirektur Jenderal Pajak dapat menetapkan dokumen \ntertentu yang kedudukannya dipersamakan dengan \nFaktur Pajak. \n(7) \nDihapus. \n(8) \nKetentuan lebih lanjut mengenai tata cara pembuatan \nFaktur \nPajak \ndan \ntata \ncara \npembetulan \natau \npenggantian \nFaktur \nPajak \ndiatur \ndengan \natau \nberdasarkan Peraturan Menteri Keuangan. \n(9) \nFaktur Pajak harus memenuhi persyaratan formal dan \nmaterial. \n15. Di antara ... \n\n\n \n \n \n- 22 -"
+    },
+    {
+      "nomor": "14",
+      "text": "(1) Orang pribadi atau badan yang tidak dikukuhkan sebagai \nPengusaha Kena Pajak dilarang membuat Faktur Pajak. \n \n(2) Dalam hal Faktur Pajak telah dibuat, maka orang pribadi atau \nbadan sebagaimana dimaksud pada ayat (1) harus menyetorkan \njumlah pajak yang tercantum dalam Faktur Pajak ke Kas \nNegara."
+    },
+    {
+      "nomor": "17",
+      "text": "Hal-hal yang menyangkut pengertian dan tata cara pemungutan \nberkenaan dengan pelaksanaan Undang-undang ini, yang secara \nkhusus belum diatur dalam Undang-undang ini, berlaku ketentuan \ndalam Undang-undang tentang Ketentuan Umum dan Tata Cara \nPerpajakan serta peraturan perundang-undangan lainnya."
+    },
+    {
+      "nomor": "18",
+      "text": "(1)\nDengan berlakunya undang-undang ini:\na.\nsemua Penyerahan Barang Kena Pajak atau Jasa Kena Pajak dan Impor\nBarang Kena Pajak yang telah dilakukan sebelum undang-undang ini berlaku,\ntetap terhutang pajak menurut Undang-undang Pajak Penjualan 1951;\nb. selama …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 12 -\nb.\nselama peraturan pelaksanaan undang-undang ini belum dikeluarkan, maka\nperaturan pelaksanaan yang tidak bertentangan dengan undang-undang ini\nyang belum dicabut dan diganti dinyatakan masih berlaku.\n(2)\nKetentuan pelaksanaan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut oleh\nMenteri Keuangan."
+    },
+    {
+      "nomor": "19",
+      "text": "Hal-hal yang belum diatur dalam undang-undang ini diatur lebih lanjut dengan Peraturan\nPemerintah."
+    },
+    {
+      "nomor": "20",
+      "text": "Undang-undang ini dapat disebut Undang-undang Pajak Pertambahan Nilai 1984."
+    },
+    {
+      "nomor": "21",
+      "text": "Undang-undang ini mulai berlaku pada tanggal 1 Juli 1984.\nAgar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang-\nundang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.\nDisahkan di Jakarta\npada tanggal 31 Desember 1983\nPRESIDEN REPUBLIK INDONESIA,\nTTD\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 31 Desember 1983\nMENTERI/SEKRETARIS NEGARA\nREPUBLIK INDONESIA,\nTTD\nSUDHARMONO, S.H.\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1983 NOMOR 51\n\n\nPRESIDEN\nREPUBLIK INDONESIA"
+    },
+    {
+      "nomor": "16A",
+      "text": "(1)\nPajak yang terutang atas penyerahan Barang Kena Pajak dan atau\npenyerahan\nJasa\nKena\nPajak\nkepada\nPemungut\nPajak\nPertambahan\nNilai\ndipungut,\ndisetor,\ndan\ndilaporkan\noleh\nPemungut Pajak Pertambahan Nilai.\n(2)\nTata cara pemungutan, penyetoran, dan pelaporan pajak oleh\nPemungut Pajak Pertambahan Nilai sebagaimana dimaksud dalam\nayat (1), diatur dengan Keputusan Menteri Keuangan."
+    },
+    {
+      "nomor": "16B",
+      "text": "(1) Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak,\nbaik untuk sementara waktu maupun selamanya,\nuntuk:\na. kegiatan di kawasan tertentu atau tempat\ntertentu di dalam Daerah Pabean;\nb. penyerahan Barang Kena Pajak tertentu atau\npenyerahan Jasa Kena Pajak tertentu;\n6\nSK No 115578 A\nc. lmpor...\n\n\nPRESIDEN\nREPUELIK INDONESIA\n-77 -\nc. impor Barang Kena Pajak tertentu;\nd. pemanfaatan Barang Kena Pajak Tidak\nBerwujud tertentu dari luar Daerah Pabean di\ndalam Daerah Pabean; dan\ne. pemanfaatan Jasa Kena Pajak tertentu dari luar\nDaerah Pabean di dalam Daerah Pabean,\ndiatur dengan Peraturan Pemerintah.\n(la) Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak\nbaik untuk sementara waktu maupun selamanya\nsebagaimana dimaksud pada ayat (1) diberikan\nterbatas untuk tujuan:\na. mendorong ekspor dan hilirisasi industri yang\nmerupakan prioritas nasional;\nb. menampung kemungkinan perjanjian dengan\nnegara lain dalam bidang perdagangan dan\ninvestasi, konvensi internasional yang telah\ndiratifikasi, serta kelaziman internasional\nlainnya;\nc. mendorong peningkatan kesehatan masyarakat\nmelalui pengadaan vaksin dalam rangka\nprogram vaksinasi nasional;\nd. meningkatkan pendidikan dan kecerdasan\nbangsa dengan membantu tersedianya buku\npelajaran umum, kitab suci, dan buku pelajaran\nagama dengan harga yang relatif terjangkau\nmasyarakat;\ne. mendorong pembangunan tempat ibadah;\nf. \nmenjamin terlaksananya proyek pemerintah\nyang dibiayai dengan hibah dan/atau dana\npinjaman luar negeri;\ng. mengakomodasi kelaziman internasional dalam\nimportasi Barang Kena Pajak tertentu yang\ndibebaskan dari pungutan Bea Masuk;\nSK No 115579 A\nh. membantu\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_78_\nh. membantu tersedianya Barang Kena Pajak\ndan/atau Jasa Kena Pajak yang diperlukan\ndalam rangka penanganan bencana alam dan\nbencana nonalam yang ditetapkan sebagai\nbencana alam nasional dan bencana nonalam\nnasional;\ni. \nmenjamin tersedianya angkutan umum di udara\nuntuk mendorong kelancaran perpindahan arus\nbarang dan orang di daerah tertentu yang tidak\ntersedia sarana transportasi lainnya yang\nmemadai, yang perbandingan antara volume\nbarang dan orang yang harus dipindahkan\ndengan sarana transportasi yang tersedia sangat\ntinggi; dan/atau\nj. \nmendukung tersedianya barang dan jasa\ntertentu yang bersifat strategis dalam rangka\npembangunan nasional, antara lain:\n1. barang kebutuhan pokok yang sangat\ndibutuhkan oleh ralryat banyak;\n2. jasa pelayanan kesehatan medis tertentu\ndan yang berada dalam sistem program\njaminan kesehatan nasional;\n3. jasa pelayanan sosial;\n4. jasa keuangan;\n5. jasa asuransi;\n6. jasa pendidikan;\n7. jasa angkutan umum di darat dan di air\nserta jasa angkutan udara dalam negeri\nyang menjadi bagian tidak terpisahkan dari\njasa angkutan luar negeri; dan\n8. jasa tenaga kerja.\n(21 Pajak Masukan yang dibayar atas perolehan Barang\nKena Pajak dan/atau Jasa Kena Pajak, impor Barang\nKena Pajak, serta pemanfaatan Barang Kena Pajak\nTidak Berwujud dari luar Daerah Pabean di dalam\nDaerah Pabean dan/atau pemanfaatan Jasa Kena\nPajak dari luar Daerah Pabean di dalam Daerah\nPabean yang atas penyerahannya tidak dipungut\nPajak Pertambahan Nilai sebagaimana dimaksud\npada ayat (1) dapat dikreditkan.\nSK No 115580 A\n(3) Pajak...\n\n\n7\ntrRESIDEN\nREPUBLIK INDONESIA\n_79 _\n(3) Pajak Masukan yang dibayar atas perolehan Barang\nKena Pajak dan/atau Jasa Kena Pajak, impor Barang\nKena Pajak, serta pemanfaatan Barang Kena Pajak\nTidak Berwujud dari luar Daerah Pabean di dalam\nDaerah Pabean dan/atau pemanfaatan Jasa Kena\nPajak dari luar Daerah Pabean di dalam Daerah\nPabean yang atas penyerahannya dibebaskan dari\npengenaan Pajak Pertambahan Nilai sebagaimana\ndimaksud pada ayat (1) tidak dapat dikreditkan.\nDi antara BAB VA dan BAB VI disisipkan 1 (satu) bab,\nyakni BAB VB sehingga berbunyi sebagai berikut:\nBAB VB\nPENDELEGASIAN KEWENANGAN"
+    },
+    {
+      "nomor": "16C",
+      "text": "Pajak Pertambahan Nilai dikenakan atas kegiatan membangun sendiri\nyang dilakukan tidak dalam kegiatan usaha atau pekerjaan oleh orang\npribadi atau badan yang hasilnya digunakan sendiri atau digunakan\npihak lain yang batasan dan tata caranya diatur dengan Keputusan\nMenteri Keuangan."
+    },
+    {
+      "nomor": "16D",
+      "text": "Pajak Pertambahan Nilai dikenakan atas penyerahan Barang \nKena Pajak berupa aktiva yang menurut tujuan semula \ntidak untuk diperjualbelikan oleh Pengusaha Kena Pajak, \nkecuali atas penyerahan aktiva yang Pajak Masukannya \ntidak dapat dikreditkan sebagaimana dimaksud dalam Pasal \n9 ayat (8) huruf b dan huruf c."
+    },
+    {
+      "nomor": "16E",
+      "text": "(1) \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang sudah dibayar atas pembelian \nBarang Kena Pajak yang dibawa ke luar Daerah Pabean \noleh orang pribadi pemegang paspor luar negeri dapat \ndiminta kembali. \n(2) \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang \nMewah \nyang \ndapat \ndiminta \nkembali \nsebagaimana dimaksud pada ayat (1) harus memenuhi \nsyarat:  \na. \nnilai Pajak Pertambahan Nilai paling sedikit \nRp500.000,00 (lima ratus ribu rupiah) dan dapat \ndisesuaikan dengan Peraturan Pemerintah;  \nb. \npembelian Barang Kena Pajak dilakukan dalam \njangka \nwaktu \n1 \n(satu) \nbulan \nsebelum \nkeberangkatan ke luar Daerah Pabean; dan \n \n \n \n \nc. Faktur ... \n\n\n \n \n \n- 24 -\n \nc. \nFaktur Pajak memenuhi ketentuan sebagaimana \ndimaksud dalam Pasal 13 ayat (5), kecuali pada \nkolom Nomor Pokok Wajib Pajak dan alamat \npembeli diisi dengan nomor paspor dan alamat \nlengkap di negara yang menerbitkan paspor atas \npenjualan kepada orang pribadi pemegang paspor \nluar negeri yang tidak mempunyai Nomor Pokok \nWajib Pajak. \n(3) \nPermintaan kembali Pajak Pertambahan Nilai dan \nPajak Penjualan atas Barang Mewah sebagaimana \ndimaksud pada ayat (1) dilakukan pada saat orang \npribadi pemegang paspor luar negeri meninggalkan \nIndonesia dan disampaikan kepada Direktur Jenderal \nPajak melalui Kantor Direktorat Jenderal Pajak di \nbandar udara yang ditetapkan oleh Menteri Keuangan. \n(4) \nDokumen yang harus ditunjukkan pada saat meminta \nkembali Pajak Pertambahan Nilai dan Pajak Penjualan \natas Barang Mewah adalah: \na. paspor;  \nb. pas naik (boarding pass) untuk keberangkatan \norang pribadi sebagaimana dimaksud pada ayat (1) \nke luar Daerah Pabean; dan \nc. Faktur Pajak sebagaimana dimaksud pada ayat (2) \nhuruf c. \n(5) \nKetentuan \nmengenai \ntata \ncara \npengajuan \ndan \npenyelesaian permintaan kembali Pajak Pertambahan \nNilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \nsebagaimana dimaksud pada ayat (1) diatur dengan \natau berdasarkan Peraturan Menteri Keuangan."
+    },
+    {
+      "nomor": "16F",
+      "text": "Pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak \nbertanggung jawab secara renteng atas pembayaran pajak, \nsepanjang tidak dapat menunjukkan bukti bahwa pajak \ntelah dibayar"
+    },
+    {
+      "nomor": "16G",
+      "text": "Ketentuan lebih lanjut mengenai:\na. nilai lain sebagaimana dimaksud dalam Pasal 8A\nayat (1);\nb. kriteria belum melakukan penyerahan Barang Kena\nPajak dan/atau Jasa Kena Pajak dan/atau ekspor\nBarang Kena Pajak dan/atau Jasa Kena Pajak\nsebagaimana dimaksud dalam Pasal 9 ayat (2al;\nc. penghitungan dan tata cara pengembalian kelebihan\nPajak Masukan sebagaimana dimaksud dalam\nPasal 9 ayat (4c);\nd. Pengusaha Kena Pajak berisiko rendah yang\ndiberikan pengembalian pendahuluan kelebihan\npajak sebagaimana dimaksud dalam Pasal9 ayat (4c);\ne. pedoman pengkreditan pajak masukan sebagaimana\ndimaksud dalam Pasal 9 ayat (6);\n8\nSK No 115581 A\nf. penentuan ..\n\n\nPRESIDEN\nREPUELIK INDONESIA\n-80-\nf. \npenentuan sektor usaha tertentu sebagaimana\ndimaksud dalam Pasal 9 ayat (6c);\ng. pembayaran kembali Pajak Masukan sebagaimana\ndimaksud dalam Pasal 9 ayat (6e) huruf a;\nh. pengkreditan Pajak Masukan sebagaimana dimaksud\ndalam Pasal 9 ayat (9a), ayat (9b), dan ayat (9c); dan\ni. \njumlah peredaran usaha tertentu, jenis kegiatan\nusaha tertentu, jenis Barang Kena Pajak tertentu,\njenis Jasa Kena Pajak tertentu, dan besaran Pajak\nPertambahan Nilai yang dipungut dan disetor\nsebagaimana dimaksud dalam Pasal 9A ayat (1),\ndiatur dalam Peraturan Menteri Keuangan.\nBAB V\nPROGRAM PENGUNGKAPAN SUKARELA WAJIB PAJAK"
+    },
+    {
+      "nomor": "15A",
+      "text": "(1) \nPenyetoran Pajak Pertambahan Nilai oleh Pengusaha \nKena Pajak sebagaimana dimaksud dalam Pasal 9 ayat \n(3) \nharus \ndilakukan \npaling \nlama \nakhir \nbulan \nberikutnya setelah berakhirnya Masa Pajak dan \nsebelum \nSurat \nPemberitahuan \nMasa \nPajak \nPertambahan Nilai disampaikan. \n(2) \nSurat Pemberitahuan Masa Pajak Pertambahan Nilai \ndisampaikan paling lama akhir bulan berikutnya \nsetelah berakhirnya Masa Pajak."
+    }
+  ]
+}

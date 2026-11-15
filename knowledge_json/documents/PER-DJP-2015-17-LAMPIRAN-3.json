@@ -1,0 +1,17 @@
+{
+  "document_id": "PER-DJP-2015-17-LAMPIRAN-3",
+  "jenis": "LAMPIRAN",
+  "tahun": 2015,
+  "judul": "Lampiran 3 PER-17/PJ/2015 (NPPN)",
+  "articles": [],
+  "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "source": {
+    "origin": "corpus",
+    "file": "4_PER_DGTRegulations/Lampiran 3_PER - 17.PJ_.2015.json",
+    "attachment_of": "PER-DJP-2015-17"
+  },
+  "quality": {
+    "zero_pasal": true,
+    "garbled_title": false
+  }
+}

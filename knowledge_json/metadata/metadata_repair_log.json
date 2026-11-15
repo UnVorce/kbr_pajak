@@ -1,0 +1,47 @@
+{
+  "repairs": [
+    {
+      "document_id": "UU-2009-42",
+      "status": "ok",
+      "judul": "Undang-undang (UU)  Nomor 42 Tahun 2009 tentang Perubahan Ketiga Atas Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa\r\ndan Pajak Penjualan Atas Barang Mewah",
+      "url": "https://peraturan.bpk.go.id/Details/38787/uu-no-42-tahun-2009"
+    },
+    {
+      "document_id": "UU-2022-1",
+      "status": "ok",
+      "judul": "Undang-undang (UU)  Nomor 1 Tahun 2022 tentang Hubungan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah",
+      "url": "https://peraturan.bpk.go.id/Details/195696/uu-no-1-tahun-2022"
+    },
+    {
+      "document_id": "PMK-2026-6",
+      "status": "ok",
+      "judul": "Peraturan Menteri Keuangan  Nomor 6 Tahun 2026 tentang Pajak Penghasilan Pasal 21 atas Penghasilan yang Diterima dan/atau Diperoleh Peserta Pemagangan Lulusan Perguruan Tinggi yang Ditanggung Pemerintah Tahun Anggaran 2026",
+      "url": "https://peraturan.bpk.go.id/Details/345004/pmk-no-6-tahun-2026"
+    },
+    {
+      "document_id": "PMK-2024-127",
+      "status": "ok",
+      "judul": "Peraturan Menteri Keuangan  Nomor 127 Tahun 2024 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 65 Tahun 2024 tentang Peta Kapasitas Fiskal Daerah",
+      "url": "https://peraturan.bpk.go.id/Details/313088/pmk-no-127-tahun-2024"
+    },
+    {
+      "document_id": "PP-2016-55",
+      "status": "ok",
+      "judul": "Peraturan Pemerintah (PP)  Nomor 55 Tahun 2016 tentang Ketentuan Umum Dan Tata Cara Pemungutan Pajak Daerah",
+      "url": "https://peraturan.bpk.go.id/Details/5776/pp-no-55-tahun-2016"
+    }
+  ],
+  "rekey": [
+    {
+      "from": "PMK-2024-69",
+      "to": "PMK-2024-127",
+      "status": "tidak ada"
+    }
+  ],
+  "manual": [
+    {
+      "document_id": "PER-DJP-2015-17",
+      "judul": "Peraturan Direktur Jenderal Pajak Nomor PER-17/PJ/2015 tentang Norma Penghitungan Penghasilan Neto"
+    }
+  ]
+}
