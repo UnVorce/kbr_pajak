@@ -1,7 +1,7 @@
 {
-  "version": "fase3-v3.1",
-  "total_documents": 78,
-  "total_consolidated": 13,
+  "version": "fase3-v3.1-manual",
+  "total_documents": 89,
+  "total_consolidated": 15,
   "pending_ck": [
     "UU-2020-11",
     "PERPU-2022-2",
@@ -169,6 +169,43 @@
       "source_urls": []
     },
     {
+      "document_id": "PER-DJP-2025-11",
+      "jenis": "PER-DJP",
+      "tahun": 2025,
+      "judul": "Peraturan Direktur Jenderal Pajak Nomor PER-11/PJ/2025 tentang Ketentuan Pelaporan Pajak Penghasilan, Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, dan Bea Meterai dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PER-DJP-2025-11.json",
+      "provisions_pasal_count": 147,
+      "articles_count": 147,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2025-11.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://www.pajak.go.id"
+      ]
+    },
+    {
+      "document_id": "PERPRES-2018-40",
+      "jenis": "PERPRES",
+      "tahun": 2018,
+      "judul": "Peraturan Presiden (Perpres)  Nomor 40 Tahun 2018 tentang Pembaruan Sistem Administrasi Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PERPRES-2018-40.json",
+      "provisions_pasal_count": 4,
+      "articles_count": 4,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PERPRES-2018-40.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/77914/perpres-no-40-tahun-2018",
+        "https://peraturan.bpk.go.id/Download/69318/Perpres%20Nomor%2040%20Tahun%202018.pdf"
+      ]
+    },
+    {
       "document_id": "PERPU-2008-5",
       "jenis": "PERPU",
       "tahun": 2008,
@@ -185,6 +222,25 @@
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/53229/perpu-no-5-tahun-2008",
         "https://peraturan.bpk.go.id/Download/42607/Perpu%205%20Tahun%202008.pdf"
+      ]
+    },
+    {
+      "document_id": "PERPU-2017-1",
+      "jenis": "PERPU",
+      "tahun": 2017,
+      "judul": "Peraturan Pemerintah Pengganti Undang-Undang (Perpu)  Nomor 1 Tahun 2017 tentang Akses Informasi Keuangan Untuk Kepentingan Perpajakan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PERPU-2017-1.json",
+      "provisions_pasal_count": 10,
+      "articles_count": 10,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PERPU-2017-1.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/53275/perpu-no-1-tahun-2017",
+        "https://peraturan.bpk.go.id/Download/42656/Perpu%20No%201%20Tahun%202017.pdf"
       ]
     },
     {
@@ -310,6 +366,52 @@
       ]
     },
     {
+      "document_id": "PMK-2019-128",
+      "jenis": "PMK",
+      "tahun": 2019,
+      "judul": "Peraturan Menteri Keuangan  Nomor 128/PMK.010/2019 Tahun 2019 tentang Pemberian Pengurangan Penghasilan Bruto Atas Penyelenggaraan Kegiatan Praktik Kerja, Pemagangan, Dan/Atau Pembelajaran Dalam Rangka Pembinaan Dan Pengembangan Sumber Daya Manusia Berbasis Kompetensi Tertentu",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2019-128.json",
+      "provisions_pasal_count": 11,
+      "articles_count": 11,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2019-128.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/128156/pmk-no-128pmk0102019",
+        "https://peraturan.bpk.go.id/Download/119151/128~PMK.010~2019Per.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2019-186",
+      "jenis": "PMK",
+      "tahun": 2019,
+      "judul": "Peraturan Menteri Keuangan  Nomor 186/PMK.03/2019 Tahun 2019 tentang Klasifikasi Objek Pajak Dan Tata Cara Penetapan Nilai Jual Objek Pajak Pajak Bumi Dan Bangunan",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2019-186.json",
+      "provisions_pasal_count": 44,
+      "articles_count": 44,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2019-186.json",
+        "chain": [
+          "PMK-2022-234"
+        ],
+        "applied_count": 10,
+        "unparsed_count": 0,
+        "pasal_count": 44
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2019-186.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/128302/pmk-no-186pmk032019",
+        "https://peraturan.bpk.go.id/Download/119287/186~PMK.03~2019Per.pdf"
+      ]
+    },
+    {
       "document_id": "PMK-2019-56",
       "jenis": "PMK",
       "tahun": 2019,
@@ -344,17 +446,16 @@
         "chain": [
           "PMK-2024-69"
         ],
-        "applied_count": 0,
-        "unparsed_count": 1,
-        "pasal_count": 25
+        "applied_count": 10,
+        "unparsed_count": 0,
+        "pasal_count": 26
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2020-130.json",
       "origin": "corpus",
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/148016/pmk-no-130pmk0102020",
         "https://peraturan.bpk.go.id/Download/139954/130_PMK.010_2020.pdf"
-      ],
-      "note": "Perubahan PMK-2024-69 asli belum ditemukan di BPK (lihat gaps_attempts.json)"
+      ]
     },
     {
       "document_id": "PMK-2020-96",
@@ -392,6 +493,25 @@
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/217310/pmk-no-112pmk032022",
         "https://peraturan.bpk.go.id/Download/211675/112_PMK.03_2022.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2022-234",
+      "jenis": "PMK",
+      "tahun": 2022,
+      "judul": "Peraturan Menteri Keuangan  Nomor 234/PMK.03/2022 Tahun 2022 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 186/PMK.03/2019 tentang Klasifikasi Objek Pajak dan Tata Cara Penetapan Nilai Jual Objek Pajak Bumi dan Bangunan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2022-234.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2022-234.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/238808/pmk-no-234pmk032022",
+        "https://peraturan.bpk.go.id/Download/293566/234_PMK.03_2022.pdf"
       ]
     },
     {
@@ -517,6 +637,25 @@
       ]
     },
     {
+      "document_id": "PMK-2023-61",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan  Nomor 61 Tahun 2023 tentang Tata Cara Pelaksanaan Penagihan Pajak Atas Jumlah Pajak Yang Masih Harus DIbayar",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-61.json",
+      "provisions_pasal_count": 87,
+      "articles_count": 87,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-61.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/254091/pmk-no-61-tahun-2023",
+        "https://peraturan.bpk.go.id/Download/310740/2023pmkeuangan061.pdf"
+      ]
+    },
+    {
       "document_id": "PMK-2024-127",
       "jenis": "PMK",
       "tahun": 2024,
@@ -554,6 +693,24 @@
       ]
     },
     {
+      "document_id": "PMK-2024-69",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan Nomor 69 Tahun 2024 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 130/PMK.010/2020 tentang Pemberian Fasilitas Pengurangan Pajak Penghasilan Badan",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2024-69.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2024-69.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://jdih.kemenkeu.go.id"
+      ]
+    },
+    {
       "document_id": "PMK-2024-78",
       "jenis": "PMK",
       "tahun": 2024,
@@ -580,8 +737,8 @@
       "status_sumber": "Berlaku",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PMK-2024-79.json",
-      "provisions_pasal_count": 4,
-      "articles_count": 0,
+      "provisions_pasal_count": 25,
+      "articles_count": 25,
       "has_consolidated": false,
       "consolidated": null,
       "recommended_source": "knowledge_json/documents/PMK-2024-79.json",
@@ -589,9 +746,7 @@
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/306437/pmk-no-79-tahun-2024",
         "https://peraturan.bpk.go.id/Download/366677/2024pmkeuangan079.pdf"
-      ],
-      "text_fallback_path": "knowledge_json/text_fallback/PMK-2024-79.txt",
-      "note": "PDF 2 kolom: provisions hanya Pasal 1-4; teks lengkap di text_fallback_path"
+      ]
     },
     {
       "document_id": "PMK-2024-81",
@@ -724,6 +879,25 @@
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/342160/pmk-no-1-tahun-2026",
         "https://peraturan.bpk.go.id/Download/405303/2026pmkeuangan001.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2026-28",
+      "jenis": "PMK",
+      "tahun": 2026,
+      "judul": "Peraturan Menteri Keuangan  Nomor 28 Tahun 2026 tentang Tata Cara Pengembalian Pendahuluan Kelebihan Pembayaran Pajak",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2026-28.json",
+      "provisions_pasal_count": 27,
+      "articles_count": 27,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2026-28.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/348562/pmk-no-28-tahun-2026",
+        "https://peraturan.bpk.go.id/Download/412221/2026pmkeuangan028.pdf"
       ]
     },
     {
@@ -1353,6 +1527,33 @@
       ]
     },
     {
+      "document_id": "UU-1997-19",
+      "jenis": "UU",
+      "tahun": 1997,
+      "judul": "Undang-undang (UU)  Nomor 19 Tahun 1997 tentang Penagihan Pajak Dengan Surat Paksa",
+      "status_sumber": "Berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/UU-1997-19.json",
+      "provisions_pasal_count": 45,
+      "articles_count": 45,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/UU-1997-19.json",
+        "chain": [
+          "UU-2000-19"
+        ],
+        "applied_count": 26,
+        "unparsed_count": 0,
+        "pasal_count": 46
+      },
+      "recommended_source": "knowledge_json/consolidated/UU-1997-19.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/46002/uu-no-19-tahun-1997",
+        "https://peraturan.bpk.go.id/Download/34556/UU%20Nomor%2019%20Tahun%201997.pdf"
+      ]
+    },
+    {
       "document_id": "UU-2000-16",
       "jenis": "UU",
       "tahun": 2000,
@@ -1407,6 +1608,25 @@
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/44982/uu-no-18-tahun-2000",
         "https://peraturan.bpk.go.id/Download/33373/UU%20Nomor%2018%20Tahun%202000.pdf"
+      ]
+    },
+    {
+      "document_id": "UU-2000-19",
+      "jenis": "UU",
+      "tahun": 2000,
+      "judul": "Undang-undang (UU)  Nomor 19 Tahun 2000 tentang Perubahan atas Undang-Undang Nomor 19 Tahun 1997 tentang Penagihan Pajak dengan Surat Paksa",
+      "status_sumber": "Berlaku",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/UU-2000-19.json",
+      "provisions_pasal_count": 3,
+      "articles_count": 3,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/UU-2000-19.json",
+      "origin": "manual_download",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/44984/uu-no-19-tahun-2000",
+        "https://peraturan.bpk.go.id/Download/412464/UU%2019_2000.pdf"
       ]
     },
     {

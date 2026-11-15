@@ -1,12 +1,12 @@
 {
   "summary": {
-    "total_cited_documents": 129,
-    "total_citations": 1053,
+    "total_cited_documents": 163,
+    "total_citations": 1387,
     "by_status": {
-      "IGNORED_OUT_OF_SCOPE": 39,
-      "RESOLVED": 43,
-      "RESOLVED_EQUIVALENT": 21,
-      "DEFERRED_CK": 26
+      "IGNORED_OUT_OF_SCOPE": 45,
+      "RESOLVED": 47,
+      "RESOLVED_EQUIVALENT": 48,
+      "DEFERRED_CK": 23
     }
   },
   "documents": [
@@ -68,26 +68,6 @@
       "citation_count": 1
     },
     {
-      "document_id": "UU-1992-7",
-      "jenis": "UU",
-      "tahun": 1992,
-      "nomor": "7",
-      "occurrences": 3,
-      "cited_by": [
-        "UU-2023-6"
-      ],
-      "contexts": [
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE",
-        "TITLE_AMENDMENT"
-      ],
-      "status": "DEFERRED_CK",
-      "reason": "hanya dikutip oleh UU 6/2023 (omnibus Cipta Kerja); lapisan CK ditunda",
-      "citation_count": 1
-    },
-    {
       "document_id": "UU-1997-10",
       "jenis": "UU",
       "tahun": 1997,
@@ -120,25 +100,6 @@
       ],
       "roles": [
         "REFERENCE"
-      ],
-      "status": "DEFERRED_CK",
-      "reason": "hanya dikutip oleh UU 6/2023 (omnibus Cipta Kerja); lapisan CK ditunda",
-      "citation_count": 1
-    },
-    {
-      "document_id": "UU-1998-10",
-      "jenis": "UU",
-      "tahun": 1998,
-      "nomor": "10",
-      "occurrences": 2,
-      "cited_by": [
-        "UU-2023-6"
-      ],
-      "contexts": [
-        "PENJELASAN"
-      ],
-      "roles": [
-        "AMENDMENT"
       ],
       "status": "DEFERRED_CK",
       "reason": "hanya dikutip oleh UU 6/2023 (omnibus Cipta Kerja); lapisan CK ditunda",
@@ -375,25 +336,6 @@
       "citation_count": 1
     },
     {
-      "document_id": "UU-2008-21",
-      "jenis": "UU",
-      "tahun": 2008,
-      "nomor": "21",
-      "occurrences": 2,
-      "cited_by": [
-        "UU-2023-6"
-      ],
-      "contexts": [
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "DEFERRED_CK",
-      "reason": "hanya dikutip oleh UU 6/2023 (omnibus Cipta Kerja); lapisan CK ditunda",
-      "citation_count": 1
-    },
-    {
       "document_id": "UU-2016-13",
       "jenis": "UU",
       "tahun": 2016,
@@ -508,27 +450,28 @@
       "citation_count": 1
     },
     {
-      "document_id": "PERPRES-2018-40",
-      "jenis": "PERPRES",
-      "tahun": 2018,
-      "nomor": "40",
-      "occurrences": 14,
+      "document_id": "UU-1995-8",
+      "jenis": "UU",
+      "tahun": 1995,
+      "nomor": "8",
+      "occurrences": 7,
       "cited_by": [
-        "PMK-2018-109",
-        "PMK-2018-151",
-        "PMK-2019-121",
-        "PMK-2019-56"
+        "PERPU-2017-1",
+        "PMK-2024-81",
+        "PMK-2025-54",
+        "PMK-2026-1",
+        "UU-1997-19"
       ],
       "contexts": [
         "BATANG_TUBUH",
-        "MENIMBANG"
+        "PENJELASAN"
       ],
       "roles": [
         "REFERENCE"
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "Peraturan Presiden di luar fokus domain A2/B/C/D",
-      "citation_count": 4
+      "reason": "UU Pasar Modal — sektor keuangan, di luar domain",
+      "citation_count": 5
     },
     {
       "document_id": "PERPRES-2013-9",
@@ -552,24 +495,26 @@
       "citation_count": 3
     },
     {
-      "document_id": "UU-1995-8",
+      "document_id": "UU-1959-19",
       "jenis": "UU",
-      "tahun": 1995,
-      "nomor": "8",
-      "occurrences": 5,
+      "tahun": 1959,
+      "nomor": "19",
+      "occurrences": 14,
       "cited_by": [
-        "PMK-2024-81",
-        "PMK-2025-54",
-        "PMK-2026-1"
+        "UU-1985-12",
+        "UU-1994-9",
+        "UU-1997-19"
       ],
       "contexts": [
-        "BATANG_TUBUH"
+        "BATANG_TUBUH",
+        "MENIMBANG",
+        "PENJELASAN"
       ],
       "roles": [
         "REFERENCE"
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "UU Pasar Modal — sektor keuangan, di luar domain",
+      "reason": "hukum historis (penagihan pajak 1959), sudah tidak berlaku",
       "citation_count": 3
     },
     {
@@ -592,6 +537,26 @@
       "status": "IGNORED_OUT_OF_SCOPE",
       "reason": "UU P2SK — sektor keuangan, di luar domain",
       "citation_count": 3
+    },
+    {
+      "document_id": "PMK-2015-70",
+      "jenis": "PMK",
+      "tahun": 2015,
+      "nomor": "70",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11",
+        "PMK-2024-81"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "AMENDMENT"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "PMK PPh migas — di luar domain",
+      "citation_count": 2
     },
     {
       "document_id": "PP-1967-11",
@@ -631,27 +596,6 @@
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
       "reason": "PP Penyelenggaraan KEK — aspek non-pajak dominan; fasilitas pajak di PMK",
-      "citation_count": 2
-    },
-    {
-      "document_id": "UU-1959-19",
-      "jenis": "UU",
-      "tahun": 1959,
-      "nomor": "19",
-      "occurrences": 4,
-      "cited_by": [
-        "UU-1985-12",
-        "UU-1994-9"
-      ],
-      "contexts": [
-        "BATANG_TUBUH",
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "hukum historis (penagihan pajak 1959), sudah tidak berlaku",
       "citation_count": 2
     },
     {
@@ -696,42 +640,111 @@
       "citation_count": 2
     },
     {
-      "document_id": "PERPU-2017-1",
-      "jenis": "PERPU",
-      "tahun": 2017,
-      "nomor": "1",
-      "occurrences": 1,
+      "document_id": "UU-1992-7",
+      "jenis": "UU",
+      "tahun": 1992,
+      "nomor": "7",
+      "occurrences": 5,
       "cited_by": [
-        "PP-2021-9"
+        "PERPU-2017-1",
+        "UU-2023-6"
       ],
       "contexts": [
+        "BATANG_TUBUH",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE",
+        "TITLE_AMENDMENT"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Perbankan — sektor keuangan, rujukan akses data/penagihan",
+      "citation_count": 2
+    },
+    {
+      "document_id": "UU-1995-10",
+      "jenis": "UU",
+      "tahun": 1995,
+      "nomor": "10",
+      "occurrences": 3,
+      "cited_by": [
+        "UU-1997-19",
+        "UU-2000-18"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
         "PENJELASAN"
       ],
       "roles": [
         "REFERENCE"
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "Perppu Akses Informasi Keuangan (AEoI) — pertukaran data perbankan di luar fokus",
-      "citation_count": 1
+      "reason": "UU Kepabeanan — di luar domain",
+      "citation_count": 2
     },
     {
-      "document_id": "PMK-2015-70",
-      "jenis": "PMK",
-      "tahun": 2015,
-      "nomor": "70",
-      "occurrences": 1,
+      "document_id": "UU-1995-11",
+      "jenis": "UU",
+      "tahun": 1995,
+      "nomor": "11",
+      "occurrences": 7,
       "cited_by": [
-        "PMK-2024-81"
+        "UU-1997-19",
+        "UU-2021-7"
       ],
       "contexts": [
-        "BATANG_TUBUH"
+        "BATANG_TUBUH",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE",
+        "TITLE_AMENDMENT"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Cukai — bea cukai, di luar domain",
+      "citation_count": 2
+    },
+    {
+      "document_id": "UU-1998-10",
+      "jenis": "UU",
+      "tahun": 1998,
+      "nomor": "10",
+      "occurrences": 3,
+      "cited_by": [
+        "PERPU-2017-1",
+        "UU-2023-6"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "PENJELASAN"
       ],
       "roles": [
         "AMENDMENT"
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "PMK PPh migas — di luar domain",
-      "citation_count": 1
+      "reason": "UU Perubahan UU Perbankan — sektor keuangan, bukan substansi pajak",
+      "citation_count": 2
+    },
+    {
+      "document_id": "UU-2008-21",
+      "jenis": "UU",
+      "tahun": 2008,
+      "nomor": "21",
+      "occurrences": 3,
+      "cited_by": [
+        "PERPU-2017-1",
+        "UU-2023-6"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Perbankan Syariah — sektor keuangan, bukan substansi pajak",
+      "citation_count": 2
     },
     {
       "document_id": "PMK-2024-65",
@@ -1025,52 +1038,13 @@
       "citation_count": 1
     },
     {
-      "document_id": "UU-1995-10",
+      "document_id": "UU-1992-9",
       "jenis": "UU",
-      "tahun": 1995,
-      "nomor": "10",
-      "occurrences": 2,
+      "tahun": 1992,
+      "nomor": "9",
+      "occurrences": 3,
       "cited_by": [
-        "UU-2000-18"
-      ],
-      "contexts": [
-        "BATANG_TUBUH"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "UU Kepabeanan — di luar domain",
-      "citation_count": 1
-    },
-    {
-      "document_id": "UU-1995-11",
-      "jenis": "UU",
-      "tahun": 1995,
-      "nomor": "11",
-      "occurrences": 6,
-      "cited_by": [
-        "UU-2021-7"
-      ],
-      "contexts": [
-        "BATANG_TUBUH"
-      ],
-      "roles": [
-        "REFERENCE",
-        "TITLE_AMENDMENT"
-      ],
-      "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "UU Cukai — bea cukai, di luar domain",
-      "citation_count": 1
-    },
-    {
-      "document_id": "UU-1997-19",
-      "jenis": "UU",
-      "tahun": 1997,
-      "nomor": "19",
-      "occurrences": 1,
-      "cited_by": [
-        "PP-2021-9"
+        "UU-1997-19"
       ],
       "contexts": [
         "PENJELASAN"
@@ -1079,7 +1053,121 @@
         "REFERENCE"
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "UU Penagihan Pajak dengan Surat Paksa — mekanisme jurusita di luar fokus A2/B/C/D",
+      "reason": "UU Keimigrasian — rujukan pencegahan ke luar negeri di PPSP, bukan pajak",
+      "citation_count": 1
+    },
+    {
+      "document_id": "UU-1995-1",
+      "jenis": "UU",
+      "tahun": 1995,
+      "nomor": "1",
+      "occurrences": 2,
+      "cited_by": [
+        "UU-1997-19"
+      ],
+      "contexts": [
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Perseroan Terbatas — hukum korporasi, bukan substansi pajak",
+      "citation_count": 1
+    },
+    {
+      "document_id": "UU-1996-4",
+      "jenis": "UU",
+      "tahun": 1996,
+      "nomor": "4",
+      "occurrences": 1,
+      "cited_by": [
+        "UU-1997-19"
+      ],
+      "contexts": [
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Hak Tanggungan — hukum jaminan perdata, bukan substansi pajak",
+      "citation_count": 1
+    },
+    {
+      "document_id": "UU-1997-17",
+      "jenis": "UU",
+      "tahun": 1997,
+      "nomor": "17",
+      "occurrences": 1,
+      "cited_by": [
+        "UU-1997-19"
+      ],
+      "contexts": [
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU BPSP (sengketa pajak lama, diganti UU 14/2002 Pengadilan Pajak — di luar fokus)",
+      "citation_count": 1
+    },
+    {
+      "document_id": "UU-1997-32",
+      "jenis": "UU",
+      "tahun": 1997,
+      "nomor": "32",
+      "occurrences": 1,
+      "cited_by": [
+        "PERPU-2017-1"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Perdagangan Berjangka Komoditi — sektor keuangan/komoditi, bukan pajak",
+      "citation_count": 1
+    },
+    {
+      "document_id": "UU-1999-22",
+      "jenis": "UU",
+      "tahun": 1999,
+      "nomor": "22",
+      "occurrences": 1,
+      "cited_by": [
+        "UU-2000-19"
+      ],
+      "contexts": [
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Pemerintahan Daerah (historis) — bukan substansi pajak",
+      "citation_count": 1
+    },
+    {
+      "document_id": "UU-1999-25",
+      "jenis": "UU",
+      "tahun": 1999,
+      "nomor": "25",
+      "occurrences": 1,
+      "cited_by": [
+        "UU-2000-19"
+      ],
+      "contexts": [
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "IGNORED_OUT_OF_SCOPE",
+      "reason": "UU Perimbangan Keuangan (historis) — bukan substansi pajak",
       "citation_count": 1
     },
     {
@@ -1099,25 +1187,6 @@
       ],
       "status": "IGNORED_OUT_OF_SCOPE",
       "reason": "UU Pengelolaan Zakat — hanya rujukan, bukan substansi pajak",
-      "citation_count": 1
-    },
-    {
-      "document_id": "UU-2000-19",
-      "jenis": "UU",
-      "tahun": 2000,
-      "nomor": "19",
-      "occurrences": 1,
-      "cited_by": [
-        "PP-2021-9"
-      ],
-      "contexts": [
-        "PENJELASAN"
-      ],
-      "roles": [
-        "AMENDMENT"
-      ],
-      "status": "IGNORED_OUT_OF_SCOPE",
-      "reason": "UU Perubahan UU Penagihan Pajak dengan Surat Paksa — di luar fokus A2/B/C/D",
       "citation_count": 1
     },
     {
@@ -1281,15 +1350,18 @@
       "jenis": "PERPU",
       "tahun": 2022,
       "nomor": "2",
-      "occurrences": 40,
+      "occurrences": 92,
       "cited_by": [
+        "PER-DJP-2025-11",
         "PMK-2024-131",
+        "PMK-2024-69",
         "PMK-2024-79",
         "PMK-2024-81",
         "PMK-2025-105",
         "PMK-2025-11",
         "PMK-2025-54",
         "PMK-2026-1",
+        "PMK-2026-28",
         "PMK-2026-6",
         "UU-2023-6"
       ],
@@ -1305,7 +1377,7 @@
       "status": "RESOLVED_EQUIVALENT",
       "reason": "Perpu Cipta Kerja ditetapkan menjadi UU 6/2023",
       "equivalent_document_id": "UU-2023-6",
-      "citation_count": 9
+      "citation_count": 12
     },
     {
       "document_id": "UU-2020-11",
@@ -1469,6 +1541,572 @@
       "reason": "PP 23/2018 (PPh final UMKM) dicabut PP 55/2022",
       "equivalent_document_id": "PP-2022-55",
       "citation_count": 2
+    },
+    {
+      "document_id": "UU-1997-18",
+      "jenis": "UU",
+      "tahun": 1997,
+      "nomor": "18",
+      "occurrences": 6,
+      "cited_by": [
+        "UU-1997-19",
+        "UU-2009-28"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENIMBANG",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE",
+        "TITLE_AMENDMENT"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "UU 18/1997 PDRD dicabut UU 28/2009 (kini UU 1/2022)",
+      "equivalent_document_id": "UU-2009-28",
+      "citation_count": 2
+    },
+    {
+      "document_id": "PER-DJP-2008-24",
+      "jenis": "PER-DJP",
+      "tahun": 2008,
+      "nomor": "24",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2009-21",
+      "jenis": "PER-DJP",
+      "tahun": 2009,
+      "nomor": "21",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2009-34",
+      "jenis": "PER-DJP",
+      "tahun": 2009,
+      "nomor": "34",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2009-39",
+      "jenis": "PER-DJP",
+      "tahun": 2009,
+      "nomor": "39",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2009-66",
+      "jenis": "PER-DJP",
+      "tahun": 2009,
+      "nomor": "66",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2009-7",
+      "jenis": "PER-DJP",
+      "tahun": 2009,
+      "nomor": "7",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2010-34",
+      "jenis": "PER-DJP",
+      "tahun": 2010,
+      "nomor": "34",
+      "occurrences": 7,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2010-45",
+      "jenis": "PER-DJP",
+      "tahun": 2010,
+      "nomor": "45",
+      "occurrences": 4,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2013-10",
+      "jenis": "PER-DJP",
+      "tahun": 2013,
+      "nomor": "10",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2013-26",
+      "jenis": "PER-DJP",
+      "tahun": 2013,
+      "nomor": "26",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2014-19",
+      "jenis": "PER-DJP",
+      "tahun": 2014,
+      "nomor": "19",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2014-5",
+      "jenis": "PER-DJP",
+      "tahun": 2014,
+      "nomor": "5",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2015-29",
+      "jenis": "PER-DJP",
+      "tahun": 2015,
+      "nomor": "29",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2015-36",
+      "jenis": "PER-DJP",
+      "tahun": 2015,
+      "nomor": "36",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2017-30",
+      "jenis": "PER-DJP",
+      "tahun": 2017,
+      "nomor": "30",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2019-17",
+      "jenis": "PER-DJP",
+      "tahun": 2019,
+      "nomor": "17",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2019-2",
+      "jenis": "PER-DJP",
+      "tahun": 2019,
+      "nomor": "2",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2021-16",
+      "jenis": "PER-DJP",
+      "tahun": 2021,
+      "nomor": "16",
+      "occurrences": 1,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2021-17",
+      "jenis": "PER-DJP",
+      "tahun": 2021,
+      "nomor": "17",
+      "occurrences": 7,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2021-24",
+      "jenis": "PER-DJP",
+      "tahun": 2021,
+      "nomor": "24",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2022-11",
+      "jenis": "PER-DJP",
+      "tahun": 2022,
+      "nomor": "11",
+      "occurrences": 4,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "PER-11/PJ/2022 (perubahan PER-03/PJ/2022) dicabut PER-11/PJ/2025",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2022-14",
+      "jenis": "PER-DJP",
+      "tahun": 2022,
+      "nomor": "14",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2022-3",
+      "jenis": "PER-DJP",
+      "tahun": 2022,
+      "nomor": "3",
+      "occurrences": 8,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "PER-03/PJ/2022 (Faktur Pajak) dicabut PER-11/PJ/2025",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2024-13",
+      "jenis": "PER-DJP",
+      "tahun": 2024,
+      "nomor": "13",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2024-2",
+      "jenis": "PER-DJP",
+      "tahun": 2024,
+      "nomor": "2",
+      "occurrences": 2,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PER-DJP-2024-5",
+      "jenis": "PER-DJP",
+      "tahun": 2024,
+      "nomor": "5",
+      "occurrences": 3,
+      "cited_by": [
+        "PER-DJP-2025-11"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "AMENDMENT",
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "dicabut PER-11/PJ/2025 (konsolidasi pelaporan/faktur Coretax)",
+      "equivalent_document_id": "PER-DJP-2025-11",
+      "citation_count": 1
+    },
+    {
+      "document_id": "PMK-2024-119",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "nomor": "119",
+      "occurrences": 4,
+      "cited_by": [
+        "PMK-2026-28"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENIMBANG"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED_EQUIVALENT",
+      "reason": "PMK 119/2024 (perubahan PMK 39/2018) dicabut PMK 28/2026",
+      "equivalent_document_id": "PMK-2026-28",
+      "citation_count": 1
     },
     {
       "document_id": "PP-2000-138",
@@ -1635,29 +2273,6 @@
       "citation_count": 1
     },
     {
-      "document_id": "UU-1997-18",
-      "jenis": "UU",
-      "tahun": 1997,
-      "nomor": "18",
-      "occurrences": 5,
-      "cited_by": [
-        "UU-2009-28"
-      ],
-      "contexts": [
-        "BATANG_TUBUH",
-        "MENIMBANG",
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE",
-        "TITLE_AMENDMENT"
-      ],
-      "status": "RESOLVED_EQUIVALENT",
-      "reason": "UU 18/1997 PDRD dicabut UU 28/2009 (kini UU 1/2022)",
-      "equivalent_document_id": "UU-2009-28",
-      "citation_count": 1
-    },
-    {
       "document_id": "UU-1997-21",
       "jenis": "UU",
       "tahun": 1997,
@@ -1744,15 +2359,19 @@
       "jenis": "UU",
       "tahun": 1983,
       "nomor": "6",
-      "occurrences": 144,
+      "occurrences": 182,
       "cited_by": [
+        "PER-DJP-2025-11",
         "PERPU-2008-5",
+        "PERPU-2017-1",
         "PMK-2022-112",
         "PMK-2023-168",
         "PMK-2023-172",
+        "PMK-2023-61",
         "PMK-2024-81",
         "PMK-2025-54",
         "PMK-2026-1",
+        "PMK-2026-28",
         "PP-2000-20",
         "PP-2010-94",
         "PP-2021-9",
@@ -1763,6 +2382,7 @@
         "UU-1994-11",
         "UU-1994-12",
         "UU-1994-9",
+        "UU-1997-19",
         "UU-2000-16",
         "UU-2000-17",
         "UU-2007-28",
@@ -1785,15 +2405,16 @@
       ],
       "status": "RESOLVED",
       "reason": null,
-      "citation_count": 25
+      "citation_count": 30
     },
     {
       "document_id": "UU-1983-8",
       "jenis": "UU",
       "tahun": 1983,
       "nomor": "8",
-      "occurrences": 66,
+      "occurrences": 80,
       "cited_by": [
+        "PER-DJP-2025-11",
         "PMK-2023-172",
         "PMK-2023-41",
         "PMK-2023-48",
@@ -1802,6 +2423,7 @@
         "PMK-2025-11",
         "PMK-2025-54",
         "PMK-2026-1",
+        "PMK-2026-28",
         "PP-2000-20",
         "PP-2010-94",
         "PP-2015-81",
@@ -1810,6 +2432,7 @@
         "PP-2022-49",
         "UU-1994-11",
         "UU-1994-9",
+        "UU-1997-19",
         "UU-2000-18",
         "UU-2009-42",
         "UU-2021-7",
@@ -1828,18 +2451,20 @@
       ],
       "status": "RESOLVED",
       "reason": null,
-      "citation_count": 20
+      "citation_count": 23
     },
     {
       "document_id": "UU-1983-7",
       "jenis": "UU",
       "tahun": 1983,
       "nomor": "7",
-      "occurrences": 91,
+      "occurrences": 102,
       "cited_by": [
         "PMK-2016-101",
+        "PMK-2019-128",
         "PMK-2020-130",
         "PMK-2023-172",
+        "PMK-2024-69",
         "PMK-2024-81",
         "PP-2000-20",
         "PP-2010-94",
@@ -1849,6 +2474,7 @@
         "PP-2022-50",
         "UU-1991-7",
         "UU-1994-10",
+        "UU-1997-19",
         "UU-2000-17",
         "UU-2000-18",
         "UU-2008-36",
@@ -1868,16 +2494,18 @@
       ],
       "status": "RESOLVED",
       "reason": null,
-      "citation_count": 17
+      "citation_count": 20
     },
     {
       "document_id": "UU-2023-6",
       "jenis": "UU",
       "tahun": 2023,
       "nomor": "6",
-      "occurrences": 31,
+      "occurrences": 87,
       "cited_by": [
+        "PER-DJP-2025-11",
         "PMK-2024-131",
+        "PMK-2024-69",
         "PMK-2024-78",
         "PMK-2024-79",
         "PMK-2024-81",
@@ -1885,6 +2513,7 @@
         "PMK-2025-11",
         "PMK-2025-54",
         "PMK-2026-1",
+        "PMK-2026-28",
         "PMK-2026-6"
       ],
       "contexts": [
@@ -1895,54 +2524,30 @@
       ],
       "status": "RESOLVED",
       "reason": null,
-      "citation_count": 9
-    },
-    {
-      "document_id": "UU-2021-7",
-      "jenis": "UU",
-      "tahun": 2021,
-      "nomor": "7",
-      "occurrences": 27,
-      "cited_by": [
-        "PMK-2022-112",
-        "PMK-2023-164",
-        "PMK-2023-168",
-        "PMK-2023-172",
-        "PMK-2023-41",
-        "PMK-2023-48",
-        "PMK-2024-81",
-        "PP-2022-44"
-      ],
-      "contexts": [
-        "BATANG_TUBUH",
-        "MENIMBANG",
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "RESOLVED",
-      "reason": null,
-      "citation_count": 8
+      "citation_count": 12
     },
     {
       "document_id": "UU-1985-12",
       "jenis": "UU",
       "tahun": 1985,
       "nomor": "12",
-      "occurrences": 28,
+      "occurrences": 37,
       "cited_by": [
+        "PMK-2019-186",
+        "PMK-2022-234",
         "PMK-2024-81",
         "PMK-2025-54",
         "PMK-2026-1",
         "PP-2021-9",
         "PP-2022-50",
         "UU-1994-12",
+        "UU-1997-19",
         "UU-2009-28"
       ],
       "contexts": [
         "BATANG_TUBUH",
         "JUDUL",
+        "MENGINGAT",
         "MENIMBANG",
         "PENJELASAN"
       ],
@@ -1952,15 +2557,46 @@
       ],
       "status": "RESOLVED",
       "reason": null,
-      "citation_count": 7
+      "citation_count": 10
+    },
+    {
+      "document_id": "UU-2021-7",
+      "jenis": "UU",
+      "tahun": 2021,
+      "nomor": "7",
+      "occurrences": 29,
+      "cited_by": [
+        "PMK-2022-112",
+        "PMK-2023-164",
+        "PMK-2023-168",
+        "PMK-2023-172",
+        "PMK-2023-41",
+        "PMK-2023-48",
+        "PMK-2023-61",
+        "PMK-2024-81",
+        "PP-2022-44"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENGINGAT",
+        "MENIMBANG",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 9
     },
     {
       "document_id": "PP-2010-94",
       "jenis": "PP",
       "tahun": 2010,
       "nomor": "94",
-      "occurrences": 22,
+      "occurrences": 30,
       "cited_by": [
+        "PMK-2019-128",
         "PMK-2023-164",
         "PMK-2024-81",
         "PP-2015-18",
@@ -1979,7 +2615,34 @@
       ],
       "status": "RESOLVED",
       "reason": null,
-      "citation_count": 6
+      "citation_count": 7
+    },
+    {
+      "document_id": "UU-1994-12",
+      "jenis": "UU",
+      "tahun": 1994,
+      "nomor": "12",
+      "occurrences": 11,
+      "cited_by": [
+        "PMK-2019-186",
+        "PMK-2022-234",
+        "PMK-2024-81",
+        "PMK-2025-54",
+        "PMK-2026-1",
+        "PP-2021-9",
+        "UU-1997-19"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENGINGAT",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "AMENDMENT"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 7
     },
     {
       "document_id": "UU-2020-10",
@@ -2007,6 +2670,32 @@
       "citation_count": 6
     },
     {
+      "document_id": "UU-1994-9",
+      "jenis": "UU",
+      "tahun": 1994,
+      "nomor": "9",
+      "occurrences": 15,
+      "cited_by": [
+        "PP-2000-20",
+        "UU-1994-11",
+        "UU-1994-12",
+        "UU-1997-19",
+        "UU-2000-16"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENGINGAT",
+        "MENIMBANG",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "AMENDMENT"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 5
+    },
+    {
       "document_id": "UU-2008-36",
       "jenis": "UU",
       "tahun": 2008,
@@ -2030,6 +2719,29 @@
       "status": "RESOLVED",
       "reason": null,
       "citation_count": 5
+    },
+    {
+      "document_id": "PERPRES-2018-40",
+      "jenis": "PERPRES",
+      "tahun": 2018,
+      "nomor": "40",
+      "occurrences": 14,
+      "cited_by": [
+        "PMK-2018-109",
+        "PMK-2018-151",
+        "PMK-2019-121",
+        "PMK-2019-56"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENIMBANG"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 4
     },
     {
       "document_id": "PMK-2024-81",
@@ -2057,39 +2769,42 @@
       "citation_count": 4
     },
     {
-      "document_id": "UU-1994-12",
-      "jenis": "UU",
-      "tahun": 1994,
-      "nomor": "12",
-      "occurrences": 6,
+      "document_id": "PMK-2025-11",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "nomor": "11",
+      "occurrences": 18,
       "cited_by": [
-        "PMK-2024-81",
+        "PER-DJP-2025-11",
+        "PMK-2025-53",
         "PMK-2025-54",
-        "PMK-2026-1",
-        "PP-2021-9"
+        "PMK-2026-1"
       ],
       "contexts": [
         "BATANG_TUBUH",
-        "PENJELASAN"
+        "JUDUL",
+        "MENIMBANG"
       ],
       "roles": [
-        "AMENDMENT"
+        "AMENDMENT",
+        "REFERENCE",
+        "TITLE_AMENDMENT"
       ],
       "status": "RESOLVED",
       "reason": null,
       "citation_count": 4
     },
     {
-      "document_id": "UU-1994-9",
+      "document_id": "UU-1994-11",
       "jenis": "UU",
       "tahun": 1994,
-      "nomor": "9",
-      "occurrences": 12,
+      "nomor": "11",
+      "occurrences": 6,
       "cited_by": [
         "PP-2000-20",
-        "UU-1994-11",
-        "UU-1994-12",
-        "UU-2000-16"
+        "UU-1997-19",
+        "UU-2000-18",
+        "UU-2009-42"
       ],
       "contexts": [
         "BATANG_TUBUH",
@@ -2098,7 +2813,8 @@
         "PENJELASAN"
       ],
       "roles": [
-        "AMENDMENT"
+        "AMENDMENT",
+        "REFERENCE"
       ],
       "status": "RESOLVED",
       "reason": null,
@@ -2130,25 +2846,24 @@
       "citation_count": 4
     },
     {
-      "document_id": "PMK-2025-11",
-      "jenis": "PMK",
-      "tahun": 2025,
-      "nomor": "11",
-      "occurrences": 10,
+      "document_id": "PERPU-2008-5",
+      "jenis": "PERPU",
+      "tahun": 2008,
+      "nomor": "5",
+      "occurrences": 13,
       "cited_by": [
-        "PMK-2025-53",
-        "PMK-2025-54",
-        "PMK-2026-1"
+        "PERPU-2017-1",
+        "UU-2009-16",
+        "UU-2021-7"
       ],
       "contexts": [
         "BATANG_TUBUH",
         "JUDUL",
-        "MENIMBANG"
+        "MENIMBANG",
+        "PENJELASAN"
       ],
       "roles": [
-        "AMENDMENT",
-        "REFERENCE",
-        "TITLE_AMENDMENT"
+        "REFERENCE"
       ],
       "status": "RESOLVED",
       "reason": null,
@@ -2180,6 +2895,51 @@
       "citation_count": 3
     },
     {
+      "document_id": "PP-2019-45",
+      "jenis": "PP",
+      "tahun": 2019,
+      "nomor": "45",
+      "occurrences": 10,
+      "cited_by": [
+        "PMK-2019-128",
+        "PMK-2024-81",
+        "PP-2021-9"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "AMENDMENT",
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 3
+    },
+    {
+      "document_id": "PP-2022-50",
+      "jenis": "PP",
+      "tahun": 2022,
+      "nomor": "50",
+      "occurrences": 22,
+      "cited_by": [
+        "PMK-2023-172",
+        "PMK-2024-81",
+        "PMK-2026-28"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 3
+    },
+    {
       "document_id": "PP-2022-55",
       "jenis": "PP",
       "tahun": 2022,
@@ -2205,24 +2965,22 @@
       "citation_count": 3
     },
     {
-      "document_id": "UU-1994-11",
+      "document_id": "UU-1994-10",
       "jenis": "UU",
       "tahun": 1994,
-      "nomor": "11",
+      "nomor": "10",
       "occurrences": 5,
       "cited_by": [
         "PP-2000-20",
-        "UU-2000-18",
-        "UU-2009-42"
+        "UU-1997-19",
+        "UU-2000-17"
       ],
       "contexts": [
-        "BATANG_TUBUH",
         "MENGINGAT",
         "MENIMBANG",
         "PENJELASAN"
       ],
       "roles": [
-        "AMENDMENT",
         "REFERENCE"
       ],
       "status": "RESOLVED",
@@ -2272,29 +3030,6 @@
       "status": "RESOLVED",
       "reason": null,
       "citation_count": 3
-    },
-    {
-      "document_id": "PERPU-2008-5",
-      "jenis": "PERPU",
-      "tahun": 2008,
-      "nomor": "5",
-      "occurrences": 12,
-      "cited_by": [
-        "UU-2009-16",
-        "UU-2021-7"
-      ],
-      "contexts": [
-        "BATANG_TUBUH",
-        "JUDUL",
-        "MENIMBANG",
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "RESOLVED",
-      "reason": null,
-      "citation_count": 2
     },
     {
       "document_id": "PMK-2025-53",
@@ -2362,28 +3097,6 @@
       "citation_count": 2
     },
     {
-      "document_id": "PP-2019-45",
-      "jenis": "PP",
-      "tahun": 2019,
-      "nomor": "45",
-      "occurrences": 6,
-      "cited_by": [
-        "PMK-2024-81",
-        "PP-2021-9"
-      ],
-      "contexts": [
-        "BATANG_TUBUH",
-        "PENJELASAN"
-      ],
-      "roles": [
-        "AMENDMENT",
-        "REFERENCE"
-      ],
-      "status": "RESOLVED",
-      "reason": null,
-      "citation_count": 2
-    },
-    {
       "document_id": "PP-2019-78",
       "jenis": "PP",
       "tahun": 2019,
@@ -2406,43 +3119,24 @@
       "citation_count": 2
     },
     {
-      "document_id": "PP-2022-50",
-      "jenis": "PP",
-      "tahun": 2022,
-      "nomor": "50",
-      "occurrences": 10,
+      "document_id": "UU-1997-19",
+      "jenis": "UU",
+      "tahun": 1997,
+      "nomor": "19",
+      "occurrences": 7,
       "cited_by": [
-        "PMK-2023-172",
-        "PMK-2024-81"
+        "PP-2021-9",
+        "UU-2000-19"
       ],
       "contexts": [
         "BATANG_TUBUH",
-        "PENJELASAN"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "RESOLVED",
-      "reason": null,
-      "citation_count": 2
-    },
-    {
-      "document_id": "UU-1994-10",
-      "jenis": "UU",
-      "tahun": 1994,
-      "nomor": "10",
-      "occurrences": 4,
-      "cited_by": [
-        "PP-2000-20",
-        "UU-2000-17"
-      ],
-      "contexts": [
-        "MENGINGAT",
+        "JUDUL",
         "MENIMBANG",
         "PENJELASAN"
       ],
       "roles": [
-        "REFERENCE"
+        "REFERENCE",
+        "TITLE_AMENDMENT"
       ],
       "status": "RESOLVED",
       "reason": null,
@@ -2470,6 +3164,26 @@
       "citation_count": 2
     },
     {
+      "document_id": "UU-2009-16",
+      "jenis": "UU",
+      "tahun": 2009,
+      "nomor": "16",
+      "occurrences": 2,
+      "cited_by": [
+        "PERPU-2017-1",
+        "PP-2010-94"
+      ],
+      "contexts": [
+        "BATANG_TUBUH"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 2
+    },
+    {
       "document_id": "UU-2009-28",
       "jenis": "UU",
       "tahun": 2009,
@@ -2488,6 +3202,47 @@
       "status": "RESOLVED",
       "reason": null,
       "citation_count": 2
+    },
+    {
+      "document_id": "UU-2022-1",
+      "jenis": "UU",
+      "tahun": 2022,
+      "nomor": "1",
+      "occurrences": 6,
+      "cited_by": [
+        "PMK-2022-234",
+        "PP-2023-35"
+      ],
+      "contexts": [
+        "BATANG_TUBUH",
+        "MENIMBANG",
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 2
+    },
+    {
+      "document_id": "PERPU-2017-1",
+      "jenis": "PERPU",
+      "tahun": 2017,
+      "nomor": "1",
+      "occurrences": 1,
+      "cited_by": [
+        "PP-2021-9"
+      ],
+      "contexts": [
+        "PENJELASAN"
+      ],
+      "roles": [
+        "REFERENCE"
+      ],
+      "status": "RESOLVED",
+      "reason": null,
+      "citation_count": 1
     },
     {
       "document_id": "PMK-2020-96",
@@ -2728,38 +3483,19 @@
       "citation_count": 1
     },
     {
-      "document_id": "UU-2009-16",
+      "document_id": "UU-2000-19",
       "jenis": "UU",
-      "tahun": 2009,
-      "nomor": "16",
+      "tahun": 2000,
+      "nomor": "19",
       "occurrences": 1,
       "cited_by": [
-        "PP-2010-94"
-      ],
-      "contexts": [
-        "BATANG_TUBUH"
-      ],
-      "roles": [
-        "REFERENCE"
-      ],
-      "status": "RESOLVED",
-      "reason": null,
-      "citation_count": 1
-    },
-    {
-      "document_id": "UU-2022-1",
-      "jenis": "UU",
-      "tahun": 2022,
-      "nomor": "1",
-      "occurrences": 3,
-      "cited_by": [
-        "PP-2023-35"
+        "PP-2021-9"
       ],
       "contexts": [
         "PENJELASAN"
       ],
       "roles": [
-        "REFERENCE"
+        "AMENDMENT"
       ],
       "status": "RESOLVED",
       "reason": null,
@@ -2792,12 +3528,28 @@
       "source_quote": "Peraturan Menteri Keuangan  Nomor 96/PMK.010/2020 Tahun 2020 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 11/PMK.010/2020 tentang Pelaksanaan Peraturan Pemerintah Nomor "
     },
     {
+      "from": "PMK-2022-234",
+      "to": "PMK-2019-186",
+      "type": "MENGUBAH",
+      "origin": "TEXT_PATTERN",
+      "target_in_registry": true,
+      "source_quote": "Peraturan Menteri Keuangan  Nomor 234/PMK.03/2022 Tahun 2022 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 186/PMK.03/2019 tentang Klasifikasi Objek Pajak dan Tata Cara P"
+    },
+    {
       "from": "PMK-2024-127",
       "to": "PMK-2024-65",
       "type": "MENGUBAH",
       "origin": "TEXT_PATTERN",
       "target_in_registry": false,
       "source_quote": "Peraturan Menteri Keuangan  Nomor 127 Tahun 2024 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 65 Tahun 2024 tentang Peta Kapasitas Fiskal Daerah"
+    },
+    {
+      "from": "PMK-2024-69",
+      "to": "PMK-2020-130",
+      "type": "MENGUBAH",
+      "origin": "TEXT_PATTERN",
+      "target_in_registry": true,
+      "source_quote": "Peraturan Menteri Keuangan Nomor 69 Tahun 2024 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 130/PMK.010/2020 tentang Pemberian Fasilitas Pengurangan Pajak Penghasilan Ba"
     },
     {
       "from": "PMK-2025-53",
@@ -2918,6 +3670,14 @@
       "origin": "TEXT_PATTERN",
       "target_in_registry": true,
       "source_quote": "Undang-undang (UU)  Nomor 18 Tahun 2000 tentang Perubahan Kedua atas Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Baran"
+    },
+    {
+      "from": "UU-2000-19",
+      "to": "UU-1997-19",
+      "type": "MENGUBAH",
+      "origin": "TEXT_PATTERN",
+      "target_in_registry": true,
+      "source_quote": "Undang-undang (UU)  Nomor 19 Tahun 2000 tentang Perubahan atas Undang-Undang Nomor 19 Tahun 1997 tentang Penagihan Pajak dengan Surat Paksa"
     },
     {
       "from": "UU-2007-28",
