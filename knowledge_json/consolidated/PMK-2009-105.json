@@ -77,5 +77,227 @@
       "nomor": "7",
       "text": "Peraturan Menteri Keuangan ini mulai berlaku pada tanggal 1 Januari 2009. \nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia. \nPERATURAN MENTERI KEUANGAN \nNOMOR 105 \n7/4/2019"
     }
+  ],
+  "sub_provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "PMK-2009-105#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "Dalam Peraturan Menteri Keuangan ini yang dimaksud dengan: \n1. Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, \npemotong pajak, dan pemungut pajak, yang mempunyai hak dan \nkewajiban perpajakan sesuai dengan ketentuan peraturan perundang- \nundangan perpajakan. \n2. Piutang yang nyata-nyata tidak dapat ditagih adalah piutang yang \ntimbul dari transaksi bisnis yang wajar sesuai dengan bidang usahanya, \nyang nyata-nyata tidak dapat ditagih meskipun telah dilakukan upaya- \nupaya penagihan yang maksimal atau terakhir oleh Wajib Pajak. \n3. Penerbitan umum atau khusus adalah penerbitan yang meliputi: \na. Penerbitan umum adalah pemuatan pengumuman pada penerbitan \nsurat kabar / majalah a tau media massa cetak yang lazim lainnya \nyang berskala nasional; atau \nb. Penerbitan khusus adalah pemuatan pengumuman pada: \n1) penerbitan Himpunan Bank-Bank Milik Negara (HIMBARA)/ \nPerhimpunan Bank-Bank Umum Nasional (PERBANAS); \n2) penerbitan/ pengumuman khusus Bank Indonesia; dan/ a tau \n3) penerbitan yang dikeluarkan oleh asosiasi yang telah terdaftar \nsebagai Wajib Pajak dan pihak kreditur menjadi anggotanya.",
+      "role": "DEFINITION",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "PMK-2009-105#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Piutang yang nyata-nyata tidak dapat ditagih yang timbul di bidang usaha \nbank, lembaga pembiayaan, industri, dagang dan jasa lainnya dapat dibebankan \nsebagai biaya dalam menghitung penghasilan kena pajak. \n(2) Piutang yang nyata-nyata tidak dapat ditagih sebagaimana dimaksud pada ayat \n(1) tidak termasuk piutang yang berasal dari transaksi bisnis dengan pihak- \npihak yang memiliki hubungan istimewa dengan W a jib Pajak.",
+      "role": "SUBSTANTIVE",
+      "ord": 1
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PMK-2009-105#BT/2/1",
+      "parent": "PMK-2009-105#BT/2",
+      "heading": "",
+      "text": "Piutang yang nyata-nyata tidak dapat ditagih yang timbul di bidang usaha \nbank, lembaga pembiayaan, industri, dagang dan jasa lainnya dapat dibebankan \nsebagai biaya dalam menghitung penghasilan kena pajak.",
+      "role": null,
+      "ord": 2
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PMK-2009-105#BT/2/2",
+      "parent": "PMK-2009-105#BT/2",
+      "heading": "",
+      "text": "Piutang yang nyata-nyata tidak dapat ditagih sebagaimana dimaksud pada ayat",
+      "role": null,
+      "ord": 3
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PMK-2009-105#BT/2/1",
+      "parent": "PMK-2009-105#BT/2",
+      "heading": "",
+      "text": "tidak termasuk piutang yang berasal dari transaksi bisnis dengan pihak- \npihak yang memiliki hubungan istimewa dengan W a jib Pajak.",
+      "role": null,
+      "ord": 4
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3",
+      "locator": "PMK-2009-105#BT/3",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Piutang yang nyata-nyata tidak dapat ditagih sebagaimana dimaksud \ndalam Pasal 2 dapat dibebankan sebagai pengurang penghasilan bruto, \nsepanjang memenuhi persyaratan: \na. telah dibebankan sebagai biaya dalam laporan laba rugi komersial: \nb. Wajib Pajak harus menyerahkan daftar piutang yang nyata-nyata \ntidak dapat ditagih kepada Direktorat Jenderal Pajak; dan \nc. \nPiutang yang nyata-nyata tidak dapat ditagih tersebut telah \ndiserahkan perkara penagihannya kepada Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara, atau terdapat \nperjanjian tertulis mengenai penghapusan piutang/ pembebasan \nutang antara kreditur dan debitur atas piutang yang nyata-nyata \ntidak dapat ditagih tersebut, atau telah dipublikasikan dalam \nMenetapkan",
+      "role": "SUBSTANTIVE",
+      "ord": 5
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PMK-2009-105#BT/3/1",
+      "parent": "PMK-2009-105#BT/3",
+      "heading": "",
+      "text": "Piutang yang nyata-nyata tidak dapat ditagih sebagaimana dimaksud \ndalam Pasal 2 dapat dibebankan sebagai pengurang penghasilan bruto, \nsepanjang memenuhi persyaratan: \na. telah dibebankan sebagai biaya dalam laporan laba rugi komersial: \nb. Wajib Pajak harus menyerahkan daftar piutang yang nyata-nyata \ntidak dapat ditagih kepada Direktorat Jenderal Pajak; dan \nc. \nPiutang yang nyata-nyata tidak dapat ditagih tersebut telah \ndiserahkan perkara penagihannya kepada Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara, atau terdapat \nperjanjian tertulis mengenai penghapusan piutang/ pembebasan \nutang antara kreditur dan debitur atas piutang yang nyata-nyata \ntidak dapat ditagih tersebut, atau telah dipublikasikan dalam \nMenetapkan",
+      "role": null,
+      "ord": 6
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PMK-2009-105#BT/3/1/a",
+      "parent": "PMK-2009-105#BT/3/1",
+      "heading": "",
+      "text": "telah dibebankan sebagai biaya dalam laporan laba rugi komersial:",
+      "role": null,
+      "ord": 7
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PMK-2009-105#BT/3/1/b",
+      "parent": "PMK-2009-105#BT/3/1",
+      "heading": "",
+      "text": "Wajib Pajak harus menyerahkan daftar piutang yang nyata-nyata \ntidak dapat ditagih kepada Direktorat Jenderal Pajak; dan",
+      "role": null,
+      "ord": 8
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "PMK-2009-105#BT/3/1/c",
+      "parent": "PMK-2009-105#BT/3/1",
+      "heading": "",
+      "text": "Piutang yang nyata-nyata tidak dapat ditagih tersebut telah \ndiserahkan perkara penagihannya kepada Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara, atau terdapat \nperjanjian tertulis mengenai penghapusan piutang/ pembebasan \nutang antara kreditur dan debitur atas piutang yang nyata-nyata \ntidak dapat ditagih tersebut, atau telah dipublikasikan dalam \nMenetapkan",
+      "role": null,
+      "ord": 9
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4",
+      "locator": "PMK-2009-105#BT/4",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Daftar piutang yang nyata-nyata tidak dapat ditagih yang diserahkan kepada \nDirektorat J ender al Pajak sebagaimana dimaksud Pasal 3 ayat (1) huruf b harus \nmencantumkan identitas debitur berupa nama, Nomor Pokok Wajib Pajak, \nalamat dan jumlah Piutang yang nyata-nyata tidak dapat ditagih. \n(2) Pemenuhan ketentuan sebagaimana dimaksud Pasal 3 ayat (1) huruf c \ndilakukan dengan cara melampirkan: \na. fotokopi bukti penyerahan perkara penagihannya ke Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara; atau \nb. fotokopi perjanjian tertulis mengenai penghapusan piutang/pembebasan \nutang usaha yang telah dilegalisir oleh notaris: atau \nc. fotokopi bukti publikasi dalam penerbitan umum atau penerbitan khusus; \na tau \nd. surat yang berisi pengakuan dari debitur bahwa utangnya telah dihapuskan \nyang disetujui oleh kreditur tentang penghapusan piutang untuk jumlah \nutang tertentu, yang disetujui oleh kreditur. \n(3) Daftar piutang yang nyata-nyata tidak dapat ditagih dan bukti/ dokumen \nsebagaimana dimaksud pada ayat (1) dan ayat (2) harus disampaikan \nbersamaan dengan penyampaian Surat Pemberitahuan (SPT) Tahunan.",
+      "role": "SUBSTANTIVE",
+      "ord": 10
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PMK-2009-105#BT/4/1",
+      "parent": "PMK-2009-105#BT/4",
+      "heading": "",
+      "text": "Daftar piutang yang nyata-nyata tidak dapat ditagih yang diserahkan kepada \nDirektorat J ender al Pajak sebagaimana dimaksud Pasal 3 ayat (1) huruf b harus \nmencantumkan identitas debitur berupa nama, Nomor Pokok Wajib Pajak, \nalamat dan jumlah Piutang yang nyata-nyata tidak dapat ditagih.",
+      "role": null,
+      "ord": 11
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PMK-2009-105#BT/4/2",
+      "parent": "PMK-2009-105#BT/4",
+      "heading": "",
+      "text": "Pemenuhan ketentuan sebagaimana dimaksud Pasal 3 ayat (1) huruf c \ndilakukan dengan cara melampirkan: \na. fotokopi bukti penyerahan perkara penagihannya ke Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara; atau \nb. fotokopi perjanjian tertulis mengenai penghapusan piutang/pembebasan \nutang usaha yang telah dilegalisir oleh notaris: atau \nc. fotokopi bukti publikasi dalam penerbitan umum atau penerbitan khusus; \na tau \nd. surat yang berisi pengakuan dari debitur bahwa utangnya telah dihapuskan \nyang disetujui oleh kreditur tentang penghapusan piutang untuk jumlah \nutang tertentu, yang disetujui oleh kreditur.",
+      "role": null,
+      "ord": 12
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PMK-2009-105#BT/4/2/a",
+      "parent": "PMK-2009-105#BT/4/2",
+      "heading": "",
+      "text": "fotokopi bukti penyerahan perkara penagihannya ke Pengadilan Negeri atau \ninstansi pemerintah yang menangani piutang negara; atau",
+      "role": null,
+      "ord": 13
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PMK-2009-105#BT/4/2/b",
+      "parent": "PMK-2009-105#BT/4/2",
+      "heading": "",
+      "text": "fotokopi perjanjian tertulis mengenai penghapusan piutang/pembebasan \nutang usaha yang telah dilegalisir oleh notaris: atau",
+      "role": null,
+      "ord": 14
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "PMK-2009-105#BT/4/2/c",
+      "parent": "PMK-2009-105#BT/4/2",
+      "heading": "",
+      "text": "fotokopi bukti publikasi dalam penerbitan umum atau penerbitan khusus; \na tau",
+      "role": null,
+      "ord": 15
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "PMK-2009-105#BT/4/2/d",
+      "parent": "PMK-2009-105#BT/4/2",
+      "heading": "",
+      "text": "surat yang berisi pengakuan dari debitur bahwa utangnya telah dihapuskan \nyang disetujui oleh kreditur tentang penghapusan piutang untuk jumlah \nutang tertentu, yang disetujui oleh kreditur.",
+      "role": null,
+      "ord": 16
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "PMK-2009-105#BT/4/3",
+      "parent": "PMK-2009-105#BT/4",
+      "heading": "",
+      "text": "Daftar piutang yang nyata-nyata tidak dapat ditagih dan bukti/ dokumen \nsebagaimana dimaksud pada ayat (1) dan ayat (2) harus disampaikan \nbersamaan dengan penyampaian Surat Pemberitahuan (SPT) Tahunan.",
+      "role": null,
+      "ord": 17
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5",
+      "locator": "PMK-2009-105#BT/5",
+      "parent": null,
+      "heading": "",
+      "text": "PERATURAN MENTERI KEUANGAN \nNOMOR 105 \n7/4/2019 \n\n\n4/4 \nhttps://jdih.kemenkeu.go.id/fullText/2009/105-PMK.03-2009Per.HTM \nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2009 NOMOR 133 \nANDI MATTALATTA \nDiundangkan di Jakarta \nPadatanggal10Juni2009 \nMENTER! HUKUM DAN HAK ASASI \nMANUS IA, \nSRI MULYANI INDRAWATI \nDitetapkan di Jakarta \npadatanggal10Juni2009 \nMENTER! KEUANGAN, \nPiutang yang nyata-nyata tidak dapat ditagih kepada debitur kecil atau debitur \nkecil lainnya sebagaimana dimaksud dalam Pasal 3 harus dilampiri daftar \nnominatif yang berisi identitas debitur berupa nama, Nomor Pokok Wajib Pajak, \nalamat dan jumlah Piutang yang nyata-nyata tidak dapat ditagih.",
+      "role": "SUBSTANTIVE",
+      "ord": 18
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5A",
+      "locator": "PMK-2009-105#BT/5A",
+      "parent": null,
+      "heading": "",
+      "text": "Agar setiap orang mengetahuinya, \nmemerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia.\nDiundangkan di Jakarta\npada tanggal 9 Maret 2010\nMENTER! HUKUM DAN HAK ASASI MANUSIA\nP ATRIALIS AKBAR\nDi tetapkan di Jakarta\npada tanggal 9 Maret 2010\nMENTER! KEUANGAN,\nSRI MULYANI INDRAWATI\nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2010 NOMOR 123",
+      "role": "SUBSTANTIVE",
+      "ord": 19
+    },
+    {
+      "level": "PASAL",
+      "nomor": "6",
+      "locator": "PMK-2009-105#BT/6",
+      "parent": null,
+      "heading": "",
+      "text": "Pada saat Peraturan Menteri Keuangan ini mulai berlaku, KeP-utusan Menteri \nKeuangan Nomor 130/KMK.04/1998 tentang Penghapusan Piutang Tak Tertagih \nyang Boleh Dikurangkan Sebagai Biaya, dicabut dan dinyatakan tidak berlaku.",
+      "role": "SUBSTANTIVE",
+      "ord": 20
+    },
+    {
+      "level": "PASAL",
+      "nomor": "7",
+      "locator": "PMK-2009-105#BT/7",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Menteri Keuangan ini mulai berlaku pada tanggal 1 Januari 2009. \nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan \nMenteri Keuangan ini dengan penempatannya dalam Berita Negara Republik \nIndonesia. \nPERATURAN MENTERI KEUANGAN \nNOMOR 105 \n7/4/2019",
+      "role": "SUBSTANTIVE",
+      "ord": 21
+    }
   ]
 }

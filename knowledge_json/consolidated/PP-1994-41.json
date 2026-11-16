@@ -64,5 +64,157 @@
       "nomor": "5",
       "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995.\nAgar…\n\n\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nDiundangkan di Jakarta\npada tanggal 23 Desember 1994\nREPUBLIK INDONESIA,\nttd.\nMOERDIONO\nDitetapkan di Jakarta\npada tanggal 23 Desember 1994\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nSOEHARTO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 70\n\nPRESIDEN\nREPUBLIK INDONESIA"
     }
+  ],
+  "sub_provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "PP-1994-41#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "(2) Besarnya Pajak Penghasilan sebagaimana dimaksud pada ayat (1)\nadalah 0,1% (satu per seribu) dari jumlah bruto nilai transaksi\npenjualan.",
+      "role": "SUBSTANTIVE",
+      "ord": 0
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/1/2",
+      "parent": "PP-1994-41#BT/1",
+      "heading": "",
+      "text": "Besarnya Pajak Penghasilan sebagaimana dimaksud pada ayat (1)\nadalah 0,1% (satu per seribu) dari jumlah bruto nilai transaksi\npenjualan.",
+      "role": null,
+      "ord": 1
+    },
+    {
+      "level": "PASAL",
+      "nomor": "1A",
+      "locator": "PP-1994-41#BT/1A",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nPemilik saham pendiri dikenakan tambahan Pajak Penghasilan\nsebesar 0,5% (setengah persen) dari nilai saham perusahaan pada\nsaat penutupan bursa di akhir tahun 1996.\n(2)\nDalam hal saham perusahaan diperdagangkan di bursa efek\nsetelah 1 januari 1997, maka nilai saham sebagaimana dimaksud\npada ayat (1) ditetapkan sebesar harga saham pada saat\npenawaran umum perdana.\"\n2. Menambah ketentuan baru di antara Pasal 2 dan pasal 3 yang dijadikan\nPasal 2A, yang berbunyi sebagai berikut:\nPasal 2A…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nPasal 2A\nPenyetoran tambahan Pajak Penghasilan atas saham pendiri sebagaimana\ndimaksud dalam Pasal 1A dilakukan oleh pemilik saham pendiri:\na.\nselambat-lambatnya 6 (enam) bulan setelah ditetapkannya Peraturan\nPemerintah ini, apabila saham perusahaan telah diperdagangkan di\nbursa efek sebelum Peraturan Pemerintah ini ditetapkan;\nb.\nselambat-lambatnya\n1\n(satu)\nbulan\nsetelah\nsaham\ntersebut\ndiperdagangkan\ndi\nbursa,\napabila\nsaham\nperusahaan\nbaru\ndiperdagangkan di bursa efek pada saat atau setelah Peraturan\nPemerintah ini ditetapkan.",
+      "role": "SUBSTANTIVE",
+      "ord": 2
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-1994-41#BT/1A/1",
+      "parent": "PP-1994-41#BT/1A",
+      "heading": "",
+      "text": "Pemilik saham pendiri dikenakan tambahan Pajak Penghasilan\nsebesar 0,5% (setengah persen) dari nilai saham perusahaan pada\nsaat penutupan bursa di akhir tahun 1996.",
+      "role": null,
+      "ord": 3
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/1A/2",
+      "parent": "PP-1994-41#BT/1A",
+      "heading": "",
+      "text": "Dalam hal saham perusahaan diperdagangkan di bursa efek\nsetelah 1 januari 1997, maka nilai saham sebagaimana dimaksud\npada ayat (1) ditetapkan sebesar harga saham pada saat\npenawaran umum perdana.\"\n2. Menambah ketentuan baru di antara Pasal 2 dan pasal 3 yang dijadikan\nPasal 2A, yang berbunyi sebagai berikut:\nPasal 2A…\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-\n3\n-\nPasal 2A\nPenyetoran tambahan Pajak Penghasilan atas saham pendiri sebagaimana\ndimaksud dalam Pasal 1A dilakukan oleh pemilik saham pendiri:\na.\nselambat-lambatnya 6 (enam) bulan setelah ditetapkannya Peraturan\nPemerintah ini, apabila saham perusahaan telah diperdagangkan di\nbursa efek sebelum Peraturan Pemerintah ini ditetapkan;\nb.\nselambat-lambatnya\n1\n(satu)\nbulan\nsetelah\nsaham\ntersebut\ndiperdagangkan\ndi\nbursa,\napabila\nsaham\nperusahaan\nbaru\ndiperdagangkan di bursa efek pada saat atau setelah Peraturan\nPemerintah ini ditetapkan.",
+      "role": null,
+      "ord": 4
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PP-1994-41#BT/1A/2/a",
+      "parent": "PP-1994-41#BT/1A/2",
+      "heading": "",
+      "text": "selambat-lambatnya 6 (enam) bulan setelah ditetapkannya Peraturan\nPemerintah ini, apabila saham perusahaan telah diperdagangkan di\nbursa efek sebelum Peraturan Pemerintah ini ditetapkan;",
+      "role": null,
+      "ord": 5
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PP-1994-41#BT/1A/2/b",
+      "parent": "PP-1994-41#BT/1A/2",
+      "heading": "",
+      "text": "selambat-lambatnya\n1\n(satu)\nbulan\nsetelah\nsaham\ntersebut\ndiperdagangkan\ndi\nbursa,\napabila\nsaham\nperusahaan\nbaru\ndiperdagangkan di bursa efek pada saat atau setelah Peraturan\nPemerintah ini ditetapkan.",
+      "role": null,
+      "ord": 6
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nPenyelenggara bursa efek wajib memungut Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 1 yang terutang untuk setiap\ntransaksi penjualan saham.\n(2)\nPenyelenggara bursa efek wajib menyetor seluruh pajak yang\ndipungut sebagaimana dimaksud dalam ayat (1) sekali sebulan\nkepada\nbank\npersepsi\natau\nKantor\nPos\ndan\nGiro\ndengan\nmenggunakan Surat Setoran Pajak.\n(3)\nPenyelenggara\nbursa\nefek\nwajib\nmenyampaikan\nlaporan\npemungutan dan\npenyetoran Pajak Penghasilan sebagaimana\ndimaksud dalam ayat (1) dan ayat (2) kepada\nDirektur Jenderal\nPajak.",
+      "role": "SUBSTANTIVE",
+      "ord": 7
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-1994-41#BT/2/1",
+      "parent": "PP-1994-41#BT/2",
+      "heading": "",
+      "text": "Penyelenggara bursa efek wajib memungut Pajak Penghasilan\nsebagaimana dimaksud dalam Pasal 1 yang terutang untuk setiap\ntransaksi penjualan saham.",
+      "role": null,
+      "ord": 8
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-1994-41#BT/2/2",
+      "parent": "PP-1994-41#BT/2",
+      "heading": "",
+      "text": "Penyelenggara bursa efek wajib menyetor seluruh pajak yang\ndipungut sebagaimana dimaksud dalam ayat (1) sekali sebulan\nkepada\nbank\npersepsi\natau\nKantor\nPos\ndan\nGiro\ndengan\nmenggunakan Surat Setoran Pajak.",
+      "role": null,
+      "ord": 9
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "PP-1994-41#BT/2/3",
+      "parent": "PP-1994-41#BT/2",
+      "heading": "",
+      "text": "Penyelenggara\nbursa\nefek\nwajib\nmenyampaikan\nlaporan\npemungutan dan\npenyetoran Pajak Penghasilan sebagaimana\ndimaksud dalam ayat (1) dan ayat (2) kepada\nDirektur Jenderal\nPajak.",
+      "role": null,
+      "ord": 10
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3",
+      "locator": "PP-1994-41#BT/3",
+      "parent": null,
+      "heading": "",
+      "text": "Penyelenggara bursa efek yang tidak memenuhi ketentuan sebagaimana\ndimaksud dalam Pasal 2, dikenakan sanksi sesuai dengan ketentuan\nperaturan perundang-undangan perpajakan yang berlaku.",
+      "role": "SUBSTANTIVE",
+      "ord": 11
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3A",
+      "locator": "PP-1994-41#BT/3A",
+      "parent": null,
+      "heading": "",
+      "text": "Wajib\nPajak\nyang\nmemilih\nuntuk\nmemenuhi\nkewajiban\nPajak\nPenghasilannya tidak berdasarkan ketentuan sebagaimana dimaksud\ndalam Pasal 2A, atas penghasilan dari transaksi penjualan saham pendiri\ndikenakan Pajak Penghasilan sesuai dengan tarif umum sebagaimana\ndimaksud dalam Pasal 17 Undang-undang Nomor 7 Tahun 1983 tentang\nPajak\nPenghasilan\nsebagaimana\ntelah\ndiubah\nterakhir\ndengan\nUndang-undang Nomor 10 Tahun 1994.",
+      "role": "SUBSTANTIVE",
+      "ord": 12
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4",
+      "locator": "PP-1994-41#BT/4",
+      "parent": null,
+      "heading": "",
+      "text": "Ketentuan lebih lanjut mengenai pelaksanaan Peraturan Pemerintah ini\nditetapkan oleh Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 13
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5",
+      "locator": "PP-1994-41#BT/5",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal 1 Januari 1995.\nAgar…\n\n\nAgar\nsetiap\norang\nmengetahuinya,\nmemerintahkan\npengundangan\nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran\nNegara Republik Indonesia.\nDiundangkan di Jakarta\npada tanggal 23 Desember 1994\nREPUBLIK INDONESIA,\nttd.\nMOERDIONO\nDitetapkan di Jakarta\npada tanggal 23 Desember 1994\nPRESIDEN REPUBLIK INDONESIA,\nttd.\nSOEHARTO\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1994 NOMOR 70\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "ord": 14
+    }
   ]
 }
