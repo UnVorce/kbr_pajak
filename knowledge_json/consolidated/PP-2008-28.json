@@ -80,5 +80,587 @@
       "nomor": "12",
       "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. \n \nAgar setiap orang mengetahuinya, memerintahkan pengundangan \nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran \nNegara Republik Indonesia. \n \nDitetapkan di Jakarta \npada tanggal 11 April 2008 \nPRESIDEN REPUBLIK INDONESIA, \n \nttd \n \nDR. H. SUSILO BAMBANG YUDHOYONO \n \n \nDiundangkan di Jakarta \nPada tanggal 11 April 2008 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \n                   REPUBLIK INDONESIA, \nttd \n   ANDI MATTALATA \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 53"
     }
+  ],
+  "sub_provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "Dalam Peraturan Pemerintah ini yang dimaksud dengan: \n1. Undang-Undang adalah Undang-Undang Nomor 10 Tahun 1995 \ntentang Kepabeanan sebagaimana telah diubah dengan Undang-\nUndang Nomor 17 Tahun 2006 tentang Perubahan Atas \nUndang-Undang Nomor 10 Tahun 1995 tentang Kepabeanan. \n2. Menteri adalah Menteri Keuangan Republik Indonesia. \n3. Pejabat bea dan cukai adalah pegawai Direktorat Jenderal Bea \ndan Cukai yang ditunjuk dalam jabatan tertentu untuk \nmelaksanakan tugas tertentu berdasarkan Undang-Undang.",
+      "role": "DEFINITION",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Sanksi administrasi berupa denda dikenakan hanya terhadap \npelanggaran yang diatur dalam Undang-Undang. \n(2)  Sanksi administrasi berupa denda sebagaimana dimaksud pada \nayat (1)  besarnya dinyatakan dalam:                      \na. nilai rupiah tertentu; \nb. nilai rupiah minimum sampai dengan maksimum; \nc. persentase tertentu dari bea masuk yang seharusnya \ndibayar; \nd. persentase tertentu minimum sampai dengan maksimum \ndari kekurangan pembayaran bea masuk atau bea keluar; \natau \ne. persentase tertentu minimum sampai dengan maksimum \ndari bea masuk yang seharusnya dibayar.",
+      "role": "SUBSTANTIVE",
+      "ord": 1
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/2/1",
+      "parent": "PP-2008-28#BT/2",
+      "heading": "",
+      "text": "Sanksi administrasi berupa denda dikenakan hanya terhadap \npelanggaran yang diatur dalam Undang-Undang.",
+      "role": null,
+      "ord": 2
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/2/2",
+      "parent": "PP-2008-28#BT/2",
+      "heading": "",
+      "text": "Sanksi administrasi berupa denda sebagaimana dimaksud pada \nayat (1)  besarnya dinyatakan dalam:                      \na. nilai rupiah tertentu; \nb. nilai rupiah minimum sampai dengan maksimum; \nc. persentase tertentu dari bea masuk yang seharusnya \ndibayar; \nd. persentase tertentu minimum sampai dengan maksimum \ndari kekurangan pembayaran bea masuk atau bea keluar; \natau \ne. persentase tertentu minimum sampai dengan maksimum \ndari bea masuk yang seharusnya dibayar.",
+      "role": null,
+      "ord": 3
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PP-2008-28#BT/2/2/a",
+      "parent": "PP-2008-28#BT/2/2",
+      "heading": "",
+      "text": "nilai rupiah tertentu;",
+      "role": null,
+      "ord": 4
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PP-2008-28#BT/2/2/b",
+      "parent": "PP-2008-28#BT/2/2",
+      "heading": "",
+      "text": "nilai rupiah minimum sampai dengan maksimum;",
+      "role": null,
+      "ord": 5
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "PP-2008-28#BT/2/2/c",
+      "parent": "PP-2008-28#BT/2/2",
+      "heading": "",
+      "text": "persentase tertentu dari bea masuk yang seharusnya \ndibayar;",
+      "role": null,
+      "ord": 6
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "PP-2008-28#BT/2/2/d",
+      "parent": "PP-2008-28#BT/2/2",
+      "heading": "",
+      "text": "persentase tertentu minimum sampai dengan maksimum \ndari kekurangan pembayaran bea masuk atau bea keluar; \natau",
+      "role": null,
+      "ord": 7
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "PP-2008-28#BT/2/2/e",
+      "parent": "PP-2008-28#BT/2/2",
+      "heading": "",
+      "text": "persentase tertentu minimum sampai dengan maksimum \ndari bea masuk yang seharusnya dibayar.",
+      "role": null,
+      "ord": 8
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3",
+      "locator": "PP-2008-28#BT/3",
+      "parent": null,
+      "heading": "",
+      "text": "(1)  Besarnya denda yang dinyatakan dalam nilai rupiah tertentu \nsebagaimana dimaksud dalam Pasal 2 ayat (2) huruf a \ndilaksanakan sesuai dengan Undang-Undang. \n(2) \nKetentuan  sebagaimana dimaksud pada ayat (1) berlaku \nuntuk Pasal 10A ayat (8), Pasal 11A ayat (6), Pasal 45 ayat (3), \nPasal 52 ayat (1) dan ayat (2), Pasal 81 ayat (3), Pasal 82 ayat \n(3) huruf b, Pasal 86 ayat (2), Pasal 89 ayat (4), Pasal 90 ayat \n(4), dan Pasal 91 ayat (4) Undang-Undang.",
+      "role": "SUBSTANTIVE",
+      "ord": 9
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/3/1",
+      "parent": "PP-2008-28#BT/3",
+      "heading": "",
+      "text": "Besarnya denda yang dinyatakan dalam nilai rupiah tertentu \nsebagaimana dimaksud dalam Pasal 2 ayat (2) huruf a \ndilaksanakan sesuai dengan Undang-Undang.",
+      "role": null,
+      "ord": 10
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/3/2",
+      "parent": "PP-2008-28#BT/3",
+      "heading": "",
+      "text": "Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku \nuntuk Pasal 10A ayat (8), Pasal 11A ayat (6), Pasal 45 ayat (3), \nPasal 52 ayat (1) dan ayat (2), Pasal 81 ayat (3), Pasal 82 ayat",
+      "role": null,
+      "ord": 11
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "PP-2008-28#BT/3/3",
+      "parent": "PP-2008-28#BT/3",
+      "heading": "",
+      "text": "huruf b, Pasal 86 ayat (2), Pasal 89 ayat (4), Pasal 90 ayat",
+      "role": null,
+      "ord": 12
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "PP-2008-28#BT/3/4",
+      "parent": "PP-2008-28#BT/3",
+      "heading": "",
+      "text": ", dan Pasal 91 ayat (4) Undang-Undang.",
+      "role": null,
+      "ord": 13
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4",
+      "locator": "PP-2008-28#BT/4",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Besarnya denda yang dinyatakan dalam nilai rupiah minimum \nsampai dengan maksimum sebagaimana dimaksud dalam Pasal \n2 ayat (2) huruf b ditetapkan secara berjenjang dengan \nketentuan apabila dalam 6 (enam) bulan terakhir terjadi: \na. 1 (satu) kali pelanggaran, dikenai denda sebesar 1 (satu) kali \ndenda minimum; \nb. 2 (dua) kali pelanggaran, dikenai denda sebesar 2 (dua) kali \ndenda minimum; \nc. 3 (tiga) sampai dengan 4 (empat) kali pelanggaran, dikenai \ndenda sebesar 5 (lima) kali denda minimum; \nd. 5 (lima) sampai 6 (enam) kali pelanggaran, dikenai denda \nsebesar 7 (tujuh) kali denda minimum; \ne. lebih dari 6 (enam) kali pelanggaran, dikenai denda sebesar 1 \n(satu) kali denda maksimum. \n(2)  Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 7A ayat (7), Pasal 7A ayat (8), Pasal 8A ayat (2) dan ayat \n(3), Pasal 8C ayat (3) dan ayat (4), Pasal 9A ayat (3), dan      \nPasal 10A ayat (3) dan ayat (4) Undang-Undang.",
+      "role": "SUBSTANTIVE",
+      "ord": 14
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/4/1",
+      "parent": "PP-2008-28#BT/4",
+      "heading": "",
+      "text": "Besarnya denda yang dinyatakan dalam nilai rupiah minimum \nsampai dengan maksimum sebagaimana dimaksud dalam Pasal \n2 ayat (2) huruf b ditetapkan secara berjenjang dengan \nketentuan apabila dalam 6 (enam) bulan terakhir terjadi: \na. 1 (satu) kali pelanggaran, dikenai denda sebesar 1 (satu) kali \ndenda minimum; \nb. 2 (dua) kali pelanggaran, dikenai denda sebesar 2 (dua) kali \ndenda minimum; \nc. 3 (tiga) sampai dengan 4 (empat) kali pelanggaran, dikenai \ndenda sebesar 5 (lima) kali denda minimum; \nd. 5 (lima) sampai 6 (enam) kali pelanggaran, dikenai denda \nsebesar 7 (tujuh) kali denda minimum; \ne. lebih dari 6 (enam) kali pelanggaran, dikenai denda sebesar 1 \n(satu) kali denda maksimum.",
+      "role": null,
+      "ord": 15
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PP-2008-28#BT/4/1/a",
+      "parent": "PP-2008-28#BT/4/1",
+      "heading": "",
+      "text": "1 (satu) kali pelanggaran, dikenai denda sebesar 1 (satu) kali \ndenda minimum;",
+      "role": null,
+      "ord": 16
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PP-2008-28#BT/4/1/b",
+      "parent": "PP-2008-28#BT/4/1",
+      "heading": "",
+      "text": "2 (dua) kali pelanggaran, dikenai denda sebesar 2 (dua) kali \ndenda minimum;",
+      "role": null,
+      "ord": 17
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "PP-2008-28#BT/4/1/c",
+      "parent": "PP-2008-28#BT/4/1",
+      "heading": "",
+      "text": "3 (tiga) sampai dengan 4 (empat) kali pelanggaran, dikenai \ndenda sebesar 5 (lima) kali denda minimum;",
+      "role": null,
+      "ord": 18
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "PP-2008-28#BT/4/1/d",
+      "parent": "PP-2008-28#BT/4/1",
+      "heading": "",
+      "text": "5 (lima) sampai 6 (enam) kali pelanggaran, dikenai denda \nsebesar 7 (tujuh) kali denda minimum;",
+      "role": null,
+      "ord": 19
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "PP-2008-28#BT/4/1/e",
+      "parent": "PP-2008-28#BT/4/1",
+      "heading": "",
+      "text": "lebih dari 6 (enam) kali pelanggaran, dikenai denda sebesar 1 \n(satu) kali denda maksimum.",
+      "role": null,
+      "ord": 20
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/4/2",
+      "parent": "PP-2008-28#BT/4",
+      "heading": "",
+      "text": "Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 7A ayat (7), Pasal 7A ayat (8), Pasal 8A ayat (2) dan ayat",
+      "role": null,
+      "ord": 21
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "PP-2008-28#BT/4/3",
+      "parent": "PP-2008-28#BT/4",
+      "heading": "",
+      "text": ", Pasal 8C ayat (3) dan ayat (4), Pasal 9A ayat (3), dan      \nPasal 10A ayat (3) dan ayat (4) Undang-Undang.",
+      "role": null,
+      "ord": 22
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5",
+      "locator": "PP-2008-28#BT/5",
+      "parent": null,
+      "heading": "",
+      "text": "(1)  Besarnya denda yang dinyatakan dalam persentase tertentu dari \nbea masuk yang seharusnya dibayar sebagaimana dimaksud \ndalam Pasal 2 ayat (2) huruf c diperoleh dari hasil perkalian \npersentase tertentu dengan bea masuk yang seharusnya \ndibayar.  \n(2) Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 10B ayat (6), Pasal 10D ayat (5) dan ayat (6), Pasal 43 ayat \n(3),  dan Pasal 45 ayat (4) Undang-Undang.",
+      "role": "SUBSTANTIVE",
+      "ord": 23
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/5/1",
+      "parent": "PP-2008-28#BT/5",
+      "heading": "",
+      "text": "Besarnya denda yang dinyatakan dalam persentase tertentu dari \nbea masuk yang seharusnya dibayar sebagaimana dimaksud \ndalam Pasal 2 ayat (2) huruf c diperoleh dari hasil perkalian \npersentase tertentu dengan bea masuk yang seharusnya \ndibayar.",
+      "role": null,
+      "ord": 24
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/5/2",
+      "parent": "PP-2008-28#BT/5",
+      "heading": "",
+      "text": "Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 10B ayat (6), Pasal 10D ayat (5) dan ayat (6), Pasal 43 ayat",
+      "role": null,
+      "ord": 25
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "PP-2008-28#BT/5/3",
+      "parent": "PP-2008-28#BT/5",
+      "heading": "",
+      "text": ",  dan Pasal 45 ayat (4) Undang-Undang.",
+      "role": null,
+      "ord": 26
+    },
+    {
+      "level": "PASAL",
+      "nomor": "6",
+      "locator": "PP-2008-28#BT/6",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Besarnya denda yang dinyatakan dalam persentase\ntertentu minimum sampai dengan maksimum dari\nkekurangan pembayaran bea masuk atau bea keluar\nsebagaimana dimaksud dalam Pasal 2 ayat (21\nhuruf d ditetapkan secara berjenjang berdasarkan\nperbandingan antara total kekurangan pembayaran\nbea masuk atau bea keluar yang terkena denda\ndengan total pembayaran bea masuk atau bea\nkeluar yang telah dibayar dari seluruh barang impor\natau barang ekspor yang dikenai denda dalam satu\npemberitahuan pabean, dengan ketentuan apabila\ntotal kekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda:\na. sampai dengan 5Oo/o (lima puluh persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar LOOo/o (seratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nb. di atas 50% (lima puluh persen) sampai dengan\nlOOo/o (seratus persen) dari total bea masuk\natau bea keluar yang telah dibayar yang dikenai\ndenda, dikenai denda sebesar 125% (seratus\ndua puluh lima persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;\nc. di atas lOOo/o (seratus persen) sampai dengan\n150% (seratus lima puluh persen) dari total bea\nmasuk atau bea keluar yang telah dibayar yang\ndikenai denda, dikenai denda sebesar l5O%\n(seratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nd. di atas\n\n\nPRES I DEN\nREPUBLIK INDONESIA\n-4-\nd. di atas l5Oo/o (seratus lima puluh persen)\nsampai dengan 2OOo/o (dua ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 175% (seratus tujuh puluh lima persen)\ndari total kekurangan pembayaran bea masuk\natau bea keluar yang terkena denda;\ne. di atas 2OOo/o (dua ratus persen) sampai dengan\n25ooh (dua ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n2OOo/o (dua ratus persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;\nf. di atas 25ooh (dua ratus lima puluh persen)\nsampai dengan 3OOo/o (tiga ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 225% (dua ratus dua puluh lima\npersen) dari total kekurangan pembayaran bea\nmasuk atau bea keluar yang terkena denda;\ng. di atas 300% (tiga ratus persen) sampai dengan\n350% (tiga ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n25Oo/o (dua ratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nh. di atas 350% (tiga ratus lima puluh persen)\nsampai dengan 4OOo/o (empat ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 3OOo/o (tiga ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\ni. di atas . .\n\n\n2\nPRES I DEN\nREPUBLIK INDONESIA\n-5-\ni. di atas 4OOo/o (empat ratus persen) sampai\ndengan 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 6000/o (enam ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda; atau\nj. \ndi atas 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 1000% (seribu persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda.\n(21 Ketentuan sebagaimana dimaksud pada ayat (1)\nberlaku untuk Pasal 16 ayat (4), Pasal 17 ayat (41,\nPasal 82 ayat (5) dan ayat (6), dan Pasal 86A\nUndang-Undang.",
+      "role": "SUBSTANTIVE",
+      "ord": 27
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/6/1",
+      "parent": "PP-2008-28#BT/6",
+      "heading": "",
+      "text": "Besarnya denda yang dinyatakan dalam persentase\ntertentu minimum sampai dengan maksimum dari\nkekurangan pembayaran bea masuk atau bea keluar\nsebagaimana dimaksud dalam Pasal 2 ayat (21\nhuruf d ditetapkan secara berjenjang berdasarkan\nperbandingan antara total kekurangan pembayaran\nbea masuk atau bea keluar yang terkena denda\ndengan total pembayaran bea masuk atau bea\nkeluar yang telah dibayar dari seluruh barang impor\natau barang ekspor yang dikenai denda dalam satu\npemberitahuan pabean, dengan ketentuan apabila\ntotal kekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda:\na. sampai dengan 5Oo/o (lima puluh persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar LOOo/o (seratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nb. di atas 50% (lima puluh persen) sampai dengan\nlOOo/o (seratus persen) dari total bea masuk\natau bea keluar yang telah dibayar yang dikenai\ndenda, dikenai denda sebesar 125% (seratus\ndua puluh lima persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;\nc. di atas lOOo/o (seratus persen) sampai dengan\n150% (seratus lima puluh persen) dari total bea\nmasuk atau bea keluar yang telah dibayar yang\ndikenai denda, dikenai denda sebesar l5O%\n(seratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nd. di atas\n\n\nPRES I DEN\nREPUBLIK INDONESIA\n-4-\nd. di atas l5Oo/o (seratus lima puluh persen)\nsampai dengan 2OOo/o (dua ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 175% (seratus tujuh puluh lima persen)\ndari total kekurangan pembayaran bea masuk\natau bea keluar yang terkena denda;\ne. di atas 2OOo/o (dua ratus persen) sampai dengan\n25ooh (dua ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n2OOo/o (dua ratus persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;\nf. di atas 25ooh (dua ratus lima puluh persen)\nsampai dengan 3OOo/o (tiga ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 225% (dua ratus dua puluh lima\npersen) dari total kekurangan pembayaran bea\nmasuk atau bea keluar yang terkena denda;\ng. di atas 300% (tiga ratus persen) sampai dengan\n350% (tiga ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n25Oo/o (dua ratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\nh. di atas 350% (tiga ratus lima puluh persen)\nsampai dengan 4OOo/o (empat ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 3OOo/o (tiga ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;\ni. di atas . .\n\n\n2\nPRES I DEN\nREPUBLIK INDONESIA\n-5-\ni. di atas 4OOo/o (empat ratus persen) sampai\ndengan 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 6000/o (enam ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda; atau\nj. \ndi atas 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 1000% (seribu persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda.",
+      "role": null,
+      "ord": 28
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PP-2008-28#BT/6/1/a",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "sampai dengan 5Oo/o (lima puluh persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar LOOo/o (seratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;",
+      "role": null,
+      "ord": 29
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PP-2008-28#BT/6/1/b",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 50% (lima puluh persen) sampai dengan\nlOOo/o (seratus persen) dari total bea masuk\natau bea keluar yang telah dibayar yang dikenai\ndenda, dikenai denda sebesar 125% (seratus\ndua puluh lima persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;",
+      "role": null,
+      "ord": 30
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "PP-2008-28#BT/6/1/c",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas lOOo/o (seratus persen) sampai dengan\n150% (seratus lima puluh persen) dari total bea\nmasuk atau bea keluar yang telah dibayar yang\ndikenai denda, dikenai denda sebesar l5O%\n(seratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;",
+      "role": null,
+      "ord": 31
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "PP-2008-28#BT/6/1/d",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas\n\n\nPRES I DEN\nREPUBLIK INDONESIA\n-4-",
+      "role": null,
+      "ord": 32
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "PP-2008-28#BT/6/1/d",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas l5Oo/o (seratus lima puluh persen)\nsampai dengan 2OOo/o (dua ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 175% (seratus tujuh puluh lima persen)\ndari total kekurangan pembayaran bea masuk\natau bea keluar yang terkena denda;",
+      "role": null,
+      "ord": 33
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "PP-2008-28#BT/6/1/e",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 2OOo/o (dua ratus persen) sampai dengan\n25ooh (dua ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n2OOo/o (dua ratus persen) dari total kekurangan\npembayaran bea masuk atau bea keluar yang\nterkena denda;",
+      "role": null,
+      "ord": 34
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "PP-2008-28#BT/6/1/f",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 25ooh (dua ratus lima puluh persen)\nsampai dengan 3OOo/o (tiga ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 225% (dua ratus dua puluh lima\npersen) dari total kekurangan pembayaran bea\nmasuk atau bea keluar yang terkena denda;",
+      "role": null,
+      "ord": 35
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "PP-2008-28#BT/6/1/g",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 300% (tiga ratus persen) sampai dengan\n350% (tiga ratus lima puluh persen) dari total\nbea masuk atau bea keluar yang telah dibayar\nyang dikenai denda, dikenai denda sebesar\n25Oo/o (dua ratus lima puluh persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;",
+      "role": null,
+      "ord": 36
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "PP-2008-28#BT/6/1/h",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 350% (tiga ratus lima puluh persen)\nsampai dengan 4OOo/o (empat ratus persen) dari\ntotal bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 3OOo/o (tiga ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda;",
+      "role": null,
+      "ord": 37
+    },
+    {
+      "level": "HURUF",
+      "nomor": "i",
+      "locator": "PP-2008-28#BT/6/1/i",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas . .\n\n\n2\nPRES I DEN\nREPUBLIK INDONESIA\n-5-",
+      "role": null,
+      "ord": 38
+    },
+    {
+      "level": "HURUF",
+      "nomor": "i",
+      "locator": "PP-2008-28#BT/6/1/i",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 4OOo/o (empat ratus persen) sampai\ndengan 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 6000/o (enam ratus persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda; atau",
+      "role": null,
+      "ord": 39
+    },
+    {
+      "level": "HURUF",
+      "nomor": "j",
+      "locator": "PP-2008-28#BT/6/1/j",
+      "parent": "PP-2008-28#BT/6/1",
+      "heading": "",
+      "text": "di atas 45Oo/o (empat ratus lima puluh persen)\ndari total bea masuk atau bea keluar yang telah\ndibayar yang dikenai denda, dikenai denda\nsebesar 1000% (seribu persen) dari total\nkekurangan pembayaran bea masuk atau bea\nkeluar yang terkena denda.",
+      "role": null,
+      "ord": 40
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/6/2",
+      "parent": "PP-2008-28#BT/6",
+      "heading": "",
+      "text": "Ketentuan sebagaimana dimaksud pada ayat (1)\nberlaku untuk Pasal 16 ayat (4), Pasal 17 ayat (41,\nPasal 82 ayat (5) dan ayat (6), dan Pasal 86A\nUndang-Undang.",
+      "role": null,
+      "ord": 41
+    },
+    {
+      "level": "PASAL",
+      "nomor": "7",
+      "locator": "PP-2008-28#BT/7",
+      "parent": null,
+      "heading": "",
+      "text": "(1)  Besarnya denda yang  dinyatakan dalam  persentase   minimum \nsampai dengan maksimum dari bea masuk yang seharusnya \ndibayar sebagaimana dimaksud dalam Pasal 2 ayat (2) huruf e \nditetapkan secara berjenjang berdasarkan perbandingan antara \nbea masuk atas fasilitas yang disalahgunakan dengan total bea \nmasuk yang mendapat fasilitas dengan ketentuan apabila \nkekurangan pembayaran bea masuk : \n\n\na. sampai dengan 20% (dua puluh persen), dikenai denda \nsebesar 100% (seratus persen) dari bea masuk yang \nseharusnya dibayar; \nb. di atas 20% (dua puluh persen) sampai dengan 40% (empat \npuluh persen), dikenai denda sebesar 200% (dua ratus \npersen) dari bea masuk yang seharusnya dibayar; \nc. di atas 40% (empat puluh persen) sampai dengan 60% (enam \npuluh persen), dikenai denda sebesar 300% (tiga ratus \npersen) dari bea masuk yang seharusnya dibayar; \nd. di atas 60% (enam puluh persen) sampai dengan 80% \n(delapan puluh persen), dikenai denda sebesar 400% (empat \nratus persen) dari bea masuk yang seharusnya dibayar; atau \ne. di atas 80% (delapan puluh persen) sampai dengan 100% \n(seratus persen), dikenai denda sebesar 500% (lima ratus \npersen) dari bea masuk yang seharusnya dibayar. \n \n(2) Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 25 ayat (4) dan Pasal 26 ayat (4) Undang-Undang.",
+      "role": "SUBSTANTIVE",
+      "ord": 42
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "PP-2008-28#BT/7/1",
+      "parent": "PP-2008-28#BT/7",
+      "heading": "",
+      "text": "Besarnya denda yang  dinyatakan dalam  persentase   minimum \nsampai dengan maksimum dari bea masuk yang seharusnya \ndibayar sebagaimana dimaksud dalam Pasal 2 ayat (2) huruf e \nditetapkan secara berjenjang berdasarkan perbandingan antara \nbea masuk atas fasilitas yang disalahgunakan dengan total bea \nmasuk yang mendapat fasilitas dengan ketentuan apabila \nkekurangan pembayaran bea masuk : \n\n\na. sampai dengan 20% (dua puluh persen), dikenai denda \nsebesar 100% (seratus persen) dari bea masuk yang \nseharusnya dibayar; \nb. di atas 20% (dua puluh persen) sampai dengan 40% (empat \npuluh persen), dikenai denda sebesar 200% (dua ratus \npersen) dari bea masuk yang seharusnya dibayar; \nc. di atas 40% (empat puluh persen) sampai dengan 60% (enam \npuluh persen), dikenai denda sebesar 300% (tiga ratus \npersen) dari bea masuk yang seharusnya dibayar; \nd. di atas 60% (enam puluh persen) sampai dengan 80% \n(delapan puluh persen), dikenai denda sebesar 400% (empat \nratus persen) dari bea masuk yang seharusnya dibayar; atau \ne. di atas 80% (delapan puluh persen) sampai dengan 100% \n(seratus persen), dikenai denda sebesar 500% (lima ratus \npersen) dari bea masuk yang seharusnya dibayar.",
+      "role": null,
+      "ord": 43
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "PP-2008-28#BT/7/1/a",
+      "parent": "PP-2008-28#BT/7/1",
+      "heading": "",
+      "text": "sampai dengan 20% (dua puluh persen), dikenai denda \nsebesar 100% (seratus persen) dari bea masuk yang \nseharusnya dibayar;",
+      "role": null,
+      "ord": 44
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "PP-2008-28#BT/7/1/b",
+      "parent": "PP-2008-28#BT/7/1",
+      "heading": "",
+      "text": "di atas 20% (dua puluh persen) sampai dengan 40% (empat \npuluh persen), dikenai denda sebesar 200% (dua ratus \npersen) dari bea masuk yang seharusnya dibayar;",
+      "role": null,
+      "ord": 45
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "PP-2008-28#BT/7/1/c",
+      "parent": "PP-2008-28#BT/7/1",
+      "heading": "",
+      "text": "di atas 40% (empat puluh persen) sampai dengan 60% (enam \npuluh persen), dikenai denda sebesar 300% (tiga ratus \npersen) dari bea masuk yang seharusnya dibayar;",
+      "role": null,
+      "ord": 46
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "PP-2008-28#BT/7/1/d",
+      "parent": "PP-2008-28#BT/7/1",
+      "heading": "",
+      "text": "di atas 60% (enam puluh persen) sampai dengan 80% \n(delapan puluh persen), dikenai denda sebesar 400% (empat \nratus persen) dari bea masuk yang seharusnya dibayar; atau",
+      "role": null,
+      "ord": 47
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "PP-2008-28#BT/7/1/e",
+      "parent": "PP-2008-28#BT/7/1",
+      "heading": "",
+      "text": "di atas 80% (delapan puluh persen) sampai dengan 100% \n(seratus persen), dikenai denda sebesar 500% (lima ratus \npersen) dari bea masuk yang seharusnya dibayar.",
+      "role": null,
+      "ord": 48
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/7/2",
+      "parent": "PP-2008-28#BT/7",
+      "heading": "",
+      "text": "Ketentuan  sebagaimana dimaksud pada ayat (1) berlaku untuk \nPasal 25 ayat (4) dan Pasal 26 ayat (4) Undang-Undang.",
+      "role": null,
+      "ord": 49
+    },
+    {
+      "level": "PASAL",
+      "nomor": "8",
+      "locator": "PP-2008-28#BT/8",
+      "parent": null,
+      "heading": "",
+      "text": "Terhadap pelanggaran yang dikenai sanksi administrasi berupa \ndenda yang dihitung berdasarkan persentase dari bea masuk, dalam \nhal tarif atau tarif akhir bea masuk atas barang yang berkaitan \ndengan pelanggaran tersebut besarnya 0% (nol persen), dikenai \nsanksi adminstrasi berupa denda sebesar Rp 5.000.000,00 (lima juta \nrupiah).",
+      "role": "SUBSTANTIVE",
+      "ord": 50
+    },
+    {
+      "level": "PASAL",
+      "nomor": "9",
+      "locator": "PP-2008-28#BT/9",
+      "parent": null,
+      "heading": "",
+      "text": "Terhadap pelanggaran yang ditemukan berdasarkan hasil audit \nyang dikenai denda sebagaimana dimaksud dalam Pasal 10A ayat \n(8), Pasal 11A ayat (6), Pasal 45 ayat (3), Pasal 52 ayat (1) dan ayat \n(2) Undang-Undang, dikenai denda 1 (satu) kali.",
+      "role": "SUBSTANTIVE",
+      "ord": 51
+    },
+    {
+      "level": "AYAT",
+      "nomor": "8",
+      "locator": "PP-2008-28#BT/9/8",
+      "parent": "PP-2008-28#BT/9",
+      "heading": "",
+      "text": ", Pasal 11A ayat (6), Pasal 45 ayat (3), Pasal 52 ayat (1) dan ayat",
+      "role": null,
+      "ord": 52
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "PP-2008-28#BT/9/2",
+      "parent": "PP-2008-28#BT/9",
+      "heading": "",
+      "text": "Undang-Undang, dikenai denda 1 (satu) kali.",
+      "role": null,
+      "ord": 53
+    },
+    {
+      "level": "PASAL",
+      "nomor": "10",
+      "locator": "PP-2008-28#BT/10",
+      "parent": null,
+      "heading": "",
+      "text": "Pengenaan \nsanksi \nadministrasi \nsebagaimana \ndiatur \ndalam \nPeraturan \nPemerintah \nini, \nditetapkan \ndalam \nbentuk \nsurat \npenetapan.",
+      "role": "SUBSTANTIVE",
+      "ord": 54
+    },
+    {
+      "level": "PASAL",
+      "nomor": "10A",
+      "locator": "PP-2008-28#BT/10A",
+      "parent": null,
+      "heading": "",
+      "text": "Ketentuan lebih lanjut mengenai tata cara penghitungan\nsanksi administrasi berupa denda sebagaimana\ndimaksud dalam Pasal 3 sampai dengan Pasal 8 diatur\ndengan Peraturan Menteri",
+      "role": "SUBSTANTIVE",
+      "ord": 55
+    },
+    {
+      "level": "PASAL",
+      "nomor": "11",
+      "locator": "PP-2008-28#BT/11",
+      "parent": null,
+      "heading": "",
+      "text": "Pada saat Peraturan Pemerintah ini mulai berlaku, Peraturan \nPemerintah Nomor 22 Tahun 1996 tentang Pengenaan Sanksi \nAdministrasi Kepabeanan (Lembaran Negara Republik Indonesia \nTahun 1996 Nomor 37, Tambahan Lembaran Negara Republik \nIndonesia Nomor 3627), dicabut dan dinyatakan tidak berlaku.",
+      "role": "SUBSTANTIVE",
+      "ord": 56
+    },
+    {
+      "level": "PASAL",
+      "nomor": "12",
+      "locator": "PP-2008-28#BT/12",
+      "parent": null,
+      "heading": "",
+      "text": "Peraturan Pemerintah ini mulai berlaku pada tanggal diundangkan. \n \nAgar setiap orang mengetahuinya, memerintahkan pengundangan \nPeraturan Pemerintah ini dengan penempatannya dalam Lembaran \nNegara Republik Indonesia. \n \nDitetapkan di Jakarta \npada tanggal 11 April 2008 \nPRESIDEN REPUBLIK INDONESIA, \n \nttd \n \nDR. H. SUSILO BAMBANG YUDHOYONO \n \n \nDiundangkan di Jakarta \nPada tanggal 11 April 2008 \nMENTERI HUKUM DAN HAK ASASI MANUSIA \n                   REPUBLIK INDONESIA, \nttd \n   ANDI MATTALATA \n \nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2008 NOMOR 53",
+      "role": "SUBSTANTIVE",
+      "ord": 57
+    }
   ]
 }

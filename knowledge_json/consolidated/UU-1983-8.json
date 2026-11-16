@@ -4,15 +4,17 @@
     "UU-1994-11",
     "UU-2000-18",
     "UU-2009-42",
-    "UU-2021-7"
+    "UU-2021-7",
+    "UU-2023-6"
   ],
   "provision_sources": {
     "UU-1994-11": "provisions",
     "UU-2000-18": "provisions",
     "UU-2009-42": "provisions",
-    "UU-2021-7": "text_top_level"
+    "UU-2021-7": "text_top_level",
+    "UU-2023-6": "text_top_level"
   },
-  "applied_count": 66,
+  "applied_count": 68,
   "unparsed_count": 0,
   "applied": [
     {
@@ -542,6 +544,22 @@
       "target": "16G",
       "source_quote": "Di antara Pasal 16F dan Pasal 17 disisipkan 1 (satu) pasal,\nyakni Pasal 16G sehingga berbunyi sebagai berikut:\nPasal 16G\nKetentuan lebih lanjut mengenai:\na. nilai lain sebagaimana dimaksud dalam Pasal",
       "note": "ok"
+    },
+    {
+      "amending": "UU-2023-6",
+      "ordinal": 1,
+      "action": "UBAH",
+      "target": "1A",
+      "source_quote": "Ketentuan Pasal 1A diubah sehingga berbunyi sebagai\nberikut:\nPasal 1A\n(1) Yang termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan hak atas Barang Kena Pajak\nkarena suatu perj",
+      "note": "ok"
+    },
+    {
+      "amending": "UU-2023-6",
+      "ordinal": 2,
+      "action": "UBAH",
+      "target": "13",
+      "source_quote": "Ketentuan Pasal 13 diubah sehingga berbunyi sebagai\nberikut:\nPasal 13. . .\nSK No 171639 A\n\n\nPRESIDEN\nREPUBUK INDONESIA\n-630-\nPasal 13\n(1) Pengusaha Kena Pajak wajib membuat Faktur\nPajak untuk setiap:\n",
+      "note": "ok"
     }
   ],
   "unparsed": [],
@@ -552,7 +570,7 @@
     },
     {
       "nomor": "1A",
-      "text": "(1) \nYang termasuk dalam pengertian penyerahan Barang \nKena Pajak adalah: \na.   penyerahan hak atas Barang Kena Pajak karena \nsuatu perjanjian; \nb.  pengalihan Barang Kena Pajak karena suatu \nperjanjian sewa beli dan/atau perjanjian sewa \nguna usaha (leasing);  \nc. \npenyerahan Barang Kena Pajak kepada pedagang \nperantara atau melalui juru lelang; \nd. \npemakaian sendiri dan/atau pemberian cuma-\ncuma atas Barang Kena Pajak; \ne.    Barang Kena Pajak berupa persediaan dan/atau \naktiva yang menurut tujuan semula tidak untuk \ndiperjualbelikan, yang masih tersisa pada saat \npembubaran perusahaan; \nf. \npenyerahan Barang Kena Pajak dari pusat ke \ncabang atau sebaliknya dan/atau penyerahan \nBarang Kena Pajak antar cabang;  \ng. \npenyerahan Barang Kena Pajak secara konsinyasi; \ndan \nh. penyerahan Barang Kena Pajak oleh Pengusaha \nKena Pajak dalam rangka perjanjian pembiayaan \nyang dilakukan berdasarkan prinsip syariah, yang \npenyerahannya dianggap langsung dari Pengusaha \nKena Pajak kepada pihak yang membutuhkan \nBarang Kena Pajak. \n(2) \nYang tidak termasuk dalam pengertian penyerahan \nBarang Kena Pajak adalah: \na.  penyerahan Barang Kena Pajak kepada makelar \nsebagaimana dimaksud dalam Kitab Undang-\nUndang Hukum Dagang; \n \n \nb. penyerahan ... \n\n\n \n \n \n- 8 -\n \nb. \npenyerahan Barang Kena Pajak untuk jaminan \nutang-piutang; \nc. \npenyerahan \nBarang \nKena \nPajak \nsebagaimana \ndimaksud pada ayat (1) huruf f dalam hal \nPengusaha Kena Pajak melakukan pemusatan \ntempat pajak terutang; \nd.  pengalihan Barang Kena Pajak dalam rangka \npenggabungan, \npeleburan, \npemekaran, \npemecahan, dan pengambilalihan usaha dengan \nsyarat pihak yang melakukan pengalihan dan yang \nmenerima pengalihan adalah Pengusaha Kena \nPajak; dan \ne.  Barang Kena Pajak berupa aktiva yang menurut \ntujuan semula tidak untuk diperjualbelikan, yang \nmasih tersisa pada saat pembubaran perusahaan, \ndan yang Pajak Masukan atas perolehannya tidak \ndapat dikreditkan sebagaimana dimaksud dalam \nPasal 9 ayat (8) huruf b dan huruf c."
+      "text": "(1) Yang termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan hak atas Barang Kena Pajak\nkarena suatu perjanjian;\nb. pengalihan Barang Kena Pajak karena suatu\nperjanjian sewa beli dan/atau perjanjian sewa\nguna usaha (leasingl;\nc. penyerahan Barang Kena Pajak kepada\npedagang perantara atau melalui juru lelang;\nd. pemakaian sendiri dan/atau pemberian\ncuma-cuma atas Barang Kena Pajak;\ne. Barang Kena Pajak berupa persediaan\ndan/atau aktiva yang menurut tujuan semula\ntidak untuk diperjualbelikan, yang masih\ntersisa pada saat pembubaran perusahaan;\nf. \npenyerahan Barang Kena Pajak dari pusat ke\ncabang atau sebaliknya danlatau penyerahan\nBarang Kena Pajak antarcabang;\nSK No 171638 A\ng. dihapus.\n\n\nPRESIDEN\nREPUBUK INDONESIA\n-629-\ng. dihapus; dan\nh. penyerahan Barang Kena Pajak oleh\nPengusaha Kena Pajak dalam rangka\nperjanjian pembiayaan yang dilakukan\nberdasarkan prinsip syariah, yang\npenyerahannya dianggap langsung dari\nPengusaha Kena Pajak kepada pihak yang\nmembutuhkan Barang Kena Pajak.\n(21 Yang tidak termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan Barang Kena Pajak kepada\nmakelar sebagaimana dimaksud dalam Kitab\nUndang-Undang Hukum Dagang;\nb. penyerahan Barang Kena Pajak untuk\njaminan utang-piutang;\nc. penyerahan Barang Kena Pajak sebagaimana\ndimaksud pada ayat (1) huruf f dalam hal\nPengusaha Kena Pajak melakukan pemusatan\ntempat pajak terutang;\nd. pengalihan Barang Kena Pajak dalam rangka\npenggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha,\nserta pengalihan Barang Kena Pajak untuk\ntujuan setoran modal pengganti saham,\ndengan syarat pihak yang melakukan\npengalihan dan yang menerima pengalihan\nadalah Pengusaha Kena Pajak; dan\ne. Barang Kena Pajak berupa aktiva yang\nmenurut tujuan semula tidak untuk\ndiperjualbelikan, yang masih tersisa pada saat\npembubaran perusahaan, dan yang Pajak\nMasukan atas perolehannya tidak dapat\ndikreditkan sebagaimana dimaksud dalam\nPasal 9 ayat (8) huruf b.\n2"
     },
     {
       "nomor": "2",
@@ -612,7 +630,7 @@
     },
     {
       "nomor": "13",
-      "text": "(1) \nPengusaha Kena Pajak wajib membuat Faktur Pajak \nuntuk setiap: \na. \npenyerahan \nBarang \nKena \nPajak \nsebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf a atau \nhuruf f dan/atau Pasal 16D;  \nb. \npenyerahan \nJasa \nKena \nPajak \nsebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf c;  \nc. \nekspor \nBarang \nKena \nPajak \nTidak \nBerwujud \nsebagaimana dimaksud dalam Pasal 4 ayat (1) \nhuruf g; dan/atau  \nd. \nekspor Jasa Kena Pajak sebagaimana dimaksud \ndalam Pasal 4 ayat (1) huruf h. \n(1a)  Faktur Pajak sebagaimana dimaksud pada ayat (1) \nharus dibuat pada: \na. \nsaat penyerahan Barang Kena Pajak dan/atau \npenyerahan Jasa Kena Pajak;  \nb. \nsaat \npenerimaan \npembayaran \ndalam \nhal \npenerimaan \npembayaran \nterjadi \nsebelum \npenyerahan Barang Kena Pajak dan/atau sebelum \npenyerahan Jasa Kena Pajak;  \nc.  saat penerimaan pembayaran termin dalam hal \npenyerahan sebagian tahap pekerjaan; atau \nd. \nsaat lain yang diatur dengan atau berdasarkan \nPeraturan Menteri Keuangan. \n \n \n(2) Dikecualikan ... \n\n\n \n \n \n- 21 -\n \n(2) \nDikecualikan dari ketentuan sebagaimana dimaksud \npada ayat (1), Pengusaha Kena Pajak dapat membuat 1 \n(satu) Faktur Pajak meliputi seluruh penyerahan yang \ndilakukan kepada pembeli Barang Kena Pajak atau \npenerima Jasa Kena Pajak yang sama selama 1 (satu) \nbulan kalender. \n(2a)  Faktur Pajak sebagaimana dimaksud pada ayat (2) \nharus \ndibuat \npaling \nlama \npada \nakhir \nbulan \npenyerahan. \n(3) \nDihapus. \n(4) \nDihapus. \n(5) \nDalam Faktur Pajak harus dicantumkan keterangan \ntentang penyerahan Barang Kena Pajak dan/atau \npenyerahan Jasa Kena Pajak yang paling sedikit \nmemuat: \na. \nnama, alamat, dan Nomor Pokok Wajib Pajak yang \nmenyerahkan Barang Kena Pajak atau Jasa Kena \nPajak; \nb. \nnama, alamat, dan Nomor Pokok Wajib Pajak \npembeli Barang Kena Pajak atau penerima Jasa \nKena Pajak; \nc. \njenis barang atau jasa, jumlah Harga Jual atau \nPenggantian, dan potongan harga;  \nd. \nPajak Pertambahan Nilai yang dipungut; \ne. \nPajak \nPenjualan \natas \nBarang \nMewah \nyang \ndipungut; \nf. \nkode, nomor seri, dan tanggal pembuatan Faktur \nPajak; dan \ng. \nnama \ndan \ntanda \ntangan \nyang \nberhak \nmenandatangani Faktur Pajak. \n(6) \nDirektur Jenderal Pajak dapat menetapkan dokumen \ntertentu yang kedudukannya dipersamakan dengan \nFaktur Pajak. \n(7) \nDihapus. \n(8) \nKetentuan lebih lanjut mengenai tata cara pembuatan \nFaktur \nPajak \ndan \ntata \ncara \npembetulan \natau \npenggantian \nFaktur \nPajak \ndiatur \ndengan \natau \nberdasarkan Peraturan Menteri Keuangan. \n(9) \nFaktur Pajak harus memenuhi persyaratan formal dan \nmaterial. \n15. Di antara ... \n\n\n \n \n \n- 22 -"
+      "text": "(1) Pengusaha Kena Pajak wajib membuat Faktur\nPajak untuk setiap:\na. penyerahan Barang Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf a atau\nhuruf f dan/atau Pasal 16D;\nb. penyerahan Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf c;\nc. ekspor Barang Kena Pajak Tidak Berwujud\nsebagaimana dimaksud dalam Pasal 4 ayat (1)\nhuruf g; dan/atau\nd. ekspor Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf h.\n(1a) Faktur Pajak sebagaimana dimaksud pada ayat (1)\nharus dibuat pada:\na. saat penyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak;\nb. saat penerimaan pembayaran dalam hal\npenerimaan pembayaran terjadi sebelum\npenyerahan Barang Kena Pajak dan/atau\nsebelum penyerahan Jasa Kena Pajak;\nc. saat penerimaan pembayaran termin dalam\nhal penyerahan sebagian tahap pekerjaan;\natau\nd. saat lain yang diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.\n(2) Dikecualikan dari ketentuan sebagaimana\ndimaksud pada ayat (1), Pengusaha Kena Pajak\ndapat membuat 1 (satu) Faktur Pajak meliputi\nselurrrh penyerahan yang dilakukan kepada\npembeli Barang Kena Pajak atau penerima Jasa\nKena Pajak yang sama selama 1 (satu) bulan\nkalender.\n(2a) Faktur Pajak sebagaimana dimaksud pada ayat (21\nharus dibuat paling lama pada akhir bulan\npenyerahan.\nSK No 171640 A\n(3) Dihapus...\n\n\n(3)\n(41\n(s)\nFRESIDEN\nREPUBUK TNDONESIA\n-631-\nDihapus.\nDihapus.\nDalam Faktur Pajak harus dicantumkan\nketerangan tentang penyerahan Barang Kena Pajak\ndan/atau penyerahan Jasa Kena Pajak yang paling\nsedikit memuat:\na. nama, alamat, dan Nomor Pokok Wajib Pajak\nyang menyerahkan Barang Kena Pajak atau\nJasa Kena Pajak;\nb. identitas pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak yang meliputi:\n1. nama, alamat, dan Nomor Pokok Wajib\nPajak atau nomor induk kependudukan\natau nomor paspor bagi subjek pajak luar\nnegeri orang pribadi; atau\n2. nama dan alamat, dalam hal pembeli\nBarang Kena Pajak atau penerima Jasa\nKena Pajak merupakan subjek pajak luar\nnegeri badan atau bukan merupakan\nsubjek pajak sebagaimana dimaksud\ndalam Pasal 3 Undang-Undang tentang\nPajak Penghasilan;\nc. jenis barang atau jasa, jumlah Harga Jual\natau Penggantian, dan potongan harga;\nd. Pajak Pertambahan Nilai yang dipungut;\ne. Pajak Penjualan atas Barang Mewah yang\ndipungut;\nf. \nkode, nomor seri, dan tanggal pembuatan\nFaktur Pajak; dan\ng. nama dan tanda tangan yang berhak\nmenandatangani Faktur Pajak.\nSK No 17164l A\n(5a) Pengusaha. . .\n\n\nPRESIDEN\nBUK INDONESIA\n-632-\n(5a) Pengusaha Kena Pajak pedagang eceran dapat\nmembuat Faktur Pajak tanpa mencantumkan\nketerangan mengenai identitas pembeli serta nama\ndan tanda tangan penjual dalam hal melakukan\npenyerahan Barang Kena Pajak dan/atau Jasa\nKena Pajak kepada pembeli dengan karakteristik\nkonsumen akhir yang diatur lebih lanjut dengan\nPeraturan Menteri Keuangan.\n(6) Direktur Jenderal Pajak dapat menetapkan\ndokumen tertentu yang \nkedudukannya\ndipersamakan dengan Faktur Pajak.\n(71 Dihapus.\n(8) Ketentuan lebih lanjut mengenai tata cara\npembuatan Faktur Pajak dan tata cara pembetulan\natau penggantian Faktur Pajak diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.\n(9) Faktur Pajak harus memenuhi persyaratan formal\ndan material."
     },
     {
       "nomor": "14",
@@ -669,6 +687,2888 @@
     {
       "nomor": "15A",
       "text": "(1) \nPenyetoran Pajak Pertambahan Nilai oleh Pengusaha \nKena Pajak sebagaimana dimaksud dalam Pasal 9 ayat \n(3) \nharus \ndilakukan \npaling \nlama \nakhir \nbulan \nberikutnya setelah berakhirnya Masa Pajak dan \nsebelum \nSurat \nPemberitahuan \nMasa \nPajak \nPertambahan Nilai disampaikan. \n(2) \nSurat Pemberitahuan Masa Pajak Pertambahan Nilai \ndisampaikan paling lama akhir bulan berikutnya \nsetelah berakhirnya Masa Pajak."
+    }
+  ],
+  "sub_provisions": [
+    {
+      "level": "PASAL",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/1",
+      "parent": null,
+      "heading": "",
+      "text": "Dalam Undang-Undang ini yang dimaksud dengan: \n1. Daerah Pabean adalah wilayah Republik Indonesia \nyang meliputi wilayah darat, perairan, dan ruang udara \ndi atasnya, serta tempat-tempat tertentu di Zona \nEkonomi Eksklusif dan landas kontinen yang di \ndalamnya berlaku Undang-Undang yang mengatur \nmengenai kepabeanan. \n2. Barang adalah barang berwujud, yang menurut sifat \natau hukumnya dapat berupa barang bergerak atau \nbarang tidak bergerak, dan barang tidak berwujud. \n3. Barang Kena Pajak adalah barang yang dikenai pajak \nberdasarkan Undang-Undang ini. \n4. Penyerahan Barang Kena Pajak adalah setiap kegiatan \npenyerahan Barang Kena Pajak. \n5. Jasa \nadalah \nsetiap \nkegiatan \npelayanan \nyang \nberdasarkan suatu perikatan atau perbuatan hukum \nyang \nmenyebabkan \nsuatu \nbarang, \nfasilitas, \nkemudahan, \natau \nhak \ntersedia \nuntuk \ndipakai, \ntermasuk jasa yang dilakukan untuk menghasilkan \nbarang karena pesanan atau permintaan dengan bahan \ndan atas petunjuk dari pemesan. \n6. Jasa ... \n\n\n \n \n \n- 4 -\n \n6. Jasa Kena Pajak adalah jasa yang dikenai pajak \nberdasarkan Undang-Undang ini. \n7. Penyerahan Jasa Kena Pajak adalah setiap kegiatan \npemberian Jasa Kena Pajak.  \n8. Pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean \nadalah setiap kegiatan pemanfaatan Jasa Kena Pajak \ndari luar Daerah Pabean di dalam Daerah Pabean. \n9. Impor adalah setiap kegiatan memasukkan barang dari \nluar Daerah Pabean ke dalam Daerah Pabean. \n10. Pemanfaatan Barang Kena Pajak Tidak Berwujud dari \nluar \nDaerah \nPabean \nadalah \nsetiap \nkegiatan \npemanfaatan Barang Kena Pajak Tidak Berwujud dari \nluar Daerah Pabean di dalam Daerah Pabean. \n11. Ekspor Barang Kena Pajak Berwujud adalah setiap \nkegiatan mengeluarkan Barang Kena Pajak Berwujud \ndari dalam Daerah Pabean ke luar Daerah Pabean.  \n12. Perdagangan adalah kegiatan usaha membeli dan \nmenjual, termasuk kegiatan tukar-menukar barang, \ntanpa mengubah bentuk dan/atau sifatnya. \n13. Badan adalah sekumpulan orang dan/atau modal yang \nmerupakan kesatuan baik yang melakukan usaha \nmaupun yang tidak melakukan usaha yang meliputi \nperseroan terbatas, perseroan komanditer, perseroan \nlainnya, badan usaha milik negara atau badan usaha \nmilik daerah dengan nama dan dalam bentuk apapun, \nfirma, kongsi, koperasi, dana pensiun, persekutuan, \nperkumpulan, yayasan, organisasi massa, organisasi \nsosial politik, atau organisasi lainnya, lembaga dan \nbentuk badan lainnya termasuk kontrak investasi \nkolektif dan bentuk usaha tetap.  \n14. Pengusaha adalah orang pribadi atau badan dalam \nbentuk apa pun yang dalam kegiatan usaha atau \npekerjaannya \nmenghasilkan \nbarang, \nmengimpor \nbarang, \nmengekspor \nbarang, \nmelakukan \nusaha \nperdagangan, memanfaatkan barang tidak berwujud \ndari luar Daerah Pabean, melakukan usaha jasa \ntermasuk mengekspor jasa, atau memanfaatkan jasa \ndari luar Daerah Pabean. \n \n \n15. Pengusaha ... \n\n\n \n \n \n- 5 -\n \n15. Pengusaha \nKena \nPajak \nadalah \npengusaha \nyang \nmelakukan penyerahan Barang Kena Pajak dan/atau \npenyerahan Jasa Kena Pajak yang dikenai pajak \nberdasarkan Undang-Undang ini. \n16. Menghasilkan adalah kegiatan mengolah melalui proses \nmengubah bentuk dan/atau sifat suatu barang dari \nbentuk aslinya menjadi barang baru atau mempunyai \ndaya guna baru atau kegiatan mengolah sumber daya \nalam, termasuk menyuruh orang pribadi atau badan \nlain melakukan kegiatan tersebut. \n17. Dasar Pengenaan Pajak adalah jumlah Harga Jual, \nPenggantian, Nilai Impor, Nilai Ekspor, atau nilai lain \nyang dipakai sebagai dasar untuk menghitung pajak \nyang terutang. \n18. Harga Jual adalah nilai berupa uang, termasuk semua \nbiaya yang diminta atau seharusnya diminta oleh \npenjual karena penyerahan Barang Kena Pajak, tidak \ntermasuk Pajak Pertambahan Nilai yang dipungut \nmenurut Undang-Undang ini dan potongan harga yang \ndicantumkan dalam Faktur Pajak. \n19. Penggantian adalah nilai berupa uang, termasuk \nsemua biaya yang diminta atau seharusnya diminta \noleh pengusaha karena penyerahan Jasa Kena Pajak, \nekspor Jasa Kena Pajak, atau ekspor Barang Kena \nPajak Tidak Berwujud, tetapi tidak termasuk Pajak \nPertambahan Nilai yang dipungut menurut Undang-\nUndang ini dan potongan harga yang dicantumkan \ndalam Faktur Pajak atau nilai berupa uang yang \ndibayar atau seharusnya dibayar oleh Penerima Jasa \nkarena pemanfaatan Jasa Kena Pajak dan/atau oleh \npenerima manfaat Barang Kena Pajak Tidak Berwujud \nkarena \npemanfaatan \nBarang \nKena \nPajak \nTidak \nBerwujud dari luar Daerah Pabean di dalam Daerah \nPabean. \n20. Nilai Impor adalah nilai berupa uang yang menjadi \ndasar penghitungan bea masuk ditambah pungutan \nberdasarkan ketentuan dalam peraturan perundang-\nundangan yang mengatur mengenai kepabeanan dan \ncukai untuk impor Barang Kena Pajak, tidak termasuk \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang dipungut menurut Undang-\nUndang ini. \n21. Pembeli ... \n\n\n \n \n \n- 6 -\n \n21. Pembeli adalah orang pribadi atau badan yang \nmenerima atau seharusnya menerima penyerahan \nBarang \nKena \nPajak \ndan \nyang \nmembayar \natau \nseharusnya membayar harga Barang Kena Pajak \ntersebut. \n22. Penerima Jasa adalah orang pribadi atau badan yang \nmenerima atau seharusnya menerima penyerahan Jasa \nKena Pajak dan yang membayar atau seharusnya \nmembayar Penggantian atas Jasa Kena Pajak tersebut. \n23. Faktur Pajak adalah bukti pungutan pajak yang dibuat \noleh \nPengusaha \nKena \nPajak \nyang \nmelakukan \npenyerahan Barang Kena Pajak atau penyerahan Jasa \nKena Pajak. \n24. Pajak Masukan adalah Pajak Pertambahan Nilai yang \nseharusnya sudah dibayar oleh Pengusaha Kena Pajak \nkarena \nperolehan \nBarang \nKena \nPajak \ndan/atau \nperolehan Jasa Kena Pajak dan/atau pemanfaatan \nBarang Kena Pajak Tidak Berwujud dari luar Daerah \nPabean dan/atau pemanfaatan Jasa Kena Pajak dari \nluar Daerah Pabean dan/atau impor Barang Kena \nPajak. \n25. Pajak Keluaran adalah Pajak Pertambahan Nilai \nterutang yang wajib dipungut oleh Pengusaha Kena \nPajak yang melakukan penyerahan Barang Kena Pajak, \npenyerahan Jasa Kena Pajak, ekspor Barang Kena \nPajak Berwujud, ekspor Barang Kena Pajak Tidak \nBerwujud, dan/atau ekspor Jasa Kena Pajak. \n26. Nilai Ekspor adalah nilai berupa uang, termasuk \nsemua biaya yang diminta atau seharusnya diminta \noleh eksportir.  \n27. Pemungut Pajak Pertambahan Nilai adalah bendahara \npemerintah, badan, atau instansi pemerintah yang \nditunjuk oleh Menteri Keuangan untuk memungut, \nmenyetor, dan melaporkan pajak yang terutang oleh \nPengusaha Kena Pajak atas penyerahan Barang Kena \nPajak dan/atau penyerahan Jasa Kena Pajak kepada \nbendahara \npemerintah, \nbadan, \natau \ninstansi \npemerintah tersebut. \n28. Ekspor Barang Kena Pajak Tidak Berwujud adalah \nsetiap kegiatan pemanfaatan Barang Kena Pajak Tidak \nBerwujud dari dalam Daerah Pabean di luar Daerah \nPabean. \n29. Ekspor ... \n\n\n \n \n \n- 7 -\n \n29. Ekspor Jasa Kena Pajak adalah setiap kegiatan \npenyerahan Jasa Kena Pajak ke luar Daerah Pabean.",
+      "role": "DEFINITION",
+      "ord": 0
+    },
+    {
+      "level": "PASAL",
+      "nomor": "1A",
+      "locator": "UU-1983-8#BT/1A",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Yang termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan hak atas Barang Kena Pajak\nkarena suatu perjanjian;\nb. pengalihan Barang Kena Pajak karena suatu\nperjanjian sewa beli dan/atau perjanjian sewa\nguna usaha (leasingl;\nc. penyerahan Barang Kena Pajak kepada\npedagang perantara atau melalui juru lelang;\nd. pemakaian sendiri dan/atau pemberian\ncuma-cuma atas Barang Kena Pajak;\ne. Barang Kena Pajak berupa persediaan\ndan/atau aktiva yang menurut tujuan semula\ntidak untuk diperjualbelikan, yang masih\ntersisa pada saat pembubaran perusahaan;\nf. \npenyerahan Barang Kena Pajak dari pusat ke\ncabang atau sebaliknya danlatau penyerahan\nBarang Kena Pajak antarcabang;\nSK No 171638 A\ng. dihapus.\n\n\nPRESIDEN\nREPUBUK INDONESIA\n-629-\ng. dihapus; dan\nh. penyerahan Barang Kena Pajak oleh\nPengusaha Kena Pajak dalam rangka\nperjanjian pembiayaan yang dilakukan\nberdasarkan prinsip syariah, yang\npenyerahannya dianggap langsung dari\nPengusaha Kena Pajak kepada pihak yang\nmembutuhkan Barang Kena Pajak.\n(21 Yang tidak termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan Barang Kena Pajak kepada\nmakelar sebagaimana dimaksud dalam Kitab\nUndang-Undang Hukum Dagang;\nb. penyerahan Barang Kena Pajak untuk\njaminan utang-piutang;\nc. penyerahan Barang Kena Pajak sebagaimana\ndimaksud pada ayat (1) huruf f dalam hal\nPengusaha Kena Pajak melakukan pemusatan\ntempat pajak terutang;\nd. pengalihan Barang Kena Pajak dalam rangka\npenggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha,\nserta pengalihan Barang Kena Pajak untuk\ntujuan setoran modal pengganti saham,\ndengan syarat pihak yang melakukan\npengalihan dan yang menerima pengalihan\nadalah Pengusaha Kena Pajak; dan\ne. Barang Kena Pajak berupa aktiva yang\nmenurut tujuan semula tidak untuk\ndiperjualbelikan, yang masih tersisa pada saat\npembubaran perusahaan, dan yang Pajak\nMasukan atas perolehannya tidak dapat\ndikreditkan sebagaimana dimaksud dalam\nPasal 9 ayat (8) huruf b.\n2",
+      "role": "SUBSTANTIVE",
+      "ord": 1
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/1A/1",
+      "parent": "UU-1983-8#BT/1A",
+      "heading": "",
+      "text": "Yang termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan hak atas Barang Kena Pajak\nkarena suatu perjanjian;\nb. pengalihan Barang Kena Pajak karena suatu\nperjanjian sewa beli dan/atau perjanjian sewa\nguna usaha (leasingl;\nc. penyerahan Barang Kena Pajak kepada\npedagang perantara atau melalui juru lelang;\nd. pemakaian sendiri dan/atau pemberian\ncuma-cuma atas Barang Kena Pajak;\ne. Barang Kena Pajak berupa persediaan\ndan/atau aktiva yang menurut tujuan semula\ntidak untuk diperjualbelikan, yang masih\ntersisa pada saat pembubaran perusahaan;\nf. \npenyerahan Barang Kena Pajak dari pusat ke\ncabang atau sebaliknya danlatau penyerahan\nBarang Kena Pajak antarcabang;\nSK No 171638 A\ng. dihapus.\n\n\nPRESIDEN\nREPUBUK INDONESIA\n-629-\ng. dihapus; dan\nh. penyerahan Barang Kena Pajak oleh\nPengusaha Kena Pajak dalam rangka\nperjanjian pembiayaan yang dilakukan\nberdasarkan prinsip syariah, yang\npenyerahannya dianggap langsung dari\nPengusaha Kena Pajak kepada pihak yang\nmembutuhkan Barang Kena Pajak.",
+      "role": null,
+      "ord": 2
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/1A/1/a",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "penyerahan hak atas Barang Kena Pajak\nkarena suatu perjanjian;",
+      "role": null,
+      "ord": 3
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/1A/1/b",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "pengalihan Barang Kena Pajak karena suatu\nperjanjian sewa beli dan/atau perjanjian sewa\nguna usaha (leasingl;",
+      "role": null,
+      "ord": 4
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/1A/1/c",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak kepada\npedagang perantara atau melalui juru lelang;",
+      "role": null,
+      "ord": 5
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/1A/1/d",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "pemakaian sendiri dan/atau pemberian\ncuma-cuma atas Barang Kena Pajak;",
+      "role": null,
+      "ord": 6
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/1A/1/e",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "Barang Kena Pajak berupa persediaan\ndan/atau aktiva yang menurut tujuan semula\ntidak untuk diperjualbelikan, yang masih\ntersisa pada saat pembubaran perusahaan;",
+      "role": null,
+      "ord": 7
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/1A/1/f",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak dari pusat ke\ncabang atau sebaliknya danlatau penyerahan\nBarang Kena Pajak antarcabang;\nSK No 171638 A",
+      "role": null,
+      "ord": 8
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/1A/1/g",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "dihapus.\n\n\nPRESIDEN\nREPUBUK INDONESIA\n-629-",
+      "role": null,
+      "ord": 9
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/1A/1/g",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "dihapus; dan",
+      "role": null,
+      "ord": 10
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/1A/1/h",
+      "parent": "UU-1983-8#BT/1A/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak oleh\nPengusaha Kena Pajak dalam rangka\nperjanjian pembiayaan yang dilakukan\nberdasarkan prinsip syariah, yang\npenyerahannya dianggap langsung dari\nPengusaha Kena Pajak kepada pihak yang\nmembutuhkan Barang Kena Pajak.",
+      "role": null,
+      "ord": 11
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/1A/2",
+      "parent": "UU-1983-8#BT/1A",
+      "heading": "",
+      "text": "Yang tidak termasuk dalam pengertian penyerahan\nBarang Kena Pajak adalah:\na. penyerahan Barang Kena Pajak kepada\nmakelar sebagaimana dimaksud dalam Kitab\nUndang-Undang Hukum Dagang;\nb. penyerahan Barang Kena Pajak untuk\njaminan utang-piutang;\nc. penyerahan Barang Kena Pajak sebagaimana\ndimaksud pada ayat (1) huruf f dalam hal\nPengusaha Kena Pajak melakukan pemusatan\ntempat pajak terutang;\nd. pengalihan Barang Kena Pajak dalam rangka\npenggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha,\nserta pengalihan Barang Kena Pajak untuk\ntujuan setoran modal pengganti saham,\ndengan syarat pihak yang melakukan\npengalihan dan yang menerima pengalihan\nadalah Pengusaha Kena Pajak; dan\ne. Barang Kena Pajak berupa aktiva yang\nmenurut tujuan semula tidak untuk\ndiperjualbelikan, yang masih tersisa pada saat\npembubaran perusahaan, dan yang Pajak\nMasukan atas perolehannya tidak dapat\ndikreditkan sebagaimana dimaksud dalam\nPasal 9 ayat (8) huruf b.\n2",
+      "role": null,
+      "ord": 12
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/1A/2/a",
+      "parent": "UU-1983-8#BT/1A/2",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak kepada\nmakelar sebagaimana dimaksud dalam Kitab\nUndang-Undang Hukum Dagang;",
+      "role": null,
+      "ord": 13
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/1A/2/b",
+      "parent": "UU-1983-8#BT/1A/2",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak untuk\njaminan utang-piutang;",
+      "role": null,
+      "ord": 14
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/1A/2/c",
+      "parent": "UU-1983-8#BT/1A/2",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak sebagaimana\ndimaksud pada ayat (1) huruf f dalam hal\nPengusaha Kena Pajak melakukan pemusatan\ntempat pajak terutang;",
+      "role": null,
+      "ord": 15
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/1A/2/d",
+      "parent": "UU-1983-8#BT/1A/2",
+      "heading": "",
+      "text": "pengalihan Barang Kena Pajak dalam rangka\npenggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha,\nserta pengalihan Barang Kena Pajak untuk\ntujuan setoran modal pengganti saham,\ndengan syarat pihak yang melakukan\npengalihan dan yang menerima pengalihan\nadalah Pengusaha Kena Pajak; dan",
+      "role": null,
+      "ord": 16
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/1A/2/e",
+      "parent": "UU-1983-8#BT/1A/2",
+      "heading": "",
+      "text": "Barang Kena Pajak berupa aktiva yang\nmenurut tujuan semula tidak untuk\ndiperjualbelikan, yang masih tersisa pada saat\npembubaran perusahaan, dan yang Pajak\nMasukan atas perolehannya tidak dapat\ndikreditkan sebagaimana dimaksud dalam\nPasal 9 ayat (8) huruf b.\n2",
+      "role": null,
+      "ord": 17
+    },
+    {
+      "level": "PASAL",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/2",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Dalam hal Harga Jual atau Penggantian dipengaruhi oleh \nhubungan istimewa, maka Harga Jual atau Penggantian dihitung \natas dasar harga pasar wajar pada saat penyerahan Barang Kena \nPajak atau Jasa Kena Pajak itu dilakukan. \n \n(2) Hubungan istimewa dianggap ada apabila: \n \n \n a. Pengusaha mempunya penyertaan langsung atau tidak \nlangsung sebesar 25% (dua puluh lima persen) atau lebih \npada Pengusaha lain, atau hubungan antara Pengusaha \ndengan penyertaan 25% (dua puluh lima persen) atau lebih \npada dua Pengusaha atau lebih, demikian pula hubungan \nantara dua Pengusaha atau lebih yang disebut terakhir; atau \n \n \n b. Pengusaha menguasai Pengusaha lainnya atau dua atau lebih \nPengusaha berada di bawah pengusaaan Pengusaha yang \nsama baik langsung maupun tidak langsung; atau \n \n \n c. Terdapat hubungan keluarga baik sedarah maupun semenda \ndalam garis keturunan lurus satu derajat dan/atau ke samping \nsatu derajat.",
+      "role": "SUBSTANTIVE",
+      "ord": 18
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/2/1",
+      "parent": "UU-1983-8#BT/2",
+      "heading": "",
+      "text": "Dalam hal Harga Jual atau Penggantian dipengaruhi oleh \nhubungan istimewa, maka Harga Jual atau Penggantian dihitung \natas dasar harga pasar wajar pada saat penyerahan Barang Kena \nPajak atau Jasa Kena Pajak itu dilakukan.",
+      "role": null,
+      "ord": 19
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/2/2",
+      "parent": "UU-1983-8#BT/2",
+      "heading": "",
+      "text": "Hubungan istimewa dianggap ada apabila: \n \n \n a. Pengusaha mempunya penyertaan langsung atau tidak \nlangsung sebesar 25% (dua puluh lima persen) atau lebih \npada Pengusaha lain, atau hubungan antara Pengusaha \ndengan penyertaan 25% (dua puluh lima persen) atau lebih \npada dua Pengusaha atau lebih, demikian pula hubungan \nantara dua Pengusaha atau lebih yang disebut terakhir; atau \n \n \n b. Pengusaha menguasai Pengusaha lainnya atau dua atau lebih \nPengusaha berada di bawah pengusaaan Pengusaha yang \nsama baik langsung maupun tidak langsung; atau \n \n \n c. Terdapat hubungan keluarga baik sedarah maupun semenda \ndalam garis keturunan lurus satu derajat dan/atau ke samping \nsatu derajat.",
+      "role": null,
+      "ord": 20
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/2/2/a",
+      "parent": "UU-1983-8#BT/2/2",
+      "heading": "",
+      "text": "Pengusaha mempunya penyertaan langsung atau tidak \nlangsung sebesar 25% (dua puluh lima persen) atau lebih \npada Pengusaha lain, atau hubungan antara Pengusaha \ndengan penyertaan 25% (dua puluh lima persen) atau lebih \npada dua Pengusaha atau lebih, demikian pula hubungan \nantara dua Pengusaha atau lebih yang disebut terakhir; atau",
+      "role": null,
+      "ord": 21
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/2/2/b",
+      "parent": "UU-1983-8#BT/2/2",
+      "heading": "",
+      "text": "Pengusaha menguasai Pengusaha lainnya atau dua atau lebih \nPengusaha berada di bawah pengusaaan Pengusaha yang \nsama baik langsung maupun tidak langsung; atau",
+      "role": null,
+      "ord": 22
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/2/2/c",
+      "parent": "UU-1983-8#BT/2/2",
+      "heading": "",
+      "text": "Terdapat hubungan keluarga baik sedarah maupun semenda \ndalam garis keturunan lurus satu derajat dan/atau ke samping \nsatu derajat.",
+      "role": null,
+      "ord": 23
+    },
+    {
+      "level": "PASAL",
+      "nomor": "3A",
+      "locator": "UU-1983-8#BT/3A",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nPengusaha yang melakukan penyerahan sebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf a, huruf c, \nhuruf f, huruf g, dan huruf h, kecuali pengusaha kecil \nyang batasannya ditetapkan oleh Menteri Keuangan, \nwajib melaporkan usahanya untuk dikukuhkan sebagai \nPengusaha Kena Pajak dan wajib memungut, menyetor, \ndan melaporkan Pajak Pertambahan Nilai dan Pajak \nPenjualan atas Barang Mewah yang terutang. \n(1a) Pengusaha kecil sebagaimana dimaksud pada ayat (1) \ndapat memilih untuk dikukuhkan sebagai Pengusaha \nKena Pajak. \n(2)  \nPengusaha kecil yang memilih untuk dikukuhkan \nsebagai Pengusaha Kena Pajak wajib melaksanakan \nketentuan sebagaimana dimaksud pada ayat (1). \n \n \n \n(3) Orang ... \n\n\n \n \n \n- 9 -\n \n(3) \nOrang pribadi atau badan yang memanfaatkan Barang \nKena Pajak Tidak Berwujud dari luar Daerah Pabean \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d \ndan/atau yang memanfaatkan Jasa Kena Pajak dari \nluar Daerah Pabean sebagaimana dimaksud dalam \nPasal 4 ayat (1) huruf e wajib memungut, menyetor, \ndan \nmelaporkan \nPajak \nPertambahan \nNilai \nyang \nterutang yang penghitungan dan tata caranya diatur \ndengan Peraturan Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 24
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/3A/1",
+      "parent": "UU-1983-8#BT/3A",
+      "heading": "",
+      "text": "Pengusaha yang melakukan penyerahan sebagaimana \ndimaksud dalam Pasal 4 ayat (1) huruf a, huruf c, \nhuruf f, huruf g, dan huruf h, kecuali pengusaha kecil \nyang batasannya ditetapkan oleh Menteri Keuangan, \nwajib melaporkan usahanya untuk dikukuhkan sebagai \nPengusaha Kena Pajak dan wajib memungut, menyetor, \ndan melaporkan Pajak Pertambahan Nilai dan Pajak \nPenjualan atas Barang Mewah yang terutang.",
+      "role": null,
+      "ord": 25
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1a",
+      "locator": "UU-1983-8#BT/3A/1a",
+      "parent": "UU-1983-8#BT/3A",
+      "heading": "",
+      "text": "Pengusaha kecil sebagaimana dimaksud pada ayat (1) \ndapat memilih untuk dikukuhkan sebagai Pengusaha \nKena Pajak.",
+      "role": null,
+      "ord": 26
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/3A/2",
+      "parent": "UU-1983-8#BT/3A",
+      "heading": "",
+      "text": "Pengusaha kecil yang memilih untuk dikukuhkan \nsebagai Pengusaha Kena Pajak wajib melaksanakan \nketentuan sebagaimana dimaksud pada ayat (1).",
+      "role": null,
+      "ord": 27
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/3A/3",
+      "parent": "UU-1983-8#BT/3A",
+      "heading": "",
+      "text": "Orang ... \n\n\n \n \n \n- 9 -",
+      "role": null,
+      "ord": 28
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/3A/3",
+      "parent": "UU-1983-8#BT/3A",
+      "heading": "",
+      "text": "Orang pribadi atau badan yang memanfaatkan Barang \nKena Pajak Tidak Berwujud dari luar Daerah Pabean \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d \ndan/atau yang memanfaatkan Jasa Kena Pajak dari \nluar Daerah Pabean sebagaimana dimaksud dalam \nPasal 4 ayat (1) huruf e wajib memungut, menyetor, \ndan \nmelaporkan \nPajak \nPertambahan \nNilai \nyang \nterutang yang penghitungan dan tata caranya diatur \ndengan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 29
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/4",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nPajak Pertambahan Nilai dikenakan atas: \na.  penyerahan Barang Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha; \nb.  impor Barang Kena Pajak; \nc. \npenyerahan Jasa Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha; \nd. \npemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean di dalam Daerah Pabean; \ne.  pemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean di dalam Daerah Pabean; \nf.  ekspor \nBarang \nKena \nPajak \nBerwujud \noleh \nPengusaha Kena Pajak; \ng. \nekspor Barang Kena Pajak Tidak Berwujud oleh \nPengusaha Kena Pajak; dan  \nh. ekspor Jasa Kena Pajak oleh Pengusaha Kena \nPajak. \n(2) \nKetentuan mengenai batasan kegiatan dan jenis Jasa \nKena \nPajak \nyang \natas \nekspornya \ndikenai \nPajak \nPertambahan Nilai sebagaimana dimaksud pada ayat (1) \nhuruf h diatur dengan Peraturan Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 30
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/4/1",
+      "parent": "UU-1983-8#BT/4",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai dikenakan atas: \na.  penyerahan Barang Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha; \nb.  impor Barang Kena Pajak; \nc. \npenyerahan Jasa Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha; \nd. \npemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean di dalam Daerah Pabean; \ne.  pemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean di dalam Daerah Pabean; \nf.  ekspor \nBarang \nKena \nPajak \nBerwujud \noleh \nPengusaha Kena Pajak; \ng. \nekspor Barang Kena Pajak Tidak Berwujud oleh \nPengusaha Kena Pajak; dan  \nh. ekspor Jasa Kena Pajak oleh Pengusaha Kena \nPajak.",
+      "role": null,
+      "ord": 31
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/4/1/a",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha;",
+      "role": null,
+      "ord": 32
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/4/1/b",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "impor Barang Kena Pajak;",
+      "role": null,
+      "ord": 33
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/4/1/c",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "penyerahan Jasa Kena Pajak di dalam Daerah \nPabean yang dilakukan oleh pengusaha;",
+      "role": null,
+      "ord": 34
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/4/1/d",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "pemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean di dalam Daerah Pabean;",
+      "role": null,
+      "ord": 35
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/4/1/e",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "pemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean di dalam Daerah Pabean;",
+      "role": null,
+      "ord": 36
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/4/1/f",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "ekspor \nBarang \nKena \nPajak \nBerwujud \noleh \nPengusaha Kena Pajak;",
+      "role": null,
+      "ord": 37
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/4/1/g",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "ekspor Barang Kena Pajak Tidak Berwujud oleh \nPengusaha Kena Pajak; dan",
+      "role": null,
+      "ord": 38
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/4/1/h",
+      "parent": "UU-1983-8#BT/4/1",
+      "heading": "",
+      "text": "ekspor Jasa Kena Pajak oleh Pengusaha Kena \nPajak.",
+      "role": null,
+      "ord": 39
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/4/2",
+      "parent": "UU-1983-8#BT/4",
+      "heading": "",
+      "text": "Ketentuan mengenai batasan kegiatan dan jenis Jasa \nKena \nPajak \nyang \natas \nekspornya \ndikenai \nPajak \nPertambahan Nilai sebagaimana dimaksud pada ayat (1) \nhuruf h diatur dengan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 40
+    },
+    {
+      "level": "PASAL",
+      "nomor": "4A",
+      "locator": "UU-1983-8#BT/4A",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\n(21\nDihapus.\nJenis barang yang tidak dikenai Pajak Pertambahan\nNilai, yakni barang tertentu dalam kelompok barang\nsebagai berikut:\na. dihapus;\nb. dihapus;\nc. makanan dan minuman yang disajikan di hotel,\nrestoran, rumah makan, warung, dan\nsejenisnya, meliputi makanan dan minuman\nbaik yang dikonsumsi di tempat maupun tidak,\ntermasuk makanan dan minuman yang\ndiserahkan oleh usaha jasa boga atau katering,\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah; dan\nSK No 115567 A\nd. uang\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-66-\nd. uang, emas batangan untuk kepentingan\ncadangan devisa negara, dan surat berharga.\n(3) Jenis jasa yang tidak dikenai Pajak Pertambahan Nilai\nyakni jasa tertentu dalam kelompok jasa sebagai\nberikut:\na. dihapus;\nb. dihapus;\nc. dihapus;\nd. dihapus;\ne. dihapus;\nf. \njasa keagamaan;\ng. dihapus;\nh. jasa kesenian dan hiburan, meliputi semua jenis\njasa yang dilakukan oleh pekerja seni dan\nhiburan yang merupakan objek pajak daerah\ndan retribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah;\ni. \ndihapus;\nj. \ndihapus;\nk. dihapus;\nl. \njasa perhotelan, meliputi jasa penyewaan kamar\ndan/atau jasa penyewaan ruangan di hotel yang\nmerupakan objek pajak daerah dan retribusi\ndaerah sesuai dengan ketentuan peraturan\nperundang-undangan di bidang pajak daerah\ndan retribusi daerah;\nm. jasa yang disediakan oleh pemerintah dalam\nrangka menjalankan pemerintahan secara\numum, meliputi semua jenis jasa sehubungan\ndengan kegiatan pelayanan yang hanya dapat\ndilakukan oleh pemerintah sesuai dengan\nkewenangannya berdasarkan peraturan\nperundang-undangan dan jasa tersebut tidak\ndapat disediakan oleh bentuk usaha lain;\nSK No 115568 A\nn. Jasa ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-67 -\n2\nn. jasa penyediaan tempat parkir, meliputi jasa\npenyediaan atau penyelenggaraan tempat parkir\nyang dilakukan oleh pemilik tempat parkir atau\npengusaha pengelola tempat parkir kepada\npengguna tempat parkir yang merupakan objek\npajak daerah dan retribusi daerah sesuai dengan\nketentuan peraturan perundang-undangan di\nbidang pajak daerah dan retribusi daerah;\no. dihapus;\np. dihapus; dan\nq. jasa boga atau katering, meliputi semua kegiatan\npelayanan penyediaan makanan dan minuman\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah.",
+      "role": "SUBSTANTIVE",
+      "ord": 41
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/4A/1",
+      "parent": "UU-1983-8#BT/4A",
+      "heading": "",
+      "text": "(21\nDihapus.\nJenis barang yang tidak dikenai Pajak Pertambahan\nNilai, yakni barang tertentu dalam kelompok barang\nsebagai berikut:\na. dihapus;\nb. dihapus;\nc. makanan dan minuman yang disajikan di hotel,\nrestoran, rumah makan, warung, dan\nsejenisnya, meliputi makanan dan minuman\nbaik yang dikonsumsi di tempat maupun tidak,\ntermasuk makanan dan minuman yang\ndiserahkan oleh usaha jasa boga atau katering,\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah; dan\nSK No 115567 A\nd. uang\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-66-\nd. uang, emas batangan untuk kepentingan\ncadangan devisa negara, dan surat berharga.",
+      "role": null,
+      "ord": 42
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/4A/1/a",
+      "parent": "UU-1983-8#BT/4A/1",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 43
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/4A/1/b",
+      "parent": "UU-1983-8#BT/4A/1",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 44
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/4A/1/c",
+      "parent": "UU-1983-8#BT/4A/1",
+      "heading": "",
+      "text": "makanan dan minuman yang disajikan di hotel,\nrestoran, rumah makan, warung, dan\nsejenisnya, meliputi makanan dan minuman\nbaik yang dikonsumsi di tempat maupun tidak,\ntermasuk makanan dan minuman yang\ndiserahkan oleh usaha jasa boga atau katering,\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah; dan\nSK No 115567 A",
+      "role": null,
+      "ord": 45
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/4A/1/d",
+      "parent": "UU-1983-8#BT/4A/1",
+      "heading": "",
+      "text": "uang\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-66-",
+      "role": null,
+      "ord": 46
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/4A/1/d",
+      "parent": "UU-1983-8#BT/4A/1",
+      "heading": "",
+      "text": "uang, emas batangan untuk kepentingan\ncadangan devisa negara, dan surat berharga.",
+      "role": null,
+      "ord": 47
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/4A/3",
+      "parent": "UU-1983-8#BT/4A",
+      "heading": "",
+      "text": "Jenis jasa yang tidak dikenai Pajak Pertambahan Nilai\nyakni jasa tertentu dalam kelompok jasa sebagai\nberikut:\na. dihapus;\nb. dihapus;\nc. dihapus;\nd. dihapus;\ne. dihapus;\nf. \njasa keagamaan;\ng. dihapus;\nh. jasa kesenian dan hiburan, meliputi semua jenis\njasa yang dilakukan oleh pekerja seni dan\nhiburan yang merupakan objek pajak daerah\ndan retribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah;\ni. \ndihapus;\nj. \ndihapus;\nk. dihapus;\nl. \njasa perhotelan, meliputi jasa penyewaan kamar\ndan/atau jasa penyewaan ruangan di hotel yang\nmerupakan objek pajak daerah dan retribusi\ndaerah sesuai dengan ketentuan peraturan\nperundang-undangan di bidang pajak daerah\ndan retribusi daerah;\nm. jasa yang disediakan oleh pemerintah dalam\nrangka menjalankan pemerintahan secara\numum, meliputi semua jenis jasa sehubungan\ndengan kegiatan pelayanan yang hanya dapat\ndilakukan oleh pemerintah sesuai dengan\nkewenangannya berdasarkan peraturan\nperundang-undangan dan jasa tersebut tidak\ndapat disediakan oleh bentuk usaha lain;\nSK No 115568 A\nn. Jasa ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-67 -\n2\nn. jasa penyediaan tempat parkir, meliputi jasa\npenyediaan atau penyelenggaraan tempat parkir\nyang dilakukan oleh pemilik tempat parkir atau\npengusaha pengelola tempat parkir kepada\npengguna tempat parkir yang merupakan objek\npajak daerah dan retribusi daerah sesuai dengan\nketentuan peraturan perundang-undangan di\nbidang pajak daerah dan retribusi daerah;\no. dihapus;\np. dihapus; dan\nq. jasa boga atau katering, meliputi semua kegiatan\npelayanan penyediaan makanan dan minuman\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah.",
+      "role": null,
+      "ord": 48
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/4A/3/a",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 49
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/4A/3/b",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 50
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/4A/3/c",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 51
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/4A/3/d",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 52
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/4A/3/e",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 53
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/4A/3/f",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "jasa keagamaan;",
+      "role": null,
+      "ord": 54
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/4A/3/g",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 55
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/4A/3/h",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "jasa kesenian dan hiburan, meliputi semua jenis\njasa yang dilakukan oleh pekerja seni dan\nhiburan yang merupakan objek pajak daerah\ndan retribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah;",
+      "role": null,
+      "ord": 56
+    },
+    {
+      "level": "HURUF",
+      "nomor": "i",
+      "locator": "UU-1983-8#BT/4A/3/i",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 57
+    },
+    {
+      "level": "HURUF",
+      "nomor": "j",
+      "locator": "UU-1983-8#BT/4A/3/j",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 58
+    },
+    {
+      "level": "HURUF",
+      "nomor": "k",
+      "locator": "UU-1983-8#BT/4A/3/k",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 59
+    },
+    {
+      "level": "HURUF",
+      "nomor": "l",
+      "locator": "UU-1983-8#BT/4A/3/l",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "jasa perhotelan, meliputi jasa penyewaan kamar\ndan/atau jasa penyewaan ruangan di hotel yang\nmerupakan objek pajak daerah dan retribusi\ndaerah sesuai dengan ketentuan peraturan\nperundang-undangan di bidang pajak daerah\ndan retribusi daerah;",
+      "role": null,
+      "ord": 60
+    },
+    {
+      "level": "HURUF",
+      "nomor": "m",
+      "locator": "UU-1983-8#BT/4A/3/m",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "jasa yang disediakan oleh pemerintah dalam\nrangka menjalankan pemerintahan secara\numum, meliputi semua jenis jasa sehubungan\ndengan kegiatan pelayanan yang hanya dapat\ndilakukan oleh pemerintah sesuai dengan\nkewenangannya berdasarkan peraturan\nperundang-undangan dan jasa tersebut tidak\ndapat disediakan oleh bentuk usaha lain;\nSK No 115568 A",
+      "role": null,
+      "ord": 61
+    },
+    {
+      "level": "HURUF",
+      "nomor": "n",
+      "locator": "UU-1983-8#BT/4A/3/n",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "Jasa ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-67 -\n2",
+      "role": null,
+      "ord": 62
+    },
+    {
+      "level": "HURUF",
+      "nomor": "n",
+      "locator": "UU-1983-8#BT/4A/3/n",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "jasa penyediaan tempat parkir, meliputi jasa\npenyediaan atau penyelenggaraan tempat parkir\nyang dilakukan oleh pemilik tempat parkir atau\npengusaha pengelola tempat parkir kepada\npengguna tempat parkir yang merupakan objek\npajak daerah dan retribusi daerah sesuai dengan\nketentuan peraturan perundang-undangan di\nbidang pajak daerah dan retribusi daerah;",
+      "role": null,
+      "ord": 63
+    },
+    {
+      "level": "HURUF",
+      "nomor": "o",
+      "locator": "UU-1983-8#BT/4A/3/o",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 64
+    },
+    {
+      "level": "HURUF",
+      "nomor": "p",
+      "locator": "UU-1983-8#BT/4A/3/p",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "dihapus; dan",
+      "role": null,
+      "ord": 65
+    },
+    {
+      "level": "HURUF",
+      "nomor": "q",
+      "locator": "UU-1983-8#BT/4A/3/q",
+      "parent": "UU-1983-8#BT/4A/3",
+      "heading": "",
+      "text": "jasa boga atau katering, meliputi semua kegiatan\npelayanan penyediaan makanan dan minuman\nyang merupakan objek pajak daerah dan\nretribusi daerah sesuai dengan ketentuan\nperaturan perundang-undangan di bidang pajak\ndaerah dan retribusi daerah.",
+      "role": null,
+      "ord": 66
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5",
+      "locator": "UU-1983-8#BT/5",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nDi samping pengenaan Pajak Pertambahan Nilai \nsebagaimana dimaksud dalam Pasal 4 ayat (1), dikenai \njuga Pajak Penjualan atas Barang Mewah terhadap: \na. \npenyerahan Barang Kena Pajak yang tergolong \nmewah yang dilakukan oleh pengusaha yang \nmenghasilkan barang tersebut di dalam Daerah \nPabean dalam kegiatan usaha atau pekerjaannya; \ndan \nb. \nimpor Barang Kena Pajak yang tergolong mewah. \n(2) \nPajak Penjualan atas Barang Mewah dikenakan hanya \n1 (satu) kali pada waktu penyerahan Barang Kena \nPajak yang tergolong mewah oleh pengusaha yang \nmenghasilkan atau pada waktu impor Barang Kena \nPajak yang tergolong mewah.",
+      "role": "SUBSTANTIVE",
+      "ord": 67
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/5/1",
+      "parent": "UU-1983-8#BT/5",
+      "heading": "",
+      "text": "Di samping pengenaan Pajak Pertambahan Nilai \nsebagaimana dimaksud dalam Pasal 4 ayat (1), dikenai \njuga Pajak Penjualan atas Barang Mewah terhadap: \na. \npenyerahan Barang Kena Pajak yang tergolong \nmewah yang dilakukan oleh pengusaha yang \nmenghasilkan barang tersebut di dalam Daerah \nPabean dalam kegiatan usaha atau pekerjaannya; \ndan \nb. \nimpor Barang Kena Pajak yang tergolong mewah.",
+      "role": null,
+      "ord": 68
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/5/1/a",
+      "parent": "UU-1983-8#BT/5/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak yang tergolong \nmewah yang dilakukan oleh pengusaha yang \nmenghasilkan barang tersebut di dalam Daerah \nPabean dalam kegiatan usaha atau pekerjaannya; \ndan",
+      "role": null,
+      "ord": 69
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/5/1/b",
+      "parent": "UU-1983-8#BT/5/1",
+      "heading": "",
+      "text": "impor Barang Kena Pajak yang tergolong mewah.",
+      "role": null,
+      "ord": 70
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/5/2",
+      "parent": "UU-1983-8#BT/5",
+      "heading": "",
+      "text": "Pajak Penjualan atas Barang Mewah dikenakan hanya \n1 (satu) kali pada waktu penyerahan Barang Kena \nPajak yang tergolong mewah oleh pengusaha yang \nmenghasilkan atau pada waktu impor Barang Kena \nPajak yang tergolong mewah.",
+      "role": null,
+      "ord": 71
+    },
+    {
+      "level": "PASAL",
+      "nomor": "5A",
+      "locator": "UU-1983-8#BT/5A",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nPajak Pertambahan Nilai atau Pajak Pertambahan Nilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \natas \npenyerahan Barang Kena Pajak yang dikembalikan \ndapat dikurangkan dari Pajak Pertambahan Nilai atau \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang terutang dalam Masa Pajak \nterjadinya pengembalian Barang Kena Pajak tersebut. \n(2) \nPajak Pertambahan Nilai atas penyerahan Jasa Kena \nPajak yang dibatalkan, baik seluruhnya maupun \nsebagian, dapat dikurangkan dari Pajak Pertambahan \nNilai yang terutang dalam Masa Pajak terjadinya \npembatalan tersebut.   \n(3) Ketentuan ... \n\n\n \n \n \n- 12 -\n \n(3) \nKetentuan mengenai tata cara pengurangan Pajak \nPertambahan Nilai atau Pajak Pertambahan Nilai dan \nPajak Penjualan atas Barang Mewah sebagaimana \ndimaksud pada ayat (1) dan pengurangan Pajak \nPertambahan Nilai sebagaimana dimaksud pada ayat \n(2) diatur dengan Peraturan Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 72
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/5A/1",
+      "parent": "UU-1983-8#BT/5A",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \natas \npenyerahan Barang Kena Pajak yang dikembalikan \ndapat dikurangkan dari Pajak Pertambahan Nilai atau \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang terutang dalam Masa Pajak \nterjadinya pengembalian Barang Kena Pajak tersebut.",
+      "role": null,
+      "ord": 73
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/5A/2",
+      "parent": "UU-1983-8#BT/5A",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai atas penyerahan Jasa Kena \nPajak yang dibatalkan, baik seluruhnya maupun \nsebagian, dapat dikurangkan dari Pajak Pertambahan \nNilai yang terutang dalam Masa Pajak terjadinya \npembatalan tersebut.",
+      "role": null,
+      "ord": 74
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/5A/3",
+      "parent": "UU-1983-8#BT/5A",
+      "heading": "",
+      "text": "Ketentuan ... \n\n\n \n \n \n- 12 -",
+      "role": null,
+      "ord": 75
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/5A/3",
+      "parent": "UU-1983-8#BT/5A",
+      "heading": "",
+      "text": "Ketentuan mengenai tata cara pengurangan Pajak \nPertambahan Nilai atau Pajak Pertambahan Nilai dan \nPajak Penjualan atas Barang Mewah sebagaimana \ndimaksud pada ayat (1) dan pengurangan Pajak \nPertambahan Nilai sebagaimana dimaksud pada ayat",
+      "role": null,
+      "ord": 76
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/5A/2",
+      "parent": "UU-1983-8#BT/5A",
+      "heading": "",
+      "text": "diatur dengan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 77
+    },
+    {
+      "level": "PASAL",
+      "nomor": "7",
+      "locator": "UU-1983-8#BT/7",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Tarif Pajak Pertambahan Nilai yaitu:\na. sebesar 11% (sebelas persen) yang mulai berlaku\npada tanggal 1 April 2022;\nb. sebesar 12% (dua belas persen) yang mulai\nberlaku paling lambat pada tanggal\n1 Januari2025.\n(21 Tarif Pajak Pertambahan Nilai sebesar 0% (nol persen)\nditerapkan atas:\na. ekspor Barang Kena Pajak Berwujud;\nb. ekspor Barang Kena Pajak Tidak Berwujud; dan\nc. ekspor Jasa Kena Pajak.\n(3) Tarif ...\nSK No I15569 A\n\n\n3\ntrRESIDEN\nREPUBLIK INDONESIA\n-68-\n(3) Tarif Pajak Pertambahan Nilai sebagaimana\ndimaksud pada ayat (1) dapat diubah menjadi paling\nrendah 5% (lima persen) dan paling tinggi 15% (lima\nbelas persen).\n(41 Perubahan tarif Pajak Pertambahan Nilai\nsebagaimana dimaksud pada ayat (3) diatur dengan\nPeraturan Pemerintah setelah disampaikan oleh\nPemerintah kepada Dewan Perwakilan Ratryat\nRepublik Indonesia untuk dibahas dan disepakati\ndalam penyusunan Rancangan Anggaran Pendapatan\ndan Belanja Negara.",
+      "role": "SUBSTANTIVE",
+      "ord": 78
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/7/1",
+      "parent": "UU-1983-8#BT/7",
+      "heading": "",
+      "text": "Tarif Pajak Pertambahan Nilai yaitu:\na. sebesar 11% (sebelas persen) yang mulai berlaku\npada tanggal 1 April 2022;\nb. sebesar 12% (dua belas persen) yang mulai\nberlaku paling lambat pada tanggal\n1 Januari2025.",
+      "role": null,
+      "ord": 79
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/7/1/a",
+      "parent": "UU-1983-8#BT/7/1",
+      "heading": "",
+      "text": "sebesar 11% (sebelas persen) yang mulai berlaku\npada tanggal 1 April 2022;",
+      "role": null,
+      "ord": 80
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/7/1/b",
+      "parent": "UU-1983-8#BT/7/1",
+      "heading": "",
+      "text": "sebesar 12% (dua belas persen) yang mulai\nberlaku paling lambat pada tanggal\n1 Januari2025.",
+      "role": null,
+      "ord": 81
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/7/2",
+      "parent": "UU-1983-8#BT/7",
+      "heading": "",
+      "text": "Tarif Pajak Pertambahan Nilai sebesar 0% (nol persen)\nditerapkan atas:\na. ekspor Barang Kena Pajak Berwujud;\nb. ekspor Barang Kena Pajak Tidak Berwujud; dan\nc. ekspor Jasa Kena Pajak.",
+      "role": null,
+      "ord": 82
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/7/2/a",
+      "parent": "UU-1983-8#BT/7/2",
+      "heading": "",
+      "text": "ekspor Barang Kena Pajak Berwujud;",
+      "role": null,
+      "ord": 83
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/7/2/b",
+      "parent": "UU-1983-8#BT/7/2",
+      "heading": "",
+      "text": "ekspor Barang Kena Pajak Tidak Berwujud; dan",
+      "role": null,
+      "ord": 84
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/7/2/c",
+      "parent": "UU-1983-8#BT/7/2",
+      "heading": "",
+      "text": "ekspor Jasa Kena Pajak.",
+      "role": null,
+      "ord": 85
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/7/3",
+      "parent": "UU-1983-8#BT/7",
+      "heading": "",
+      "text": "Tarif ...\nSK No I15569 A\n\n\n3\ntrRESIDEN\nREPUBLIK INDONESIA\n-68-",
+      "role": null,
+      "ord": 86
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/7/3",
+      "parent": "UU-1983-8#BT/7",
+      "heading": "",
+      "text": "Tarif Pajak Pertambahan Nilai sebagaimana\ndimaksud pada ayat (1) dapat diubah menjadi paling\nrendah 5% (lima persen) dan paling tinggi 15% (lima\nbelas persen).",
+      "role": null,
+      "ord": 87
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/7/4",
+      "parent": "UU-1983-8#BT/7",
+      "heading": "",
+      "text": "Perubahan tarif Pajak Pertambahan Nilai\nsebagaimana dimaksud pada ayat (3) diatur dengan\nPeraturan Pemerintah setelah disampaikan oleh\nPemerintah kepada Dewan Perwakilan Ratryat\nRepublik Indonesia untuk dibahas dan disepakati\ndalam penyusunan Rancangan Anggaran Pendapatan\ndan Belanja Negara.",
+      "role": null,
+      "ord": 88
+    },
+    {
+      "level": "PASAL",
+      "nomor": "8",
+      "locator": "UU-1983-8#BT/8",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nTarif Pajak Penjualan atas Barang Mewah ditetapkan \npaling rendah 10% (sepuluh persen) dan paling tinggi \n200% (dua ratus persen). \n(2) \nEkspor Barang Kena Pajak yang tergolong mewah \ndikenai pajak dengan tarif 0% (nol persen). \n(3) \nKetentuan mengenai kelompok Barang Kena Pajak yang \ntergolong mewah yang dikenai Pajak Penjualan atas \nBarang Mewah dengan tarif sebagaimana dimaksud \npada ayat (1) diatur dengan Peraturan Pemerintah. \n \n \n(4) Ketentuan ... \n\n\n \n \n \n- 13 -\n \n(4) \nKetentuan mengenai jenis barang yang dikenai Pajak \nPenjualan atas Barang Mewah sebagaimana dimaksud \npada \nayat \n(3) \ndiatur \ndengan \natau \nberdasarkan \nPeraturan Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 89
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/8/1",
+      "parent": "UU-1983-8#BT/8",
+      "heading": "",
+      "text": "Tarif Pajak Penjualan atas Barang Mewah ditetapkan \npaling rendah 10% (sepuluh persen) dan paling tinggi \n200% (dua ratus persen).",
+      "role": null,
+      "ord": 90
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/8/2",
+      "parent": "UU-1983-8#BT/8",
+      "heading": "",
+      "text": "Ekspor Barang Kena Pajak yang tergolong mewah \ndikenai pajak dengan tarif 0% (nol persen).",
+      "role": null,
+      "ord": 91
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/8/3",
+      "parent": "UU-1983-8#BT/8",
+      "heading": "",
+      "text": "Ketentuan mengenai kelompok Barang Kena Pajak yang \ntergolong mewah yang dikenai Pajak Penjualan atas \nBarang Mewah dengan tarif sebagaimana dimaksud \npada ayat (1) diatur dengan Peraturan Pemerintah.",
+      "role": null,
+      "ord": 92
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/8/4",
+      "parent": "UU-1983-8#BT/8",
+      "heading": "",
+      "text": "Ketentuan ... \n\n\n \n \n \n- 13 -",
+      "role": null,
+      "ord": 93
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/8/4",
+      "parent": "UU-1983-8#BT/8",
+      "heading": "",
+      "text": "Ketentuan mengenai jenis barang yang dikenai Pajak \nPenjualan atas Barang Mewah sebagaimana dimaksud \npada \nayat",
+      "role": null,
+      "ord": 94
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/8/3",
+      "parent": "UU-1983-8#BT/8",
+      "heading": "",
+      "text": "diatur \ndengan \natau \nberdasarkan \nPeraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 95
+    },
+    {
+      "level": "PASAL",
+      "nomor": "8A",
+      "locator": "UU-1983-8#BT/8A",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Pajak Pertambahan Nilai yang terutang dihitung\ndengan cara mengalikan tarif sebagaimana dimaksud\ndalam Pasal 7 dengan Dasar Pengenaan Pajak yang\nmeliputi Harga Jual, Penggantian, Nilai Impor, Nilai\nEkspor, atau nilai lain.\n(21 Dihapus.\n(3) Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean,\nyang dalam penghitungan Pajak Pertambahan Nilai\nterutang menggunakan Dasar Pengenaan Pajak\nberupa nilai lain sebagaimana dimaksud pada\nayat (1), dapat dikreditkan.",
+      "role": "SUBSTANTIVE",
+      "ord": 96
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/8A/1",
+      "parent": "UU-1983-8#BT/8A",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai yang terutang dihitung\ndengan cara mengalikan tarif sebagaimana dimaksud\ndalam Pasal 7 dengan Dasar Pengenaan Pajak yang\nmeliputi Harga Jual, Penggantian, Nilai Impor, Nilai\nEkspor, atau nilai lain.",
+      "role": null,
+      "ord": 97
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/8A/2",
+      "parent": "UU-1983-8#BT/8A",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 98
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/8A/3",
+      "parent": "UU-1983-8#BT/8A",
+      "heading": "",
+      "text": "Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean,\nyang dalam penghitungan Pajak Pertambahan Nilai\nterutang menggunakan Dasar Pengenaan Pajak\nberupa nilai lain sebagaimana dimaksud pada\nayat (1), dapat dikreditkan.",
+      "role": null,
+      "ord": 99
+    },
+    {
+      "level": "PASAL",
+      "nomor": "9",
+      "locator": "UU-1983-8#BT/9",
+      "parent": null,
+      "heading": "",
+      "text": "PRESIDEN\nREPUELIK INDONESIA\n_69_\nPasal 9\n(1) Dihapus.\n(2) Pajak Masukan dalam suatu Masa Pajak dikreditkan\ndengan Pajak Keluaran dalam Masa Pajak yang sama.\n(2a) Bagi Pengusaha Kena Pajak yang belum melakukan\npenyerahan Barang Kena Pajak dan/atau Jasa Kena\nPajak dan/atau ekspor Barang Kena Pajak dan/atau\nJasa Kena Pajak, Pajak Masukan atas perolehan\nBarang Kena Pajak dan/atau Jasa Kena Pajak, impor\nBarang Kena Pajak, serta pemanfaatan Barang Kena\nPajak Tidak Berwujud dan/atau pemanfaatan Jasa\nKena Pajak dari luar Daerah Pabean di dalam Daerah\nPabean dapat dikreditkan sepanjang memenuhi\nketentuan pengkreditan sesuai dengan Undang-\nUndang ini.\n(2b) Pajak Masukan yang dikreditkan harus\nmenggunakan Faktur Pajak yang memenuhi\npersyaratan sebagaimana dimaksud dalam Pasal 13\nayat (5) dan ayat (9).\n(3) Apabila dalam suatu Masa Pajak, Pajak Keluaran\nlebih besar daripada Pajak Masukan, selisihnya\nmerupakan Pajak Pertambahan Nilai yang harus\ndisetor oleh Pengusaha Kena Pajak.\n(41 Apabila dalam suatu Masa Pajak, Pajak Masukan\nyang dapat dikreditkan lebih besar daripada Pajak\nKeluaran, selisihnya merupakan kelebihan pajak\nyang dikompensasikan ke Masa Pajak berikutnya.\n(4a) Atas kelebihan Pajak Masukan sebagaimana\ndimaksud pada ayat (4) dapat diajukan permohonan\npengembalian pada akhir tahun buku.\n(ab) Dikecualikan dari ketentuan sebagaimana dimaksud\npada ayat (41 dan ayat (4a), atas kelebihan Pajak\nMasukan dapat diajukan permohonan pengembalian\npada setiap Masa Pajak oleh:\na. Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Berwujud;\nSK No 115571 A\nb. Pengusaha\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_70_\nb. Pengusaha Kena Pajak yang melakukan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak kepada Pemungut\nPajak Pertambahan Nilai;\nc. Pengusaha Kena Pajak yang melaku.kan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak yang Pajak\nPertambahan Nilainya tidak dipungut;\nd. Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Tidak Berwujud;\ne. Pengusaha Kena Pajak yang melakukan ekspor\nJasa Kena Pajak; dan/atau\nf. \ndihapus.\n(4c) Pengembalian kelebihan Pajak Masukan kepada\nPengusaha Kena Pajak sebagaimana dimaksud pada\nayat (4b) huruf a sampai dengan huruf e, yang\nmempunyai kriteria sebagai Pengusaha Kena Pajak\nberisiko rendah, dilakukan dengan pengembalian\npendahuluan kelebihan pajak sesuai ketentuan\nsebagaimana dimaksud dalam Pasal l7C ayat (1)\nUndang-Undang Nomor 6 Tahun 1983 tentang\nKetentuan Umum dan Tata Cara Perpajakan dan\nperubahannya.\n(4d) Dihapus.\n(4e) Drrektur Jenderal Pajak dapat melakukan\npemeriksaan terhadap Pengusaha Kena Pajak\nsebagaimana. dimaksud pada ayat (4c) dan\nmenerbitkan surat ketetapan pajak setelah\nmelakukan pengembalian pendahuluan kelebihan\npajak.\n(40 Apabila berdasarkan hasil pemeriksaan sebagaimana\ndimaksud pada ayat (4e), Direktur Jenderal Pajak\nmenerbitkan Surat Ketetapan Pajak Kurang Bayar,\njumlah kekurangan pajak ditambah dengan sanksi\nadministrasi berupa bunga sebagaimana dimaksud\nddlam Pasal 13 ayat (2) Undang-Undang Nomor 6\nTahun 1983 tentang Ketentuan Umum dan Tata Cara\nPerpajakan dan perubahannya.\nSK No 115572 A\n(5) Apabila ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 7t -\n(5) Apabila dalam suatu Masa Pajak Pengusaha Kena\nPajak melakukan:\na. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan\nb. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\ndalam hal bagian penyerahan yang terutang pajak\nsebagaimana dimaksud dalam huruf a dapat\ndiketahui dengan pasti dari pembukuannya, jumlah\nPajak Masukan yang dapat dikreditkan merLrpakan\nPajak Masukan yang berkenaan dengan penyerahan\nsebagaimana dimaksud dalam huruf a.\n(6) Apabila dalam suatu Masa Pajak Pengusaha Kena\nPajak melakukan:\na. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan\nb. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\nsedangkan Pajak Masukan sehubungan dengan\npenyerahan yang terutang pajak sebagaimana\ndimaksud dalam huruf a tidak dapat diketahui\ndengan pasti, jumlah Pajak Masukan yang dapat\ndikreditkan dihitung dengan menggunakan pedoman\npengkreditan Pajak Masukan.\n(6a) Apabila sampai dengan jangka waktu 3 (tiga) tahun\nsejak Masa Pajak pengkreditan pertama kali Pajak\nMasukan sebagaimana dimaksud pada ayat (2a)\nPengusaha Kena Pajak belum melakukan penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak\ndanlatau ekspor Barang Kena Pajak dan/atau Jasa\nKena Pajak terkait dengan Pajak Masukan tersebut,\nPajak Masukan yang telah dikreditkan dalam jangka\nwaktu 3 (tiga) tahun tersebut menjadi tidak dapat\ndikreditkan.\nSK No 115573 A\n(6b) Dihapus .\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-72-\n(6b) Dihapus.\n(6c) Jangka waktu sebagaimana dimaksud pada ayat (6a)\nbagi sektor usaha tertentu dapat ditetapkan lebih dari\n3 (tiga) tahun.\n(6d) Ketentuan sebagaimana dimaksud pada ayat (6a)\nberlaku juga bagi Pengusaha Kena Pajak yang\nmelakukan pembubaran (pengakhiran) usaha,\nmelakukan pencabutan Pengusaha Kena Pajak, atau\ndilakukan pencabutan Pengusaha Kena Pajak secara\njabatan dalam jangka waktu 3 (tiga) tahun sejak Masa\nPajak pengkreditan pertama kali Pajak Masukan.\n(6e) Pajak Masukan yang tidak dapat dikreditkan\nsebagaimana dimaksud pada ayat (6a):\na. wajib dibayar kembali ke kas negara oleh\nPengusaha Kena Pajak, dalam hal Pengusaha\nKena Pajak:\n1. telah menerima pengembalian kelebihan\npembayaran pajak atas Pajak Masukan\ndimaksud; dan/atau\n2. telah mengkreditkan Pajak Masukan\ndimaksud dengan Pajak Keluaran yang\nterutang dalam suatu Masa Pajak;\ndan/atau\nb. tidak dapat dikompensasikan ke Masa Pajak\nberikutnya dan tidak dapat diajukan\npermohonan pengembalian, setelah jangka\nwaktu 3 (tiga) tahun sebagaimana dimaksud\npada ayat (6a) berakhir atau pada saat\npembubaran (pengakhiran) usaha, atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d) oleh Pengusaha Kena\nPajak, dalam hal Pengusaha Kena Pajak\nmelakukan kompensasi atas kelebihan\npembayaran pajak dimaksud.\nSK No 115574 A\n(60 Pembayaran\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_73_\n(60 Pembayaran kembali Pajak Masukan sebagaimana\ndimaksud pada ayat (6e) huruf a dilakukan paling\nlambat:\na. akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu 3 (tiga) tahun\nsebagaimana dimaksud pada ayat (6a);\nb. akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu bagi sektor usaha\ntertentu sebagaimana dimaksud pada ayat (6c);\natau\nc. akhir bulan berikutnya setelah tanggal\npembubaran (pengakhiran) usaha atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d).\n(6g) Dalam hal Pengusaha Kena Pajak tidak\nmelaksanakan kewajiban pembayaran kembali sesuai\ndengan jangka waktu sebagaimana dimaksud pada\nayat (6f), Direktur Jenderal Pajak menerbitkan Surat\nKetetapan Pajak Kurang Bayar atas jumlah pajak\nyang seharusnya dibayar kembali sebagaimana\ndimaksud pada ayat (6e) huruf a oleh Pengusaha\nKena Pajak ditambah sanksi administrasi berupa\nbunga sebagaimana dimaksud dalam Pasal 13 ayat\n(2a) Undang-Undang Nomor 6 Tahun 1983 tentang\nKetentuan Umum dan Tata Cara Perpajakan dan\nperubahannya.\n(7) Dihapus.\n(7a) Dihapus.\n(7b) Dihapus.\n(8) Pengkreditan Pajak Masukan sebagaimana dimaksud\npada ayat (21 tidak dapat diberlakukan bagi\npengeluaran untuk:\na. dihapus;\nb. perolehan Barang Kena Pajak atau Jasa Kena\nPajak yang tidak mempunyai hubungan\nlangsung dengan kegiatan usaha;\nc. dihapus...\nSK No 115575 A\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-74-\nc. dihapus;\nd. dihapus;\ne. dihapus;\nf. \nperolehan Barang Kena Pajak atau Jasa Kena\nPajak yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (5) atau ayat (9) atau tidak\nmencantumkan nama, alamat, dan Nomor Pokok\nWajib Pajak pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak;\ng. pemanfaatan Barang Kena Pajak Tidak\nBerwujud atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah\nPabean yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (6);\nh. dihapus;\ni. \ndihapus; dan\nj. \ndihapus.\n(9) Pajak Masukan yang dapat dikreditkan tetapi belum\ndikreditkan dengan Pajak Keluaran pada Masa Pajak\nyang sama dapat dikreditkan pada Masa Pajak\nberikutnya paling lama 3 (tiga) Masa Pajak setelah\nberakhirnya Masa Pajak saat Faktur Pajak dibuat\nsepanjang belum dibebankan sebagai biaya atau\nbelum ditambahkan (dikapitalisasi) dalam harga\nperolehan Barang Kena Pajak atau Jasa Kena Pajak\nserta memenuhi ketentuan pengkreditan sesuai\ndengan Undang-Undang ini.\n(9a) Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nsebelum Pengusaha dikukuhkan sebagai Pengusaha\nKena Pajak, dapat dikreditkan oleh Pengusaha Kena\nPajak dengan menggunakan pedoman pengkreditan\nPajak Masukan sebesar 80% (delapan puluh persen)\ndari Pajak Keluaran yang seharusnya dipungut.\nSK No 115576 A\n(9b) Pajak\n\n\n(eb)\n(ec)\n(10)\n(11)\n(r2l\n(13)\n(14)\nPRESIDEN\nREPUELIK INDONESIA\n_75_\nPajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nyang tidak dilaporkan dalam Surat Pemberitahuan\nMasa Pajak Pertambahan Nilai yang diberitahukan\ndan/atau ditemukan pada waktu dilakukan\npemeriksaan dapat dikreditkan oleh Pengusaha Kena\nPajak sepanjang memenuhi ketentuan pengkreditan\nsesuai dengan Undang-Undang ini.\nPajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nyang ditagih dengan penerbitan ketetapan pajak\ndapat dikreditkan oleh Pengusaha Kena Pajak sebesar\njumlah pokok Pajak Pertambahan Nilai yang\ntercantum dalam ketetapan pajak dengan ketentuan\nketetapan pajak dimaksud telah dilakukan pelunasan\ndan tidak dilakukan upaya hukum serta memenuhi\nketentuan pengkreditan sesuai dengan Undang-\nUndang ini.\nDihapus.\nDihapus.\nDihapus.\nDihapus.\nDalam hal tedadi pengalihan Barang Kena Pajak\ndalam rangka penggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha, Pajak\nMasukan atas Barang Kena Pajak yang dialihkan\nyang belum dikreditkan oleh Pengusaha Kena Pajak\nyang mengalihkan dapat dikreditkan oleh Pengusaha\nKena Pajak yang menerima pengalihan sepanjang\nFaktur Pajaknya diterima setelah terjadinya\npengalihan dan Pajak Masukan tersebut belum\ndibebankan sebagai biaya atau dikapitalisasi.\nSK No 115577 A\n5. Di antara\n\n\n5\nPRES!DEN\nREtrUBLIK INDONESIA\n-76-",
+      "role": "SUBSTANTIVE",
+      "ord": 100
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/9/1",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 101
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/9/2",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pajak Masukan dalam suatu Masa Pajak dikreditkan\ndengan Pajak Keluaran dalam Masa Pajak yang sama.",
+      "role": null,
+      "ord": 102
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2a",
+      "locator": "UU-1983-8#BT/9/2a",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Bagi Pengusaha Kena Pajak yang belum melakukan\npenyerahan Barang Kena Pajak dan/atau Jasa Kena\nPajak dan/atau ekspor Barang Kena Pajak dan/atau\nJasa Kena Pajak, Pajak Masukan atas perolehan\nBarang Kena Pajak dan/atau Jasa Kena Pajak, impor\nBarang Kena Pajak, serta pemanfaatan Barang Kena\nPajak Tidak Berwujud dan/atau pemanfaatan Jasa\nKena Pajak dari luar Daerah Pabean di dalam Daerah\nPabean dapat dikreditkan sepanjang memenuhi\nketentuan pengkreditan sesuai dengan Undang-\nUndang ini.",
+      "role": null,
+      "ord": 103
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2b",
+      "locator": "UU-1983-8#BT/9/2b",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pajak Masukan yang dikreditkan harus\nmenggunakan Faktur Pajak yang memenuhi\npersyaratan sebagaimana dimaksud dalam Pasal 13\nayat (5) dan ayat (9).",
+      "role": null,
+      "ord": 104
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/9/3",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Apabila dalam suatu Masa Pajak, Pajak Keluaran\nlebih besar daripada Pajak Masukan, selisihnya\nmerupakan Pajak Pertambahan Nilai yang harus\ndisetor oleh Pengusaha Kena Pajak.",
+      "role": null,
+      "ord": 105
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/9/4",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Apabila dalam suatu Masa Pajak, Pajak Masukan\nyang dapat dikreditkan lebih besar daripada Pajak\nKeluaran, selisihnya merupakan kelebihan pajak\nyang dikompensasikan ke Masa Pajak berikutnya.",
+      "role": null,
+      "ord": 106
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4a",
+      "locator": "UU-1983-8#BT/9/4a",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Atas kelebihan Pajak Masukan sebagaimana\ndimaksud pada ayat (4) dapat diajukan permohonan\npengembalian pada akhir tahun buku.\n(ab) Dikecualikan dari ketentuan sebagaimana dimaksud\npada ayat (41 dan ayat (4a), atas kelebihan Pajak\nMasukan dapat diajukan permohonan pengembalian\npada setiap Masa Pajak oleh:\na. Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Berwujud;\nSK No 115571 A\nb. Pengusaha\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_70_\nb. Pengusaha Kena Pajak yang melakukan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak kepada Pemungut\nPajak Pertambahan Nilai;\nc. Pengusaha Kena Pajak yang melaku.kan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak yang Pajak\nPertambahan Nilainya tidak dipungut;\nd. Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Tidak Berwujud;\ne. Pengusaha Kena Pajak yang melakukan ekspor\nJasa Kena Pajak; dan/atau\nf. \ndihapus.",
+      "role": null,
+      "ord": 107
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9/4a/a",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Berwujud;\nSK No 115571 A",
+      "role": null,
+      "ord": 108
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/4a/b",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "Pengusaha\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_70_",
+      "role": null,
+      "ord": 109
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/4a/b",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang melakukan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak kepada Pemungut\nPajak Pertambahan Nilai;",
+      "role": null,
+      "ord": 110
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/9/4a/c",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang melaku.kan\npenyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak yang Pajak\nPertambahan Nilainya tidak dipungut;",
+      "role": null,
+      "ord": 111
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/9/4a/d",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang melakukan ekspor\nBarang Kena Pajak Tidak Berwujud;",
+      "role": null,
+      "ord": 112
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/9/4a/e",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang melakukan ekspor\nJasa Kena Pajak; dan/atau",
+      "role": null,
+      "ord": 113
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/9/4a/f",
+      "parent": "UU-1983-8#BT/9/4a",
+      "heading": "",
+      "text": "dihapus.",
+      "role": null,
+      "ord": 114
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4c",
+      "locator": "UU-1983-8#BT/9/4c",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pengembalian kelebihan Pajak Masukan kepada\nPengusaha Kena Pajak sebagaimana dimaksud pada\nayat (4b) huruf a sampai dengan huruf e, yang\nmempunyai kriteria sebagai Pengusaha Kena Pajak\nberisiko rendah, dilakukan dengan pengembalian\npendahuluan kelebihan pajak sesuai ketentuan\nsebagaimana dimaksud dalam Pasal l7C ayat (1)\nUndang-Undang Nomor 6 Tahun 1983 tentang\nKetentuan Umum dan Tata Cara Perpajakan dan\nperubahannya.",
+      "role": null,
+      "ord": 115
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4d",
+      "locator": "UU-1983-8#BT/9/4d",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 116
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4e",
+      "locator": "UU-1983-8#BT/9/4e",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Drrektur Jenderal Pajak dapat melakukan\npemeriksaan terhadap Pengusaha Kena Pajak\nsebagaimana. dimaksud pada ayat (4c) dan\nmenerbitkan surat ketetapan pajak setelah\nmelakukan pengembalian pendahuluan kelebihan\npajak.\n(40 Apabila berdasarkan hasil pemeriksaan sebagaimana\ndimaksud pada ayat (4e), Direktur Jenderal Pajak\nmenerbitkan Surat Ketetapan Pajak Kurang Bayar,\njumlah kekurangan pajak ditambah dengan sanksi\nadministrasi berupa bunga sebagaimana dimaksud\nddlam Pasal 13 ayat (2) Undang-Undang Nomor 6\nTahun 1983 tentang Ketentuan Umum dan Tata Cara\nPerpajakan dan perubahannya.\nSK No 115572 A",
+      "role": null,
+      "ord": 117
+    },
+    {
+      "level": "AYAT",
+      "nomor": "5",
+      "locator": "UU-1983-8#BT/9/5",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Apabila ...\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 7t -",
+      "role": null,
+      "ord": 118
+    },
+    {
+      "level": "AYAT",
+      "nomor": "5",
+      "locator": "UU-1983-8#BT/9/5",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Apabila dalam suatu Masa Pajak Pengusaha Kena\nPajak melakukan:\na. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan\nb. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\ndalam hal bagian penyerahan yang terutang pajak\nsebagaimana dimaksud dalam huruf a dapat\ndiketahui dengan pasti dari pembukuannya, jumlah\nPajak Masukan yang dapat dikreditkan merLrpakan\nPajak Masukan yang berkenaan dengan penyerahan\nsebagaimana dimaksud dalam huruf a.",
+      "role": null,
+      "ord": 119
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9/5/a",
+      "parent": "UU-1983-8#BT/9/5",
+      "heading": "",
+      "text": "penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan",
+      "role": null,
+      "ord": 120
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/5/b",
+      "parent": "UU-1983-8#BT/9/5",
+      "heading": "",
+      "text": "penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\ndalam hal bagian penyerahan yang terutang pajak\nsebagaimana dimaksud dalam huruf a dapat\ndiketahui dengan pasti dari pembukuannya, jumlah\nPajak Masukan yang dapat dikreditkan merLrpakan\nPajak Masukan yang berkenaan dengan penyerahan\nsebagaimana dimaksud dalam huruf a.",
+      "role": null,
+      "ord": 121
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6",
+      "locator": "UU-1983-8#BT/9/6",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Apabila dalam suatu Masa Pajak Pengusaha Kena\nPajak melakukan:\na. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan\nb. penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\nsedangkan Pajak Masukan sehubungan dengan\npenyerahan yang terutang pajak sebagaimana\ndimaksud dalam huruf a tidak dapat diketahui\ndengan pasti, jumlah Pajak Masukan yang dapat\ndikreditkan dihitung dengan menggunakan pedoman\npengkreditan Pajak Masukan.",
+      "role": null,
+      "ord": 122
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9/6/a",
+      "parent": "UU-1983-8#BT/9/6",
+      "heading": "",
+      "text": "penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya dapat dikreditkan; dan",
+      "role": null,
+      "ord": 123
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/6/b",
+      "parent": "UU-1983-8#BT/9/6",
+      "heading": "",
+      "text": "penyerahan yang terutang pajak dan Pajak\nMasukan yang \nberkenaan dengan\npenyerahannya tidak dapat dikreditkan\ndan/atau penyerahan yang tidak terutang pajak,\nsedangkan Pajak Masukan sehubungan dengan\npenyerahan yang terutang pajak sebagaimana\ndimaksud dalam huruf a tidak dapat diketahui\ndengan pasti, jumlah Pajak Masukan yang dapat\ndikreditkan dihitung dengan menggunakan pedoman\npengkreditan Pajak Masukan.",
+      "role": null,
+      "ord": 124
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6a",
+      "locator": "UU-1983-8#BT/9/6a",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Apabila sampai dengan jangka waktu 3 (tiga) tahun\nsejak Masa Pajak pengkreditan pertama kali Pajak\nMasukan sebagaimana dimaksud pada ayat (2a)\nPengusaha Kena Pajak belum melakukan penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak\ndanlatau ekspor Barang Kena Pajak dan/atau Jasa\nKena Pajak terkait dengan Pajak Masukan tersebut,\nPajak Masukan yang telah dikreditkan dalam jangka\nwaktu 3 (tiga) tahun tersebut menjadi tidak dapat\ndikreditkan.\nSK No 115573 A",
+      "role": null,
+      "ord": 125
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6b",
+      "locator": "UU-1983-8#BT/9/6b",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus .\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-72-",
+      "role": null,
+      "ord": 126
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6b",
+      "locator": "UU-1983-8#BT/9/6b",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 127
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6c",
+      "locator": "UU-1983-8#BT/9/6c",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Jangka waktu sebagaimana dimaksud pada ayat (6a)\nbagi sektor usaha tertentu dapat ditetapkan lebih dari\n3 (tiga) tahun.",
+      "role": null,
+      "ord": 128
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6d",
+      "locator": "UU-1983-8#BT/9/6d",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Ketentuan sebagaimana dimaksud pada ayat (6a)\nberlaku juga bagi Pengusaha Kena Pajak yang\nmelakukan pembubaran (pengakhiran) usaha,\nmelakukan pencabutan Pengusaha Kena Pajak, atau\ndilakukan pencabutan Pengusaha Kena Pajak secara\njabatan dalam jangka waktu 3 (tiga) tahun sejak Masa\nPajak pengkreditan pertama kali Pajak Masukan.",
+      "role": null,
+      "ord": 129
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6e",
+      "locator": "UU-1983-8#BT/9/6e",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pajak Masukan yang tidak dapat dikreditkan\nsebagaimana dimaksud pada ayat (6a):\na. wajib dibayar kembali ke kas negara oleh\nPengusaha Kena Pajak, dalam hal Pengusaha\nKena Pajak:\n1. telah menerima pengembalian kelebihan\npembayaran pajak atas Pajak Masukan\ndimaksud; dan/atau\n2. telah mengkreditkan Pajak Masukan\ndimaksud dengan Pajak Keluaran yang\nterutang dalam suatu Masa Pajak;\ndan/atau\nb. tidak dapat dikompensasikan ke Masa Pajak\nberikutnya dan tidak dapat diajukan\npermohonan pengembalian, setelah jangka\nwaktu 3 (tiga) tahun sebagaimana dimaksud\npada ayat (6a) berakhir atau pada saat\npembubaran (pengakhiran) usaha, atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d) oleh Pengusaha Kena\nPajak, dalam hal Pengusaha Kena Pajak\nmelakukan kompensasi atas kelebihan\npembayaran pajak dimaksud.\nSK No 115574 A\n(60 Pembayaran\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_73_\n(60 Pembayaran kembali Pajak Masukan sebagaimana\ndimaksud pada ayat (6e) huruf a dilakukan paling\nlambat:\na. akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu 3 (tiga) tahun\nsebagaimana dimaksud pada ayat (6a);\nb. akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu bagi sektor usaha\ntertentu sebagaimana dimaksud pada ayat (6c);\natau\nc. akhir bulan berikutnya setelah tanggal\npembubaran (pengakhiran) usaha atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d).",
+      "role": null,
+      "ord": 130
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9/6e/a",
+      "parent": "UU-1983-8#BT/9/6e",
+      "heading": "",
+      "text": "wajib dibayar kembali ke kas negara oleh\nPengusaha Kena Pajak, dalam hal Pengusaha\nKena Pajak:\n1. telah menerima pengembalian kelebihan\npembayaran pajak atas Pajak Masukan\ndimaksud; dan/atau\n2. telah mengkreditkan Pajak Masukan\ndimaksud dengan Pajak Keluaran yang\nterutang dalam suatu Masa Pajak;\ndan/atau",
+      "role": null,
+      "ord": 131
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/9/6e/a/1",
+      "parent": "UU-1983-8#BT/9/6e/a",
+      "heading": "",
+      "text": "telah menerima pengembalian kelebihan\npembayaran pajak atas Pajak Masukan\ndimaksud; dan/atau",
+      "role": null,
+      "ord": 132
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/9/6e/a/2",
+      "parent": "UU-1983-8#BT/9/6e/a",
+      "heading": "",
+      "text": "telah mengkreditkan Pajak Masukan\ndimaksud dengan Pajak Keluaran yang\nterutang dalam suatu Masa Pajak;\ndan/atau",
+      "role": null,
+      "ord": 133
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/6e/b",
+      "parent": "UU-1983-8#BT/9/6e",
+      "heading": "",
+      "text": "tidak dapat dikompensasikan ke Masa Pajak\nberikutnya dan tidak dapat diajukan\npermohonan pengembalian, setelah jangka\nwaktu 3 (tiga) tahun sebagaimana dimaksud\npada ayat (6a) berakhir atau pada saat\npembubaran (pengakhiran) usaha, atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d) oleh Pengusaha Kena\nPajak, dalam hal Pengusaha Kena Pajak\nmelakukan kompensasi atas kelebihan\npembayaran pajak dimaksud.\nSK No 115574 A\n(60 Pembayaran\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_73_\n(60 Pembayaran kembali Pajak Masukan sebagaimana\ndimaksud pada ayat (6e) huruf a dilakukan paling\nlambat:",
+      "role": null,
+      "ord": 134
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9/6e/a",
+      "parent": "UU-1983-8#BT/9/6e",
+      "heading": "",
+      "text": "akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu 3 (tiga) tahun\nsebagaimana dimaksud pada ayat (6a);",
+      "role": null,
+      "ord": 135
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/6e/b",
+      "parent": "UU-1983-8#BT/9/6e",
+      "heading": "",
+      "text": "akhir bulan berikutnya setelah tanggal\nberakhirnya jangka waktu bagi sektor usaha\ntertentu sebagaimana dimaksud pada ayat (6c);\natau",
+      "role": null,
+      "ord": 136
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/9/6e/c",
+      "parent": "UU-1983-8#BT/9/6e",
+      "heading": "",
+      "text": "akhir bulan berikutnya setelah tanggal\npembubaran (pengakhiran) usaha atau\npencabutan Pengusaha Kena Pajak sebagaimana\ndimaksud pada ayat (6d).",
+      "role": null,
+      "ord": 137
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6g",
+      "locator": "UU-1983-8#BT/9/6g",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dalam hal Pengusaha Kena Pajak tidak\nmelaksanakan kewajiban pembayaran kembali sesuai\ndengan jangka waktu sebagaimana dimaksud pada\nayat (6f), Direktur Jenderal Pajak menerbitkan Surat\nKetetapan Pajak Kurang Bayar atas jumlah pajak\nyang seharusnya dibayar kembali sebagaimana\ndimaksud pada ayat (6e) huruf a oleh Pengusaha\nKena Pajak ditambah sanksi administrasi berupa\nbunga sebagaimana dimaksud dalam Pasal 13 ayat",
+      "role": null,
+      "ord": 138
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2a",
+      "locator": "UU-1983-8#BT/9/2a",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Undang-Undang Nomor 6 Tahun 1983 tentang\nKetentuan Umum dan Tata Cara Perpajakan dan\nperubahannya.",
+      "role": null,
+      "ord": 139
+    },
+    {
+      "level": "AYAT",
+      "nomor": "7",
+      "locator": "UU-1983-8#BT/9/7",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 140
+    },
+    {
+      "level": "AYAT",
+      "nomor": "7a",
+      "locator": "UU-1983-8#BT/9/7a",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 141
+    },
+    {
+      "level": "AYAT",
+      "nomor": "7b",
+      "locator": "UU-1983-8#BT/9/7b",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 142
+    },
+    {
+      "level": "AYAT",
+      "nomor": "8",
+      "locator": "UU-1983-8#BT/9/8",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pengkreditan Pajak Masukan sebagaimana dimaksud\npada ayat (21 tidak dapat diberlakukan bagi\npengeluaran untuk:\na. dihapus;\nb. perolehan Barang Kena Pajak atau Jasa Kena\nPajak yang tidak mempunyai hubungan\nlangsung dengan kegiatan usaha;\nc. dihapus...\nSK No 115575 A\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-74-\nc. dihapus;\nd. dihapus;\ne. dihapus;\nf. \nperolehan Barang Kena Pajak atau Jasa Kena\nPajak yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (5) atau ayat (9) atau tidak\nmencantumkan nama, alamat, dan Nomor Pokok\nWajib Pajak pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak;\ng. pemanfaatan Barang Kena Pajak Tidak\nBerwujud atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah\nPabean yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (6);\nh. dihapus;\ni. \ndihapus; dan\nj. \ndihapus.",
+      "role": null,
+      "ord": 143
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9/8/a",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 144
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9/8/b",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "perolehan Barang Kena Pajak atau Jasa Kena\nPajak yang tidak mempunyai hubungan\nlangsung dengan kegiatan usaha;",
+      "role": null,
+      "ord": 145
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/9/8/c",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus...\nSK No 115575 A\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n-74-",
+      "role": null,
+      "ord": 146
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/9/8/c",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 147
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/9/8/d",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 148
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/9/8/e",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 149
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/9/8/f",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "perolehan Barang Kena Pajak atau Jasa Kena\nPajak yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (5) atau ayat (9) atau tidak\nmencantumkan nama, alamat, dan Nomor Pokok\nWajib Pajak pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak;",
+      "role": null,
+      "ord": 150
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/9/8/g",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "pemanfaatan Barang Kena Pajak Tidak\nBerwujud atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah\nPabean yang Faktur Pajaknya tidak memenuhi\nketentuan sebagaimana dimaksud dalam\nPasal 13 ayat (6);",
+      "role": null,
+      "ord": 151
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/9/8/h",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus;",
+      "role": null,
+      "ord": 152
+    },
+    {
+      "level": "HURUF",
+      "nomor": "i",
+      "locator": "UU-1983-8#BT/9/8/i",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus; dan",
+      "role": null,
+      "ord": 153
+    },
+    {
+      "level": "HURUF",
+      "nomor": "j",
+      "locator": "UU-1983-8#BT/9/8/j",
+      "parent": "UU-1983-8#BT/9/8",
+      "heading": "",
+      "text": "dihapus.",
+      "role": null,
+      "ord": 154
+    },
+    {
+      "level": "AYAT",
+      "nomor": "9",
+      "locator": "UU-1983-8#BT/9/9",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pajak Masukan yang dapat dikreditkan tetapi belum\ndikreditkan dengan Pajak Keluaran pada Masa Pajak\nyang sama dapat dikreditkan pada Masa Pajak\nberikutnya paling lama 3 (tiga) Masa Pajak setelah\nberakhirnya Masa Pajak saat Faktur Pajak dibuat\nsepanjang belum dibebankan sebagai biaya atau\nbelum ditambahkan (dikapitalisasi) dalam harga\nperolehan Barang Kena Pajak atau Jasa Kena Pajak\nserta memenuhi ketentuan pengkreditan sesuai\ndengan Undang-Undang ini.",
+      "role": null,
+      "ord": 155
+    },
+    {
+      "level": "AYAT",
+      "nomor": "9a",
+      "locator": "UU-1983-8#BT/9/9a",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nsebelum Pengusaha dikukuhkan sebagai Pengusaha\nKena Pajak, dapat dikreditkan oleh Pengusaha Kena\nPajak dengan menggunakan pedoman pengkreditan\nPajak Masukan sebesar 80% (delapan puluh persen)\ndari Pajak Keluaran yang seharusnya dipungut.\nSK No 115576 A",
+      "role": null,
+      "ord": 156
+    },
+    {
+      "level": "AYAT",
+      "nomor": "9b",
+      "locator": "UU-1983-8#BT/9/9b",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "Pajak\n\n\n(eb)\n(ec)",
+      "role": null,
+      "ord": 157
+    },
+    {
+      "level": "AYAT",
+      "nomor": "10",
+      "locator": "UU-1983-8#BT/9/10",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "(11)\n(r2l",
+      "role": null,
+      "ord": 158
+    },
+    {
+      "level": "AYAT",
+      "nomor": "13",
+      "locator": "UU-1983-8#BT/9/13",
+      "parent": "UU-1983-8#BT/9",
+      "heading": "",
+      "text": "(14)\nPRESIDEN\nREPUELIK INDONESIA\n_75_\nPajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nyang tidak dilaporkan dalam Surat Pemberitahuan\nMasa Pajak Pertambahan Nilai yang diberitahukan\ndan/atau ditemukan pada waktu dilakukan\npemeriksaan dapat dikreditkan oleh Pengusaha Kena\nPajak sepanjang memenuhi ketentuan pengkreditan\nsesuai dengan Undang-Undang ini.\nPajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean\nyang ditagih dengan penerbitan ketetapan pajak\ndapat dikreditkan oleh Pengusaha Kena Pajak sebesar\njumlah pokok Pajak Pertambahan Nilai yang\ntercantum dalam ketetapan pajak dengan ketentuan\nketetapan pajak dimaksud telah dilakukan pelunasan\ndan tidak dilakukan upaya hukum serta memenuhi\nketentuan pengkreditan sesuai dengan Undang-\nUndang ini.\nDihapus.\nDihapus.\nDihapus.\nDihapus.\nDalam hal tedadi pengalihan Barang Kena Pajak\ndalam rangka penggabungan, peleburan, pemekaran,\npemecahan, dan pengambilalihan usaha, Pajak\nMasukan atas Barang Kena Pajak yang dialihkan\nyang belum dikreditkan oleh Pengusaha Kena Pajak\nyang mengalihkan dapat dikreditkan oleh Pengusaha\nKena Pajak yang menerima pengalihan sepanjang\nFaktur Pajaknya diterima setelah terjadinya\npengalihan dan Pajak Masukan tersebut belum\ndibebankan sebagai biaya atau dikapitalisasi.\nSK No 115577 A\n5. Di antara\n\n\n5\nPRES!DEN\nREtrUBLIK INDONESIA\n-76-",
+      "role": null,
+      "ord": 159
+    },
+    {
+      "level": "PASAL",
+      "nomor": "9A",
+      "locator": "UU-1983-8#BT/9A",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Pengusaha Kena Pajak yang:\na. mempunyai peredaran usaha dalam 1 (satu)\ntahun buku tidak melebihi jumlah tertentu;\nb. melakukan kegiatan usaha tertentu; dan/atau\nc. melakukan penyerahan Barang Kena Pajak\ntertentu dan/atau Jasa Kena Pajak tertentu,\ndapat memungut dan menyetorkan Pajak\nPertambahan Nilai yang terutang atas penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak dengan\nbesaran tertentu.\n(2) Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean,\nyang berhubungan dengan penyerahan oleh\nPengusaha Kena Pajak sebagaimana dimaksud pada\nayat (1) tidak dapat dikreditkan.",
+      "role": "SUBSTANTIVE",
+      "ord": 160
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/9A/1",
+      "parent": "UU-1983-8#BT/9A",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang:\na. mempunyai peredaran usaha dalam 1 (satu)\ntahun buku tidak melebihi jumlah tertentu;\nb. melakukan kegiatan usaha tertentu; dan/atau\nc. melakukan penyerahan Barang Kena Pajak\ntertentu dan/atau Jasa Kena Pajak tertentu,\ndapat memungut dan menyetorkan Pajak\nPertambahan Nilai yang terutang atas penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak dengan\nbesaran tertentu.",
+      "role": null,
+      "ord": 161
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/9A/1/a",
+      "parent": "UU-1983-8#BT/9A/1",
+      "heading": "",
+      "text": "mempunyai peredaran usaha dalam 1 (satu)\ntahun buku tidak melebihi jumlah tertentu;",
+      "role": null,
+      "ord": 162
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/9A/1/b",
+      "parent": "UU-1983-8#BT/9A/1",
+      "heading": "",
+      "text": "melakukan kegiatan usaha tertentu; dan/atau",
+      "role": null,
+      "ord": 163
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/9A/1/c",
+      "parent": "UU-1983-8#BT/9A/1",
+      "heading": "",
+      "text": "melakukan penyerahan Barang Kena Pajak\ntertentu dan/atau Jasa Kena Pajak tertentu,\ndapat memungut dan menyetorkan Pajak\nPertambahan Nilai yang terutang atas penyerahan\nBarang Kena Pajak dan/atau Jasa Kena Pajak dengan\nbesaran tertentu.",
+      "role": null,
+      "ord": 164
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/9A/2",
+      "parent": "UU-1983-8#BT/9A",
+      "heading": "",
+      "text": "Pajak Masukan atas perolehan Barang Kena Pajak\ndan/atau Jasa Kena Pajak, impor Barang Kena Pajak,\nserta pemanfaatan Barang Kena Pajak Tidak\nBerwujud dan/atau pemanfaatan Jasa Kena Pajak\ndari luar Daerah Pabean di dalam Daerah Pabean,\nyang berhubungan dengan penyerahan oleh\nPengusaha Kena Pajak sebagaimana dimaksud pada\nayat (1) tidak dapat dikreditkan.",
+      "role": null,
+      "ord": 165
+    },
+    {
+      "level": "PASAL",
+      "nomor": "10",
+      "locator": "UU-1983-8#BT/10",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nPajak\nPenjualan\nAtas\nBarang\nMewah\nyang\nterutang\ndihitung\ndengan cara mengalihkan tarif sebagaimana dimaksud dalam Pasal\n8 dengan Dasar Pengenaan Pajak.\n(2)\nPajak Penjualan Atas Barang Mewah yang sudah dibayar pada\nwaktu perolehan atau impor Barang Kena Pajak Yang Tergolong\nMewah, tidak dapat dikreditkan dengan Pajak Pertambahan Nilai\nmaupun\nPajak\nPenjualan\nAtas\nBarang Mewah yang dipungut\nberdasarkan Undang-undang ini.\n(3)\nPengusaha Kena Pajak Yang mengekspor Barang Kena Pajak Yang\nTergolong Mewah dapat meminta kembali Pajak Penjualan Atas\nBarang Mewah yang telah dibayar pada waktu perolehan Barang\nKena Pajak Yang Tergolong Mewah yang diekspor tersebut.\"\n13. Ketentuan …",
+      "role": "SUBSTANTIVE",
+      "ord": 166
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/10/1",
+      "parent": "UU-1983-8#BT/10",
+      "heading": "",
+      "text": "Pajak\nPenjualan\nAtas\nBarang\nMewah\nyang\nterutang\ndihitung\ndengan cara mengalihkan tarif sebagaimana dimaksud dalam Pasal\n8 dengan Dasar Pengenaan Pajak.",
+      "role": null,
+      "ord": 167
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/10/2",
+      "parent": "UU-1983-8#BT/10",
+      "heading": "",
+      "text": "Pajak Penjualan Atas Barang Mewah yang sudah dibayar pada\nwaktu perolehan atau impor Barang Kena Pajak Yang Tergolong\nMewah, tidak dapat dikreditkan dengan Pajak Pertambahan Nilai\nmaupun\nPajak\nPenjualan\nAtas\nBarang Mewah yang dipungut\nberdasarkan Undang-undang ini.",
+      "role": null,
+      "ord": 168
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/10/3",
+      "parent": "UU-1983-8#BT/10",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak Yang mengekspor Barang Kena Pajak Yang\nTergolong Mewah dapat meminta kembali Pajak Penjualan Atas\nBarang Mewah yang telah dibayar pada waktu perolehan Barang\nKena Pajak Yang Tergolong Mewah yang diekspor tersebut.\"\n13. Ketentuan …",
+      "role": null,
+      "ord": 169
+    },
+    {
+      "level": "PASAL",
+      "nomor": "11",
+      "locator": "UU-1983-8#BT/11",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nTerutangnya pajak terjadi pada saat: \na. \npenyerahan Barang Kena Pajak; \nb. \nimpor Barang Kena Pajak; \nc. \npenyerahan Jasa Kena Pajak; \nd. \npemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean; \ne. \npemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean; \nf. \nekspor Barang Kena Pajak Berwujud;   \ng. \nekspor Barang Kena Pajak Tidak Berwujud; atau \n \nh. ekspor ... \n\n\n \n \n \n- 19 -\n \nh. \nekspor Jasa Kena Pajak.  \n(2) \nDalam hal pembayaran diterima sebelum penyerahan \nBarang Kena Pajak atau sebelum penyerahan Jasa \nKena Pajak atau dalam hal pembayaran dilakukan \nsebelum dimulainya pemanfaatan Barang Kena Pajak \nTidak Berwujud atau Jasa Kena Pajak dari luar Daerah \nPabean, saat terutangnya pajak adalah pada saat \npembayaran. \n(3) \nDihapus. \n(4) \nDirektur Jenderal Pajak dapat menetapkan saat lain \nsebagai saat terutangnya pajak dalam hal saat \nterutangnya pajak sukar ditetapkan atau terjadi \nperubahan \nketentuan \nyang \ndapat \nmenimbulkan \nketidakadilan. \n(5) \nDihapus.",
+      "role": "SUBSTANTIVE",
+      "ord": 170
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/11/1",
+      "parent": "UU-1983-8#BT/11",
+      "heading": "",
+      "text": "Terutangnya pajak terjadi pada saat: \na. \npenyerahan Barang Kena Pajak; \nb. \nimpor Barang Kena Pajak; \nc. \npenyerahan Jasa Kena Pajak; \nd. \npemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean; \ne. \npemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean; \nf. \nekspor Barang Kena Pajak Berwujud;   \ng. \nekspor Barang Kena Pajak Tidak Berwujud; atau \n \nh. ekspor ... \n\n\n \n \n \n- 19 -\n \nh. \nekspor Jasa Kena Pajak.",
+      "role": null,
+      "ord": 171
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/11/1/a",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak;",
+      "role": null,
+      "ord": 172
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/11/1/b",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "impor Barang Kena Pajak;",
+      "role": null,
+      "ord": 173
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/11/1/c",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "penyerahan Jasa Kena Pajak;",
+      "role": null,
+      "ord": 174
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/11/1/d",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "pemanfaatan Barang Kena Pajak Tidak Berwujud \ndari luar Daerah Pabean;",
+      "role": null,
+      "ord": 175
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/11/1/e",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "pemanfaatan Jasa Kena Pajak dari luar Daerah \nPabean;",
+      "role": null,
+      "ord": 176
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/11/1/f",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "ekspor Barang Kena Pajak Berwujud;",
+      "role": null,
+      "ord": 177
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/11/1/g",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "ekspor Barang Kena Pajak Tidak Berwujud; atau",
+      "role": null,
+      "ord": 178
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/11/1/h",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "ekspor ... \n\n\n \n \n \n- 19 -",
+      "role": null,
+      "ord": 179
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/11/1/h",
+      "parent": "UU-1983-8#BT/11/1",
+      "heading": "",
+      "text": "ekspor Jasa Kena Pajak.",
+      "role": null,
+      "ord": 180
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/11/2",
+      "parent": "UU-1983-8#BT/11",
+      "heading": "",
+      "text": "Dalam hal pembayaran diterima sebelum penyerahan \nBarang Kena Pajak atau sebelum penyerahan Jasa \nKena Pajak atau dalam hal pembayaran dilakukan \nsebelum dimulainya pemanfaatan Barang Kena Pajak \nTidak Berwujud atau Jasa Kena Pajak dari luar Daerah \nPabean, saat terutangnya pajak adalah pada saat \npembayaran.",
+      "role": null,
+      "ord": 181
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/11/3",
+      "parent": "UU-1983-8#BT/11",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 182
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/11/4",
+      "parent": "UU-1983-8#BT/11",
+      "heading": "",
+      "text": "Direktur Jenderal Pajak dapat menetapkan saat lain \nsebagai saat terutangnya pajak dalam hal saat \nterutangnya pajak sukar ditetapkan atau terjadi \nperubahan \nketentuan \nyang \ndapat \nmenimbulkan \nketidakadilan.",
+      "role": null,
+      "ord": 183
+    },
+    {
+      "level": "AYAT",
+      "nomor": "5",
+      "locator": "UU-1983-8#BT/11/5",
+      "parent": "UU-1983-8#BT/11",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 184
+    },
+    {
+      "level": "PASAL",
+      "nomor": "12",
+      "locator": "UU-1983-8#BT/12",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nPengusaha Kena Pajak yang melakukan penyerahan \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a, \nhuruf c, huruf f, huruf g, dan/atau huruf h terutang \npajak di tempat tinggal atau tempat kedudukan \ndan/atau tempat kegiatan usaha dilakukan atau \ntempat \nlain \nselain \ntempat \ntinggal \natau \ntempat \nkedudukan dan/atau tempat kegiatan usaha dilakukan \nyang diatur dengan Peraturan Direktur Jenderal Pajak. \n(2) \nAtas pemberitahuan secara tertulis dari Pengusaha \nKena Pajak, Direktur Jenderal Pajak dapat menetapkan \n1 (satu) tempat atau lebih sebagai tempat pajak \nterutang.  \n(3) \nDalam hal impor, terutangnya pajak terjadi di tempat \nBarang Kena Pajak dimasukkan dan dipungut melalui \nDirektorat Jenderal Bea dan Cukai. \n \n \n(4) Orang ... \n\n\n \n \n \n- 20 -\n \n(4) \nOrang pribadi atau badan yang memanfaatkan Barang \nKena Pajak Tidak Berwujud dan/atau Jasa Kena Pajak \ndari luar Daerah Pabean di dalam Daerah Pabean \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d \ndan huruf e terutang pajak di tempat tinggal atau \ntempat kedudukan dan/atau tempat kegiatan usaha.",
+      "role": "SUBSTANTIVE",
+      "ord": 185
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/12/1",
+      "parent": "UU-1983-8#BT/12",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak yang melakukan penyerahan \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf a, \nhuruf c, huruf f, huruf g, dan/atau huruf h terutang \npajak di tempat tinggal atau tempat kedudukan \ndan/atau tempat kegiatan usaha dilakukan atau \ntempat \nlain \nselain \ntempat \ntinggal \natau \ntempat \nkedudukan dan/atau tempat kegiatan usaha dilakukan \nyang diatur dengan Peraturan Direktur Jenderal Pajak.",
+      "role": null,
+      "ord": 186
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/12/2",
+      "parent": "UU-1983-8#BT/12",
+      "heading": "",
+      "text": "Atas pemberitahuan secara tertulis dari Pengusaha \nKena Pajak, Direktur Jenderal Pajak dapat menetapkan \n1 (satu) tempat atau lebih sebagai tempat pajak \nterutang.",
+      "role": null,
+      "ord": 187
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/12/3",
+      "parent": "UU-1983-8#BT/12",
+      "heading": "",
+      "text": "Dalam hal impor, terutangnya pajak terjadi di tempat \nBarang Kena Pajak dimasukkan dan dipungut melalui \nDirektorat Jenderal Bea dan Cukai.",
+      "role": null,
+      "ord": 188
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/12/4",
+      "parent": "UU-1983-8#BT/12",
+      "heading": "",
+      "text": "Orang ... \n\n\n \n \n \n- 20 -",
+      "role": null,
+      "ord": 189
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/12/4",
+      "parent": "UU-1983-8#BT/12",
+      "heading": "",
+      "text": "Orang pribadi atau badan yang memanfaatkan Barang \nKena Pajak Tidak Berwujud dan/atau Jasa Kena Pajak \ndari luar Daerah Pabean di dalam Daerah Pabean \nsebagaimana dimaksud dalam Pasal 4 ayat (1) huruf d \ndan huruf e terutang pajak di tempat tinggal atau \ntempat kedudukan dan/atau tempat kegiatan usaha.",
+      "role": null,
+      "ord": 190
+    },
+    {
+      "level": "PASAL",
+      "nomor": "13",
+      "locator": "UU-1983-8#BT/13",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Pengusaha Kena Pajak wajib membuat Faktur\nPajak untuk setiap:\na. penyerahan Barang Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf a atau\nhuruf f dan/atau Pasal 16D;\nb. penyerahan Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf c;\nc. ekspor Barang Kena Pajak Tidak Berwujud\nsebagaimana dimaksud dalam Pasal 4 ayat (1)\nhuruf g; dan/atau\nd. ekspor Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf h.\n(1a) Faktur Pajak sebagaimana dimaksud pada ayat (1)\nharus dibuat pada:\na. saat penyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak;\nb. saat penerimaan pembayaran dalam hal\npenerimaan pembayaran terjadi sebelum\npenyerahan Barang Kena Pajak dan/atau\nsebelum penyerahan Jasa Kena Pajak;\nc. saat penerimaan pembayaran termin dalam\nhal penyerahan sebagian tahap pekerjaan;\natau\nd. saat lain yang diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.\n(2) Dikecualikan dari ketentuan sebagaimana\ndimaksud pada ayat (1), Pengusaha Kena Pajak\ndapat membuat 1 (satu) Faktur Pajak meliputi\nselurrrh penyerahan yang dilakukan kepada\npembeli Barang Kena Pajak atau penerima Jasa\nKena Pajak yang sama selama 1 (satu) bulan\nkalender.\n(2a) Faktur Pajak sebagaimana dimaksud pada ayat (21\nharus dibuat paling lama pada akhir bulan\npenyerahan.\nSK No 171640 A\n(3) Dihapus...\n\n\n(3)\n(41\n(s)\nFRESIDEN\nREPUBUK TNDONESIA\n-631-\nDihapus.\nDihapus.\nDalam Faktur Pajak harus dicantumkan\nketerangan tentang penyerahan Barang Kena Pajak\ndan/atau penyerahan Jasa Kena Pajak yang paling\nsedikit memuat:\na. nama, alamat, dan Nomor Pokok Wajib Pajak\nyang menyerahkan Barang Kena Pajak atau\nJasa Kena Pajak;\nb. identitas pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak yang meliputi:\n1. nama, alamat, dan Nomor Pokok Wajib\nPajak atau nomor induk kependudukan\natau nomor paspor bagi subjek pajak luar\nnegeri orang pribadi; atau\n2. nama dan alamat, dalam hal pembeli\nBarang Kena Pajak atau penerima Jasa\nKena Pajak merupakan subjek pajak luar\nnegeri badan atau bukan merupakan\nsubjek pajak sebagaimana dimaksud\ndalam Pasal 3 Undang-Undang tentang\nPajak Penghasilan;\nc. jenis barang atau jasa, jumlah Harga Jual\natau Penggantian, dan potongan harga;\nd. Pajak Pertambahan Nilai yang dipungut;\ne. Pajak Penjualan atas Barang Mewah yang\ndipungut;\nf. \nkode, nomor seri, dan tanggal pembuatan\nFaktur Pajak; dan\ng. nama dan tanda tangan yang berhak\nmenandatangani Faktur Pajak.\nSK No 17164l A\n(5a) Pengusaha. . .\n\n\nPRESIDEN\nBUK INDONESIA\n-632-\n(5a) Pengusaha Kena Pajak pedagang eceran dapat\nmembuat Faktur Pajak tanpa mencantumkan\nketerangan mengenai identitas pembeli serta nama\ndan tanda tangan penjual dalam hal melakukan\npenyerahan Barang Kena Pajak dan/atau Jasa\nKena Pajak kepada pembeli dengan karakteristik\nkonsumen akhir yang diatur lebih lanjut dengan\nPeraturan Menteri Keuangan.\n(6) Direktur Jenderal Pajak dapat menetapkan\ndokumen tertentu yang \nkedudukannya\ndipersamakan dengan Faktur Pajak.\n(71 Dihapus.\n(8) Ketentuan lebih lanjut mengenai tata cara\npembuatan Faktur Pajak dan tata cara pembetulan\natau penggantian Faktur Pajak diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.\n(9) Faktur Pajak harus memenuhi persyaratan formal\ndan material.",
+      "role": "SUBSTANTIVE",
+      "ord": 191
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/13/1",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak wajib membuat Faktur\nPajak untuk setiap:\na. penyerahan Barang Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf a atau\nhuruf f dan/atau Pasal 16D;\nb. penyerahan Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf c;\nc. ekspor Barang Kena Pajak Tidak Berwujud\nsebagaimana dimaksud dalam Pasal 4 ayat (1)\nhuruf g; dan/atau\nd. ekspor Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf h.",
+      "role": null,
+      "ord": 192
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/13/1/a",
+      "parent": "UU-1983-8#BT/13/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf a atau\nhuruf f dan/atau Pasal 16D;",
+      "role": null,
+      "ord": 193
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/13/1/b",
+      "parent": "UU-1983-8#BT/13/1",
+      "heading": "",
+      "text": "penyerahan Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf c;",
+      "role": null,
+      "ord": 194
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/13/1/c",
+      "parent": "UU-1983-8#BT/13/1",
+      "heading": "",
+      "text": "ekspor Barang Kena Pajak Tidak Berwujud\nsebagaimana dimaksud dalam Pasal 4 ayat (1)\nhuruf g; dan/atau",
+      "role": null,
+      "ord": 195
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/13/1/d",
+      "parent": "UU-1983-8#BT/13/1",
+      "heading": "",
+      "text": "ekspor Jasa Kena Pajak sebagaimana\ndimaksud dalam Pasal 4 ayat (1) huruf h.",
+      "role": null,
+      "ord": 196
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1a",
+      "locator": "UU-1983-8#BT/13/1a",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Faktur Pajak sebagaimana dimaksud pada ayat (1)\nharus dibuat pada:\na. saat penyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak;\nb. saat penerimaan pembayaran dalam hal\npenerimaan pembayaran terjadi sebelum\npenyerahan Barang Kena Pajak dan/atau\nsebelum penyerahan Jasa Kena Pajak;\nc. saat penerimaan pembayaran termin dalam\nhal penyerahan sebagian tahap pekerjaan;\natau\nd. saat lain yang diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 197
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/13/1a/a",
+      "parent": "UU-1983-8#BT/13/1a",
+      "heading": "",
+      "text": "saat penyerahan Barang Kena Pajak dan/atau\npenyerahan Jasa Kena Pajak;",
+      "role": null,
+      "ord": 198
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/13/1a/b",
+      "parent": "UU-1983-8#BT/13/1a",
+      "heading": "",
+      "text": "saat penerimaan pembayaran dalam hal\npenerimaan pembayaran terjadi sebelum\npenyerahan Barang Kena Pajak dan/atau\nsebelum penyerahan Jasa Kena Pajak;",
+      "role": null,
+      "ord": 199
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/13/1a/c",
+      "parent": "UU-1983-8#BT/13/1a",
+      "heading": "",
+      "text": "saat penerimaan pembayaran termin dalam\nhal penyerahan sebagian tahap pekerjaan;\natau",
+      "role": null,
+      "ord": 200
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/13/1a/d",
+      "parent": "UU-1983-8#BT/13/1a",
+      "heading": "",
+      "text": "saat lain yang diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 201
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/13/2",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Dikecualikan dari ketentuan sebagaimana\ndimaksud pada ayat (1), Pengusaha Kena Pajak\ndapat membuat 1 (satu) Faktur Pajak meliputi\nselurrrh penyerahan yang dilakukan kepada\npembeli Barang Kena Pajak atau penerima Jasa\nKena Pajak yang sama selama 1 (satu) bulan\nkalender.",
+      "role": null,
+      "ord": 202
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2a",
+      "locator": "UU-1983-8#BT/13/2a",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Faktur Pajak sebagaimana dimaksud pada ayat (21\nharus dibuat paling lama pada akhir bulan\npenyerahan.\nSK No 171640 A",
+      "role": null,
+      "ord": 203
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/13/3",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Dihapus...",
+      "role": null,
+      "ord": 204
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/13/3",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "(41\n(s)\nFRESIDEN\nREPUBUK TNDONESIA\n-631-\nDihapus.\nDihapus.\nDalam Faktur Pajak harus dicantumkan\nketerangan tentang penyerahan Barang Kena Pajak\ndan/atau penyerahan Jasa Kena Pajak yang paling\nsedikit memuat:\na. nama, alamat, dan Nomor Pokok Wajib Pajak\nyang menyerahkan Barang Kena Pajak atau\nJasa Kena Pajak;\nb. identitas pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak yang meliputi:\n1. nama, alamat, dan Nomor Pokok Wajib\nPajak atau nomor induk kependudukan\natau nomor paspor bagi subjek pajak luar\nnegeri orang pribadi; atau\n2. nama dan alamat, dalam hal pembeli\nBarang Kena Pajak atau penerima Jasa\nKena Pajak merupakan subjek pajak luar\nnegeri badan atau bukan merupakan\nsubjek pajak sebagaimana dimaksud\ndalam Pasal 3 Undang-Undang tentang\nPajak Penghasilan;\nc. jenis barang atau jasa, jumlah Harga Jual\natau Penggantian, dan potongan harga;\nd. Pajak Pertambahan Nilai yang dipungut;\ne. Pajak Penjualan atas Barang Mewah yang\ndipungut;\nf. \nkode, nomor seri, dan tanggal pembuatan\nFaktur Pajak; dan\ng. nama dan tanda tangan yang berhak\nmenandatangani Faktur Pajak.\nSK No 17164l A",
+      "role": null,
+      "ord": 205
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/13/3/a",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "nama, alamat, dan Nomor Pokok Wajib Pajak\nyang menyerahkan Barang Kena Pajak atau\nJasa Kena Pajak;",
+      "role": null,
+      "ord": 206
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/13/3/b",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "identitas pembeli Barang Kena Pajak atau\npenerima Jasa Kena Pajak yang meliputi:\n1. nama, alamat, dan Nomor Pokok Wajib\nPajak atau nomor induk kependudukan\natau nomor paspor bagi subjek pajak luar\nnegeri orang pribadi; atau\n2. nama dan alamat, dalam hal pembeli\nBarang Kena Pajak atau penerima Jasa\nKena Pajak merupakan subjek pajak luar\nnegeri badan atau bukan merupakan\nsubjek pajak sebagaimana dimaksud\ndalam Pasal 3 Undang-Undang tentang\nPajak Penghasilan;",
+      "role": null,
+      "ord": 207
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/13/3/b/1",
+      "parent": "UU-1983-8#BT/13/3/b",
+      "heading": "",
+      "text": "nama, alamat, dan Nomor Pokok Wajib\nPajak atau nomor induk kependudukan\natau nomor paspor bagi subjek pajak luar\nnegeri orang pribadi; atau",
+      "role": null,
+      "ord": 208
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/13/3/b/2",
+      "parent": "UU-1983-8#BT/13/3/b",
+      "heading": "",
+      "text": "nama dan alamat, dalam hal pembeli\nBarang Kena Pajak atau penerima Jasa\nKena Pajak merupakan subjek pajak luar\nnegeri badan atau bukan merupakan\nsubjek pajak sebagaimana dimaksud\ndalam Pasal 3 Undang-Undang tentang\nPajak Penghasilan;",
+      "role": null,
+      "ord": 209
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/13/3/c",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "jenis barang atau jasa, jumlah Harga Jual\natau Penggantian, dan potongan harga;",
+      "role": null,
+      "ord": 210
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/13/3/d",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai yang dipungut;",
+      "role": null,
+      "ord": 211
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/13/3/e",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "Pajak Penjualan atas Barang Mewah yang\ndipungut;",
+      "role": null,
+      "ord": 212
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/13/3/f",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "kode, nomor seri, dan tanggal pembuatan\nFaktur Pajak; dan",
+      "role": null,
+      "ord": 213
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/13/3/g",
+      "parent": "UU-1983-8#BT/13/3",
+      "heading": "",
+      "text": "nama dan tanda tangan yang berhak\nmenandatangani Faktur Pajak.\nSK No 17164l A",
+      "role": null,
+      "ord": 214
+    },
+    {
+      "level": "AYAT",
+      "nomor": "5a",
+      "locator": "UU-1983-8#BT/13/5a",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Pengusaha. . .\n\n\nPRESIDEN\nBUK INDONESIA\n-632-",
+      "role": null,
+      "ord": 215
+    },
+    {
+      "level": "AYAT",
+      "nomor": "5a",
+      "locator": "UU-1983-8#BT/13/5a",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Pengusaha Kena Pajak pedagang eceran dapat\nmembuat Faktur Pajak tanpa mencantumkan\nketerangan mengenai identitas pembeli serta nama\ndan tanda tangan penjual dalam hal melakukan\npenyerahan Barang Kena Pajak dan/atau Jasa\nKena Pajak kepada pembeli dengan karakteristik\nkonsumen akhir yang diatur lebih lanjut dengan\nPeraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 216
+    },
+    {
+      "level": "AYAT",
+      "nomor": "6",
+      "locator": "UU-1983-8#BT/13/6",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Direktur Jenderal Pajak dapat menetapkan\ndokumen tertentu yang \nkedudukannya\ndipersamakan dengan Faktur Pajak.",
+      "role": null,
+      "ord": 217
+    },
+    {
+      "level": "AYAT",
+      "nomor": "7",
+      "locator": "UU-1983-8#BT/13/7",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Dihapus.",
+      "role": null,
+      "ord": 218
+    },
+    {
+      "level": "AYAT",
+      "nomor": "8",
+      "locator": "UU-1983-8#BT/13/8",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Ketentuan lebih lanjut mengenai tata cara\npembuatan Faktur Pajak dan tata cara pembetulan\natau penggantian Faktur Pajak diatur dengan atau\nberdasarkan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 219
+    },
+    {
+      "level": "AYAT",
+      "nomor": "9",
+      "locator": "UU-1983-8#BT/13/9",
+      "parent": "UU-1983-8#BT/13",
+      "heading": "",
+      "text": "Faktur Pajak harus memenuhi persyaratan formal\ndan material.",
+      "role": null,
+      "ord": 220
+    },
+    {
+      "level": "PASAL",
+      "nomor": "14",
+      "locator": "UU-1983-8#BT/14",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Orang pribadi atau badan yang tidak dikukuhkan sebagai \nPengusaha Kena Pajak dilarang membuat Faktur Pajak. \n \n(2) Dalam hal Faktur Pajak telah dibuat, maka orang pribadi atau \nbadan sebagaimana dimaksud pada ayat (1) harus menyetorkan \njumlah pajak yang tercantum dalam Faktur Pajak ke Kas \nNegara.",
+      "role": "SUBSTANTIVE",
+      "ord": 221
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/14/1",
+      "parent": "UU-1983-8#BT/14",
+      "heading": "",
+      "text": "Orang pribadi atau badan yang tidak dikukuhkan sebagai \nPengusaha Kena Pajak dilarang membuat Faktur Pajak.",
+      "role": null,
+      "ord": 222
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/14/2",
+      "parent": "UU-1983-8#BT/14",
+      "heading": "",
+      "text": "Dalam hal Faktur Pajak telah dibuat, maka orang pribadi atau \nbadan sebagaimana dimaksud pada ayat (1) harus menyetorkan \njumlah pajak yang tercantum dalam Faktur Pajak ke Kas \nNegara.",
+      "role": null,
+      "ord": 223
+    },
+    {
+      "level": "PASAL",
+      "nomor": "17",
+      "locator": "UU-1983-8#BT/17",
+      "parent": null,
+      "heading": "",
+      "text": "Hal-hal yang menyangkut pengertian dan tata cara pemungutan \nberkenaan dengan pelaksanaan Undang-undang ini, yang secara \nkhusus belum diatur dalam Undang-undang ini, berlaku ketentuan \ndalam Undang-undang tentang Ketentuan Umum dan Tata Cara \nPerpajakan serta peraturan perundang-undangan lainnya.",
+      "role": "SUBSTANTIVE",
+      "ord": 224
+    },
+    {
+      "level": "PASAL",
+      "nomor": "18",
+      "locator": "UU-1983-8#BT/18",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nDengan berlakunya undang-undang ini:\na.\nsemua Penyerahan Barang Kena Pajak atau Jasa Kena Pajak dan Impor\nBarang Kena Pajak yang telah dilakukan sebelum undang-undang ini berlaku,\ntetap terhutang pajak menurut Undang-undang Pajak Penjualan 1951;\nb. selama …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 12 -\nb.\nselama peraturan pelaksanaan undang-undang ini belum dikeluarkan, maka\nperaturan pelaksanaan yang tidak bertentangan dengan undang-undang ini\nyang belum dicabut dan diganti dinyatakan masih berlaku.\n(2)\nKetentuan pelaksanaan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut oleh\nMenteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 225
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/18/1",
+      "parent": "UU-1983-8#BT/18",
+      "heading": "",
+      "text": "Dengan berlakunya undang-undang ini:\na.\nsemua Penyerahan Barang Kena Pajak atau Jasa Kena Pajak dan Impor\nBarang Kena Pajak yang telah dilakukan sebelum undang-undang ini berlaku,\ntetap terhutang pajak menurut Undang-undang Pajak Penjualan 1951;\nb. selama …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 12 -\nb.\nselama peraturan pelaksanaan undang-undang ini belum dikeluarkan, maka\nperaturan pelaksanaan yang tidak bertentangan dengan undang-undang ini\nyang belum dicabut dan diganti dinyatakan masih berlaku.",
+      "role": null,
+      "ord": 226
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/18/1/a",
+      "parent": "UU-1983-8#BT/18/1",
+      "heading": "",
+      "text": "semua Penyerahan Barang Kena Pajak atau Jasa Kena Pajak dan Impor\nBarang Kena Pajak yang telah dilakukan sebelum undang-undang ini berlaku,\ntetap terhutang pajak menurut Undang-undang Pajak Penjualan 1951;",
+      "role": null,
+      "ord": 227
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/18/1/b",
+      "parent": "UU-1983-8#BT/18/1",
+      "heading": "",
+      "text": "selama …\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n- 12 -",
+      "role": null,
+      "ord": 228
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/18/1/b",
+      "parent": "UU-1983-8#BT/18/1",
+      "heading": "",
+      "text": "selama peraturan pelaksanaan undang-undang ini belum dikeluarkan, maka\nperaturan pelaksanaan yang tidak bertentangan dengan undang-undang ini\nyang belum dicabut dan diganti dinyatakan masih berlaku.",
+      "role": null,
+      "ord": 229
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/18/2",
+      "parent": "UU-1983-8#BT/18",
+      "heading": "",
+      "text": "Ketentuan pelaksanaan sebagaimana dimaksud pada ayat (1) diatur lebih lanjut oleh\nMenteri Keuangan.",
+      "role": null,
+      "ord": 230
+    },
+    {
+      "level": "PASAL",
+      "nomor": "19",
+      "locator": "UU-1983-8#BT/19",
+      "parent": null,
+      "heading": "",
+      "text": "Hal-hal yang belum diatur dalam undang-undang ini diatur lebih lanjut dengan Peraturan\nPemerintah.",
+      "role": "SUBSTANTIVE",
+      "ord": 231
+    },
+    {
+      "level": "PASAL",
+      "nomor": "20",
+      "locator": "UU-1983-8#BT/20",
+      "parent": null,
+      "heading": "",
+      "text": "Undang-undang ini dapat disebut Undang-undang Pajak Pertambahan Nilai 1984.",
+      "role": "SUBSTANTIVE",
+      "ord": 232
+    },
+    {
+      "level": "PASAL",
+      "nomor": "21",
+      "locator": "UU-1983-8#BT/21",
+      "parent": null,
+      "heading": "",
+      "text": "Undang-undang ini mulai berlaku pada tanggal 1 Juli 1984.\nAgar supaya setiap orang mengetahuinya, memerintahkan pengundangan undang-\nundang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia.\nDisahkan di Jakarta\npada tanggal 31 Desember 1983\nPRESIDEN REPUBLIK INDONESIA,\nTTD\nSOEHARTO\nDiundangkan di Jakarta\npada tanggal 31 Desember 1983\nMENTERI/SEKRETARIS NEGARA\nREPUBLIK INDONESIA,\nTTD\nSUDHARMONO, S.H.\nLEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 1983 NOMOR 51\n\n\nPRESIDEN\nREPUBLIK INDONESIA",
+      "role": "SUBSTANTIVE",
+      "ord": 233
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16A",
+      "locator": "UU-1983-8#BT/16A",
+      "parent": null,
+      "heading": "",
+      "text": "(1)\nPajak yang terutang atas penyerahan Barang Kena Pajak dan atau\npenyerahan\nJasa\nKena\nPajak\nkepada\nPemungut\nPajak\nPertambahan\nNilai\ndipungut,\ndisetor,\ndan\ndilaporkan\noleh\nPemungut Pajak Pertambahan Nilai.\n(2)\nTata cara pemungutan, penyetoran, dan pelaporan pajak oleh\nPemungut Pajak Pertambahan Nilai sebagaimana dimaksud dalam\nayat (1), diatur dengan Keputusan Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 234
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/16A/1",
+      "parent": "UU-1983-8#BT/16A",
+      "heading": "",
+      "text": "Pajak yang terutang atas penyerahan Barang Kena Pajak dan atau\npenyerahan\nJasa\nKena\nPajak\nkepada\nPemungut\nPajak\nPertambahan\nNilai\ndipungut,\ndisetor,\ndan\ndilaporkan\noleh\nPemungut Pajak Pertambahan Nilai.",
+      "role": null,
+      "ord": 235
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/16A/2",
+      "parent": "UU-1983-8#BT/16A",
+      "heading": "",
+      "text": "Tata cara pemungutan, penyetoran, dan pelaporan pajak oleh\nPemungut Pajak Pertambahan Nilai sebagaimana dimaksud dalam\nayat (1), diatur dengan Keputusan Menteri Keuangan.",
+      "role": null,
+      "ord": 236
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16B",
+      "locator": "UU-1983-8#BT/16B",
+      "parent": null,
+      "heading": "",
+      "text": "(1) Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak,\nbaik untuk sementara waktu maupun selamanya,\nuntuk:\na. kegiatan di kawasan tertentu atau tempat\ntertentu di dalam Daerah Pabean;\nb. penyerahan Barang Kena Pajak tertentu atau\npenyerahan Jasa Kena Pajak tertentu;\n6\nSK No 115578 A\nc. lmpor...\n\n\nPRESIDEN\nREPUELIK INDONESIA\n-77 -\nc. impor Barang Kena Pajak tertentu;\nd. pemanfaatan Barang Kena Pajak Tidak\nBerwujud tertentu dari luar Daerah Pabean di\ndalam Daerah Pabean; dan\ne. pemanfaatan Jasa Kena Pajak tertentu dari luar\nDaerah Pabean di dalam Daerah Pabean,\ndiatur dengan Peraturan Pemerintah.\n(la) Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak\nbaik untuk sementara waktu maupun selamanya\nsebagaimana dimaksud pada ayat (1) diberikan\nterbatas untuk tujuan:\na. mendorong ekspor dan hilirisasi industri yang\nmerupakan prioritas nasional;\nb. menampung kemungkinan perjanjian dengan\nnegara lain dalam bidang perdagangan dan\ninvestasi, konvensi internasional yang telah\ndiratifikasi, serta kelaziman internasional\nlainnya;\nc. mendorong peningkatan kesehatan masyarakat\nmelalui pengadaan vaksin dalam rangka\nprogram vaksinasi nasional;\nd. meningkatkan pendidikan dan kecerdasan\nbangsa dengan membantu tersedianya buku\npelajaran umum, kitab suci, dan buku pelajaran\nagama dengan harga yang relatif terjangkau\nmasyarakat;\ne. mendorong pembangunan tempat ibadah;\nf. \nmenjamin terlaksananya proyek pemerintah\nyang dibiayai dengan hibah dan/atau dana\npinjaman luar negeri;\ng. mengakomodasi kelaziman internasional dalam\nimportasi Barang Kena Pajak tertentu yang\ndibebaskan dari pungutan Bea Masuk;\nSK No 115579 A\nh. membantu\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_78_\nh. membantu tersedianya Barang Kena Pajak\ndan/atau Jasa Kena Pajak yang diperlukan\ndalam rangka penanganan bencana alam dan\nbencana nonalam yang ditetapkan sebagai\nbencana alam nasional dan bencana nonalam\nnasional;\ni. \nmenjamin tersedianya angkutan umum di udara\nuntuk mendorong kelancaran perpindahan arus\nbarang dan orang di daerah tertentu yang tidak\ntersedia sarana transportasi lainnya yang\nmemadai, yang perbandingan antara volume\nbarang dan orang yang harus dipindahkan\ndengan sarana transportasi yang tersedia sangat\ntinggi; dan/atau\nj. \nmendukung tersedianya barang dan jasa\ntertentu yang bersifat strategis dalam rangka\npembangunan nasional, antara lain:\n1. barang kebutuhan pokok yang sangat\ndibutuhkan oleh ralryat banyak;\n2. jasa pelayanan kesehatan medis tertentu\ndan yang berada dalam sistem program\njaminan kesehatan nasional;\n3. jasa pelayanan sosial;\n4. jasa keuangan;\n5. jasa asuransi;\n6. jasa pendidikan;\n7. jasa angkutan umum di darat dan di air\nserta jasa angkutan udara dalam negeri\nyang menjadi bagian tidak terpisahkan dari\njasa angkutan luar negeri; dan\n8. jasa tenaga kerja.\n(21 Pajak Masukan yang dibayar atas perolehan Barang\nKena Pajak dan/atau Jasa Kena Pajak, impor Barang\nKena Pajak, serta pemanfaatan Barang Kena Pajak\nTidak Berwujud dari luar Daerah Pabean di dalam\nDaerah Pabean dan/atau pemanfaatan Jasa Kena\nPajak dari luar Daerah Pabean di dalam Daerah\nPabean yang atas penyerahannya tidak dipungut\nPajak Pertambahan Nilai sebagaimana dimaksud\npada ayat (1) dapat dikreditkan.\nSK No 115580 A\n(3) Pajak...\n\n\n7\ntrRESIDEN\nREPUBLIK INDONESIA\n_79 _\n(3) Pajak Masukan yang dibayar atas perolehan Barang\nKena Pajak dan/atau Jasa Kena Pajak, impor Barang\nKena Pajak, serta pemanfaatan Barang Kena Pajak\nTidak Berwujud dari luar Daerah Pabean di dalam\nDaerah Pabean dan/atau pemanfaatan Jasa Kena\nPajak dari luar Daerah Pabean di dalam Daerah\nPabean yang atas penyerahannya dibebaskan dari\npengenaan Pajak Pertambahan Nilai sebagaimana\ndimaksud pada ayat (1) tidak dapat dikreditkan.\nDi antara BAB VA dan BAB VI disisipkan 1 (satu) bab,\nyakni BAB VB sehingga berbunyi sebagai berikut:\nBAB VB\nPENDELEGASIAN KEWENANGAN",
+      "role": "SUBSTANTIVE",
+      "ord": 237
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/16B/1",
+      "parent": "UU-1983-8#BT/16B",
+      "heading": "",
+      "text": "Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak,\nbaik untuk sementara waktu maupun selamanya,\nuntuk:\na. kegiatan di kawasan tertentu atau tempat\ntertentu di dalam Daerah Pabean;\nb. penyerahan Barang Kena Pajak tertentu atau\npenyerahan Jasa Kena Pajak tertentu;\n6\nSK No 115578 A\nc. lmpor...\n\n\nPRESIDEN\nREPUELIK INDONESIA\n-77 -\nc. impor Barang Kena Pajak tertentu;\nd. pemanfaatan Barang Kena Pajak Tidak\nBerwujud tertentu dari luar Daerah Pabean di\ndalam Daerah Pabean; dan\ne. pemanfaatan Jasa Kena Pajak tertentu dari luar\nDaerah Pabean di dalam Daerah Pabean,\ndiatur dengan Peraturan Pemerintah.\n(la) Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak\nbaik untuk sementara waktu maupun selamanya\nsebagaimana dimaksud pada ayat (1) diberikan\nterbatas untuk tujuan:\na. mendorong ekspor dan hilirisasi industri yang\nmerupakan prioritas nasional;\nb. menampung kemungkinan perjanjian dengan\nnegara lain dalam bidang perdagangan dan\ninvestasi, konvensi internasional yang telah\ndiratifikasi, serta kelaziman internasional\nlainnya;\nc. mendorong peningkatan kesehatan masyarakat\nmelalui pengadaan vaksin dalam rangka\nprogram vaksinasi nasional;\nd. meningkatkan pendidikan dan kecerdasan\nbangsa dengan membantu tersedianya buku\npelajaran umum, kitab suci, dan buku pelajaran\nagama dengan harga yang relatif terjangkau\nmasyarakat;\ne. mendorong pembangunan tempat ibadah;\nf. \nmenjamin terlaksananya proyek pemerintah\nyang dibiayai dengan hibah dan/atau dana\npinjaman luar negeri;\ng. mengakomodasi kelaziman internasional dalam\nimportasi Barang Kena Pajak tertentu yang\ndibebaskan dari pungutan Bea Masuk;\nSK No 115579 A\nh. membantu\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_78_\nh. membantu tersedianya Barang Kena Pajak\ndan/atau Jasa Kena Pajak yang diperlukan\ndalam rangka penanganan bencana alam dan\nbencana nonalam yang ditetapkan sebagai\nbencana alam nasional dan bencana nonalam\nnasional;\ni. \nmenjamin tersedianya angkutan umum di udara\nuntuk mendorong kelancaran perpindahan arus\nbarang dan orang di daerah tertentu yang tidak\ntersedia sarana transportasi lainnya yang\nmemadai, yang perbandingan antara volume\nbarang dan orang yang harus dipindahkan\ndengan sarana transportasi yang tersedia sangat\ntinggi; dan/atau\nj. \nmendukung tersedianya barang dan jasa\ntertentu yang bersifat strategis dalam rangka\npembangunan nasional, antara lain:\n1. barang kebutuhan pokok yang sangat\ndibutuhkan oleh ralryat banyak;\n2. jasa pelayanan kesehatan medis tertentu\ndan yang berada dalam sistem program\njaminan kesehatan nasional;\n3. jasa pelayanan sosial;\n4. jasa keuangan;\n5. jasa asuransi;\n6. jasa pendidikan;\n7. jasa angkutan umum di darat dan di air\nserta jasa angkutan udara dalam negeri\nyang menjadi bagian tidak terpisahkan dari\njasa angkutan luar negeri; dan\n8. jasa tenaga kerja.",
+      "role": null,
+      "ord": 238
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/16B/1/a",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "kegiatan di kawasan tertentu atau tempat\ntertentu di dalam Daerah Pabean;",
+      "role": null,
+      "ord": 239
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/16B/1/b",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "penyerahan Barang Kena Pajak tertentu atau\npenyerahan Jasa Kena Pajak tertentu;\n6\nSK No 115578 A",
+      "role": null,
+      "ord": 240
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/16B/1/c",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "lmpor...\n\n\nPRESIDEN\nREPUELIK INDONESIA\n-77 -",
+      "role": null,
+      "ord": 241
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/16B/1/c",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "impor Barang Kena Pajak tertentu;",
+      "role": null,
+      "ord": 242
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/16B/1/d",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "pemanfaatan Barang Kena Pajak Tidak\nBerwujud tertentu dari luar Daerah Pabean di\ndalam Daerah Pabean; dan",
+      "role": null,
+      "ord": 243
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/16B/1/e",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "pemanfaatan Jasa Kena Pajak tertentu dari luar\nDaerah Pabean di dalam Daerah Pabean,\ndiatur dengan Peraturan Pemerintah.\n(la) Pajak terutang tidak dipungut sebagian atau\nseluruhnya atau dibebaskan dari pengenaan pajak\nbaik untuk sementara waktu maupun selamanya\nsebagaimana dimaksud pada ayat (1) diberikan\nterbatas untuk tujuan:",
+      "role": null,
+      "ord": 244
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/16B/1/a",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "mendorong ekspor dan hilirisasi industri yang\nmerupakan prioritas nasional;",
+      "role": null,
+      "ord": 245
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/16B/1/b",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "menampung kemungkinan perjanjian dengan\nnegara lain dalam bidang perdagangan dan\ninvestasi, konvensi internasional yang telah\ndiratifikasi, serta kelaziman internasional\nlainnya;",
+      "role": null,
+      "ord": 246
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/16B/1/c",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "mendorong peningkatan kesehatan masyarakat\nmelalui pengadaan vaksin dalam rangka\nprogram vaksinasi nasional;",
+      "role": null,
+      "ord": 247
+    },
+    {
+      "level": "HURUF",
+      "nomor": "d",
+      "locator": "UU-1983-8#BT/16B/1/d",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "meningkatkan pendidikan dan kecerdasan\nbangsa dengan membantu tersedianya buku\npelajaran umum, kitab suci, dan buku pelajaran\nagama dengan harga yang relatif terjangkau\nmasyarakat;",
+      "role": null,
+      "ord": 248
+    },
+    {
+      "level": "HURUF",
+      "nomor": "e",
+      "locator": "UU-1983-8#BT/16B/1/e",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "mendorong pembangunan tempat ibadah;",
+      "role": null,
+      "ord": 249
+    },
+    {
+      "level": "HURUF",
+      "nomor": "f",
+      "locator": "UU-1983-8#BT/16B/1/f",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "menjamin terlaksananya proyek pemerintah\nyang dibiayai dengan hibah dan/atau dana\npinjaman luar negeri;",
+      "role": null,
+      "ord": 250
+    },
+    {
+      "level": "HURUF",
+      "nomor": "g",
+      "locator": "UU-1983-8#BT/16B/1/g",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "mengakomodasi kelaziman internasional dalam\nimportasi Barang Kena Pajak tertentu yang\ndibebaskan dari pungutan Bea Masuk;\nSK No 115579 A",
+      "role": null,
+      "ord": 251
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/16B/1/h",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "membantu\n\n\nPRESIDEN\nREPUBLIK INDONESIA\n_78_",
+      "role": null,
+      "ord": 252
+    },
+    {
+      "level": "HURUF",
+      "nomor": "h",
+      "locator": "UU-1983-8#BT/16B/1/h",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "membantu tersedianya Barang Kena Pajak\ndan/atau Jasa Kena Pajak yang diperlukan\ndalam rangka penanganan bencana alam dan\nbencana nonalam yang ditetapkan sebagai\nbencana alam nasional dan bencana nonalam\nnasional;",
+      "role": null,
+      "ord": 253
+    },
+    {
+      "level": "HURUF",
+      "nomor": "i",
+      "locator": "UU-1983-8#BT/16B/1/i",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "menjamin tersedianya angkutan umum di udara\nuntuk mendorong kelancaran perpindahan arus\nbarang dan orang di daerah tertentu yang tidak\ntersedia sarana transportasi lainnya yang\nmemadai, yang perbandingan antara volume\nbarang dan orang yang harus dipindahkan\ndengan sarana transportasi yang tersedia sangat\ntinggi; dan/atau",
+      "role": null,
+      "ord": 254
+    },
+    {
+      "level": "HURUF",
+      "nomor": "j",
+      "locator": "UU-1983-8#BT/16B/1/j",
+      "parent": "UU-1983-8#BT/16B/1",
+      "heading": "",
+      "text": "mendukung tersedianya barang dan jasa\ntertentu yang bersifat strategis dalam rangka\npembangunan nasional, antara lain:\n1. barang kebutuhan pokok yang sangat\ndibutuhkan oleh ralryat banyak;\n2. jasa pelayanan kesehatan medis tertentu\ndan yang berada dalam sistem program\njaminan kesehatan nasional;\n3. jasa pelayanan sosial;\n4. jasa keuangan;\n5. jasa asuransi;\n6. jasa pendidikan;\n7. jasa angkutan umum di darat dan di air\nserta jasa angkutan udara dalam negeri\nyang menjadi bagian tidak terpisahkan dari\njasa angkutan luar negeri; dan\n8. jasa tenaga kerja.",
+      "role": null,
+      "ord": 255
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/16B/1/j/1",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "barang kebutuhan pokok yang sangat\ndibutuhkan oleh ralryat banyak;",
+      "role": null,
+      "ord": 256
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/16B/1/j/2",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa pelayanan kesehatan medis tertentu\ndan yang berada dalam sistem program\njaminan kesehatan nasional;",
+      "role": null,
+      "ord": 257
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/16B/1/j/3",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa pelayanan sosial;",
+      "role": null,
+      "ord": 258
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/16B/1/j/4",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa keuangan;",
+      "role": null,
+      "ord": 259
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "5",
+      "locator": "UU-1983-8#BT/16B/1/j/5",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa asuransi;",
+      "role": null,
+      "ord": 260
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "6",
+      "locator": "UU-1983-8#BT/16B/1/j/6",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa pendidikan;",
+      "role": null,
+      "ord": 261
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "7",
+      "locator": "UU-1983-8#BT/16B/1/j/7",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa angkutan umum di darat dan di air\nserta jasa angkutan udara dalam negeri\nyang menjadi bagian tidak terpisahkan dari\njasa angkutan luar negeri; dan",
+      "role": null,
+      "ord": 262
+    },
+    {
+      "level": "ANGKA",
+      "nomor": "8",
+      "locator": "UU-1983-8#BT/16B/1/j/8",
+      "parent": "UU-1983-8#BT/16B/1/j",
+      "heading": "",
+      "text": "jasa tenaga kerja.",
+      "role": null,
+      "ord": 263
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/16B/2",
+      "parent": "UU-1983-8#BT/16B",
+      "heading": "",
+      "text": "Pajak Masukan yang dibayar atas perolehan Barang\nKena Pajak dan/atau Jasa Kena Pajak, impor Barang\nKena Pajak, serta pemanfaatan Barang Kena Pajak\nTidak Berwujud dari luar Daerah Pabean di dalam\nDaerah Pabean dan/atau pemanfaatan Jasa Kena\nPajak dari luar Daerah Pabean di dalam Daerah\nPabean yang atas penyerahannya tidak dipungut\nPajak Pertambahan Nilai sebagaimana dimaksud\npada ayat (1) dapat dikreditkan.\nSK No 115580 A",
+      "role": null,
+      "ord": 264
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/16B/3",
+      "parent": "UU-1983-8#BT/16B",
+      "heading": "",
+      "text": "Pajak...\n\n\n7\ntrRESIDEN\nREPUBLIK INDONESIA\n_79 _",
+      "role": null,
+      "ord": 265
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/16B/3",
+      "parent": "UU-1983-8#BT/16B",
+      "heading": "",
+      "text": "Pajak Masukan yang dibayar atas perolehan Barang\nKena Pajak dan/atau Jasa Kena Pajak, impor Barang\nKena Pajak, serta pemanfaatan Barang Kena Pajak\nTidak Berwujud dari luar Daerah Pabean di dalam\nDaerah Pabean dan/atau pemanfaatan Jasa Kena\nPajak dari luar Daerah Pabean di dalam Daerah\nPabean yang atas penyerahannya dibebaskan dari\npengenaan Pajak Pertambahan Nilai sebagaimana\ndimaksud pada ayat (1) tidak dapat dikreditkan.\nDi antara BAB VA dan BAB VI disisipkan 1 (satu) bab,\nyakni BAB VB sehingga berbunyi sebagai berikut:\nBAB VB\nPENDELEGASIAN KEWENANGAN",
+      "role": null,
+      "ord": 266
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16C",
+      "locator": "UU-1983-8#BT/16C",
+      "parent": null,
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai dikenakan atas kegiatan membangun sendiri\nyang dilakukan tidak dalam kegiatan usaha atau pekerjaan oleh orang\npribadi atau badan yang hasilnya digunakan sendiri atau digunakan\npihak lain yang batasan dan tata caranya diatur dengan Keputusan\nMenteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 267
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16D",
+      "locator": "UU-1983-8#BT/16D",
+      "parent": null,
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai dikenakan atas penyerahan Barang \nKena Pajak berupa aktiva yang menurut tujuan semula \ntidak untuk diperjualbelikan oleh Pengusaha Kena Pajak, \nkecuali atas penyerahan aktiva yang Pajak Masukannya \ntidak dapat dikreditkan sebagaimana dimaksud dalam Pasal \n9 ayat (8) huruf b dan huruf c.",
+      "role": "SUBSTANTIVE",
+      "ord": 268
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16E",
+      "locator": "UU-1983-8#BT/16E",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang sudah dibayar atas pembelian \nBarang Kena Pajak yang dibawa ke luar Daerah Pabean \noleh orang pribadi pemegang paspor luar negeri dapat \ndiminta kembali. \n(2) \nPajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang \nMewah \nyang \ndapat \ndiminta \nkembali \nsebagaimana dimaksud pada ayat (1) harus memenuhi \nsyarat:  \na. \nnilai Pajak Pertambahan Nilai paling sedikit \nRp500.000,00 (lima ratus ribu rupiah) dan dapat \ndisesuaikan dengan Peraturan Pemerintah;  \nb. \npembelian Barang Kena Pajak dilakukan dalam \njangka \nwaktu \n1 \n(satu) \nbulan \nsebelum \nkeberangkatan ke luar Daerah Pabean; dan \n \n \n \n \nc. Faktur ... \n\n\n \n \n \n- 24 -\n \nc. \nFaktur Pajak memenuhi ketentuan sebagaimana \ndimaksud dalam Pasal 13 ayat (5), kecuali pada \nkolom Nomor Pokok Wajib Pajak dan alamat \npembeli diisi dengan nomor paspor dan alamat \nlengkap di negara yang menerbitkan paspor atas \npenjualan kepada orang pribadi pemegang paspor \nluar negeri yang tidak mempunyai Nomor Pokok \nWajib Pajak. \n(3) \nPermintaan kembali Pajak Pertambahan Nilai dan \nPajak Penjualan atas Barang Mewah sebagaimana \ndimaksud pada ayat (1) dilakukan pada saat orang \npribadi pemegang paspor luar negeri meninggalkan \nIndonesia dan disampaikan kepada Direktur Jenderal \nPajak melalui Kantor Direktorat Jenderal Pajak di \nbandar udara yang ditetapkan oleh Menteri Keuangan. \n(4) \nDokumen yang harus ditunjukkan pada saat meminta \nkembali Pajak Pertambahan Nilai dan Pajak Penjualan \natas Barang Mewah adalah: \na. paspor;  \nb. pas naik (boarding pass) untuk keberangkatan \norang pribadi sebagaimana dimaksud pada ayat (1) \nke luar Daerah Pabean; dan \nc. Faktur Pajak sebagaimana dimaksud pada ayat (2) \nhuruf c. \n(5) \nKetentuan \nmengenai \ntata \ncara \npengajuan \ndan \npenyelesaian permintaan kembali Pajak Pertambahan \nNilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \nsebagaimana dimaksud pada ayat (1) diatur dengan \natau berdasarkan Peraturan Menteri Keuangan.",
+      "role": "SUBSTANTIVE",
+      "ord": 269
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/16E/1",
+      "parent": "UU-1983-8#BT/16E",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang Mewah yang sudah dibayar atas pembelian \nBarang Kena Pajak yang dibawa ke luar Daerah Pabean \noleh orang pribadi pemegang paspor luar negeri dapat \ndiminta kembali.",
+      "role": null,
+      "ord": 270
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/16E/2",
+      "parent": "UU-1983-8#BT/16E",
+      "heading": "",
+      "text": "Pajak Pertambahan Nilai dan Pajak Penjualan atas \nBarang \nMewah \nyang \ndapat \ndiminta \nkembali \nsebagaimana dimaksud pada ayat (1) harus memenuhi \nsyarat:  \na. \nnilai Pajak Pertambahan Nilai paling sedikit \nRp500.000,00 (lima ratus ribu rupiah) dan dapat \ndisesuaikan dengan Peraturan Pemerintah;  \nb. \npembelian Barang Kena Pajak dilakukan dalam \njangka \nwaktu \n1 \n(satu) \nbulan \nsebelum \nkeberangkatan ke luar Daerah Pabean; dan \n \n \n \n \nc. Faktur ... \n\n\n \n \n \n- 24 -\n \nc. \nFaktur Pajak memenuhi ketentuan sebagaimana \ndimaksud dalam Pasal 13 ayat (5), kecuali pada \nkolom Nomor Pokok Wajib Pajak dan alamat \npembeli diisi dengan nomor paspor dan alamat \nlengkap di negara yang menerbitkan paspor atas \npenjualan kepada orang pribadi pemegang paspor \nluar negeri yang tidak mempunyai Nomor Pokok \nWajib Pajak.",
+      "role": null,
+      "ord": 271
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/16E/2/a",
+      "parent": "UU-1983-8#BT/16E/2",
+      "heading": "",
+      "text": "nilai Pajak Pertambahan Nilai paling sedikit \nRp500.000,00 (lima ratus ribu rupiah) dan dapat \ndisesuaikan dengan Peraturan Pemerintah;",
+      "role": null,
+      "ord": 272
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/16E/2/b",
+      "parent": "UU-1983-8#BT/16E/2",
+      "heading": "",
+      "text": "pembelian Barang Kena Pajak dilakukan dalam \njangka \nwaktu \n1 \n(satu) \nbulan \nsebelum \nkeberangkatan ke luar Daerah Pabean; dan",
+      "role": null,
+      "ord": 273
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/16E/2/c",
+      "parent": "UU-1983-8#BT/16E/2",
+      "heading": "",
+      "text": "Faktur ... \n\n\n \n \n \n- 24 -",
+      "role": null,
+      "ord": 274
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/16E/2/c",
+      "parent": "UU-1983-8#BT/16E/2",
+      "heading": "",
+      "text": "Faktur Pajak memenuhi ketentuan sebagaimana \ndimaksud dalam Pasal 13 ayat (5), kecuali pada \nkolom Nomor Pokok Wajib Pajak dan alamat \npembeli diisi dengan nomor paspor dan alamat \nlengkap di negara yang menerbitkan paspor atas \npenjualan kepada orang pribadi pemegang paspor \nluar negeri yang tidak mempunyai Nomor Pokok \nWajib Pajak.",
+      "role": null,
+      "ord": 275
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/16E/3",
+      "parent": "UU-1983-8#BT/16E",
+      "heading": "",
+      "text": "Permintaan kembali Pajak Pertambahan Nilai dan \nPajak Penjualan atas Barang Mewah sebagaimana \ndimaksud pada ayat (1) dilakukan pada saat orang \npribadi pemegang paspor luar negeri meninggalkan \nIndonesia dan disampaikan kepada Direktur Jenderal \nPajak melalui Kantor Direktorat Jenderal Pajak di \nbandar udara yang ditetapkan oleh Menteri Keuangan.",
+      "role": null,
+      "ord": 276
+    },
+    {
+      "level": "AYAT",
+      "nomor": "4",
+      "locator": "UU-1983-8#BT/16E/4",
+      "parent": "UU-1983-8#BT/16E",
+      "heading": "",
+      "text": "Dokumen yang harus ditunjukkan pada saat meminta \nkembali Pajak Pertambahan Nilai dan Pajak Penjualan \natas Barang Mewah adalah: \na. paspor;  \nb. pas naik (boarding pass) untuk keberangkatan \norang pribadi sebagaimana dimaksud pada ayat (1) \nke luar Daerah Pabean; dan \nc. Faktur Pajak sebagaimana dimaksud pada ayat (2) \nhuruf c.",
+      "role": null,
+      "ord": 277
+    },
+    {
+      "level": "HURUF",
+      "nomor": "a",
+      "locator": "UU-1983-8#BT/16E/4/a",
+      "parent": "UU-1983-8#BT/16E/4",
+      "heading": "",
+      "text": "paspor;",
+      "role": null,
+      "ord": 278
+    },
+    {
+      "level": "HURUF",
+      "nomor": "b",
+      "locator": "UU-1983-8#BT/16E/4/b",
+      "parent": "UU-1983-8#BT/16E/4",
+      "heading": "",
+      "text": "pas naik (boarding pass) untuk keberangkatan \norang pribadi sebagaimana dimaksud pada ayat (1) \nke luar Daerah Pabean; dan",
+      "role": null,
+      "ord": 279
+    },
+    {
+      "level": "HURUF",
+      "nomor": "c",
+      "locator": "UU-1983-8#BT/16E/4/c",
+      "parent": "UU-1983-8#BT/16E/4",
+      "heading": "",
+      "text": "Faktur Pajak sebagaimana dimaksud pada ayat (2) \nhuruf c.",
+      "role": null,
+      "ord": 280
+    },
+    {
+      "level": "AYAT",
+      "nomor": "5",
+      "locator": "UU-1983-8#BT/16E/5",
+      "parent": "UU-1983-8#BT/16E",
+      "heading": "",
+      "text": "Ketentuan \nmengenai \ntata \ncara \npengajuan \ndan \npenyelesaian permintaan kembali Pajak Pertambahan \nNilai \ndan \nPajak \nPenjualan \natas \nBarang \nMewah \nsebagaimana dimaksud pada ayat (1) diatur dengan \natau berdasarkan Peraturan Menteri Keuangan.",
+      "role": null,
+      "ord": 281
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16F",
+      "locator": "UU-1983-8#BT/16F",
+      "parent": null,
+      "heading": "",
+      "text": "Pembeli Barang Kena Pajak atau penerima Jasa Kena Pajak \nbertanggung jawab secara renteng atas pembayaran pajak, \nsepanjang tidak dapat menunjukkan bukti bahwa pajak \ntelah dibayar",
+      "role": "SUBSTANTIVE",
+      "ord": 282
+    },
+    {
+      "level": "PASAL",
+      "nomor": "16G",
+      "locator": "UU-1983-8#BT/16G",
+      "parent": null,
+      "heading": "",
+      "text": "Ketentuan lebih lanjut mengenai:\na. nilai lain sebagaimana dimaksud dalam Pasal 8A\nayat (1);\nb. kriteria belum melakukan penyerahan Barang Kena\nPajak dan/atau Jasa Kena Pajak dan/atau ekspor\nBarang Kena Pajak dan/atau Jasa Kena Pajak\nsebagaimana dimaksud dalam Pasal 9 ayat (2al;\nc. penghitungan dan tata cara pengembalian kelebihan\nPajak Masukan sebagaimana dimaksud dalam\nPasal 9 ayat (4c);\nd. Pengusaha Kena Pajak berisiko rendah yang\ndiberikan pengembalian pendahuluan kelebihan\npajak sebagaimana dimaksud dalam Pasal9 ayat (4c);\ne. pedoman pengkreditan pajak masukan sebagaimana\ndimaksud dalam Pasal 9 ayat (6);\n8\nSK No 115581 A\nf. penentuan ..\n\n\nPRESIDEN\nREPUELIK INDONESIA\n-80-\nf. \npenentuan sektor usaha tertentu sebagaimana\ndimaksud dalam Pasal 9 ayat (6c);\ng. pembayaran kembali Pajak Masukan sebagaimana\ndimaksud dalam Pasal 9 ayat (6e) huruf a;\nh. pengkreditan Pajak Masukan sebagaimana dimaksud\ndalam Pasal 9 ayat (9a), ayat (9b), dan ayat (9c); dan\ni. \njumlah peredaran usaha tertentu, jenis kegiatan\nusaha tertentu, jenis Barang Kena Pajak tertentu,\njenis Jasa Kena Pajak tertentu, dan besaran Pajak\nPertambahan Nilai yang dipungut dan disetor\nsebagaimana dimaksud dalam Pasal 9A ayat (1),\ndiatur dalam Peraturan Menteri Keuangan.\nBAB V\nPROGRAM PENGUNGKAPAN SUKARELA WAJIB PAJAK",
+      "role": "SUBSTANTIVE",
+      "ord": 283
+    },
+    {
+      "level": "PASAL",
+      "nomor": "15A",
+      "locator": "UU-1983-8#BT/15A",
+      "parent": null,
+      "heading": "",
+      "text": "(1) \nPenyetoran Pajak Pertambahan Nilai oleh Pengusaha \nKena Pajak sebagaimana dimaksud dalam Pasal 9 ayat \n(3) \nharus \ndilakukan \npaling \nlama \nakhir \nbulan \nberikutnya setelah berakhirnya Masa Pajak dan \nsebelum \nSurat \nPemberitahuan \nMasa \nPajak \nPertambahan Nilai disampaikan. \n(2) \nSurat Pemberitahuan Masa Pajak Pertambahan Nilai \ndisampaikan paling lama akhir bulan berikutnya \nsetelah berakhirnya Masa Pajak.",
+      "role": "SUBSTANTIVE",
+      "ord": 284
+    },
+    {
+      "level": "AYAT",
+      "nomor": "1",
+      "locator": "UU-1983-8#BT/15A/1",
+      "parent": "UU-1983-8#BT/15A",
+      "heading": "",
+      "text": "Penyetoran Pajak Pertambahan Nilai oleh Pengusaha \nKena Pajak sebagaimana dimaksud dalam Pasal 9 ayat",
+      "role": null,
+      "ord": 285
+    },
+    {
+      "level": "AYAT",
+      "nomor": "3",
+      "locator": "UU-1983-8#BT/15A/3",
+      "parent": "UU-1983-8#BT/15A",
+      "heading": "",
+      "text": "harus \ndilakukan \npaling \nlama \nakhir \nbulan \nberikutnya setelah berakhirnya Masa Pajak dan \nsebelum \nSurat \nPemberitahuan \nMasa \nPajak \nPertambahan Nilai disampaikan.",
+      "role": null,
+      "ord": 286
+    },
+    {
+      "level": "AYAT",
+      "nomor": "2",
+      "locator": "UU-1983-8#BT/15A/2",
+      "parent": "UU-1983-8#BT/15A",
+      "heading": "",
+      "text": "Surat Pemberitahuan Masa Pajak Pertambahan Nilai \ndisampaikan paling lama akhir bulan berikutnya \nsetelah berakhirnya Masa Pajak.",
+      "role": null,
+      "ord": 287
     }
   ]
 }

@@ -1,14 +1,11 @@
 {
-  "version": "fase3b-v3.1-full-national-plus-jurisprudence",
-  "total_documents": 142,
-  "total_active_for_rules": 80,
-  "total_consolidated": 29,
+  "version": "fase4a-v3.1-ck-merged",
+  "total_documents": 163,
+  "total_active_for_rules": 95,
+  "total_consolidated": 32,
+  "total_perda": 524,
   "total_jurisprudence": 199,
-  "pending_ck": [
-    "UU-2020-11",
-    "PERPU-2022-2",
-    "UU-2023-6"
-  ],
+  "pending_ck": [],
   "documents": [
     {
       "document_id": "CORETAX-buku-manual-coretax-2024-seri-pembayaran",
@@ -211,6 +208,42 @@
       ]
     },
     {
+      "document_id": "PER-DJP-2025-7",
+      "jenis": "PER-DJP",
+      "tahun": 2025,
+      "judul": "Petunjuk Pelaksanaan Administrasi Nomor Pokok Wajib Pajak, Pengusaha Kena Pajak, Objek Pajak Pajak Bumi dan Bangunan serta Perincian Jenis, Dokumen, dan Saluran untuk Pelaksanaan Hak dan Pemenuhan Kewajiban Perpajakan",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PER-DJP-2025-7.json",
+      "provisions_pasal_count": 95,
+      "articles_count": 95,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2025-7.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
+      "document_id": "PER-DJP-2026-11",
+      "jenis": "PER-DJP",
+      "tahun": 2026,
+      "judul": "Penyedia Printer Meterai Teraan Digital",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PER-DJP-2026-11.json",
+      "provisions_pasal_count": 22,
+      "articles_count": 22,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2026-11.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PERPRES-2018-40",
       "jenis": "PERPRES",
       "tahun": 2018,
@@ -294,7 +327,8 @@
         ],
         "applied_count": 3,
         "unparsed_count": 1,
-        "pasal_count": 8
+        "pasal_count": 8,
+        "sub_provisions_count": 22
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2009-105.json",
       "origin": "fetched_bpk_3b",
@@ -302,6 +336,24 @@
         "https://peraturan.bpk.go.id/Details/127433/pmk-no-105pmk032009",
         "https://peraturan.bpk.go.id/Download/247234/PMK%20Nomor%20105%20Tahun%202009.pdf"
       ]
+    },
+    {
+      "document_id": "PMK-2010-16",
+      "jenis": "PMK",
+      "tahun": 2010,
+      "judul": "Tata Cara Pemotongan Pajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan Jaminan Hari Tua yang Dibayarkan Sekaligus",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2010-16.json",
+      "provisions_pasal_count": 13,
+      "articles_count": 13,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2010-16.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PMK-2010-2",
@@ -364,7 +416,8 @@
         ],
         "applied_count": 4,
         "unparsed_count": 0,
-        "pasal_count": 9
+        "pasal_count": 9,
+        "sub_provisions_count": 16
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2010-68.json",
       "origin": "fetched_bpk",
@@ -414,7 +467,8 @@
         ],
         "applied_count": 18,
         "unparsed_count": 0,
-        "pasal_count": 33
+        "pasal_count": 33,
+        "sub_provisions_count": 292
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2014-111.json",
       "origin": "fetched_bpk_3b",
@@ -535,7 +589,7 @@
       "judul": "Peraturan Menteri Keuangan  Nomor 109/PMK.03/2018 Tahun 2018 tentang Pengadaan Barang dan/atau Jasa Untuk Pembaruan Sistem Administrasi Perpajakan",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "non_pajak_atau_pengadaan_internal",
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PMK-2018-109.json",
       "provisions_pasal_count": 29,
@@ -556,7 +610,7 @@
       "judul": "Peraturan Menteri Keuangan  Nomor 151/PMK.03/2018 Tahun 2018 tentang Pengadaan Agen Pengadaan Untuk Pembaruan Sistem Administrasi Perpajakan Serta Standar Dokumen Pengadaan Dan Standar Dokumen Kontrak",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "non_pajak_atau_pengadaan_internal",
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PMK-2018-151.json",
       "provisions_pasal_count": 17,
@@ -571,13 +625,49 @@
       ]
     },
     {
+      "document_id": "PMK-2018-192",
+      "jenis": "PMK",
+      "tahun": 2018,
+      "judul": "Pelaksanaan Pengkreditan Pajak atas Penghasilan dari Luar Negeri",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2018-192.json",
+      "provisions_pasal_count": 14,
+      "articles_count": 14,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2018-192.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
+      "document_id": "PMK-2018-212",
+      "jenis": "PMK",
+      "tahun": 2018,
+      "judul": "Pemotongan Pajak Penghasilan atas Bunga Deposito dan Tabungan serta Diskonto Sertifikat Bank Indonesia",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2018-212.json",
+      "provisions_pasal_count": 11,
+      "articles_count": 11,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2018-212.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PMK-2019-121",
       "jenis": "PMK",
       "tahun": 2019,
       "judul": "Peraturan Menteri Keuangan  Nomor 121/PMK.03/2019 Tahun 2019 tentang Pengadaan Jasa Konsultansi Badan Usaha Untuk Pembaruan Sistem Administrasi Perpajakan",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "non_pajak_atau_pengadaan_internal",
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PMK-2019-121.json",
       "provisions_pasal_count": 51,
@@ -632,7 +722,8 @@
         ],
         "applied_count": 10,
         "unparsed_count": 0,
-        "pasal_count": 44
+        "pasal_count": 44,
+        "sub_provisions_count": 369
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2019-186.json",
       "origin": "manual_download",
@@ -669,7 +760,7 @@
       "judul": "Peraturan Menteri Keuangan  Nomor 56/PMK.03/2019 Tahun 2019 tentang Pengadaan Sistem Informasi Untuk Pembaruan Sistem Administrasi Perpajakan",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "non_pajak_atau_pengadaan_internal",
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PMK-2019-56.json",
       "provisions_pasal_count": 54,
@@ -724,7 +815,8 @@
         ],
         "applied_count": 10,
         "unparsed_count": 0,
-        "pasal_count": 33
+        "pasal_count": 33,
+        "sub_provisions_count": 309
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2020-130.json",
       "origin": "corpus",
@@ -753,7 +845,8 @@
         ],
         "applied_count": 14,
         "unparsed_count": 1,
-        "pasal_count": 88
+        "pasal_count": 88,
+        "sub_provisions_count": 988
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2020-237.json",
       "origin": "fetched_bpk_3b",
@@ -768,8 +861,8 @@
       "tahun": 2020,
       "judul": "Peraturan Menteri Keuangan  Nomor 96/PMK.010/2020 Tahun 2020 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 11/PMK.010/2020 tentang Pelaksanaan Peraturan Pemerintah Nomor 78 Tahun 2019 tentang Fasilitas Pajak Penghasilan untuk Penanaman Modal di Bidang-bidang Usaha Tertentu dan/atau di Daerah-daerah Tertentu",
       "status_sumber": "Berlaku",
-      "active_for_rules": true,
-      "inactive_reason": null,
+      "active_for_rules": false,
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "AMENDING_ROMAN",
       "document_path": "knowledge_json/documents/PMK-2020-96.json",
       "provisions_pasal_count": 2,
@@ -824,7 +917,8 @@
         ],
         "applied_count": 5,
         "unparsed_count": 1,
-        "pasal_count": 19
+        "pasal_count": 19,
+        "sub_provisions_count": 155
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2021-96.json",
       "origin": "fetched_bpk_3b",
@@ -1105,7 +1199,8 @@
         ],
         "applied_count": 2,
         "unparsed_count": 0,
-        "pasal_count": 28
+        "pasal_count": 28,
+        "sub_provisions_count": 144
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2023-48.json",
       "origin": "fetched_bpk",
@@ -1136,6 +1231,24 @@
       ]
     },
     {
+      "document_id": "PMK-2023-66",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Perlakuan Pajak Penghasilan atas Penggantian atau Imbalan Sehubungan dengan Pekerjaan atau Jasa yang Diterima atau Diperoleh dalam Bentuk Natura dan/atau Kenikmatan",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-66.json",
+      "provisions_pasal_count": 27,
+      "articles_count": 27,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-66.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PMK-2023-72",
       "jenis": "PMK",
       "tahun": 2023,
@@ -1157,6 +1270,24 @@
       ]
     },
     {
+      "document_id": "PMK-2023-80",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "PMK Nomor 80 Tahun 2023 tentang Tata Cara Penerbitan Surat Ketetapan Pajak dan Surat Tagihan Pajak",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-80.json",
+      "provisions_pasal_count": 39,
+      "articles_count": 39,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-80.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PMK-2024-118",
       "jenis": "PMK",
       "tahun": 2024,
@@ -1168,9 +1299,18 @@
       "document_path": "knowledge_json/documents/PMK-2024-118.json",
       "provisions_pasal_count": 64,
       "articles_count": 64,
-      "has_consolidated": false,
-      "consolidated": null,
-      "recommended_source": "knowledge_json/documents/PMK-2024-118.json",
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PMK-2024-118.json",
+        "chain": [
+          "PMK-2026-71"
+        ],
+        "applied_count": 6,
+        "unparsed_count": 0,
+        "pasal_count": 66,
+        "sub_provisions_count": 1637
+      },
+      "recommended_source": "knowledge_json/consolidated/PMK-2024-118.json",
       "origin": "manual_download",
       "source_urls": [
         "https://jdih.kemenkeu.go.id"
@@ -1183,7 +1323,7 @@
       "judul": "Peraturan Menteri Keuangan  Nomor 127 Tahun 2024 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 65 Tahun 2024 tentang Peta Kapasitas Fiskal Daerah",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "non_pajak_atau_pengadaan_internal",
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "AMENDING_ROMAN",
       "document_path": "knowledge_json/documents/PMK-2024-127.json",
       "provisions_pasal_count": 2,
@@ -1322,7 +1462,8 @@
         ],
         "applied_count": 47,
         "unparsed_count": 4,
-        "pasal_count": 427
+        "pasal_count": 427,
+        "sub_provisions_count": 4051
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2024-81.json",
       "origin": "corpus",
@@ -1372,7 +1513,8 @@
         ],
         "applied_count": 1,
         "unparsed_count": 0,
-        "pasal_count": 24
+        "pasal_count": 24,
+        "sub_provisions_count": 207
       },
       "recommended_source": "knowledge_json/consolidated/PMK-2025-11.json",
       "origin": "fetched_bpk",
@@ -1380,6 +1522,42 @@
         "https://peraturan.bpk.go.id/Details/313574/pmk-no-11-tahun-2025",
         "https://peraturan.bpk.go.id/Download/374467/2025pmkeuangan11.pdf"
       ]
+    },
+    {
+      "document_id": "PMK-2025-111",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Pengawasan Kepatuhan Wajib Pajak",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-111.json",
+      "provisions_pasal_count": 30,
+      "articles_count": 30,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-111.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
+      "document_id": "PMK-2025-112",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Tata Cara Penerapan Persetujuan Penghindaran Pajak Berganda",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-112.json",
+      "provisions_pasal_count": 29,
+      "articles_count": 29,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-112.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PMK-2025-114",
@@ -1401,6 +1579,60 @@
         "https://peraturan.bpk.go.id/Details/342503/pmk-no-114-tahun-2025",
         "https://peraturan.bpk.go.id/Download/405652/2025pmkeuangan114.pdf"
       ]
+    },
+    {
+      "document_id": "PMK-2025-15",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Pemeriksaan Pajak",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-15.json",
+      "provisions_pasal_count": 32,
+      "articles_count": 32,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-15.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
+      "document_id": "PMK-2025-37",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Penunjukan Pihak Lain sebagai Pemungut Pajak Penghasilan serta Tata Cara Pemungutan, Penyetoran, dan Pelaporan Pajak Penghasilan yang Dipungut oleh Pihak Lain atas Penghasilan yang Diterima atau Diperoleh Wajib Pajak Luar Negeri",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-37.json",
+      "provisions_pasal_count": 18,
+      "articles_count": 18,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-37.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
+      "document_id": "PMK-2025-50",
+      "jenis": "PMK",
+      "tahun": 2025,
+      "judul": "Pajak Pertambahan Nilai dan Pajak Penghasilan atas Transaksi Perdagangan Aset Kripto",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2025-50.json",
+      "provisions_pasal_count": 28,
+      "articles_count": 28,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2025-50.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PMK-2025-53",
@@ -1507,6 +1739,24 @@
       ]
     },
     {
+      "document_id": "PMK-2026-71",
+      "jenis": "PMK",
+      "tahun": 2026,
+      "judul": "PMK Nomor 71 Tahun 2026 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 118 Tahun 2024 tentang Tata Cara Pembetulan, Keberatan, Pengurangan, Penghapusan, dan Pembatalan di Bidang Perpajakan",
+      "status_sumber": "Berlaku",
+      "active_for_rules": false,
+      "inactive_reason": "sudah_dikonsolidasi_ke_dokumen_induk",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PMK-2026-71.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2026-71.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PP-1994-41",
       "jenis": "PP",
       "tahun": 1994,
@@ -1526,7 +1776,8 @@
         ],
         "applied_count": 3,
         "unparsed_count": 0,
-        "pasal_count": 7
+        "pasal_count": 7,
+        "sub_provisions_count": 15
       },
       "recommended_source": "knowledge_json/consolidated/PP-1994-41.json",
       "origin": "fetched_bpk_3b",
@@ -1534,6 +1785,24 @@
         "https://peraturan.bpk.go.id/Details/57263/pp-no-41-tahun-1994",
         "https://peraturan.bpk.go.id/Download/46719/PP%20No.%2041%20Th%201994.pdf"
       ]
+    },
+    {
+      "document_id": "PP-1994-42",
+      "jenis": "PP",
+      "tahun": 1994,
+      "judul": "Pajak Penghasilan atas Hadiah Undian",
+      "status_sumber": "Tidak Berlaku",
+      "active_for_rules": false,
+      "inactive_reason": "dicabut_atau_tidak_berlaku",
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-1994-42.json",
+      "provisions_pasal_count": 5,
+      "articles_count": 5,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-1994-42.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PP-1997-14",
@@ -1555,6 +1824,33 @@
         "https://peraturan.bpk.go.id/Details/56237/pp-no-14-tahun-1997",
         "https://peraturan.bpk.go.id/Download/45728/PP%20No.%2014%20Th%201997.pdf"
       ]
+    },
+    {
+      "document_id": "PP-2000-131",
+      "jenis": "PP",
+      "tahun": 2000,
+      "judul": "Pajak Penghasilan atas Bunga Deposito dan Tabungan serta Diskonto Sertifikat Bank Indonesia",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2000-131.json",
+      "provisions_pasal_count": 7,
+      "articles_count": 7,
+      "has_consolidated": true,
+      "consolidated": {
+        "path": "knowledge_json/consolidated/PP-2000-131.json",
+        "chain": [
+          "PP-2015-123"
+        ],
+        "applied_count": 1,
+        "unparsed_count": 0,
+        "pasal_count": 7,
+        "sub_provisions_count": 21
+      },
+      "recommended_source": "knowledge_json/consolidated/PP-2000-131.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PP-2000-132",
@@ -1618,7 +1914,8 @@
         ],
         "applied_count": 1,
         "unparsed_count": 0,
-        "pasal_count": 5
+        "pasal_count": 5,
+        "sub_provisions_count": 5
       },
       "recommended_source": "knowledge_json/consolidated/PP-2000-20.json",
       "origin": "fetched_bpk",
@@ -1647,7 +1944,8 @@
         ],
         "applied_count": 2,
         "unparsed_count": 0,
-        "pasal_count": 13
+        "pasal_count": 13,
+        "sub_provisions_count": 58
       },
       "recommended_source": "knowledge_json/consolidated/PP-2008-28.json",
       "origin": "fetched_bpk_3b",
@@ -1677,7 +1975,8 @@
         ],
         "applied_count": 6,
         "unparsed_count": 0,
-        "pasal_count": 16
+        "pasal_count": 16,
+        "sub_provisions_count": 50
       },
       "recommended_source": "knowledge_json/consolidated/PP-2008-51.json",
       "origin": "fetched_bpk_3b",
@@ -1727,7 +2026,8 @@
         ],
         "applied_count": 14,
         "unparsed_count": 0,
-        "pasal_count": 52
+        "pasal_count": 52,
+        "sub_provisions_count": 468
       },
       "recommended_source": "knowledge_json/consolidated/PP-2009-32.json",
       "origin": "fetched_bpk_3b",
@@ -1758,6 +2058,24 @@
       ]
     },
     {
+      "document_id": "PP-2009-68",
+      "jenis": "PP",
+      "tahun": 2009,
+      "judul": "Tarif Pajak Penghasilan Pasal 21 atas Penghasilan Berupa Uang Pesangon, Uang Manfaat Pensiun, Tunjangan Hari Tua, dan Jaminan Hari Tua yang Dibayarkan Sekaligus",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2009-68.json",
+      "provisions_pasal_count": 13,
+      "articles_count": 13,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2009-68.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PP-2010-79",
       "jenis": "PP",
       "tahun": 2010,
@@ -1778,7 +2096,8 @@
         ],
         "applied_count": 16,
         "unparsed_count": 1,
-        "pasal_count": 40
+        "pasal_count": 40,
+        "sub_provisions_count": 238
       },
       "recommended_source": "knowledge_json/consolidated/PP-2010-79.json",
       "origin": "fetched_bpk_3b",
@@ -1809,7 +2128,8 @@
         ],
         "applied_count": 6,
         "unparsed_count": 0,
-        "pasal_count": 36
+        "pasal_count": 36,
+        "sub_provisions_count": 123
       },
       "recommended_source": "knowledge_json/consolidated/PP-2010-94.json",
       "origin": "fetched_bpk",
@@ -1817,6 +2137,24 @@
         "https://peraturan.bpk.go.id/Details/5119/pp-no-94-tahun-2010",
         "https://peraturan.bpk.go.id/Download/36193/PP%2094%20Tahun%202010.pdf"
       ]
+    },
+    {
+      "document_id": "PP-2015-123",
+      "jenis": "PP",
+      "tahun": 2015,
+      "judul": "Perubahan atas Peraturan Pemerintah Nomor 131 Tahun 2000 tentang Pajak Penghasilan atas Bunga Deposito dan Tabungan serta Diskonto Sertifikat Bank Indonesia",
+      "status_sumber": "Berlaku",
+      "active_for_rules": false,
+      "inactive_reason": "sudah_dikonsolidasi_ke_dokumen_induk",
+      "structure": "AMENDING_ROMAN",
+      "document_path": "knowledge_json/documents/PP-2015-123.json",
+      "provisions_pasal_count": 2,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2015-123.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PP-2015-18",
@@ -1838,7 +2176,8 @@
         ],
         "applied_count": 0,
         "unparsed_count": 1,
-        "pasal_count": 13
+        "pasal_count": 13,
+        "sub_provisions_count": 57
       },
       "recommended_source": "knowledge_json/consolidated/PP-2015-18.json",
       "origin": "fetched_bpk",
@@ -1911,6 +2250,24 @@
       ]
     },
     {
+      "document_id": "PP-2016-34",
+      "jenis": "PP",
+      "tahun": 2016,
+      "judul": "Pajak Penghasilan atas Penghasilan dari Pengalihan Hak atas Tanah dan/atau Bangunan, dan Perjanjian Pengikatan Jual Beli atas Tanah dan/atau Bangunan Beserta Perubahannya",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2016-34.json",
+      "provisions_pasal_count": 12,
+      "articles_count": 12,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2016-34.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PP-2016-55",
       "jenis": "PP",
       "tahun": 2016,
@@ -1973,6 +2330,24 @@
       ]
     },
     {
+      "document_id": "PP-2017-34",
+      "jenis": "PP",
+      "tahun": 2017,
+      "judul": "Pajak Penghasilan atas Penghasilan dari Persewaan Tanah dan/atau Bangunan",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2017-34.json",
+      "provisions_pasal_count": 7,
+      "articles_count": 7,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2017-34.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
       "document_id": "PP-2017-53",
       "jenis": "PP",
       "tahun": 2017,
@@ -2000,7 +2375,7 @@
       "judul": "Peraturan Pemerintah (PP)  Nomor 40 Tahun 2018 tentang Jenis dan Tarif atas Jenis Penerimaan Negara Bukan Pajak yang Berlaku pada Badan Standardisasi Nasional",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "non_pajak_atau_pengadaan_internal",
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PP-2018-40.json",
       "provisions_pasal_count": 11,
@@ -2076,7 +2451,8 @@
         ],
         "applied_count": 3,
         "unparsed_count": 0,
-        "pasal_count": 48
+        "pasal_count": 48,
+        "sub_provisions_count": 68
       },
       "recommended_source": "knowledge_json/consolidated/PP-2019-73.json",
       "origin": "fetched_bpk_3b",
@@ -2169,7 +2545,8 @@
         ],
         "applied_count": 2,
         "unparsed_count": 2,
-        "pasal_count": 81
+        "pasal_count": 81,
+        "sub_provisions_count": 535
       },
       "recommended_source": "knowledge_json/consolidated/PP-2021-41.json",
       "origin": "fetched_bpk_3b",
@@ -2205,8 +2582,8 @@
       "tahun": 2021,
       "judul": "Peraturan Pemerintah (PP)  Nomor 9 Tahun 2021 tentang Perlakuan Perpajakan Untuk Mendukung Kemudahan Berusaha",
       "status_sumber": "Berlaku",
-      "active_for_rules": true,
-      "inactive_reason": null,
+      "active_for_rules": false,
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/PP-2021-9.json",
       "provisions_pasal_count": 12,
@@ -2282,7 +2659,8 @@
         ],
         "applied_count": 3,
         "unparsed_count": 0,
-        "pasal_count": 22
+        "pasal_count": 22,
+        "sub_provisions_count": 131
       },
       "recommended_source": "knowledge_json/consolidated/PP-2022-15.json",
       "origin": "fetched_bpk_3b",
@@ -2395,7 +2773,8 @@
         ],
         "applied_count": 5,
         "unparsed_count": 0,
-        "pasal_count": 74
+        "pasal_count": 74,
+        "sub_provisions_count": 504
       },
       "recommended_source": "knowledge_json/consolidated/PP-2022-55.json",
       "origin": "corpus",
@@ -2445,6 +2824,42 @@
         "https://peraturan.bpk.go.id/Details/252130/pp-no-35-tahun-2023",
         "https://peraturan.bpk.go.id/Download/308745/PP%20Nomor%2035%20Tahun%202023.pdf"
       ]
+    },
+    {
+      "document_id": "PP-2023-58",
+      "jenis": "PP",
+      "tahun": 2023,
+      "judul": "PP Nomor 58 Tahun 2023 tentang Tarif Pemotongan Pajak Penghasilan Pasal 21 atas Penghasilan Sehubungan dengan Pekerjaan, Jasa, atau Kegiatan Wajib Pajak Orang Pribadi",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2023-58.json",
+      "provisions_pasal_count": 5,
+      "articles_count": 5,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2023-58.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
+    },
+    {
+      "document_id": "PP-2024-22",
+      "jenis": "PP",
+      "tahun": 2024,
+      "judul": "Perlakuan Pajak Penghasilan atas Penghasilan dari Penempatan Devisa Hasil Ekspor Sumber Daya Alam pada Instrumen Moneter dan/atau Instrumen Keuangan Tertentu di Indonesia",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PP-2024-22.json",
+      "provisions_pasal_count": 7,
+      "articles_count": 7,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PP-2024-22.json",
+      "origin": "merged_pph_op",
+      "source_urls": []
     },
     {
       "document_id": "PP-2025-18",
@@ -2550,11 +2965,13 @@
           "UU-2000-16",
           "UU-2007-28",
           "PERPU-2008-5",
-          "UU-2021-7"
+          "UU-2021-7",
+          "UU-2023-6"
         ],
-        "applied_count": 158,
+        "applied_count": 167,
         "unparsed_count": 0,
-        "pasal_count": 75
+        "pasal_count": 74,
+        "sub_provisions_count": 597
       },
       "recommended_source": "knowledge_json/consolidated/UU-1983-6.json",
       "origin": "corpus",
@@ -2583,11 +3000,13 @@
           "UU-1994-10",
           "UU-2000-17",
           "UU-2008-36",
-          "UU-2021-7"
+          "UU-2021-7",
+          "UU-2023-6"
         ],
-        "applied_count": 92,
+        "applied_count": 94,
         "unparsed_count": 2,
-        "pasal_count": 42
+        "pasal_count": 42,
+        "sub_provisions_count": 471
       },
       "recommended_source": "knowledge_json/consolidated/UU-1983-7.json",
       "origin": "fetched_bpk",
@@ -2615,11 +3034,13 @@
           "UU-1994-11",
           "UU-2000-18",
           "UU-2009-42",
-          "UU-2021-7"
+          "UU-2021-7",
+          "UU-2023-6"
         ],
-        "applied_count": 66,
+        "applied_count": 68,
         "unparsed_count": 0,
-        "pasal_count": 31
+        "pasal_count": 31,
+        "sub_provisions_count": 288
       },
       "recommended_source": "knowledge_json/consolidated/UU-1983-8.json",
       "origin": "corpus",
@@ -2648,7 +3069,8 @@
         ],
         "applied_count": 4,
         "unparsed_count": 0,
-        "pasal_count": 29
+        "pasal_count": 29,
+        "sub_provisions_count": 106
       },
       "recommended_source": "knowledge_json/consolidated/UU-1985-12.json",
       "origin": "corpus",
@@ -2782,7 +3204,8 @@
         ],
         "applied_count": 78,
         "unparsed_count": 9,
-        "pasal_count": 121
+        "pasal_count": 121,
+        "sub_provisions_count": 610
       },
       "recommended_source": "knowledge_json/consolidated/UU-1995-10.json",
       "origin": "fetched_bpk_3b",
@@ -2812,7 +3235,8 @@
         ],
         "applied_count": 47,
         "unparsed_count": 8,
-        "pasal_count": 65
+        "pasal_count": 65,
+        "sub_provisions_count": 643
       },
       "recommended_source": "knowledge_json/consolidated/UU-1995-11.json",
       "origin": "fetched_bpk_3b",
@@ -2841,7 +3265,8 @@
         ],
         "applied_count": 26,
         "unparsed_count": 0,
-        "pasal_count": 46
+        "pasal_count": 46,
+        "sub_provisions_count": 253
       },
       "recommended_source": "knowledge_json/consolidated/UU-1997-19.json",
       "origin": "manual_download",
@@ -3066,8 +3491,8 @@
       "tahun": 2009,
       "judul": "Undang-undang (UU)  Nomor 16 Tahun 2009 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 5 Tahun 2008 Tentang Perubahan Keempat Atas Undang-Undang Nomor 6 Tahun 1983 Tentang Ketentuan Umum dan Tata Cara Perpajakan Menjadi Undang-Undang",
       "status_sumber": "Berlaku",
-      "active_for_rules": true,
-      "inactive_reason": null,
+      "active_for_rules": false,
+      "inactive_reason": "non_pajak_atau_digantikan",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/UU-2009-16.json",
       "provisions_pasal_count": 2,
@@ -3191,7 +3616,7 @@
       "judul": "Undang-undang (UU)  Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang",
       "status_sumber": "Berlaku",
       "active_for_rules": false,
-      "inactive_reason": "pending_ck",
+      "inactive_reason": "klaster_pajak_sudah_dikonsolidasi",
       "structure": "NUMERIC",
       "document_path": "knowledge_json/documents/UU-2023-6.json",
       "provisions_pasal_count": 2,
