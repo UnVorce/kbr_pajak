@@ -1,18 +1,19 @@
 {
-  "total_cases": 199,
+  "total_cases": 232,
   "by_klaster": {
+    "kup_gugatan": 45,
+    "ppn": 40,
     "kepabeanan_cukai": 30,
-    "kup_gugatan": 40,
-    "pbb": 25,
-    "pph_badan": 39,
-    "pph_potput": 25,
-    "ppn": 40
+    "pph_badan": 48,
+    "pph_potput": 44,
+    "pbb": 25
   },
   "by_amar": {
-    "KABUL_SEBAGIAN": 33,
-    "KABUL_SELURUHNYA": 112,
-    "LAINNYA": 1,
-    "TOLAK": 53
+    "TOLAK": 64,
+    "KABUL_SELURUHNYA": 126,
+    "KABUL_SEBAGIAN": 38,
+    "LAINNYA": 3,
+    "BATAL": 1
   },
   "ocr_suspect_count": 0,
   "cases": [
@@ -4553,6 +4554,29 @@
       "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36814"
     },
     {
+      "case_id": "PP-PUT-36813",
+      "putusan_nomor": "PUT-114765.25/2014/PP/M.VB Tahun 2018",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPh Final Pasal 4 ayat (2) (Sewa & Jasa Konstruksi UMKM)",
+      "tahun_pajak": "2014",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "PER-DJP-2013-22",
+        "PP-1994-48",
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-1985-12",
+        "UU-1994-12",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 8,
+      "path": "knowledge_json/jurisprudence/PP-PUT-36813.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36813"
+    },
+    {
       "case_id": "PP-PUT-36811",
       "putusan_nomor": "PUT-114763.15/2014/PP/M.VB Tahun 2019",
       "klaster": "pph_badan",
@@ -4596,6 +4620,44 @@
       "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36790"
     },
     {
+      "case_id": "PP-PUT-36617",
+      "putusan_nomor": "PUT- 093407.15/2012/PP/M.XB Tahun 2019",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPH Badan (Kompensasi Kerugian Fiskal 5 Tahun)",
+      "tahun_pajak": "2012",
+      "tahun_putusan": 2019,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2008-36"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-36617.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36617"
+    },
+    {
+      "case_id": "PP-PUT-36616",
+      "putusan_nomor": "PUT- 089336.15/2011/PP/M.XB Tahun 2019",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPH Badan (Beban Piutang Tak Tertagih Bad Debt)",
+      "tahun_pajak": "2011",
+      "tahun_putusan": 2019,
+      "amar_kategori": "KABUL_SEBAGIAN",
+      "cited_regulations": [
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2008-36"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 11,
+      "path": "knowledge_json/jurisprudence/PP-PUT-36616.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36616"
+    },
+    {
       "case_id": "PP-PUT-36615",
       "putusan_nomor": "PUT- 087542.18/2013/PP/M.XB Tahun 2019",
       "klaster": "pbb",
@@ -4619,6 +4681,28 @@
       "pages": 24,
       "path": "knowledge_json/jurisprudence/PP-PUT-36615.json",
       "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36615"
+    },
+    {
+      "case_id": "PP-PUT-36518",
+      "putusan_nomor": "PUT-116664.15/2014/PP/M.XB Tahun 2019",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPH Badan (Kredit Pajak PPh 23 Bukti Potong)",
+      "tahun_pajak": "2014",
+      "tahun_putusan": 2019,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "PP-2010-94",
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2008-36",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-36518.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/36518"
     },
     {
       "case_id": "PP-PUT-36355",
@@ -4717,6 +4801,27 @@
       "pages": 16,
       "path": "knowledge_json/jurisprudence/PP-PUT-35862.json",
       "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/35862"
+    },
+    {
+      "case_id": "PP-PUT-35728",
+      "putusan_nomor": "PUT-106084.14/2012/PP/M.IVB Tahun 2018",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Orang Pribadi (Penghasilan Neto DN OP)",
+      "tahun_pajak": "2012",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2008-36",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 15,
+      "path": "knowledge_json/jurisprudence/PP-PUT-35728.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/35728"
     },
     {
       "case_id": "PP-PUT-35712",
@@ -4938,6 +5043,25 @@
       "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/35244"
     },
     {
+      "case_id": "PP-PUT-35197",
+      "putusan_nomor": "PUT-002848.99/2018/PP/M.XIIIA Tahun 2018",
+      "klaster": "kup_gugatan",
+      "jenis_pajak": "Gugatan KUP (Prosedur Ketetapan Pajak Daluwarsa Penetapan)",
+      "tahun_pajak": "2018",
+      "tahun_putusan": 2018,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-35197.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/35197"
+    },
+    {
       "case_id": "PP-PUT-35173",
       "putusan_nomor": "PUT-106647.18/2016/PP/M.XVIIIB Tahun 2018",
       "klaster": "pbb",
@@ -5029,6 +5153,544 @@
       "pages": 18,
       "path": "knowledge_json/jurisprudence/PP-PUT-34477.json",
       "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/34477"
+    },
+    {
+      "case_id": "PP-PUT-33521",
+      "putusan_nomor": "PUT-113958.14/2010/PP/M.VB Tahun 2018",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Orang Pribadi (Peredaran Usaha Dagang OP)",
+      "tahun_pajak": "2010",
+      "tahun_putusan": 2018,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 6,
+      "path": "knowledge_json/jurisprudence/PP-PUT-33521.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/33521"
+    },
+    {
+      "case_id": "PP-PUT-31291",
+      "putusan_nomor": "PUT-107155.12/2012/PP/M.VB Tahun 2018",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPh Pasal 23 (Sengketa Tarif & Kualifikasi Objek Jasa)",
+      "tahun_pajak": "2012",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SEBAGIAN",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2008-36"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-31291.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/31291"
+    },
+    {
+      "case_id": "PP-PUT-30891",
+      "putusan_nomor": "PUT-106889.15/2013/PP/M.IB Tahun 2018",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPH Badan (Omzet, Jasa Manajemen, Bunga, Kompensasi Rugi)",
+      "tahun_pajak": "2013",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SEBAGIAN",
+      "cited_regulations": [
+        "PER-DJP-2010-43",
+        "PER-DJP-2011-32",
+        "PER-DJP-2013-22",
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2007-28",
+        "UU-2008-36"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 16,
+      "path": "knowledge_json/jurisprudence/PP-PUT-30891.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/30891"
+    },
+    {
+      "case_id": "PP-PUT-29207",
+      "putusan_nomor": "Put-108596.15/2013/PP/M.XIVA Tahun 2018",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPH Badan (Ekualisasi Faktur Pajak vs Ledger Penjualan)",
+      "tahun_pajak": "2013",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 10,
+      "path": "knowledge_json/jurisprudence/PP-PUT-29207.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/29207"
+    },
+    {
+      "case_id": "PP-PUT-28785",
+      "putusan_nomor": "Put-107408.99/2014/PP/M.XVI.A Tahun 2018",
+      "klaster": "kup_gugatan",
+      "jenis_pajak": "Gugatan KUP (Pembatalan Ketetapan SKP Pasal 36)",
+      "tahun_pajak": "2014",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "PER-DJP-2012-24",
+        "PER-DJP-2013-24",
+        "PER-DJP-2014-16",
+        "PER-DJP-2014-17",
+        "PP-2012-1",
+        "UU-1983-6",
+        "UU-1983-8",
+        "UU-2002-14",
+        "UU-2009-42"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 13,
+      "path": "knowledge_json/jurisprudence/PP-PUT-28785.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/28785"
+    },
+    {
+      "case_id": "PP-PUT-28784",
+      "putusan_nomor": "Put-107406.99/2014/PP/M.XVI.A Tahun 2018",
+      "klaster": "kup_gugatan",
+      "jenis_pajak": "Gugatan KUP (Surat Tagihan Pajak STP Bunga Pasal 19)",
+      "tahun_pajak": "2014",
+      "tahun_putusan": 2018,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "PER-DJP-2012-24",
+        "PER-DJP-2013-08",
+        "PER-DJP-2013-24",
+        "PER-DJP-2014-16",
+        "PER-DJP-2014-17",
+        "PP-2012-1",
+        "UU-1983-6",
+        "UU-1983-8",
+        "UU-2002-14",
+        "UU-2009-42"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 13,
+      "path": "knowledge_json/jurisprudence/PP-PUT-28784.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/28784"
+    },
+    {
+      "case_id": "PP-PUT-28751",
+      "putusan_nomor": "PUT-105430.14/2011/PP/M.IIIA Tahun 2018",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Orang Pribadi (Uji Penghasilan Neto Lanjutan)",
+      "tahun_pajak": "2011",
+      "tahun_putusan": 2018,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2007-28",
+        "UU-2009-48"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-28751.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/28751"
+    },
+    {
+      "case_id": "PP-PUT-28750",
+      "putusan_nomor": "PUT-105429.14/2010/PP/M.IIIA Tahun 2018",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Orang Pribadi (Uji Arus Kas/Rekening)",
+      "tahun_pajak": "2010",
+      "tahun_putusan": 2018,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2007-28",
+        "UU-2009-48"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 6,
+      "path": "knowledge_json/jurisprudence/PP-PUT-28750.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/28750"
+    },
+    {
+      "case_id": "PP-PUT-26241",
+      "putusan_nomor": "Put-80631/PP/M.IIIA/14/2017",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2017,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 3,
+      "path": "knowledge_json/jurisprudence/PP-PUT-26241.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/26241"
+    },
+    {
+      "case_id": "PP-PUT-26193",
+      "putusan_nomor": "Put-81203/PP/M.VA/14/2017",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Orang Pribadi (NPPN Norma Penghitungan)",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2017,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-26193.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/26193"
+    },
+    {
+      "case_id": "PP-PUT-26019",
+      "putusan_nomor": "Put-80629/PP/M.IIIA/14/2017",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2011",
+      "tahun_putusan": 2017,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-26019.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/26019"
+    },
+    {
+      "case_id": "PP-PUT-26018",
+      "putusan_nomor": "Put-80628/PP/M.IIIA/14/2017",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2009",
+      "tahun_putusan": 2017,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-26018.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/26018"
+    },
+    {
+      "case_id": "PP-PUT-25989",
+      "putusan_nomor": "Put-81017/PP/M.IIA/14/2017",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2012",
+      "tahun_putusan": 2017,
+      "amar_kategori": "KABUL_SEBAGIAN",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2002-14",
+        "UU-2008-36",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 6,
+      "path": "knowledge_json/jurisprudence/PP-PUT-25989.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/25989"
+    },
+    {
+      "case_id": "PP-PUT-25754",
+      "putusan_nomor": "Put-80304/PP/M.IIB/14/2017",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2009",
+      "tahun_putusan": 2017,
+      "amar_kategori": "LAINNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14",
+        "UU-2009-16"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 8,
+      "path": "knowledge_json/jurisprudence/PP-PUT-25754.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/25754"
+    },
+    {
+      "case_id": "PP-PUT-20158",
+      "putusan_nomor": "Put-64583/PP/M.VA/14/2015",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2009",
+      "tahun_putusan": 2015,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-20158.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/20158"
+    },
+    {
+      "case_id": "PP-PUT-13147",
+      "putusan_nomor": "PUT-13147",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2009",
+      "tahun_putusan": 2014,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-7",
+        "UU-2000-17",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 6,
+      "path": "knowledge_json/jurisprudence/PP-PUT-13147.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/13147"
+    },
+    {
+      "case_id": "PP-PUT-10487",
+      "putusan_nomor": "PUT-50795/PP/M.XVA/14/2014",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2014,
+      "amar_kategori": "KABUL_SEBAGIAN",
+      "cited_regulations": [
+        "UU-1983-7",
+        "UU-2000-17",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": false,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-10487.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/10487"
+    },
+    {
+      "case_id": "PP-PUT-10302",
+      "putusan_nomor": "PUT.48365/PP/M.XI/15/2013",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPh Badan",
+      "tahun_pajak": "2005",
+      "tahun_putusan": 2013,
+      "amar_kategori": "BATAL",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2000-16",
+        "UU-2000-17",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 12,
+      "path": "knowledge_json/jurisprudence/PP-PUT-10302.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/10302"
+    },
+    {
+      "case_id": "PP-PUT-7625",
+      "putusan_nomor": "PUT.45045/PP/M.XII/15/2013",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPH Badan / UMKM Peredaran Bruto",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2013,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2000-16",
+        "UU-2002-14",
+        "UU-2007-28"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 9,
+      "path": "knowledge_json/jurisprudence/PP-PUT-7625.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/7625"
+    },
+    {
+      "case_id": "PP-PUT-7608",
+      "putusan_nomor": "Put.44917/PP/M.II/14/2013",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2013,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14",
+        "UU-2007-28"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-7608.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/7608"
+    },
+    {
+      "case_id": "PP-PUT-7517",
+      "putusan_nomor": "Put-44989/PP/M.XI/14/2013",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi (Norma)",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2013,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-1983-16",
+        "UU-1983-7",
+        "UU-2000-17",
+        "UU-2002-14",
+        "UU-2007-28",
+        "UU-2008-36"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-7517.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/7517"
+    },
+    {
+      "case_id": "PP-PUT-7393",
+      "putusan_nomor": "PUT.44599/PP/M.I/99/2013",
+      "klaster": "kup_gugatan",
+      "jenis_pajak": "Gugatan PPh OP",
+      "tahun_pajak": "2010",
+      "tahun_putusan": 2013,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 2,
+      "path": "knowledge_json/jurisprudence/PP-PUT-7393.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/7393"
+    },
+    {
+      "case_id": "PP-PUT-7392",
+      "putusan_nomor": "PUT.44595/PP/M.X/14/2013",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2010",
+      "tahun_putusan": 2013,
+      "amar_kategori": "LAINNYA",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 2,
+      "path": "knowledge_json/jurisprudence/PP-PUT-7392.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/7392"
+    },
+    {
+      "case_id": "PP-PUT-7186",
+      "putusan_nomor": "Put.44598/PP/M.I/99/2013",
+      "klaster": "kup_gugatan",
+      "jenis_pajak": "Gugatan PPh OP",
+      "tahun_pajak": "2010",
+      "tahun_putusan": 2013,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-7186.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/7186"
+    },
+    {
+      "case_id": "PP-PUT-5833",
+      "putusan_nomor": "PUT.43031/PP/M.XII/15/2013",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPh Badan",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2013,
+      "amar_kategori": "KABUL_SELURUHNYA",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2000-17",
+        "UU-2002-14",
+        "UU-2007-28",
+        "UU-2008-36"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 4,
+      "path": "knowledge_json/jurisprudence/PP-PUT-5833.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/5833"
+    },
+    {
+      "case_id": "PP-PUT-4118",
+      "putusan_nomor": "Nomor: Put.38480/PP/M.III/14/2012",
+      "klaster": "pph_potput",
+      "jenis_pajak": "PPH Pasal 25/29 Orang Pribadi",
+      "tahun_pajak": "2008",
+      "tahun_putusan": 2012,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "PER-DJP-2009-57",
+        "UU-1983-6",
+        "UU-1983-7",
+        "UU-2000-16",
+        "UU-2000-17",
+        "UU-2002-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 5,
+      "path": "knowledge_json/jurisprudence/PP-PUT-4118.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/4118"
+    },
+    {
+      "case_id": "PP-PUT-2518",
+      "putusan_nomor": "PUT.36902/PP/M.VIII/15/2012",
+      "klaster": "pph_badan",
+      "jenis_pajak": "PPh Badan",
+      "tahun_pajak": "2007",
+      "tahun_putusan": 2012,
+      "amar_kategori": "TOLAK",
+      "cited_regulations": [
+        "UU-2000-14"
+      ],
+      "has_pertimbangan": true,
+      "ocr_suspect": false,
+      "pages": 2,
+      "path": "knowledge_json/jurisprudence/PP-PUT-2518.json",
+      "source_url": "https://setpp.kemenkeu.go.id/risalah/ambilFileDariDisk/2518"
     }
   ]
 }
