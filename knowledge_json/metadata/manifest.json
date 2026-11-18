@@ -1,7 +1,7 @@
 {
   "version": "fase4a-v3.1-ck-merged",
-  "total_documents": 163,
-  "total_active_for_rules": 95,
+  "total_documents": 165,
+  "total_active_for_rules": 97,
   "total_consolidated": 32,
   "total_perda": 524,
   "total_jurisprudence": 199,
@@ -98,6 +98,24 @@
       "source_urls": []
     },
     {
+      "document_id": "PER-DJP-2015-17",
+      "jenis": "PER-DJP",
+      "tahun": 2015,
+      "judul": "Peraturan Direktur Jenderal Pajak Nomor PER-17/PJ/2015 tentang Norma Penghitungan Penghasilan Neto",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PER-DJP-2015-17.json",
+      "provisions_pasal_count": 149,
+      "articles_count": 2,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17.json",
+      "origin": "corpus",
+      "source_urls": []
+    },
+    {
       "document_id": "PER-DJP-2015-17-LAMPIRAN-1",
       "jenis": "LAMPIRAN",
       "tahun": 2015,
@@ -166,24 +184,6 @@
       "has_consolidated": false,
       "consolidated": null,
       "recommended_source": "knowledge_json/documents/PER-DJP-2015-17-LAMPIRAN-4.json",
-      "origin": "corpus",
-      "source_urls": []
-    },
-    {
-      "document_id": "PER-DJP-2015-17",
-      "jenis": "PER-DJP",
-      "tahun": 2015,
-      "judul": "Peraturan Direktur Jenderal Pajak Nomor PER-17/PJ/2015 tentang Norma Penghitungan Penghasilan Neto",
-      "status_sumber": "Berlaku",
-      "active_for_rules": true,
-      "inactive_reason": null,
-      "structure": "NUMERIC",
-      "document_path": "knowledge_json/documents/PER-DJP-2015-17.json",
-      "provisions_pasal_count": 149,
-      "articles_count": 2,
-      "has_consolidated": false,
-      "consolidated": null,
-      "recommended_source": "knowledge_json/documents/PER-DJP-2015-17.json",
       "origin": "corpus",
       "source_urls": []
     },
@@ -1288,6 +1288,27 @@
       "source_urls": []
     },
     {
+      "document_id": "PMK-2023-96",
+      "jenis": "PMK",
+      "tahun": 2023,
+      "judul": "Peraturan Menteri Keuangan Nomor 96 Tahun 2023 tentang Ketentuan Kepabeanan, Cukai, dan Pajak atas Impor dan Ekspor Barang Kiriman",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2023-96.json",
+      "provisions_pasal_count": 76,
+      "articles_count": 76,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2023-96.json",
+      "origin": "dokumen_tambahan",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/264771/pmk-no-96-tahun-2023",
+        "https://jdih.kemenkeu.go.id/download/12c12513-e4d6-4447-9877-2f74112e847c/96~PMK.04~2023Per.pdf"
+      ]
+    },
+    {
       "document_id": "PMK-2024-118",
       "jenis": "PMK",
       "tahun": 2024,
@@ -1437,6 +1458,27 @@
       "source_urls": [
         "https://peraturan.bpk.go.id/Details/306437/pmk-no-79-tahun-2024",
         "https://peraturan.bpk.go.id/Download/366677/2024pmkeuangan079.pdf"
+      ]
+    },
+    {
+      "document_id": "PMK-2024-8",
+      "jenis": "PMK",
+      "tahun": 2024,
+      "judul": "Peraturan Menteri Keuangan Nomor 8 Tahun 2024 tentang Pajak Pertambahan Nilai atas Penyerahan Kendaraan Bermotor Listrik Berbasis Baterai Roda Empat Tertentu dan Kendaraan Bermotor Listrik Berbasis Baterai Bus Tertentu yang Ditanggung Pemerintah Tahun Anggaran 2024",
+      "status_sumber": "Berlaku",
+      "active_for_rules": true,
+      "inactive_reason": null,
+      "structure": "NUMERIC",
+      "document_path": "knowledge_json/documents/PMK-2024-8.json",
+      "provisions_pasal_count": 14,
+      "articles_count": 14,
+      "has_consolidated": false,
+      "consolidated": null,
+      "recommended_source": "knowledge_json/documents/PMK-2024-8.json",
+      "origin": "dokumen_tambahan",
+      "source_urls": [
+        "https://peraturan.bpk.go.id/Details/278502/pmk-no-8-tahun-2024",
+        "https://jdih.kemenkeu.go.id/download/0a4005aa-43e9-40ea-9bf2-66bf1c183cfd/8~PMK.03~2024Per.pdf"
       ]
     },
     {
