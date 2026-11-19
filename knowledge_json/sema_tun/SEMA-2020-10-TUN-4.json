@@ -1,0 +1,26 @@
+{
+  "sema_id": "SEMA-2020-10-TUN-4",
+  "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+  "tahun_rapat": 2020,
+  "tahun_sema": 2020,
+  "butir": "4",
+  "judul_rumusan": "Pembetulan putusan berdasarkan Pasal 66 avat I huruf c juncto Pasal 80 ayat (1) huruf c dan e Undang-Undang Nomor 14 Tahun 2002 tentang Pengadilan Pajak dapat b",
+  "teks": "4. Pembetulan putusan berdasarkan Pasal 66 avat I huruf\nc juncto Pasal 80 ayat (1) huruf c dan e Undang-Undang\nNomor 14 Tahun 2002 tentang Pengadilan Pajak dapat\nberbentuk:\na. Renvoi, dan/atau\nb. Revisi atau perbaikan amar putusan sepanjang ter-\nhadap perkara yang bersangkutan belum diputus\npada tingkat Peniniauan Kembali.",
+  "pages": [
+    273,
+    275
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PENGADILAN_PAJAK_PK",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-2002-14"
+  ],
+  "content_hash": "5cf50783b951ef8fae46fd5bddf942d110ce18068bff8172c70bdc296a6d3ab4",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

@@ -1,0 +1,1510 @@
+{
+  "total_items": 78,
+  "total_pajak_terkait": 14,
+  "by_klaster": {
+    "KEPABEANAN_CUKAI": 2,
+    "KUP_PIDANA_PAJAK": 1,
+    "PAJAK_LAINNYA": 4,
+    "PENGADILAN_PAJAK_PK": 5,
+    "PPH_BADAN_BUT": 1,
+    "PPN": 1,
+    "TUN_UMUM": 64
+  },
+  "items": [
+    {
+      "sema_id": "SEMA-2025-1-TUN-1",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2025",
+      "tahun_rapat": 2025,
+      "tahun_sema": 2025,
+      "butir": "1",
+      "judul_rumusan": "Kumulasi Gugatan Keputusan dan/atau Tindakan Administrasi Pemerintahan. Revisi kesepakatan kamar tentang kumulasi gugatan sebagaimana Surat Edaran Mahkamah Agun",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        261,
+        264
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2025-1-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2025-1-TUN-2",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2025",
+      "tahun_rapat": 2025,
+      "tahun_sema": 2025,
+      "butir": "2",
+      "judul_rumusan": "Hak Gugat di Peradilan Tata Usaha Negara Pasca UndangUndang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan juncto Undang-Undang Nomor 6 Tahun 2023 tentan",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "PERPU-2022-2",
+        "UU-1986-5",
+        "UU-2004-9",
+        "UU-2014-30",
+        "UU-2023-6"
+      ],
+      "pages": [
+        261,
+        264
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2025-1-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2025-1-TUN-3",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2025",
+      "tahun_rapat": 2025,
+      "tahun_sema": 2025,
+      "butir": "3",
+      "judul_rumusan": "Pemeriksaan Permohonan Intervensi. a. Permohonan banding atas putusan sela pengadilan tata usaha negara yang menolak permohonan intervensi dikirimkan ke pengadi",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        261,
+        264
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2025-1-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2025-1-TUN-4",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2025",
+      "tahun_rapat": 2025,
+      "tahun_sema": 2025,
+      "butir": "4",
+      "judul_rumusan": "Pengenaan Ketentuan Pasal 26 ayat (4) UndangUndang tentang Pajak Penghasilan bagi Bentuk Usaha Tetap Kontraktor Kontrak Kerja Sama atau Branch Profit Tax Bentuk",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PPH_BADAN_BUT",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1983-7"
+      ],
+      "pages": [
+        261,
+        264
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2025-1-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2025-1-TUN-5",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2025",
+      "tahun_rapat": 2025,
+      "tahun_sema": 2025,
+      "butir": "5",
+      "judul_rumusan": "Penentuan Pihak Terbanding/Tergugat dalam Sengketa Pajak Berdasarkan Kewenangan Atributif Direktur Jenderal Pajak. Pelimpahan kewenangan atributif oleh Direktur",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PAJAK_LAINNYA",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2002-14"
+      ],
+      "pages": [
+        261,
+        264
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2025-1-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2024-2-TUN-1",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+      "tahun_rapat": 2024,
+      "tahun_sema": 2024,
+      "butir": "1",
+      "judul_rumusan": "Peninjauan Kembali oleh Badan atau Pejabat Tata Usaha Negara Badan atau pejabat tata usaha negara tidak dapat mengajukan peninjauan kembali sebagaimana putusan ",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PENGADILAN_PAJAK_PK",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "MK-2024-24-PUU-XXII",
+        "UU-1986-5",
+        "UU-2002-14"
+      ],
+      "pages": [
+        264,
+        267
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2024-2-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2024-2-TUN-2",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+      "tahun_rapat": 2024,
+      "tahun_sema": 2024,
+      "butir": "2",
+      "judul_rumusan": "Sikap Diam dari Badan atau Pejabat Tata Usaha Negara dalam Sengketa Minerba One Data Indonesia (MODI) Ketentuan Surat Edaran Mahkamah Agung Nomor 1 Tahun 2017 R",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1986-5"
+      ],
+      "pages": [
+        264,
+        267
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2024-2-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2024-2-TUN-3",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+      "tahun_rapat": 2024,
+      "tahun_sema": 2024,
+      "butir": "3",
+      "judul_rumusan": "Bukti Yang Diminta oleh Direktorat Jenderal Pajak tapi Tidak Diberikan oleh Wajib Pajak Pada Saat Pemeriksaan Pajak (Pasal 26A ayat (4) UndangUndang Nomor 28 Ta",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PENGADILAN_PAJAK_PK",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1983-6",
+        "UU-2007-28"
+      ],
+      "pages": [
+        264,
+        267
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2024-2-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2024-2-TUN-4",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+      "tahun_rapat": 2024,
+      "tahun_sema": 2024,
+      "butir": "4",
+      "judul_rumusan": "Sengketa Pajak a. Perihal Palm Kernel Expeller (PKE) atau Bungkil Inti Sawit Penyerahan PKE atau bungkil inti sawit (a by-product of the crushing and expelling ",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PPN",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "PMK-2012-80",
+        "PP-2015-81",
+        "UU-1983-6",
+        "UU-2007-28"
+      ],
+      "pages": [
+        264,
+        267
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2024-2-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2024-2-TUN-5",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+      "tahun_rapat": 2024,
+      "tahun_sema": 2024,
+      "butir": "5",
+      "judul_rumusan": "Sengketa Kepabeanan Alas kaki dengan sol luar (outer sole) dan bagian atas (upper) dari plastik, dibuat dengan cara pencetakan melalui penyuntikan (injection mo",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "KEPABEANAN_CUKAI",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1995-10"
+      ],
+      "pages": [
+        264,
+        267
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2024-2-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2023-3-TUN-1",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2023",
+      "tahun_rapat": 2023,
+      "tahun_sema": 2023,
+      "butir": "1",
+      "judul_rumusan": "Fatwa/Pendapat Hukum Hanya Untuk Lembaga Negara dan Lembaga Pemerintahan Mencabut huruf A aneka 6 rumusan hukum Kamar Tata Usaha Negara Tahun 2013 yang dituangk",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        267,
+        269
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2023-3-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2023-3-TUN-2",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2023",
+      "tahun_rapat": 2023,
+      "tahun_sema": 2023,
+      "butir": "2",
+      "judul_rumusan": "Pengabaian Permohonan Pembatalan Keputusan Tata Usaha Negara Tidak Dapat Digugat Sebagai Sengketa Tindakan Pemerintahan Permohonan pembatalan Keputusan Tata Usa",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        267,
+        269
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2023-3-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2023-3-TUN-3",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2023",
+      "tahun_rapat": 2023,
+      "tahun_sema": 2023,
+      "butir": "3",
+      "judul_rumusan": "Pembakuan Amar Putusan Dalam Perkara Tindakan Pemerintahan Dalam hal gugatan tindakan melanggar hukum oleh badan dan/atau pejabat pemerintah dikabulkan, maka se",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        267,
+        269
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2023-3-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2023-3-TUN-4",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2023",
+      "tahun_rapat": 2023,
+      "tahun_sema": 2023,
+      "butir": "4",
+      "judul_rumusan": "Sengketa Pajak Penerbitan Surat Ketetapan Pajak Setelah Putusan Pidana Perpajakan Dalam hal tindak pidana pajak telah diadili dan diputus berdasarkan putusan pe",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PAJAK_LAINNYA",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1983-6"
+      ],
+      "pages": [
+        267,
+        269
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2023-3-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2022-1-TUN-1",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2022",
+      "tahun_rapat": 2022,
+      "tahun_sema": 2022,
+      "butir": "1",
+      "judul_rumusan": "Subjek Hukum Tergugat dalam Sengketa Perizinan dengan Penerapan Online Single Submission (OSS) Dengan berlakunya Peraturan Pemerintah Nomor 5 Tahun 2021 tentang",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "PP-2021-5"
+      ],
+      "pages": [
+        269,
+        271
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2022-1-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2022-1-TUN-2",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2022",
+      "tahun_rapat": 2022,
+      "tahun_sema": 2022,
+      "butir": "2",
+      "judul_rumusan": "Pembakuan Amar Putusan Terkait dengan KTUN/Tindakan Faktual yang Dinyatakan Tidak Sah Pembakuan Amar Putusan terkait dengan KTUN/Tindakan Faktual yang diterbitk",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        269,
+        271
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2022-1-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2022-1-TUN-3",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2022",
+      "tahun_rapat": 2022,
+      "tahun_sema": 2022,
+      "butir": "3",
+      "judul_rumusan": "Keputusan atau Tindakan Faktual Olen Direktorat Jenderal Pajak atau Direktorat Jenderal Bea dan Cukai Keputusan dan/atau Tindakan Faktual di bidang perpajakan, ",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "KEPABEANAN_CUKAI",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        269,
+        271
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2022-1-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2022-1-TUN-4",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2022",
+      "tahun_rapat": 2022,
+      "tahun_sema": 2022,
+      "butir": "4",
+      "judul_rumusan": "Perbaikan Putusan Sengketa Pajak Keberatan para pihak terhadap substansi pertimbangan Putusan Mahkamah Agung dalam sengketa pajak tidak bisa diselesaikan dengan",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PAJAK_LAINNYA",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        269,
+        271
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2022-1-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2021-5-TUN-1",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2021",
+      "tahun_rapat": 2021,
+      "tahun_sema": 2021,
+      "butir": "1",
+      "judul_rumusan": "Lembaga Upaya Administratif a. Upaya administratif berdasarkan Perma Nomor 6 Tahun 2018 tentang Pedoman Penvelesaian Sengketa Administrasi Pemerintahan. Setelah",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        271,
+        273
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2021-5-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2021-5-TUN-2",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2021",
+      "tahun_rapat": 2021,
+      "tahun_sema": 2021,
+      "butir": "2",
+      "judul_rumusan": "Lembaga Fiktif Positif Dengan diundangkannya Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja, permohonan fiktif positif sudah tidak lagi menjadi Kewenanga",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2020-11"
+      ],
+      "pages": [
+        271,
+        273
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2021-5-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2021-5-TUN-3",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2021",
+      "tahun_rapat": 2021,
+      "tahun_sema": 2021,
+      "butir": "3",
+      "judul_rumusan": "Tenggang Waktu Gugatan Perbuatan Melanggar Hukum Oleh Badan dan/ atau Pejabat Pemerintahan Yang Bersi fat Tidak Bertindak (Omission) Tenggang waktu pengajuan gu",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        271,
+        273
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2021-5-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2021-5-TUN-4",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2021",
+      "tahun_rapat": 2021,
+      "tahun_sema": 2021,
+      "butir": "4",
+      "judul_rumusan": "Keputusan Pemberhentian Tidak Dengan Hormat PNS Yang Diterbitkan Atas Dasar Putusan Pengadilan Tindak Pidana Korupsi Keputusan Tata Usaha Negara berupa pemberhe",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1986-5"
+      ],
+      "pages": [
+        271,
+        273
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2021-5-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2021-5-TUN-5",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2021",
+      "tahun_rapat": 2021,
+      "tahun_sema": 2021,
+      "butir": "5",
+      "judul_rumusan": "Gugatan Oleh Pemilik Yang Haknya Telah Ditetapkan Oleh Putusan Hakim Perdata Tenggang waktu pengajuan gugatan terhadap sertifikat hak atas tanah yang sudah dipa",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        271,
+        273
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2021-5-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2020-10-TUN-1",
+      "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+      "tahun_rapat": 2020,
+      "tahun_sema": 2020,
+      "butir": "1",
+      "judul_rumusan": "Sengketa Tata Usaha Negara tentang Pemilihan, Pengangkatan, dan Pemberhentian Kepala Desa termasuk jenis perkara yang terkena pembatasan kasasi berdasarkan Pasa",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14",
+        "UU-2004-5"
+      ],
+      "pages": [
+        273,
+        275
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2020-10-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2020-10-TUN-2a",
+      "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+      "tahun_rapat": 2020,
+      "tahun_sema": 2020,
+      "butir": "2a",
+      "judul_rumusan": "Keputusan Menteri Hukum dan Hak Asasi Manusia tentang Pengesahan Anggaran Dasar (AD) dan Rapat Umum Pemegang Saham (RUPS) suatu Perseroan Terbatas (PT) yang ber",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        273,
+        275
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2020-10-TUN-2a.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2020-10-TUN-2b",
+      "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+      "tahun_rapat": 2020,
+      "tahun_sema": 2020,
+      "butir": "2b",
+      "judul_rumusan": "Sengketa tentang sah atau tidaknya Anggaran Dasar (AD) dan Rapat Umum Pemegang Saham (RUPS) yang bersifat privat merupakan kewenangan Peradilan Umum.",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        273,
+        275
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2020-10-TUN-2b.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2020-10-TUN-3",
+      "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+      "tahun_rapat": 2020,
+      "tahun_sema": 2020,
+      "butir": "3",
+      "judul_rumusan": "Revisi Hasil Pleno Kamar Tahun 2019 angka 2 huruf bangka 3 (huruf c) menjadi sebagai berikut: Peraturan dasar telah menetapkan secara eksplisit Pengadilan Tata ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2008-14",
+        "UU-2012-2",
+        "UU-2014-30"
+      ],
+      "pages": [
+        273,
+        275
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2020-10-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2020-10-TUN-4",
+      "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+      "tahun_rapat": 2020,
+      "tahun_sema": 2020,
+      "butir": "4",
+      "judul_rumusan": "Pembetulan putusan berdasarkan Pasal 66 avat I huruf c juncto Pasal 80 ayat (1) huruf c dan e Undang-Undang Nomor 14 Tahun 2002 tentang Pengadilan Pajak dapat b",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PENGADILAN_PAJAK_PK",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        273,
+        275
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2020-10-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2019-2-TUN-1",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2019",
+      "tahun_rapat": 2019,
+      "tahun_sema": 2019,
+      "butir": "1",
+      "judul_rumusan": "Sengketa Perangkat Desa. a. Kepala Desa berwenang mengangkat dan memberhentikan Perangkat Desa, berdasarkan ke wenangan atribusi sebagaimana ketentuan Pasal 26 ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14",
+        "UU-2014-6"
+      ],
+      "pages": [
+        275,
+        280
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2019-2-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2019-2-TUN-2",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2019",
+      "tahun_rapat": 2019,
+      "tahun_sema": 2019,
+      "butir": "2",
+      "judul_rumusan": "Angka 9 tentang Amar Putusan. Dalam hal Penggugat tidak mempunyai kepentingan atau gugatan lewat waktu, maka amar putusan adalah “Gugatan tidak diterima (Niet O",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1986-5",
+        "UU-2012-2",
+        "UU-2014-30",
+        "UU-2017-7"
+      ],
+      "pages": [
+        275,
+        280
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2019-2-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2019-2-TUN-3",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2019",
+      "tahun_rapat": 2019,
+      "tahun_sema": 2019,
+      "butir": "3",
+      "judul_rumusan": "Dalam mengadili sengketa tindakan pemerintahan/ perbuatan melanggar hukum oleh badan dan/atau pejabat pemerintahan [Peraturan Mahkamah Agung Nomor 2 Tahun 2019 ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "PP-1991-43"
+      ],
+      "pages": [
+        275,
+        280
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2019-2-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2019-2-TUN-4",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2019",
+      "tahun_rapat": 2019,
+      "tahun_sema": 2019,
+      "butir": "4",
+      "judul_rumusan": "Pembatasan Kewenangan Majelis Peninjauan Kembali dalam Menilai Putusan Kasasi. Alasan permohonan Peninjauan Kembali sebagaimana diatur dalam Pasal 67 huruf f Un",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14"
+      ],
+      "pages": [
+        275,
+        280
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2019-2-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2019-2-TUN-5",
+      "sema_nomor": "SEMA Nomor 2 Tahun 2019",
+      "tahun_rapat": 2019,
+      "tahun_sema": 2019,
+      "butir": "5",
+      "judul_rumusan": "Permohonan Peninjauan Kembali II dalam perkara pajak. a. Permohonan Peninjauan Kembali II dalam perkara pajak, seperti halnya dalam perkara yang lain tidak dapa",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "KUP_PIDANA_PAJAK",
+      "status_kaidah": "DIUBAH_SEMA_LAIN",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        275,
+        280
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2019-2-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2018-3-TUN-1",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2018",
+      "tahun_rapat": 2018,
+      "tahun_sema": 2018,
+      "butir": "1",
+      "judul_rumusan": "Kewenangan Mahkamah Agung dalam uji materiil Mahkamah Agung berwenang melakukan hak uji materiil, meskipun undang-undang yang menjadi dasar pengujian hak uji ma",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        280,
+        283
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2018-3-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2018-3-TUN-2",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2018",
+      "tahun_rapat": 2018,
+      "tahun_sema": 2018,
+      "butir": "2",
+      "judul_rumusan": "Ketentuan pembatasan upaya hukum kasasi Rumusan Kamar TUN dalam SEMA Nomor 4 Tahun 2016 poin 6 tanggal 9 Desember 2016 disempurnakan sebagai berikut: Kriteria u",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14",
+        "UU-2004-5"
+      ],
+      "pages": [
+        280,
+        283
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2018-3-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2018-3-TUN-3",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2018",
+      "tahun_rapat": 2018,
+      "tahun_sema": 2018,
+      "butir": "3",
+      "judul_rumusan": "Hak gugat dalam sengketa Tata Usaha Negara pemilihan Rumusan Kamar TUN dalam SEMA Nomor 3 Tahun 2015 poin 3 tanggal 29 Desember 2015 diubah sebagai berikut: Ses",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        280,
+        283
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2018-3-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2018-3-TUN-4",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2018",
+      "tahun_rapat": 2018,
+      "tahun_sema": 2018,
+      "butir": "4",
+      "judul_rumusan": "Pengujian pengesahan badan hukum Pengujian surat keputusan TUN yang diterbitkan oleh Menteri Hukum dan HAM RI terhadap pengesahan badan hukum tidak hanya melipu",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        280,
+        283
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2018-3-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2018-3-TUN-5",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2018",
+      "tahun_rapat": 2018,
+      "tahun_sema": 2018,
+      "butir": "5",
+      "judul_rumusan": "Pengujian sertifikat tumpang tindih 1. Pengujian keabsahan sertifikat hak atas tanah oleh Pengadilan TUN dalam hal terdapat sertifikat hak atas tanah yang tumpa",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        280,
+        283
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2018-3-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2017-1-TUN-1",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2017",
+      "tahun_rapat": 2017,
+      "tahun_sema": 2017,
+      "butir": "1",
+      "judul_rumusan": "Pilihan Hukum Dalam Hal Terjadi Benturan Kaidah Hukum Substantif Dengan Kaidah Hukum Formal. Bila terjadi benturan antara kaidah hukum substantif dengan kaidah ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        283,
+        287
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2017-1-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2017-1-TUN-2",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2017",
+      "tahun_rapat": 2017,
+      "tahun_sema": 2017,
+      "butir": "2",
+      "judul_rumusan": "Sengketa Tata Usaha Negara Mengenai Upah Minimum Regional (UMR). Dalam hal sengketa tata usaha negara menyangkut Upah Minimum Regional (UMR), perlu diper hatika",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        283,
+        287
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2017-1-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2017-1-TUN-3",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2017",
+      "tahun_rapat": 2017,
+      "tahun_sema": 2017,
+      "butir": "3",
+      "judul_rumusan": "Upaya Administratif dan Kompetensi Relatif Pengadilan Tata Usaha Negara. Sehubungan dengan berlakunya Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pem",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1986-5",
+        "UU-2014-30"
+      ],
+      "pages": [
+        283,
+        287
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2017-1-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2017-1-TUN-4",
+      "sema_nomor": "SEMA Nomor 1 Tahun 2017",
+      "tahun_rapat": 2017,
+      "tahun_sema": 2017,
+      "butir": "4",
+      "judul_rumusan": "Permohonan Fiktif-Positif dan Gugatan Fiktif-Negatif a. Berdasarkan ketentuan Pasal 53 UU AP yang menga tur mengenai permohonan fiktif-positif, maka ketentu an ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "DIUBAH_SEMA_LAIN",
+      "cited_regulations": [
+        "UU-1986-5"
+      ],
+      "pages": [
+        283,
+        287
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2017-1-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2016-4-TUN-1",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2016",
+      "tahun_rapat": 2016,
+      "tahun_sema": 2016,
+      "butir": "1",
+      "judul_rumusan": "Kompetensi Peradilan Tata Usaha Negara a. Berwenang mengadili perkara berupa gugatan dan permohonan. b. Berwenang mengadili perbuatan melanggar hukum oleh pemer",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        287,
+        290
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2016-4-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2016-4-TUN-2",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2016",
+      "tahun_rapat": 2016,
+      "tahun_sema": 2016,
+      "butir": "2",
+      "judul_rumusan": "Subjek Gugatan/Permohonan Pasal 53 ayat (1), Pasal 1 angka 9 UndangUndang Peradilan Tata Usaha Negara (Undang-Undang Peratun), dan Pasal 21 Undang-Undang Admini",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        287,
+        290
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2016-4-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2016-4-TUN-3",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2016",
+      "tahun_rapat": 2016,
+      "tahun_sema": 2016,
+      "butir": "3",
+      "judul_rumusan": "Objek Gugatan/Permohonan a. Objek gugatan pada Pengadilan Tata Usaha Negara meliputi: 1) 2) 3) Penetapan tertulis dan/atau tindakan faktual Dikeluarkan oleh Bad",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2014-30"
+      ],
+      "pages": [
+        287,
+        290
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2016-4-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2016-4-TUN-4",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2016",
+      "tahun_rapat": 2016,
+      "tahun_sema": 2016,
+      "butir": "4",
+      "judul_rumusan": "Pembuktian Alat bukti yang diatur dalam Pasal 100 UndangUndang Peradilan Tata Usaha Negara, ditambah dengan alat bukti elektronik dalam Undang Undang Nomor 11 T",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2008-11"
+      ],
+      "pages": [
+        287,
+        290
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2016-4-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2016-4-TUN-5",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2016",
+      "tahun_rapat": 2016,
+      "tahun_sema": 2016,
+      "butir": "5",
+      "judul_rumusan": "Putusan Pengadilan Tata Usaha Negara Sehubungan dengan gugatan yang diajukan oleh pihak yang kemudian terbukti tidak memiliki “kepentingan” diputus dengan amar ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        287,
+        290
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2016-4-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2016-4-TUN-6",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2016",
+      "tahun_rapat": 2016,
+      "tahun_sema": 2016,
+      "butir": "6",
+      "judul_rumusan": "Pembatasan Upaya Hukum Kasasi Kriteria pembatasan upaya hukum kasasi dalam Pasal 45A ayat (2) huruf c Undang-Undang Nomor 5 Tahun 2004 adalah bagi keputusan pej",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "DIUBAH_SEMA_LAIN",
+      "cited_regulations": [
+        "UU-2004-5"
+      ],
+      "pages": [
+        287,
+        290
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2016-4-TUN-6.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2015-3-TUN-1",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2015",
+      "tahun_rapat": 2015,
+      "tahun_sema": 2015,
+      "butir": "1",
+      "judul_rumusan": "Tentang Tenggang waktu pengajuan gugatan Tenggang waktu 90 (sembilan puluh) hari untuk mengajukan gugatan bagi pihak ketiga yang tidak dituju oleh keputusan tat",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1986-5"
+      ],
+      "pages": [
+        290,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2015-3-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2015-3-TUN-2",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2015",
+      "tahun_rapat": 2015,
+      "tahun_sema": 2015,
+      "butir": "2",
+      "judul_rumusan": "Tentang Keputusan Hasil Uji Kemampuan dan Kelayakan (Fit and Proper Test) Keputusan hasil fit and proper test merupakan keputusan tata usaha negara, akan tetapi",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        290,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2015-3-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2015-3-TUN-3",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2015",
+      "tahun_rapat": 2015,
+      "tahun_sema": 2015,
+      "butir": "3",
+      "judul_rumusan": "Tentang Legal Standing dalam Sengketa Tata Usaha Negara Pemilihan Yang mempunyai Legal standing untuk mengajukan gugatan adalah : a. Peserta yang dinyatakan tid",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        290,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2015-3-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2015-3-TUN-4",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2015",
+      "tahun_rapat": 2015,
+      "tahun_sema": 2015,
+      "butir": "4",
+      "judul_rumusan": "Tentang Sumpah Ditemukannya Bukti Baru (Novum) Dalam hal permohonan peninjauan kembali dalam sengketa Tata Usaha Negara didasarkan karena adanya novum, yang dis",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        290,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2015-3-TUN-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2015-3-TUN-5",
+      "sema_nomor": "SEMA Nomor 3 Tahun 2015",
+      "tahun_rapat": 2015,
+      "tahun_sema": 2015,
+      "butir": "5",
+      "judul_rumusan": "Tentang Pengajuan Peninjauan Kembali Lembaga hukum peninjauan kembali merupakan upaya hukum luar biasa yang dapat diajukan hanya satu kali sebagaimana dimaksud ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14"
+      ],
+      "pages": [
+        290,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2015-3-TUN-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-5-TUN-1",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2014",
+      "tahun_rapat": 2014,
+      "tahun_sema": 2014,
+      "butir": "1",
+      "judul_rumusan": "Pengajuan permohonan peninjauan kembali wajib disertai alasanalasannya pada hari yang sama. Apabila permohon an peninjauan kembali diajukan terlebih dahulu seda",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14"
+      ],
+      "pages": [
+        292,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-5-TUN-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-5-TUN-2",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2014",
+      "tahun_rapat": 2014,
+      "tahun_sema": 2014,
+      "butir": "2",
+      "judul_rumusan": "Putusan peninjauan kembali terhadap pemohon atau permohonan peninjauan kembali yang tidak memenuhi syarat formal atau putusan peninjauan kembali yang belum samp",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        292,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-5-TUN-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-5-TUN-3",
+      "sema_nomor": "SEMA Nomor 5 Tahun 2014",
+      "tahun_rapat": 2014,
+      "tahun_sema": 2014,
+      "butir": "3",
+      "judul_rumusan": "Dalam hal terdapat suatu perkara yang mengandung titik singgung antar lingkungan peradilan, diperiksa dan diputus oleh lingkungan peradilan yang berbeda bahkan ",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        292,
+        292
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-5-TUN-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-1-1",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "1",
+      "judul_rumusan": "Dalam beberapa Perkara KIP oleh sama sekali tidak dipertimbang",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        293,
+        293
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-1-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-2-2",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "2",
+      "judul_rumusan": "Tentang Permohonan PK lebih dari 1 kali. a. PK pertama: dengan alas",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        293,
+        294
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-2-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-3-3",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "3",
+      "judul_rumusan": "Tentang Putusan MA yang dalam per- kara HUM.",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        294,
+        295
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-3-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-4-4",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "4",
+      "judul_rumusan": "Jangan terlalu mudah meny impulkan sengketa TUN se bagai sengketa Perdata.",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        295,
+        297
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-4-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-5-5",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "5",
+      "judul_rumusan": "Belum dibedakan secara tegas antara peraturan perundangundangan den",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-1985-14",
+        "UU-2009-3"
+      ],
+      "pages": [
+        297,
+        297
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-5-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-6-6",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "6",
+      "judul_rumusan": "Tentang Mahkamah Agung berbunyi: “Mahkamah Agung dapat",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        298,
+        300
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-6-6.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-7-1",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "1",
+      "judul_rumusan": "Berdasarkan Surat Keputu san Ketua Mahkamah Agung Nomor: 138/ KMA/SK/",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PENGADILAN_PAJAK_PK",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        300,
+        301
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-7-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-8-2",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "2",
+      "judul_rumusan": "Tentang Akta Permohon an PK Perkara Pajak tidak ditandatangani Permohon",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PAJAK_LAINNYA",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        301,
+        301
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-8-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-9-3",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "3",
+      "judul_rumusan": "Tentang Perkara HUM : Undang - Undang sebagai dasar pengujiannya sedang",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        301,
+        301
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-9-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-10-4",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "4",
+      "judul_rumusan": "Tentang Format AB Agar diteliti aturan dasar dari dangan tentang tenggang",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        301,
+        302
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-10-4.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-11-5",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "5",
+      "judul_rumusan": "Perlu sosialisasi perubah an paradigma beracara di Peradilan Tata Usaha Neg",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        302,
+        303
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-11-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2014-4-TUN-12-6",
+      "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+      "tahun_rapat": 2013,
+      "tahun_sema": 2014,
+      "butir": "6",
+      "judul_rumusan": "Belum ada SOP yang ajeg untuk mendukung model baru penyelesaian perkara",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        303,
+        303
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2014-4-TUN-12-6.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-1-2",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "2",
+      "judul_rumusan": "PENGERTIAN TEORI ME- LEBUR (OPPLOSING THE Kapan suatu KTUN dianggap",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        305,
+        306
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-1-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-2-3",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "3",
+      "judul_rumusan": "TENTANG KUALIFIKASI TINDAKAN TERGUGAT DALAM DIKTUM/AMAR",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        306,
+        307
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-2-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-3-5",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "5",
+      "judul_rumusan": "TENTANG PERMOHONAN a. Apakah terhadap permo HUM",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        307,
+        308
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-3-5.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-4-6",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "6",
+      "judul_rumusan": "TENTANG KO M U L A S I GUGATAN dap beberapa KTUN yang",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        308,
+        310
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-4-6.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-5-7",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "7",
+      "judul_rumusan": "TENTANG T E M P L AT E a. Dalam hal MA memer PUTUSAN",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        310,
+        311
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-5-7.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-6-8",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "8",
+      "judul_rumusan": "TENTANG SURAT KUASA Apakah surat kuasa untuk DI PENGADILAN PAJAK",
+      "is_pajak_terkait": true,
+      "klaster_pajak": "PENGADILAN_PAJAK_PK",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [
+        "UU-2002-14"
+      ],
+      "pages": [
+        311,
+        313
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-6-8.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-7-9",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "9",
+      "judul_rumusan": "Dalam hal Penggugat tidak TENTANG AMAR PUTUSAN mempunyai kepentingan",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        313,
+        315
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-7-9.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-8-1",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "1",
+      "judul_rumusan": "2 PENGADMINISTRASIAN a. Berdasarkan SEMA No",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        315,
+        316
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-8-1.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-9-2",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "2",
+      "judul_rumusan": "DOKUMEN ELEKTRONIK Bagaimana cara mengatasi (SOFT COPY)",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        316,
+        317
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-9-2.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    },
+    {
+      "sema_id": "SEMA-2012-7-TUN-10-3",
+      "sema_nomor": "SEMA Nomor 7 Tahun 2012",
+      "tahun_rapat": 2012,
+      "tahun_sema": 2012,
+      "butir": "3",
+      "judul_rumusan": "a. Apabila terdapat permohonan USULAN DAN PENEGASAN sasi atau PK, hendaknya permohonan",
+      "is_pajak_terkait": false,
+      "klaster_pajak": "TUN_UMUM",
+      "status_kaidah": "AKTIF",
+      "cited_regulations": [],
+      "pages": [
+        317,
+        317
+      ],
+      "path": "knowledge_json/sema_tun/SEMA-2012-7-TUN-10-3.json",
+      "source_url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf"
+    }
+  ]
+}

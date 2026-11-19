@@ -1,0 +1,27 @@
+{
+  "sema_id": "SEMA-2024-2-TUN-3",
+  "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+  "tahun_rapat": 2024,
+  "tahun_sema": 2024,
+  "butir": "3",
+  "judul_rumusan": "Bukti Yang Diminta oleh Direktorat Jenderal Pajak tapi Tidak Diberikan oleh Wajib Pajak Pada Saat Pemeriksaan Pajak (Pasal 26A ayat (4) UndangUndang Nomor 28 Ta",
+  "teks": "3. Bukti Yang Diminta oleh Direktorat Jenderal Pajak\ntapi Tidak Diberikan oleh Wajib Pajak Pada Saat\nPemeriksaan Pajak (Pasal 26A ayat (4) Undang-\nUndang Nomor 28 Tahun 2007 tentang Perubahan\nKetiga atas Undang-Undang Nomor 6 Tahun 1983\ntentang Ketentuan Umum dan Tata Cara Perpajakan)\nBukti yang berada dalam penguasaan wajib pajak dan\nsudah diminta secara terperinci dan maksimal dalam\nwaktu yang layak oleh Direktorat Jenderal Pajak namun\ntetap tidak diserahkan pada saat pemeriksaan pajak \ndan/ atau keberatan, tidak dapat dipertimbangkan dalam\npenyelesaian sengketa di Pengadilan Pajak dan/ atau\nMahkamah Agung.",
+  "pages": [
+    264,
+    267
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PENGADILAN_PAJAK_PK",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-1983-6",
+    "UU-2007-28"
+  ],
+  "content_hash": "a11b6a6d9cbf6148842517dc8dd2b1c2866cbc0c3b4319c42ad668ff53adfa23",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sema_id": "SEMA-2020-10-TUN-3",
+  "sema_nomor": "SEMA Nomor 10 Tahun 2020",
+  "tahun_rapat": 2020,
+  "tahun_sema": 2020,
+  "butir": "3",
+  "judul_rumusan": "Revisi Hasil Pleno Kamar Tahun 2019 angka 2 huruf bangka 3 (huruf c) menjadi sebagai berikut: Peraturan dasar telah menetapkan secara eksplisit Pengadilan Tata ",
+  "teks": "3. Revisi Hasil Pleno Kamar Tahun 2019 angka 2 huruf\nbangka 3 (huruf c) menjadi sebagai berikut:\nPeraturan dasar telah menetapkan secara eksplisit\nPengadilan Tata Usaha Negara berwenang mengadili\nperkara-perkara yang berkaitan dengan:\na. Undang-Undang Nomor 14 Tahun 2008 tentang\nKeterbukaan Informasi Publik;\nb. Undang-Undang Nomor 2 Tahun 2012 tentang\nPengadaan\nc. Tanah bagi Pembangunan untuk Kepentingan Umum;\nd. Undang-Undang Nomor 7 ‘Tahun 2017 tentang\nPemilihan Umum;\ne. Pasal 21 dan Pasal 53 Undang-Undang Nomor 30\nTahun 2014 tentang Administrasi Pemerintahan;\nf.\nPemberhentian Tidak dengan Hormat yang didasarkan\npada putusan pengadilan pidana atau Komisi Etik.\nUntuk perkara-perkara tersebut di atas tidak perlu diaju\nkan upaya administratif lagi karena sudah diatur dalam\nperaturan perundang-undangan yang bersangkutan.",
+  "pages": [
+    273,
+    275
+  ],
+  "is_pajak_terkait": false,
+  "klaster_pajak": "TUN_UMUM",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-2008-14",
+    "UU-2012-2",
+    "UU-2014-30"
+  ],
+  "content_hash": "57fbebbc512cc4826d05fb35ee38243a73120d46cb6a14fd62efba4cd7af013d",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

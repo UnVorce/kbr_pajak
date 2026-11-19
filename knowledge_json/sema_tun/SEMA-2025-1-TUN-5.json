@@ -1,0 +1,27 @@
+{
+  "sema_id": "SEMA-2025-1-TUN-5",
+  "sema_nomor": "SEMA Nomor 1 Tahun 2025",
+  "tahun_rapat": 2025,
+  "tahun_sema": 2025,
+  "butir": "5",
+  "judul_rumusan": "Penentuan Pihak Terbanding/Tergugat dalam Sengketa Pajak Berdasarkan Kewenangan Atributif Direktur Jenderal Pajak. Pelimpahan kewenangan atributif oleh Direktur",
+  "teks": "5. Penentuan Pihak Terbanding/Tergugat dalam Sengketa\nPajak \nBerdasarkan \nKewenangan \nAtributif \nDirektur\nJenderal Pajak.\nPelimpahan kewenangan atributif oleh Direktur Jenderal\nPajak \nyang \ntidak \nterdapat \ndasar \nhukum \nyang\nmemperbolehkan delegasi kepada pejabat dibawahn\nya harus dimaknai sebagai mandat sesuai peraturan\nperundang-undangan. Dengan demikian dalam sengketa\npajak, pihak yang berwenang dan harus didudukkan\nsebagai terbanding/tergugat adalah Direktur Jenderal\nPajak.",
+  "pages": [
+    261,
+    264
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PAJAK_LAINNYA",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-1983-6",
+    "UU-2002-14"
+  ],
+  "content_hash": "1472c42588422561efa1b466cb1a240f969e7dc6f54bd7f221540195cd34e18a",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sema_id": "SEMA-2023-3-TUN-4",
+  "sema_nomor": "SEMA Nomor 3 Tahun 2023",
+  "tahun_rapat": 2023,
+  "tahun_sema": 2023,
+  "butir": "4",
+  "judul_rumusan": "Sengketa Pajak Penerbitan Surat Ketetapan Pajak Setelah Putusan Pidana Perpajakan Dalam hal tindak pidana pajak telah diadili dan diputus berdasarkan putusan pe",
+  "teks": "4. Sengketa Pajak\nPenerbitan Surat Ketetapan Pajak Setelah Putusan Pidana \nPerpajakan\nDalam hal tindak pidana pajak telah diadili dan diputus \nberdasarkan putusan pengadilan yang telah berkekuatan\nhukum tetap, asas litis finiri oportet dan asas ultimum\nremedium tidak berlaku mutlak sepanjang terpidana\nmasih memiliki kewajiban pajak.\n(Perubahan Rumusan Kamar Tata Usaha Negara dalam \nSEMA Nomor 2 Tahun 2019 angka 5 huruf b).",
+  "pages": [
+    267,
+    269
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PAJAK_LAINNYA",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-1983-6"
+  ],
+  "content_hash": "6e59a7773acf09483a74cf7ce1cd48a8f3b7de53859bebebcca5bc22425e01c9",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}
