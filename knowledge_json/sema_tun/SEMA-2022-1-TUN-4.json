@@ -1,0 +1,26 @@
+{
+  "sema_id": "SEMA-2022-1-TUN-4",
+  "sema_nomor": "SEMA Nomor 1 Tahun 2022",
+  "tahun_rapat": 2022,
+  "tahun_sema": 2022,
+  "butir": "4",
+  "judul_rumusan": "Perbaikan Putusan Sengketa Pajak Keberatan para pihak terhadap substansi pertimbangan Putusan Mahkamah Agung dalam sengketa pajak tidak bisa diselesaikan dengan",
+  "teks": "4. Perbaikan Putusan Sengketa Pajak\nKeberatan para pihak terhadap substansi pertimbangan \nPutusan Mahkamah Agung dalam sengketa pajak tidak \nbisa diselesaikan dengan mengajukan permohonan untuk \nmemperbaiki kesalahan putusan/renvoi tetapi hanya dapat \ndilakukan dengan mekanisme pengajuan upaya hukum luar \nbiasa.",
+  "pages": [
+    269,
+    271
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PAJAK_LAINNYA",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-2002-14"
+  ],
+  "content_hash": "b7cd9252679cee995fd2b275e330b661856ff73e09fe5dc92e230ffbe3cef9fa",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

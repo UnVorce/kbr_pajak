@@ -1,0 +1,26 @@
+{
+  "sema_id": "SEMA-2024-2-TUN-5",
+  "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+  "tahun_rapat": 2024,
+  "tahun_sema": 2024,
+  "butir": "5",
+  "judul_rumusan": "Sengketa Kepabeanan Alas kaki dengan sol luar (outer sole) dan bagian atas (upper) dari plastik, dibuat dengan cara pencetakan melalui penyuntikan (injection mo",
+  "teks": "5. Sengketa Kepabeanan\nAlas kaki dengan sol luar (outer sole) dan bagian atas\n(upper) dari plastik, dibuat dengan cara pencetakan\nmelalui penyuntikan (injection moulding). tidak dijahit, \ndikeling, dipaku, disekrup, ditusuk, atau proses semacam \nitu diklasifikasikan ke dalam pos tarif 6401.99.0000 sebagai \nwaterproof footwear berdasarkan Buku Tarif Kepabeanan \nIndonesia 2012 (BTKI 2012).",
+  "pages": [
+    264,
+    267
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "KEPABEANAN_CUKAI",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-1995-10"
+  ],
+  "content_hash": "14951b2e8b795b2544e5ffae149860280f7fef3150c9de227ba85902d0c0481a",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

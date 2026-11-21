@@ -1,0 +1,28 @@
+{
+  "sema_id": "SEMA-2024-2-TUN-1",
+  "sema_nomor": "SEMA Nomor 2 Tahun 2024",
+  "tahun_rapat": 2024,
+  "tahun_sema": 2024,
+  "butir": "1",
+  "judul_rumusan": "Peninjauan Kembali oleh Badan atau Pejabat Tata Usaha Negara Badan atau pejabat tata usaha negara tidak dapat mengajukan peninjauan kembali sebagaimana putusan ",
+  "teks": "1. Peninjauan Kembali oleh Badan atau Pejabat Tata\nUsaha Negara \nBadan atau pejabat tata usaha negara tidak dapat\nmengajukan peninjauan kembali sebagaimana putusan \nMahkamah Konstitusi Nomor 24/PUU-XXII/2024, kecuali \ndalam hal:\na. ditemukannya bukti baru (novum);\nb. adanya 2 (dua) atau lebih putusan berkekuatan hukum\ntetap (BHT) yang saling bertentangan; atau\nc. mempertahankan \nkepentingan \nhak \nkeperdataan\nbadan atau pejabat tata usaha negara (aset negara atau \ndaerah).",
+  "pages": [
+    264,
+    267
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PENGADILAN_PAJAK_PK",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "MK-2024-24-PUU-XXII",
+    "UU-1986-5",
+    "UU-2002-14"
+  ],
+  "content_hash": "8fcbcbbead80aef692a1e930a179b0ed1c23c63e9174f31434739ea5d9c35698",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}

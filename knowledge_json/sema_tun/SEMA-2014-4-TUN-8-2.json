@@ -1,0 +1,26 @@
+{
+  "sema_id": "SEMA-2014-4-TUN-8-2",
+  "sema_nomor": "SEMA Nomor 4 Tahun 2014",
+  "tahun_rapat": 2013,
+  "tahun_sema": 2014,
+  "butir": "2",
+  "judul_rumusan": "Tentang Akta Permohon an PK Perkara Pajak tidak ditandatangani Permohon",
+  "teks": "Permasalahan:\nTentang Akta Permohon\nan PK Perkara Pajak tidak\nditandatangani Permohon\nPK.\nApakah Permohonan PK se\ncara formal dapat diterima,\napabila Akta Permohonan\nPK tidak ditandatangani\noleh Pemohon PK;\n\nHasil Rumusan Hukum:\nPada prinsipnya permohon\nan PK harus ditandatangani\noleh Pemohon PK. Namun,\napabila Pemohon secara sah\nsudah menyatakan untuk\nmengajukan permohonan PK\nsecara tertulis, maka per-\nmohonan PK dapat diterima.",
+  "pages": [
+    301,
+    301
+  ],
+  "is_pajak_terkait": true,
+  "klaster_pajak": "PAJAK_LAINNYA",
+  "status_kaidah": "AKTIF",
+  "catatan_perubahan": null,
+  "cited_regulations": [
+    "UU-2002-14"
+  ],
+  "content_hash": "244dde5924de793fb7c1591007a70f302a2caf287c26fd18f40aee74ceafa1c8",
+  "source": {
+    "origin": "kepaniteraan.mahkamahagung.go.id",
+    "url": "https://kepaniteraan.mahkamahagung.go.id/images/artikel/2026_buku_kompilasi_rumusan_kamar.pdf",
+    "pdf_file": "2026_buku_kompilasi_rumusan_kamar.pdf"
+  }
+}
