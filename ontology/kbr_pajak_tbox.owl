@@ -12,6 +12,17 @@
   <rdfs:domain rdf:resource="#AturanHukum"/>
   <rdfs:range rdf:resource="#Regulasi"/>
   <owl:inverseOf rdf:resource="#mengatur"/>
+  <owl:propertyChainAxiom>
+    <rdf:Description>
+      <rdf:first rdf:resource="#diaturDalamPasal"/>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first rdf:resource="#bagianDariRegulasi"/>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </owl:propertyChainAxiom>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#mengatur">
@@ -21,6 +32,8 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#diaturDalamPasal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
   <rdfs:domain rdf:resource="#AturanHukum"/>
   <rdfs:range rdf:resource="#Pasal"/>
   <owl:inverseOf rdf:resource="#memuatAturan"/>
@@ -33,6 +46,8 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#bagianDariRegulasi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
   <rdfs:domain rdf:resource="#Pasal"/>
   <rdfs:range rdf:resource="#Regulasi"/>
   <owl:inverseOf rdf:resource="#memilikiPasal"/>
@@ -42,6 +57,12 @@
   <rdfs:domain rdf:resource="#Regulasi"/>
   <rdfs:range rdf:resource="#Pasal"/>
   <owl:inverseOf rdf:resource="#bagianDariRegulasi"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#merujukDokumen">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  <rdfs:domain rdf:resource="#DokumenHukum"/>
+  <rdfs:range rdf:resource="#DokumenHukum"/>
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#didasarkanPadaAturan">
@@ -846,6 +867,13 @@
 
 <owl:Class rdf:about="#TarifPajak">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#didasarkanPadaAturan"/>
+      <owl:onClass rdf:resource="#AturanHukum"/>
+      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#TarifProgresif">
@@ -926,6 +954,13 @@
 
 <owl:Class rdf:about="#Pasal">
   <rdfs:subClassOf rdf:resource="#DokumenHukum"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#bagianDariRegulasi"/>
+      <owl:onClass rdf:resource="#Regulasi"/>
+      <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+    </owl:Restriction>
+  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#PutusanMK">
@@ -973,13 +1008,6 @@
 
 <owl:Class rdf:about="#AturanTarif">
   <rdfs:subClassOf rdf:resource="#AturanHukum"/>
-  <rdfs:subClassOf>
-    <owl:Restriction>
-      <owl:onProperty rdf:resource="#didasarkanPadaAturan"/>
-      <owl:onClass rdf:resource="#AturanHukum"/>
-      <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">0</owl:minQualifiedCardinality>
-    </owl:Restriction>
-  </rdfs:subClassOf>
 </owl:Class>
 
 <owl:Class rdf:about="#Definisi">

@@ -7,11 +7,7 @@
 <http://www.semanticweb.org/ontology/kbr_pajak> a owl:Ontology .
 
 :AturanTarif a owl:Class ;
-    rdfs:subClassOf [ a owl:Restriction ;
-            owl:minQualifiedCardinality "0"^^xsd:nonNegativeInteger ;
-            owl:onClass :AturanHukum ;
-            owl:onProperty :didasarkanPadaAturan ],
-        :AturanHukum .
+    rdfs:subClassOf :AturanHukum .
 
 :BUT a owl:Class ;
     rdfs:subClassOf :BadanUsahaTetap .
@@ -336,6 +332,11 @@
     rdfs:domain :WajibPajak ;
     rdfs:range :KewajibanPajak .
 
+:merujukDokumen a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain :DokumenHukum ;
+    rdfs:range :DokumenHukum .
+
 :merujukSEMA a owl:ObjectProperty ;
     rdfs:domain :AturanHukum ;
     rdfs:range :SEMA_TUN .
@@ -427,15 +428,11 @@
                                 owl:onDatatype xsd:decimal ;
                                 owl:withRestrictions ( [ xsd:maxInclusive 4800000000.0 ] ) ] ] ) ] .
 
-:bagianDariRegulasi a owl:ObjectProperty ;
-    rdfs:domain :Pasal ;
-    rdfs:range :Regulasi ;
-    owl:inverseOf :memilikiPasal .
-
 :diaturDalam a owl:ObjectProperty ;
     rdfs:domain :AturanHukum ;
     rdfs:range :Regulasi ;
-    owl:inverseOf :mengatur .
+    owl:inverseOf :mengatur ;
+    owl:propertyChainAxiom ( :diaturDalamPasal :bagianDariRegulasi ) .
 
 :didasarkanPadaAturan a owl:ObjectProperty ;
     rdfs:domain owl:Thing ;
@@ -483,11 +480,6 @@
 :SanksiAdministratif a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
-:diaturDalamPasal a owl:ObjectProperty ;
-    rdfs:domain :AturanHukum ;
-    rdfs:range :Pasal ;
-    owl:inverseOf :memuatAturan .
-
 :hasOmzetTahunan a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :WajibPajak ;
@@ -496,11 +488,29 @@
 :FasilitasPerpajakan a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
+:bagianDariRegulasi a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Pasal ;
+    rdfs:range :Regulasi ;
+    owl:inverseOf :memilikiPasal .
+
+:diaturDalamPasal a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range :Pasal ;
+    owl:inverseOf :memuatAturan .
+
 :OP_PemilikKendaraanDKI a owl:Class ;
     rdfs:subClassOf :OrangPribadi .
 
 :TarifPajak a owl:Class ;
-    rdfs:subClassOf owl:Thing .
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass :AturanHukum ;
+            owl:onProperty :didasarkanPadaAturan ],
+        owl:Thing .
 
 :hasJumlahKendaraan a owl:DatatypeProperty,
         owl:FunctionalProperty ;
@@ -517,14 +527,15 @@
     rdfs:domain :WajibPajak ;
     rdfs:range xsd:boolean .
 
-:DokumenHukum a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 :LayakTaxHoliday a owl:Class ;
     rdfs:subClassOf :Badan .
 
 :Pasal a owl:Class ;
-    rdfs:subClassOf :DokumenHukum .
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass :Regulasi ;
+            owl:onProperty :bagianDariRegulasi ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        :DokumenHukum .
 
 :hasNilaiInvestasi a owl:DatatypeProperty,
         owl:FunctionalProperty ;
@@ -541,17 +552,20 @@
     rdfs:domain :Badan ;
     rdfs:range xsd:boolean .
 
+:DokumenHukum a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
 :OrangPribadi a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
     owl:disjointWith :Badan .
-
-:Regulasi a owl:Class ;
-    rdfs:subClassOf :DokumenHukum .
 
 :DomainPajak a owl:Class ;
     rdfs:subClassOf owl:Thing ;
     owl:equivalentClass [ a owl:Class ;
             owl:oneOf ( :Domain_A2_PPhBadan :Domain_B_PPN :Domain_C_PBB_HKPD :Domain_D_AdminSanksi :Domain_Perda_PDRD :Domain_Fasilitas_Sektor :Domain_Kepabeanan_Cukai :Domain_PPh_OP_Potput :Domain_PPh_Final_Sektor ) ] .
+
+:Regulasi a owl:Class ;
+    rdfs:subClassOf :DokumenHukum .
 
 :AturanHukum a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -567,10 +581,10 @@
     rdfs:subClassOf owl:Thing .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
+    owl:members ( :WajibPajak :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :WajibPajak :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
+    owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :Kewajiban :Hak :Larangan ) .

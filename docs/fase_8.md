@@ -60,7 +60,7 @@ Memasukkan seluruh `12.907` individu + string `source_quote` ke dalam satu file 
 
 Solusi arsitektural yang terbukti bersih dan cepat:
 1. **Lapisan Reasoning (`ontology/kbr_pajak_reasoning.owl`, `329 KB`):**
-   - Berisi TBox lengkap **`59` kelas `SROIQ(D)`**, **`14` Object Properties** (3 pasang *inverse*), **`30` Data Properties**, **`28` aturan SWRL DL-safe**, dan **`322` individu** (`31` item katalog tarif/fasilitas/kewajiban/sanksi yang masing-masing tertaut ke `AturanHukum -> Pasal -> Regulasi` + `15` `PutusanMK` + `14` `SEMA_TUN` + `120` aturan terkurasi + `8` skenario).
+   - Berisi TBox lengkap **`59` kelas `SROIQ(D)`**, **`15` Object Properties** (`TransitiveProperty`, `PropertyChain`, `Asymmetric`/`Irreflexive`, 3 pasang *inverse*), **`30` Data Properties**, **`28` aturan SWRL DL-safe**, dan **`322` individu** (`31` item katalog tarif/fasilitas/kewajiban/sanksi yang masing-masing tertaut ke `AturanHukum -> Pasal -> Regulasi` + `15` `PutusanMK` + `14` `SEMA_TUN` + `120` aturan terkurasi + `8` skenario).
    - **Seluruh ambang numerik** (`> Rp4,8M`, `≤ Rp4,8M`, `≥ 40%`, 6 interval Tax Holiday, jumlah kendaraan `1..5+`) dimodelkan dengan **`OWL 2 ConstrainedDatatype`** (bagian `(D)` dari `SROIQ(D)`), bukan di Python dan bukan lewat `swrlb:*`.
    - **HermiT** mengeksekusi klasifikasi `SROIQ(D)` + 28 aturan SWRL secara utuh dalam **`~2,3 detik` per *request*** di `owlready2.World()` terisolasi.
 2. **Lapisan Graf Penuh (`kbr-data.ttl`, `9,9 MB`):**
