@@ -1,0 +1,29 @@
+{
+  "total_chunks": 5509,
+  "total_chars": 5948772,
+  "est_input_tokens": 1982924,
+  "by_domain": {
+    "A2_PPH_BADAN": 652,
+    "B_PPN": 1031,
+    "C_PBB_HKPD": 486,
+    "D_ADMIN_SANKSI": 1306,
+    "FASILITAS_SEKTOR": 504,
+    "KEPABEANAN_CUKAI": 369,
+    "PERDA_PDRD": 679,
+    "PPH_FINAL_SEKTOR": 78,
+    "PPH_OP_POTPUT": 404
+  },
+  "avg_chunk_chars": 1079.8,
+  "table_chunks": 17,
+  "files": {
+    "A2_PPH_BADAN": "data/chunks/pending/A2_PPH_BADAN.jsonl",
+    "B_PPN": "data/chunks/pending/B_PPN.jsonl",
+    "C_PBB_HKPD": "data/chunks/pending/C_PBB_HKPD.jsonl",
+    "D_ADMIN_SANKSI": "data/chunks/pending/D_ADMIN_SANKSI.jsonl",
+    "FASILITAS_SEKTOR": "data/chunks/pending/FASILITAS_SEKTOR.jsonl",
+    "KEPABEANAN_CUKAI": "data/chunks/pending/KEPABEANAN_CUKAI.jsonl",
+    "PERDA_PDRD": "data/chunks/pending/PERDA_PDRD.jsonl",
+    "PPH_FINAL_SEKTOR": "data/chunks/pending/PPH_FINAL_SEKTOR.jsonl",
+    "PPH_OP_POTPUT": "data/chunks/pending/PPH_OP_POTPUT.jsonl"
+  }
+}
