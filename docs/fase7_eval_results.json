@@ -2,15 +2,15 @@
   "total": 12,
   "passed": 12,
   "failed": 0,
-  "avg_latency_ms": 2347.7,
-  "max_latency_ms": 2489.39,
+  "avg_latency_ms": 3205.94,
+  "max_latency_ms": 4680.05,
   "scenarios": [
     {
       "code": "TK-A2-1a",
       "desc": "Industri pionir investasi tepat Rp500M -> Tax Holiday 100% 5 tahun",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2489.39,
+      "elapsed_ms": 2888.53,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -41,7 +41,7 @@
       "desc": "Industri pionir investasi Rp1,5T -> Tax Holiday 100% 7 tahun",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2369.03,
+      "elapsed_ms": 2828.52,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -72,7 +72,7 @@
       "desc": "PT Tbk saham publik 45% -> Tarif 19% (diskon 3%)",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2344.31,
+      "elapsed_ms": 2819.87,
       "inferred_classes": [
         "Badan",
         "BadanTerbukaTbk",
@@ -99,7 +99,7 @@
       "desc": "Edge case PT Tbk saham publik hanya 30% (<40%) -> tetap Tarif Umum 22%",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2269.9,
+      "elapsed_ms": 3323.13,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -126,7 +126,7 @@
       "desc": "Boundary tepat Rp4,8M UMKM PP 55 -> masih WajibPajakUMKM (belum PKP)",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2300.81,
+      "elapsed_ms": 4680.05,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -150,7 +150,7 @@
       "desc": "Boundary Rp4.800.000.001 UMKM PP 55 -> wajib PKP & transisi ke ketentuan umum",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2341.87,
+      "elapsed_ms": 3674.56,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -178,7 +178,7 @@
       "desc": "PKP penyerahan barang non-mewah (DPP 11/12) + BKP Strategis dibebaskan",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2351.42,
+      "elapsed_ms": 3009.09,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -208,7 +208,7 @@
       "desc": "Pemilik objek PBB-P2 di DKI Jakarta -> Tarif PBB 0,5% + kewajiban PBB",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2271.93,
+      "elapsed_ms": 2964.49,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -234,7 +234,7 @@
       "desc": "Kontras MK: Spa Kesehatan Tradisional -> Pengecualian PBJT 40% (MK-2024-19-PUU-XXII)",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2353.39,
+      "elapsed_ms": 3406.63,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -260,7 +260,7 @@
       "desc": "Kontras MK: Spa Hiburan Umum -> Tarif PBJT Hiburan Khusus 40%",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2386.75,
+      "elapsed_ms": 3229.99,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",
@@ -285,7 +285,7 @@
       "desc": "OP Penduduk DKI kendaraan ke-5 -> PKB 6%, NIK-NPWP, tenggat SPT 3 bulan",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2328.46,
+      "elapsed_ms": 2958.17,
       "inferred_classes": [
         "OP_KendaraanKe5Plus_DKI",
         "OP_PemilikKendaraanDKI",
@@ -309,7 +309,7 @@
       "desc": "Telat SPT + Keberatan & Banding ditolak -> 3 sanksi KUP + rujukan SEMA-2024-2-TUN-4",
       "ok": true,
       "errors": [],
-      "elapsed_ms": 2365.18,
+      "elapsed_ms": 2688.22,
       "inferred_classes": [
         "Badan",
         "BadanNonTbk",

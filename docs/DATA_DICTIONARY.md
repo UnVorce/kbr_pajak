@@ -90,13 +90,14 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 | **Dokumen & Tafsir (`DokumenHukum`)** | `Regulasi` (`UndangUndang`, `PeraturanPemerintah`, `PeraturanMenteriKeuangan`, `PeraturanDirjenPajak`, `PeraturanDaerah`), `Pasal`, `PutusanMK`, `SEMA_TUN` |
 | **Aturan Reifikasi (`AturanHukum`)** | `Kewajiban`, `Hak`, `Larangan`, `Pengecualian`, `Sanksi`, `BatasWaktu`, `AturanTarif`, `Definisi`, `Prosedur`, `Kelayakan` |
 
-### 4.2 Object Properties (`14` Properti)
+### 4.2 Object Properties (`15` Properti)
 
-| Properti | Domain | Range | Inverse |
+| Properti | Domain | Range | Karakteristik `SROIQ` |
 |---|---|---|---|
-| `diaturDalam` | `AturanHukum` | `Regulasi` | `mengatur` |
-| `diaturDalamPasal` | `AturanHukum` | `Pasal` | `memuatAturan` |
-| `bagianDariRegulasi` | `Pasal` | `Regulasi` | `memilikiPasal` |
+| `diaturDalam` | `AturanHukum` | `Regulasi` | Inverse `mengatur`; **PropertyChain** `[diaturDalamPasal, bagianDariRegulasi]` ($\mathcal{R},\mathcal{I}$) |
+| `diaturDalamPasal` | `AturanHukum` | `Pasal` | Inverse `memuatAturan`; `Asymmetric`, `Irreflexive` ($\mathcal{R},\mathcal{I}$) |
+| `bagianDariRegulasi` | `Pasal` | `Regulasi` | Inverse `memilikiPasal`; `Asymmetric`, `Irreflexive` ($\mathcal{R},\mathcal{I}$) |
+| `merujukDokumen` | `DokumenHukum` | `DokumenHukum` | `TransitiveProperty` ($\mathcal{S}$) |
 | `didasarkanPadaAturan` | `Thing` | `AturanHukum` | — |
 | `terdampakPutusanMK` | `AturanHukum` | `PutusanMK` | — |
 | `merujukSEMA` | `AturanHukum` | `SEMA_TUN` | — |

@@ -11,13 +11,14 @@ Dibangun melalui `src/ontology.py` (`build_tbox()`) dan dijalankan lewat `script
 - **Integrasi Starter UC1 & UC2:**
   - Mewarisi kelas utama `WajibPajak`, `OrangPribadi`, `UMKM`, `TarifPajak`, `TarifProgresif`, `TarifFinal`, `FasilitasPerpajakan`, `PP55UMKM` (`ontology_pajak.owl`) serta `Badan`, `PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap` (`ontology_PPh_BadanUsaha.owl`).
   - Menambahkan lapisan hukum & *provenance*: `DokumenHukum` (`Regulasi` -> `UndangUndang`, `PeraturanPemerintah`, `PeraturanMenteriKeuangan`, `PeraturanDirjenPajak`, `PeraturanDaerah`, serta `Pasal`, `PutusanMK`, `SEMA_TUN`) dan `AturanHukum` (`Kewajiban`, `Hak`, `Larangan`, `Pengecualian`, `Sanksi`, `BatasWaktu`, `AturanTarif`, `Definisi`, `Prosedur`, `Kelayakan`).
-- **Pembuktian Konstruk `SROIQ(D)`:**
-  - **Disjointness (`SROIQ`):** `AllDisjoint([OrangPribadi, Badan])`, `AllDisjoint([Kewajiban, Hak, Larangan])`, `AllDisjoint([UndangUndang, PeraturanPemerintah, PeraturanMenteriKeuangan, PeraturanDirjenPajak, PeraturanDaerah])`, `AllDisjoint([TarifProgresif, TarifFinal])`, serta disjointness antar-konsep domain/katalog. Diuji negatif dengan HermiT (`test_tbox_sroiq_constructs_and_disjointness` memicu `OwlReadyInconsistentOntologyError`).
-  - **Inverse Properties (`SROIQ`):** `mengatur <-> diaturDalam`, `memuatAturan <-> diaturDalamPasal`, `memilikiPasal <-> bagianDariRegulasi`.
-  - **Nominals (`OneOf`):** `DomainPajak ≡ {Domain_A2_PPhBadan, Domain_B_PPN, Domain_C_PBB_HKPD, Domain_D_AdminSanksi, Domain_Perda_PDRD, Domain_Fasilitas_Sektor, Domain_Kepabeanan_Cukai, Domain_PPh_OP_Potput, Domain_PPh_Final_Sektor}`.
-  - **Disjunction & Complement:** `SubjekPajakAktif ≡ OrangPribadi ⊔ Badan`; `BadanNonTbk ≡ Badan ⊓ ¬BadanTerbukaTbk`; `WajibPajakNonUMKM ≡ WajibPajak ⊓ ¬WajibPajakUMKM`.
-  - **Qualified Cardinality:** `AturanHukum ⊑ ≥ 1 diaturDalamPasal.Pasal`.
-  - **Datatype Restrictions (`(D)`):** `ConstrainedDatatype` untuk ambang PKP (`hasOmzetTahunan >= 4.8e9`), UMKM PP 55 (`<= 4.8e9`), Tbk Go Public (`hasPersentaseSahamPublik >= 40.0`), 6 tier Tax Holiday `PMK-2020-130` (`100M` s.d. `>= 30T`), dan 5 tier PKB Progresif DKI `Perda 1/2024`.
+- **Pembuktian Konstruk `SROIQ(D)` Penuh:**
+  - **$\mathcal{S}$ (*Transitive*):** `merujukDokumen` (`DokumenHukum >> DokumenHukum, TransitiveProperty`) diuji HermiT (`PMK-2023-164 → PP-2022-55 → UU-2021-7 → UU-1983-7`).
+  - **$\mathcal{R}$ (*Role Axioms & Property Chain*):** *property chain* `diaturDalamPasal ○ bagianDariRegulasi ⊑ diaturDalam` (`propertyChainAxiom`), serta `AsymmetricProperty` & `IrreflexiveProperty` pada `diaturDalamPasal` dan `bagianDariRegulasi`.
+  - **$\mathcal{O}$ (*Nominals*):** `DomainPajak ≡ {Domain_A2_PPhBadan, ..., Domain_PPh_Final_Sektor}` (`OneOf` 9 individu).
+  - **$\mathcal{I}$ (*Inverse*):** `mengatur <-> diaturDalam`, `memuatAturan <-> diaturDalamPasal`, `memilikiPasal <-> bagianDariRegulasi`.
+  - **$\mathcal{Q}$ (*Qualified Cardinality*):** `Pasal ⊑ = 1 bagianDariRegulasi.Regulasi` (`qualifiedCardinality`), `AturanHukum ⊑ ≥ 1 diaturDalamPasal.Pasal`, dan `TarifPajak ⊑ ≥ 1 didasarkanPadaAturan.AturanHukum`.
+  - **$\mathcal{ALC}$ & Disjointness:** `AllDisjoint([OrangPribadi, Badan])`, `AllDisjoint([Kewajiban, Hak, Larangan])`, `SubjekPajakAktif ≡ OrangPribadi ⊔ Badan`, `BadanNonTbk ≡ Badan ⊓ ¬BadanTerbukaTbk`, `WajibPajakNonUMKM ≡ WajibPajak ⊓ ¬WajibPajakUMKM` (uji negatif memicu `OwlReadyInconsistentOntologyError`).
+  - **$(D)$ (*Datatype Restrictions*):** `10` `ConstrainedDatatype` untuk ambang PKP (`> 4.8e9`), UMKM PP 55 (`<= 4.8e9`), Tbk Go Public (`>= 40.0%`), 6 tier Tax Holiday `PMK-2020-130`, dan 5 tier PKB Progresif DKI `Perda 1/2024`.
 
 ---
 
