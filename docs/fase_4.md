@@ -53,19 +53,19 @@ Validasi dijalankan lewat `scripts/fase4_validate.py` (`src/validate.py`, **132 
 
 ---
 
-## 4. Pre-Audit Prioritas Tinggi (`P1`–`P6`, `priority_review_audited.csv`)
+## 4. Pre-Audit Prioritas Tinggi & Pemecahan Atomik (`P1`–`P6`, `priority_review_audited.csv`)
 
-Sebanyak **`498` baris** prioritas tinggi diekspor dari `review_queue.jsonl` (berkembang menjadi **`532` baris** setelah pemulihan seluruh aturan dari `27` chunk `PARSE_ERROR`) dan diaudit per batch dengan **`gemini-4-hydrogen-high`** + verifikasi deterministik `validate_rule()`:
+Sebanyak **`498` baris** prioritas tinggi diekspor dari `review_queue.jsonl`, dipulihkan `27` chunk `PARSE_ERROR`-nya, dan setelah menerapkan masukan review rekan + **pemecahan aturan gabungan menjadi unit pengetahuan atomik** (level ayat/huruf/angka: definisi per butir, tarif progresif/penyusutan/amortisasi/PTKP/opsen per tier, pengecualian PPh 23 ayat 4, fasilitas pajak karbon, objek & saat terutang Bea Meterai, dll.), menghasilkan **`621` baris** yang seluruhnya lolos verifikasi deterministik `validate_rule()` (`0` error):
 
 | Priority | Total | `APPROVED` | `FIXED` | `REJECTED` | Catatan Utama |
 |---|---:|---:|---:|---:|---|
 | **`P1_TABLE`** | 7 | 7 | 0 | 0 | Lapisan tarif PPh Pasal 17 (`UU-1983-7`, `UU-2021-7`) tepat |
-| **`P2_MK`** | 44 | 24 | 20 | 0 | Penyesuaian amar `8` Putusan MK (mandi uap/spa, pembinaan Pengadilan Pajak ke MA, bukti permulaan tanpa upaya paksa, DBHCT) |
+| **`P2_MK`** | 45 | 24 | 21 | 0 | Penyesuaian amar `8` Putusan MK + pemisahan atomik ayat (1) definisi & ayat (2) pengecualian `PERDA-SEMARANG#BT/23` |
 | **`P3_SEMA`** | 33 | 9 | 24 | 0 | Pemilahan gugatan vs banding (`SEMA 2/2024`), bukti susulan (`Pasal 26A`), kuasa hukum & larangan PK II (`SEMA 2/2019`) |
-| **`P4_PARSE_ERROR`** | 61 | 0 | 61 | 0 | **27 / 27** chunk `PARSE_ERROR` pulih menjadi **61 aturan** (`0` error `validate_rule`) |
-| **`P5_RATE_CORE`** | 257 | 77 | 156 | 24 | Perbaikan sisa OCR (`60%`→`6%`, `1,270`→`1,2%`, `2070`→`20%`), syarat NPOPTKP, penyelamatan 6 tier Tax Holiday `PMK-2020-130`, buang artefak hal. `23` |
-| **`P6_REJECTED_CORE`** | 130 | 0 | 122 | 8 | `122` aturan penting dipulihkan (`0` error `validate_rule`); `8` fragmen/delegasi kosong dikonfirmasi ditolak |
-| **Total** | **532** | **117** | **383** | **32** | Tersimpan di `review/priority_review_audited.csv` & `review/llm_audit_log.jsonl` |
+| **`P4_PARSE_ERROR`** | 77 | 0 | 77 | 0 | **27 / 27** chunk `PARSE_ERROR` pulih + dipecah atomik (`PER-DJP-2026-11#BT/1` 9 definisi, `PMK-2021-96#BT/11` 6 ayat, `PMK-2024-81#BT/280` 3 ayat, `PP-2022-50#BT/32`) |
+| **`P5_RATE_CORE`** | 278 | 77 | 179 | 22 | Pemecahan atomik PKB progresif DKI (5 tier), Penyusutan Pasal 11 (6 kelompok), Amortisasi Pasal 11A (4 kelompok × 2 UU), PTKP Pasal 7 (4 komponen), Opsen Pasal 83 HKPD (3 jenis), transisi UMKM `PMK-2023-164#BT/5(5)` & `PP-2022-55#BT/61(1)-(2)` (`Pasal 318`→`31E`), serta 6 tier Tax Holiday `PMK-2020-130` |
+| **`P6_REJECTED_CORE`** | 181 | 0 | 173 | 8 | Pemecahan atomik `PERDA-JABAR#BT/1#p1` (15 definisi), `PERDA-JABAR#BT/81(2)`, `PP-2008-51#BT/1` (9 definisi), `UU-1983-7#BT/23(4)` (6 pengecualian PPh 23), `UU-1983-7#BT/10` (6 ayat), `UU-2020-10#BT/3(2)` & `#BT/8(1)`, `UU-2021-7#BT/13(12)-(13)` (alokasi & pengurangan pajak karbon), serta koreksi `UU-1983-6#BT/22(2)` huruf b & c |
+| **Total** | **621** | **117** | **474** | **30** | Tersimpan di `review/priority_review_audited.csv` & `priority_review_llm_draft.xlsx` |
 
 ---
 
