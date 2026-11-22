@@ -367,7 +367,7 @@
                 <rdf:Description>
                   <rdf:first>
                     <rdf:Description>
-                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:minInclusive>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:minExclusive>
                     </rdf:Description>
                   </rdf:first>
                   <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>

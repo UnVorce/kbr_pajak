@@ -11,9 +11,12 @@
   "inferred_scenarios": {
     "PT_TechStartup_001": {
       "classes": [
+        "Badan",
         "BadanNonTbk",
         "PT",
         "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakNonUMKM"
       ],
       "tarif": [
@@ -31,9 +34,12 @@
     },
     "PT_Terbuka_001": {
       "classes": [
+        "Badan",
         "BadanTerbukaTbk",
         "PT",
         "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakNonUMKM"
       ],
       "tarif": [
@@ -50,10 +56,14 @@
     },
     "PT_Pionir_Investasi_1_5T": {
       "classes": [
+        "Badan",
         "BadanNonTbk",
+        "LayakTaxHoliday",
         "LayakTaxHoliday_100Pct_7Thn",
         "PT",
         "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakNonUMKM"
       ],
       "tarif": [
@@ -72,8 +82,11 @@
     },
     "CV_UMKM_Aktif_001": {
       "classes": [
+        "Badan",
         "BadanNonTbk",
         "CV",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakUMKM"
       ],
       "tarif": [],
@@ -88,9 +101,12 @@
     },
     "CV_UMKM_Lewat_4_8M": {
       "classes": [
+        "Badan",
         "BadanNonTbk",
         "CV",
         "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakNonUMKM"
       ],
       "tarif": [
@@ -108,8 +124,11 @@
     },
     "PT_Spa_Kesehatan_DKI": {
       "classes": [
+        "Badan",
         "BadanNonTbk",
         "PT",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakNonUMKM"
       ],
       "tarif": [
@@ -129,7 +148,9 @@
     "OP_KendaraanKedua_DKI": {
       "classes": [
         "OP_KendaraanKe2_DKI",
+        "OP_PemilikKendaraanDKI",
         "OrangPribadi",
+        "SubjekPajakAktif",
         "WajibPajak"
       ],
       "tarif": [
@@ -145,9 +166,12 @@
     },
     "PT_Risiko_Sanksi_001": {
       "classes": [
+        "Badan",
         "BadanNonTbk",
         "PT",
         "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
         "WajibPajakNonUMKM"
       ],
       "tarif": [

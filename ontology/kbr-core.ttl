@@ -191,7 +191,7 @@
                         owl:onProperty :hasOmzetTahunan ;
                         owl:someValuesFrom [ a rdfs:Datatype ;
                                 owl:onDatatype xsd:decimal ;
-                                owl:withRestrictions ( [ xsd:minInclusive 4800000000.0 ] ) ] ] ) ] .
+                                owl:withRestrictions ( [ xsd:minExclusive 4800000000.0 ] ) ] ] ) ] .
 
 :Prosedur a owl:Class ;
     rdfs:subClassOf :AturanHukum .
@@ -570,8 +570,8 @@
     owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :Kewajiban :Hak :Larangan ) .
+    owl:members ( :WajibPajak :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :WajibPajak :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
+    owl:members ( :Kewajiban :Hak :Larangan ) .
 

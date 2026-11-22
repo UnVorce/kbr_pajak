@@ -1,0 +1,339 @@
+{
+  "total": 12,
+  "passed": 12,
+  "failed": 0,
+  "avg_latency_ms": 2347.7,
+  "max_latency_ms": 2489.39,
+  "scenarios": [
+    {
+      "code": "TK-A2-1a",
+      "desc": "Industri pionir investasi tepat Rp500M -> Tax Holiday 100% 5 tahun",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2489.39,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "LayakTaxHoliday",
+        "LayakTaxHoliday_100Pct_5Thn",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [
+        "Fasilitas_TaxHoliday_100Pct_5Thn"
+      ],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-A2-1b",
+      "desc": "Industri pionir investasi Rp1,5T -> Tax Holiday 100% 7 tahun",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2369.03,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "LayakTaxHoliday",
+        "LayakTaxHoliday_100Pct_7Thn",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [
+        "Fasilitas_TaxHoliday_100Pct_7Thn"
+      ],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-A2-2a",
+      "desc": "PT Tbk saham publik 45% -> Tarif 19% (diskon 3%)",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2344.31,
+      "inferred_classes": [
+        "Badan",
+        "BadanTerbukaTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_Tbk_19Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-A2-2b",
+      "desc": "Edge case PT Tbk saham publik hanya 30% (<40%) -> tetap Tarif Umum 22%",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2269.9,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-A2-2c",
+      "desc": "Boundary tepat Rp4,8M UMKM PP 55 -> masih WajibPajakUMKM (belum PKP)",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2300.81,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "CV",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakUMKM"
+      ],
+      "tarif": [],
+      "fasilitas": [
+        "Fasilitas_PP55_Final_0_5Pct"
+      ],
+      "kewajiban": [
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-B1",
+      "desc": "Boundary Rp4.800.000.001 UMKM PP 55 -> wajib PKP & transisi ke ketentuan umum",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2341.87,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "CV",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Peralihan_UMKM_Ke_KetentuanUmum",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-B2",
+      "desc": "PKP penyerahan barang non-mewah (DPP 11/12) + BKP Strategis dibebaskan",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2351.42,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPN_Efektif_11Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [
+        "Fasilitas_PPN_Dibebaskan_Strategis"
+      ],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-C1",
+      "desc": "Pemilik objek PBB-P2 di DKI Jakarta -> Tarif PBB 0,5% + kewajiban PBB",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2271.93,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PBB_DKI_0_5Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_LaporPBB",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-C2a",
+      "desc": "Kontras MK: Spa Kesehatan Tradisional -> Pengecualian PBJT 40% (MK-2024-19-PUU-XXII)",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2353.39,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [
+        "Fasilitas_Pengecualian_SpaKesehatanTradisional_MK"
+      ],
+      "kewajiban": [
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-C2b",
+      "desc": "Kontras MK: Spa Hiburan Umum -> Tarif PBJT Hiburan Khusus 40%",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2386.75,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PBJT_Hiburan_DKI_40Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-D1",
+      "desc": "OP Penduduk DKI kendaraan ke-5 -> PKB 6%, NIK-NPWP, tenggat SPT 3 bulan",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2328.46,
+      "inferred_classes": [
+        "OP_KendaraanKe5Plus_DKI",
+        "OP_PemilikKendaraanDKI",
+        "OrangPribadi",
+        "SubjekPajakAktif",
+        "WajibPajak"
+      ],
+      "tarif": [
+        "Tarif_PKB_DKI_Ke5Plus_6Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_LaporSPT",
+        "Kewajiban_NPWP_NIK_OP",
+        "Kewajiban_Tenggat_SPT_Tahunan_OP_3Bln"
+      ],
+      "sanksi": []
+    },
+    {
+      "code": "TK-D2-E1",
+      "desc": "Telat SPT + Keberatan & Banding ditolak -> 3 sanksi KUP + rujukan SEMA-2024-2-TUN-4",
+      "ok": true,
+      "errors": [],
+      "elapsed_ms": 2365.18,
+      "inferred_classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": [
+        "Sanksi_Banding_60Pct",
+        "Sanksi_Denda_KUP_TerlambatSPT",
+        "Sanksi_Keberatan_30Pct"
+      ]
+    }
+  ]
+}
