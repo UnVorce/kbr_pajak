@@ -1,0 +1,320 @@
+{
+  "Tarif_PPhBadan_22Pct": {
+    "catalog_class": "TarifPajak",
+    "label": "Tarif PPh Badan Umum 22% (Pasal 17 ayat (1) huruf b UU PPh)",
+    "rule_id": "R-UU-1983-7-fcd99f0036",
+    "document_id": "UU-1983-7",
+    "source_locator": "UU-1983-7#BT/17/1..3",
+    "source_quote": "sebesar 22% (dua puluh dua persen) yang mulai berlaku pada tahun pajak 2022",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhBadan_Tbk_19Pct": {
+    "catalog_class": "TarifPajak",
+    "label": "Tarif PPh Badan Perseroan Terbuka 19% (diskon 3%, Pasal 17 ayat (2b) UU PPh)",
+    "rule_id": "R-UU-1983-7-795d9e9140",
+    "document_id": "UU-1983-7",
+    "source_locator": "UU-1983-7#BT/17/1..3",
+    "source_quote": "dapat memperoleh tarif sebesar 3% (tiga persen) lebih rendah dari tarif sebagaimana dimaksud pada ayat (1) huruf b",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPN_12Pct": {
+    "catalog_class": "TarifPajak",
+    "label": "Tarif PPN 12% (PMK-2024-131 Pasal 2 & UU HPP)",
+    "rule_id": "R-PMK-2024-131-43f37b0b3b",
+    "document_id": "PMK-2024-131",
+    "source_locator": "PMK-2024-131#BT/2",
+    "source_quote": "(2) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud pada ayat (1) dihitung dengan cara mengalikan tarif 12% (dua belas persen) dengan Dasar Pengenaan Pajak berupa harga jual atau nilai impor.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPN_Efektif_11Pct": {
+    "catalog_class": "TarifPajak",
+    "label": "Tarif PPN Efektif 11% (12% x DPP 11/12 Nilai Lain, PMK-2024-131 Pasal 3)",
+    "rule_id": "R-PMK-2024-131-2315c9737b",
+    "document_id": "PMK-2024-131",
+    "source_locator": "PMK-2024-131#BT/3",
+    "source_quote": "Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud pada ayat (1) dihitung dengan cara mengalikan tarif 12% (dua belas persen) dengan Dasar Pengenaan Pajak berupa nilai lain.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PKB_DKI_Ke1_2Pct": {
+    "catalog_class": "TarifProgresif",
+    "label": "Tarif PKB Progresif Kendaraan ke-1 DKI Jakarta 2% (Perda DKI 1/2024 Pasal 7(1)a)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-c608641ee1",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/7",
+    "source_quote": "a. 2% (dua persen) untuk kepemilikan dan/atau penguasaan Kendaraan Bermotor pertama;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PKB_DKI_Ke2_3Pct": {
+    "catalog_class": "TarifProgresif",
+    "label": "Tarif PKB Progresif Kendaraan ke-2 DKI Jakarta 3% (Perda DKI 1/2024 Pasal 7(1)b)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-2227d61ab1",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/7",
+    "source_quote": "b. 3% (tiga persen) untuk kepemilikan dan/atau penguasaan Kendaraan Bermotor kedua;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PKB_DKI_Ke3_4Pct": {
+    "catalog_class": "TarifProgresif",
+    "label": "Tarif PKB Progresif Kendaraan ke-3 DKI Jakarta 4% (Perda DKI 1/2024 Pasal 7(1)c)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-4c659d6976",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/7",
+    "source_quote": "c. 4% (empat persen) untuk kepemilikan dan/atau penguasaan Kendaraan Bermotor ketiga;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PKB_DKI_Ke4_5Pct": {
+    "catalog_class": "TarifProgresif",
+    "label": "Tarif PKB Progresif Kendaraan ke-4 DKI Jakarta 5% (Perda DKI 1/2024 Pasal 7(1)d)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-45be6103f6",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/7",
+    "source_quote": "d. 5% (lima persen) untuk kepemilikan dan/atau penguasaan Kendaraan Bermotor keempat;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PKB_DKI_Ke5Plus_6Pct": {
+    "catalog_class": "TarifProgresif",
+    "label": "Tarif PKB Progresif Kendaraan ke-5+ DKI Jakarta 6% (Perda DKI 1/2024 Pasal 7(1)e)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-3c423034aa",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/7",
+    "source_quote": "e. 6% (enam persen) untuk kepemilikan dan/atau penguasaan Kendaraan Bermotor kelima dan seterusnya.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PBB_DKI_0_5Pct": {
+    "catalog_class": "TarifPajak",
+    "label": "Tarif PBB-P2 Umum DKI Jakarta 0,5% (Perda DKI 1/2024 Pasal 34(1))",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-a04b748190",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/34",
+    "source_quote": "Tarif PBB-P2 ditetapkan sebesar 0,5% (nol koma lima persen).",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PBJT_Hiburan_DKI_40Pct": {
+    "catalog_class": "TarifPajak",
+    "label": "Tarif PBJT Jasa Hiburan Khusus DKI Jakarta 40% (Perda DKI 1/2024 Pasal 53(2))",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-0117748e9b",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/53",
+    "source_quote": "Khusus tarif PBJT atas jasa hiburan pada diskotek, karaoke, kelab malam, bar, dan mandi uap/spa ditetapkan sebesar 40% (empat puluh persen).",
+    "mk_review_refs": [
+      "MK-2024-19-PUU-XXII"
+    ],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_PP55_Final_0_5Pct": {
+    "catalog_class": "PP55UMKM",
+    "label": "Fasilitas PPh Final UMKM 0,5% (omzet <= Rp4,8M/tahun, PP 55/2022 Pasal 56(2))",
+    "rule_id": "R-PP-2022-55-a9963cde88",
+    "document_id": "PP-2022-55",
+    "source_locator": "PP-2022-55#BT/56",
+    "source_quote": "(2) Tarif Pajak Penghasilan yang bersifat final sebagaimana dimaksud pada ayat (1) sebesar 0,5% (nol koma lima persen). (3) Tidak termasuk penghasilan dari usaha yang dikenai Pajak Penghasilan yang bersifat linal sebagaimana dimaksud pada ayat (1) sebagai berikut: a. penghasilan yang diterima atau diperoleh Wajib Pajak orang pribadi dari jasa sehubungan dengan pekerjaan bebas; b. penghasilan yang diterima atau diperoleh di luar negeri yang pajaknya terutang atau telah dibayar di luar negeri; c.penghasilan... 2 3 T{ilFIIIilIIEEtrEIA -4- c. yang telah dikenai Pajak 4 Penghasilan yang bersifat Iinal dengan ketentuan peraturan perundang-undangan perpajakan tersendiri; dan d. penghasilan yang dikecualikan sebagai objek pajak.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_PPN_Dibebaskan_Strategis": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pembebasan PPN atas Barang Kena Pajak Tertentu yang Bersifat Strategis (PP 49/2022 Pasal 6)",
+    "rule_id": "R-PP-2022-49-27f724ae54",
+    "document_id": "PP-2022-49",
+    "source_locator": "PP-2022-49#BT/6",
+    "source_quote": "Barang Kena Pajak tertentu yang bersifat strategis yang atas impornya dibebaskan dari pengenaan Pajak Pertambahan Nilai meliputi: a. mesin dan peralatan pabrik yang merupakan satu kesatuan, baik dalam keadaan terpasang maupun terlepas, yang digunakan secara langsung dalam proses menghasilkan Barang Kena Pajak oleh Pengusaha Kena P4iak yang menghasilkan Barang Kena Pajak tersebut, termasuk yang atas impornya dilakukan oleh pihak yang melakukan pekerjaan konstruksi terintegrasi, tidak termasuk suku cadang; b. barang yang dihasilkan dari kegiatan usaha di bidang kelautan dan perikanan, baik penangkapan maupun pembudidayaan, yang kriteria dan/atau perinciannya sebagaimana tercantum dalam Lampiran yang merupakan",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_TaxHoliday_50Pct_5Thn": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Holiday Pengurangan PPh Badan 50% selama 5 Tahun Pajak (investasi Rp100M s.d. <Rp500M, PMK 130/2020)",
+    "rule_id": "R-PMK-2020-130-a3c9ffdaa5",
+    "document_id": "PMK-2020-130",
+    "source_locator": "PMK-2020-130#BT/2/1..3",
+    "source_quote": "50% (lima puluh persen) dari jumlah Pajak Penghasilan badan yang terutang untuk penanaman modal baru sebagaimana dimaksud pada ayat (1) dengan nilai paling sedikit Rp100.000.000.000,00 (seratus miliar rupiah) dan paling banyak kurang dari Rp500.000.000.000,00 (lima ratus miliar rupiah)",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_TaxHoliday_100Pct_5Thn": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Holiday Pengurangan PPh Badan 100% selama 5 Tahun Pajak (investasi Rp500M s.d. <Rp1T, PMK 130/2020)",
+    "rule_id": "R-PMK-2020-130-ded6b8c866",
+    "document_id": "PMK-2020-130",
+    "source_locator": "PMK-2020-130#BT/2/4..6",
+    "source_quote": "a. 5 (lima) tahun pajak untuk penanaman modal baru dengan nilai rencana penanaman modal paling sedikit Rp500.000.000.000,00 (lima ratus miliar rupiah) dan kurang dari Rpl.000.000.000.000,00 (satu triliun rupiah);",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_TaxHoliday_100Pct_7Thn": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Holiday Pengurangan PPh Badan 100% selama 7 Tahun Pajak (investasi Rp1T s.d. <Rp5T, PMK 130/2020)",
+    "rule_id": "R-PMK-2020-130-3feb2730e9",
+    "document_id": "PMK-2020-130",
+    "source_locator": "PMK-2020-130#BT/2/4..6",
+    "source_quote": "b. 7 (tujuh) tahun pajak untuk penanaman modal baru dengan nilai rencana penanaman modal paling sedikit Rpl.000.000.000.000,00 (satu triliun rupiah) dan kurang dari Rp5.000.000.000.000,00 (lima triliun rupiah);",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_TaxHoliday_100Pct_10Thn": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Holiday Pengurangan PPh Badan 100% selama 10 Tahun Pajak (investasi Rp5T s.d. <Rp15T, PMK 130/2020)",
+    "rule_id": "R-PMK-2020-130-dec1450db6",
+    "document_id": "PMK-2020-130",
+    "source_locator": "PMK-2020-130#BT/2/4..6",
+    "source_quote": "c. 10 (sepuluh) tahun pajak untuk penanaman modal baru dengan nilai rencana penanaman modal paling sedikit Rp5.000.000.000.000,00 (lima triliun rupiah) dan kurang dari Rp15.000.000.000.000,00 (lima belas triliun rupiah);",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_TaxHoliday_100Pct_15Thn": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Holiday Pengurangan PPh Badan 100% selama 15 Tahun Pajak (investasi Rp15T s.d. <Rp30T, PMK 130/2020)",
+    "rule_id": "R-PMK-2020-130-b00c31f6b5",
+    "document_id": "PMK-2020-130",
+    "source_locator": "PMK-2020-130#BT/2/4..6",
+    "source_quote": "d. 15 (lima belas) tahun pajak untuk penanaman modal baru dengan nilai rencana penanaman modal paling sedikit Rp15.000.000.000.000,00 (lima belas triliun rupiah) dan kurang dari Rp30.000.000.000.000,00 (tiga puluh triliun rupiah);",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_TaxHoliday_100Pct_20Thn": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Holiday Pengurangan PPh Badan 100% selama 20 Tahun Pajak (investasi >= Rp30T, PMK 130/2020)",
+    "rule_id": "R-PMK-2020-130-4777afbb39",
+    "document_id": "PMK-2020-130",
+    "source_locator": "PMK-2020-130#BT/2/4..6",
+    "source_quote": "e. 20 (dua puluh) tahun pajak untuk penanaman modal baru dengan nilai rencana penanaman modal paling sedikit Rp30.000.000.000.000,00 (tiga puluh triliun rupiah).",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_Pengecualian_SpaKesehatanTradisional_MK": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pengecualian PBJT Hiburan 40-50% untuk Mandi Uap/Spa Bagian Pelayanan Kesehatan Tradisional (Putusan MK-2024-19-PUU-XXII)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-0117748e9b",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/53",
+    "source_quote": "Khusus tarif PBJT atas jasa hiburan pada diskotek, karaoke, kelab malam, bar, dan mandi uap/spa ditetapkan sebesar 40% (empat puluh persen).",
+    "mk_review_refs": [
+      "MK-2024-19-PUU-XXII"
+    ],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_Pengecualian_PPh23_Bank": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pengecualian Pemotongan PPh Pasal 23 atas Penghasilan yang Dibayar/Terutang kepada Bank (Pasal 23 ayat (4) huruf a UU PPh)",
+    "rule_id": "R-UU-1983-7-03505d13a1",
+    "document_id": "UU-1983-7",
+    "source_locator": "UU-1983-7#BT/23/4",
+    "source_quote": "a. penghasilan yang dibayar atau terutang kepada bank;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_DaftarPKP_PungutPPN": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Melaporkan Usaha untuk Dikukuhkan sebagai PKP & Memungut PPN (omzet > Rp4,8M, UU PPN Pasal 3A & PMK 164/2023)",
+    "rule_id": "R-PMK-2023-164-706302d621",
+    "document_id": "PMK-2023-164",
+    "source_locator": "PMK-2023-164#BT/17",
+    "source_quote": "(1) Pengusaha wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak apabila sampai dengan suatu bulan dalam tahun buku mempunyai jumlah peredaran bruto dan/atau penerimaan bruto melebihi batasan Pengusaha kecil sebagaimana diatur dalam Peraturan Menteri mengenai batasan Pengusaha kecil pajak pertambahan nilai.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_Peralihan_UMKM_Ke_KetentuanUmum": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Transisi WP UMKM yang Omzetnya Melebihi Rp4,8M ke Tarif Umum Tahun Pajak Berikutnya (PP 55/2022 Pasal 61 & PMK 164/2023 Pasal 5(5))",
+    "rule_id": "R-PMK-2023-164-2ded388f17",
+    "document_id": "PMK-2023-164",
+    "source_locator": "PMK-2023-164#BT/5",
+    "source_quote": "(5) Wajib Pajak yang menyampaikan pemberitahuan sebagaimana dimaksud pada ayat (4) dikenai Pajak Penghasilan Berdasarkan Ketentuan Umum Pajak Penghasilan mulai Tahun Pajak berikutnya.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_NPWP_NIK_OP": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Penggunaan NIK sebagai NPWP bagi Wajib Pajak Orang Pribadi Penduduk Indonesia (PMK 112/2022 Pasal 2(1)a)",
+    "rule_id": "R-PMK-2022-112-a91070d05f",
+    "document_id": "PMK-2022-112",
+    "source_locator": "PMK-2022-112#BT/2",
+    "source_quote": "(1) Terhitung sejak tanggal 14 Juli 2022: a. Wajib Pajak orang pribadi yang merupakan Penduduk menggunakan Nomor Induk Kependudukan;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_LaporSPT": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Mengisi dan Menyampaikan SPT dengan Benar, Lengkap, dan Jelas (UU KUP Pasal 3(1))",
+    "rule_id": "R-UU-1983-6-689d7b8926",
+    "document_id": "UU-1983-6",
+    "source_locator": "UU-1983-6#BT/3/1..3b",
+    "source_quote": "Setiap Wajib Pajak wajib mengisi Surat Pemberitahuan dengan benar, lengkap, dan jelas, dalam bahasa Indonesia dengan menggunakan huruf Latin, angka Arab, satuan mata uang Rupiah, dan menandatangani serta menyampaikannya ke kantor Direktorat Jenderal Pajak tempat Wajib Pajak terdaftar atau dikukuhkan atau tempat lain yang ditetapkan oleh Direktur Jenderal Pajak.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_Tenggat_SPT_Tahunan_OP_3Bln": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Batas Waktu Penyampaian SPT Tahunan PPh Orang Pribadi Paling Lama 3 Bulan Setelah Akhir Tahun Pajak (UU KUP Pasal 3(3)b)",
+    "rule_id": "R-UU-1983-6-ec282e98db",
+    "document_id": "UU-1983-6",
+    "source_locator": "UU-1983-6#BT/3/1..3b",
+    "source_quote": "b. untuk Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak orang pribadi, paling lama 3 (tiga) bulan setelah akhir Tahun Pajak;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Batas Waktu Penyampaian SPT Tahunan PPh Badan Paling Lama 4 Bulan Setelah Akhir Tahun Pajak (UU KUP Pasal 3(3)c)",
+    "rule_id": "R-UU-1983-6-31abe376bc",
+    "document_id": "UU-1983-6",
+    "source_locator": "UU-1983-6#BT/3/1..3b",
+    "source_quote": "c. untuk Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak badan, paling lama 4 (empat) bulan setelah akhir Tahun Pajak.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_LaporPBB": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Subjek/Wajib Pajak PBB-P2 atas Kepemilikan/Penguasaan Objek Bumi/Bangunan (Perda DKI 1/2024 Pasal 32 & 34)",
+    "rule_id": "R-PERDA-PROV-DKI-JAKARTA-2024-1-675c47e425",
+    "document_id": "PERDA-PROV-DKI-JAKARTA-2024-1",
+    "source_locator": "PERDA-PROV-DKI-JAKARTA-2024-1#BT/32",
+    "source_quote": "(1) Subjek PBB-P2 merupakan orang pribadi atau Badan yang secara nyata mempunyai suatu hak atas Bumi dan/atau memperoleh manfaat atas Bumi, dan/atau memiliki, menguasai, dan/atau memperoleh manfaat atas Bangunan. (2) Wajib PBB-P2 merupakan orang pribadi atau Badan yang secara nyata mempunyai suatu hak atas Bumi dan/atau memperoleh manfaat atas Bumi, dan/atau memiliki, menguasai, dan/atau memperoleh manfaat atas Bangunan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Sanksi_Denda_KUP_TerlambatSPT": {
+    "catalog_class": "SanksiAdministratif",
+    "label": "Sanksi Administratif Denda Keterlambatan/Tidak Menyampaikan SPT (Rp100rb OP / Rp500rb Badan, UU KUP Pasal 7(1))",
+    "rule_id": "R-UU-1983-6-a86dd99b6a",
+    "document_id": "UU-1983-6",
+    "source_locator": "UU-1983-6#BT/7",
+    "source_quote": "(1) Apabila Surat Pemberitahuan tidak disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) atau batas waktu perpanjangan penyampaian Surat Pemberitahuan sebagaimana dimaksud dalam Pasal 3 ayat (4), dikenai sanksi administrasi berupa denda sebesar Rp500.000,00 (lima ratus ribu rupiah) untuk Surat Pemberitahuan Masa Pajak Pertambahan Nilai, Rp100.000,00 (seratus ribu rupiah) untuk Surat Pemberitahuan Masa lainnya, dan sebesar Rp1.000.000,00 (satu juta rupiah) untuk Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak badan serta sebesar Rp100.000,00 (seratus ribu rupiah) untuk Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak orang pribadi. (2) Pengenaan sanksi administrasi berupa denda sebagaimana dimaksud pada ayat (1) tidak dilakukan terhadap: a. Wajib Pajak orang pribadi yang telah meninggal dunia; b. Wajib Pajak orang pribadi yang sudah tidak melakukan kegiatan usaha atau pekerjaan bebas; c. Wajib Pajak orang pribadi yang berstatus sebagai warga negara asing yang tidak tinggal lagi di Indonesia; d. Bentuk Usaha Tetap yang tidak melakukan kegiatan lagi di Indonesia; e. Wajib Pajak badan yang tidak melakukan kegiatan usaha lagi tetapi belum dibubarkan sesuai dengan ketentuan yang berlaku; f. Bendahara . . . - 15 - f. Bendahara yang tidak melakukan pembayaran lagi; g. Wajib Pajak yang terkena bencana, yang ketentuannya diatur dengan Peraturan Menteri Keuangan; atau h. Wajib Pajak lain yang diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Sanksi_Keberatan_30Pct": {
+    "catalog_class": "SanksiAdministratif",
+    "label": "Sanksi Denda 30% bila Keberatan Ditolak atau Dikabulkan Sebagian (UU KUP Pasal 25(9))",
+    "rule_id": "R-UU-1983-6-c367eea7f6",
+    "document_id": "UU-1983-6",
+    "source_locator": "UU-1983-6#BT/25/9..10",
+    "source_quote": "(9) Dalam hal keberatan Wajib Pajak ditolak atau dikabulkan sebagian, Wajib Pajak dikenai sanksi administratif berupa denda sebesar 30% (tiga puluh persen) dari jumlah pajak berdasarkan keputusan keberatan dikurangi dengan pajak yang telah dibayar sebelum mengajukan keberatan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": [
+      "SEMA-2024-2-TUN-4"
+    ]
+  },
+  "Sanksi_Banding_60Pct": {
+    "catalog_class": "SanksiAdministratif",
+    "label": "Sanksi Denda 60% bila Banding Ditolak atau Dikabulkan Sebagian (UU KUP Pasal 27(5d))",
+    "rule_id": "R-UU-1983-6-ad287a542a",
+    "document_id": "UU-1983-6",
+    "source_locator": "UU-1983-6#BT/27/1..5d",
+    "source_quote": "(5d) Dalam hal permohonan banding ditolak atau dikabulkan sebagian, Wajib Pajak dikenai sanksi administratif berupa denda sebesar 60% (enam puluh persen) dari jumlah pajak berdasarkan Putusan Banding dikurangi dengan pembayaran pajak yang telah dibayar sebelum mengajukan keberatan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": [
+      "SEMA-2024-2-TUN-4"
+    ]
+  }
+}

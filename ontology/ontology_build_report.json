@@ -1,0 +1,193 @@
+{
+  "tbox_owl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_pajak_tbox.owl",
+  "tbox_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_pajak_tbox.ttl",
+  "core_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr-core.ttl",
+  "reasoning_owl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_pajak_reasoning.owl",
+  "reasoning_individuals": 322,
+  "reasoning_classes": 59,
+  "swrl_rules": 28,
+  "full_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/data/export/kbr-data.ttl",
+  "full_rules_exported": 12907,
+  "inferred_scenarios": {
+    "PT_TechStartup_001": {
+      "classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPN_Efektif_11Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    "PT_Terbuka_001": {
+      "classes": [
+        "Badan",
+        "BadanTerbukaTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_Tbk_19Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    "PT_Pionir_Investasi_1_5T": {
+      "classes": [
+        "Badan",
+        "BadanNonTbk",
+        "LayakTaxHoliday",
+        "LayakTaxHoliday_100Pct_7Thn",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [
+        "Fasilitas_TaxHoliday_100Pct_7Thn"
+      ],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    "CV_UMKM_Aktif_001": {
+      "classes": [
+        "Badan",
+        "BadanNonTbk",
+        "CV",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakUMKM"
+      ],
+      "tarif": [],
+      "fasilitas": [
+        "Fasilitas_PP55_Final_0_5Pct"
+      ],
+      "kewajiban": [
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    "CV_UMKM_Lewat_4_8M": {
+      "classes": [
+        "Badan",
+        "BadanNonTbk",
+        "CV",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Peralihan_UMKM_Ke_KetentuanUmum",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    "PT_Spa_Kesehatan_DKI": {
+      "classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PBB_DKI_0_5Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [
+        "Fasilitas_Pengecualian_SpaKesehatanTradisional_MK"
+      ],
+      "kewajiban": [
+        "Kewajiban_LaporPBB",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": []
+    },
+    "OP_KendaraanKedua_DKI": {
+      "classes": [
+        "OP_KendaraanKe2_DKI",
+        "OP_PemilikKendaraanDKI",
+        "OrangPribadi",
+        "SubjekPajakAktif",
+        "WajibPajak"
+      ],
+      "tarif": [
+        "Tarif_PKB_DKI_Ke2_3Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_LaporSPT",
+        "Kewajiban_NPWP_NIK_OP",
+        "Kewajiban_Tenggat_SPT_Tahunan_OP_3Bln"
+      ],
+      "sanksi": []
+    },
+    "PT_Risiko_Sanksi_001": {
+      "classes": [
+        "Badan",
+        "BadanNonTbk",
+        "PT",
+        "PengusahaKenaPajak",
+        "SubjekPajakAktif",
+        "WajibPajak",
+        "WajibPajakNonUMKM"
+      ],
+      "tarif": [
+        "Tarif_PPN_12Pct",
+        "Tarif_PPhBadan_22Pct"
+      ],
+      "fasilitas": [],
+      "kewajiban": [
+        "Kewajiban_DaftarPKP_PungutPPN",
+        "Kewajiban_LaporSPT",
+        "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln"
+      ],
+      "sanksi": [
+        "Sanksi_Banding_60Pct",
+        "Sanksi_Denda_KUP_TerlambatSPT"
+      ]
+    }
+  }
+}

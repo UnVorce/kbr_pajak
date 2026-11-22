@@ -1,0 +1,10 @@
+{
+  "total_rules_out": 12907,
+  "stats": {
+    "APPROVED_EXISTING": 117,
+    "CONFIRMED_REJECTED": 8,
+    "FIXED_EXISTING": 197,
+    "PROMOTED_NEW": 277,
+    "REMOVED_FROM_LEGAL_RULES": 22
+  }
+}
