@@ -1,6 +1,6 @@
 # kbr_pajak — Korpus JSON Regulasi Pajak, Aturan Tervalidasi, Yurisprudensi & Ontology KBR
 
-Korpus JSON terstruktur, terkonsolidasi, dan hasil ekstraksi aturan **Fase 4** (mencakup seluruh bidang perpajakan nasional: PPh Badan & Fasilitas, PPh Potput/Final, PPN & PPnBM, PBB & HKPD, KUP/Coretax/Penagihan/Pengadilan Pajak, Pajak Minimum Global, KEK/KPBPB, Migas/Batubara, Kepabeanan & Cukai, **`12.652` aturan hukum tervalidasi S8**, **`621` baris audit atomik `P1`–`P6`**, ditambah **`284` Putusan Pengadilan Pajak**, **`15` Putusan MK pajak yang dikabulkan/bersyarat**, dan **`14` butir SEMA Pleno Kamar TUN (Pajak)**) untuk kebutuhan **Ontology & Reasoning (Fase 5–6)** dan **RAG**.
+Korpus JSON terstruktur, terkonsolidasi, dan hasil ekstraksi aturan **Fase 4 / Gate G4** (mencakup seluruh bidang perpajakan nasional: PPh Badan & Fasilitas, PPh Potput/Final, PPN & PPnBM, PBB & HKPD, KUP/Coretax/Penagihan/Pengadilan Pajak, Pajak Minimum Global, KEK/KPBPB, Migas/Batubara, Kepabeanan & Cukai, **`12.907` aturan hukum atomik (`legal_rules.jsonl`)** pasca-validasi S8 & penerapan **`621` baris audit atomik `P1`–`P6`**, ditambah **`284` Putusan Pengadilan Pajak**, **`15` Putusan MK pajak yang dikabulkan/bersyarat**, dan **`14` butir SEMA Pleno Kamar TUN (Pajak)**) untuk kebutuhan **Ontology & Reasoning (Fase 5–6)** dan **RAG**.
 
 ## Struktur Direktori
 
@@ -19,9 +19,9 @@ kbr_pajak/
 │   └── colab_extract_t2.ipynb             # Notebook ekstraksi T2_RULE vLLM (Qwen2.5-32B-Instruct-AWQ)
 └── knowledge_json/
     ├── rules/
-    │   └── legal_rules.jsonl              # 12.652 aturan pajak tervalidasi S8 (8.717 VALIDATED + 3.935 REVIEW_REQUIRED)
+    │   └── legal_rules.jsonl              # 12.907 aturan pajak atomik (8.717 VALIDATED + 474 HUMAN_FIXED + 117 HUMAN_APPROVED + 3.599 REVIEW_REQUIRED)
     ├── review/
-    │   ├── priority_review_audited.csv    # 621 baris audit atomik P1-P6 (menunggu sign-off manusia & apply)
+    │   ├── priority_review_audited.csv    # 621 baris audit atomik P1-P6 (telah di-apply ke legal_rules.jsonl)
     │   ├── llm_audit_log.jsonl            # Log audit per batch P1-P6 (gemini-4-hydrogen-high)
     │   ├── review_queue.jsonl             # Antrean penuh 4.612 item S8
     │   ├── gold_standard_template.jsonl   # 36 sampel chunk gold standard
@@ -37,7 +37,8 @@ kbr_pajak/
         ├── manifest.json                  # Indeks 165 regulasi pusat (97 active_for_rules + recommended_source)
         ├── scope_manifest.jsonl           # 4.603 pasal (4.463 extract_t2 + penanda mk_review_refs & sema_tun_refs)
         ├── chunk_manifest.json            # Ringkasan 5.509 chunk T2_RULE & 17 chunk tabel
-        ├── validation_report.json         # Laporan metrik S8 (12.652 lolos, 153 chunk PER-DJP-2015-17 dikarantina)
+        ├── validation_report.json         # Laporan metrik S8 (12.652 lolos awal, 153 chunk PER-DJP-2015-17 dikarantina)
+        ├── review_apply_report.json       # Laporan penerapan 621 baris audit P1-P6 -> 12.907 aturan akhir (Gate G4)
         ├── perda_manifest.json            # Indeks 524 Perda PDRD (tahun, ocr_status, structure)
         ├── jurisprudence_manifest.json    # Indeks 284 putusan (klaster, amar, cited_regulations)
         ├── mk_manifest.json               # Indeks 15 Putusan MK (amar_kategori, uu_diuji, impacted_corpus_docs)
@@ -55,8 +56,8 @@ kbr_pajak/
 ## Cara Pakai untuk Tim (Ontology, RAG, Fase 4–6)
 
 1. **Untuk aturan hukum terstruktur (`knowledge_json/rules/legal_rules.jsonl`):**
-   - Berisi **`12.652` aturan atomik** hasil ekstraksi `Qwen2.5-32B-Instruct-AWQ` + validasi S8 (`8.717 VALIDATED` + `3.935 REVIEW_REQUIRED`), mencakup `100` dokumen di `9` domain pajak (termasuk 5 Perda PDRD pilot dan teks konsolidasi `UU-2023-6` Cipta Kerja).
-   - **Audit prioritas tinggi (`knowledge_json/review/priority_review_audited.csv`):** memuat **`621` baris atomik** hasil audit `P1_TABLE` (`7`), `P2_MK` (`45`), `P3_SEMA` (`33`), `P4_PARSE_ERROR` (`77`), `P5_RATE_CORE` (`278`), dan `P6_REJECTED_CORE` (`181`) — siap *sign-off* akhir manusia sebelum di-`apply` ke `legal_rules.jsonl`.
+   - Berisi **`12.907` aturan atomik** (`8.717 VALIDATED`, `474 HUMAN_FIXED`, `117 HUMAN_APPROVED`, `3.599 REVIEW_REQUIRED`), mencakup `100` dokumen di `9` domain pajak (termasuk 5 Perda PDRD pilot dan teks konsolidasi `UU-2023-6` Cipta Kerja).
+   - **Audit prioritas tinggi (`knowledge_json/review/priority_review_audited.csv` & `metadata/review_apply_report.json`):** seluruh **`621` baris atomik** (`P1_TABLE` `7`, `P2_MK` `45`, `P3_SEMA` `33`, `P4_PARSE_ERROR` `77`, `P5_RATE_CORE` `278`, dan `P6_REJECTED_CORE` `181`) sudah di-`apply` ke `legal_rules.jsonl` (**Gate G4 tercapai**).
 2. **Untuk teks regulasi normatif (`knowledge_json/metadata/manifest.json`):**
    - Filter **`active_for_rules == true`** (`97` regulasi aktif bersih — otomatis mengecualikan dokumen yang sudah dicabut/tidak berlaku, pengubah yang sudah masuk ke `consolidated/`, panduan/lampiran, dan file non-pajak).
    - Ambil teks dari **`recommended_source`**: otomatis mengarah ke **`knowledge_json/consolidated/<id>.json`** (`32` regulasi, termasuk lapisan **UU 6/2023 Cipta Kerja**, **UU 7/2021 HPP**, **`PMK-2024-118`**, dan lengkap dengan `sub_provisions` level ayat/huruf) bila tersedia, atau ke **`knowledge_json/documents/<id>.json`**.
@@ -75,7 +76,7 @@ kbr_pajak/
 ## Batasan yang Perlu Diketahui Tim
 
 - **Anomali sumber `PER-DJP-2015-17` (dikarantina — lihat `docs/ISSUES.md #A7`):** file PDF BPK untuk `PER-DJP-2015-17` ternyata berisi Perda Kab. Pangandaran tentang Lingkungan Hidup; sudah dikarantina di validator S8 sehingga **0 aturan** dari dokumen itu masuk ke `legal_rules.jsonl`.
-- **Status `priority_review_audited.csv`:** audit & pemecahan atomik `P1`–`P6` (`621` baris) sudah selesai dilakukan, namun belum di-`apply` ke `legal_rules.jsonl` sambil menunggu *sign-off* akhir manusia.
+- **Status `priority_review_audited.csv` (Gate G4):** audit & pemecahan atomik `P1`–`P6` (`621` baris) sudah selesai di-`apply` ke `legal_rules.jsonl` (`12.907` aturan akhir).
 - **1 PMK opsional non-BPK (`PMK-2008-253`):** `PMK 253/PMK.03/2008` (PPh 22 barang sangat mewah) belum tersedia PDF-nya; perubahannya (`PMK-2015-90`, `PMK-2019-92`) sudah masuk.
 - **`PMK-2024-81`:** memakai `articles` dasar tim (`466` pasal) pada konsolidasi (`427` pasal).
 - **Putusan MK & SEMA Kamar TUN = lapisan interpretasi, bukan sumber teks UU:** amar bersyarat tidak menimpa teks `consolidated/`; dampaknya dicatat pada audit `P2_MK` & `P3_SEMA`. Putusan MK yang **ditolak** dan **Tidak Dapat Diterima** sengaja tidak dimasukkan.

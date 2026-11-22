@@ -1,6 +1,6 @@
 # Laporan Fase 4 — Konsolidasi Cipta Kerja, Ekstraksi Aturan (`T2_RULE`), Validasi S8 & Pre-Audit (`P1`–`P6`)
 
-> **Status:** Fase 4A–4D selesai; pre-audit prioritas tinggi (`P1`–`P6`) selesai dan menunggu *sign-off* manusia + `apply` untuk Gerbang **G4**.
+> **Status:** **SELESAI — Gerbang G4 Tercapai** (Fase 4A–4E tuntas; `621` baris audit atomik `P1`–`P6` telah di-`apply` ke `legal_rules.jsonl` → **`12.907` aturan hukum bersih**).
 
 ---
 
@@ -69,7 +69,20 @@ Sebanyak **`498` baris** prioritas tinggi diekspor dari `review_queue.jsonl`, di
 
 ---
 
-## 5. Status Menuju Gerbang G4 & Fase 5
+## 5. Penerapan ke `legal_rules.jsonl` & Status Gerbang G4 (`4E`)
 
-- **Status sekarang:** Draf hasil audit `P1`–`P6` (`priority_review_audited.csv`) sudah siap ditinjau akhir oleh manusia (*sign-off*) sebelum menjalankan `scripts/fase4_review.py apply` ke `legal_rules.jsonl`.
-- **Siap lanjut setelah *apply*:** Fase 5 (**TBox Ontologi OWL `SROIQ(D)`** di Protégé) & Fase 6 (**ABox + SWRL + Pellet**).
+Penerapan keputusan `priority_review_audited.csv` (`621` baris) dijalankan melalui `python3 scripts/fase4_review.py apply --csv data/review/priority_review_llm_draft.csv` (`review_apply_report.json`):
+
+| Statistik `apply` | Jumlah | Keterangan |
+|---|---:|---|
+| `APPROVED_EXISTING` | **117** | Diubah statusnya menjadi `HUMAN_APPROVED` |
+| `FIXED_EXISTING` | **197** | Diperbarui field & catatannya (`HUMAN_FIXED`) |
+| `PROMOTED_NEW` | **277** | Aturan baru hasil pemulihan `PARSE_ERROR`, promosi `REJECTED`, & pemecahan atomik (`HUMAN_FIXED`) |
+| `REMOVED_FROM_LEGAL_RULES` | **22** | Aturan `P5_RATE_CORE` non-tarif / artefak halaman / duplikat dihapus dari `legal_rules.jsonl` |
+| `CONFIRMED_REJECTED` | **8** | Fragmen tidak utuh / pasal delegasi kosong tetap tidak dimasukkan |
+| **Total Akhir `legal_rules.jsonl`** | **12.907** | **`12.907` `rule_id` unik** (`8.717 VALIDATED`, `3.599 REVIEW_REQUIRED`, `474 HUMAN_FIXED`, `117 HUMAN_APPROVED`) |
+
+**Sebaran Akhir `12.907` Aturan di `legal_rules.jsonl` (`100` dokumen unik):**
+- **Per domain:** `D_ADMIN_SANKSI` (`3.417`), `B_PPN` (`2.122`), `PERDA_PDRD` (`1.694`), `A2_PPH_BADAN` (`1.618`), `C_PBB_HKPD` (`1.204`), `FASILITAS_SEKTOR` (`1.128`), `KEPABEANAN_CUKAI` (`969`), `PPH_OP_POTPUT` (`600`), `PPH_FINAL_SEKTOR` (`155`).
+- **Per jenis (`rule_type`):** `definition` (`4.193`), `obligation` (`3.103`), `procedure` (`2.733`), `prohibition` (`808`), `rate` (`653`), `deadline` (`436`), `exception` (`331`), `sanction` (`314`), `right` (`276`), `eligibility` (`37`), `other` (`23`).
+- **Siap lanjut:** Fase 5 (**TBox Ontologi OWL `SROIQ(D)`**) & Fase 6 (**ABox + SWRL + Pellet**).
