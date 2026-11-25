@@ -37,6 +37,7 @@ app.add_middleware(
 class TaxpayerProperties(BaseModel):
     # Relasi individu (lihat GET /options & GET /kbli)
     memilikiPekerjaan: Optional[List[str]] = Field(default=None, description="Daftar ID JenisPekerjaan (khusus OrangPribadi), mis. ['Dokter', 'PegawaiTetap_Swasta']")
+    memilikiPenghasilanFinal: Optional[List[str]] = Field(default=None, description="Daftar ID ObjekPenghasilanFinal Pasal 4(2) (lihat GET /options -> final_income_objects), mis. ['Jenis_SewaTanahBangunan', 'Jenis_BungaDepositoTabungan']")
     berdomisiliDi: Optional[List[str]] = Field(default=None, description="Daftar ID WilayahDaerah, mis. ['Wilayah_Kota_Surabaya']")
     kodeKBLI: Optional[str] = Field(default=None, description="Kode KBLI/KLU 5 digit (mis. '69100', '86201', '03222') untuk lookup SKOS NPPN & Tax Allowance")
     lokasiProvinsiTaxAllowance: Optional[str] = Field(default=None, description="Nama provinsi/kota lokasi proyek untuk syarat wilayah Lampiran II PP 78/2019")
@@ -80,6 +81,15 @@ class TaxpayerProperties(BaseModel):
     isPemberitahuanNPPNTepatWaktu: Optional[bool] = None
     isTidakMenyelenggarakanPembukuanPencatatan: Optional[bool] = None
     kelompokWilayahNPPN: Optional[Literal["10_IbuKota_Provinsi", "IbuKota_Provinsi_Lain", "Daerah_Lain"]] = None
+
+    # PPh Final Pasal 4 ayat (2) (terpisah dari hasPenghasilanKenaPajakTahunan)
+    hasNilaiSewaTanahBangunanTahunan: Optional[float] = Field(default=None, ge=0, description="Bruto nilai persewaan tanah dan/atau bangunan setahun (Rp, PP 34/2017)")
+    hasBungaDepositoTabunganTahunan: Optional[float] = Field(default=None, ge=0, description="Bruto bunga deposito/tabungan/SBI setahun (Rp, PP 131/2000)")
+    hasPokokDepositoTabungan: Optional[float] = Field(default=None, ge=0, description="Nilai pokok deposito/tabungan/SBI (Rp; pengecualian <= Rp7,5jt PP 131/2000)")
+    hasNilaiBrutoJasaKonstruksi: Optional[float] = Field(default=None, ge=0, description="Nilai bruto/pembayaran kontrak jasa konstruksi (Rp, PP 51/2008 jo. PP 9/2022)")
+    hasNilaiPengalihanTanahBangunan: Optional[float] = Field(default=None, ge=0, description="Nilai bruto pengalihan hak atas tanah dan/atau bangunan (Rp, PP 34/2016)")
+    isJasaAkomodasiPenginapan: Optional[bool] = Field(default=None, description="True jika jasa pelayanan penginapan beserta akomodasinya (dikecualikan dari PP 34/2017)")
+    isPenghasilanDibawahPTKP: Optional[bool] = Field(default=None, description="True jika OP SPDN berpenghasilan total <= PTKP (PP 131/2000 Pasal 1(3) / PP 34/2016 Pasal 6a)")
 
     # PPN & Pemotongan PPh 23
     isPenyerahanNonMewahPPN: Optional[bool] = None
@@ -169,7 +179,7 @@ def get_catalog() -> dict:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-@app.get("/options", summary="Daftar pilihan JenisPekerjaan (30 profesi) & WilayahDaerah (5 Perda) dari ontologi")
+@app.get("/options", summary="Daftar pilihan JenisPekerjaan, WilayahDaerah & ObjekPenghasilanFinal dari ontologi")
 def get_options() -> dict:
     try:
         return engine.get_options()

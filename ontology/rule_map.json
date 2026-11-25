@@ -29,9 +29,139 @@
     "mk_review_refs": [],
     "sema_tun_refs": []
   },
+  "Tarif_PPhFinal_SewaTanahBangunan_10Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final 10% atas Persewaan Tanah dan/atau Bangunan (PP 34/2017 Pasal 4(1))",
+    "rule_id": "R-PP-2017-34-a11ca8c4a6",
+    "document_id": "PP-2017-34",
+    "source_locator": "PP-2017-34#BT/4",
+    "source_quote": "Besarnya Paj ak Penghasilan sebagaimana dimaksud dalam Pasal 2 ayat (1) sebesar 10olo (sepuluh persen) dari jumlah bruto nilai persewaan tanah dan/atau Bangunan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_BungaDepositoTabungan_20Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final 20% atas Bunga Tabungan, Diskonto SBI, dan Deposito Umum Non-DHE (PP 131/2000 jo. PP 123/2015 Pasal 2 huruf c)",
+    "rule_id": "R-PP-2000-131-fc05ed2fb9",
+    "document_id": "PP-2000-131",
+    "source_locator": "PP-2000-131#BT/2",
+    "source_quote": "c. Atas bunga dari tabungan dan diskonto Sertifikat Bank Indonesia, serta bunga dari deposito selain dari deposito sebagaimana dimaksud dalam huruf a dan huruf b dikenai Pajak Penghasilan yang bersifat final dengan tarif sebagai berikut: 1. Tarif 20% (dua puluh persen) dari jumlah bruto, terhadap Wajib Pajak dalam negeri dan bentuk usaha tetap; dan 2. Tarif 20% (dua puluh persen) dari jumlah bruto atau dengan tarif berdasarkan Perjanjian Penghindaran Pajak Berganda yang berlaku, terhadap Wajib Pajak luar negeri",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_DepositoDHE_USD_Bertingkat": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Deposito DHE USD (10% 1 bln, 7,5% 3 bln, 2,5% 6 bln, 0% >6 bln; PP 131/2000 jo. PP 123/2015 Pasal 2 huruf a)",
+    "rule_id": "R-PP-2000-131-c9221e0b78",
+    "document_id": "PP-2000-131",
+    "source_locator": "PP-2000-131#BT/2",
+    "source_quote": "a. Atas bunga dari deposito dalam mata uang dolar Amerika Serikat yang dananya bersumber dari Devisa Hasil Ekspor dan ditempatkan di dalam negeri pada bank yang didirikan atau bertempat kedudukan di Indonesia atau cabang bank luar negeri di Indonesia dikenai Pajak Penghasilan yang bersifat final dengan tarif sebagai berikut: 1. Tarif 10% (sepuluh persen) dari jumlah bruto, untuk deposito dengan jangka waktu 1 (satu) bulan; 2. Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, untuk deposito dengan jangka waktu 3 (tiga) bulan; 3. Tarif 2,5% (dua koma lima persen) dari jumlah bruto, untuk deposito dengan jangka waktu 6 (enam) bulan; dan 4. Tarif 0% (nol persen) dari jumlah bruto, untuk deposito dengan jangka waktu lebih dari 6 (enam) bulan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 1,75% Pekerjaan Konstruksi Kualifikasi Kecil / SKK Perseorangan (PP 51/2008 jo. PP 9/2022 Pasal 3(1)a)",
+    "rule_id": "R-PP-2008-51-bd43270f8a",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "a. l,75oh (satu koma tujuh puluh lima persen) untuk pekerjaan konstruksi yang dilakukan oleh penyedia Jasa yang memiliki sertifikat badan usaha kualifikasi kecil atau sertifikat kompetensi kerja untuk usaha orang perseorangan;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_NonKecilSBU_2_65Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 2,65% Pekerjaan Konstruksi Menengah/Besar Bersertifikat (PP 51/2008 jo. PP 9/2022 Pasal 3(1)c)",
+    "rule_id": "R-PP-2008-51-77cd2d02ee",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "c. 2,650/o (dua koma enam puluh lima persen) untuk pekerjaan konstruksi yang dilakukan oleh penyedia Jasa selain Penyedia Jasa sebagaimana dimaksud dalam huruf a dan huruf b;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_TerintegrasiSBU_2_65Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 2,65% Pekerjaan Konstruksi Terintegrasi Bersertifikat SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)d)",
+    "rule_id": "R-PP-2008-51-59116f2a02",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "d. 2,650/o (dua koma enam puluh lima persen) untuk pekerjaan konstruksi terintegrasi yang dilakukan oleh Penyedia Jasa yang memiliki sertifikat badan usaha;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_TanpaSBU_4Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 4% Pekerjaan Konstruksi Tanpa Sertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)b)",
+    "rule_id": "R-PP-2008-51-fc527468d8",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "b. 4% (empat persen) untuk pekerjaan konstruksi yang dilakukan oleh Penyedia Jasa yang tidak memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_TerintegrasiTanpaSBU_4Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 4% Pekerjaan Konstruksi Terintegrasi Tanpa SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)e)",
+    "rule_id": "R-PP-2008-51-fe99b15648",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "e. 4% (empat persen) untuk pekerjaan konstruksi terirrtegrasi yang dilakukan oleh Penyedia Jasa yang tidak memiliki sertifikat badan usaha;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_KonsultansiSBU_3_5Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 3,5% Jasa Konsultansi Konstruksi Bersertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)f)",
+    "rule_id": "R-PP-2008-51-ee380105e4",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "f. 3,5% (tiga koma lima persen) untuk jasa konsultansi konstruksi yang dilakukan oleh penyedia Jasa yang memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final Jasa Konstruksi 6% Jasa Konsultansi Konstruksi Tanpa Sertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)g)",
+    "rule_id": "R-PP-2008-51-631d959451",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/3",
+    "source_quote": "g. 60/o (enam persen) untuk jasa konsultansi konstruksi yang dilakukan oleh penyedia Jasa yang tidak memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final 2,5% atas Pengalihan Hak atas Tanah dan/atau Bangunan Umum (PP 34/2016 Pasal 2(1)a)",
+    "rule_id": "R-PP-2016-34-7c066787f5",
+    "document_id": "PP-2016-34",
+    "source_locator": "PP-2016-34#BT/2/1",
+    "source_quote": "a. 2,5% (dua koma lima persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan selain pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana atau Rumah Susun Sederhana yang dilakukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/ atau bangunan;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_PengalihanRumahSederhana_1Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final 1% Pengalihan Rumah Sederhana/Rusunami oleh Developer Usaha Pokok Properti (PP 34/2016 Pasal 2(1)b)",
+    "rule_id": "R-PP-2016-34-9fdb5292bd",
+    "document_id": "PP-2016-34",
+    "source_locator": "PP-2016-34#BT/2/1",
+    "source_quote": "b. 1% (satu persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana dan Rumah Susun Sederhana yang dilalukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/atau bangunan;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Tarif_PPhFinal_PengalihanKepadaPemerintah_0Pct": {
+    "catalog_class": "TarifFinal",
+    "label": "Tarif PPh Final 0% Pengalihan Tanah/Bangunan kepada Pemerintah atau BUMN/BUMD Penugasan Khusus (PP 34/2016 Pasal 2(1)c)",
+    "rule_id": "R-PP-2016-34-2c3484ea65",
+    "document_id": "PP-2016-34",
+    "source_locator": "PP-2016-34#BT/2/1",
+    "source_quote": "c. O% (nol persen) atas pengalihan hak atas tanah dan/ atau bangunan kepada pemerintah, badan usaha milik negara yang mendapat Penugasan khusus dari Pemerintah, atau badan usaha milik daerah yang mendapat penugasan khusus dari kepala daerah, sebagaimana dimaksud dalam undang-undang yang mengatur mengenai pengadaan tanah bagi pembangunan untuk kepentingan umum.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
   "Tarif_PPh23_JasaSewa_2Pct": {
     "catalog_class": "TarifPajak",
-    "label": "Tarif Pemotongan PPh Pasal 23 sebesar 2% atas Sewa Harta & Jasa Lain (UU PPh Pasal 23(1)c)",
+    "label": "Tarif Pemotongan PPh Pasal 23 sebesar 2% atas Sewa Harta Selain Tanah/Bangunan & Jasa Lain (UU PPh Pasal 23(1)c)",
     "rule_id": "R-UU-1983-7-1afe13bff6",
     "document_id": "UU-1983-7",
     "source_locator": "UU-1983-7#BT/23/1..4",
@@ -615,6 +745,46 @@
     "mk_review_refs": [],
     "sema_tun_refs": []
   },
+  "Fasilitas_Pengecualian_SewaPenginapan_PP34": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pengecualian PPh Final Persewaan Tanah/Bangunan bagi Jasa Pelayanan Penginapan Beserta Akomodasinya (PP 34/2017 Pasal 2(3))",
+    "rule_id": "R-PP-2017-34-86e520fb7b",
+    "document_id": "PP-2017-34",
+    "source_locator": "PP-2017-34#BT/2",
+    "source_quote": "Penghasilan sebagaimana dimaksud pada ayat (1), tidak termasuk penghasilan yang diterima atau diperoleh dari jasa pelayanan penginapan beserta akomodasinya.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pengecualian Pemotongan PPh Final atas Bunga Deposito/Tabungan/SBI dengan Pokok <= Rp7,5 Juta & Bukan Dipecah-pecah (PP 131/2000 Pasal 3(a))",
+    "rule_id": "R-PP-2000-131-df0f230457",
+    "document_id": "PP-2000-131",
+    "source_locator": "PP-2000-131#BT/3",
+    "source_quote": "a. bunga dari deposito dan tabungan serta diskonto Sertifikat Bank Indonesia sepanjang jumlah deposito dan tabungan serta Sertikat Bank Indonesia tersebut tidak melebih Rp 7.500.000,00 (tujuh juta lima ratus ribu rupiah) dan bukan merupakan jumlah yang dipecah-pecah;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_Restitusi_BungaDeposito_DibawahPTKP": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pengecualian/Hak Restitusi PPh Final Bunga Deposito bagi OP SPDN Total Penghasilan <= PTKP (PP 131/2000 Pasal 1(3)-(4))",
+    "rule_id": "R-PP-2000-131-d7e7a5e6ac",
+    "document_id": "PP-2000-131",
+    "source_locator": "PP-2000-131#BT/1",
+    "source_quote": "Ketentuan sebagaimana dimaksud dalam ayat (1) tidak berlaku terhadap orang pribadi Subjek Pajak dalam negeri yang seluruh penghasilannya dalam 1 (satu) tahun pajak termasuk bunga dan diskonto tidak melebihi Penghasilan Tidak Kena Pajak.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Pengecualian PPh Final Pengalihan Tanah/Bangunan bagi OP Berpenghasilan < PTKP dengan Nilai Bruto < Rp60 Juta (PP 34/2016 Pasal 6 huruf a)",
+    "rule_id": "R-PP-2016-34-9bbd83e4c2",
+    "document_id": "PP-2016-34",
+    "source_locator": "PP-2016-34#BT/6",
+    "source_quote": "a. orang pribadi yang mempunyai penghasilan di bawah Penghasilan Tidak Kena Pajak yang melakukan pengalihan hak atas tanah dan/ atau bangunan dengan jumlah bruto pengalihannya kurang dari Rp60.000.000,00 (enam puluh juta rupiah) dan bukan merupakan jumlah yang dipecah-pecah;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
   "Kewajiban_DaftarPKP_PungutPPN": {
     "catalog_class": "KewajibanPajak",
     "label": "Kewajiban Melaporkan Usaha untuk Dikukuhkan sebagai PKP & Memungut PPN (omzet > Rp4,8M, UU PPN Pasal 3A & PMK 164/2023)",
@@ -622,6 +792,36 @@
     "document_id": "PMK-2023-164",
     "source_locator": "PMK-2023-164#BT/17",
     "source_quote": "(1) Pengusaha wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak apabila sampai dengan suatu bulan dalam tahun buku mempunyai jumlah peredaran bruto dan/atau penerimaan bruto melebihi batasan Pengusaha kecil sebagaimana diatur dalam Peraturan Menteri mengenai batasan Pengusaha kecil pajak pertambahan nilai.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_PotongSetor_SewaTanahBangunan": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Pemotongan PPh Final Sewa Tanah/Bangunan oleh Penyewa Pemotong atau Penyetoran Sendiri bila Penyewa Non-Pemotong (PP 34/2017 Pasal 3)",
+    "rule_id": "R-PP-2017-34-a465bbabaa",
+    "document_id": "PP-2017-34",
+    "source_locator": "PP-2017-34#BT/3",
+    "source_quote": "Atas penghasilan sebagaimana dimaksud dalam Pasal 2 ayat (1) yang diterima atau diperoleh dari Penyewa yang bertindak atau ditunjuk sebagai Pemotong Pajak Penghasilan, wajib dipotong Pajak Penghasilan oleh Penyewa.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_PencatatanTerpisah_JasaKonstruksi": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Pencatatan Biaya Terpisah atas Penghasilan di Luar Usaha Jasa Konstruksi yang Dikenai Tarif Umum (PP 51/2008 Pasal 7(2) & Pasal 8)",
+    "rule_id": "R-PP-2008-51-a8ec884e18",
+    "document_id": "PP-2008-51",
+    "source_locator": "PP-2008-51#BT/8",
+    "source_quote": "Penyedia Jasa wajib melakukan pencatatan yang terpisah atas biaya yang timbul dari penghasilan yang diterima atau diperoleh dari kegiatan usaha selain usaha Jasa Konstruksi.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Menyerahkan SSP Tervalidasi KPP Sebelum Penandatanganan Akta PPAT/Risalah Lelang (PP 34/2016 Pasal 3(5))",
+    "rule_id": "R-PP-2016-34-c396034237",
+    "document_id": "PP-2016-34",
+    "source_locator": "PP-2016-34#BT/3/3..5",
+    "source_quote": "Pejabat yang berwenang hanya menandatangani akta, keputusan, kesepakatan, atau risalah lelang atas pengalihan hak atas tanah dan/atau bangunan apabila kepadanya dibuktikan oleh orang pribadi atau badan dimaksud bahwa kewajiban sebagaimana dimaksud pada ayat (1) telah dipenuhi dengan menyerahkan fotokopi Surat Setoran Pajak atau hasil cetakan sarana administrasi lain yang disamakan dengan Surat Setoran Pajak yang bersangkutan yang telah dilakukan penelitian oleh Kantor Pelayanan Pajak.",
     "mk_review_refs": [],
     "sema_tun_refs": []
   },

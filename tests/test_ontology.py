@@ -607,3 +607,94 @@ def test_step_a_tax_allowance_padat_karya_nppn_terlambat_dan_hkpd_opsen():
     )
     assert "WP_Wilayah_NonDKI_Kendaraan" in res_sby_kend["inferred_classes"]
     assert any(k["id"] == "Kewajiban_Opsen_PKB_66Pct" for k in res_sby_kend["kewajiban"])
+
+
+def test_pph_final_pasal4_2_sewa_deposito_konstruksi_pengalihan():
+    """Uji PPh Final Pasal 4(2): Sewa Tanah/Bangunan, Bunga Deposito, Jasa Konstruksi (PP 9/2022), Pengalihan Tanah/Bangunan & pengecualiannya."""
+    # 1. OP multi-penghasilan: Pegawai Tetap + Sewa Ruko + Bunga Deposito + Pengalihan Tanah/Bangunan Umum
+    res_op = reason_wajib_pajak(
+        REASONING_OWL,
+        "Test_OP_PPhFinal_Multi",
+        "OrangPribadi",
+        {
+            "memilikiPekerjaan": ["PegawaiTetap_Swasta"],
+            "memilikiPenghasilanFinal": [
+                "Jenis_SewaTanahBangunan",
+                "Jenis_BungaDepositoTabungan",
+                "Jenis_PengalihanTanahBangunan_Umum",
+            ],
+            "isSubjekLuarNegeri": False,
+            "isPendudukIndonesia": True,
+            "isKawin": False,
+            "hasJumlahTanggungan": 0,
+            "hasPenghasilanKenaPajakTahunan": 100_000_000.0,
+            "hasNPWP": True,
+        },
+    )
+    tarifs_op = {t["id"] for t in res_op["tarif"]}
+    kews_op = {k["id"] for k in res_op["kewajiban"]}
+    assert {
+        "Tarif_PPhFinal_SewaTanahBangunan_10Pct",
+        "Tarif_PPhFinal_BungaDepositoTabungan_20Pct",
+        "Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct",
+        "Tarif_PPh21_TER_Bulanan_Kategori_A",
+        "Tarif_PPhOP_Layer1_5Pct",
+    }.issubset(tarifs_op)
+    assert {
+        "Kewajiban_PotongSetor_SewaTanahBangunan",
+        "Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta",
+    }.issubset(kews_op)
+
+    # 2. PT Jasa Konstruksi (PP 51/2008 jo. PP 9/2022): Kecil SBU 1,75% vs Konsultansi Tanpa SBU 6%
+    res_kecil = reason_wajib_pajak(
+        REASONING_OWL,
+        "Test_PT_Konst_Kecil",
+        "PT",
+        {
+            "memilikiPenghasilanFinal": ["Jenis_JasaKonstruksi_Kecil_SBU"],
+            "isPerseroanTerbuka": False,
+            "isUMKM_PP55": False,
+            "hasNPWP": True,
+        },
+    )
+    assert any(t["id"] == "Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct" for t in res_kecil["tarif"])
+    assert any(k["id"] == "Kewajiban_PencatatanTerpisah_JasaKonstruksi" for k in res_kecil["kewajiban"])
+
+    res_kons_non = reason_wajib_pajak(
+        REASONING_OWL,
+        "Test_PT_Konst_Kons_NonSBU",
+        "PT",
+        {
+            "memilikiPenghasilanFinal": ["Jenis_JasaKonstruksi_Konsultansi_TanpaSBU"],
+            "isPerseroanTerbuka": False,
+            "isUMKM_PP55": False,
+            "hasNPWP": True,
+        },
+    )
+    assert any(t["id"] == "Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct" for t in res_kons_non["tarif"])
+
+    # 3. Pengecualian (ConstrainedDatatype & boolean): penginapan PP 34, pokok deposito <= 7,5jt, & pengalihan OP < PTKP dan < 60jt
+    res_exc = reason_wajib_pajak(
+        REASONING_OWL,
+        "Test_OP_PPhFinal_Exceptions",
+        "OrangPribadi",
+        {
+            "memilikiPenghasilanFinal": [
+                "Jenis_SewaTanahBangunan",
+                "Jenis_BungaDepositoTabungan",
+                "Jenis_PengalihanTanahBangunan_Umum",
+            ],
+            "isJasaAkomodasiPenginapan": True,
+            "hasPokokDepositoTabungan": 5_000_000.0,
+            "isPenghasilanDibawahPTKP": True,
+            "hasNilaiPengalihanTanahBangunan": 45_000_000.0,
+            "hasNPWP": True,
+        },
+    )
+    fas_exc = {f["id"] for f in res_exc["fasilitas"]}
+    assert {
+        "Fasilitas_Pengecualian_SewaPenginapan_PP34",
+        "Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt",
+        "Fasilitas_Restitusi_BungaDeposito_DibawahPTKP",
+        "Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP",
+    }.issubset(fas_exc)

@@ -110,6 +110,11 @@
   <rdfs:range rdf:resource="#JenisPekerjaan"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="#memilikiPenghasilanFinal">
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="#berdomisiliDi">
   <rdfs:domain rdf:resource="#WajibPajak"/>
   <rdfs:range rdf:resource="#WilayahDaerah"/>
@@ -418,6 +423,48 @@
 <owl:DatatypeProperty rdf:about="#isIndustriPadatKarya">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#BadanDalamNegeri"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiSewaTanahBangunanTahunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasBungaDepositoTabunganTahunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPokokDepositoTabungan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiBrutoJasaKonstruksi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiPengalihanTanahBangunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isJasaAkomodasiPenginapan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isPenghasilanDibawahPTKP">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
 </owl:DatatypeProperty>
 
@@ -2686,6 +2733,408 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
+<owl:Class rdf:about="#ObjekPenghasilanFinal">
+  <rdfs:subClassOf rdf:resource="#ObjekPajak"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SewaTanahDanBangunan">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#BungaDepositoDanTabungan">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ObjekBungaDepositoTabunganUmum">
+  <rdfs:subClassOf rdf:resource="#BungaDepositoDanTabungan"/>
+  <owl:disjointWith rdf:resource="#ObjekDepositoDHE_USD"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ObjekDepositoDHE_USD">
+  <rdfs:subClassOf rdf:resource="#BungaDepositoDanTabungan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksi">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiPekerjaanKecilSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiPekerjaanNonKecilSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiTerintegrasiSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiPekerjaanTanpaSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiTerintegrasiTanpaSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiKonsultansiSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiKonsultansiTanpaSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanHakAtasTanahBangunan">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanTanahBangunanUmum">
+  <rdfs:subClassOf rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanRumahSederhanaDeveloper">
+  <rdfs:subClassOf rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanKepadaPemerintahPenugasan">
+  <rdfs:subClassOf rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenerimaSewaTanahBangunan">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#SewaTanahDanBangunan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_SewaPenginapan">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#SewaTanahDanBangunan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isJasaAkomodasiPenginapan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenerimaBungaDeposito">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#ObjekBungaDepositoTabunganUmum"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenerimaBungaDepositoDHE_USD">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#ObjekDepositoDHE_USD"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_Deposito_Max7_5Jt">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#BungaDepositoDanTabungan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPokokDepositoTabungan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7500000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_Deposito_DibawahPTKP">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#BungaDepositoDanTabungan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isPenghasilanDibawahPTKP"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenyediaJasaKonstruksi">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksi"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Kecil_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiPekerjaanKecilSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_NonKecil_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiPekerjaanNonKecilSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Terintegrasi_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiTerintegrasiSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_TanpaSBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiPekerjaanTanpaSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Terintegrasi_TanpaSBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiTerintegrasiTanpaSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Konsultansi_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiKonsultansiSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Konsultansi_TanpaSBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiKonsultansiTanpaSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PengalihanTanahBangunan">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengalihan_Umum_2_5Pct">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanTanahBangunanUmum"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengalihan_RumahSederhana_1Pct">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanRumahSederhanaDeveloper"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengalihan_Pemerintah_0Pct">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanKepadaPemerintahPenugasan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_Pengalihan_OP_Dibawah60Jt">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isPenghasilanDibawahPTKP"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiPengalihanTanahBangunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60000000.0</xsd:maxExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#DokumenHukum">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
@@ -2848,6 +3297,7 @@
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#WajibPajak"/>
     <rdf:Description rdf:about="#JenisPekerjaan"/>
+    <rdf:Description rdf:about="#ObjekPajak"/>
     <rdf:Description rdf:about="#WilayahDaerah"/>
     <rdf:Description rdf:about="#Regulasi"/>
     <rdf:Description rdf:about="#Pasal"/>
@@ -2857,6 +3307,35 @@
     <rdf:Description rdf:about="#KewajibanPajak"/>
     <rdf:Description rdf:about="#SanksiAdministratif"/>
     <rdf:Description rdf:about="#DomainPajak"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#PengalihanTanahBangunanUmum"/>
+    <rdf:Description rdf:about="#PengalihanRumahSederhanaDeveloper"/>
+    <rdf:Description rdf:about="#PengalihanKepadaPemerintahPenugasan"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#JasaKonstruksiPekerjaanKecilSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiPekerjaanNonKecilSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiTerintegrasiSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiPekerjaanTanpaSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiTerintegrasiTanpaSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiKonsultansiSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiKonsultansiTanpaSBU"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#SewaTanahDanBangunan"/>
+    <rdf:Description rdf:about="#BungaDepositoDanTabungan"/>
+    <rdf:Description rdf:about="#JasaKonstruksi"/>
+    <rdf:Description rdf:about="#PengalihanHakAtasTanahBangunan"/>
   </owl:members>
 </owl:AllDisjointClasses>
 

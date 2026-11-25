@@ -111,6 +111,11 @@
   <rdfs:range rdf:resource="#JenisPekerjaan"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="#memilikiPenghasilanFinal">
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="#berdomisiliDi">
   <rdfs:domain rdf:resource="#WajibPajak"/>
   <rdfs:range rdf:resource="#WilayahDaerah"/>
@@ -419,6 +424,48 @@
 <owl:DatatypeProperty rdf:about="#isIndustriPadatKarya">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#BadanDalamNegeri"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiSewaTanahBangunanTahunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasBungaDepositoTabunganTahunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPokokDepositoTabungan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiBrutoJasaKonstruksi">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiPengalihanTanahBangunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isJasaAkomodasiPenginapan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isPenghasilanDibawahPTKP">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
 </owl:DatatypeProperty>
 
@@ -2687,6 +2734,408 @@
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
 
+<owl:Class rdf:about="#ObjekPenghasilanFinal">
+  <rdfs:subClassOf rdf:resource="#ObjekPajak"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SewaTanahDanBangunan">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#BungaDepositoDanTabungan">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ObjekBungaDepositoTabunganUmum">
+  <rdfs:subClassOf rdf:resource="#BungaDepositoDanTabungan"/>
+  <owl:disjointWith rdf:resource="#ObjekDepositoDHE_USD"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ObjekDepositoDHE_USD">
+  <rdfs:subClassOf rdf:resource="#BungaDepositoDanTabungan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksi">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiPekerjaanKecilSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiPekerjaanNonKecilSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiTerintegrasiSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiPekerjaanTanpaSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiTerintegrasiTanpaSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiKonsultansiSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#JasaKonstruksiKonsultansiTanpaSBU">
+  <rdfs:subClassOf rdf:resource="#JasaKonstruksi"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanHakAtasTanahBangunan">
+  <rdfs:subClassOf rdf:resource="#ObjekPenghasilanFinal"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanTanahBangunanUmum">
+  <rdfs:subClassOf rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanRumahSederhanaDeveloper">
+  <rdfs:subClassOf rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PengalihanKepadaPemerintahPenugasan">
+  <rdfs:subClassOf rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenerimaSewaTanahBangunan">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#SewaTanahDanBangunan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_SewaPenginapan">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#SewaTanahDanBangunan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isJasaAkomodasiPenginapan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenerimaBungaDeposito">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#ObjekBungaDepositoTabunganUmum"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenerimaBungaDepositoDHE_USD">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#ObjekDepositoDHE_USD"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_Deposito_Max7_5Jt">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#BungaDepositoDanTabungan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPokokDepositoTabungan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7500000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_Deposito_DibawahPTKP">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#BungaDepositoDanTabungan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isPenghasilanDibawahPTKP"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PenyediaJasaKonstruksi">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksi"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Kecil_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiPekerjaanKecilSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_NonKecil_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiPekerjaanNonKecilSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Terintegrasi_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiTerintegrasiSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_TanpaSBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiPekerjaanTanpaSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Terintegrasi_TanpaSBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiTerintegrasiTanpaSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Konsultansi_SBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiKonsultansiSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_JasaKonstruksi_Konsultansi_TanpaSBU">
+  <rdfs:subClassOf rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#JasaKonstruksiKonsultansiTanpaSBU"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PengalihanTanahBangunan">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengalihan_Umum_2_5Pct">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanTanahBangunanUmum"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengalihan_RumahSederhana_1Pct">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanRumahSederhanaDeveloper"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengalihan_Pemerintah_0Pct">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanKepadaPemerintahPenugasan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Pengecualian_Pengalihan_OP_Dibawah60Jt">
+  <rdfs:subClassOf rdf:resource="#WP_PengalihanTanahBangunan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPenghasilanFinal"/>
+          <owl:someValuesFrom rdf:resource="#PengalihanHakAtasTanahBangunan"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isPenghasilanDibawahPTKP"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiPengalihanTanahBangunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60000000.0</xsd:maxExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#DokumenHukum">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
 </owl:Class>
@@ -3371,10 +3820,295 @@ Pajak.</hasSourceQuote>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UU-1983-7#BT/26/3..5</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_SewaTanahBangunan_10Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2017_34_a11ca8c4a6"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 10% atas Persewaan Tanah dan/atau Bangunan (PP 34/2017 Pasal 4(1))</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2017_34_a11ca8c4a6">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2017_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2017_34_BT_4"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2017-34-a11ca8c4a6</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/4</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Besarnya Paj ak Penghasilan sebagaimana dimaksud dalam Pasal 2 ayat (1) sebesar 10olo (sepuluh persen) dari jumlah bruto nilai persewaan tanah dan/atau Bangunan.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 10% sewa tanah/bangunan (PP 34/2017 Pasal 4(1)) benar; perbaiki typo OCR '10olo' pada rate_or_value[0].value menjadi numerik 10.0 sambil mempertahankan raw &amp; source_quote persis teks sumber.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Reg_PP_2017_34">
+  <rdf:type rdf:resource="#PeraturanPemerintah"/>
+  <hasDocumentId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34</hasDocumentId>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2017_34_BT_4">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2017_34"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/4</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/4</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_BungaDepositoTabungan_20Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2000_131_fc05ed2fb9"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 20% atas Bunga Tabungan, Diskonto SBI, dan Deposito Umum Non-DHE (PP 131/2000 jo. PP 123/2015 Pasal 2 huruf c)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2000_131_fc05ed2fb9">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2000_131"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2000_131_BT_2"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2000-131-fc05ed2fb9</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/2</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c. Atas bunga dari tabungan dan diskonto Sertifikat Bank Indonesia, serta bunga dari deposito selain dari deposito sebagaimana dimaksud dalam huruf a dan huruf b dikenai Pajak Penghasilan yang bersifat final dengan tarif sebagai berikut: 1. Tarif 20% (dua puluh persen) dari jumlah bruto, terhadap Wajib Pajak dalam negeri dan bentuk usaha tetap; dan 2. Tarif 20% (dua puluh persen) dari jumlah bruto atau dengan tarif berdasarkan Perjanjian Penghindaran Pajak Berganda yang berlaku, terhadap Wajib Pajak luar negeri</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_APPROVED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 20% atas bunga tabungan, diskonto SBI, dan deposito umum selain DHE (PP 131/2000 jo. PP 123/2015 Pasal 2 huruf c) terverifikasi persis.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Reg_PP_2000_131">
+  <rdf:type rdf:resource="#PeraturanPemerintah"/>
+  <hasDocumentId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131</hasDocumentId>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2000_131_BT_2">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2000_131"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/2</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_DepositoDHE_USD_Bertingkat">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2000_131_c9221e0b78"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Deposito DHE USD (10% 1 bln, 7,5% 3 bln, 2,5% 6 bln, 0% &gt;6 bln; PP 131/2000 jo. PP 123/2015 Pasal 2 huruf a)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2000_131_c9221e0b78">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2000_131"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2000_131_BT_2"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2000-131-c9221e0b78</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/2</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a. Atas bunga dari deposito dalam mata uang dolar Amerika Serikat yang dananya bersumber dari Devisa Hasil Ekspor dan ditempatkan di dalam negeri pada bank yang didirikan atau bertempat kedudukan di Indonesia atau cabang bank luar negeri di Indonesia dikenai Pajak Penghasilan yang bersifat final dengan tarif sebagai berikut: 1. Tarif 10% (sepuluh persen) dari jumlah bruto, untuk deposito dengan jangka waktu 1 (satu) bulan; 2. Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, untuk deposito dengan jangka waktu 3 (tiga) bulan; 3. Tarif 2,5% (dua koma lima persen) dari jumlah bruto, untuk deposito dengan jangka waktu 6 (enam) bulan; dan 4. Tarif 0% (nol persen) dari jumlah bruto, untuk deposito dengan jangka waktu lebih dari 6 (enam) bulan.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_APPROVED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final bertingkat deposito DHE USD 10%/7,5%/2,5%/0% (PP 131/2000 jo. PP 123/2015 Pasal 2 huruf a) terverifikasi persis.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_bd43270f8a"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 1,75% Pekerjaan Konstruksi Kualifikasi Kecil / SKK Perseorangan (PP 51/2008 jo. PP 9/2022 Pasal 3(1)a)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.75</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_bd43270f8a">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-bd43270f8a</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a. l,75oh (satu koma tujuh puluh lima persen) untuk pekerjaan konstruksi yang dilakukan oleh penyedia Jasa yang memiliki sertifikat badan usaha kualifikasi kecil atau sertifikat kompetensi kerja untuk usaha orang perseorangan;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 1,75% pekerjaan konstruksi SBU kecil/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)a); normalkan string '1,75' menjadi numerik 1.75.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Reg_PP_2008_51">
+  <rdf:type rdf:resource="#PeraturanPemerintah"/>
+  <hasDocumentId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51</hasDocumentId>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2008_51_BT_3">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2008_51"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_NonKecilSBU_2_65Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_77cd2d02ee"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 2,65% Pekerjaan Konstruksi Menengah/Besar Bersertifikat (PP 51/2008 jo. PP 9/2022 Pasal 3(1)c)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.65</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_77cd2d02ee">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-77cd2d02ee</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c. 2,650/o (dua koma enam puluh lima persen) untuk pekerjaan konstruksi yang dilakukan oleh penyedia Jasa selain Penyedia Jasa sebagaimana dimaksud dalam huruf a dan huruf b;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 2,65% pekerjaan konstruksi menengah/besar bersertifikat (PP 51/2008 jo. PP 9/2022 Pasal 3(1)c); normalkan string '2,65' menjadi numerik 2.65.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_TerintegrasiSBU_2_65Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_59116f2a02"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 2,65% Pekerjaan Konstruksi Terintegrasi Bersertifikat SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)d)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.65</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_59116f2a02">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-59116f2a02</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d. 2,650/o (dua koma enam puluh lima persen) untuk pekerjaan konstruksi terintegrasi yang dilakukan oleh Penyedia Jasa yang memiliki sertifikat badan usaha;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 2,65% pekerjaan konstruksi terintegrasi bersertifikat (PP 51/2008 jo. PP 9/2022 Pasal 3(1)d); normalkan string '2,65' menjadi numerik 2.65.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_TanpaSBU_4Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_fc527468d8"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 4% Pekerjaan Konstruksi Tanpa Sertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)b)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_fc527468d8">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-fc527468d8</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b. 4% (empat persen) untuk pekerjaan konstruksi yang dilakukan oleh Penyedia Jasa yang tidak memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 4% pekerjaan konstruksi tanpa SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)b); normalkan string '4' menjadi numerik 4.0.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_TerintegrasiTanpaSBU_4Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_fe99b15648"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 4% Pekerjaan Konstruksi Terintegrasi Tanpa SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)e)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_fe99b15648">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-fe99b15648</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e. 4% (empat persen) untuk pekerjaan konstruksi terirrtegrasi yang dilakukan oleh Penyedia Jasa yang tidak memiliki sertifikat badan usaha;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 4% pekerjaan konstruksi terintegrasi tanpa SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)e); normalkan string '4' menjadi numerik 4.0.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_KonsultansiSBU_3_5Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_ee380105e4"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 3,5% Jasa Konsultansi Konstruksi Bersertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)f)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3.5</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_ee380105e4">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-ee380105e4</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f. 3,5% (tiga koma lima persen) untuk jasa konsultansi konstruksi yang dilakukan oleh penyedia Jasa yang memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 3,5% jasa konsultansi konstruksi bersertifikat (PP 51/2008 jo. PP 9/2022 Pasal 3(1)f); normalkan string '3,5' menjadi numerik 3.5.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_631d959451"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final Jasa Konstruksi 6% Jasa Konsultansi Konstruksi Tanpa Sertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)g)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_631d959451">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-631d959451</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">g. 60/o (enam persen) untuk jasa konsultansi konstruksi yang dilakukan oleh penyedia Jasa yang tidak memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 6% jasa konsultansi konstruksi tanpa SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)g); normalkan string '6' menjadi numerik 6.0.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2016_34_7c066787f5"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 2,5% atas Pengalihan Hak atas Tanah dan/atau Bangunan Umum (PP 34/2016 Pasal 2(1)a)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.5</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2016_34_7c066787f5">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2016_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2016_34_BT_2_1"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2016-34-7c066787f5</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/2/1</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a. 2,5% (dua koma lima persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan selain pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana atau Rumah Susun Sederhana yang dilakukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/ atau bangunan;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 2,5% pengalihan hak atas tanah/bangunan umum (PP 34/2016 Pasal 2(1)a) benar; normalkan value string '2,5%' menjadi numerik 2.5.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Reg_PP_2016_34">
+  <rdf:type rdf:resource="#PeraturanPemerintah"/>
+  <hasDocumentId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34</hasDocumentId>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2016_34_BT_2_1">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2016_34"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/2/1</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/2/1</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_PengalihanRumahSederhana_1Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2016_34_9fdb5292bd"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 1% Pengalihan Rumah Sederhana/Rusunami oleh Developer Usaha Pokok Properti (PP 34/2016 Pasal 2(1)b)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2016_34_9fdb5292bd">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2016_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2016_34_BT_2_1"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2016-34-9fdb5292bd</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/2/1</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b. 1% (satu persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana dan Rumah Susun Sederhana yang dilalukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/atau bangunan;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 1% pengalihan Rumah Sederhana/Rusunami oleh developer (PP 34/2016 Pasal 2(1)b) benar; normalkan value string '1%' menjadi numerik 1.0.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Tarif_PPhFinal_PengalihanKepadaPemerintah_0Pct">
+  <rdf:type rdf:resource="#TarifFinal"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2016_34_2c3484ea65"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 0% Pengalihan Tanah/Bangunan kepada Pemerintah atau BUMN/BUMD Penugasan Khusus (PP 34/2016 Pasal 2(1)c)</rdfs:label>
+  <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</hasTarifPersen>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2016_34_2c3484ea65">
+  <rdf:type rdf:resource="#AturanTarif"/>
+  <diaturDalam rdf:resource="#Reg_PP_2016_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2016_34_BT_2_1"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2016-34-2c3484ea65</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/2/1</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c. O% (nol persen) atas pengalihan hak atas tanah dan/ atau bangunan kepada pemerintah, badan usaha milik negara yang mendapat Penugasan khusus dari Pemerintah, atau badan usaha milik daerah yang mendapat penugasan khusus dari kepala daerah, sebagaimana dimaksud dalam undang-undang yang mengatur mengenai pengadaan tanah bagi pembangunan untuk kepentingan umum.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif PPh Final 0% pengalihan kepada pemerintah/BUMN/BUMD penugasan khusus (PP 34/2016 Pasal 2(1)c) benar; normalkan value string '0%' menjadi numerik 0.0.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Tarif_PPh23_JasaSewa_2Pct">
   <rdf:type rdf:resource="#TarifPajak"/>
   <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_1afe13bff6"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif Pemotongan PPh Pasal 23 sebesar 2% atas Sewa Harta &amp; Jasa Lain (UU PPh Pasal 23(1)c)</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tarif Pemotongan PPh Pasal 23 sebesar 2% atas Sewa Harta Selain Tanah/Bangunan &amp; Jasa Lain (UU PPh Pasal 23(1)c)</rdfs:label>
   <hasTarifPersen rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</hasTarifPersen>
 </owl:NamedIndividual>
 
@@ -4606,6 +5340,101 @@ Pajak.</hasSourceQuote>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UU-1983-6#BT/7</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#Fasilitas_Pengecualian_SewaPenginapan_PP34">
+  <rdf:type rdf:resource="#FasilitasPerpajakan"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2017_34_86e520fb7b"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian PPh Final Persewaan Tanah/Bangunan bagi Jasa Pelayanan Penginapan Beserta Akomodasinya (PP 34/2017 Pasal 2(3))</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2017_34_86e520fb7b">
+  <rdf:type rdf:resource="#Pengecualian"/>
+  <diaturDalam rdf:resource="#Reg_PP_2017_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2017_34_BT_2"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2017-34-86e520fb7b</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/2</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penghasilan sebagaimana dimaksud pada ayat (1), tidak termasuk penghasilan yang diterima atau diperoleh dari jasa pelayanan penginapan beserta akomodasinya.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_APPROVED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian jasa pelayanan penginapan beserta akomodasinya (PP 34/2017 Pasal 2(3)) terverifikasi persis terhadap chunk sumber.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2017_34_BT_2">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2017_34"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/2</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt">
+  <rdf:type rdf:resource="#FasilitasPerpajakan"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2000_131_df0f230457"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian Pemotongan PPh Final atas Bunga Deposito/Tabungan/SBI dengan Pokok &lt;= Rp7,5 Juta &amp; Bukan Dipecah-pecah (PP 131/2000 Pasal 3(a))</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2000_131_df0f230457">
+  <rdf:type rdf:resource="#Larangan"/>
+  <diaturDalam rdf:resource="#Reg_PP_2000_131"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2000_131_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2000-131-df0f230457</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a. bunga dari deposito dan tabungan serta diskonto Sertifikat Bank Indonesia sepanjang jumlah deposito dan tabungan serta Sertikat Bank Indonesia tersebut tidak melebih Rp 7.500.000,00 (tujuh juta lima ratus ribu rupiah) dan bukan merupakan jumlah yang dipecah-pecah;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALIDATED</hasStatusValidasi>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2000_131_BT_3">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2000_131"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/3</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/3</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fasilitas_Restitusi_BungaDeposito_DibawahPTKP">
+  <rdf:type rdf:resource="#FasilitasPerpajakan"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2000_131_d7e7a5e6ac"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian/Hak Restitusi PPh Final Bunga Deposito bagi OP SPDN Total Penghasilan &lt;= PTKP (PP 131/2000 Pasal 1(3)-(4))</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2000_131_d7e7a5e6ac">
+  <rdf:type rdf:resource="#Pengecualian"/>
+  <diaturDalam rdf:resource="#Reg_PP_2000_131"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2000_131_BT_1"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2000-131-d7e7a5e6ac</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/1</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ketentuan sebagaimana dimaksud dalam ayat (1) tidak berlaku terhadap orang pribadi Subjek Pajak dalam negeri yang seluruh penghasilannya dalam 1 (satu) tahun pajak termasuk bunga dan diskonto tidak melebihi Penghasilan Tidak Kena Pajak.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_APPROVED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian pemotongan bagi OP SPDN dengan total penghasilan tahunan tidak melebihi PTKP (PP 131/2000 Pasal 1(3)) terverifikasi persis.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2000_131_BT_1">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2000_131"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/1</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2000-131#BT/1</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP">
+  <rdf:type rdf:resource="#FasilitasPerpajakan"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2016_34_9bbd83e4c2"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian PPh Final Pengalihan Tanah/Bangunan bagi OP Berpenghasilan &lt; PTKP dengan Nilai Bruto &lt; Rp60 Juta (PP 34/2016 Pasal 6 huruf a)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2016_34_9bbd83e4c2">
+  <rdf:type rdf:resource="#Pengecualian"/>
+  <diaturDalam rdf:resource="#Reg_PP_2016_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2016_34_BT_6"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2016-34-9bbd83e4c2</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/6</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a. orang pribadi yang mempunyai penghasilan di bawah Penghasilan Tidak Kena Pajak yang melakukan pengalihan hak atas tanah dan/ atau bangunan dengan jumlah bruto pengalihannya kurang dari Rp60.000.000,00 (enam puluh juta rupiah) dan bukan merupakan jumlah yang dipecah-pecah;</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HUMAN_FIXED</hasStatusValidasi>
+  <hasCatatanMKSEMA rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengecualian OP di bawah PTKP dengan nilai bruto pengalihan &lt; Rp60jt (PP 34/2016 Pasal 6 huruf a) benar; perbaiki typo 'pemunya' -&gt; 'mempunyai' pada condition[0].raw sesuai teks chunk.</hasCatatanMKSEMA>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2016_34_BT_6">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2016_34"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/6</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/6</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Kewajiban_DaftarPKP_PungutPPN">
   <rdf:type rdf:resource="#KewajibanPajak"/>
   <didasarkanPadaAturan rdf:resource="#Aturan_R_PMK_2023_164_706302d621"/>
@@ -4634,6 +5463,75 @@ Pajak.</hasSourceQuote>
   <bagianDariRegulasi rdf:resource="#Reg_PMK_2023_164"/>
   <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMK-2023-164#BT/17</hasSourceLocator>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMK-2023-164#BT/17</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kewajiban_PotongSetor_SewaTanahBangunan">
+  <rdf:type rdf:resource="#KewajibanPajak"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2017_34_a465bbabaa"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kewajiban Pemotongan PPh Final Sewa Tanah/Bangunan oleh Penyewa Pemotong atau Penyetoran Sendiri bila Penyewa Non-Pemotong (PP 34/2017 Pasal 3)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2017_34_a465bbabaa">
+  <rdf:type rdf:resource="#Kewajiban"/>
+  <diaturDalam rdf:resource="#Reg_PP_2017_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2017_34_BT_3"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2017-34-a465bbabaa</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/3</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atas penghasilan sebagaimana dimaksud dalam Pasal 2 ayat (1) yang diterima atau diperoleh dari Penyewa yang bertindak atau ditunjuk sebagai Pemotong Pajak Penghasilan, wajib dipotong Pajak Penghasilan oleh Penyewa.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALIDATED</hasStatusValidasi>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2017_34_BT_3">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2017_34"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/3</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2017-34#BT/3</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kewajiban_PencatatanTerpisah_JasaKonstruksi">
+  <rdf:type rdf:resource="#KewajibanPajak"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2008_51_a8ec884e18"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kewajiban Pencatatan Biaya Terpisah atas Penghasilan di Luar Usaha Jasa Konstruksi yang Dikenai Tarif Umum (PP 51/2008 Pasal 7(2) &amp; Pasal 8)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2008_51_a8ec884e18">
+  <rdf:type rdf:resource="#Kewajiban"/>
+  <diaturDalam rdf:resource="#Reg_PP_2008_51"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2008_51_BT_8"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2008-51-a8ec884e18</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/8</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penyedia Jasa wajib melakukan pencatatan yang terpisah atas biaya yang timbul dari penghasilan yang diterima atau diperoleh dari kegiatan usaha selain usaha Jasa Konstruksi.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALIDATED</hasStatusValidasi>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2008_51_BT_8">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2008_51"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/8</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2008-51#BT/8</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta">
+  <rdf:type rdf:resource="#KewajibanPajak"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_PP_2016_34_c396034237"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kewajiban Menyerahkan SSP Tervalidasi KPP Sebelum Penandatanganan Akta PPAT/Risalah Lelang (PP 34/2016 Pasal 3(5))</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Aturan_R_PP_2016_34_c396034237">
+  <rdf:type rdf:resource="#Kewajiban"/>
+  <diaturDalam rdf:resource="#Reg_PP_2016_34"/>
+  <diaturDalamPasal rdf:resource="#Pasal_PP_2016_34_BT_3_3__5"/>
+  <hasRuleId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R-PP-2016-34-c396034237</hasRuleId>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/3/3..5</hasSourceLocator>
+  <hasSourceQuote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pejabat yang berwenang hanya menandatangani akta, keputusan, kesepakatan, atau risalah lelang atas pengalihan hak atas tanah dan/atau bangunan apabila kepadanya dibuktikan oleh orang pribadi atau badan dimaksud bahwa kewajiban sebagaimana dimaksud pada ayat (1) telah dipenuhi dengan menyerahkan fotokopi Surat Setoran Pajak atau hasil cetakan sarana administrasi lain yang disamakan dengan Surat Setoran Pajak yang bersangkutan yang telah dilakukan penelitian oleh Kantor Pelayanan Pajak.</hasSourceQuote>
+  <hasStatusValidasi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VALIDATED</hasStatusValidasi>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Pasal_PP_2016_34_BT_3_3__5">
+  <rdf:type rdf:resource="#Pasal"/>
+  <bagianDariRegulasi rdf:resource="#Reg_PP_2016_34"/>
+  <hasSourceLocator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/3/3..5</hasSourceLocator>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PP-2016-34#BT/3/3..5</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Kewajiban_Opsen_PKB_66Pct">
@@ -5147,6 +6045,71 @@ Pajak.</hasSourceQuote>
 <owl:NamedIndividual rdf:about="#Penyedia_Jasa_Umum">
   <rdf:type rdf:resource="#UsahaDagangJasa"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penyedia Jasa Umum Non-Pekerjaan Bebas</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_SewaTanahBangunan">
+  <rdf:type rdf:resource="#SewaTanahDanBangunan"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persewaan Tanah dan/atau Bangunan (PP 34/2017 - PPh Final 10%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_BungaDepositoTabungan">
+  <rdf:type rdf:resource="#ObjekBungaDepositoTabunganUmum"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunga Deposito, Tabungan &amp; Diskonto SBI Umum (PP 131/2000 - PPh Final 20%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_DepositoDHE_USD">
+  <rdf:type rdf:resource="#ObjekDepositoDHE_USD"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bunga Deposito Devisa Hasil Ekspor (DHE) USD (PP 131/2000 jo. PP 123/2015 - 0% s.d. 10%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_Kecil_SBU">
+  <rdf:type rdf:resource="#JasaKonstruksiPekerjaanKecilSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Pekerjaan Konstruksi Kualifikasi Kecil / SKK (PP 9/2022 - 1,75%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_NonKecil_SBU">
+  <rdf:type rdf:resource="#JasaKonstruksiPekerjaanNonKecilSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Pekerjaan Konstruksi Menengah/Besar Bersertifikat (PP 9/2022 - 2,65%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_Terintegrasi_SBU">
+  <rdf:type rdf:resource="#JasaKonstruksiTerintegrasiSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Pekerjaan Konstruksi Terintegrasi Bersertifikat SBU (PP 9/2022 - 2,65%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_TanpaSBU">
+  <rdf:type rdf:resource="#JasaKonstruksiPekerjaanTanpaSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Pekerjaan Konstruksi Tanpa Sertifikat SBU/SKK (PP 9/2022 - 4%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_Terintegrasi_TanpaSBU">
+  <rdf:type rdf:resource="#JasaKonstruksiTerintegrasiTanpaSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Pekerjaan Terintegrasi Tanpa SBU (PP 9/2022 - 4%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_Konsultansi_SBU">
+  <rdf:type rdf:resource="#JasaKonstruksiKonsultansiSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Jasa Konsultansi Bersertifikat SBU/SKK (PP 9/2022 - 3,5%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_JasaKonstruksi_Konsultansi_TanpaSBU">
+  <rdf:type rdf:resource="#JasaKonstruksiKonsultansiTanpaSBU"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jasa Konstruksi - Jasa Konsultansi Tanpa Sertifikat SBU/SKK (PP 9/2022 - 6%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_PengalihanTanahBangunan_Umum">
+  <rdf:type rdf:resource="#PengalihanTanahBangunanUmum"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengalihan Hak atas Tanah dan/atau Bangunan Umum (PP 34/2016 - 2,5%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_PengalihanRumahSederhana">
+  <rdf:type rdf:resource="#PengalihanRumahSederhanaDeveloper"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengalihan Rumah Sederhana / Rusunami oleh Developer (PP 34/2016 - 1%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Jenis_PengalihanKepadaPemerintah">
+  <rdf:type rdf:resource="#PengalihanKepadaPemerintahPenugasan"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengalihan Tanah/Bangunan kepada Pemerintah/BUMN/BUMD Penugasan Khusus (PP 34/2016 - 0%)</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Reg_UU_2021_7">
@@ -5888,9 +6851,9 @@ Pajak.</hasSourceQuote>
 
 <owl:NamedIndividual rdf:about="#OP_Dokter_MultiPeran_001">
   <rdf:type rdf:resource="#OrangPribadi"/>
-  <memilikiPekerjaan rdf:resource="#Pedagang_ECommerce"/>
   <memilikiPekerjaan rdf:resource="#Dokter"/>
   <memilikiPekerjaan rdf:resource="#PegawaiTetap_Swasta"/>
+  <memilikiPekerjaan rdf:resource="#Pedagang_ECommerce"/>
   <isSubjekLuarNegeri rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSubjekLuarNegeri>
   <isPendudukIndonesia rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isPendudukIndonesia>
   <isKawin rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isKawin>
@@ -7357,6 +8320,525 @@ Pajak.</hasSourceQuote>
     <rdf:Description>
       <rdf:first>
         <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengecualian_Pengalihan_OP_Dibawah60Jt"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#memilikiFasilitas"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Pengalihan_OP_Dibawah60Jt</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengalihan_Pemerintah_0Pct"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_PengalihanKepadaPemerintah_0Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Pengalihan_Pemerintah</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengalihan_RumahSederhana_1Pct"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_PengalihanRumahSederhana_1Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#memilikiKewajiban"/>
+              <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+              <swrl:argument2 rdf:resource="#Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Pengalihan_RumahSederhana</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengalihan_Umum_2_5Pct"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#memilikiKewajiban"/>
+              <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+              <swrl:argument2 rdf:resource="#Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Pengalihan_Umum</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_PenyediaJasaKonstruksi"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#memilikiKewajiban"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Kewajiban_PencatatanTerpisah_JasaKonstruksi"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_PencatatanTerpisah</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_Konsultansi_TanpaSBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_KonsultansiTanpaSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_Konsultansi_SBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_KonsultansiSBU_3_5Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_KonsultansiSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_Terintegrasi_TanpaSBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_TerintegrasiTanpaSBU_4Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_TerintegrasiTanpaSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_TanpaSBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_TanpaSBU_4Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_TanpaSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_Terintegrasi_SBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_TerintegrasiSBU_2_65Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_TerintegrasiSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_NonKecil_SBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_NonKecilSBU_2_65Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_NonKecilSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_JasaKonstruksi_Kecil_SBU"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Konstruksi_KecilSBU</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengecualian_Deposito_DibawahPTKP"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#memilikiFasilitas"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Fasilitas_Restitusi_BungaDeposito_DibawahPTKP"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Deposito_DibawahPTKP</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengecualian_Deposito_Max7_5Jt"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#memilikiFasilitas"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Deposito_Max7_5Jt</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_PenerimaBungaDepositoDHE_USD"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_DepositoDHE_USD_Bertingkat"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_Deposito_DHE_USD</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_PenerimaBungaDeposito"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_BungaDepositoTabungan_20Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_BungaDeposito_20</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Pengecualian_SewaPenginapan"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#memilikiFasilitas"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Fasilitas_Pengecualian_SewaPenginapan_PP34"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_SewaPenginapan_Pengecualian</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_PenerimaSewaTanahBangunan"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#dikenaiTarif"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Tarif_PPhFinal_SewaTanahBangunan_10Pct"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:IndividualPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#memilikiKewajiban"/>
+              <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+              <swrl:argument2 rdf:resource="#Kewajiban_PotongSetor_SewaTanahBangunan"/>
+            </swrl:IndividualPropertyAtom>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_PPh4_2_SewaTanahBangunan</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
           <swrl:classPredicate rdf:resource="#WP_PPh23_TanpaNPWP"/>
           <swrl:argument1 rdf:resource="urn:swrl#wp"/>
         </swrl:ClassAtom>
@@ -8693,6 +10175,7 @@ Pajak.</hasSourceQuote>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#WajibPajak"/>
     <rdf:Description rdf:about="#JenisPekerjaan"/>
+    <rdf:Description rdf:about="#ObjekPajak"/>
     <rdf:Description rdf:about="#WilayahDaerah"/>
     <rdf:Description rdf:about="#Regulasi"/>
     <rdf:Description rdf:about="#Pasal"/>
@@ -8702,6 +10185,35 @@ Pajak.</hasSourceQuote>
     <rdf:Description rdf:about="#KewajibanPajak"/>
     <rdf:Description rdf:about="#SanksiAdministratif"/>
     <rdf:Description rdf:about="#DomainPajak"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#PengalihanTanahBangunanUmum"/>
+    <rdf:Description rdf:about="#PengalihanRumahSederhanaDeveloper"/>
+    <rdf:Description rdf:about="#PengalihanKepadaPemerintahPenugasan"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#JasaKonstruksiPekerjaanKecilSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiPekerjaanNonKecilSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiTerintegrasiSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiPekerjaanTanpaSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiTerintegrasiTanpaSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiKonsultansiSBU"/>
+    <rdf:Description rdf:about="#JasaKonstruksiKonsultansiTanpaSBU"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#SewaTanahDanBangunan"/>
+    <rdf:Description rdf:about="#BungaDepositoDanTabungan"/>
+    <rdf:Description rdf:about="#JasaKonstruksi"/>
+    <rdf:Description rdf:about="#PengalihanHakAtasTanahBangunan"/>
   </owl:members>
 </owl:AllDisjointClasses>
 

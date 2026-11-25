@@ -1,5 +1,5 @@
 {
-  "ter_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/kbr_pajak/ontology/kbr_ter_pph21.ttl",
+  "ter_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_ter_pph21.ttl",
   "ter_total_brackets": 127,
   "ter_by_category": {
     "TER_A": 44,
@@ -15,6 +15,6 @@
     "pp78_tax_allowance": 168,
     "perbkpm7_industri_pionir": 63,
     "pmk16_padat_karya": 45,
-    "out_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/kbr_pajak/ontology/kbr_kbli.ttl"
+    "out_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_kbli.ttl"
   }
 }

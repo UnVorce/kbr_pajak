@@ -346,6 +346,7 @@ class KBRReasoningEngine:
                     "kecuali_dki": bool(r.pkExDki) if r.pkExDki is not None else False,
                 },
                 "terkait_jenis_pekerjaan": str(r.job).split("#")[-1] if r.job is not None else None,
+                "is_jasa_konstruksi": safe.startswith(("41", "42", "43")),
             }
         return None
 
@@ -380,6 +381,7 @@ class KBRReasoningEngine:
                 "is_tax_allowance": bool(r.isTA) if r.isTA is not None else False,
                 "is_industri_pionir": bool(r.isPionir) if r.isPionir is not None else False,
                 "is_industri_padat_karya": bool(r.isPK) if r.isPK is not None else False,
+                "is_jasa_konstruksi": str(r.code).startswith(("41", "42", "43")),
             }
             for r in g.query(q)
         ]
@@ -445,7 +447,15 @@ class KBRReasoningEngine:
             {"id": r.name, "label": r.label[0] if r.label else r.name}
             for r in sorted(onto.WilayahDaerah.instances(), key=lambda x: x.name)
         ]
-        return {"jobs": jobs, "regions": regions}
+        final_objects = []
+        for f in sorted(onto.ObjekPenghasilanFinal.instances(), key=lambda x: x.name):
+            cats = sorted(c.name for c in f.is_a if isinstance(c, ThingClass) and c.name != "ObjekPenghasilanFinal")
+            final_objects.append({
+                "id": f.name,
+                "label": f.label[0] if f.label else f.name,
+                "kategori": cats[0] if cats else "ObjekPenghasilanFinal",
+            })
+        return {"jobs": jobs, "regions": regions, "final_income_objects": final_objects}
 
     def reason(self, wp_id: str, wp_kind: str, props: Dict[str, Any]) -> dict:
         """Evaluasi 1 individu WajibPajak dengan HermiT di World() terisolasi."""
@@ -518,6 +528,18 @@ class KBRReasoningEngine:
                         else:
                             effective_props["isIndustriPadatKarya"] = True
 
+        # Materialisasi otomatis objek PPh Final tidak-ambigu jika nominal bruto > 0 diisi
+        cur_finals = list(effective_props.get("memilikiPenghasilanFinal") or [])
+        if (effective_props.get("hasNilaiSewaTanahBangunanTahunan") or 0) > 0 and "Jenis_SewaTanahBangunan" not in cur_finals:
+            cur_finals.append("Jenis_SewaTanahBangunan")
+        if (
+            (effective_props.get("hasBungaDepositoTabunganTahunan") or 0) > 0
+            and not any(x in cur_finals for x in ("Jenis_BungaDepositoTabungan", "Jenis_DepositoDHE_USD"))
+        ):
+            cur_finals.append("Jenis_BungaDepositoTabungan")
+        if cur_finals:
+            effective_props["memilikiPenghasilanFinal"] = cur_finals
+
         t0 = time.perf_counter()
         with self._reasoner_lock:
             w = World()
@@ -543,7 +565,7 @@ class KBRReasoningEngine:
                 for k, v in effective_props.items():
                     if v is None:
                         continue
-                    if k in ("memilikiPekerjaan", "berdomisiliDi"):
+                    if k in ("memilikiPekerjaan", "berdomisiliDi", "memilikiPenghasilanFinal"):
                         vals = v if isinstance(v, (list, tuple)) else [v]
                         objs = [getattr(onto, str(item), None) for item in vals]
                         resolved = [o for o in objs if o is not None]
@@ -840,6 +862,84 @@ class KBRReasoningEngine:
         for row in g.query(q_denda):
             if row.totalDenda is not None and float(row.totalDenda) > 0:
                 out["rincian"]["denda_administratif_tetap_idr"] = round(float(row.totalDenda), 2)
+
+        # 5. PPh Final Pasal 4 ayat (2) (terpisah dari PKP tarif umum Pasal 17 / Badan)
+        q_pph4_2 = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?pphSewa ?pphDep ?pphKonst ?pphAlih
+        WHERE {{
+          BIND({wp_ref} AS ?wp)
+          BIND(EXISTS {{ ?wp kbr:memilikiFasilitas kbr:Fasilitas_Pengecualian_SewaPenginapan_PP34 }} AS ?excSewa)
+          BIND(
+            EXISTS {{ ?wp kbr:memilikiFasilitas kbr:Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt }}
+            || EXISTS {{ ?wp kbr:memilikiFasilitas kbr:Fasilitas_Restitusi_BungaDeposito_DibawahPTKP }}
+            AS ?excDep
+          )
+          BIND(EXISTS {{ ?wp kbr:memilikiFasilitas kbr:Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP }} AS ?excAlih)
+          OPTIONAL {{ ?wp kbr:hasNilaiSewaTanahBangunanTahunan ?brutoSewa . }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif kbr:Tarif_PPhFinal_SewaTanahBangunan_10Pct . kbr:Tarif_PPhFinal_SewaTanahBangunan_10Pct kbr:hasTarifPersen ?pctSewa . }}
+          OPTIONAL {{ ?wp kbr:hasBungaDepositoTabunganTahunan ?brutoDep . }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif kbr:Tarif_PPhFinal_BungaDepositoTabungan_20Pct . kbr:Tarif_PPhFinal_BungaDepositoTabungan_20Pct kbr:hasTarifPersen ?pctDep . }}
+          OPTIONAL {{ ?wp kbr:hasNilaiBrutoJasaKonstruksi ?brutoKonst . }}
+          OPTIONAL {{
+            ?wp kbr:dikenaiTarif ?tKonst .
+            FILTER(?tKonst IN (
+              kbr:Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct,
+              kbr:Tarif_PPhFinal_Konstruksi_NonKecilSBU_2_65Pct,
+              kbr:Tarif_PPhFinal_Konstruksi_TerintegrasiSBU_2_65Pct,
+              kbr:Tarif_PPhFinal_Konstruksi_TanpaSBU_4Pct,
+              kbr:Tarif_PPhFinal_Konstruksi_TerintegrasiTanpaSBU_4Pct,
+              kbr:Tarif_PPhFinal_Konstruksi_KonsultansiSBU_3_5Pct,
+              kbr:Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct
+            ))
+            ?tKonst kbr:hasTarifPersen ?pctKonst .
+          }}
+          OPTIONAL {{ ?wp kbr:hasNilaiPengalihanTanahBangunan ?brutoAlih . }}
+          OPTIONAL {{
+            ?wp kbr:dikenaiTarif ?tAlih .
+            FILTER(?tAlih IN (
+              kbr:Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct,
+              kbr:Tarif_PPhFinal_PengalihanRumahSederhana_1Pct,
+              kbr:Tarif_PPhFinal_PengalihanKepadaPemerintah_0Pct
+            ))
+            ?tAlih kbr:hasTarifPersen ?pctAlih .
+          }}
+          BIND(IF(BOUND(?brutoSewa) && BOUND(?pctSewa),
+                  IF(?excSewa, 0.0, xsd:decimal(?brutoSewa) * (xsd:decimal(?pctSewa) / 100.0)),
+                  ?unbound) AS ?pphSewa)
+          BIND(IF(BOUND(?brutoDep) && BOUND(?pctDep),
+                  IF(?excDep, 0.0, xsd:decimal(?brutoDep) * (xsd:decimal(?pctDep) / 100.0)),
+                  ?unbound) AS ?pphDep)
+          BIND(IF(BOUND(?brutoKonst) && BOUND(?pctKonst),
+                  xsd:decimal(?brutoKonst) * (xsd:decimal(?pctKonst) / 100.0),
+                  ?unbound) AS ?pphKonst)
+          BIND(IF(BOUND(?brutoAlih) && BOUND(?pctAlih),
+                  IF(?excAlih, 0.0, xsd:decimal(?brutoAlih) * (xsd:decimal(?pctAlih) / 100.0)),
+                  ?unbound) AS ?pphAlih)
+        }}
+        LIMIT 1
+        """
+        for row in g.query(q_pph4_2):
+            final_parts = []
+            if row.pphSewa is not None:
+                v = round(float(row.pphSewa), 2)
+                out["rincian"]["pph_final_sewa_tanah_bangunan_idr"] = v
+                final_parts.append(v)
+            if row.pphDep is not None:
+                v = round(float(row.pphDep), 2)
+                out["rincian"]["pph_final_bunga_deposito_idr"] = v
+                final_parts.append(v)
+            if row.pphKonst is not None:
+                v = round(float(row.pphKonst), 2)
+                out["rincian"]["pph_final_jasa_konstruksi_idr"] = v
+                final_parts.append(v)
+            if row.pphAlih is not None:
+                v = round(float(row.pphAlih), 2)
+                out["rincian"]["pph_final_pengalihan_tanah_bangunan_idr"] = v
+                final_parts.append(v)
+            if final_parts:
+                out["rincian"]["total_pph_final_pasal4_2_idr"] = round(sum(final_parts), 2)
 
         return out
 

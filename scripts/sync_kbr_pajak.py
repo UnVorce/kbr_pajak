@@ -61,6 +61,8 @@ EXTRA_FILES = [
     ("data/text/PMK-2020-16-LAMP-OCR.txt", "knowledge_json/text_lampiran/PMK-2020-16-LAMP-OCR.txt"),
     ("data/review/priority_review_llm_draft.csv", "knowledge_json/review/priority_review_audited.csv"),
     ("data/review/llm_audit_log.jsonl", "knowledge_json/review/llm_audit_log.jsonl"),
+    ("data/review/pph_final_audit_log.jsonl", "knowledge_json/review/pph_final_audit_log.jsonl"),
+    ("data/review/pph_final_audit_report.json", "knowledge_json/review/pph_final_audit_report.json"),
     ("data/gold_standard_template.jsonl", "knowledge_json/review/gold_standard_template.jsonl"),
     ("data/gold_standard_review.csv", "knowledge_json/review/gold_standard_review.csv"),
     ("data/review/review_queue.jsonl", "knowledge_json/review/review_queue.jsonl"),

@@ -445,3 +445,92 @@ def test_api_step_d_kbli_auto_pionir_dan_padat_karya():
     )
     assert r_pk_dki.status_code == 200
     assert "Fasilitas_PadatKarya_PMK81_60Pct" not in {f["id"] for f in r_pk_dki.json()["fasilitas"]}
+
+
+def test_api_pph_final_pasal4_2_sewa_deposito_konstruksi_pengalihan():
+    """Uji PPh Final Pasal 4(2) end-to-end: /options, pemisahan PKP Pasal 17, konstruksi KBLI 41011, pengalihan, dan pengecualian SPARQL BIND."""
+    opt = client.get("/options").json()
+    final_ids = {x["id"] for x in opt["final_income_objects"]}
+    assert {
+        "Jenis_SewaTanahBangunan",
+        "Jenis_BungaDepositoTabungan",
+        "Jenis_JasaKonstruksi_Kecil_SBU",
+        "Jenis_PengalihanTanahBangunan_Umum",
+    }.issubset(final_ids)
+
+    # 1. OP Pegawai + Sewa Ruko 120jt + Deposito 50jt + PKP 60jt -> Pasal 17 terpisah dari PPh Final
+    r_op = client.post(
+        "/reason",
+        json={
+            "wp_id": "API_OP_Final_Split",
+            "wp_kind": "OrangPribadi",
+            "properties": {
+                "memilikiPekerjaan": ["PegawaiTetap_Swasta"],
+                "isSubjekLuarNegeri": False,
+                "isPendudukIndonesia": True,
+                "isKawin": False,
+                "hasJumlahTanggungan": 0,
+                "hasPenghasilanKenaPajakTahunan": 60_000_000.0,
+                "hasNilaiSewaTanahBangunanTahunan": 120_000_000.0,
+                "hasBungaDepositoTabunganTahunan": 50_000_000.0,
+                "hasPokokDepositoTabungan": 1_000_000_000.0,
+                "hasNPWP": True,
+            },
+        },
+    )
+    assert r_op.status_code == 200
+    est_op = r_op.json()["estimasi_pajak"]["rincian"]
+    assert est_op["pph_op_pasal17_idr"] == 3_000_000.0
+    assert est_op["pph_final_sewa_tanah_bangunan_idr"] == 12_000_000.0
+    assert est_op["pph_final_bunga_deposito_idr"] == 10_000_000.0
+    assert est_op["total_pph_final_pasal4_2_idr"] == 22_000_000.0
+
+    # 2. PT Konstruksi (KBLI 41011) Non-Kecil SBU (2,65%) + Pengalihan Rumah Sederhana (1%)
+    r_pt = client.post(
+        "/reason",
+        json={
+            "wp_id": "API_PT_Konst_RS",
+            "wp_kind": "PT",
+            "properties": {
+                "kodeKBLI": "41011",
+                "memilikiPenghasilanFinal": ["Jenis_JasaKonstruksi_NonKecil_SBU", "Jenis_PengalihanRumahSederhana"],
+                "hasNilaiBrutoJasaKonstruksi": 1_000_000_000.0,
+                "hasNilaiPengalihanTanahBangunan": 500_000_000.0,
+                "isPerseroanTerbuka": False,
+                "isUMKM_PP55": False,
+                "hasNPWP": True,
+            },
+        },
+    )
+    assert r_pt.status_code == 200
+    d_pt = r_pt.json()
+    assert d_pt["kbli_info"]["is_jasa_konstruksi"] is True
+    est_pt = d_pt["estimasi_pajak"]["rincian"]
+    assert est_pt["pph_final_jasa_konstruksi_idr"] == 26_500_000.0
+    assert est_pt["pph_final_pengalihan_tanah_bangunan_idr"] == 5_000_000.0
+    assert est_pt["total_pph_final_pasal4_2_idr"] == 31_500_000.0
+
+    # 3. Pengecualian: akomodasi penginapan + pokok deposito <= 7,5jt + OP < PTKP pengalihan < 60jt -> semua estimasi final 0.0
+    r_exc = client.post(
+        "/reason",
+        json={
+            "wp_id": "API_OP_Final_ZeroExc",
+            "wp_kind": "OrangPribadi",
+            "properties": {
+                "memilikiPenghasilanFinal": ["Jenis_PengalihanTanahBangunan_Umum"],
+                "hasNilaiSewaTanahBangunanTahunan": 20_000_000.0,
+                "isJasaAkomodasiPenginapan": True,
+                "hasBungaDepositoTabunganTahunan": 300_000.0,
+                "hasPokokDepositoTabungan": 5_000_000.0,
+                "hasNilaiPengalihanTanahBangunan": 45_000_000.0,
+                "isPenghasilanDibawahPTKP": True,
+                "hasNPWP": True,
+            },
+        },
+    )
+    assert r_exc.status_code == 200
+    est_exc = r_exc.json()["estimasi_pajak"]["rincian"]
+    assert est_exc["pph_final_sewa_tanah_bangunan_idr"] == 0.0
+    assert est_exc["pph_final_bunga_deposito_idr"] == 0.0
+    assert est_exc["pph_final_pengalihan_tanah_bangunan_idr"] == 0.0
+    assert est_exc["total_pph_final_pasal4_2_idr"] == 0.0
