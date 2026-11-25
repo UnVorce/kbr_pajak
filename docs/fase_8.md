@@ -66,7 +66,7 @@ Solusi arsitektural yang terbukti bersih dan cepat:
 2. **Lapisan Graf Penuh & Modul SKOS/TER/Perda (`kbr-data.ttl`, `kbr_ter_pph21.ttl`, `kbr_kbli.ttl`, `kbr-perda-rates.ttl`):**
    - `kbr-data.ttl` (`9,9 MB`): seluruh **`12.907` aturan atomik** dalam Turtle RDF untuk query **SPARQL lokal (`rdflib`)**.
    - `kbr_ter_pph21.ttl`: **`127` bracket TER PPh 21** (`TER_A: 44`, `TER_B: 40`, `TER_C: 41`, `TER_Harian: 2`) dari `PP-2023-58` yang tervalidasi kontinuitas batas bawah/atas.
-   - `kbr_kbli.ttl`: **`1.449` konsep W3C SKOS `skos:Concept`** (`PER-17/PJ/2015` Lampiran I–III untuk NPPN 3 wilayah & `PP-2019-78` Lampiran I–II untuk Tax Allowance beserta syarat provinsi/kecuali DKI Jakarta).
+   - `kbr_kbli.ttl`: **`1.453` konsep W3C SKOS `skos:Concept`** (`PER-17/PJ/2015` Lampiran I–III untuk NPPN 3 wilayah, `PP-2019-78` Lampiran I–II untuk `168` Tax Allowance, `PerBKPM 7/2020` Lampiran I untuk `63` KBLI Industri Pionir, dan `PMK 16/2020` / `PMK 81/2024 Pasal 423` untuk `45` KBLI Industri Padat Karya).
    - `kbr-perda-rates.ttl` (`1,2 MB`): **`390` Pemda (`524` Perda PDRD, `360` Pemda terekstrak `2.029` tarif)** dengan normalisasi 13 ID non-standar dan prioritas kronologis Induk → Perubahan untuk arsitektur Hybrid (`HermiT` rezim HKPD + `SPARQL` tarif lokal).
 
 ### 3.3 Pemodelan Dunia Nyata (`Badan`, `OrangPribadi`, `BUT`, `PPh 23`, `5` Perda Pilot)
@@ -86,7 +86,7 @@ Solusi arsitektural yang terbukti bersih dan cepat:
 | **Aturan Atomik (`G4`)** | **`12.907` aturan** (`100` dokumen, `9` domain), `621` baris audit `P1`–`P6` ter-apply | `legal_rules.jsonl`, `review_apply_report.json` |
 | **Ontologi `SROIQ(D)` (`G5–G6`)** | **`113` kelas**, `17` object props, `51` data props, **`73` SWRL**, `450` individu (`79` katalog + `30` profesi + `5` wilayah), `12.907` aturan RDF | `ontology/ontology_build_report.json`, `kbr-data.ttl` |
 | **Evaluasi Skenario (`G7`)** | **`15 / 15` PASS** (rata-rata **`5.496,69 ms`**, maks `6.095,85 ms`) | `docs/fase7_eval_results.json` |
-| **Test Suite Otomatis** | **`159 / 159` `pytest` PASS** (pipeline, konsolidasi, validator, `12` tes ontologi HermiT/SPARQL, `4` tes TER/KBLI SKOS, `2` tes 524 Perda/390 Pemda, `9` tes FastAPI `TestClient`) | `fatih/tests/` |
+| **Test Suite Otomatis** | **`160 / 160` `pytest` PASS** (pipeline, konsolidasi, validator, `12` tes ontologi HermiT/SPARQL, `4` tes TER/KBLI SKOS, `2` tes 524 Perda/390 Pemda, `10` tes FastAPI `TestClient`) | `fatih/tests/` |
 
 ---
 

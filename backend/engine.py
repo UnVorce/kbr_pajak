@@ -281,7 +281,7 @@ class KBRReasoningEngine:
         PREFIX kbr: <{BASE_IRI}>
         PREFIX skos: <{SKOS_IRI}>
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-        SELECT ?c ?label ?p1 ?p2 ?p3 ?pem1 ?pem2 ?pem3 ?bad1 ?bad2 ?bad3 ?isTA ?taLamp ?taProv ?taExDki ?job
+        SELECT ?c ?label ?p1 ?p2 ?p3 ?pem1 ?pem2 ?pem3 ?bad1 ?bad2 ?bad3 ?isTA ?taLamp ?taProv ?taExDki ?isPionir ?pSektor ?pSub ?isPK ?pkProv ?pkExDki ?job
         WHERE {{
           ?c a skos:Concept ;
              skos:notation "{safe}"^^xsd:string ;
@@ -299,6 +299,12 @@ class KBRReasoningEngine:
           OPTIONAL {{ ?c kbr:taxAllowanceLampiran ?taLamp . }}
           OPTIONAL {{ ?c kbr:taxAllowanceProvinsi ?taProv . }}
           OPTIONAL {{ ?c kbr:taxAllowanceKecualiDKI ?taExDki . }}
+          OPTIONAL {{ ?c kbr:isIndustriPionirKBLI ?isPionir . }}
+          OPTIONAL {{ ?c kbr:industriPionirSektor ?pSektor . }}
+          OPTIONAL {{ ?c kbr:industriPionirSubkode ?pSub . }}
+          OPTIONAL {{ ?c kbr:isIndustriPadatKaryaKBLI ?isPK . }}
+          OPTIONAL {{ ?c kbr:padatKaryaProvinsi ?pkProv . }}
+          OPTIONAL {{ ?c kbr:padatKaryaKecualiDKI ?pkExDki . }}
           OPTIONAL {{ ?c kbr:terkaitJenisPekerjaan ?job . }}
         }}
         LIMIT 1
@@ -329,6 +335,16 @@ class KBRReasoningEngine:
                     "provinsi_syarat": str(r.taProv) if r.taProv is not None else None,
                     "kecuali_dki": bool(r.taExDki) if r.taExDki is not None else False,
                 },
+                "industri_pionir": {
+                    "eligible_kbli": bool(r.isPionir) if r.isPionir is not None else False,
+                    "sektor": str(r.pSektor) if r.pSektor is not None else None,
+                    "subkode": str(r.pSub) if r.pSub is not None else None,
+                },
+                "industri_padat_karya": {
+                    "eligible_kbli": bool(r.isPK) if r.isPK is not None else False,
+                    "provinsi_syarat": str(r.pkProv) if r.pkProv is not None else None,
+                    "kecuali_dki": bool(r.pkExDki) if r.pkExDki is not None else False,
+                },
                 "terkait_jenis_pekerjaan": str(r.job).split("#")[-1] if r.job is not None else None,
             }
         return None
@@ -342,13 +358,15 @@ class KBRReasoningEngine:
         q = f"""
         PREFIX kbr: <{BASE_IRI}>
         PREFIX skos: <{SKOS_IRI}>
-        SELECT ?code ?label ?p1 ?isTA
+        SELECT ?code ?label ?p1 ?isTA ?isPionir ?isPK
         WHERE {{
           ?c a skos:Concept ;
              skos:notation ?code ;
              skos:prefLabel ?label .
           OPTIONAL {{ ?c kbr:nppn_OP_10IbuKota ?p1 . }}
           OPTIONAL {{ ?c kbr:isTaxAllowanceKBLI ?isTA . }}
+          OPTIONAL {{ ?c kbr:isIndustriPionirKBLI ?isPionir . }}
+          OPTIONAL {{ ?c kbr:isIndustriPadatKaryaKBLI ?isPK . }}
           {flt}
         }}
         ORDER BY ?code
@@ -360,6 +378,8 @@ class KBRReasoningEngine:
                 "uraian": str(r.label),
                 "nppn_10ibukota": float(r.p1) if r.p1 is not None else None,
                 "is_tax_allowance": bool(r.isTA) if r.isTA is not None else False,
+                "is_industri_pionir": bool(r.isPionir) if r.isPionir is not None else False,
+                "is_industri_padat_karya": bool(r.isPK) if r.isPK is not None else False,
             }
             for r in g.query(q)
         ]
@@ -448,7 +468,7 @@ class KBRReasoningEngine:
                         "PROV_BALI": "Wilayah_Prov_Bali",
                     }
                     effective_props["berdomisiliDi"] = [pilot_map.get(pid_up, "Wilayah_Nasional_NonDKI")]
-                if not effective_props.get("kelompokWilayahNPPN"):
+                if wp_kind == "OrangPribadi" and not effective_props.get("kelompokWilayahNPPN"):
                     effective_props["kelompokWilayahNPPN"] = perda_info["nppn_wilayah_kelompok"]
 
         kbli_info = None
@@ -480,6 +500,23 @@ class KBRReasoningEngine:
                             provs = [p.strip().upper() for p in ta["provinsi_syarat"].split(",")]
                             loc_up = loc_txt.upper()
                             effective_props["isLokasiProvinsiMemenuhiTaxAllowance"] = any(p in loc_up for p in provs if p)
+                pionir = kbli_info.get("industri_pionir") or {}
+                if wp_kind != "OrangPribadi" and pionir.get("eligible_kbli"):
+                    if "isIndustriPionir" not in effective_props:
+                        effective_props["isIndustriPionir"] = True
+                pk = kbli_info.get("industri_padat_karya") or {}
+                if wp_kind != "OrangPribadi" and pk.get("eligible_kbli"):
+                    if "isIndustriPadatKarya" not in effective_props:
+                        loc_txt = (
+                            str(effective_props.get("lokasiProvinsiTaxAllowance") or "")
+                            or (perda_info["nama_resmi"] if perda_info else "")
+                            or " ".join(effective_props.get("berdomisiliDi") or [])
+                            or ("DKI Jakarta" if effective_props.get("isDomisiliDKI") else "")
+                        ).strip()
+                        if pk.get("kecuali_dki") and loc_txt and (("DKI" in loc_txt.upper()) or ("JAKARTA" in loc_txt.upper())):
+                            effective_props["isIndustriPadatKarya"] = False
+                        else:
+                            effective_props["isIndustriPadatKarya"] = True
 
         t0 = time.perf_counter()
         with self._reasoner_lock:

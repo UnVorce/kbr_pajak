@@ -17,8 +17,8 @@ Dibuat terpisah di **`backend/`** (`fatih/backend/` dan disinkronkan ke `kbr_paj
 |---|---|---|
 | `GET` | `/health` | Status `.owl`, `.ttl`, dan metrik build ontologi |
 | `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `6` `WilayahDaerah` langsung dari OWL |
-| `GET` | `/kbli` | Pencarian `1.449` kode KBLI/KLU pada graf SKOS `kbr_kbli.ttl` |
-| `GET` | `/kbli/{kode}` | Detail KBLI (persentase NPPN 3 wilayah & syarat provinsi Tax Allowance PP 78/2019) |
+| `GET` | `/kbli` | Pencarian `1.453` kode KBLI/KLU pada graf SKOS `kbr_kbli.ttl` |
+| `GET` | `/kbli/{kode}` | Detail KBLI (NPPN 3 wilayah, Tax Allowance PP 78/2019, Industri Pionir PerBKPM 7/2020, Padat Karya PMK 16/2020) |
 | `GET` | `/perda` | Daftar/cari `390` Pemda dari `524` Perda PDRD (`kbr-perda-rates.ttl`) |
 | `GET` | `/perda/{pemda_id}` | Detail `2.029` item tarif pajak daerah & kutipan pasal resmi untuk 1 Pemda |
 | `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + materialisasi `kodeKBLI` & `pemdaId` + estimasi nominal `SPARQL BIND` (TER PPh 21, NPPN, PBB lokal) + justifikasi pasal/MK/SEMA |

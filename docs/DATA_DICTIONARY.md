@@ -128,7 +128,7 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 ## 5. Kontrak API FastAPI (`backend/main.py`) & Modul Step B–C
 
 - **`ontology/kbr_ter_pph21.ttl` (`127` bracket TER PPh 21 dari `PP-2023-58`):** `TER_A` (`44` bracket), `TER_B` (`40` bracket), `TER_C` (`41` bracket), dan `TER_Harian` (`2` bracket), divalidasi kontinuitas penuh batas bawah/atas & keselarasan terbilang Indonesia.
-- **`ontology/kbr_kbli.ttl` (`1.449` konsep W3C SKOS `skos:Concept`):** memuat kode KLU/KBLI 5-digit dari `PER-17/PJ/2015` Lampiran I (`1.431` NPPN OP), II (`1.433` Pemeriksaan OP), III (`1.429` Pemeriksaan Badan), dan `PP-2019-78` Lampiran I & II (`168` bidang usaha Tax Allowance beserta syarat provinsi/kecuali DKI Jakarta).
+- **`ontology/kbr_kbli.ttl` (`1.453` konsep W3C SKOS `skos:Concept`):** memuat kode KLU/KBLI 5-digit dari `PER-17/PJ/2015` Lampiran I (`1.431` NPPN OP), II (`1.433` Pemeriksaan OP), III (`1.429` Pemeriksaan Badan), `PP-2019-78` Lampiran I & II (`168` bidang usaha Tax Allowance beserta syarat provinsi/kecuali DKI Jakarta), **`PerBKPM 7/2020` Lampiran I (`63` KBLI Industri Pionir, `PMK-2020-130`)**, dan **`PMK-16/PMK.010/2020` / `PMK-81/2024 Pasal 423` (`45` KBLI Industri Padat Karya beserta syarat kecuali DKI Jakarta)**!
 - **`ontology/kbr-perda-rates.ttl` (`390` Pemda dari `524` Perda PDRD, `2.029` item tarif):** menormalisasi `13` ID non-standar, memproses Induk → Perubahan secara kronologis, serta menyimpan tarif PKB, BBNKB, PBB-P2, NJOPTKP, BPHTB, NPOPTKP, PBJT, dan Opsen beserta kutipan pasal (`360/390` Pemda memiliki tarif pajak terekstrak).
 - **Endpoint API:**
   - `GET /health` → status `.owl`, `.ttl` (termasuk `ter_ttl_exists`, `kbli_ttl_exists`, `perda_ttl_exists`), jumlah kelas/individu/SWRL.

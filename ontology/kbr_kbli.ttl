@@ -3311,8 +3311,10 @@ kbr:KBLI_10215 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERAGIAN/FERMENTASI IKAN"@id .
 
 kbr:KBLI_10216 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 14.0 ;
@@ -3323,6 +3325,8 @@ kbr:KBLI_10216 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 17.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 17.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -3361,8 +3365,10 @@ kbr:KBLI_10219 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGOLAHAN DAN PENGAWETAN LAINNYA UNTUK IKAN"@id .
 
 kbr:KBLI_10221 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 14.0 ;
@@ -3373,6 +3379,8 @@ kbr:KBLI_10221 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 17.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 17.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI true ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
@@ -3381,8 +3389,10 @@ kbr:KBLI_10221 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGOLAHAN DAN PENGAWETAN IKAN DAN BIOTA AIR (BUKAN UDANG) DALAM KALENG"@id .
 
 kbr:KBLI_10222 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 14.0 ;
@@ -3393,6 +3403,8 @@ kbr:KBLI_10222 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 17.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 17.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI true ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
@@ -3431,8 +3443,10 @@ kbr:KBLI_10292 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGASAPAN/PEMANGGANGAN BIOTA AIR LAINNYA"@id .
 
 kbr:KBLI_10293 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 14.0 ;
@@ -3443,6 +3457,8 @@ kbr:KBLI_10293 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 17.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 17.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI true ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
@@ -3521,8 +3537,10 @@ kbr:KBLI_10298 a skos:Concept ;
     skos:prefLabel "Bidang Usaha KBLI 10298"@id .
 
 kbr:KBLI_10299 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 14.0 ;
@@ -3533,6 +3551,8 @@ kbr:KBLI_10299 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 17.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 17.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI true ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
@@ -3601,8 +3621,10 @@ kbr:KBLI_10314 a skos:Concept ;
     skos:prefLabel "INDUSTRI PEMBEKUAN BUAH-BUAHAN DAN SAYURAN"@id .
 
 kbr:KBLI_10320 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 14.0 ;
@@ -3613,6 +3635,8 @@ kbr:KBLI_10320 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 17.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 17.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -3896,8 +3920,10 @@ kbr:KBLI_10490 a skos:Concept ;
     skos:prefLabel "INDUSTRI MINYAK MAKAN DAN LEMAK NABATI DAN HEWANI LAINNYA"@id .
 
 kbr:KBLI_10510 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 13.5 ;
@@ -3908,6 +3934,8 @@ kbr:KBLI_10510 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 16.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 16.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -4036,8 +4064,10 @@ kbr:KBLI_10614 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGUPASAN DAN PEMBERSIHAN BIJI-BIJIAN BUKAN KOPI DAN KAKAO"@id .
 
 kbr:KBLI_10615 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 12.5 ;
     kbr:nppn_OP_DaerahLain 8.5 ;
@@ -4045,6 +4075,8 @@ kbr:KBLI_10615 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 15.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 10.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 12.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -4230,7 +4262,9 @@ kbr:KBLI_10634 a skos:Concept ;
     skos:prefLabel "INDUSTRI PATI BERAS DAN JAGUNG"@id .
 
 kbr:KBLI_10710 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 10.0 ;
     kbr:nppn_OP_IbuKotaLain 12.5 ;
@@ -4240,6 +4274,8 @@ kbr:KBLI_10710 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 12.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 15.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "10710"^^xsd:string ;
     skos:prefLabel "INDUSTRI PRODUK ROTI DAN KUE"@id .
@@ -4325,8 +4361,10 @@ kbr:KBLI_10731 a skos:Concept ;
     skos:prefLabel "INDUSTRI KAKAO"@id .
 
 kbr:KBLI_10732 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 10.0 ;
@@ -4337,6 +4375,8 @@ kbr:KBLI_10732 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 12.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 15.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -4405,8 +4445,10 @@ kbr:KBLI_10750 a skos:Concept ;
     skos:prefLabel "INDUSTRI MAKANAN DAN MASAKAN OLAHAN"@id .
 
 kbr:KBLI_10761 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 17.0 ;
     kbr:nppn_OP_DaerahLain 15.0 ;
@@ -4417,6 +4459,8 @@ kbr:KBLI_10761 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 20.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 18.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Daerah Tertentu (Lampiran II PP 78/2019)"^^xsd:string ;
@@ -4470,7 +4514,9 @@ kbr:KBLI_10772 a skos:Concept ;
     skos:prefLabel "INDUSTRI BUMBU MASAK DAN PENYEDAP MASAKAN"@id .
 
 kbr:KBLI_10773 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 17.0 ;
     kbr:nppn_OP_DaerahLain 15.0 ;
     kbr:nppn_OP_IbuKotaLain 16.5 ;
@@ -4480,6 +4526,8 @@ kbr:KBLI_10773 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 20.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 18.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "10773"^^xsd:string ;
     skos:prefLabel "INDUSTRI PRODUK MASAK DARI KELAPA"@id .
@@ -4810,8 +4858,10 @@ kbr:KBLI_13111 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERSIAPAN SERAT TEKSTIL"@id .
 
 kbr:KBLI_13112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -4822,6 +4872,8 @@ kbr:KBLI_13112 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 16.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -4945,8 +4997,10 @@ kbr:KBLI_13133 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENCETAKAN KAIN"@id .
 
 kbr:KBLI_13134 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -4957,6 +5011,8 @@ kbr:KBLI_13134 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 16.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -5270,8 +5326,10 @@ kbr:KBLI_13999 a skos:Concept ;
     skos:prefLabel "INDUSTRI TEKSTIL LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_14111 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -5282,6 +5340,8 @@ kbr:KBLI_14111 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 16.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -5290,8 +5350,10 @@ kbr:KBLI_14111 a skos:Concept ;
     skos:prefLabel "INDUSTRI PAKAIAN JADI (KONVEKSI) DARI TEKSTIL"@id .
 
 kbr:KBLI_14112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
@@ -5302,6 +5364,8 @@ kbr:KBLI_14112 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -5370,8 +5434,10 @@ kbr:KBLI_14200 a skos:Concept ;
     skos:prefLabel "INDUSTRI PAKAIAN JADI DAN BARANG DARI KULIT BERBULU"@id .
 
 kbr:KBLI_14301 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -5382,6 +5448,8 @@ kbr:KBLI_14301 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 16.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -5435,7 +5503,9 @@ kbr:KBLI_15111 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGAWETAN KULIT"@id .
 
 kbr:KBLI_15112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
     kbr:nppn_OP_IbuKotaLain 16.5 ;
@@ -5445,6 +5515,8 @@ kbr:KBLI_15112 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "15112"^^xsd:string ;
     skos:prefLabel "INDUSTRI PENYAMAKAN KULIT"@id .
@@ -5480,7 +5552,9 @@ kbr:KBLI_15114 a skos:Concept ;
     skos:prefLabel "INDUSTRI KULIT BUATAN/ IMITASI"@id .
 
 kbr:KBLI_15121 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
     kbr:nppn_OP_IbuKotaLain 16.5 ;
@@ -5490,12 +5564,16 @@ kbr:KBLI_15121 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "15121"^^xsd:string ;
     skos:prefLabel "INDUSTRI BARANG DARI KULIT DAN KULIT BUATAN UNTUK KEPERLUAN PRIBADI"@id .
 
 kbr:KBLI_15122 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
     kbr:nppn_OP_IbuKotaLain 16.5 ;
@@ -5505,6 +5583,8 @@ kbr:KBLI_15122 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "15122"^^xsd:string ;
     skos:prefLabel "INDUSTRI BARANG DARI KULIT DAN KULIT BUATAN UNTUK KEPERLUAN TEKNIK/INDUSTRI"@id .
@@ -5540,7 +5620,9 @@ kbr:KBLI_15129 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG DARI KULIT DAN KULIT BUATAN UNTUK KEPERLUAN LAINNYA"@id .
 
 kbr:KBLI_15201 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
     kbr:nppn_OP_IbuKotaLain 16.5 ;
@@ -5550,13 +5632,17 @@ kbr:KBLI_15201 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "15201"^^xsd:string ;
     skos:prefLabel "INDUSTRI ALAS KAKI UNTUK KEPERLUAN SEHARI-HARI"@id .
 
 kbr:KBLI_15202 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
@@ -5567,6 +5653,8 @@ kbr:KBLI_15202 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -5865,7 +5953,11 @@ kbr:KBLI_16299 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG DARI KAYU, ROTAN, GABUS LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_17011 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17011A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
     kbr:nppn_OP_IbuKotaLain 13.0 ;
@@ -5880,7 +5972,11 @@ kbr:KBLI_17011 a skos:Concept ;
     skos:prefLabel "INDUSTRI BUBUR KERTAS (PULP)"@id .
 
 kbr:KBLI_17012 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17012A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
     kbr:nppn_OP_IbuKotaLain 13.0 ;
@@ -5895,7 +5991,11 @@ kbr:KBLI_17012 a skos:Concept ;
     skos:prefLabel "INDUSTRI KERTAS BUDAYA"@id .
 
 kbr:KBLI_17013 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17013A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
     kbr:nppn_OP_IbuKotaLain 13.0 ;
@@ -5910,7 +6010,11 @@ kbr:KBLI_17013 a skos:Concept ;
     skos:prefLabel "INDUSTRI KERTAS BERHARGA"@id .
 
 kbr:KBLI_17014 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17014A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
     kbr:nppn_OP_IbuKotaLain 13.0 ;
@@ -5925,8 +6029,12 @@ kbr:KBLI_17014 a skos:Concept ;
     skos:prefLabel "INDUSTRI KERTAS KHUSUS"@id .
 
 kbr:KBLI_17019 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17019A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
@@ -5945,8 +6053,14 @@ kbr:KBLI_17019 a skos:Concept ;
     skos:prefLabel "INDUSTRI KERTAS LAINNYA"@id .
 
 kbr:KBLI_17021 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17021A"^^xsd:string ;
+    kbr:isIndustriPadatKaryaKBLI true ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
@@ -5957,6 +6071,8 @@ kbr:KBLI_17021 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 17.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 14.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI true ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
@@ -5965,8 +6081,14 @@ kbr:KBLI_17021 a skos:Concept ;
     skos:prefLabel "INDUSTRI KERTAS DAN PAPAN KERTAS BERGELOMBANG"@id .
 
 kbr:KBLI_17022 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17022A"^^xsd:string ;
+    kbr:isIndustriPadatKaryaKBLI true ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
@@ -5977,6 +6099,8 @@ kbr:KBLI_17022 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 17.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 14.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI true ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI true ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Seluruh provinsi di Indonesia, kecuali DKI Jakarta"^^xsd:string ;
@@ -5985,8 +6109,14 @@ kbr:KBLI_17022 a skos:Concept ;
     skos:prefLabel "INDUSTRI KEMASAN DAN KOTAK DARI KERTAS DAN KARTON"@id .
 
 kbr:KBLI_17091 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17091A"^^xsd:string ;
+    kbr:isIndustriPadatKaryaKBLI true ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
@@ -5997,6 +6127,8 @@ kbr:KBLI_17091 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 17.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 14.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Daerah Tertentu (Lampiran II PP 78/2019)"^^xsd:string ;
@@ -6005,7 +6137,11 @@ kbr:KBLI_17091 a skos:Concept ;
     skos:prefLabel "INDUSTRI KERTAS TISSUE"@id .
 
 kbr:KBLI_17099 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "P. Industri pengolahan berbasis hasil pertanian, perkebunan, atau kehutanan yang menghasilkan bubur kertas (pulp) tanpa atau beserta turunannya 170. 17011A Industri yang menghasilkan "^^xsd:string ;
+    kbr:industriPionirSubkode "17099A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 14.5 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
     kbr:nppn_OP_IbuKotaLain 13.0 ;
@@ -6095,7 +6231,11 @@ kbr:KBLI_18202 a skos:Concept ;
     skos:prefLabel "REPRODUKSI MEDIA REKAMAN FILM DAN VIDEO"@id .
 
 kbr:KBLI_19100 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "19100A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
     kbr:nppn_OP_IbuKotaLain 13.5 ;
@@ -6110,7 +6250,11 @@ kbr:KBLI_19100 a skos:Concept ;
     skos:prefLabel "INDUSTRI PRODUK DARI BATU BARA"@id .
 
 kbr:KBLI_19211 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "B. Industri pemurnian atau pengilangan minyak dan gas bumi tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "19211"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "19211"^^xsd:string ;
     skos:prefLabel "INDUSTRI PEMURNIAN DAN PENGILANGAN MINYAK BUMI"@id .
@@ -6139,7 +6283,11 @@ kbr:KBLI_19214 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGOLAHAN KEMBALI MINYAK PELUMAS BEKAS"@id .
 
 kbr:KBLI_19291 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "B. Industri pemurnian atau pengilangan minyak dan gas bumi tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "19291A, 19291B, 19291C, 19291D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "19291"^^xsd:string ;
     skos:prefLabel "INDUSTRI PRODUK DARI HASIL KILANG MINYAK BUMI"@id .
@@ -6165,8 +6313,12 @@ kbr:KBLI_19292 a skos:Concept ;
     skos:prefLabel "INDUSTRI BRIKET BATU BARA"@id .
 
 kbr:KBLI_20111 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "E. Industri kimia dasar anorganik tanpa atau beserta turunannya yang terintegrasi 106. 20111A Industri penghasil soda kostik tanpa atau beserta turunannya yang terintegrasi, yang meng"^^xsd:string ;
+    kbr:industriPionirSubkode "20111A, 20111B, 20111C, 20111D, 20111E, 20111F, 20111G"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
@@ -6185,7 +6337,11 @@ kbr:KBLI_20111 a skos:Concept ;
     skos:prefLabel "INDUSTRI KIMIA DASAR ANORGANIK KHLOR DAN ALKALI"@id .
 
 kbr:KBLI_20112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "E. Industri kimia dasar anorganik tanpa atau beserta turunannya yang terintegrasi 106. 20111A Industri penghasil soda kostik tanpa atau beserta turunannya yang terintegrasi, yang meng"^^xsd:string ;
+    kbr:industriPionirSubkode "20112A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
     kbr:nppn_OP_IbuKotaLain 12.5 ;
@@ -6200,7 +6356,11 @@ kbr:KBLI_20112 a skos:Concept ;
     skos:prefLabel "INDUSTRI KIMIA DASAR ANORGANIK GAS INDUSTRI"@id .
 
 kbr:KBLI_20113 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "E. Industri kimia dasar anorganik tanpa atau beserta turunannya yang terintegrasi 106. 20111A Industri penghasil soda kostik tanpa atau beserta turunannya yang terintegrasi, yang meng"^^xsd:string ;
+    kbr:industriPionirSubkode "20113A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
     kbr:nppn_OP_IbuKotaLain 12.5 ;
@@ -6215,8 +6375,12 @@ kbr:KBLI_20113 a skos:Concept ;
     skos:prefLabel "INDUSTRI KIMIA DASAR ANORGANIK PIGMEN"@id .
 
 kbr:KBLI_20114 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "E. Industri kimia dasar anorganik tanpa atau beserta turunannya yang terintegrasi 106. 20111A Industri penghasil soda kostik tanpa atau beserta turunannya yang terintegrasi, yang meng"^^xsd:string ;
+    kbr:industriPionirSubkode "20114A, 20114B, 20114C, 20114D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
@@ -6235,8 +6399,12 @@ kbr:KBLI_20114 a skos:Concept ;
     skos:prefLabel "INDUSTRI KIMIA DASAR ANORGANIK LAINNYA"@id .
 
 kbr:KBLI_20115 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "D. Industri kimia dasar organik yang bersumber dari hasil pertanian, perkebunan, atau kehutanan tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20115A, 20115B, 20115C, 20115D, 20115E, 20115F, 20115G, 20115H, 20115I, 20115J, 20115K"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
@@ -6270,8 +6438,12 @@ kbr:KBLI_20116 a skos:Concept ;
     skos:prefLabel "INDUSTRI KIMIA DASAR ORGANIK UNTUK BAHAN BAKU ZAT WARNA DAN PIGMEN, ZAT WARNA DAN PIGMEN"@id .
 
 kbr:KBLI_20117 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20117A, 20117B, 20117C, 20117D, 20117E, 20117F, 20117G, 20117H, 20117I, 20117J, 20117K, 20117L, 20117M"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
@@ -6290,7 +6462,11 @@ kbr:KBLI_20117 a skos:Concept ;
     skos:prefLabel "INDUSTRI KIMIA DASAR ORGANIK YANG BERSUMBER DARI MINYAK BUMI, GAS ALAM DAN BATU BARA"@id .
 
 kbr:KBLI_20118 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20118A, 20118B"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
     kbr:nppn_OP_IbuKotaLain 12.5 ;
@@ -6450,8 +6626,12 @@ kbr:KBLI_20129 a skos:Concept ;
     skos:prefLabel "INDUSTRI PUPUK LAINNYA"@id .
 
 kbr:KBLI_20131 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20131A, 20131B, 20131C, 20131D, 20131E, 20131F, 20131G, 20131H, 20131I, 20131J, 20131K, 20131L, 20131M"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
@@ -6470,7 +6650,11 @@ kbr:KBLI_20131 a skos:Concept ;
     skos:prefLabel "INDUSTRI DAMAR BUATAN (RESIN SINTETIS) DAN BAHAN BAKU PLASTIK"@id .
 
 kbr:KBLI_20132 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20132A, 20132B, 20132C, 20132D, 20132E, 20132F, 20132G"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 13.0 ;
     kbr:nppn_OP_DaerahLain 11.0 ;
     kbr:nppn_OP_IbuKotaLain 12.5 ;
@@ -6720,8 +6904,12 @@ kbr:KBLI_20299 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG KIMIA LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_20301 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20301A, 20301B, 20301C, 20301D, 20301E"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -6740,8 +6928,12 @@ kbr:KBLI_20301 a skos:Concept ;
     skos:prefLabel "INDUSTRI SERAT/BENANG/STRIP FILAMEN BUATAN"@id .
 
 kbr:KBLI_20302 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "20302A, 20302B, 20302C, 20302D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 13.5 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -6760,8 +6952,12 @@ kbr:KBLI_20302 a skos:Concept ;
     skos:prefLabel "INDUSTRI SERAT STAPEL BUATAN"@id .
 
 kbr:KBLI_21011 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "F. Industri bahan baku utama farmasi tanpa atau beserta turunannya yang terintegrasi 119. 21011A Industri bahan baku utama pembuatan vaksin 120. 21011B Industri bahan baku utama farma"^^xsd:string ;
+    kbr:industriPionirSubkode "21011A, 21011B, 21011C, 21011D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -6780,8 +6976,12 @@ kbr:KBLI_21011 a skos:Concept ;
     skos:prefLabel "INDUSTRI BAHAN FARMASI"@id .
 
 kbr:KBLI_21012 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "F. Industri bahan baku utama farmasi tanpa atau beserta turunannya yang terintegrasi 119. 21011A Industri bahan baku utama pembuatan vaksin 120. 21011B Industri bahan baku utama farma"^^xsd:string ;
+    kbr:industriPionirSubkode "21012A, 21012B, 21012C"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -6855,7 +7055,11 @@ kbr:KBLI_22111 a skos:Concept ;
     skos:prefLabel "INDUSTRI BAN LUAR DAN BAN DALAM"@id .
 
 kbr:KBLI_22112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "O. Industri pembuatan komponen utama pesawat terbang dan aktivitas penunjang industri dirgantara 163. 30300A Industri aircraft engine 164. 30300B Industri pembuatan aircraft propeller"^^xsd:string ;
+    kbr:industriPionirSubkode "22112A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
     kbr:nppn_OP_IbuKotaLain 16.5 ;
@@ -6945,8 +7149,10 @@ kbr:KBLI_22192 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG DARI KARET UNTUK KEPERLUAN INDUSTRI"@id .
 
 kbr:KBLI_22199 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
@@ -6957,6 +7163,8 @@ kbr:KBLI_22199 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_II"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Aceh, Sumatera Utara, Sumatera Barat, Riau, Jambi, Sumatera Selatan, Bengkulu, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Timur, Kalimantan Utara, Kalimantan Barat, Papua Barat, Papua"^^xsd:string ;
@@ -6965,8 +7173,10 @@ kbr:KBLI_22199 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG DARI KARET LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_22210 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
@@ -6977,6 +7187,8 @@ kbr:KBLI_22210 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 21.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 19.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 20.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -7015,8 +7227,12 @@ kbr:KBLI_22230 a skos:Concept ;
     skos:prefLabel "INDUSTRI PIPA PLASTIK DAN PERLENGKAPANNYA"@id .
 
 kbr:KBLI_22291 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "22291A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 17.5 ;
     kbr:nppn_OP_DaerahLain 16.0 ;
@@ -7590,7 +7806,13 @@ kbr:KBLI_23969 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG DARI MARMER, GRANIT DAN BATU LAINNYA"@id .
 
 kbr:KBLI_23990 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "C. Industri kimia dasar organik yang bersumber dari minyak bumi, gas alam, dan/atau batubara tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "23990A"^^xsd:string ;
+    kbr:isIndustriPadatKaryaKBLI true ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 17.0 ;
     kbr:nppn_OP_DaerahLain 15.0 ;
     kbr:nppn_OP_IbuKotaLain 16.0 ;
@@ -7600,13 +7822,19 @@ kbr:KBLI_23990 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 20.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 18.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 19.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "23990"^^xsd:string ;
     skos:prefLabel "INDUSTRI BARANG GALIAN BUKAN LOGAM LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_24101 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24101A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 10.0 ;
     kbr:nppn_OP_DaerahLain 8.5 ;
@@ -7625,7 +7853,11 @@ kbr:KBLI_24101 a skos:Concept ;
     skos:prefLabel "INDUSTRI BESI DAN BAJA DASAR (IRON AND STEEL MAKING)"@id .
 
 kbr:KBLI_24102 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24102A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 10.0 ;
     kbr:nppn_OP_DaerahLain 8.5 ;
     kbr:nppn_OP_IbuKotaLain 9.0 ;
@@ -7640,7 +7872,11 @@ kbr:KBLI_24102 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGGILINGAN BAJA (STEEL ROLLING)"@id .
 
 kbr:KBLI_24103 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24103A, 24103B, 24103C, 24103D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -7655,8 +7891,12 @@ kbr:KBLI_24103 a skos:Concept ;
     skos:prefLabel "INDUSTRI PIPA DAN SAMBUNGAN PIPA DARI BAJA DAN BESI"@id .
 
 kbr:KBLI_24201 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24201A, 24201B, 24201C"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 12.5 ;
     kbr:nppn_OP_DaerahLain 10.0 ;
@@ -7675,8 +7915,12 @@ kbr:KBLI_24201 a skos:Concept ;
     skos:prefLabel "INDUSTRI PEMBUATAN LOGAM DASAR MULIA"@id .
 
 kbr:KBLI_24202 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24202C, 24202D, 24202E, 24202F"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 10.0 ;
     kbr:nppn_OP_DaerahLain 8.5 ;
@@ -7710,7 +7954,11 @@ kbr:KBLI_24203 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGGILINGAN LOGAM BUKAN BESI"@id .
 
 kbr:KBLI_24204 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24204A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 10.0 ;
     kbr:nppn_OP_DaerahLain 8.5 ;
     kbr:nppn_OP_IbuKotaLain 9.0 ;
@@ -7725,7 +7973,11 @@ kbr:KBLI_24204 a skos:Concept ;
     skos:prefLabel "INDUSTRI EKSTRUSI LOGAM BUKAN BESI"@id .
 
 kbr:KBLI_24205 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "A. Industri logam dasar hulu (besi baja atau bukan besi baja) tanpa atau beserta turunannya yang terintegrasi"^^xsd:string ;
+    kbr:industriPionirSubkode "24205C"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -7950,7 +8202,9 @@ kbr:KBLI_25932 a skos:Concept ;
     skos:prefLabel "INDUSTRI ALAT POTONG DAN PERKAKAS TANGAN PERTUKANGAN"@id .
 
 kbr:KBLI_25933 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -7960,6 +8214,8 @@ kbr:KBLI_25933 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "25933"^^xsd:string ;
     skos:prefLabel "INDUSTRI ALAT POTONG DAN PERKAKAS TANGAN YANG DIGUNAKAN DALAM RUMAH TANGGA"@id .
@@ -8010,7 +8266,9 @@ kbr:KBLI_25951 a skos:Concept ;
     skos:prefLabel "INDUSTRI BARANG DARI KAWAT"@id .
 
 kbr:KBLI_25952 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8020,6 +8278,8 @@ kbr:KBLI_25952 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "25952"^^xsd:string ;
     skos:prefLabel "INDUSTRI PAKU, MUR DAN BAUT"@id .
@@ -8040,7 +8300,9 @@ kbr:KBLI_25991 a skos:Concept ;
     skos:prefLabel "INDUSTRI BRANKAS, FILLING KANTOR DAN SEJENISNYA"@id .
 
 kbr:KBLI_25992 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8050,6 +8312,8 @@ kbr:KBLI_25992 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "25992"^^xsd:string ;
     skos:prefLabel "INDUSTRI PERALATAN DAPUR DAN PERALATAN MEJA DARI LOGAM"@id .
@@ -8135,8 +8399,12 @@ kbr:KBLI_26110 a skos:Concept ;
     skos:prefLabel "INDUSTRI TABUNG ELEKTRON DAN KONEKTOR ELEKTRONIK"@id .
 
 kbr:KBLI_26120 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "H. Industri pembuatan komponen utama peralatan elektronika atau telematika, seperti semiconductor wafer, backlight untuk Liquid Crystal Display (LCD), electrical driver, atau display "^^xsd:string ;
+    kbr:industriPionirSubkode "26120A, 26120B, 26120C, 26120D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8175,8 +8443,10 @@ kbr:KBLI_26210 a skos:Concept ;
     skos:prefLabel "INDUSTRI KOMPUTER DAN/ATAU PERAKITAN KOMPUTER"@id .
 
 kbr:KBLI_26220 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8187,6 +8457,8 @@ kbr:KBLI_26220 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8265,8 +8537,10 @@ kbr:KBLI_26399 a skos:Concept ;
     skos:prefLabel "Bidang Usaha KBLI 26399"@id .
 
 kbr:KBLI_26410 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8277,6 +8551,8 @@ kbr:KBLI_26410 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8285,8 +8561,10 @@ kbr:KBLI_26410 a skos:Concept ;
     skos:prefLabel "INDUSTRI TELEVISI DAN/ATAU PERAKITAN TELEVISI"@id .
 
 kbr:KBLI_26420 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8297,6 +8575,8 @@ kbr:KBLI_26420 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8305,8 +8585,10 @@ kbr:KBLI_26420 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN PEREKAM, PENERIMA DAN PENGGANDA AUDIO DAN VIDEO, BUKAN INDUSTRI TELEVISI"@id .
 
 kbr:KBLI_26490 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8317,6 +8599,8 @@ kbr:KBLI_26490 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8405,7 +8689,11 @@ kbr:KBLI_26520 a skos:Concept ;
     skos:prefLabel "INDUSTRI ALAT UKUR WAKTU"@id .
 
 kbr:KBLI_26601 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "G. Industri pembuatan peralatan iradiasi, elektromedikal, atau elektroterapi 126. 26601A Industri pembuatan tabung sinar X 127. 26602A Industri pembuatan CT scan 128. 26602B Industri "^^xsd:string ;
+    kbr:industriPionirSubkode "26601A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8420,7 +8708,11 @@ kbr:KBLI_26601 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN IRADIASI/SINAR X, PERLENGKAPAN DAN SEJENISNYA"@id .
 
 kbr:KBLI_26602 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "G. Industri pembuatan peralatan iradiasi, elektromedikal, atau elektroterapi 126. 26601A Industri pembuatan tabung sinar X 127. 26602A Industri pembuatan CT scan 128. 26602B Industri "^^xsd:string ;
+    kbr:industriPionirSubkode "26602A, 26602B"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8495,7 +8787,11 @@ kbr:KBLI_26800 a skos:Concept ;
     skos:prefLabel "INDUSTRI MEDIA MAGNETIK DAN MEDIA OPTIK"@id .
 
 kbr:KBLI_27111 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "I. Industri pembuatan mesin dan komponen utama mesin 134. 27111A Industri pembuatan motor listrik untuk mesin 135. 28112A Industri pembuatan motor pembakaran dalam untuk mesin 136. 28"^^xsd:string ;
+    kbr:industriPionirSubkode "27111A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8510,7 +8806,11 @@ kbr:KBLI_27111 a skos:Concept ;
     skos:prefLabel "INDUSTRI MOTOR LISTRIK"@id .
 
 kbr:KBLI_27112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "K. Industri pembuatan komponen utama mesin pembangkit tenaga listrik 142. 27112A Industri pembuatan generator pembangkit tenaga listrik 143. 28111A Industri pembuatan turbin pembangki"^^xsd:string ;
+    kbr:industriPionirSubkode "27112A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8525,8 +8825,10 @@ kbr:KBLI_27112 a skos:Concept ;
     skos:prefLabel "INDUSTRI MESIN PEMBANGKIT LISTRIK"@id .
 
 kbr:KBLI_27113 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8537,6 +8839,8 @@ kbr:KBLI_27113 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8545,8 +8849,10 @@ kbr:KBLI_27113 a skos:Concept ;
     skos:prefLabel "INDUSTRI PENGUBAH TEGANGAN (TRANSFORMATOR), PENGUBAH ARUS (RECTIFIER) DAN"@id .
 
 kbr:KBLI_27120 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8557,6 +8863,8 @@ kbr:KBLI_27120 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8565,8 +8873,12 @@ kbr:KBLI_27120 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN PENGONTROL DAN PENDISTRIBUSIAN LISTRIK"@id .
 
 kbr:KBLI_27201 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "H. Industri pembuatan komponen utama peralatan elektronika atau telematika, seperti semiconductor wafer, backlight untuk Liquid Crystal Display (LCD), electrical driver, atau display "^^xsd:string ;
+    kbr:industriPionirSubkode "27201A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8720,8 +9032,10 @@ kbr:KBLI_27409 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN PENERANGAN LAINNYA"@id .
 
 kbr:KBLI_27510 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -8732,6 +9046,8 @@ kbr:KBLI_27510 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -8755,7 +9071,9 @@ kbr:KBLI_27520 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN ELEKTROTERMAL RUMAH TANGGA"@id .
 
 kbr:KBLI_27530 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8765,6 +9083,8 @@ kbr:KBLI_27530 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "27530"^^xsd:string ;
     skos:prefLabel "INDUSTRI PERALATAN PEMANAS DAN MASAK BUKAN LISTRIK RUMAH TANGGA"@id .
@@ -8785,7 +9105,11 @@ kbr:KBLI_27900 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN LISTRIK LAINNYA"@id .
 
 kbr:KBLI_28111 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "K. Industri pembuatan komponen utama mesin pembangkit tenaga listrik 142. 27112A Industri pembuatan generator pembangkit tenaga listrik 143. 28111A Industri pembuatan turbin pembangki"^^xsd:string ;
+    kbr:industriPionirSubkode "28111A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8800,7 +9124,11 @@ kbr:KBLI_28111 a skos:Concept ;
     skos:prefLabel "INDUSTRI MESIN UAP, TURBIN DAN KINCIR"@id .
 
 kbr:KBLI_28112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "I. Industri pembuatan mesin dan komponen utama mesin 134. 27111A Industri pembuatan motor listrik untuk mesin 135. 28112A Industri pembuatan motor pembakaran dalam untuk mesin 136. 28"^^xsd:string ;
+    kbr:industriPionirSubkode "28112A, 28112B, 28112C"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8850,7 +9178,9 @@ kbr:KBLI_28120 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERALATAN TENAGA ZAT CAIR DAN GAS"@id .
 
 kbr:KBLI_28130 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8860,6 +9190,8 @@ kbr:KBLI_28130 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "28130"^^xsd:string ;
     skos:prefLabel "INDUSTRI POMPA LAINNYA, KOMPRESOR, KRAN DAN KLEP/KATUP"@id .
@@ -8880,7 +9212,11 @@ kbr:KBLI_28140 a skos:Concept ;
     skos:prefLabel "INDUSTRI BEARING, RODA GIGI DAN ELEMEN PENGGERAK MESIN"@id .
 
 kbr:KBLI_28151 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "I. Industri pembuatan mesin dan komponen utama mesin 134. 27111A Industri pembuatan motor listrik untuk mesin 135. 28112A Industri pembuatan motor pembakaran dalam untuk mesin 136. 28"^^xsd:string ;
+    kbr:industriPionirSubkode "28151A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -8895,7 +9231,11 @@ kbr:KBLI_28151 a skos:Concept ;
     skos:prefLabel "INDUSTRI INDUSTRI OVEN, PERAPIAN DAN TUNGKU PEMBAKAR SEJENIS YANG TIDAK MENGGUNAKAN ARUS LISTRIK"@id .
 
 kbr:KBLI_28152 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "I. Industri pembuatan mesin dan komponen utama mesin 134. 27111A Industri pembuatan motor listrik untuk mesin 135. 28112A Industri pembuatan motor pembakaran dalam untuk mesin 136. 28"^^xsd:string ;
+    kbr:industriPionirSubkode "28152A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -9093,8 +9433,14 @@ kbr:KBLI_28199 a skos:Concept ;
     skos:prefLabel "INDUSTRI MESIN UNTUK KEPERLUAN UMUM LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_28210 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "I. Industri pembuatan mesin dan komponen utama mesin 134. 27111A Industri pembuatan motor listrik untuk mesin 135. 28112A Industri pembuatan motor pembakaran dalam untuk mesin 136. 28"^^xsd:string ;
+    kbr:industriPionirSubkode "28210A, 28210B"^^xsd:string ;
+    kbr:isIndustriPadatKaryaKBLI true ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -9105,6 +9451,8 @@ kbr:KBLI_28210 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 24.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 22.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 23.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -9258,8 +9606,12 @@ kbr:KBLI_28262 a skos:Concept ;
     skos:prefLabel "INDUSTRI MESIN JAHIT SERTA MESIN CUCI DAN MESIN PENGERING UNTUK KEPERLUAN NIAGA"@id .
 
 kbr:KBLI_28263 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "I. Industri pembuatan mesin dan komponen utama mesin 134. 27111A Industri pembuatan motor listrik untuk mesin 135. 28112A Industri pembuatan motor pembakaran dalam untuk mesin 136. 28"^^xsd:string ;
+    kbr:industriPionirSubkode "28263"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -9338,8 +9690,12 @@ kbr:KBLI_28292 a skos:Concept ;
     skos:prefLabel "INDUSTRI MESIN PABRIK KERTAS"@id .
 
 kbr:KBLI_28299 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "J. Industri pembuatan komponen robotik yang mendukung industri pembuatan mesin-mesin manufaktur 141. 28299A Industri pembuatan komponen robotik"^^xsd:string ;
+    kbr:industriPionirSubkode "28299A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -9377,6 +9733,15 @@ kbr:KBLI_29100 a skos:Concept ;
     skos:notation "29100"^^xsd:string ;
     skos:prefLabel "INDUSTRI KENDARAAN BERMOTOR RODA EMPAT ATAU LEBIH"@id .
 
+kbr:KBLI_29101 a skos:Concept ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb ;
+    kbr:industriPionirSektor "L. Industri pembuatan kendaraan bermotor dan komponen 144. 29101A Industri kendaraan listrik roda empat atau lebih yang terintegrasi dengan baterai dan motor listrik"^^xsd:string ;
+    kbr:industriPionirSubkode "29101A, 29101B"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
+    skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
+    skos:notation "29101"^^xsd:string ;
+    skos:prefLabel "Bidang Usaha KBLI 29101"@id .
+
 kbr:KBLI_29200 a skos:Concept ;
     kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
@@ -9398,8 +9763,12 @@ kbr:KBLI_29200 a skos:Concept ;
     skos:prefLabel "INDUSTRI KAROSERI KENDARAAN BERMOTOR RODA EMPAT ATAU LEBIH DAN INDUSTRI TRAILER DAN SEMI TRAILER"@id .
 
 kbr:KBLI_29300 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "L. Industri pembuatan kendaraan bermotor dan komponen 144. 29101A Industri kendaraan listrik roda empat atau lebih yang terintegrasi dengan baterai dan motor listrik"^^xsd:string ;
+    kbr:industriPionirSubkode "29300A, 29300B, 29300C, 29300D, 29300E"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -9488,7 +9857,11 @@ kbr:KBLI_30120 a skos:Concept ;
     skos:prefLabel "INDUSTRI PEMBUATAN KAPAL PESIAR DAN PERAHU UNTUK OLAHRAGA"@id .
 
 kbr:KBLI_30200 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "N. Industri pembuatan komponen utama kereta api 156. 28112C Industri pembuatan motor pembakaran dalam untuk kereta api 157. 30200A Industri pembuatan motor traksi untuk kereta api 158"^^xsd:string ;
+    kbr:industriPionirSubkode "30200A, 30200B, 30200C, 30200D"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -9503,7 +9876,11 @@ kbr:KBLI_30200 a skos:Concept ;
     skos:prefLabel "INDUSTRI LOKOMOTIF DAN GERBONG KERETA"@id .
 
 kbr:KBLI_30300 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "O. Industri pembuatan komponen utama pesawat terbang dan aktivitas penunjang industri dirgantara 163. 30300A Industri aircraft engine 164. 30300B Industri pembuatan aircraft propeller"^^xsd:string ;
+    kbr:industriPionirSubkode "30300A, 30300B, 30300C, 30300D, 30300E"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -9533,7 +9910,11 @@ kbr:KBLI_30400 a skos:Concept ;
     skos:prefLabel "INDUSTRI KENDARAAN PERANG"@id .
 
 kbr:KBLI_30911 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "L. Industri pembuatan kendaraan bermotor dan komponen 144. 29101A Industri kendaraan listrik roda empat atau lebih yang terintegrasi dengan baterai dan motor listrik"^^xsd:string ;
+    kbr:industriPionirSubkode "30911A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
     kbr:nppn_OP_IbuKotaLain 19.0 ;
@@ -9548,8 +9929,12 @@ kbr:KBLI_30911 a skos:Concept ;
     skos:prefLabel "INDUSTRI SEPEDA MOTOR RODA DUA DAN TIGA"@id .
 
 kbr:KBLI_30912 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "L. Industri pembuatan kendaraan bermotor dan komponen 144. 29101A Industri kendaraan listrik roda empat atau lebih yang terintegrasi dengan baterai dan motor listrik"^^xsd:string ;
+    kbr:industriPionirSubkode "30912A, 30912B, 30912C"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 18.0 ;
@@ -9618,8 +10003,10 @@ kbr:KBLI_30990 a skos:Concept ;
     skos:prefLabel "INDUSTRI ALAT ANGKUTAN LAINNYA YANG TIDAK DAPAT DIKLASIFIKASIKAN DI TEMPAT LAIN"@id .
 
 kbr:KBLI_31001 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -9630,6 +10017,8 @@ kbr:KBLI_31001 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -9638,8 +10027,10 @@ kbr:KBLI_31001 a skos:Concept ;
     skos:prefLabel "INDUSTRI FURNITUR DARI KAYU"@id .
 
 kbr:KBLI_31002 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -9650,6 +10041,8 @@ kbr:KBLI_31002 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 16.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -9718,7 +10111,9 @@ kbr:KBLI_32111 a skos:Concept ;
     skos:prefLabel "INDUSTRI PERMATA"@id .
 
 kbr:KBLI_32112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:nppn_OP_10IbuKota 12.5 ;
     kbr:nppn_OP_DaerahLain 10.0 ;
     kbr:nppn_OP_IbuKotaLain 11.5 ;
@@ -9728,6 +10123,8 @@ kbr:KBLI_32112 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 15.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 12.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 14.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "32112"^^xsd:string ;
     skos:prefLabel "INDUSTRI BARANG PERHIASAN DARI LOGAM MULIA UNTUK KEPERLUAN PRIBADI"@id .
@@ -9873,8 +10270,10 @@ kbr:KBLI_32401 a skos:Concept ;
     skos:prefLabel "INDUSTRI ALAT PERMAINAN"@id .
 
 kbr:KBLI_32402 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2024_81_10955d1fd9,
+        kbr:Aturan_R_PP_2019_78_17ae360038,
         kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:isIndustriPadatKaryaKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 12.5 ;
@@ -9885,6 +10284,8 @@ kbr:KBLI_32402 a skos:Concept ;
     kbr:nppn_Pemeriksaan_OP_10IbuKota 18.0 ;
     kbr:nppn_Pemeriksaan_OP_DaerahLain 15.0 ;
     kbr:nppn_Pemeriksaan_OP_IbuKotaLain 15.0 ;
+    kbr:padatKaryaKecualiDKI false ;
+    kbr:padatKaryaProvinsi "Seluruh provinsi di Indonesia (PMK 16/2020 & PMK 81/2024 Pasal 423)"^^xsd:string ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
     kbr:taxAllowanceProvinsi "Nasional (Lampiran I PP 78/2019)"^^xsd:string ;
@@ -10253,7 +10654,11 @@ kbr:KBLI_33152 a skos:Concept ;
     skos:prefLabel "JASA REPARASI LOKOMOTIF DAN GERBONG KERETA"@id .
 
 kbr:KBLI_33153 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "O. Industri pembuatan komponen utama pesawat terbang dan aktivitas penunjang industri dirgantara 163. 30300A Industri aircraft engine 164. 30300B Industri pembuatan aircraft propeller"^^xsd:string ;
+    kbr:industriPionirSubkode "33153A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 20.0 ;
     kbr:nppn_OP_DaerahLain 17.5 ;
     kbr:nppn_OP_IbuKotaLain 18.5 ;
@@ -10349,6 +10754,15 @@ kbr:KBLI_35104 a skos:Concept ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "35104"^^xsd:string ;
     skos:prefLabel "JASA PENUNJANG KELISTRIKAN"@id .
+
+kbr:KBLI_35111 a skos:Concept ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb ;
+    kbr:industriPionirSektor "Q. Infrastruktur ekonomi 179. 35111A Pembangkit tenaga listrik energi baru dan terbarukan 180. 42101A Pembangunan jalan tol 181. 42912A Pembangunan pelabuhan 182. 52101A Kegiatan inve"^^xsd:string ;
+    kbr:industriPionirSubkode "35111A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
+    skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
+    skos:notation "35111"^^xsd:string ;
+    skos:prefLabel "Bidang Usaha KBLI 35111"@id .
 
 kbr:KBLI_35201 a skos:Concept ;
     kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038,
@@ -10750,6 +11164,15 @@ kbr:KBLI_41020 a skos:Concept ;
     skos:notation "41020"^^xsd:string ;
     skos:prefLabel "PEMASANGAN BANGUNAN KONSTRUKSI PRAFABRIKASI UNTUK KONSTRUKSI GEDUNG"@id .
 
+kbr:KBLI_42101 a skos:Concept ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb ;
+    kbr:industriPionirSektor "Q. Infrastruktur ekonomi 179. 35111A Pembangkit tenaga listrik energi baru dan terbarukan 180. 42101A Pembangunan jalan tol 181. 42912A Pembangunan pelabuhan 182. 52101A Kegiatan inve"^^xsd:string ;
+    kbr:industriPionirSubkode "42101A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
+    skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
+    skos:notation "42101"^^xsd:string ;
+    skos:prefLabel "Bidang Usaha KBLI 42101"@id .
+
 kbr:KBLI_42111 a skos:Concept ;
     kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
     kbr:nppn_OP_10IbuKota 20.0 ;
@@ -10839,6 +11262,15 @@ kbr:KBLI_42120 a skos:Concept ;
     skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
     skos:notation "42120"^^xsd:string ;
     skos:prefLabel "PEMASANGAN BANGUNAN KONSTRUKSI PRAFABRIKASI UNTUK KONSTRUKSI JALAN DAN REL KERETA API"@id .
+
+kbr:KBLI_42205 a skos:Concept ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb ;
+    kbr:industriPionirSektor "N. Industri pembuatan komponen utama kereta api 156. 28112C Industri pembuatan motor pembakaran dalam untuk kereta api 157. 30200A Industri pembuatan motor traksi untuk kereta api 158"^^xsd:string ;
+    kbr:industriPionirSubkode "42205A, 42205B"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
+    skos:inScheme kbr:SkemaKBLI_PajakIndonesia ;
+    skos:notation "42205"^^xsd:string ;
+    skos:prefLabel "Bidang Usaha KBLI 42205"@id .
 
 kbr:KBLI_42211 a skos:Concept ;
     kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
@@ -11006,7 +11438,11 @@ kbr:KBLI_42911 a skos:Concept ;
     skos:prefLabel "KONSTRUKSI BANGUNAN PRASARANA SUMBER DAYA AIR"@id .
 
 kbr:KBLI_42912 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "Q. Infrastruktur ekonomi 179. 35111A Pembangkit tenaga listrik energi baru dan terbarukan 180. 42101A Pembangunan jalan tol 181. 42912A Pembangunan pelabuhan 182. 52101A Kegiatan inve"^^xsd:string ;
+    kbr:industriPionirSubkode "42912A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 25.0 ;
     kbr:nppn_OP_DaerahLain 20.0 ;
     kbr:nppn_OP_IbuKotaLain 22.5 ;
@@ -15808,7 +16244,11 @@ kbr:KBLI_47999 a skos:Concept ;
     skos:prefLabel "PERDAGANGAN ECERAN KELILING BARANG LAINNYA"@id .
 
 kbr:KBLI_49110 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_PP_2019_78_17ae360038 ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_PP_2019_78_17ae360038 ;
+    kbr:industriPionirSektor "Q. Infrastruktur ekonomi 179. 35111A Pembangkit tenaga listrik energi baru dan terbarukan 180. 42101A Pembangunan jalan tol 181. 42912A Pembangunan pelabuhan 182. 52101A Kegiatan inve"^^xsd:string ;
+    kbr:industriPionirSubkode "49110A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:isTaxAllowanceKBLI true ;
     kbr:taxAllowanceKecualiDKI false ;
     kbr:taxAllowanceLampiran "LAMPIRAN_I"^^xsd:string ;
@@ -16862,7 +17302,11 @@ kbr:KBLI_51205 a skos:Concept ;
     skos:prefLabel "ANGKUTAN UDARA TIDAK BERJADWAL DOMESTIK PERINTIS UNTUK BARANG"@id .
 
 kbr:KBLI_52101 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "Q. Infrastruktur ekonomi 179. 35111A Pembangkit tenaga listrik energi baru dan terbarukan 180. 42101A Pembangunan jalan tol 181. 42912A Pembangunan pelabuhan 182. 52101A Kegiatan inve"^^xsd:string ;
+    kbr:industriPionirSubkode "52101A"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 30.0 ;
     kbr:nppn_OP_DaerahLain 25.0 ;
     kbr:nppn_OP_IbuKotaLain 30.0 ;
@@ -17873,7 +18317,11 @@ kbr:KBLI_61200 a skos:Concept ;
     skos:prefLabel "TELEKOMUNIKASI TANPA KABEL"@id .
 
 kbr:KBLI_61300 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "R. Ekonomi digital yang mencakup aktivitas pengolahan data, hosting, dan kegiatan yang berhubungan dengan itu 184. 63112 Aktivitas hosting, dan yang berhubungan dengan itu 185. 61300 "^^xsd:string ;
+    kbr:industriPionirSubkode "61300"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 15.0 ;
     kbr:nppn_OP_DaerahLain 12.0 ;
     kbr:nppn_OP_IbuKotaLain 13.0 ;
@@ -18158,7 +18606,11 @@ kbr:KBLI_63111 a skos:Concept ;
     skos:prefLabel "KEGIATAN PENGOLAHAN DATA"@id .
 
 kbr:KBLI_63112 a skos:Concept ;
-    kbr:didasarkanPadaAturan kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:didasarkanPadaAturan kbr:Aturan_R_PMK_2020_130_2794b42cfb,
+        kbr:Aturan_R_UU_1983_7_df018b5a7f ;
+    kbr:industriPionirSektor "R. Ekonomi digital yang mencakup aktivitas pengolahan data, hosting, dan kegiatan yang berhubungan dengan itu 184. 63112 Aktivitas hosting, dan yang berhubungan dengan itu 185. 61300 "^^xsd:string ;
+    kbr:industriPionirSubkode "63112"^^xsd:string ;
+    kbr:isIndustriPionirKBLI true ;
     kbr:nppn_OP_10IbuKota 55.0 ;
     kbr:nppn_OP_DaerahLain 51.0 ;
     kbr:nppn_OP_IbuKotaLain 53.0 ;
@@ -21708,5 +22160,5 @@ kbr:KBLI_98200 a skos:Concept ;
     skos:prefLabel "KEGIATAN YANG MENGHASILKAN JASA OLEH RUMAH TANGGA YANG DIGUNAKAN SENDIRI UNTUK MEMENUHI KEBUTUHAN"@id .
 
 kbr:SkemaKBLI_PajakIndonesia a skos:ConceptScheme ;
-    skos:prefLabel "Skema Klasifikasi KBLI/KLU Perpajakan Indonesia (PER-17/PJ/2015 & PP 78/2019)"@id .
+    skos:prefLabel "Skema Klasifikasi KBLI/KLU Perpajakan Indonesia (PER-17/PJ/2015, PP 78/2019, PerBKPM 7/2020, PMK 16/2020)"@id .
 

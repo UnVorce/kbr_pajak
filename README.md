@@ -17,7 +17,7 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
          ├──► ontology/kbr_pajak_reasoning.owl (120 kelas SROIQ(D) · 79 SWRL · 368 individu)
          │       └─► Reasoner HermiT (World() terisolasi) + Kalkulator SPARQL BIND
          │
-         ├──► ontology/kbr_ter_pph21.ttl (127 bracket TER) + kbr_kbli.ttl (1.449 KBLI SKOS)
+         ├──► ontology/kbr_ter_pph21.ttl (127 bracket TER) + kbr_kbli.ttl (1.453 KBLI SKOS: NPPN/TA/Pionir/Padat Karya)
          ├──► ontology/kbr-perda-rates.ttl (390 Pemda · 2.029 tarif lokal dari 524 Perda)
          └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.907 aturan)
                  └─► Engine SPARQL lokal (rdflib)
@@ -47,7 +47,7 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000
 |---|---|
 | `GET /health` | Status `.owl`, `.ttl` (`kbr_ter_pph21.ttl`, `kbr_kbli.ttl`, `kbr-perda-rates.ttl`), jumlah kelas, individu, dan aturan SWRL |
 | `GET /options` | Daftar `30` pilihan `JenisPekerjaan` & `6` `WilayahDaerah` langsung dari OWL |
-| `GET /kbli` & `GET /kbli/{kode}` | Pencarian & detail `1.449` kode KBLI SKOS (NPPN 3 wilayah & syarat Tax Allowance PP 78/2019) |
+| `GET /kbli` & `GET /kbli/{kode}` | Pencarian & detail `1.453` kode KBLI SKOS (NPPN, Tax Allowance PP 78/2019, Industri Pionir PerBKPM 7/2020, & Padat Karya PMK 16/2020) |
 | `GET /perda` & `GET /perda/{pemda_id}` | Pencarian & detail `390` Pemda (`2.029` tarif pajak daerah dari `524` Perda PDRD) |
 | `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + `kodeKBLI` & `pemdaId` + **`estimasi_pajak` (`SPARQL BIND`, TER `127` bracket, NPPN, PBB lokal)** + justifikasi pasal/MK/SEMA |
 | `GET /catalog` | Peta `79` item katalog tarif/fasilitas/kewajiban/sanksi (`ontology/rule_map.json`) |
@@ -73,7 +73,7 @@ kbr_pajak/
 │   ├── kbr_pajak_tbox.owl                 # TBox murni (RDF/XML untuk Protégé)
 │   ├── kbr_pajak_reasoning.owl            # TBox + 79 SWRL + 368 individu + 15 skenario uji
 │   ├── kbr_ter_pph21.ttl                  # 127 bracket TER PPh 21 (PP 58/2023) tervalidasi
-│   ├── kbr_kbli.ttl                       # 1.449 konsep W3C SKOS KBLI/KLU (PER-17/PJ/2015 & PP 78/2019)
+│   ├── kbr_kbli.ttl                       # 1.453 konsep W3C SKOS KBLI/KLU (PER-17, PP 78/2019, PerBKPM 7/2020, PMK 16/2020)
 │   ├── kbr-perda-rates.ttl                # 390 Pemda · 2.029 tarif pajak daerah dari 524 Perda PDRD
 │   ├── rule_map.json                      # Peta 83 konsep katalog -> rule_id & source_quote
 │   ├── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
