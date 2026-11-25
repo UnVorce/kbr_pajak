@@ -48,25 +48,35 @@ class TaxpayerProperties(BaseModel):
     hasJumlahKendaraan: Optional[int] = Field(default=None, ge=0, description="Urutan kepemilikan kendaraan bermotor")
     hasKapasitasMesinCC: Optional[int] = Field(default=None, ge=0, description="Kapasitas mesin kendaraan (cc, untuk PKB Bali)")
     hasNilaiNJOP: Optional[float] = Field(default=None, ge=0, description="Nilai Jual Objek Pajak PBB-P2 (Rp)")
+    hasPersentaseNJOP_PBB: Optional[float] = Field(default=None, ge=0, le=100, description="Persentase NJOP pengenaan PBB-P2 (20-100%, opsional untuk kalkulator)")
+    hasNJOPTKP_PBB: Optional[float] = Field(default=None, ge=0, description="NJOPTKP daerah PBB-P2 (Rp, opsional untuk kalkulator)")
+    hasDPP_PPN: Optional[float] = Field(default=None, ge=0, description="Dasar Pengenaan Pajak PPN tahunan/transaksi (Rp, opsional untuk kalkulator)")
 
     # Status Badan & Fasilitas
     isPerseroanTerbuka: Optional[bool] = None
     isPerseroanPerorangan: Optional[bool] = None
     isIndustriPionir: Optional[bool] = None
     isPenanamanModalBaru: Optional[bool] = None
+    isBidangUsahaTaxAllowance: Optional[bool] = None
+    isLokasiProvinsiMemenuhiTaxAllowance: Optional[bool] = None
+    isIndustriPadatKarya: Optional[bool] = None
     hasSuratKeteranganFiskal: Optional[bool] = None
     isBelumPernahPutusTaxHoliday: Optional[bool] = None
     isUMKM_PP55: Optional[bool] = None
     hasNPWP: Optional[bool] = None
 
-    # Status Orang Pribadi (PPh 21 / TER / Pasal 17 / SPLN)
+    # Status Orang Pribadi (PPh 21 / TER / Pasal 17 / SPLN / NPPN)
     isPendudukIndonesia: Optional[bool] = None
     isSubjekLuarNegeri: Optional[bool] = None
     isKawin: Optional[bool] = None
     hasJumlahTanggungan: Optional[int] = Field(default=None, ge=0, le=10, description="Jumlah tanggungan keluarga (maks diakui PTKP = 3)")
     isPenghasilanIstriDigabung: Optional[bool] = None
-    hasPenghasilanKenaPajakTahunan: Optional[float] = Field(default=None, ge=0, description="Penghasilan Kena Pajak (PKP) tahunan OP (Rp)")
+    hasPenghasilanKenaPajakTahunan: Optional[float] = Field(default=None, ge=0, description="Penghasilan Kena Pajak (PKP) tahunan OP atau Badan (Rp)")
+    hasPenghasilanBrutoBulanan: Optional[float] = Field(default=None, ge=0, description="Penghasilan bruto bulanan OP (Rp, untuk PPh 21 TER)")
     hasJumlahPemberiKerja: Optional[int] = Field(default=None, ge=0, description="Jumlah pemberi kerja dalam 1 tahun pajak")
+    isPemberitahuanNPPNTepatWaktu: Optional[bool] = None
+    isTidakMenyelenggarakanPembukuanPencatatan: Optional[bool] = None
+    kelompokWilayahNPPN: Optional[Literal["10_IbuKota_Provinsi", "IbuKota_Provinsi_Lain", "Daerah_Lain"]] = None
 
     # PPN & Pemotongan PPh 23
     isPenyerahanNonMewahPPN: Optional[bool] = None
@@ -124,6 +134,7 @@ class ReasonResponse(BaseModel):
     fasilitas: List[InferredConceptItem]
     kewajiban: List[InferredConceptItem]
     sanksi: List[InferredConceptItem]
+    estimasi_pajak: Dict[str, Any] = Field(default_factory=dict)
     reasoner: str
     elapsed_ms: float
 

@@ -17,8 +17,8 @@ Dibuat terpisah di **`backend/`** (`fatih/backend/` dan disinkronkan ke `kbr_paj
 |---|---|---|
 | `GET` | `/health` | Status `.owl`, `.ttl`, dan metrik build ontologi |
 | `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
-| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + validasi Pydantic + justifikasi pasal/MK/SEMA |
-| `GET` | `/catalog` | Peta `79` item katalog tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
+| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + estimasi nominal deklaratif `SPARQL BIND` + justifikasi pasal/MK/SEMA |
+| `GET` | `/catalog` | Peta `83` item katalog tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
 | `GET` | `/scenarios` | Ringkasan `15` skenario demonstrasi di `kbr_pajak_reasoning.owl` |
 | `GET` | `/sparql/provenance` | Query SPARQL atas `12.907` aturan (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) |
 | `GET` | `/sparql/stats` | Statistik aturan per domain & kelas dari RDF graph |

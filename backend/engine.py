@@ -210,6 +210,8 @@ class KBRReasoningEngine:
             if isinstance(c, ThingClass) and c.name != "Thing"
         )
 
+        estimasi_pajak = self._estimate_nominal_sparql(w, wp_id)
+
         return {
             "wp_id": wp_id,
             "wp_kind": wp_kind,
@@ -220,9 +222,165 @@ class KBRReasoningEngine:
             "fasilitas": _explain(wp.memilikiFasilitas),
             "kewajiban": _explain(wp.memilikiKewajiban),
             "sanksi": _explain(wp.berisikoSanksi),
-            "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe)",
+            "estimasi_pajak": estimasi_pajak,
+            "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND",
             "elapsed_ms": elapsed_ms,
         }
+
+    def _estimate_nominal_sparql(self, world: World, wp_id: str) -> Dict[str, Any]:
+        """Hitung estimasi nominal pajak secara deklaratif via SPARQL BIND di atas graf hasil HermiT."""
+        g = world.as_rdflib_graph()
+        wp_ref = f"kbr:{wp_id}"
+        out: Dict[str, Any] = {
+            "metode": "SPARQL 1.1 BIND atas graf RDF hasil inferensi HermiT (indikatif)",
+            "rincian": {},
+        }
+
+        # 1. PPh Badan (Pasal 31E / Tbk 19% / Umum 22% / UMKM Badan 0,5% / BUT Branch Profit 20%)
+        q_badan = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?pphBadan ?penghematan31E ?pphUmkmBadan ?butBpt
+        WHERE {{
+          BIND({wp_ref} AS ?wp)
+          BIND(EXISTS {{ ?wp rdf:type/rdfs:subClassOf* kbr:Badan }} AS ?isBadan)
+          BIND(EXISTS {{ ?wp rdf:type/rdfs:subClassOf* kbr:BadanUMKM }} AS ?isUmkmBadan)
+          OPTIONAL {{ ?wp kbr:hasOmzetTahunan ?omzet . }}
+          OPTIONAL {{ ?wp kbr:hasPenghasilanKenaPajakTahunan ?pkp . }}
+          OPTIONAL {{ ?wp kbr:memilikiFasilitas ?f31e . FILTER(?f31e = kbr:Fasilitas_Pasal31E_Diskon50Pct_11Pct) }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif kbr:Tarif_PPhBadan_Tbk_19Pct . kbr:Tarif_PPhBadan_Tbk_19Pct kbr:hasTarifPersen ?t19 . }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif kbr:Tarif_PPhBadan_22Pct . kbr:Tarif_PPhBadan_22Pct kbr:hasTarifPersen ?t22 . }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif kbr:Tarif_PPh26_4_BUT_BranchProfit_20Pct . kbr:Tarif_PPh26_4_BUT_BranchProfit_20Pct kbr:hasTarifPersen ?tBut . }}
+          BIND(IF(?isUmkmBadan && BOUND(?omzet), xsd:decimal(?omzet) * 0.005, ?unbound) AS ?pphUmkmBadan)
+          BIND(IF(BOUND(?f31e) && BOUND(?pkp) && BOUND(?omzet) && xsd:decimal(?omzet) > 0,
+                  IF(xsd:decimal(?omzet) > 4800000000.0, 4800000000.0 / xsd:decimal(?omzet), 1.0),
+                  0.0) AS ?ratio31E)
+          BIND(IF(?isBadan && BOUND(?pkp),
+                  IF(BOUND(?f31e) && BOUND(?omzet) && xsd:decimal(?omzet) > 0,
+                     (xsd:decimal(?pkp) * ?ratio31E * 0.11) + (xsd:decimal(?pkp) * (1.0 - ?ratio31E) * 0.22),
+                     IF(BOUND(?t19),
+                        xsd:decimal(?pkp) * (xsd:decimal(?t19) / 100.0),
+                        IF(BOUND(?t22), xsd:decimal(?pkp) * (xsd:decimal(?t22) / 100.0), ?unbound))),
+                  ?unbound) AS ?pphBadan)
+          BIND(IF(BOUND(?f31e) && BOUND(?pkp) && BOUND(?omzet) && xsd:decimal(?omzet) > 0,
+                  xsd:decimal(?pkp) * ?ratio31E * 0.11,
+                  ?unbound) AS ?penghematan31E)
+          BIND(IF(BOUND(?tBut) && BOUND(?pphBadan),
+                  (xsd:decimal(?pkp) - ?pphBadan) * (xsd:decimal(?tBut) / 100.0),
+                  ?unbound) AS ?butBpt)
+        }}
+        LIMIT 1
+        """
+        for row in g.query(q_badan):
+            if row.pphUmkmBadan is not None:
+                out["rincian"]["pph_final_umkm_badan_idr"] = round(float(row.pphUmkmBadan), 2)
+            if row.pphBadan is not None:
+                out["rincian"]["pph_badan_idr"] = round(float(row.pphBadan), 2)
+            if row.penghematan31E is not None:
+                out["rincian"]["penghematan_pasal_31e_idr"] = round(float(row.penghematan31E), 2)
+            if row.butBpt is not None:
+                out["rincian"]["branch_profit_tax_but_idr"] = round(float(row.butBpt), 2)
+
+        # 2. PPh Orang Pribadi (UMKM OP bebas 500jt + Pasal 17 5 Lapis Progresif atas PKP)
+        q_op = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?pphUmkmOp ?porsiBebas500Jt ?pphOp17
+        WHERE {{
+          BIND({wp_ref} AS ?wp)
+          BIND(EXISTS {{ ?wp rdf:type/rdfs:subClassOf* kbr:OrangPribadi }} AS ?isOp)
+          OPTIONAL {{ ?wp kbr:hasOmzetTahunan ?omzet . }}
+          OPTIONAL {{ ?wp kbr:hasPenghasilanKenaPajakTahunan ?pkp . }}
+          OPTIONAL {{ ?wp kbr:memilikiFasilitas ?fBebas . FILTER(?fBebas = kbr:Fasilitas_OP_UMKM_BebasPPh_500Jt) }}
+          OPTIONAL {{ ?wp kbr:memilikiFasilitas ?fPp55 . FILTER(?fPp55 = kbr:Fasilitas_PP55_Final_0_5Pct) }}
+          BIND(IF(?isOp && BOUND(?fBebas) && BOUND(?omzet),
+                  IF(xsd:decimal(?omzet) <= 500000000.0, xsd:decimal(?omzet), 500000000.0),
+                  ?unbound) AS ?porsiBebas500Jt)
+          BIND(IF(?isOp && BOUND(?fBebas) && BOUND(?omzet),
+                  IF(BOUND(?fPp55) && xsd:decimal(?omzet) > 500000000.0,
+                     (xsd:decimal(?omzet) - 500000000.0) * 0.005,
+                     0.0),
+                  ?unbound) AS ?pphUmkmOp)
+          BIND(IF(?isOp && BOUND(?pkp) && xsd:decimal(?pkp) > 0, xsd:decimal(?pkp), 0.0) AS ?p)
+          BIND(IF(?p < 60000000.0, ?p, 60000000.0) * 0.05 AS ?l1)
+          BIND(IF(?p > 60000000.0, (IF(?p < 250000000.0, ?p, 250000000.0) - 60000000.0) * 0.15, 0.0) AS ?l2)
+          BIND(IF(?p > 250000000.0, (IF(?p < 500000000.0, ?p, 500000000.0) - 250000000.0) * 0.25, 0.0) AS ?l3)
+          BIND(IF(?p > 500000000.0, (IF(?p < 5000000000.0, ?p, 5000000000.0) - 500000000.0) * 0.30, 0.0) AS ?l4)
+          BIND(IF(?p > 5000000000.0, (?p - 5000000000.0) * 0.35, 0.0) AS ?l5)
+          BIND(IF(?isOp && BOUND(?pkp), ?l1 + ?l2 + ?l3 + ?l4 + ?l5, ?unbound) AS ?pphOp17)
+        }}
+        LIMIT 1
+        """
+        for row in g.query(q_op):
+            if row.porsiBebas500Jt is not None:
+                out["rincian"]["porsi_omzet_bebas_500jt_idr"] = round(float(row.porsiBebas500Jt), 2)
+            if row.pphUmkmOp is not None:
+                out["rincian"]["pph_final_umkm_op_idr"] = round(float(row.pphUmkmOp), 2)
+            if row.pphOp17 is not None:
+                out["rincian"]["pph_op_pasal17_idr"] = round(float(row.pphOp17), 2)
+
+        # 3. PPN (12% BKP Mewah vs 11% Efektif Non-Mewah DPP 11/12) & PBB-P2
+        q_ppn_pbb = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?ppnTerutang ?pbbTerutang
+        WHERE {{
+          BIND({wp_ref} AS ?wp)
+          OPTIONAL {{ ?wp kbr:hasDPP_PPN ?dpp . }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif ?t12 . FILTER(?t12 = kbr:Tarif_PPN_12Pct) }}
+          OPTIONAL {{ ?wp kbr:dikenaiTarif ?t11 . FILTER(?t11 = kbr:Tarif_PPN_Efektif_11Pct) }}
+          OPTIONAL {{ ?wp kbr:hasNilaiNJOP ?njop . }}
+          OPTIONAL {{ ?wp kbr:hasNJOPTKP_PBB ?njoptkpIn . }}
+          OPTIONAL {{ ?wp kbr:hasPersentaseNJOP_PBB ?njopPctIn . }}
+          OPTIONAL {{ ?wp kbr:berdomisiliDi ?wil . }}
+          OPTIONAL {{ ?wp kbr:isDomisiliDKI ?isDki . }}
+          OPTIONAL {{
+            ?wp kbr:dikenaiTarif ?tpbb .
+            FILTER(?tpbb IN (
+              kbr:Tarif_PBB_DKI_0_5Pct, kbr:Tarif_PBB_Semarang_0_3Pct,
+              kbr:Tarif_PBB_Surabaya_L1_0_05Pct, kbr:Tarif_PBB_Surabaya_L2_0_10Pct,
+              kbr:Tarif_PBB_Surabaya_L3_0_15Pct, kbr:Tarif_PBB_Surabaya_L4_0_20Pct,
+              kbr:Tarif_PBB_Surabaya_L5_0_25Pct, kbr:Tarif_PBB_Surabaya_L6_0_30Pct
+            ))
+            ?tpbb kbr:hasTarifPersen ?ratePbb .
+          }}
+          BIND(IF(BOUND(?dpp) && BOUND(?t12), xsd:decimal(?dpp) * 0.12,
+                  IF(BOUND(?dpp) && BOUND(?t11), xsd:decimal(?dpp) * (11.0 / 12.0) * 0.12, ?unbound)) AS ?ppnTerutang)
+          BIND(IF(BOUND(?njoptkpIn), xsd:decimal(?njoptkpIn),
+                  IF((BOUND(?wil) && ?wil = kbr:Wilayah_DKI_Jakarta) || (BOUND(?isDki) && ?isDki = true), 60000000.0,
+                     IF(BOUND(?wil) && ?wil = kbr:Wilayah_Kota_Surabaya, 15000000.0, 10000000.0))) AS ?njoptkp)
+          BIND(IF(BOUND(?njopPctIn), xsd:decimal(?njopPctIn) / 100.0, 1.0) AS ?njopRatio)
+          BIND(IF(BOUND(?ratePbb) && BOUND(?njop),
+                  IF(xsd:decimal(?njop) > ?njoptkp, (xsd:decimal(?njop) - ?njoptkp) * ?njopRatio * (xsd:decimal(?ratePbb) / 100.0), 0.0),
+                  ?unbound) AS ?pbbTerutang)
+        }}
+        LIMIT 1
+        """
+        for row in g.query(q_ppn_pbb):
+            if row.ppnTerutang is not None:
+                out["rincian"]["ppn_terutang_idr"] = round(float(row.ppnTerutang), 2)
+            if row.pbbTerutang is not None:
+                out["rincian"]["pbb_terutang_idr"] = round(float(row.pbbTerutang), 2)
+
+        # 4. Sanksi Denda KUP Nominal Tetap (OP 100rb, Badan 1jt, Masa PPN 500rb)
+        q_denda = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT (SUM(xsd:decimal(?nom)) AS ?totalDenda)
+        WHERE {{
+          {wp_ref} kbr:berisikoSanksi ?s .
+          ?s kbr:hasNominalSanksi ?nom .
+        }}
+        """
+        for row in g.query(q_denda):
+            if row.totalDenda is not None and float(row.totalDenda) > 0:
+                out["rincian"]["denda_administratif_tetap_idr"] = round(float(row.totalDenda), 2)
+
+        return out
 
     def query_provenance(
         self,
