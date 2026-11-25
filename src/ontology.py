@@ -46,7 +46,20 @@ CORE_RULE_SPECS = [
     ("TarifPajak", "Tarif_PPhBadan_22Pct", "Tarif PPh Badan Umum 22% (Pasal 17 ayat (1) huruf b UU PPh)", 22.0, "R-UU-1983-7-fcd99f0036", "UU-1983-7", "UU-1983-7#BT/17/1..3"),
     ("TarifPajak", "Tarif_PPhBadan_Tbk_19Pct", "Tarif PPh Badan Perseroan Terbuka 19% (diskon 3%, >=40% publik, >=300 pihak, >=183 hari, Pasal 17 ayat (2b) UU PPh)", 19.0, "R-UU-1983-7-795d9e9140", "UU-1983-7", "UU-1983-7#BT/17/1..3"),
     ("TarifFinal", "Tarif_PPh26_4_BUT_BranchProfit_20Pct", "Tarif PPh Pasal 26 ayat (4) Branch Profit Tax 20% atas Laba Setelah Pajak BUT (UU PPh Pasal 26(4))", 20.0, "R-UU-1983-7-fc3e7c4953", "UU-1983-7", "UU-1983-7#BT/26/3..5"),
-    ("TarifPajak", "Tarif_PPh23_JasaSewa_2Pct", "Tarif Pemotongan PPh Pasal 23 sebesar 2% atas Sewa Harta & Jasa Lain (UU PPh Pasal 23(1)c)", 2.0, "R-UU-1983-7-1afe13bff6", "UU-1983-7", "UU-1983-7#BT/23/1..4"),
+    ("TarifFinal", "Tarif_PPhFinal_SewaTanahBangunan_10Pct", "Tarif PPh Final 10% atas Persewaan Tanah dan/atau Bangunan (PP 34/2017 Pasal 4(1))", 10.0, "R-PP-2017-34-a11ca8c4a6", "PP-2017-34", "PP-2017-34#BT/4"),
+    ("TarifFinal", "Tarif_PPhFinal_BungaDepositoTabungan_20Pct", "Tarif PPh Final 20% atas Bunga Tabungan, Diskonto SBI, dan Deposito Umum Non-DHE (PP 131/2000 jo. PP 123/2015 Pasal 2 huruf c)", 20.0, "R-PP-2000-131-fc05ed2fb9", "PP-2000-131", "PP-2000-131#BT/2"),
+    ("TarifFinal", "Tarif_PPhFinal_DepositoDHE_USD_Bertingkat", "Tarif PPh Final Deposito DHE USD (10% 1 bln, 7,5% 3 bln, 2,5% 6 bln, 0% >6 bln; PP 131/2000 jo. PP 123/2015 Pasal 2 huruf a)", None, "R-PP-2000-131-c9221e0b78", "PP-2000-131", "PP-2000-131#BT/2"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct", "Tarif PPh Final Jasa Konstruksi 1,75% Pekerjaan Konstruksi Kualifikasi Kecil / SKK Perseorangan (PP 51/2008 jo. PP 9/2022 Pasal 3(1)a)", 1.75, "R-PP-2008-51-bd43270f8a", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_NonKecilSBU_2_65Pct", "Tarif PPh Final Jasa Konstruksi 2,65% Pekerjaan Konstruksi Menengah/Besar Bersertifikat (PP 51/2008 jo. PP 9/2022 Pasal 3(1)c)", 2.65, "R-PP-2008-51-77cd2d02ee", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_TerintegrasiSBU_2_65Pct", "Tarif PPh Final Jasa Konstruksi 2,65% Pekerjaan Konstruksi Terintegrasi Bersertifikat SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)d)", 2.65, "R-PP-2008-51-59116f2a02", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_TanpaSBU_4Pct", "Tarif PPh Final Jasa Konstruksi 4% Pekerjaan Konstruksi Tanpa Sertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)b)", 4.0, "R-PP-2008-51-fc527468d8", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_TerintegrasiTanpaSBU_4Pct", "Tarif PPh Final Jasa Konstruksi 4% Pekerjaan Konstruksi Terintegrasi Tanpa SBU (PP 51/2008 jo. PP 9/2022 Pasal 3(1)e)", 4.0, "R-PP-2008-51-fe99b15648", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_KonsultansiSBU_3_5Pct", "Tarif PPh Final Jasa Konstruksi 3,5% Jasa Konsultansi Konstruksi Bersertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)f)", 3.5, "R-PP-2008-51-ee380105e4", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct", "Tarif PPh Final Jasa Konstruksi 6% Jasa Konsultansi Konstruksi Tanpa Sertifikat SBU/SKK (PP 51/2008 jo. PP 9/2022 Pasal 3(1)g)", 6.0, "R-PP-2008-51-631d959451", "PP-2008-51", "PP-2008-51#BT/3"),
+    ("TarifFinal", "Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct", "Tarif PPh Final 2,5% atas Pengalihan Hak atas Tanah dan/atau Bangunan Umum (PP 34/2016 Pasal 2(1)a)", 2.5, "R-PP-2016-34-7c066787f5", "PP-2016-34", "PP-2016-34#BT/2/1"),
+    ("TarifFinal", "Tarif_PPhFinal_PengalihanRumahSederhana_1Pct", "Tarif PPh Final 1% Pengalihan Rumah Sederhana/Rusunami oleh Developer Usaha Pokok Properti (PP 34/2016 Pasal 2(1)b)", 1.0, "R-PP-2016-34-9fdb5292bd", "PP-2016-34", "PP-2016-34#BT/2/1"),
+    ("TarifFinal", "Tarif_PPhFinal_PengalihanKepadaPemerintah_0Pct", "Tarif PPh Final 0% Pengalihan Tanah/Bangunan kepada Pemerintah atau BUMN/BUMD Penugasan Khusus (PP 34/2016 Pasal 2(1)c)", 0.0, "R-PP-2016-34-2c3484ea65", "PP-2016-34", "PP-2016-34#BT/2/1"),
+    ("TarifPajak", "Tarif_PPh23_JasaSewa_2Pct", "Tarif Pemotongan PPh Pasal 23 sebesar 2% atas Sewa Harta Selain Tanah/Bangunan & Jasa Lain (UU PPh Pasal 23(1)c)", 2.0, "R-UU-1983-7-1afe13bff6", "UU-1983-7", "UU-1983-7#BT/23/1..4"),
     ("TarifPajak", "Tarif_PPh23_Modal_15Pct", "Tarif Pemotongan PPh Pasal 23 sebesar 15% atas Dividen, Bunga, Royalti & Hadiah (UU PPh Pasal 23(1)a)", 15.0, "R-UU-1983-7-ab2ba6ed43", "UU-1983-7", "UU-1983-7#BT/23/1..4"),
     ("TarifProgresif", "Tarif_PPhOP_Layer1_5Pct", "Tarif PPh Orang Pribadi Lapisan 1: 5% s.d. PKP Rp60 Juta (UU HPP Pasal 17(1)a)", 5.0, "R-UU-1983-7-8cffee614e", "UU-1983-7", "UU-1983-7#BT/17/1..3"),
     ("TarifProgresif", "Tarif_PPhOP_Layer2_15Pct", "Tarif PPh Orang Pribadi Lapisan 2: 15% > Rp60 Juta s.d. Rp250 Juta (UU HPP Pasal 17(1)a)", 15.0, "R-UU-1983-7-ec277b63c2", "UU-1983-7", "UU-1983-7#BT/17/1..3"),
@@ -104,7 +117,14 @@ CORE_RULE_SPECS = [
     ("FasilitasPerpajakan", "Fasilitas_Pengecualian_SpaKesehatanTradisional_MK", "Pengecualian PBJT Hiburan 40-50% untuk Mandi Uap/Spa Bagian Pelayanan Kesehatan Tradisional (Putusan MK-2024-19-PUU-XXII)", 10.0, "R-PERDA-PROV-DKI-JAKARTA-2024-1-0117748e9b", "PERDA-PROV-DKI-JAKARTA-2024-1", "PERDA-PROV-DKI-JAKARTA-2024-1#BT/53"),
     ("FasilitasPerpajakan", "Fasilitas_Pengecualian_PPh23_Bank", "Pengecualian Pemotongan PPh Pasal 23 atas Penghasilan yang Dibayar/Terutang kepada Bank (Pasal 23 ayat (4) huruf a UU PPh)", 0.0, "R-UU-1983-7-03505d13a1", "UU-1983-7", "UU-1983-7#BT/23/4"),
     ("FasilitasPerpajakan", "Fasilitas_Pengecualian_DendaSPT_Pasal7_2", "Pengecualian Pengenaan Sanksi Denda Keterlambatan SPT bagi WP Tutup Usaha/Meninggal/WNA Keluar/Bencana (UU KUP Pasal 7(2))", 0.0, "R-UU-1983-6-a86dd99b6a", "UU-1983-6", "UU-1983-6#BT/7"),
+    ("FasilitasPerpajakan", "Fasilitas_Pengecualian_SewaPenginapan_PP34", "Pengecualian PPh Final Persewaan Tanah/Bangunan bagi Jasa Pelayanan Penginapan Beserta Akomodasinya (PP 34/2017 Pasal 2(3))", 0.0, "R-PP-2017-34-86e520fb7b", "PP-2017-34", "PP-2017-34#BT/2"),
+    ("FasilitasPerpajakan", "Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt", "Pengecualian Pemotongan PPh Final atas Bunga Deposito/Tabungan/SBI dengan Pokok <= Rp7,5 Juta & Bukan Dipecah-pecah (PP 131/2000 Pasal 3(a))", 0.0, "R-PP-2000-131-df0f230457", "PP-2000-131", "PP-2000-131#BT/3"),
+    ("FasilitasPerpajakan", "Fasilitas_Restitusi_BungaDeposito_DibawahPTKP", "Pengecualian/Hak Restitusi PPh Final Bunga Deposito bagi OP SPDN Total Penghasilan <= PTKP (PP 131/2000 Pasal 1(3)-(4))", 0.0, "R-PP-2000-131-d7e7a5e6ac", "PP-2000-131", "PP-2000-131#BT/1"),
+    ("FasilitasPerpajakan", "Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP", "Pengecualian PPh Final Pengalihan Tanah/Bangunan bagi OP Berpenghasilan < PTKP dengan Nilai Bruto < Rp60 Juta (PP 34/2016 Pasal 6 huruf a)", 0.0, "R-PP-2016-34-9bbd83e4c2", "PP-2016-34", "PP-2016-34#BT/6"),
     ("KewajibanPajak", "Kewajiban_DaftarPKP_PungutPPN", "Kewajiban Melaporkan Usaha untuk Dikukuhkan sebagai PKP & Memungut PPN (omzet > Rp4,8M, UU PPN Pasal 3A & PMK 164/2023)", None, "R-PMK-2023-164-706302d621", "PMK-2023-164", "PMK-2023-164#BT/17"),
+    ("KewajibanPajak", "Kewajiban_PotongSetor_SewaTanahBangunan", "Kewajiban Pemotongan PPh Final Sewa Tanah/Bangunan oleh Penyewa Pemotong atau Penyetoran Sendiri bila Penyewa Non-Pemotong (PP 34/2017 Pasal 3)", None, "R-PP-2017-34-a465bbabaa", "PP-2017-34", "PP-2017-34#BT/3"),
+    ("KewajibanPajak", "Kewajiban_PencatatanTerpisah_JasaKonstruksi", "Kewajiban Pencatatan Biaya Terpisah atas Penghasilan di Luar Usaha Jasa Konstruksi yang Dikenai Tarif Umum (PP 51/2008 Pasal 7(2) & Pasal 8)", None, "R-PP-2008-51-a8ec884e18", "PP-2008-51", "PP-2008-51#BT/8"),
+    ("KewajibanPajak", "Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta", "Kewajiban Menyerahkan SSP Tervalidasi KPP Sebelum Penandatanganan Akta PPAT/Risalah Lelang (PP 34/2016 Pasal 3(5))", None, "R-PP-2016-34-c396034237", "PP-2016-34", "PP-2016-34#BT/3/3..5"),
     ("KewajibanPajak", "Kewajiban_Opsen_PKB_66Pct", "Kewajiban Opsen PKB sebesar 66% dari PKB Terutang sesuai HKPD (Perda Kab/Kota & Prov Jabar/Surabaya/Bali)", None, "R-PERDA-KOTA-SURABAYA-2023-7-14b13617b1", "PERDA-KOTA-SURABAYA-2023-7", "PERDA-KOTA-SURABAYA-2023-7#BT/44"),
     ("KewajibanPajak", "Kewajiban_Peralihan_UMKM_Ke_KetentuanUmum", "Kewajiban Transisi WP UMKM yang Omzetnya Melebihi Rp4,8M ke Tarif Umum Tahun Pajak Berikutnya (PP 55/2022 Pasal 61 & PMK 164/2023 Pasal 5(5))", None, "R-PMK-2023-164-2ded388f17", "PMK-2023-164", "PMK-2023-164#BT/5"),
     ("KewajibanPajak", "Kewajiban_NPWP_NIK_OP", "Penggunaan NIK sebagai NPWP bagi Wajib Pajak Orang Pribadi Penduduk Indonesia (PMK 112/2022 Pasal 2(1)a)", None, "R-PMK-2022-112-a91070d05f", "PMK-2022-112", "PMK-2022-112#BT/2"),
@@ -281,6 +301,46 @@ def build_tbox(world: Optional[World] = None) -> tuple:
         class DomainPajak(Thing): pass
         class ObjekPajak(Thing): pass
 
+        # Taksonomi Objek Penghasilan Final Pasal 4 ayat (2) (PP 34/2017, PP 131/2000, PP 51/2008 jo. PP 9/2022, PP 34/2016)
+        class ObjekPenghasilanFinal(ObjekPajak): pass
+        class SewaTanahDanBangunan(ObjekPenghasilanFinal): pass
+        class BungaDepositoDanTabungan(ObjekPenghasilanFinal): pass
+        class ObjekBungaDepositoTabunganUmum(BungaDepositoDanTabungan): pass
+        class ObjekDepositoDHE_USD(BungaDepositoDanTabungan): pass
+        class JasaKonstruksi(ObjekPenghasilanFinal): pass
+        class JasaKonstruksiPekerjaanKecilSBU(JasaKonstruksi): pass
+        class JasaKonstruksiPekerjaanNonKecilSBU(JasaKonstruksi): pass
+        class JasaKonstruksiTerintegrasiSBU(JasaKonstruksi): pass
+        class JasaKonstruksiPekerjaanTanpaSBU(JasaKonstruksi): pass
+        class JasaKonstruksiTerintegrasiTanpaSBU(JasaKonstruksi): pass
+        class JasaKonstruksiKonsultansiSBU(JasaKonstruksi): pass
+        class JasaKonstruksiKonsultansiTanpaSBU(JasaKonstruksi): pass
+        class PengalihanHakAtasTanahBangunan(ObjekPenghasilanFinal): pass
+        class PengalihanTanahBangunanUmum(PengalihanHakAtasTanahBangunan): pass
+        class PengalihanRumahSederhanaDeveloper(PengalihanHakAtasTanahBangunan): pass
+        class PengalihanKepadaPemerintahPenugasan(PengalihanHakAtasTanahBangunan): pass
+
+        # Kelas Rezim WajibPajak Penerima Penghasilan Final Pasal 4(2) (non-disjoint -> mendukung multi-sumber penghasilan)
+        class WP_PenerimaSewaTanahBangunan(WajibPajak): pass
+        class WP_Pengecualian_SewaPenginapan(WajibPajak): pass
+        class WP_PenerimaBungaDeposito(WajibPajak): pass
+        class WP_PenerimaBungaDepositoDHE_USD(WajibPajak): pass
+        class WP_Pengecualian_Deposito_Max7_5Jt(WajibPajak): pass
+        class WP_Pengecualian_Deposito_DibawahPTKP(OrangPribadi): pass
+        class WP_PenyediaJasaKonstruksi(WajibPajak): pass
+        class WP_JasaKonstruksi_Kecil_SBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_JasaKonstruksi_NonKecil_SBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_JasaKonstruksi_Terintegrasi_SBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_JasaKonstruksi_TanpaSBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_JasaKonstruksi_Terintegrasi_TanpaSBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_JasaKonstruksi_Konsultansi_SBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_JasaKonstruksi_Konsultansi_TanpaSBU(WP_PenyediaJasaKonstruksi): pass
+        class WP_PengalihanTanahBangunan(WajibPajak): pass
+        class WP_Pengalihan_Umum_2_5Pct(WP_PengalihanTanahBangunan): pass
+        class WP_Pengalihan_RumahSederhana_1Pct(WP_PengalihanTanahBangunan): pass
+        class WP_Pengalihan_Pemerintah_0Pct(WP_PengalihanTanahBangunan): pass
+        class WP_Pengecualian_Pengalihan_OP_Dibawah60Jt(WP_PengalihanTanahBangunan): pass
+
         # Lapisan Hukum & Provenance
         class DokumenHukum(Thing): pass
         class Regulasi(DokumenHukum): pass
@@ -330,6 +390,7 @@ def build_tbox(world: Optional[World] = None) -> tuple:
         class memilikiKewajiban(WajibPajak >> KewajibanPajak): pass
         class berisikoSanksi(WajibPajak >> SanksiAdministratif): pass
         class memilikiPekerjaan(OrangPribadi >> JenisPekerjaan): pass
+        class memilikiPenghasilanFinal(WajibPajak >> ObjekPenghasilanFinal): pass
         class berdomisiliDi(WajibPajak >> WilayahDaerah): pass
 
         # 3. Data Properties
@@ -384,6 +445,13 @@ def build_tbox(world: Optional[World] = None) -> tuple:
         class isBidangUsahaTaxAllowance(BadanDalamNegeri >> bool, FunctionalProperty): pass
         class isLokasiProvinsiMemenuhiTaxAllowance(BadanDalamNegeri >> bool, FunctionalProperty): pass
         class isIndustriPadatKarya(BadanDalamNegeri >> bool, FunctionalProperty): pass
+        class hasNilaiSewaTanahBangunanTahunan(WajibPajak >> float, FunctionalProperty): pass
+        class hasBungaDepositoTabunganTahunan(WajibPajak >> float, FunctionalProperty): pass
+        class hasPokokDepositoTabungan(WajibPajak >> float, FunctionalProperty): pass
+        class hasNilaiBrutoJasaKonstruksi(WajibPajak >> float, FunctionalProperty): pass
+        class hasNilaiPengalihanTanahBangunan(WajibPajak >> float, FunctionalProperty): pass
+        class isJasaAkomodasiPenginapan(WajibPajak >> bool, FunctionalProperty): pass
+        class isPenghasilanDibawahPTKP(OrangPribadi >> bool, FunctionalProperty): pass
 
         class hasTarifPersen(TarifPajak >> float, FunctionalProperty): pass
         class hasNominalSanksi(SanksiAdministratif >> float, FunctionalProperty): pass
@@ -407,7 +475,19 @@ def build_tbox(world: Optional[World] = None) -> tuple:
         AllDisjoint([PekerjaanPegawaiTetap, PekerjaanPegawaiTidakTetap, PekerjaanPesertaKegiatan])
         AllDisjoint([OP_SubjekDalamNegeri, OP_SubjekLuarNegeri])
         AllDisjoint([OP_TER_Kategori_A, OP_TER_Kategori_B, OP_TER_Kategori_C])
-        AllDisjoint([WajibPajak, JenisPekerjaan, WilayahDaerah, Regulasi, Pasal, AturanHukum, TarifPajak, FasilitasPerpajakan, KewajibanPajak, SanksiAdministratif, DomainPajak])
+        AllDisjoint([SewaTanahDanBangunan, BungaDepositoDanTabungan, JasaKonstruksi, PengalihanHakAtasTanahBangunan])
+        AllDisjoint([ObjekBungaDepositoTabunganUmum, ObjekDepositoDHE_USD])
+        AllDisjoint([
+            JasaKonstruksiPekerjaanKecilSBU,
+            JasaKonstruksiPekerjaanNonKecilSBU,
+            JasaKonstruksiTerintegrasiSBU,
+            JasaKonstruksiPekerjaanTanpaSBU,
+            JasaKonstruksiTerintegrasiTanpaSBU,
+            JasaKonstruksiKonsultansiSBU,
+            JasaKonstruksiKonsultansiTanpaSBU,
+        ])
+        AllDisjoint([PengalihanTanahBangunanUmum, PengalihanRumahSederhanaDeveloper, PengalihanKepadaPemerintahPenugasan])
+        AllDisjoint([WajibPajak, JenisPekerjaan, ObjekPajak, WilayahDaerah, Regulasi, Pasal, AturanHukum, TarifPajak, FasilitasPerpajakan, KewajibanPajak, SanksiAdministratif, DomainPajak])
 
         # 5. Nominals (OneOf DomainPajak & WilayahDaerah)
         dom_names = [
@@ -666,6 +746,69 @@ def build_tbox(world: Optional[World] = None) -> tuple:
             Or([PenerimaPPh23_NonBank_JasaSewa, PenerimaPPh23_NonBank_Modal]) & hasNPWP.value(False)
         )
 
+        # PPh Final Pasal 4 ayat (2) (PP 34/2017, PP 131/2000, PP 51/2008 jo. PP 9/2022, PP 34/2016)
+        WP_PenerimaSewaTanahBangunan.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(SewaTanahDanBangunan)
+        )
+        WP_Pengecualian_SewaPenginapan.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(SewaTanahDanBangunan) & isJasaAkomodasiPenginapan.value(True)
+        )
+        WP_PenerimaBungaDeposito.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(ObjekBungaDepositoTabunganUmum)
+        )
+        WP_PenerimaBungaDepositoDHE_USD.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(ObjekDepositoDHE_USD)
+        )
+        WP_Pengecualian_Deposito_Max7_5Jt.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(BungaDepositoDanTabungan)
+            & hasPokokDepositoTabungan.some(ConstrainedDatatype(float, max_inclusive=7500000.0))
+        )
+        WP_Pengecualian_Deposito_DibawahPTKP.equivalent_to.append(
+            OrangPribadi & memilikiPenghasilanFinal.some(BungaDepositoDanTabungan) & isPenghasilanDibawahPTKP.value(True)
+        )
+        WP_PenyediaJasaKonstruksi.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksi)
+        )
+        WP_JasaKonstruksi_Kecil_SBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiPekerjaanKecilSBU)
+        )
+        WP_JasaKonstruksi_NonKecil_SBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiPekerjaanNonKecilSBU)
+        )
+        WP_JasaKonstruksi_Terintegrasi_SBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiTerintegrasiSBU)
+        )
+        WP_JasaKonstruksi_TanpaSBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiPekerjaanTanpaSBU)
+        )
+        WP_JasaKonstruksi_Terintegrasi_TanpaSBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiTerintegrasiTanpaSBU)
+        )
+        WP_JasaKonstruksi_Konsultansi_SBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiKonsultansiSBU)
+        )
+        WP_JasaKonstruksi_Konsultansi_TanpaSBU.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(JasaKonstruksiKonsultansiTanpaSBU)
+        )
+        WP_PengalihanTanahBangunan.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(PengalihanHakAtasTanahBangunan)
+        )
+        WP_Pengalihan_Umum_2_5Pct.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(PengalihanTanahBangunanUmum)
+        )
+        WP_Pengalihan_RumahSederhana_1Pct.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(PengalihanRumahSederhanaDeveloper)
+        )
+        WP_Pengalihan_Pemerintah_0Pct.equivalent_to.append(
+            WajibPajak & memilikiPenghasilanFinal.some(PengalihanKepadaPemerintahPenugasan)
+        )
+        WP_Pengecualian_Pengalihan_OP_Dibawah60Jt.equivalent_to.append(
+            OrangPribadi
+            & memilikiPenghasilanFinal.some(PengalihanHakAtasTanahBangunan)
+            & isPenghasilanDibawahPTKP.value(True)
+            & hasNilaiPengalihanTanahBangunan.some(ConstrainedDatatype(float, max_exclusive=60000000.0))
+        )
+
     return w, onto
 
 
@@ -808,6 +951,27 @@ def _create_catalog_and_swrl(onto, rules_by_id: Dict[str, dict], mk_docs: Dict[s
             j_ind = j_cls(j_id)
             j_ind.label = [j_lbl]
 
+        # 2c. Katalog Individu ObjekPenghasilanFinal Pasal 4(2)
+        final_obj_specs = [
+            ("SewaTanahDanBangunan", "Jenis_SewaTanahBangunan", "Persewaan Tanah dan/atau Bangunan (PP 34/2017 - PPh Final 10%)"),
+            ("ObjekBungaDepositoTabunganUmum", "Jenis_BungaDepositoTabungan", "Bunga Deposito, Tabungan & Diskonto SBI Umum (PP 131/2000 - PPh Final 20%)"),
+            ("ObjekDepositoDHE_USD", "Jenis_DepositoDHE_USD", "Bunga Deposito Devisa Hasil Ekspor (DHE) USD (PP 131/2000 jo. PP 123/2015 - 0% s.d. 10%)"),
+            ("JasaKonstruksiPekerjaanKecilSBU", "Jenis_JasaKonstruksi_Kecil_SBU", "Jasa Konstruksi - Pekerjaan Konstruksi Kualifikasi Kecil / SKK (PP 9/2022 - 1,75%)"),
+            ("JasaKonstruksiPekerjaanNonKecilSBU", "Jenis_JasaKonstruksi_NonKecil_SBU", "Jasa Konstruksi - Pekerjaan Konstruksi Menengah/Besar Bersertifikat (PP 9/2022 - 2,65%)"),
+            ("JasaKonstruksiTerintegrasiSBU", "Jenis_JasaKonstruksi_Terintegrasi_SBU", "Jasa Konstruksi - Pekerjaan Konstruksi Terintegrasi Bersertifikat SBU (PP 9/2022 - 2,65%)"),
+            ("JasaKonstruksiPekerjaanTanpaSBU", "Jenis_JasaKonstruksi_TanpaSBU", "Jasa Konstruksi - Pekerjaan Konstruksi Tanpa Sertifikat SBU/SKK (PP 9/2022 - 4%)"),
+            ("JasaKonstruksiTerintegrasiTanpaSBU", "Jenis_JasaKonstruksi_Terintegrasi_TanpaSBU", "Jasa Konstruksi - Pekerjaan Terintegrasi Tanpa SBU (PP 9/2022 - 4%)"),
+            ("JasaKonstruksiKonsultansiSBU", "Jenis_JasaKonstruksi_Konsultansi_SBU", "Jasa Konstruksi - Jasa Konsultansi Bersertifikat SBU/SKK (PP 9/2022 - 3,5%)"),
+            ("JasaKonstruksiKonsultansiTanpaSBU", "Jenis_JasaKonstruksi_Konsultansi_TanpaSBU", "Jasa Konstruksi - Jasa Konsultansi Tanpa Sertifikat SBU/SKK (PP 9/2022 - 6%)"),
+            ("PengalihanTanahBangunanUmum", "Jenis_PengalihanTanahBangunan_Umum", "Pengalihan Hak atas Tanah dan/atau Bangunan Umum (PP 34/2016 - 2,5%)"),
+            ("PengalihanRumahSederhanaDeveloper", "Jenis_PengalihanRumahSederhana", "Pengalihan Rumah Sederhana / Rusunami oleh Developer (PP 34/2016 - 1%)"),
+            ("PengalihanKepadaPemerintahPenugasan", "Jenis_PengalihanKepadaPemerintah", "Pengalihan Tanah/Bangunan kepada Pemerintah/BUMN/BUMD Penugasan Khusus (PP 34/2016 - 0%)"),
+        ]
+        for f_cls_name, f_id, f_lbl in final_obj_specs:
+            f_cls = getattr(onto, f_cls_name)
+            f_ind = f_cls(f_id)
+            f_ind.label = [f_lbl]
+
         # Tautkan contoh rantai rujukan regulasi (TransitiveProperty merujukDokumen -> S dalam SROIQ)
         r_pmk131 = ensure_reg("PMK-2024-131")
         r_pmk164 = ensure_reg("PMK-2023-164")
@@ -874,6 +1038,25 @@ def _create_catalog_and_swrl(onto, rules_by_id: Dict[str, dict], mk_docs: Dict[s
             ("SWRL_TK_PPh23_Modal", "PenerimaPPh23_NonBank_Modal(?wp) -> dikenaiTarif(?wp, Tarif_PPh23_Modal_15Pct)"),
             ("SWRL_TK_PPh23_Bank", "WajibPajak(?wp), isBankPenerimaPenghasilan(?wp, true) -> memilikiFasilitas(?wp, Fasilitas_Pengecualian_PPh23_Bank)"),
             ("SWRL_TK_PPh23_NonNPWP", "WP_PPh23_TanpaNPWP(?wp) -> berisikoSanksi(?wp, Sanksi_PPh23_Kenaikan100Pct_NonNPWP)"),
+            # PPh Final Pasal 4 ayat (2) (PP 34/2017, PP 131/2000, PP 51/2008 jo. PP 9/2022, PP 34/2016)
+            ("SWRL_TK_PPh4_2_SewaTanahBangunan", "WP_PenerimaSewaTanahBangunan(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_SewaTanahBangunan_10Pct), memilikiKewajiban(?wp, Kewajiban_PotongSetor_SewaTanahBangunan)"),
+            ("SWRL_TK_PPh4_2_SewaPenginapan_Pengecualian", "WP_Pengecualian_SewaPenginapan(?wp) -> memilikiFasilitas(?wp, Fasilitas_Pengecualian_SewaPenginapan_PP34)"),
+            ("SWRL_TK_PPh4_2_BungaDeposito_20", "WP_PenerimaBungaDeposito(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_BungaDepositoTabungan_20Pct)"),
+            ("SWRL_TK_PPh4_2_Deposito_DHE_USD", "WP_PenerimaBungaDepositoDHE_USD(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_DepositoDHE_USD_Bertingkat)"),
+            ("SWRL_TK_PPh4_2_Deposito_Max7_5Jt", "WP_Pengecualian_Deposito_Max7_5Jt(?wp) -> memilikiFasilitas(?wp, Fasilitas_Pengecualian_Deposito_Dibawah_7_5Jt)"),
+            ("SWRL_TK_PPh4_2_Deposito_DibawahPTKP", "WP_Pengecualian_Deposito_DibawahPTKP(?wp) -> memilikiFasilitas(?wp, Fasilitas_Restitusi_BungaDeposito_DibawahPTKP)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_KecilSBU", "WP_JasaKonstruksi_Kecil_SBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_KecilSBU_1_75Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_NonKecilSBU", "WP_JasaKonstruksi_NonKecil_SBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_NonKecilSBU_2_65Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_TerintegrasiSBU", "WP_JasaKonstruksi_Terintegrasi_SBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_TerintegrasiSBU_2_65Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_TanpaSBU", "WP_JasaKonstruksi_TanpaSBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_TanpaSBU_4Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_TerintegrasiTanpaSBU", "WP_JasaKonstruksi_Terintegrasi_TanpaSBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_TerintegrasiTanpaSBU_4Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_KonsultansiSBU", "WP_JasaKonstruksi_Konsultansi_SBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_KonsultansiSBU_3_5Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_KonsultansiTanpaSBU", "WP_JasaKonstruksi_Konsultansi_TanpaSBU(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_Konstruksi_KonsultansiTanpaSBU_6Pct)"),
+            ("SWRL_TK_PPh4_2_Konstruksi_PencatatanTerpisah", "WP_PenyediaJasaKonstruksi(?wp) -> memilikiKewajiban(?wp, Kewajiban_PencatatanTerpisah_JasaKonstruksi)"),
+            ("SWRL_TK_PPh4_2_Pengalihan_Umum", "WP_Pengalihan_Umum_2_5Pct(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_PengalihanTanahBangunan_2_5Pct), memilikiKewajiban(?wp, Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta)"),
+            ("SWRL_TK_PPh4_2_Pengalihan_RumahSederhana", "WP_Pengalihan_RumahSederhana_1Pct(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_PengalihanRumahSederhana_1Pct), memilikiKewajiban(?wp, Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta)"),
+            ("SWRL_TK_PPh4_2_Pengalihan_Pemerintah", "WP_Pengalihan_Pemerintah_0Pct(?wp) -> dikenaiTarif(?wp, Tarif_PPhFinal_PengalihanKepadaPemerintah_0Pct)"),
+            ("SWRL_TK_PPh4_2_Pengalihan_OP_Dibawah60Jt", "WP_Pengecualian_Pengalihan_OP_Dibawah60Jt(?wp) -> memilikiFasilitas(?wp, Fasilitas_Pengecualian_Pengalihan_OP_Dibawah60Jt_PTKP)"),
             ("SWRL_TK_C1_PBB_DKI", "WP_Wilayah_DKI(?wp), isMemilikiObjekPBB(?wp, true) -> memilikiKewajiban(?wp, Kewajiban_LaporPBB), dikenaiTarif(?wp, Tarif_PBB_DKI_0_5Pct)"),
             ("SWRL_TK_C1_PBB_Semarang", "WP_Wilayah_Semarang(?wp), isMemilikiObjekPBB(?wp, true) -> memilikiKewajiban(?wp, Kewajiban_LaporPBB), dikenaiTarif(?wp, Tarif_PBB_Semarang_0_3Pct)"),
             ("SWRL_TK_C1_PBB_Nasional_NonDKI", "WP_Wilayah_Nasional_NonDKI(?wp), isMemilikiObjekPBB(?wp, true) -> memilikiKewajiban(?wp, Kewajiban_LaporPBB)"),
@@ -1230,7 +1413,7 @@ def reason_wajib_pajak(reasoning_owl: Path, wp_id: str, wp_kind: str, props: dic
             cls = onto.Badan if wp_kind == "Badan" else onto.OrangPribadi
         wp = cls(wp_id)
         for k, v in props.items():
-            if k in ("memilikiPekerjaan", "berdomisiliDi"):
+            if k in ("memilikiPekerjaan", "berdomisiliDi", "memilikiPenghasilanFinal"):
                 vals = v if isinstance(v, (list, tuple)) else [v]
                 objs = [getattr(onto, str(item), None) for item in vals]
                 setattr(wp, k, [o for o in objs if o is not None])

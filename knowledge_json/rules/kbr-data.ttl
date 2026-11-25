@@ -78004,7 +78004,7 @@ kbr:Aturan_R_PP_2000_131_c9221e0b78 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2000-131-c9221e0b78"^^xsd:string ;
     kbr:hasSourceLocator "PP-2000-131#BT/2"^^xsd:string ;
     kbr:hasSourceQuote "a. Atas bunga dari deposito dalam mata uang dolar Amerika Serikat yang dananya bersumber dari Devisa Hasil Ekspor dan ditempatkan di dalam negeri pada bank yang didirikan atau bertempat kedudukan di Indonesia atau cabang bank luar negeri di Indonesia dikenai Pajak Penghasilan yang bersifat final dengan tarif sebagai berikut: 1. Tarif 10% (sepuluh persen) dari jumlah bruto, untuk deposito dengan jangka waktu 1 (satu) bulan; 2. Tarif 7,5% (tujuh koma lima persen) dari jumlah bruto, untuk deposito dengan jangka waktu 3 (tiga) bulan; 3. Tarif 2,5% (dua koma lima persen) dari jumlah bruto, untuk deposito dengan jangka waktu 6 (enam) bulan; dan 4. Tarif 0% (nol persen) dari jumlah bruto, untuk deposito dengan jangka waktu lebih dari 6 (enam) bulan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2000_131_d7e7a5e6ac a kbr:Pengecualian ;
@@ -78013,7 +78013,7 @@ kbr:Aturan_R_PP_2000_131_d7e7a5e6ac a kbr:Pengecualian ;
     kbr:hasRuleId "R-PP-2000-131-d7e7a5e6ac"^^xsd:string ;
     kbr:hasSourceLocator "PP-2000-131#BT/1"^^xsd:string ;
     kbr:hasSourceQuote "Ketentuan sebagaimana dimaksud dalam ayat (1) tidak berlaku terhadap orang pribadi Subjek Pajak dalam negeri yang seluruh penghasilannya dalam 1 (satu) tahun pajak termasuk bunga dan diskonto tidak melebihi Penghasilan Tidak Kena Pajak."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2000_131_df0f230457 a kbr:Larangan ;
@@ -78040,7 +78040,7 @@ kbr:Aturan_R_PP_2000_131_fc05ed2fb9 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2000-131-fc05ed2fb9"^^xsd:string ;
     kbr:hasSourceLocator "PP-2000-131#BT/2"^^xsd:string ;
     kbr:hasSourceQuote "c. Atas bunga dari tabungan dan diskonto Sertifikat Bank Indonesia, serta bunga dari deposito selain dari deposito sebagaimana dimaksud dalam huruf a dan huruf b dikenai Pajak Penghasilan yang bersifat final dengan tarif sebagai berikut: 1. Tarif 20% (dua puluh persen) dari jumlah bruto, terhadap Wajib Pajak dalam negeri dan bentuk usaha tetap; dan 2. Tarif 20% (dua puluh persen) dari jumlah bruto atau dengan tarif berdasarkan Perjanjian Penghindaran Pajak Berganda yang berlaku, terhadap Wajib Pajak luar negeri"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2000_132_d2b0e83e0c a kbr:AturanTarif ;
@@ -78391,7 +78391,7 @@ kbr:Aturan_R_PP_2008_51_2e03aa08cc a kbr:Kewajiban ;
     kbr:hasRuleId "R-PP-2008-51-2e03aa08cc"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/10A"^^xsd:string ;
     kbr:hasSourceQuote "a. dalam hal berita acara serah terima penyelesaian pekerjaan ditandatangani oleh Penyedia Jasa dan Pengguna Jasa sampai dengan tanggal 31 Desember 2008, pengenaan Pajak Penghasilan dilakukan berdasarkan ketentuan sebagaimana dimaksud dalam Pasal 10;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_3f722e197c a kbr:Kewajiban ;
@@ -78418,7 +78418,7 @@ kbr:Aturan_R_PP_2008_51_59116f2a02 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2008-51-59116f2a02"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/3"^^xsd:string ;
     kbr:hasSourceQuote "d. 2,650/o (dua koma enam puluh lima persen) untuk pekerjaan konstruksi terintegrasi yang dilakukan oleh Penyedia Jasa yang memiliki sertifikat badan usaha;"^^xsd:string ;
-    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_5e2244a5b5 a kbr:Kewajiban ;
@@ -78436,7 +78436,7 @@ kbr:Aturan_R_PP_2008_51_631d959451 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2008-51-631d959451"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/3"^^xsd:string ;
     kbr:hasSourceQuote "g. 60/o (enam persen) untuk jasa konsultansi konstruksi yang dilakukan oleh penyedia Jasa yang tidak memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan."^^xsd:string ;
-    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_64a1a86f4f a kbr:Larangan ;
@@ -78472,7 +78472,7 @@ kbr:Aturan_R_PP_2008_51_77cd2d02ee a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2008-51-77cd2d02ee"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/3"^^xsd:string ;
     kbr:hasSourceQuote "c. 2,650/o (dua koma enam puluh lima persen) untuk pekerjaan konstruksi yang dilakukan oleh penyedia Jasa selain Penyedia Jasa sebagaimana dimaksud dalam huruf a dan huruf b;"^^xsd:string ;
-    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_89b8fe1b20 a kbr:Kewajiban ;
@@ -78490,7 +78490,7 @@ kbr:Aturan_R_PP_2008_51_93814c2b7a a kbr:Larangan ;
     kbr:hasRuleId "R-PP-2008-51-93814c2b7a"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/6"^^xsd:string ;
     kbr:hasSourceQuote "(2) Dalam hal Nilai Kontrak Jasa Konstruksi tidak dibayar sepenuhnya oleh Pengguna Jasa, atas Nilai Kontrak Jasa Konstruksi yang tidak dibayar tersebut tidak terutang Pajak Penghasilan yang bersifat final, dengan syarat Nilai Kontrak Jasa Konstruksi yang tidak dibayar tersebut dicatat sebagai piutang yang tidak dapat ditagih."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_a8ec884e18 a kbr:Kewajiban ;
@@ -78535,7 +78535,7 @@ kbr:Aturan_R_PP_2008_51_bd43270f8a a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2008-51-bd43270f8a"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/3"^^xsd:string ;
     kbr:hasSourceQuote "a. l,75oh (satu koma tujuh puluh lima persen) untuk pekerjaan konstruksi yang dilakukan oleh penyedia Jasa yang memiliki sertifikat badan usaha kualifikasi kecil atau sertifikat kompetensi kerja untuk usaha orang perseorangan;"^^xsd:string ;
-    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_caaec7cffa a kbr:Definisi ;
@@ -78607,7 +78607,7 @@ kbr:Aturan_R_PP_2008_51_ee380105e4 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2008-51-ee380105e4"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/3"^^xsd:string ;
     kbr:hasSourceQuote "f. 3,5% (tiga koma lima persen) untuk jasa konsultansi konstruksi yang dilakukan oleh penyedia Jasa yang memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan;"^^xsd:string ;
-    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_f7ce5d08bf a kbr:Definisi ;
@@ -78643,7 +78643,7 @@ kbr:Aturan_R_PP_2008_51_fc527468d8 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2008-51-fc527468d8"^^xsd:string ;
     kbr:hasSourceLocator "PP-2008-51#BT/3"^^xsd:string ;
     kbr:hasSourceQuote "b. 4% (empat persen) untuk pekerjaan konstruksi yang dilakukan oleh Penyedia Jasa yang tidak memiliki sertifikat badan usaha atau sertifikat kompetensi kerja untuk usaha orang perseorangan;"^^xsd:string ;
-    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2008_51_fe99b15648 a kbr:AturanTarif ;
@@ -81678,7 +81678,7 @@ kbr:Aturan_R_PP_2016_34_01ce0e8e89 a kbr:Sanksi ;
     kbr:hasRuleId "R-PP-2016-34-01ce0e8e89"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/8"^^xsd:string ;
     kbr:hasSourceQuote "Pejabat yang berwenang menandatangani akta, keputusan, kesepakatan atau risalah lelang yang tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 3 ayat (5) dan/ atau Pasal 3 ayat (6) dikenai sanksi sesuai dengan ketentuan peraturan perundang- undangan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_1154adca65 a kbr:Kewajiban ;
@@ -81696,7 +81696,7 @@ kbr:Aturan_R_PP_2016_34_2c3484ea65 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2016-34-2c3484ea65"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/2/1"^^xsd:string ;
     kbr:hasSourceQuote "c. O% (nol persen) atas pengalihan hak atas tanah dan/ atau bangunan kepada pemerintah, badan usaha milik negara yang mendapat Penugasan khusus dari Pemerintah, atau badan usaha milik daerah yang mendapat penugasan khusus dari kepala daerah, sebagaimana dimaksud dalam undang-undang yang mengatur mengenai pengadaan tanah bagi pembangunan untuk kepentingan umum."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_3f8833e25e a kbr:Definisi ;
@@ -81732,7 +81732,7 @@ kbr:Aturan_R_PP_2016_34_7a730deeca a kbr:Kewajiban ;
     kbr:hasRuleId "R-PP-2016-34-7a730deeca"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/4"^^xsd:string ;
     kbr:hasSourceQuote "Bendahara pemerintah atau pejabat sebagaimana dimaksud pada ayat (1) wajib menyampaikan laporan mengenai pengalihan hak atas tanah dan/ atau bangunan sebagaimana dimaksud pada ayat (1) kepada Direkttir Jenderal Pajak."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_7c066787f5 a kbr:AturanTarif ;
@@ -81741,7 +81741,7 @@ kbr:Aturan_R_PP_2016_34_7c066787f5 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2016-34-7c066787f5"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/2/1"^^xsd:string ;
     kbr:hasSourceQuote "a. 2,5% (dua koma lima persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan selain pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana atau Rumah Susun Sederhana yang dilakukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/ atau bangunan;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_870c495506 a kbr:Kewajiban ;
@@ -81758,8 +81758,8 @@ kbr:Aturan_R_PP_2016_34_87d35ef74f a kbr:Pengecualian ;
     kbr:diaturDalamPasal kbr:Pasal_PP_2016_34_BT_6 ;
     kbr:hasRuleId "R-PP-2016-34-87d35ef74f"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/6"^^xsd:string ;
-    kbr:hasSourceQuote "d. badan yang melakukan pengalihan harta berupa tanah dan/ atau bangunan dengan cara hibah kepada badan keagamaan, badan pendidikan, badan sosial termasuk yayasan, koperasi atau orang pribadi yang menjalankan usaha mikro dan kecil, yang ketentuannya diatur lebih lanjut dengan Peraturan Menteri Keuangan, sepanjang hibah tersebut tidak ada hubungan dengan usaha, pekerjaan, kepemilikan, atau penguasaan antara pihak-pihak yang bersangkutan;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasSourceQuote "d. badan yang melakukan pengalihan harta berupa tanah dan/ atau bangunan dengan cara hibah kepada badan keagamaan, badan pendidikan, badan sosial termasuk yayasan, koperasi atau orang pribadi yang menjalankan usaha mikro dan kecil, yang ketentuannya diatur lebih lanjut dengan Peraturan Menteri Keuangan, sepanjang hibah tersebut tidak ada hubungan dengan usaha, pekerjaan, kepemilikan, atau penguasaan antara pihak- pihak yang bersangkutan;"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_8d02c0f189 a kbr:Pengecualian ;
@@ -81768,7 +81768,7 @@ kbr:Aturan_R_PP_2016_34_8d02c0f189 a kbr:Pengecualian ;
     kbr:hasRuleId "R-PP-2016-34-8d02c0f189"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/6"^^xsd:string ;
     kbr:hasSourceQuote "atau orang pribadi atau badan yang tidak termasuk subjek pajak yang melakukan pengalihan harta berupa tanah dan/ atau bangunan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_9a6c7a7ba1 a kbr:Sanksi ;
@@ -81777,7 +81777,7 @@ kbr:Aturan_R_PP_2016_34_9a6c7a7ba1 a kbr:Sanksi ;
     kbr:hasRuleId "R-PP-2016-34-9a6c7a7ba1"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/8"^^xsd:string ;
     kbr:hasSourceQuote "Pihak penjual sebaeaimana dimaksud dalam Pasal 5 ayat (2) yang tidak memenuhi ketentuan sebagaimana dimaksud dalam Pasal 5 ayat (2) dan/ atau Pasal 5 ayat (3), dikenai sanksi sesuai dengan ketentuan peraturan perundang-undangan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_9b3e8ded61 a kbr:AturanTarif ;
@@ -81786,7 +81786,7 @@ kbr:Aturan_R_PP_2016_34_9b3e8ded61 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2016-34-9b3e8ded61"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/2/3..1"^^xsd:string ;
     kbr:hasSourceQuote "a. 2,5% (dua koma lima persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan selain pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana atau Rumah Susun Sederhana yang dilakukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/ atau bangunan;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_9bbd83e4c2 a kbr:Pengecualian ;
@@ -81795,7 +81795,7 @@ kbr:Aturan_R_PP_2016_34_9bbd83e4c2 a kbr:Pengecualian ;
     kbr:hasRuleId "R-PP-2016-34-9bbd83e4c2"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/6"^^xsd:string ;
     kbr:hasSourceQuote "a. orang pribadi yang mempunyai penghasilan di bawah Penghasilan Tidak Kena Pajak yang melakukan pengalihan hak atas tanah dan/ atau bangunan dengan jumlah bruto pengalihannya kurang dari Rp60.000.000,00 (enam puluh juta rupiah) dan bukan merupakan jumlah yang dipecah-pecah;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_9fdb5292bd a kbr:AturanTarif ;
@@ -81804,7 +81804,7 @@ kbr:Aturan_R_PP_2016_34_9fdb5292bd a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2016-34-9fdb5292bd"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/2/1"^^xsd:string ;
     kbr:hasSourceQuote "b. 1% (satu persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana dan Rumah Susun Sederhana yang dilalukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/atau bangunan;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_a5cc82241a a kbr:Kewajiban ;
@@ -81813,7 +81813,7 @@ kbr:Aturan_R_PP_2016_34_a5cc82241a a kbr:Kewajiban ;
     kbr:hasRuleId "R-PP-2016-34-a5cc82241a"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/7"^^xsd:string ;
     kbr:hasSourceQuote "Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional hanya mengeluarkan surat keputusan pemberian hak, pengakuan hak, dan peralihan hak atas tanah, apabila permohonannya dilengkapi dengan Surat Setoran Pajak atau hasil cetak sarana administrasi lain yang disamakan dengan Surat Setoran Pajak sebagaimana dimaksud dalam Pasal 3 ayat (5) dan Pasal 4 ayat (3), kecuali permohonan sehubungan dengan ketentuan sebagaimana dimaksud dalam Pasal 2 ayat (1) huruf c dan Pasal 6."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_baf07cac34 a kbr:Kewajiban ;
@@ -81840,7 +81840,7 @@ kbr:Aturan_R_PP_2016_34_f7d3df5af9 a kbr:Kewajiban ;
     kbr:hasRuleId "R-PP-2016-34-f7d3df5af9"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/4"^^xsd:string ;
     kbr:hasSourceQuote "Bendahara pemerintah atau pejabat sebagaimana dimaksud pada ayal (1) wajib menyetor Pajak Penghasilan yang telah dipungut ke bank/pos persepsi sebelum melakukan pembayaran kepada orang pribadi atau badan yang berhak menerimanya atau sebelum tukar menukar dilaksanakan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2016_34_f8880289de a kbr:AturanTarif ;
@@ -81849,7 +81849,7 @@ kbr:Aturan_R_PP_2016_34_f8880289de a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2016-34-f8880289de"^^xsd:string ;
     kbr:hasSourceLocator "PP-2016-34#BT/2/2"^^xsd:string ;
     kbr:hasSourceQuote "a. 2,5% (dua koma lima persen) dari jumlah bruto nilai pengalihan hak atas tanah dan/ atau bangunan selain pengalihan hak atas tanah dan/ atau bangunan berupa Rumah Sederhana atau Rumah Susun Sederhana yang dilakukan oleh Wajib Pajak yang usaha pokoknya melakukan pengalihan hak atas tanah dan/ atau bangunan;"^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2017_34_23baa99fce a kbr:Kewajiban ;
@@ -81930,7 +81930,7 @@ kbr:Aturan_R_PP_2017_34_86e520fb7b a kbr:Pengecualian ;
     kbr:hasRuleId "R-PP-2017-34-86e520fb7b"^^xsd:string ;
     kbr:hasSourceLocator "PP-2017-34#BT/2"^^xsd:string ;
     kbr:hasSourceQuote "Penghasilan sebagaimana dimaksud pada ayat (1), tidak termasuk penghasilan yang diterima atau diperoleh dari jasa pelayanan penginapan beserta akomodasinya."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2017_34_a11ca8c4a6 a kbr:AturanTarif ;
@@ -81939,7 +81939,7 @@ kbr:Aturan_R_PP_2017_34_a11ca8c4a6 a kbr:AturanTarif ;
     kbr:hasRuleId "R-PP-2017-34-a11ca8c4a6"^^xsd:string ;
     kbr:hasSourceLocator "PP-2017-34#BT/4"^^xsd:string ;
     kbr:hasSourceQuote "Besarnya Paj ak Penghasilan sebagaimana dimaksud dalam Pasal 2 ayat (1) sebesar 10olo (sepuluh persen) dari jumlah bruto nilai persewaan tanah dan/atau Bangunan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2017_34_a465bbabaa a kbr:Kewajiban ;
@@ -81984,7 +81984,7 @@ kbr:Aturan_R_PP_2017_34_fac78fb711 a kbr:Definisi ;
     kbr:hasRuleId "R-PP-2017-34-fac78fb711"^^xsd:string ;
     kbr:hasSourceLocator "PP-2017-34#BT/4"^^xsd:string ;
     kbr:hasSourceQuote "Jumlah bruto nilai persewaan tanah dan/atau Bangunan sebagaimana dimaksud pada ayat (1) merupakan semua jumlah yang dibayarkan atau yang diakui sebagai utang oleh Penyewa dengan nama dan dalam bentuk apapun yang berkaitan dengan tanah dan/atau Bangunan yang disewa termasuk biaya perawatan, biaya pemeliharaan, biaya keamanan, biaya layanan, dan biaya fasilitas lainnya, baik yang perjanjiannya dibuat secara terpisah maupun yang disatukan."^^xsd:string ;
-    kbr:hasStatusValidasi "REVIEW_REQUIRED"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_APPROVED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
 kbr:Aturan_R_PP_2017_53_0a87ff6b2e a kbr:Prosedur ;

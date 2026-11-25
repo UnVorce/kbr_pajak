@@ -401,9 +401,6 @@
                                 owl:onDatatype xsd:decimal ;
                                 owl:withRestrictions ( [ xsd:minInclusive 4800000000.0 ] ) ] ] ) ] .
 
-:ObjekPajak a owl:Class ;
-    rdfs:subClassOf owl:Thing .
-
 :PP55UMKM a owl:Class ;
     rdfs:subClassOf :FasilitasPerpajakan .
 
@@ -436,6 +433,55 @@
 
 :UMKM a owl:Class ;
     rdfs:subClassOf :WajibPajak .
+
+:WP_JasaKonstruksi_Kecil_SBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiPekerjaanKecilSBU ] ) ] .
+
+:WP_JasaKonstruksi_Konsultansi_SBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiKonsultansiSBU ] ) ] .
+
+:WP_JasaKonstruksi_Konsultansi_TanpaSBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiKonsultansiTanpaSBU ] ) ] .
+
+:WP_JasaKonstruksi_NonKecil_SBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiPekerjaanNonKecilSBU ] ) ] .
+
+:WP_JasaKonstruksi_TanpaSBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiPekerjaanTanpaSBU ] ) ] .
+
+:WP_JasaKonstruksi_Terintegrasi_SBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiTerintegrasiSBU ] ) ] .
+
+:WP_JasaKonstruksi_Terintegrasi_TanpaSBU a owl:Class ;
+    rdfs:subClassOf :WP_PenyediaJasaKonstruksi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksiTerintegrasiTanpaSBU ] ) ] .
 
 :WP_PBB_Surabaya_L1 a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
@@ -511,6 +557,90 @@
                         owl:hasValue false ;
                         owl:onProperty :hasNPWP ] ) ] .
 
+:WP_PenerimaBungaDeposito a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :ObjekBungaDepositoTabunganUmum ] ) ] .
+
+:WP_PenerimaBungaDepositoDHE_USD a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :ObjekDepositoDHE_USD ] ) ] .
+
+:WP_PenerimaSewaTanahBangunan a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :SewaTanahDanBangunan ] ) ] .
+
+:WP_Pengalihan_Pemerintah_0Pct a owl:Class ;
+    rdfs:subClassOf :WP_PengalihanTanahBangunan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :PengalihanKepadaPemerintahPenugasan ] ) ] .
+
+:WP_Pengalihan_RumahSederhana_1Pct a owl:Class ;
+    rdfs:subClassOf :WP_PengalihanTanahBangunan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :PengalihanRumahSederhanaDeveloper ] ) ] .
+
+:WP_Pengalihan_Umum_2_5Pct a owl:Class ;
+    rdfs:subClassOf :WP_PengalihanTanahBangunan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :PengalihanTanahBangunanUmum ] ) ] .
+
+:WP_Pengecualian_Deposito_DibawahPTKP a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :BungaDepositoDanTabungan ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenghasilanDibawahPTKP ] ) ] .
+
+:WP_Pengecualian_Deposito_Max7_5Jt a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :BungaDepositoDanTabungan ] [ a owl:Restriction ;
+                        owl:onProperty :hasPokokDepositoTabungan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 7500000.0 ] ) ] ] ) ] .
+
+:WP_Pengecualian_Pengalihan_OP_Dibawah60Jt a owl:Class ;
+    rdfs:subClassOf :WP_PengalihanTanahBangunan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :PengalihanHakAtasTanahBangunan ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenghasilanDibawahPTKP ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiPengalihanTanahBangunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 60000000.0 ] ) ] ] ) ] .
+
+:WP_Pengecualian_SewaPenginapan a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :SewaTanahDanBangunan ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isJasaAkomodasiPenginapan ] ) ] .
+
 :WP_TidakSelenggarakanPembukuan a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
     owl:equivalentClass [ a owl:Class ;
@@ -547,6 +677,11 @@
     rdfs:domain :PutusanMK ;
     rdfs:range xsd:string .
 
+:hasBungaDepositoTabunganTahunan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
 :hasCatatanMKSEMA a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :AturanHukum ;
@@ -573,6 +708,16 @@
     rdfs:range xsd:string .
 
 :hasNJOPTKP_PBB a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
+:hasNilaiBrutoJasaKonstruksi a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
+:hasNilaiSewaTanahBangunanTahunan a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :WajibPajak ;
     rdfs:range xsd:decimal .
@@ -837,6 +982,10 @@
                                 owl:onDatatype xsd:decimal ;
                                 owl:withRestrictions ( [ xsd:maxInclusive 4800000000.0 ] [ xsd:minExclusive 500000000.0 ] ) ] ] ) ] .
 
+:ObjekBungaDepositoTabunganUmum a owl:Class ;
+    rdfs:subClassOf :BungaDepositoDanTabungan ;
+    owl:disjointWith :ObjekDepositoDHE_USD .
+
 :PenerimaPPh23_NonBank_JasaSewa a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
     owl:equivalentClass [ a owl:Class ;
@@ -925,9 +1074,19 @@
     rdfs:domain :WajibPajak ;
     rdfs:range xsd:boolean .
 
+:hasNilaiPengalihanTanahBangunan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
 :hasPersentaseSahamPublik a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :Badan ;
+    rdfs:range xsd:decimal .
+
+:hasPokokDepositoTabungan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
     rdfs:range xsd:decimal .
 
 :isBidangUsahaTaxAllowance a owl:DatatypeProperty,
@@ -943,6 +1102,11 @@
 :isIndustriPadatKarya a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :BadanDalamNegeri ;
+    rdfs:range xsd:boolean .
+
+:isJasaAkomodasiPenginapan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
     rdfs:range xsd:boolean .
 
 :isLokasiProvinsiMemenuhiTaxAllowance a owl:DatatypeProperty,
@@ -1013,6 +1177,27 @@
 :CV a owl:Class ;
     rdfs:subClassOf :BadanDalamNegeri .
 
+:JasaKonstruksiKonsultansiSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
+:JasaKonstruksiKonsultansiTanpaSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
+:JasaKonstruksiPekerjaanKecilSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
+:JasaKonstruksiPekerjaanNonKecilSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
+:JasaKonstruksiPekerjaanTanpaSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
+:JasaKonstruksiTerintegrasiSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
+:JasaKonstruksiTerintegrasiTanpaSBU a owl:Class ;
+    rdfs:subClassOf :JasaKonstruksi .
+
 :KewajibanPajak a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
@@ -1028,6 +1213,12 @@
                                 owl:onDatatype xsd:decimal ;
                                 owl:withRestrictions ( [ xsd:maxExclusive 4800000000.0 ] ) ] ] ) ] .
 
+:ObjekDepositoDHE_USD a owl:Class ;
+    rdfs:subClassOf :BungaDepositoDanTabungan .
+
+:ObjekPajak a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
 :PekerjaanBebas a owl:Class ;
     rdfs:subClassOf :JenisPekerjaan .
 
@@ -1039,6 +1230,15 @@
 
 :PekerjaanPesertaKegiatan a owl:Class ;
     rdfs:subClassOf :PekerjaanPegawai .
+
+:PengalihanKepadaPemerintahPenugasan a owl:Class ;
+    rdfs:subClassOf :PengalihanHakAtasTanahBangunan .
+
+:PengalihanRumahSederhanaDeveloper a owl:Class ;
+    rdfs:subClassOf :PengalihanHakAtasTanahBangunan .
+
+:PengalihanTanahBangunanUmum a owl:Class ;
+    rdfs:subClassOf :PengalihanHakAtasTanahBangunan .
 
 :PutusanMK a owl:Class ;
     rdfs:subClassOf :DokumenHukum .
@@ -1077,6 +1277,11 @@
     rdfs:domain :WajibPajak ;
     rdfs:range xsd:boolean .
 
+:isPenghasilanDibawahPTKP a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:boolean .
+
 :isSubjekLuarNegeri a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :OrangPribadi ;
@@ -1097,6 +1302,9 @@
 
 :SanksiAdministratif a owl:Class ;
     rdfs:subClassOf owl:Thing .
+
+:SewaTanahDanBangunan a owl:Class ;
+    rdfs:subClassOf :ObjekPenghasilanFinal .
 
 :WP_Wilayah_Bali a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
@@ -1130,6 +1338,16 @@
 :PekerjaanPegawai a owl:Class ;
     rdfs:subClassOf :JenisPekerjaan .
 
+:WP_PengalihanTanahBangunan a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :PengalihanHakAtasTanahBangunan ] ) ] .
+
+:BungaDepositoDanTabungan a owl:Class ;
+    rdfs:subClassOf :ObjekPenghasilanFinal .
+
 :JenisPekerjaan a owl:Class ;
     rdfs:subClassOf owl:Thing .
 
@@ -1142,6 +1360,9 @@
 
 :OP_PemilikKendaraanDKI a owl:Class ;
     rdfs:subClassOf :OrangPribadi .
+
+:ObjekPenghasilanFinal a owl:Class ;
+    rdfs:subClassOf :ObjekPajak .
 
 :TarifPajak a owl:Class ;
     rdfs:subClassOf [ a owl:Restriction ;
@@ -1178,6 +1399,9 @@
             owl:onProperty :bagianDariRegulasi ;
             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
         :DokumenHukum .
+
+:PengalihanHakAtasTanahBangunan a owl:Class ;
+    rdfs:subClassOf :ObjekPenghasilanFinal .
 
 :WP_Wilayah_DKI a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
@@ -1223,6 +1447,13 @@
     rdfs:domain :WajibPajak ;
     rdfs:range xsd:boolean .
 
+:WP_PenyediaJasaKonstruksi a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :memilikiPenghasilanFinal ;
+                        owl:someValuesFrom :JasaKonstruksi ] ) ] .
+
 :WP_Wilayah_Jabar a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
     owl:equivalentClass [ a owl:Class ;
@@ -1265,6 +1496,9 @@
     rdfs:domain :Badan ;
     rdfs:range xsd:boolean .
 
+:JasaKonstruksi a owl:Class ;
+    rdfs:subClassOf :ObjekPenghasilanFinal .
+
 :isMilikPribadi a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :WajibPajak ;
@@ -1289,6 +1523,10 @@
     rdfs:domain :WajibPajak ;
     rdfs:range xsd:integer .
 
+:memilikiPenghasilanFinal a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :ObjekPenghasilanFinal .
+
 :Badan a owl:Class ;
     rdfs:subClassOf :WajibPajak .
 
@@ -1307,23 +1545,32 @@
     rdfs:subClassOf owl:Thing .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :Kewajiban :Hak :Larangan ) .
-
-[] a owl:AllDisjointClasses ;
     owl:members ( :OP_TER_Kategori_A :OP_TER_Kategori_B :OP_TER_Kategori_C ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :PekerjaanPegawai :PekerjaanBebas :UsahaDagangJasa ) .
+    owl:members ( :PengalihanTanahBangunanUmum :PengalihanRumahSederhanaDeveloper :PengalihanKepadaPemerintahPenugasan ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :WajibPajak :JenisPekerjaan :WilayahDaerah :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( :PT :CV :Koperasi :Yayasan :BadanUsahaTetap ) .
+    owl:members ( :JasaKonstruksiPekerjaanKecilSBU :JasaKonstruksiPekerjaanNonKecilSBU :JasaKonstruksiTerintegrasiSBU :JasaKonstruksiPekerjaanTanpaSBU :JasaKonstruksiTerintegrasiTanpaSBU :JasaKonstruksiKonsultansiSBU :JasaKonstruksiKonsultansiTanpaSBU ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :PekerjaanPegawaiTetap :PekerjaanPegawaiTidakTetap :PekerjaanPesertaKegiatan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :PekerjaanPegawai :PekerjaanBebas :UsahaDagangJasa ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Kewajiban :Hak :Larangan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :SewaTanahDanBangunan :BungaDepositoDanTabungan :JasaKonstruksi :PengalihanHakAtasTanahBangunan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :WajibPajak :JenisPekerjaan :ObjekPajak :WilayahDaerah :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :PT :CV :Koperasi :Yayasan :BadanUsahaTetap ) .
 

@@ -1,0 +1,31 @@
+{
+  "total_rules": 12907,
+  "audited_count": 28,
+  "decision_counts": {
+    "HUMAN_APPROVED": 15,
+    "HUMAN_FIXED": 13
+  },
+  "by_document_status": {
+    "PP-2017-34": {
+      "HUMAN_APPROVED": 2,
+      "HUMAN_FIXED": 1,
+      "VALIDATED": 12
+    },
+    "PP-2000-131": {
+      "HUMAN_APPROVED": 3,
+      "VALIDATED": 10
+    },
+    "PP-2008-51": {
+      "HUMAN_APPROVED": 2,
+      "HUMAN_FIXED": 16,
+      "VALIDATED": 18
+    },
+    "PP-2016-34": {
+      "HUMAN_APPROVED": 8,
+      "HUMAN_FIXED": 5,
+      "VALIDATED": 8
+    }
+  },
+  "quote_verbatim_verified": true,
+  "numeric_rate_verified": true
+}
