@@ -1,0 +1,18 @@
+{
+  "ter_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_ter_pph21.ttl",
+  "ter_total_brackets": 127,
+  "ter_by_category": {
+    "TER_A": 44,
+    "TER_B": 40,
+    "TER_C": 41,
+    "TER_Harian": 2
+  },
+  "kbli": {
+    "total_kbli_concepts": 1449,
+    "lamp1_nppn_op": 1431,
+    "lamp2_pemeriksaan_op": 1433,
+    "lamp3_pemeriksaan_badan": 1429,
+    "pp78_tax_allowance": 168,
+    "out_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_kbli.ttl"
+  }
+}

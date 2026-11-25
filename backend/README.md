@@ -21,9 +21,11 @@ Dokumentasi interaktif Swagger UI tersedia di: `http://localhost:8000/docs`
 
 | Method | Path | Fungsi |
 |---|---|---|
-| `GET` | `/health` | Status ontologi `.owl`, `.ttl`, dan statistik build |
+| `GET` | `/health` | Status ontologi `.owl`, `.ttl` (termasuk `kbr_ter_pph21.ttl` & `kbr_kbli.ttl`), dan statistik build |
 | `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
-| `POST` | `/reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + **`estimasi_pajak` (`SPARQL BIND`)** + justifikasi pasal/MK/SEMA |
+| `GET` | `/kbli` | Cari kode/uraian KBLI di graf SKOS `kbr_kbli.ttl` (`?q=...&limit=20`, `1.449` KBLI) |
+| `GET` | `/kbli/{kode}` | Detail 1 kode KBLI (persentase NPPN 3 wilayah & syarat Tax Allowance PP 78/2019) |
+| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + auto-mapping `kodeKBLI` + **`estimasi_pajak` (`SPARQL BIND`, TER PPh 21, NPPN)** + justifikasi pasal/MK/SEMA |
 | `GET` | `/catalog` | Peta `83` konsep tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
 | `GET` | `/scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
 | `GET` | `/sparql/provenance` | Query SPARQL provenance (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) atas 12.907 aturan |

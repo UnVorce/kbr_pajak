@@ -43,9 +43,10 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000
 
 | Endpoint | Fungsi |
 |---|---|
-| `GET /health` | Status `.owl`, `.ttl`, jumlah kelas, individu, dan aturan SWRL |
+| `GET /health` | Status `.owl`, `.ttl` (`kbr_ter_pph21.ttl`, `kbr_kbli.ttl`), jumlah kelas, individu, dan aturan SWRL |
 | `GET /options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
-| `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + justifikasi pasal/MK/SEMA |
+| `GET /kbli` & `GET /kbli/{kode}` | Pencarian & detail `1.449` kode KBLI SKOS (NPPN 3 wilayah & syarat Tax Allowance PP 78/2019) |
+| `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + `kodeKBLI` + **`estimasi_pajak` (`SPARQL BIND`, TER `127` bracket, NPPN)** + justifikasi pasal/MK/SEMA |
 | `GET /catalog` | Peta `79` item katalog tarif/fasilitas/kewajiban/sanksi (`ontology/rule_map.json`) |
 | `GET /scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
 | `GET /sparql/provenance` | Query SPARQL pada 12.907 aturan (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) |
@@ -67,9 +68,12 @@ kbr_pajak/
 ├── ontology/                              # Artefak Ontologi SROIQ(D) (Fase 5–6)
 │   ├── kbr-core.ttl                       # TBox murni (Turtle, 113 kelas + properti + aksioma)
 │   ├── kbr_pajak_tbox.owl                 # TBox murni (RDF/XML untuk Protégé)
-│   ├── kbr_pajak_reasoning.owl            # TBox + 73 SWRL + 450 individu + 15 skenario uji
-│   ├── rule_map.json                      # Peta 79 konsep katalog -> rule_id & source_quote
-│   └── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
+│   ├── kbr_pajak_reasoning.owl            # TBox + 78 SWRL + 367 individu + 15 skenario uji
+│   ├── kbr_ter_pph21.ttl                  # 127 bracket TER PPh 21 (PP 58/2023) tervalidasi
+│   ├── kbr_kbli.ttl                       # 1.449 konsep W3C SKOS KBLI/KLU (PER-17/PJ/2015 & PP 78/2019)
+│   ├── rule_map.json                      # Peta 83 konsep katalog -> rule_id & source_quote
+│   ├── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
+│   └── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 ├── docs/                                  # Dokumentasi & Laporan Fase 1–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
 │   ├── DATA_DICTIONARY.md                 # Kamus data korpus, rules, ontologi & API

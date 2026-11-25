@@ -125,11 +125,15 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 
 ---
 
-## 5. Kontrak API FastAPI (`backend/main.py`)
+## 5. Kontrak API FastAPI (`backend/main.py`) & Modul Step B
 
-- `GET /health` → status `.owl`, `.ttl`, jumlah kelas/individu/SWRL.
-- `GET /options` → daftar `30` `JenisPekerjaan` (beserta kategorinya) dan `5` `WilayahDaerah` dari ontologi OWL.
-- `GET /catalog` → `83` item katalog `rule_map.json`.
-- `GET /scenarios` → `15` skenario demonstrasi bawaan.
-- `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.907` aturan).
-- `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), dan `properties` (termasuk `memilikiPekerjaan` & `berdomisiliDi`), lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi`, rantai `justifikasi`, serta **`estimasi_pajak`** (hasil kalkulator deklaratif **`SPARQL 1.1 BIND`** atas graf hasil HermiT: PPh Badan / Pasal 31E, BUT BPT 20%, OP UMKM `> Rp500jt`, OP Pasal 17 5 lapis, PPN 12%/11%, PBB-P2, dan denda administratif tetap).
+- **`ontology/kbr_ter_pph21.ttl` (`127` bracket TER PPh 21 dari `PP-2023-58`):** `TER_A` (`44` bracket), `TER_B` (`40` bracket), `TER_C` (`41` bracket), dan `TER_Harian` (`2` bracket), divalidasi kontinuitas penuh batas bawah/atas & keselarasan terbilang Indonesia.
+- **`ontology/kbr_kbli.ttl` (`1.449` konsep W3C SKOS `skos:Concept`):** memuat kode KLU/KBLI 5-digit dari `PER-17/PJ/2015` Lampiran I (`1.431` NPPN OP), II (`1.433` Pemeriksaan OP), III (`1.429` Pemeriksaan Badan), dan `PP-2019-78` Lampiran I & II (`168` bidang usaha Tax Allowance beserta syarat provinsi/kecuali DKI Jakarta).
+- **Endpoint API:**
+  - `GET /health` → status `.owl`, `.ttl` (termasuk `ter_ttl_exists` & `kbli_ttl_exists`), jumlah kelas/individu/SWRL.
+  - `GET /options` → daftar `30` `JenisPekerjaan` (beserta kategorinya) dan `5` `WilayahDaerah` dari ontologi OWL.
+  - `GET /kbli?q=...&limit=20` & `GET /kbli/{kode}` → pencarian dan detail `1.449` kode KBLI SKOS.
+  - `GET /catalog` → `83` item katalog `rule_map.json`.
+  - `GET /scenarios` → `15` skenario demonstrasi bawaan.
+  - `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.907` aturan).
+  - `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), `kodeKBLI`, `lokasiProvinsiTaxAllowance`, `memilikiPekerjaan`, `berdomisiliDi`, dan properti WP, lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi`, `kbli_info`, rantai `justifikasi`, serta **`estimasi_pajak`** (hasil kalkulator deklaratif **`SPARQL 1.1 BIND`** + TER PPh 21 + NPPN KBLI).

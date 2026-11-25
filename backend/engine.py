@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import threading
 import time
 from dataclasses import dataclass
@@ -25,6 +26,39 @@ from owlready2 import ThingClass, World, destroy_entity, sync_reasoner_hermit
 from rdflib import Graph
 
 BASE_IRI = "http://www.semanticweb.org/ontology/kbr_pajak#"
+SKOS_IRI = "http://www.w3.org/2004/02/skos/core#"
+
+_IBUKOTA_10 = {
+    "MEDAN", "PALEMBANG", "JAKARTA", "DKI JAKARTA", "WILAYAH_DKI_JAKARTA",
+    "BANDUNG", "KOTA BANDUNG", "SEMARANG", "KOTA SEMARANG", "WILAYAH_KOTA_SEMARANG",
+    "SURABAYA", "KOTA SURABAYA", "WILAYAH_KOTA_SURABAYA",
+    "DENPASAR", "KOTA DENPASAR", "MANADO", "MAKASSAR", "PONTIANAK",
+}
+_IBUKOTA_LAIN = {
+    "BANDA ACEH", "PADANG", "PEKANBARU", "TANJUNGPINANG", "JAMBI", "BENGKULU",
+    "BANDAR LAMPUNG", "PANGKALPINANG", "SERANG", "YOGYAKARTA", "KOTA YOGYAKARTA",
+    "MATARAM", "KUPANG", "PALANGKA RAYA", "BANJARMASIN", "SAMARINDA", "TANJUNG SELOR",
+    "GORONTALO", "PALU", "MAMUJU", "KENDARI", "TERNATE", "SOFIFI",
+    "AMBON", "MANOKWARI", "JAYAPURA",
+}
+
+
+def _resolve_nppn_wilayah(val: Optional[str]) -> str:
+    if not val:
+        return "Daerah_Lain"
+    norm = val.strip().upper().replace("-", " ")
+    if norm in ("10_IBUKOTA_PROVINSI", "IBUKOTA_PROVINSI_LAIN", "DAERAH_LAIN"):
+        return {
+            "10_IBUKOTA_PROVINSI": "10_IbuKota_Provinsi",
+            "IBUKOTA_PROVINSI_LAIN": "IbuKota_Provinsi_Lain",
+            "DAERAH_LAIN": "Daerah_Lain",
+        }[norm]
+    clean = norm.replace("WILAYAH_", "").replace("KOTA_", "").replace("_", " ").strip()
+    if norm in _IBUKOTA_10 or clean in _IBUKOTA_10:
+        return "10_IbuKota_Provinsi"
+    if clean in _IBUKOTA_LAIN:
+        return "IbuKota_Provinsi_Lain"
+    return "Daerah_Lain"
 
 
 @dataclass(frozen=True)
@@ -34,6 +68,8 @@ class BackendPaths:
     rule_map_json: Path
     build_report_json: Path
     full_ttl: Path
+    ter_ttl: Path
+    kbli_ttl: Path
 
 
 def resolve_paths(base_dir: Optional[Path] = None) -> BackendPaths:
@@ -48,6 +84,8 @@ def resolve_paths(base_dir: Optional[Path] = None) -> BackendPaths:
         os.environ.get("KBR_RULE_MAP_JSON") or (root / "ontology" / "rule_map.json")
     )
     build_report_json = root / "ontology" / "ontology_build_report.json"
+    ter_ttl = Path(os.environ.get("KBR_TER_TTL") or (root / "ontology" / "kbr_ter_pph21.ttl"))
+    kbli_ttl = Path(os.environ.get("KBR_KBLI_TTL") or (root / "ontology" / "kbr_kbli.ttl"))
 
     env_ttl = os.environ.get("KBR_FULL_TTL")
     if env_ttl:
@@ -63,6 +101,8 @@ def resolve_paths(base_dir: Optional[Path] = None) -> BackendPaths:
         rule_map_json=rule_map_json,
         build_report_json=build_report_json,
         full_ttl=full_ttl,
+        ter_ttl=ter_ttl,
+        kbli_ttl=kbli_ttl,
     )
 
 
@@ -72,6 +112,8 @@ class KBRReasoningEngine:
     def __init__(self, paths: Optional[BackendPaths] = None) -> None:
         self.paths = paths or resolve_paths()
         self._rdf_graph: Optional[Graph] = None
+        self._ter_graph: Optional[Graph] = None
+        self._kbli_graph: Optional[Graph] = None
         self._rdf_lock = threading.Lock()
         self._reasoner_lock = threading.Lock()
 
@@ -85,6 +127,22 @@ class KBRReasoningEngine:
                 self._rdf_graph = g
             return self._rdf_graph
 
+    def get_ter_graph(self) -> Optional[Graph]:
+        with self._rdf_lock:
+            if self._ter_graph is None and self.paths.ter_ttl.exists():
+                g = Graph()
+                g.parse(str(self.paths.ter_ttl), format="turtle")
+                self._ter_graph = g
+            return self._ter_graph
+
+    def get_kbli_graph(self) -> Optional[Graph]:
+        with self._rdf_lock:
+            if self._kbli_graph is None and self.paths.kbli_ttl.exists():
+                g = Graph()
+                g.parse(str(self.paths.kbli_ttl), format="turtle")
+                self._kbli_graph = g
+            return self._kbli_graph
+
     def health(self) -> dict:
         report = {}
         if self.paths.build_report_json.exists():
@@ -93,6 +151,8 @@ class KBRReasoningEngine:
             "status": "ok" if self.paths.reasoning_owl.exists() else "degraded",
             "reasoning_owl_exists": self.paths.reasoning_owl.exists(),
             "full_ttl_exists": self.paths.full_ttl.exists(),
+            "ter_ttl_exists": self.paths.ter_ttl.exists(),
+            "kbli_ttl_exists": self.paths.kbli_ttl.exists(),
             "rdf_loaded_in_memory": self._rdf_graph is not None,
             "rdf_triples": len(self._rdf_graph) if self._rdf_graph is not None else None,
             "reasoning_classes": report.get("reasoning_classes"),
@@ -100,6 +160,132 @@ class KBRReasoningEngine:
             "swrl_rules": report.get("swrl_rules"),
             "full_rules_exported": report.get("full_rules_exported"),
         }
+
+    def lookup_kbli(self, kode_kbli: str) -> Optional[dict]:
+        g = self.get_kbli_graph()
+        if g is None:
+            return None
+        safe = re.sub(r"[^0-9]", "", (kode_kbli or "").strip())
+        if not safe:
+            return None
+        q = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX skos: <{SKOS_IRI}>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?c ?label ?p1 ?p2 ?p3 ?pem1 ?pem2 ?pem3 ?bad1 ?bad2 ?bad3 ?isTA ?taLamp ?taProv ?taExDki ?job
+        WHERE {{
+          ?c a skos:Concept ;
+             skos:notation "{safe}"^^xsd:string ;
+             skos:prefLabel ?label .
+          OPTIONAL {{ ?c kbr:nppn_OP_10IbuKota ?p1 . }}
+          OPTIONAL {{ ?c kbr:nppn_OP_IbuKotaLain ?p2 . }}
+          OPTIONAL {{ ?c kbr:nppn_OP_DaerahLain ?p3 . }}
+          OPTIONAL {{ ?c kbr:nppn_Pemeriksaan_OP_10IbuKota ?pem1 . }}
+          OPTIONAL {{ ?c kbr:nppn_Pemeriksaan_OP_IbuKotaLain ?pem2 . }}
+          OPTIONAL {{ ?c kbr:nppn_Pemeriksaan_OP_DaerahLain ?pem3 . }}
+          OPTIONAL {{ ?c kbr:nppn_Pemeriksaan_Badan_10IbuKota ?bad1 . }}
+          OPTIONAL {{ ?c kbr:nppn_Pemeriksaan_Badan_IbuKotaLain ?bad2 . }}
+          OPTIONAL {{ ?c kbr:nppn_Pemeriksaan_Badan_DaerahLain ?bad3 . }}
+          OPTIONAL {{ ?c kbr:isTaxAllowanceKBLI ?isTA . }}
+          OPTIONAL {{ ?c kbr:taxAllowanceLampiran ?taLamp . }}
+          OPTIONAL {{ ?c kbr:taxAllowanceProvinsi ?taProv . }}
+          OPTIONAL {{ ?c kbr:taxAllowanceKecualiDKI ?taExDki . }}
+          OPTIONAL {{ ?c kbr:terkaitJenisPekerjaan ?job . }}
+        }}
+        LIMIT 1
+        """
+        for r in g.query(q):
+            return {
+                "kode_kbli": safe,
+                "uri": str(r.c),
+                "uraian": str(r.label),
+                "nppn_op": {
+                    "10_IbuKota_Provinsi": float(r.p1) if r.p1 is not None else None,
+                    "IbuKota_Provinsi_Lain": float(r.p2) if r.p2 is not None else None,
+                    "Daerah_Lain": float(r.p3) if r.p3 is not None else None,
+                },
+                "nppn_pemeriksaan_op": {
+                    "10_IbuKota_Provinsi": float(r.pem1) if r.pem1 is not None else None,
+                    "IbuKota_Provinsi_Lain": float(r.pem2) if r.pem2 is not None else None,
+                    "Daerah_Lain": float(r.pem3) if r.pem3 is not None else None,
+                },
+                "nppn_pemeriksaan_badan": {
+                    "10_IbuKota_Provinsi": float(r.bad1) if r.bad1 is not None else None,
+                    "IbuKota_Provinsi_Lain": float(r.bad2) if r.bad2 is not None else None,
+                    "Daerah_Lain": float(r.bad3) if r.bad3 is not None else None,
+                },
+                "tax_allowance": {
+                    "eligible_kbli": bool(r.isTA) if r.isTA is not None else False,
+                    "lampiran": str(r.taLamp) if r.taLamp is not None else None,
+                    "provinsi_syarat": str(r.taProv) if r.taProv is not None else None,
+                    "kecuali_dki": bool(r.taExDki) if r.taExDki is not None else False,
+                },
+                "terkait_jenis_pekerjaan": str(r.job).split("#")[-1] if r.job is not None else None,
+            }
+        return None
+
+    def search_kbli(self, query: str = "", limit: int = 20) -> List[dict]:
+        g = self.get_kbli_graph()
+        if g is None:
+            raise FileNotFoundError(f"File KBLI SKOS tidak ditemukan: {self.paths.kbli_ttl}")
+        safe_q = (query or "").replace("\\", "\\\\").replace('"', '\\"').strip()
+        flt = f'FILTER(CONTAINS(LCASE(STR(?label)), LCASE("{safe_q}")) || CONTAINS(STR(?code), "{safe_q}"))' if safe_q else ""
+        q = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX skos: <{SKOS_IRI}>
+        SELECT ?code ?label ?p1 ?isTA
+        WHERE {{
+          ?c a skos:Concept ;
+             skos:notation ?code ;
+             skos:prefLabel ?label .
+          OPTIONAL {{ ?c kbr:nppn_OP_10IbuKota ?p1 . }}
+          OPTIONAL {{ ?c kbr:isTaxAllowanceKBLI ?isTA . }}
+          {flt}
+        }}
+        ORDER BY ?code
+        LIMIT {max(1, min(int(limit), 100))}
+        """
+        return [
+            {
+                "kode_kbli": str(r.code),
+                "uraian": str(r.label),
+                "nppn_10ibukota": float(r.p1) if r.p1 is not None else None,
+                "is_tax_allowance": bool(r.isTA) if r.isTA is not None else False,
+            }
+            for r in g.query(q)
+        ]
+
+    def lookup_ter_rate(self, kategori: str, bruto: float) -> Optional[dict]:
+        g = self.get_ter_graph()
+        if g is None:
+            return None
+        q = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?order ?minB ?maxB ?rate ?loc
+        WHERE {{
+          ?b a kbr:BracketTER_PPh21 ;
+             kbr:hasKategoriTER "{kategori}"^^xsd:string ;
+             kbr:hasUrutanBracket ?order ;
+             kbr:hasTarifPersen ?rate ;
+             kbr:hasSourceLocator ?loc .
+          OPTIONAL {{ ?b kbr:hasBatasBawahEksklusif ?minB . }}
+          OPTIONAL {{ ?b kbr:hasBatasAtasInklusif ?maxB . }}
+          FILTER((!BOUND(?minB) || {float(bruto)} > xsd:decimal(?minB))
+                 && (!BOUND(?maxB) || {float(bruto)} <= xsd:decimal(?maxB)))
+        }}
+        LIMIT 1
+        """
+        for r in g.query(q):
+            return {
+                "kategori": kategori,
+                "bracket_order": int(r.order),
+                "min_exclusive": float(r.minB) if r.minB is not None else 0.0,
+                "max_inclusive": float(r.maxB) if r.maxB is not None else None,
+                "tarif_persen": float(r.rate),
+                "source_locator": str(r.loc),
+            }
+        return None
 
     def get_catalog(self) -> Dict[str, Any]:
         if not self.paths.rule_map_json.exists():
@@ -137,6 +323,37 @@ class KBRReasoningEngine:
         if not self.paths.reasoning_owl.exists():
             raise FileNotFoundError(f"File ontologi tidak ditemukan: {self.paths.reasoning_owl}")
 
+        # Materialisasi pra-reasoning dari graf SKOS kbr_kbli.ttl (jika kodeKBLI diisi)
+        effective_props = dict(props)
+        kbli_info = None
+        if effective_props.get("kodeKBLI"):
+            kbli_info = self.lookup_kbli(str(effective_props["kodeKBLI"]))
+            if kbli_info:
+                if wp_kind == "OrangPribadi" and kbli_info.get("terkait_jenis_pekerjaan"):
+                    cur_jobs = list(effective_props.get("memilikiPekerjaan") or [])
+                    if kbli_info["terkait_jenis_pekerjaan"] not in cur_jobs:
+                        cur_jobs.append(kbli_info["terkait_jenis_pekerjaan"])
+                    effective_props["memilikiPekerjaan"] = cur_jobs
+                ta = kbli_info.get("tax_allowance") or {}
+                if wp_kind != "OrangPribadi" and ta.get("eligible_kbli"):
+                    if "isBidangUsahaTaxAllowance" not in effective_props:
+                        effective_props["isBidangUsahaTaxAllowance"] = True
+                    if "isLokasiProvinsiMemenuhiTaxAllowance" not in effective_props:
+                        loc_txt = (
+                            str(effective_props.get("lokasiProvinsiTaxAllowance") or "")
+                            or " ".join(effective_props.get("berdomisiliDi") or [])
+                            or ("DKI Jakarta" if effective_props.get("isDomisiliDKI") else "")
+                        ).strip()
+                        if ta.get("lampiran") == "LAMPIRAN_I":
+                            effective_props["isLokasiProvinsiMemenuhiTaxAllowance"] = True
+                        elif ta.get("kecuali_dki") and loc_txt:
+                            is_dki = ("DKI" in loc_txt.upper()) or ("JAKARTA" in loc_txt.upper())
+                            effective_props["isLokasiProvinsiMemenuhiTaxAllowance"] = not is_dki
+                        elif ta.get("provinsi_syarat") and loc_txt:
+                            provs = [p.strip().upper() for p in ta["provinsi_syarat"].split(",")]
+                            loc_up = loc_txt.upper()
+                            effective_props["isLokasiProvinsiMemenuhiTaxAllowance"] = any(p in loc_up for p in provs if p)
+
         t0 = time.perf_counter()
         with self._reasoner_lock:
             w = World()
@@ -159,7 +376,7 @@ class KBRReasoningEngine:
                     cls = onto.Badan if wp_kind == "Badan" else onto.OrangPribadi
                 wp = cls(wp_id)
                 applied_props: Dict[str, Any] = {}
-                for k, v in props.items():
+                for k, v in effective_props.items():
                     if v is None:
                         continue
                     if k in ("memilikiPekerjaan", "berdomisiliDi"):
@@ -212,6 +429,61 @@ class KBRReasoningEngine:
 
         estimasi_pajak = self._estimate_nominal_sparql(w, wp_id)
 
+        # Tambahan SPARQL Lookup untuk TER PPh 21 (kbr_ter_pph21.ttl) & NPPN KBLI (kbr_kbli.ttl)
+        bruto_bln = effective_props.get("hasPenghasilanBrutoBulanan")
+        if bruto_bln is not None:
+            ter_cat = None
+            if "OP_TER_Kategori_A" in inferred_classes:
+                ter_cat = "TER_A"
+            elif "OP_TER_Kategori_B" in inferred_classes:
+                ter_cat = "TER_B"
+            elif "OP_TER_Kategori_C" in inferred_classes:
+                ter_cat = "TER_C"
+            if ter_cat:
+                ter_hit = self.lookup_ter_rate(ter_cat, float(bruto_bln))
+                if ter_hit:
+                    estimasi_pajak["rincian"]["pph21_ter_kategori"] = ter_cat
+                    estimasi_pajak["rincian"]["pph21_ter_persen"] = ter_hit["tarif_persen"]
+                    estimasi_pajak["rincian"]["pph21_ter_bulanan_idr"] = round(
+                        float(bruto_bln) * (ter_hit["tarif_persen"] / 100.0), 2
+                    )
+                    estimasi_pajak["rincian"]["pph21_ter_bracket_order"] = ter_hit["bracket_order"]
+
+        if kbli_info and effective_props.get("hasOmzetTahunan") is not None:
+            omzet_val = float(effective_props["hasOmzetTahunan"])
+            wil_raw = effective_props.get("kelompokWilayahNPPN")
+            if not wil_raw:
+                wil_list = effective_props.get("berdomisiliDi") or []
+                if wil_list:
+                    wil_raw = _resolve_nppn_wilayah(str(wil_list[0]))
+                elif effective_props.get("isDomisiliDKI"):
+                    wil_raw = "10_IbuKota_Provinsi"
+                else:
+                    wil_raw = "Daerah_Lain"
+            else:
+                wil_raw = _resolve_nppn_wilayah(wil_raw)
+
+            fas_ids = {f.name for f in wp.memilikiFasilitas}
+            san_ids = {s.name for s in wp.berisikoSanksi}
+            if (
+                "Fasilitas_NPPN_OP_Dibawah_4_8M" in fas_ids
+                and effective_props.get("isPemberitahuanNPPNTepatWaktu") is not False
+            ):
+                pct_nppn = (kbli_info.get("nppn_op") or {}).get(wil_raw)
+                if pct_nppn is not None:
+                    estimasi_pajak["rincian"]["nppn_wilayah_kelompok"] = wil_raw
+                    estimasi_pajak["rincian"]["nppn_persen"] = pct_nppn
+                    estimasi_pajak["rincian"]["penghasilan_neto_nppn_idr"] = round(omzet_val * (pct_nppn / 100.0), 2)
+            elif "Sanksi_NPPN_Norma_Pemeriksaan_Pasal14_5" in san_ids:
+                bucket = "nppn_pemeriksaan_op" if wp_kind == "OrangPribadi" else "nppn_pemeriksaan_badan"
+                pct_pem = (kbli_info.get(bucket) or {}).get(wil_raw)
+                if pct_pem is not None:
+                    estimasi_pajak["rincian"]["norma_pemeriksaan_wilayah"] = wil_raw
+                    estimasi_pajak["rincian"]["norma_pemeriksaan_persen"] = pct_pem
+                    estimasi_pajak["rincian"]["penghasilan_neto_norma_pemeriksaan_idr"] = round(
+                        omzet_val * (pct_pem / 100.0), 2
+                    )
+
         return {
             "wp_id": wp_id,
             "wp_kind": wp_kind,
@@ -222,8 +494,9 @@ class KBRReasoningEngine:
             "fasilitas": _explain(wp.memilikiFasilitas),
             "kewajiban": _explain(wp.memilikiKewajiban),
             "sanksi": _explain(wp.berisikoSanksi),
+            "kbli_info": kbli_info,
             "estimasi_pajak": estimasi_pajak,
-            "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND",
+            "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND/SKOS/TER",
             "elapsed_ms": elapsed_ms,
         }
 
