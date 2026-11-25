@@ -1,0 +1,19 @@
+# Pengaturan penjelajahan (S1) — spec 7.1 aturan, Bagian 10 (P10), Bagian 11.
+# Default sesuai spec; boleh DIPERKETAT (jeda dinaikkan), jangan dilonggarkan tanpa alasan.
+
+crawl:
+  min_delay_seconds: 1.5        # jeda minimal antar-permintaan; default spec, boleh naik
+  user_agent: "KBR-Tax-Extraction/0.1 (proyek mahasiswa; kontak: <diisi tim>)"
+  max_documents_per_run: 20     # batas pilot Fase 1; naikkan hanya setelah G1
+  dry_run: true                 # default dry-run (ambil, parse, jangan rekam antrean baru)
+  retry_max: 3
+  retry_backoff_seconds: [2, 5, 10]
+  cache_ttl_days: 7             # cache HTML di data/cache/html (boleh dibuang, P7)
+  max_depth: null               # null = sampai closure (spec 6.1)
+
+# Dokumen inti lintas domain (spec 6.3). Pemilik: SHARED, diproses sekali oleh
+# orang yang ditunjuk. DIISI OLEH MANUSIA (mis. UU KUP, UU omnibus seperti UU HPP).
+shared_core_documents: []
+
+# Basis data
+database: "data/kbr.sqlite"

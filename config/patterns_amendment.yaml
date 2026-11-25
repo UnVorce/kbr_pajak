@@ -1,0 +1,29 @@
+# Pola kalimat perubahan (spec 7.5 Langkah A) untuk amendments.py — DIKERJAKAN FASE 4.
+# Pola di bawah INDIKATIF dari tabel 7.5 spec; WAJIB dikonfirmasi pada dokumen nyata
+# (V9) sebelum dipakai, lalu diubah menjadi regex/aturan di Fase 4 bersama tes.
+
+actions:
+  UBAH:
+    - "Ketentuan Pasal {X} diubah sehingga berbunyi sebagai berikut"
+  SISIP:
+    - "Di antara Pasal {X} dan Pasal {Y} disisipkan 1 (satu) pasal"
+    - "Di antara ayat {X} dan ayat {Y} Pasal {Z} disisipkan 1 (satu) ayat"
+  HAPUS:
+    - "Pasal {X} dihapus"
+  CABUT:
+    - "{PERATURAN} dicabut dan dinyatakan tidak berlaku"
+  TAMBAH:
+    - "Ditambahkan {n} (…) ayat"
+    - "Pasal {X} ditambah {n} (…) ayat"
+  PENJELASAN:
+    - "Penjelasan Pasal {X} diubah sehingga berbunyi sebagai berikut"
+    - "Penjelasan Pasal {X} sebagaimana dimaksud … dihapus"
+  TARGET_UU:   # menetapkan UU target bagi pasal-pasal pengubah berikutnya (omnibus)
+    - "Beberapa ketentuan dalam Undang-Undang Nomor {X} Tahun {Y} tentang {J} diubah sebagai berikut"
+    - "Ketentuan {BAGIAN} dalam Undang-Undang Nomor {X} Tahun {Y} diubah sebagai berikut"
+
+# Aturan umum Fase 4:
+# - Satu UU omnibus -> banyak baris amendments dengan target_document_id berbeda.
+# - Tentukan UU target dari kalimat pembuka tiap bab/pasal pengubah.
+# - UU non-pajak yang mengubah UU pajak TETAP ditangkap (jangan filter judul).
+# - Putusan MK & Perpu: selalu review_status=PENDING (butuh manusia).

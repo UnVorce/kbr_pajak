@@ -1,0 +1,30 @@
+# Pemetaan label sumber -> tipe relasi internal (spec 5.3).
+# Konvensi: simpan HANYA bentuk aktif.
+#   "A diubah dengan B"      -> from=B, to=A, type=MENGUBAH   (label PASSIVE, arah dibalik)
+#   "A mengubah B"           -> from=A, to=B, type=MENGUBAH   (label ACTIVE)
+# Label ACTIVE/PASSIVE di bawah TERAMATI pada halaman JDIH BPK (Fase 1, 2026-11-09).
+
+internal_types: [MENGUBAH, MENCABUT, MELAKSANAKAN, MERUJUK, MENETAPKAN_PERPU]
+
+source_labels:
+  # --- teramati di BPK (Fase 1) ---
+  "Diubah dengan":      { internal: MENGUBAH, direction: passive }
+  "Mengubah":           { internal: MENGUBAH, direction: active }
+  "Mencabut":           { internal: MENCABUT, direction: active }
+  "Mencabut sebagian":  { internal: MENCABUT, direction: active, note: "sebagian" }
+  "Dicabut dengan":     { internal: MENCABUT, direction: passive }
+  "Dicabut sebagian dengan": { internal: MENCABUT, direction: passive, note: "sebagian" }
+  "Menetapkan":         { internal: MENETAPKAN_PERPU, direction: active }
+  "Ditetapkan dengan":  { internal: MENETAPKAN_PERPU, direction: passive }
+  # --- indikatif, belum teramati (tetap dipetakan bila muncul) ---
+  "Melaksanakan":       { internal: MELAKSANAKAN, direction: active }
+  "Dilaksanakan oleh":  { internal: MELAKSANAKAN, direction: passive }
+  "Pelaksanaan":        { internal: MELAKSANAKAN, direction: active }
+  "Terkait":            { internal: MERUJUK, direction: active }
+  "Merujuk":            { internal: MERUJUK, direction: active }
+  "Menetapkan Peraturan Pemerintah Pengganti Undang-Undang": { internal: MENETAPKAN_PERPU, direction: active }
+
+# Catatan:
+# - "Mencabut sebagian" dipetakan ke MENCABUT (tidak menambah tipe relasi baru;
+#   label asli dicatat di evidence). Review G1.
+# - Label dengan ":" di akhir dinormalisasi (strip titik dua dan spasi).

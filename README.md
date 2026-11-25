@@ -79,19 +79,27 @@ kbr_pajak/
 │   ├── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
 │   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 │   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
-├── docs/                                  # Dokumentasi & Laporan Fase 1–8
+├── src/                                   # 16 modul pipeline & builder ontologi/SKOS/Perda
+├── scripts/                               # 26 skrip CLI (akuisisi, validasi, fase5_ontology, step_b/c, eval)
+├── tests/                                 # 160 automated tests + fixtures HTML BPK (+ conftest.py)
+├── config/                                # Konfigurasi crawl, konsolidasi, & scope_cards
+├── docs/                                  # Dokumentasi, spesifikasi & Laporan Fase 0–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
 │   ├── DATA_DICTIONARY.md                 # Kamus data korpus, rules, ontologi & API
+│   ├── KBR_Extraction_Spec_v2.md          # Spesifikasi teknis pipeline ekstraksi
+│   ├── AGENTS.md                          # Aturan kerja & prinsip anti-halusinasi P1-P13
 │   ├── fase_1.md .. fase_7.md             # Laporan tiap fase & gerbang G1–G7
 │   ├── fase7_eval_results.json            # Hasil evaluasi 15/15 skenario & boundary tests
 │   ├── corpus_directory.xlsx              # Direktori korpus 7 tab
 │   └── ISSUES.md                          # Catatan anomali sumber (#A7 PER-DJP-2015-17)
 ├── notebooks/
+│   ├── README.md
 │   └── colab_extract_t2.ipynb             # Notebook ekstraksi T2_RULE vLLM (Qwen2.5-32B-AWQ)
 └── knowledge_json/
     ├── rules/
     │   ├── legal_rules.jsonl              # 12.907 aturan atomik (8.717 VALIDATED, 474 HUMAN_FIXED, 117 HUMAN_APPROVED, 3.599 REVIEW_REQUIRED)
     │   └── kbr-data.ttl                   # Ekspor RDF Turtle penuh seluruh 12.907 aturan
+    ├── text_lampiran/                     # Teks sumber untuk rebuild TER (PP 58/2023) & KBLI (PER-17, PP 78, PerBKPM 7, PMK 16)
     ├── review/                            # 621 baris audit P1-P6, log audit, review queue, gold standard
     ├── documents/                         # 165 JSON regulasi pusat kanonik
     ├── consolidated/                      # 32 JSON teks TERBARU pasca-amandemen (incl. UU 6/2023 CK & UU 7/2021 HPP)
@@ -110,6 +118,13 @@ kbr_pajak/
 1. **Frontend (`yoeke-front`):** jalankan `uvicorn backend.main:app --port 8000`, panggil `GET /options` untuk opsi pekerjaan & wilayah, panggil `POST /reason` untuk evaluasi profil WP, dan tampilkan `tarif`/`fasilitas`/`kewajiban`/`sanksi` beserta `justifikasi` (`source_locator`, `source_quote`, `mk_refs`, `sema_refs`).
 2. **RAG (`daRAG`):** gunakan `knowledge_json/rules/legal_rules.jsonl` atau `GET /sparql/provenance` serta `knowledge_json/consolidated/<id>.json` (cek `recommended_source` dan `active_for_rules == true` di `metadata/manifest.json`).
 3. **Inspeksi Ontologi di Protégé:** buka `ontology/kbr_pajak_reasoning.owl`, pilih **Reasoner → HermiT → Start reasoner**.
+4. **Rebuild Ontologi & Jalankan Tes dari Repo Ini:**
+   ```bash
+   python3 scripts/fase5_ontology.py build
+   python3 scripts/fase_step_b.py
+   python3 scripts/fase_step_c.py
+   pytest -q
+   ```
 
 ---
 

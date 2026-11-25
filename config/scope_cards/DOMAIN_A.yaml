@@ -1,0 +1,87 @@
+# Kartu lingkup DOMAIN_A — domain PILOT (spec Bagian 6).
+# Seeds di bawah sudah DIVERIFIKASI AGENT dari halaman resmi JDIH BPK (Fase 1,
+# 2026-11-09) — judul, status, dan URL diambil dari halaman Detail, bukan ingatan.
+# Tetap mohon tinjau manusia (P3) sebelum Fase 2.
+
+domain_id: DOMAIN_A
+owner: "<diisi anggota tim>"
+description: >
+  Kepatuhan dan mitigasi risiko perpajakan Wajib Pajak Orang Pribadi yang
+  melakukan kegiatan usaha, terutama konteks UMKM: kewajiban, hak, prosedur,
+  batas waktu, sanksi, dan dasar hukumnya.
+include_topics:
+  - topic: "Kewajiban perpajakan WP OP pelaku usaha (UMKM)"
+    examples: ["pendaftaran NPWP/NIK", "pembayaran pajak", "pelaporan SPT"]
+  - topic: "PPh atas usaha (peredaran bruto tertentu / final UMKM)"
+    examples: ["PP-2018-23 dan penggantinya", "tarif final 0,5%", "peredaran bruto di bawah ambang batas"]
+  - topic: "Prosedur dan hak WP"
+    examples: ["keberatan", "pembetulan", "pemeriksaan", "ketetapan pajak"]
+  - topic: "Sanksi dan konsekuensi"
+    examples: ["denda", "bunga", "sanksi administrasi"]
+  - topic: "Mitigasi risiko"
+    examples: ["prosedur pencegahan sengketa", "kepatuhan"]
+exclude_topics:
+  - topic: "Pajak tidak langsung (untuk tahap ini)"
+    examples: ["PPN/PPnBM", "Bea Meterai"]
+  - topic: "Pajak di luar PPh OP (untuk tahap ini)"
+    examples: ["PBB", "Pajak Daerah", "Bea Cukai", "Cukai"]
+  - topic: "Wajib Pajak Badan (untuk tahap ini)"
+    examples: ["PPh Badan", "BUT"]
+seeds:   # diverifikasi dari halaman resmi BPK (2026-11-09)
+  - document_id: "UU-1983-6"
+    judul: "Undang-undang (UU) Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan"
+    status_sumber: "Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/46986/uu-no-6-tahun-1983"
+    rationale: "KUP — induk administrasi perpajakan; diubah terakhir oleh UU-2021-7, UU-2020-11, UU-2023-6 (dari blok relasi BPK)."
+  - document_id: "UU-1983-7"
+    judul: "Undang-undang (UU) Nomor 7 Tahun 1983 tentang Pajak Penghasilan"
+    status_sumber: "Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/46988/uu-no-7-tahun-1983"
+    rationale: "UU PPh — induk PPh OP/UMKM; diubah terakhir oleh UU-2021-7, UU-2023-6 (dari blok relasi BPK)."
+  - document_id: "UU-2021-7"
+    judul: "Undang-undang (UU) Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan"
+    status_sumber: "Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/185162/uu-no-7-tahun-2021"
+    rationale: "UU HPP — omnibus perpajakan; kandidat shared_core_documents."
+  - document_id: "PP-2018-23"
+    judul: "Peraturan Pemerintah (PP) Nomor 23 Tahun 2018 tentang Pajak Penghasilan atas Penghasilan dari Usaha yang Diterima atau Diperoleh Wajib Pajak yang Memiliki Peredaran Bruto Tertentu"
+    status_sumber: "Tidak Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/82680/pp-no-23-tahun-2018"
+    rationale: "PP final UMKM 0,5% — DICABUT oleh PP-2022-55; tetap seed untuk riwayat (P6)."
+  - document_id: "PP-2022-55"
+    judul: "Peraturan Pemerintah (PP) Nomor 55 Tahun 2022 tentang Penyesuaian Pengaturan di Bidang Pajak Penghasilan"
+    status_sumber: "Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/233488/pp-no-55-tahun-2022"
+    rationale: "Mencabut PP-2018-23 (dan PP-2020-30, PP-2009-18); diubah oleh PP-2026-20 (dari blok relasi BPK)."
+  - document_id: "PMK-2018-99"
+    judul: "Peraturan Menteri Keuangan Nomor 99/PMK.03/2018 Tahun 2018 tentang Pelaksanaan Peraturan Pemerintah Nomor 23 Tahun 2018 ..."
+    status_sumber: "Tidak Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/113143/pmk-no-99pmk032018"
+    rationale: "PMK pelaksana PP-2018-23 — status Tidak Berlaku; tetap seed untuk riwayat (P6)."
+  - document_id: "PMK-2022-112"
+    judul: "Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 Tahun 2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah"
+    status_sumber: "Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/217310/pmk-no-112pmk032022"
+    rationale: "NPWP format baru/NIK; diubah oleh PMK-2023-136 (dari blok relasi BPK)."
+  - document_id: "PMK-2024-81"
+    judul: "Peraturan Menteri Keuangan Nomor 81 Tahun 2024 tentang Ketentuan Perpajakan dalam rangka Pelaksanaan Undang-Undang Nomor 7 Tahun 2021 ..."
+    status_sumber: "Berlaku"
+    url: "https://peraturan.bpk.go.id/Details/306614/pmk-no-81-tahun-2024"
+    rationale: "Pelaksana UU HPP; diubah oleh PMK-2025-53, PMK-2025-54, PMK-2026-1 (dari blok relasi BPK)."
+follow_relations: [MENGUBAH, MENCABUT, MELAKSANAKAN]
+follow_direction: both              # forward | backward | both
+subject_hints: ["perpajakan"]
+keyword_hints: ["pajak", "perpajakan", "PPh", "NPWP", "SPT"]
+exclude_keywords: ["PPN", "PPnBM", "pertambahan nilai", "bea meterai", "bea masuk",
+                   "bea keluar", "cukai", "kepabeanan", "pajak bumi dan bangunan",
+                   "pajak daerah dan retribusi"]
+thresholds:                         # default spec; WAJIB dikalibrasi di Fase 2
+  auto_in: 0.80
+  review_min: 0.40
+boundary_policy: record_and_stop    # boundary node dicatat, tidak dijelajahi
+max_depth: null                     # null = sampai closure
+notes: >
+  Domain pilot. Satu script yang sama dipakai untuk semua domain.
+  Status "Tidak Berlaku" dari sumber disimpan apa adanya (P8) — bukan legal_status.
+  Kedua PP/PMK berstatus Tidak Berlaku tetap menjadi seed karena riwayat periode
+  sebelumnya penting (P6).

@@ -1,0 +1,60 @@
+# Daftar sumber peraturan (spec 7.1).
+# Fase 1: robots.txt/TOS sudah dicek (V1) dan struktur BPK sudah diinspeksi (V2).
+# JDIH Kemenkeu & DJP: struktur BELUM diinspeksi (dikerjakan sebelum dipakai penuh).
+
+sources:
+  - key: BPK
+    name: "JDIH BPK — peraturan.bpk.go.id"
+    base_url: "https://peraturan.bpk.go.id"
+    role: PRIMARY            # primer untuk relasi dan metadata
+    robots_checked: true     # Fase 1 (2026-11-09)
+    robots_result: >
+      User-agent * — Disallow: /Admin/, /Identity/, /Account/, /Manage/, /health, /Error.
+      Halaman konten (Home/Details/Search/Tahun) TIDAK dilarang. Sitemap tersedia.
+    tos_notes: "Tidak ada larangan pengambilan otomatis untuk halaman publik; tetap dijaga laju minimal 1,5 detik."
+    selectors:               # diverifikasi Fase 1 pada fixture nyata
+      metadata_rows: "div.row.g-4.g-xl-9"             # label di div.col-lg-3, nilai di div.col-lg-9
+      metadata_labels: ["Judul","Nomor","Bentuk","Bentuk Singkat","Tahun","Tempat Penetapan",
+                        "Tanggal Penetapan","Tanggal Pengundangan","Tanggal Berlaku","Sumber",
+                        "Subjek","Status","Bidang","Alias"]
+      relations_container: "div.container.fs-6"       # blok STATUS PERATURAN (relasi)
+      relations_label: "div.col-12.fw-semibold.bg-light-primary.p-4"   # "Diubah dengan :", dst.
+      relations_links: "ol a[href^='/Details/']"
+      pdf_view: "a[href^='/Read/']"
+      pdf_download: "a[href^='/Download/']"
+      detail_pattern: "/Details/{id}/{slug}"
+    notes: >
+      Metadata relasi JDIH diinput manual dan TERBUKTI tidak lengkap (V3): halaman
+      PP-2018-23 dan PMK-2018-99 tidak menampilkan blok relasi padahal dokumennya
+      dicabut/diubah. Beban ada di S6 (pendeteksi lubang).
+
+  - key: KEMENKEU
+    name: "JDIH Kemenkeu — jdih.kemenkeu.go.id"
+    base_url: "https://jdih.kemenkeu.go.id"
+    role: SECONDARY          # rekonsiliasi + teks peraturan Kementerian Keuangan
+    robots_checked: true     # Fase 1 (2026-11-09)
+    robots_result: >
+      User-agent * — Allow: / ; Disallow: /api/auth, /api/health, /pdfjs. Konten publik diizinkan.
+    tos_notes: "Belum dibaca penuh; rekonsiliasi baru dipakai mulai Fase 2."
+    selectors:
+      metadata: TODO
+      relations: TODO
+      text_link: TODO
+      download_link: TODO
+    notes: "Struktur belum diinspeksi (V2)."
+
+  - key: DJP
+    name: "Portal DJP — pajak.go.id"
+    base_url: "https://pajak.go.id"
+    role: SECONDARY          # rekonsiliasi + peraturan DJP
+    robots_checked: true     # Fase 1 (2026-11-09)
+    robots_result: >
+      Drupal robots.txt — Disallow: /search/, /node/add/, /user/*, /admin/, dst.
+      Halaman konten TIDAK dilarang, tetapi pencarian situs dilarang untuk robot.
+    tos_notes: "Belum dibaca penuh; rekonsiliasi baru dipakai mulai Fase 2."
+    selectors:
+      metadata: TODO
+      relations: TODO
+      text_link: TODO
+      download_link: TODO
+    notes: "Struktur belum diinspeksi (V2)."

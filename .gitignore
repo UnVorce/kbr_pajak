@@ -1,0 +1,18 @@
+# Raw PDFs & local caches (NEVER commit)
+sources/
+download-pdf/
+*.sqlite
+*.db
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.Rhistory

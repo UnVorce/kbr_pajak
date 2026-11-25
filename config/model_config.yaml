@@ -1,0 +1,21 @@
+# Konfigurasi model LLM untuk notebook Colab (spec 8.1, 8.4, 8.6).
+# DIISI SETELAH PILOT (Fase 5). Jangan menetapkan model "terbaik" sebelum diuji
+# pada gold_standard.jsonl (8.6). V6/V7 diverifikasi pada Fase 5.
+
+model:
+  model_id: TBD              # kandidat diuji 2-3 model; manusia memilih (Gate G5)
+  prompt_version: v1         # setiap perubahan prompt menaikkan versi
+  quantization: TBD          # sesuai VRAM GPU yang benar-benar didapat di Colab
+  parameters: {}             # temperature dsb., disetel saat pilot
+
+minimum_environment:
+  gpu_required: true         # jangan berjalan diam-diam di CPU (8.2)
+  vram_min_gb: TBD           # diisi setelah tahu GPU yang didapat (V6)
+
+batch:
+  batch_size: TBD
+  flush_every: TBD           # tulis llm_results tiap N chunk (append + flush rutin)
+
+notes: >
+  Serah-terima hanya lewat berkas di Google Drive (chunks/pending -> llm_results).
+  Hasil append-only, idempoten lewat result_key (8.2). Tab Colab harus tetap terbuka.

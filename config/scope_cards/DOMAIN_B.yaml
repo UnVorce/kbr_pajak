@@ -1,0 +1,20 @@
+# Kartu lingkup DOMAIN_B — BELUM DIISI (stub).
+# Domain pilot saat ini adalah DOMAIN_A. Domain ini diisi oleh pemiliknya
+# setelah G0, sebelum penjelajahan domain ini dimulai (spec 6.1, 12 Fase 2).
+
+domain_id: DOMAIN_B
+owner: "<diisi anggota tim>"
+description: "<satu paragraf tentang domain ini>"
+include_topics: []
+exclude_topics: []
+seeds: []               # diverifikasi manual oleh manusia
+follow_relations: [MENGUBAH, MENCABUT, MELAKSANAKAN]
+follow_direction: both
+subject_hints: []
+keyword_hints: []
+thresholds:
+  auto_in: 0.80
+  review_min: 0.40
+boundary_policy: record_and_stop
+max_depth: null
+notes: "Stub. Diisi pemilik domain."
