@@ -81,14 +81,14 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 
 ## 4. Kamus Ontologi OWL 2 `SROIQ(D)` (`http://www.semanticweb.org/ontology/kbr_pajak#`)
 
-### 4.1 Hirarki Kelas (`119` Kelas di `kbr_pajak_tbox.owl`)
+### 4.1 Hirarki Kelas (`120` Kelas di `kbr_pajak_tbox.owl`)
 
 | Kelompok | Kelas & Subkelas |
 |---|---|
 | **Wajib Pajak Badan (`Badan`)** | `BadanDalamNegeri`, `BadanHukumIndonesia` (`PT`, `Koperasi`), `CV`, `Yayasan`, `BadanUsahaTetap` (`BUT`), `BadanTerbukaTbk`, `BadanNonTbk`, `BadanUMKM`, `BadanLayakPasal31E`, `BadanLayakTaxAllowance`, `BadanLayakPadatKarya`, `LayakTaxHoliday` (`50Pct_5Thn`, `100Pct_5Thn`, `7Thn`, `10Thn`, `15Thn`, `20Thn`) |
 | **Wajib Pajak Orang Pribadi (`OrangPribadi`)** | `OP_SubjekDalamNegeri`, `OP_SubjekLuarNegeri`, `OP_PenerimaPPh21_PegawaiTetap` (`OP_TER_Kategori_A`, `OP_TER_Kategori_B`, `OP_TER_Kategori_C`, `OP_MultiPemberiKerja`), `OP_PenerimaPPh21_TidakTetap`, `OP_PesertaKegiatan`, `OP_PekerjaBebas` (`OP_PekerjaBebas_LayakNPPN`, `OP_NPPN_Gugur_TelatLapor`), `OP_PelakuUsahaNonProfesi` (`OP_UMKM_Bebas_500Jt`, `OP_UMKM_Final_PP55`), `OP_WajibPembukuan`, `OP_PPh17_Layer1_5Pct`..`Layer5_35Pct` |
-| **Wajib Pajak Lintas Subjek & Daerah** | `SubjekPajakAktif`, `UMKM`, `PengusahaKenaPajak`, `WajibPajakUMKM`, `WajibPajakNonUMKM`, `WP_TidakSelenggarakanPembukuan`, `WP_Wilayah_DKI`, `WP_Wilayah_Jabar`, `WP_Wilayah_Surabaya`, `WP_Wilayah_Semarang`, `WP_Wilayah_Bali`, `WP_Wilayah_NonDKI_Kendaraan`, `Badan_PemilikKendaraanDKI`, `OP_PemilikKendaraanDKI` (`Ke1`..`Ke5Plus`), `Badan_PemilikKendaraanJabar`, `OP_KendaraanKe1..5Plus_Jabar`, `WP_PBB_Surabaya_L1..L6`, `OP_Kendaraan_Bali_Max200cc/Over200cc`, `PenerimaPPh23_NonBank_JasaSewa/Modal`, `WP_PPh23_TanpaNPWP` |
-| **Pekerjaan & Wilayah** | `JenisPekerjaan` (`PekerjaanPegawai` -> `PekerjaanPegawaiTetap`, `PekerjaanPegawaiTidakTetap`, `PekerjaanPesertaKegiatan`; `PekerjaanBebas`; `UsahaDagangJasa`) berisi `30` individu profesi; `WilayahDaerah` (`5` nominal daerah pilot) |
+| **Wajib Pajak Lintas Subjek & Daerah** | `SubjekPajakAktif`, `UMKM`, `PengusahaKenaPajak`, `WajibPajakUMKM`, `WajibPajakNonUMKM`, `WP_TidakSelenggarakanPembukuan`, `WP_Wilayah_DKI`, `WP_Wilayah_Jabar`, `WP_Wilayah_Surabaya`, `WP_Wilayah_Semarang`, `WP_Wilayah_Bali`, `WP_Wilayah_Nasional_NonDKI`, `WP_Wilayah_NonDKI_Kendaraan`, `Badan_PemilikKendaraanDKI`, `OP_PemilikKendaraanDKI` (`Ke1`..`Ke5Plus`), `Badan_PemilikKendaraanJabar`, `OP_KendaraanKe1..5Plus_Jabar`, `WP_PBB_Surabaya_L1..L6`, `OP_Kendaraan_Bali_Max200cc/Over200cc`, `PenerimaPPh23_NonBank_JasaSewa/Modal`, `WP_PPh23_TanpaNPWP` |
+| **Pekerjaan & Wilayah** | `JenisPekerjaan` (`PekerjaanPegawai` -> `PekerjaanPegawaiTetap`, `PekerjaanPegawaiTidakTetap`, `PekerjaanPesertaKegiatan`; `PekerjaanBebas`; `UsahaDagangJasa`) berisi `30` individu profesi; `WilayahDaerah` (`6` nominal: `5` daerah pilot + `Wilayah_Nasional_NonDKI`) |
 | **Katalog Output (`83` item)** | `TarifPajak` (`TarifProgresif`, `TarifFinal`), `FasilitasPerpajakan` (`PP55UMKM`), `KewajibanPajak`, `SanksiAdministratif`, `DomainPajak` (`9` nominal), `ObjekPajak` |
 | **Dokumen & Aturan Reifikasi** | `DokumenHukum` (`Regulasi` -> `UndangUndang`, `PeraturanPemerintah`, `PeraturanMenteriKeuangan`, `PeraturanDirjenPajak`, `PeraturanDaerah`; `Pasal`; `PutusanMK`; `SEMA_TUN`), `AturanHukum` (`Kewajiban`, `Hak`, `Larangan`, `Pengecualian`, `Sanksi`, `BatasWaktu`, `AturanTarif`, `Definisi`, `Prosedur`, `Kelayakan`) |
 
@@ -125,11 +125,17 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 
 ---
 
-## 5. Kontrak API FastAPI (`backend/main.py`)
+## 5. Kontrak API FastAPI (`backend/main.py`) & Modul Step B–C
 
-- `GET /health` → status `.owl`, `.ttl`, jumlah kelas/individu/SWRL.
-- `GET /options` → daftar `30` `JenisPekerjaan` (beserta kategorinya) dan `5` `WilayahDaerah` dari ontologi OWL.
-- `GET /catalog` → `83` item katalog `rule_map.json`.
-- `GET /scenarios` → `15` skenario demonstrasi bawaan.
-- `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.907` aturan).
-- `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), dan `properties` (termasuk `memilikiPekerjaan` & `berdomisiliDi`), lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi`, rantai `justifikasi`, serta **`estimasi_pajak`** (hasil kalkulator deklaratif **`SPARQL 1.1 BIND`** atas graf hasil HermiT: PPh Badan / Pasal 31E, BUT BPT 20%, OP UMKM `> Rp500jt`, OP Pasal 17 5 lapis, PPN 12%/11%, PBB-P2, dan denda administratif tetap).
+- **`ontology/kbr_ter_pph21.ttl` (`127` bracket TER PPh 21 dari `PP-2023-58`):** `TER_A` (`44` bracket), `TER_B` (`40` bracket), `TER_C` (`41` bracket), dan `TER_Harian` (`2` bracket), divalidasi kontinuitas penuh batas bawah/atas & keselarasan terbilang Indonesia.
+- **`ontology/kbr_kbli.ttl` (`1.453` konsep W3C SKOS `skos:Concept`):** memuat kode KLU/KBLI 5-digit dari `PER-17/PJ/2015` Lampiran I (`1.431` NPPN OP), II (`1.433` Pemeriksaan OP), III (`1.429` Pemeriksaan Badan), `PP-2019-78` Lampiran I & II (`168` bidang usaha Tax Allowance beserta syarat provinsi/kecuali DKI Jakarta), **`PerBKPM 7/2020` Lampiran I (`63` KBLI Industri Pionir, `PMK-2020-130`)**, dan **`PMK-16/PMK.010/2020` / `PMK-81/2024 Pasal 423` (`45` KBLI Industri Padat Karya beserta syarat kecuali DKI Jakarta)**!
+- **`ontology/kbr-perda-rates.ttl` (`390` Pemda dari `524` Perda PDRD, `2.029` item tarif):** menormalisasi `13` ID non-standar, memproses Induk → Perubahan secara kronologis, serta menyimpan tarif PKB, BBNKB, PBB-P2, NJOPTKP, BPHTB, NPOPTKP, PBJT, dan Opsen beserta kutipan pasal (`360/390` Pemda memiliki tarif pajak terekstrak).
+- **Endpoint API:**
+  - `GET /health` → status `.owl`, `.ttl` (termasuk `ter_ttl_exists`, `kbli_ttl_exists`, `perda_ttl_exists`), jumlah kelas/individu/SWRL.
+  - `GET /options` → daftar `30` `JenisPekerjaan` (beserta kategorinya) dan `6` `WilayahDaerah` dari ontologi OWL.
+  - `GET /kbli?q=...&limit=20` & `GET /kbli/{kode}` → pencarian dan detail `1.449` kode KBLI SKOS.
+  - `GET /perda?q=...&tingkat=...&limit=30` & `GET /perda/{pemda_id}` → pencarian dan detail tarif `390` Pemda (`524` Perda).
+  - `GET /catalog` → `83` item katalog `rule_map.json`.
+  - `GET /scenarios` → `15` skenario demonstrasi bawaan.
+  - `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.907` aturan).
+  - `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), `kodeKBLI`, `pemdaId`, `lokasiProvinsiTaxAllowance`, `memilikiPekerjaan`, `berdomisiliDi`, dan properti WP, lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi`, `kbli_info`, `perda_info`, rantai `justifikasi`, serta **`estimasi_pajak`** (hasil kalkulator deklaratif **`SPARQL 1.1 BIND`** + TER PPh 21 + NPPN KBLI + PBB Pemda lokal).

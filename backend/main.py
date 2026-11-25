@@ -35,9 +35,12 @@ app.add_middleware(
 
 
 class TaxpayerProperties(BaseModel):
-    # Relasi individu (lihat GET /options)
+    # Relasi individu (lihat GET /options & GET /kbli)
     memilikiPekerjaan: Optional[List[str]] = Field(default=None, description="Daftar ID JenisPekerjaan (khusus OrangPribadi), mis. ['Dokter', 'PegawaiTetap_Swasta']")
     berdomisiliDi: Optional[List[str]] = Field(default=None, description="Daftar ID WilayahDaerah, mis. ['Wilayah_Kota_Surabaya']")
+    kodeKBLI: Optional[str] = Field(default=None, description="Kode KBLI/KLU 5 digit (mis. '69100', '86201', '03222') untuk lookup SKOS NPPN & Tax Allowance")
+    lokasiProvinsiTaxAllowance: Optional[str] = Field(default=None, description="Nama provinsi/kota lokasi proyek untuk syarat wilayah Lampiran II PP 78/2019")
+    pemdaId: Optional[str] = Field(default=None, description="ID Pemda dari 524 Perda (mis. 'KOTA_BANDUNG', 'KAB_BOGOR', 'PROV_DKI_JAKARTA') — lihat GET /perda")
 
     # Kuantitatif umum & Badan
     hasOmzetTahunan: Optional[float] = Field(default=None, ge=0, description="Peredaran bruto tahunan (Rp)")
@@ -134,6 +137,8 @@ class ReasonResponse(BaseModel):
     fasilitas: List[InferredConceptItem]
     kewajiban: List[InferredConceptItem]
     sanksi: List[InferredConceptItem]
+    kbli_info: Optional[Dict[str, Any]] = None
+    perda_info: Optional[Dict[str, Any]] = None
     estimasi_pajak: Dict[str, Any] = Field(default_factory=dict)
     reasoner: str
     elapsed_ms: float
@@ -170,6 +175,47 @@ def get_options() -> dict:
         return engine.get_options()
     except FileNotFoundError as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@app.get("/kbli", summary="Cari kode & uraian KBLI/KLU di graf SKOS (PER-17/PJ/2015 & PP 78/2019)")
+def get_kbli_search(
+    q: str = Query(default="", description="Kata kunci uraian atau prefiks kode KBLI, mis. 'dokter' atau '6910'"),
+    limit: int = Query(default=20, ge=1, le=100),
+) -> dict:
+    try:
+        items = engine.search_kbli(query=q, limit=limit)
+        return {"count": len(items), "results": items}
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@app.get("/kbli/{kode}", summary="Detail 1 kode KBLI/KLU (persentase NPPN 3 wilayah & Tax Allowance PP 78/2019)")
+def get_kbli_detail(kode: str) -> dict:
+    item = engine.lookup_kbli(kode)
+    if item is None:
+        raise HTTPException(status_code=404, detail=f"Kode KBLI '{kode}' tidak ditemukan di kbr_kbli.ttl")
+    return item
+
+
+@app.get("/perda", summary="Cari/daftar Pemda dari 524 Perda PDRD se-Indonesia (390 Pemda unik)")
+def get_perda_list(
+    q: str = Query(default="", description="Kata kunci nama/ID Pemda, mis. 'bandung', 'bogor', 'yogyakarta'"),
+    tingkat: Optional[Literal["PROV", "KOTA", "KAB"]] = Query(default=None, description="Filter tingkat Pemda"),
+    limit: int = Query(default=30, ge=1, le=400),
+) -> dict:
+    try:
+        items = engine.search_pemda(query=q, tingkat=tingkat, limit=limit)
+        return {"count": len(items), "results": items}
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@app.get("/perda/{pemda_id}", summary="Detail tarif pajak daerah & kutipan Perda resmi untuk 1 Pemda")
+def get_perda_detail(pemda_id: str) -> dict:
+    item = engine.lookup_pemda(pemda_id)
+    if item is None:
+        raise HTTPException(status_code=404, detail=f"Pemda '{pemda_id}' tidak ditemukan di kbr-perda-rates.ttl")
+    return item
 
 
 @app.get("/scenarios", summary="Ringkasan hasil inferensi skenario bawaan di kbr_pajak_reasoning.owl")

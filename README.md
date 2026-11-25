@@ -2,7 +2,7 @@
 
 Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif, fasilitas, dan mitigasi risiko perpajakan Indonesia (**Fase 0–8 selesai — Gerbang G8 tercapai**).
 
-> **Dokumentasi Lengkap:** baca [`docs/fase_8.md`](docs/fase_8.md) (arsitektur menyeluruh & alur kerja) dan [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) (kamus data korpus, `legal_rules.jsonl`, `119` kelas/`17` object props/`62` data props/`78` SWRL ontologi, & kontrak API).
+> **Dokumentasi Lengkap:** baca [`docs/fase_8.md`](docs/fase_8.md) (arsitektur menyeluruh & alur kerja) dan [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) (kamus data korpus, `legal_rules.jsonl`, `120` kelas/`17` object props/`62` data props/`79` SWRL ontologi, & kontrak API).
 
 ---
 
@@ -11,18 +11,20 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
 ```text
 [Korpus Resmi BPK/JDIH/MK/MA/SetPP]
    ├── 165 regulasi pusat (97 active_for_rules) + 32 consolidated (UU CK & HPP)
-   ├── 524 Perda PDRD (2023–2026, incl. 5 Perda pilot) + 284 SetPP + 15 MK + 78 SEMA TUN
+   ├── 524 Perda PDRD (2023–2026, 390 Pemda unik) + 284 SetPP + 15 MK + 78 SEMA TUN
    └── 12.907 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
          │
-         ├──► ontology/kbr_pajak_reasoning.owl (119 kelas SROIQ(D) · 78 SWRL · 367 individu)
+         ├──► ontology/kbr_pajak_reasoning.owl (120 kelas SROIQ(D) · 79 SWRL · 368 individu)
          │       └─► Reasoner HermiT (World() terisolasi) + Kalkulator SPARQL BIND
          │
+         ├──► ontology/kbr_ter_pph21.ttl (127 bracket TER) + kbr_kbli.ttl (1.453 KBLI SKOS: NPPN/TA/Pionir/Padat Karya)
+         ├──► ontology/kbr-perda-rates.ttl (390 Pemda · 2.029 tarif lokal dari 524 Perda)
          └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.907 aturan)
                  └─► Engine SPARQL lokal (rdflib)
                          │
                          ▼
                [backend/main.py — FastAPI + Uvicorn]
-     GET /options · POST /reason · GET /sparql/provenance · GET /catalog · GET /health
+  GET /options · GET /kbli · GET /perda · POST /reason · GET /sparql/provenance
 ```
 
 **Prinsip utama:** **0% logika pajak di-hardcode di Python.** Klasifikasi Badan (`19%` Tbk syarat lengkap, `22%`, `Pasal 31E 11%`, `BUT 20%`, Tax Holiday `6` tier), Orang Pribadi (`30` profesi `JenisPekerjaan`, `TER A/B/C`, bebas `≤ Rp500jt`, larangan PP 55 & `NPPN` Pekerja Bebas, `5` lapis Pasal 17 `5%–35%`), PPN (`12%` Mewah vs `11%` Efektif), PPh 23, `5` Perda pilot, dan sanksi KUP dikerjakan oleh aksioma `OWL 2 SROIQ(D)` + `73` aturan SWRL lewat **HermiT**, dan setiap hasil selalu membawa jejak `rule_id`, `Pasal`, `source_quote`, serta referensi `PutusanMK`/`SEMA_TUN`.
@@ -43,9 +45,11 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000
 
 | Endpoint | Fungsi |
 |---|---|
-| `GET /health` | Status `.owl`, `.ttl`, jumlah kelas, individu, dan aturan SWRL |
-| `GET /options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
-| `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + justifikasi pasal/MK/SEMA |
+| `GET /health` | Status `.owl`, `.ttl` (`kbr_ter_pph21.ttl`, `kbr_kbli.ttl`, `kbr-perda-rates.ttl`), jumlah kelas, individu, dan aturan SWRL |
+| `GET /options` | Daftar `30` pilihan `JenisPekerjaan` & `6` `WilayahDaerah` langsung dari OWL |
+| `GET /kbli` & `GET /kbli/{kode}` | Pencarian & detail `1.453` kode KBLI SKOS (NPPN, Tax Allowance PP 78/2019, Industri Pionir PerBKPM 7/2020, & Padat Karya PMK 16/2020) |
+| `GET /perda` & `GET /perda/{pemda_id}` | Pencarian & detail `390` Pemda (`2.029` tarif pajak daerah dari `524` Perda PDRD) |
+| `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + `kodeKBLI` & `pemdaId` + **`estimasi_pajak` (`SPARQL BIND`, TER `127` bracket, NPPN, PBB lokal)** + justifikasi pasal/MK/SEMA |
 | `GET /catalog` | Peta `79` item katalog tarif/fasilitas/kewajiban/sanksi (`ontology/rule_map.json`) |
 | `GET /scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
 | `GET /sparql/provenance` | Query SPARQL pada 12.907 aturan (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) |
@@ -67,9 +71,14 @@ kbr_pajak/
 ├── ontology/                              # Artefak Ontologi SROIQ(D) (Fase 5–6)
 │   ├── kbr-core.ttl                       # TBox murni (Turtle, 113 kelas + properti + aksioma)
 │   ├── kbr_pajak_tbox.owl                 # TBox murni (RDF/XML untuk Protégé)
-│   ├── kbr_pajak_reasoning.owl            # TBox + 73 SWRL + 450 individu + 15 skenario uji
-│   ├── rule_map.json                      # Peta 79 konsep katalog -> rule_id & source_quote
-│   └── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
+│   ├── kbr_pajak_reasoning.owl            # TBox + 79 SWRL + 368 individu + 15 skenario uji
+│   ├── kbr_ter_pph21.ttl                  # 127 bracket TER PPh 21 (PP 58/2023) tervalidasi
+│   ├── kbr_kbli.ttl                       # 1.453 konsep W3C SKOS KBLI/KLU (PER-17, PP 78/2019, PerBKPM 7/2020, PMK 16/2020)
+│   ├── kbr-perda-rates.ttl                # 390 Pemda · 2.029 tarif pajak daerah dari 524 Perda PDRD
+│   ├── rule_map.json                      # Peta 83 konsep katalog -> rule_id & source_quote
+│   ├── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
+│   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
+│   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
 ├── docs/                                  # Dokumentasi & Laporan Fase 1–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
 │   ├── DATA_DICTIONARY.md                 # Kamus data korpus, rules, ontologi & API

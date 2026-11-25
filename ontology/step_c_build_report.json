@@ -1,0 +1,23 @@
+{
+  "total_perda_docs": 524,
+  "unique_pemda": 390,
+  "pemda_with_extracted_rates": 360,
+  "total_rate_items": 2029,
+  "by_tax_key": {
+    "NJOPTKP": 298,
+    "BPHTB": 276,
+    "NPOPTKP": 261,
+    "Opsen_BBNKB": 239,
+    "Opsen_PKB": 234,
+    "PBJT_Umum": 227,
+    "PBB_P2": 221,
+    "PBJT_Hiburan_Khusus": 200,
+    "PKB_Ke1": 21,
+    "BBNKB": 21,
+    "PKB_Ke2": 8,
+    "PKB_Ke3": 8,
+    "PKB_Ke4": 8,
+    "PKB_Ke5": 7
+  },
+  "out_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr-perda-rates.ttl"
+}
