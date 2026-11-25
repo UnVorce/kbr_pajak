@@ -1,7 +1,7 @@
 # Laporan Akhir Fase 8 — Dokumentasi Menyeluruh Sistem KBR Perpajakan Indonesia (Fase 0–8)
 
 > **Status:** **SELESAI — Gerbang G8 (Serah Terima Final)**
-> **Seluruh Fase (0–8) selesai:** Akuisisi korpus resmi, konsolidasi-lite 32 rantai amandemen, ekstraksi 12.907 aturan atomik, ontologi OWL 2 `SROIQ(D)` + 28 SWRL (HermiT), ekspor RDF/SPARQL penuh, dan service API FastAPI (`backend/`), dengan **`146/146` tes otomatis lulus**.
+> **Seluruh Fase (0–8) selesai:** Akuisisi korpus resmi, konsolidasi-lite 32 rantai amandemen, ekstraksi 12.907 aturan atomik, ontologi OWL 2 `SROIQ(D)` penuh (`113` kelas, `73` SWRL, `HermiT`), ekspor RDF/SPARQL penuh, dan service API FastAPI (`backend/`), dengan **`149/149` tes otomatis lulus**.
 
 ---
 
@@ -34,12 +34,13 @@ Sistem ini dibangun untuk menjawab masalah nyata pada konsultasi/informasi perpa
         ├──────────────────────────────────────────────┐
         ▼ (Fase 5–6: Lapisan Reasoning Ringkas)         ▼ (Fase 6: Lapisan Graf Penuh)
 [kbr_pajak_reasoning.owl + kbr-core.ttl]        [kbr-data.ttl (9,9 MB)]
-  59 Kelas OWL 2 SROIQ(D) · 28 Aturan SWRL        Ekspor RDF penuh 12.907 aturan
-  322 Individu (31 Katalog + MK + SEMA + Uji)     beserta quote & rujukan MK/SEMA
+  113 Kelas OWL 2 SROIQ(D) · 73 Aturan SWRL       Ekspor RDF penuh 12.907 aturan
+  450 Individu (79 Katalog + 30 Profesi +         beserta quote & rujukan MK/SEMA
+  5 Daerah + MK + SEMA + 15 Skenario)                  │
         │                                              │
         ▼ (HermiT Reasoner, World() terisolasi)        ▼ (rdflib SPARQL engine)
 [FASTAPI BACKEND: backend/main.py] ◄───────────────────┘
-  POST /reason · GET /sparql/provenance · GET /sparql/stats · GET /catalog · GET /health
+  GET /options · POST /reason · GET /sparql/provenance · GET /catalog · GET /health
         │
         ▼
 [KONSUMEN TIM]
@@ -59,21 +60,18 @@ Sistem ini dibangun untuk menjawab masalah nyata pada konsultasi/informasi perpa
 Memasukkan seluruh `12.907` individu + string `source_quote` ke dalam satu file `.owl` untuk reasoner Description Logic (`HermiT`/`Pellet`) akan memperlambat klasifikasi secara drastis, sementara `owlready2 0.51` dengan Pellet bawaan gagal di OpenJDK 21 (`class file version 69.0`) dan `Imp.set_as_rule()` tidak menerima built-in `swrlb:greaterThanOrEqual`.
 
 Solusi arsitektural yang terbukti bersih dan cepat:
-1. **Lapisan Reasoning (`ontology/kbr_pajak_reasoning.owl`, `329 KB`):**
-   - Berisi TBox lengkap **`59` kelas `SROIQ(D)`**, **`15` Object Properties** (`TransitiveProperty`, `PropertyChain`, `Asymmetric`/`Irreflexive`, 3 pasang *inverse*), **`30` Data Properties**, **`28` aturan SWRL DL-safe**, dan **`322` individu** (`31` item katalog tarif/fasilitas/kewajiban/sanksi yang masing-masing tertaut ke `AturanHukum -> Pasal -> Regulasi` + `15` `PutusanMK` + `14` `SEMA_TUN` + `120` aturan terkurasi + `8` skenario).
-   - **Seluruh ambang numerik** (`> Rp4,8M`, `≤ Rp4,8M`, `≥ 40%`, 6 interval Tax Holiday, jumlah kendaraan `1..5+`) dimodelkan dengan **`OWL 2 ConstrainedDatatype`** (bagian `(D)` dari `SROIQ(D)`), bukan di Python dan bukan lewat `swrlb:*`.
-   - **HermiT** mengeksekusi klasifikasi `SROIQ(D)` + 28 aturan SWRL secara utuh dalam **`~2,3 detik` per *request*** di `owlready2.World()` terisolasi.
+1. **Lapisan Reasoning (`ontology/kbr_pajak_reasoning.owl`):**
+   - Berisi TBox lengkap **`113` kelas `SROIQ(D)` penuh** (memenuhi $\mathcal{S}$ `TransitiveProperty`, $\mathcal{R}$ `PropertyChain` + `Asymmetric`/`Irreflexive`, $\mathcal{O}$ `OneOf` nominals, $\mathcal{I}$ 3 pasang *inverse*, $\mathcal{Q}$ `= 1` & `≥ 1` *qualified cardinality*, dan $(D)$ `ConstrainedDatatype`), **`17` Object Properties**, **`51` Data Properties**, **`73` aturan SWRL DL-safe**, dan **`450` individu** (`79` item katalog ber-provenance + `30` profesi `JenisPekerjaan` + `5` wilayah `WilayahDaerah` + `15` `PutusanMK` + `14` `SEMA_TUN` + `50` aturan terkurasi + `15` skenario).
+   - **Seluruh ambang numerik** (`> Rp4,8M` PKP, `≤ Rp500jt` OP bebas, `≤ Rp50M` Pasal 31E, `≥ 40% / ≥ 300 pihak / ≥ 183 hari` Tbk, `6` interval Tax Holiday, `5` lapis Pasal 17 `5%–35%`, `6` lapis PBB Surabaya, PKB `1..5+` & CC) dimodelkan dengan **`OWL 2 ConstrainedDatatype`**.
+   - Pada evaluasi tunggal via `backend/engine.py`, individu demo & aturan non-katalog dibersihkan di memori pada `World()` terisolasi sehingga **HermiT** mengeksekusi klasifikasi `SROIQ(D)` + 73 SWRL dalam **`~4,8 detik` per *request***.
 2. **Lapisan Graf Penuh (`kbr-data.ttl`, `9,9 MB`):**
    - Menyimpan seluruh **`12.907` aturan atomik** dalam format Turtle RDF untuk query **SPARQL lokal (`rdflib`)** dalam hitungan milidetik setelah dimuat ke memori.
 
-### 3.3 Alur Eksekusi `POST /reason` (0% Hardcode Pajak di Python)
-1. **Validasi input (Pydantic):** `ReasonRequest` memastikan `wp_id` valid, `wp_kind` anggota enum kelas (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `Badan`, `OrangPribadi`), nilai rupiah `≥ 0`, dan persentase saham `0..100`.
-2. **Instansiasi di `World()` terisolasi:** `KBRReasoningEngine.reason()` memuat `kbr_pajak_reasoning.owl` ke `World()` baru sehingga profil wajib pajak satu pengguna **tidak pernah bocor** ke pengguna lain.
-3. **Klasifikasi & Inferensi HermiT:**
-   - Misal input: `CV`, `hasOmzetTahunan = 4_800_000_001`, `isUMKM_PP55 = True`.
-   - HermiT mengevaluasi `hasOmzetTahunan > 4.8e9` (`min_exclusive=4800000000.0`) → mengklasifikasikan individu ke `PengusahaKenaPajak` (dan otomatis `WajibPajakNonUMKM`, bukan `WajibPajakUMKM`).
-   - Aturan SWRL `SWRL_TK_A2_2_UMKM_Lewat_4_8M` & `SWRL_TK_B1_PKP_PPN` & `SWRL_TK_A2_2_Badan_Umum` menembak relasi `memilikiKewajiban` & `dikenaiTarif`.
-4. **Penelusuran Provenance (`TK-E1`):** API mengikuti relasi `didasarkanPadaAturan -> diaturDalam / diaturDalamPasal / terdampakPutusanMK / merujukSEMA` untuk mengembalikan teks pasal, kutipan sumber persis, dan peringatan yurisprudensi terkait.
+### 3.3 Pemodelan Dunia Nyata (`Badan`, `OrangPribadi`, `BUT`, `PPh 23`, `5` Perda Pilot)
+- **`OrangPribadi` Multi-Peran (`memilikiPekerjaan`):** User dapat memilih 1 atau lebih dari `30` profesi resmi (`PegawaiTetap_Swasta`, `Dokter`, `Influencer_KontenKreator`, `Pedagang_ECommerce`, dll.). HermiT dapat mengklasifikasikan seorang dokter yang juga karyawan rumah sakit dan pemilik toko online ke rezimnya masing-masing tanpa konflik `AllDisjoint`.
+- **`BadanDalamNegeri` vs `BUT`:** `PT`/`Koperasi`/`CV` mendapat fasilitas Pasal 31E bila omzet `≤ Rp50M`; `BUT` dilarang masuk `BadanUMKM` dan dikenai Branch Profit Tax `20%`.
+- **PPN `12%` Mewah vs `11%` Efektif (`PMK-2024-131`):** Dipisahkan tegas agar tidak dobel.
+- **Sanksi KUP Terdiferensiasi:** Denda telat SPT `OP Rp100rb`, `Badan Rp1jt`, `Masa PPN Rp500rb`, serta SKPKB bunga & kenaikan `75%`.
 
 ---
 
@@ -84,9 +82,9 @@ Solusi arsitektural yang terbukti bersih dan cepat:
 | **Korpus Regulasi & Yurisprudensi** | `165` pusat (`97` aktif), `32` konsolidasi, `524` Perda, `284` SetPP, `15` MK, `78` SEMA (`14` pajak) | `knowledge_json/`, `manifest.json` |
 | **Penutupan Gap (`G3`)** | `389` regulasi dikutip selesai (`0` `UNRESOLVED`) | `metadata/gaps.json`, `unresolved_citations.json` |
 | **Aturan Atomik (`G4`)** | **`12.907` aturan** (`100` dokumen, `9` domain), `621` baris audit `P1`–`P6` ter-apply | `legal_rules.jsonl`, `review_apply_report.json` |
-| **Ontologi `SROIQ(D)` (`G5–G6`)** | **`59` kelas**, `14` object props, `30` data props, **`28` SWRL**, `322` individu reasoning, `12.907` aturan RDF | `ontology/ontology_build_report.json`, `kbr-data.ttl` |
-| **Evaluasi Skenario (`G7`)** | **`12 / 12` PASS** (termasuk boundary `Rp4,8M` vs `+1 Rp`, Tbk `30%` vs `45%`, Tax Holiday, MK Spa, SEMA Banding), rata-rata **`2.347,7 ms`** | `docs/fase7_eval_results.json` |
-| **Test Suite Otomatis** | **`146 / 146` `pytest` PASS** (pipeline, konsolidasi, validator, ontologi HermiT, SPARQL, dan FastAPI `TestClient`) | `fatih/tests/` |
+| **Ontologi `SROIQ(D)` (`G5–G6`)** | **`113` kelas**, `17` object props, `51` data props, **`73` SWRL**, `450` individu (`79` katalog + `30` profesi + `5` wilayah), `12.907` aturan RDF | `ontology/ontology_build_report.json`, `kbr-data.ttl` |
+| **Evaluasi Skenario (`G7`)** | **`15 / 15` PASS** (rata-rata **`4.844,55 ms`**, maks `5.401,15 ms`) | `docs/fase7_eval_results.json` |
+| **Test Suite Otomatis** | **`149 / 149` `pytest` PASS** (pipeline, konsolidasi, validator, `11` tes ontologi HermiT/SPARQL, `6` tes FastAPI `TestClient`) | `fatih/tests/` |
 
 ---
 
@@ -94,26 +92,25 @@ Solusi arsitektural yang terbukti bersih dan cepat:
 
 ### 5.1 Menjalankan Backend API (`kbr_pajak/` atau `fatih/`)
 ```bash
-# Prasyarat: Python 3.10+, Java JRE/JDK (untuk HermiT), paket di backend/requirements.txt
 cd /media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/kbr_pajak
 uvicorn backend.main:app --host 0.0.0.0 --port 8000
 ```
 - Swagger UI interaktif: `http://localhost:8000/docs`
-- Konsumsi untuk **`yoeke-front`**: panggil `POST /reason` untuk evaluasi profil wajib pajak, gunakan `GET /catalog` untuk daftar label/tarif, dan `GET /sparql/provenance` untuk membuka detail ayat/kutipan.
+- Konsumsi untuk **`yoeke-front`**: panggil `GET /options` untuk mengisi dropdown `30` pekerjaan & `5` daerah secara dinamis, panggil `POST /reason` untuk evaluasi profil WP, dan gunakan `GET /sparql/provenance` untuk membuka detail ayat/kutipan.
 - Konsumsi untuk **`daRAG`**: gunakan `knowledge_json/rules/legal_rules.jsonl` (atau `GET /sparql/provenance?q=...`) sebagai sumber grounded dengan `rule_id` & `source_quote` resmi.
 
 ### 5.2 Membangun Ulang Ontologi & Menguji Sistem (`fatih/`)
 ```bash
 cd /media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih
 python3 scripts/fase5_ontology.py build       # rebuild TBox, Reasoning OWL, rule_map.json, & kbr-data.ttl
-python3 scripts/fase7_eval.py                 # uji 12 skenario & boundary case via HermiT
-pytest -q                                     # jalankan seluruh 146 automated tests
+python3 scripts/fase7_eval.py                 # uji 15 skenario & boundary case via HermiT
+pytest -q                                     # jalankan seluruh 149 automated tests
 python3 scripts/sync_kbr_pajak.py             # sinkronkan artefak bersih ke repo tim kbr_pajak/
 ```
 
 ### 5.3 Inspeksi Visual di Protégé
 - Buka `ontology/kbr_pajak_reasoning.owl` (atau `ontology/kbr_pajak_tbox.owl`) di **Protégé**.
-- Pilih menu **Reasoner → HermiT** → **Start reasoner** untuk melihat hasil klasifikasi kelas `WajibPajak`, `PengusahaKenaPajak`, `BadanTerbukaTbk`, `LayakTaxHoliday_*`, dan 8 individu skenario bawaan secara visual.
+- Pilih menu **Reasoner → HermiT** → **Start reasoner** untuk melihat hasil klasifikasi kelas dan `15` individu skenario bawaan secara visual.
 
 ---
 
@@ -122,14 +119,5 @@ python3 scripts/sync_kbr_pajak.py             # sinkronkan artefak bersih ke rep
 1. **Java JRE/JDK wajib terpasang** di mesin yang menjalankan `backend/` karena `owlready2` memanggil HermiT via JVM.
 2. **`PER-DJP-2015-17` dikarantina (`ISSUES.md #A7`):** file PDF sumber BPK tidak valid (berisi Perda Kab. Pangandaran) dan sudah diblokir di `src/validate.py`.
 3. **`PMK-2008-253` (PPh 22 barang sangat mewah):** naskah awal tidak tersedia di BPK; perubahan berlakunya (`PMK-2015-90` & `PMK-2019-92`) sudah masuk korpus.
-4. **Status Putusan MK & SEMA TUN:** disimpan sebagai lapisan anotasi/interpretasi (`terdampakPutusanMK`, `merujukSEMA`) yang ditampilkan dalam justifikasi, bukan menimpa teks undang-undang hasil konsolidasi.
+4. **Status Putusan MK & SEMA TUN:** disimpan sebagai lapisan anotasi/interpretasi (`terdampakPutusanMK`, `merujukSEMA`) dalam justifikasi tanpa menimpa teks UU konsolidasi.
 5. **Keamanan Git `kbr_pajak/`:** folder `sources/` berisi PDF mentah lokal (~24,6 MB) dan **tidak pernah** disinkronkan atau di-commit ke GitHub.
-
----
-
-## 7. Daftar Dokumen & Laporan Terkait
-
-- `docs/DATA_DICTIONARY.md` — kamus data lengkap skema korpus, `legal_rules.jsonl`, 59 kelas & properti ontologi, serta kontrak API.
-- `docs/fase_1.md`, `docs/fase_2.md`, `docs/fase_3.md`, `docs/fase_3b.md`, `docs/fase_4.md`, `docs/fase_5_6.md`, `docs/fase_7.md` — catatan progres & gerbang tiap fase.
-- `docs/ISSUES.md` — catatan anomali sumber dan keputusan teknis.
-- `backend/README.md` — panduan cepat menjalankan API.

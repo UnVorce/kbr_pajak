@@ -105,6 +105,16 @@
   <rdfs:range rdf:resource="#SanksiAdministratif"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="#memilikiPekerjaan">
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="#JenisPekerjaan"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#berdomisiliDi">
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="#WilayahDaerah"/>
+</owl:ObjectProperty>
+
 <owl:DatatypeProperty rdf:about="#hasOmzetTahunan">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#WajibPajak"/>
@@ -213,7 +223,97 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#isPenyerahanBKP_Mewah">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
 <owl:DatatypeProperty rdf:about="#isPenyerahanBKPStrategis">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isPerseroanPerorangan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#PT"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasJumlahPemegangSahamPublik">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Badan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasHariTerpenuhiTbk">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Badan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSuratKeteranganFiskal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Badan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isBelumPernahPutusTaxHoliday">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Badan"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNilaiNJOP">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasKapasitasMesinCC">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isPenerimaPenghasilanPPh23_JasaSewa">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isPenerimaPenghasilanPPh23_Modal">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isBankPenerimaPenghasilan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isTerlambatLaporSPTMasaPPN">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isDikecualikanDendaSPT">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isKurangBayarSKPKB">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#WajibPajak"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isTidakSetorPajakDipungut">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#WajibPajak"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
@@ -223,6 +323,42 @@
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#OrangPribadi"/>
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isSubjekLuarNegeri">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isKawin">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasJumlahTanggungan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#isPenghasilanIstriDigabung">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPenghasilanKenaPajakTahunan">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasJumlahPemberiKerja">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#OrangPribadi"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
 </owl:DatatypeProperty>
 
 <owl:DatatypeProperty rdf:about="#hasTarifPersen">
@@ -298,20 +434,38 @@
   <rdfs:subClassOf rdf:resource="#WajibPajak"/>
 </owl:Class>
 
-<owl:Class rdf:about="#PT">
+<owl:Class rdf:about="#BadanDalamNegeri">
   <rdfs:subClassOf rdf:resource="#Badan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Badan"/>
+        <owl:Class>
+          <owl:complementOf rdf:resource="#BadanUsahaTetap"/>
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
-<owl:Class rdf:about="#CV">
-  <rdfs:subClassOf rdf:resource="#Badan"/>
+<owl:Class rdf:about="#BadanHukumIndonesia">
+  <rdfs:subClassOf rdf:resource="#BadanDalamNegeri"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PT">
+  <rdfs:subClassOf rdf:resource="#BadanHukumIndonesia"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Koperasi">
-  <rdfs:subClassOf rdf:resource="#Badan"/>
+  <rdfs:subClassOf rdf:resource="#BadanHukumIndonesia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CV">
+  <rdfs:subClassOf rdf:resource="#BadanDalamNegeri"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Yayasan">
-  <rdfs:subClassOf rdf:resource="#Badan"/>
+  <rdfs:subClassOf rdf:resource="#BadanDalamNegeri"/>
 </owl:Class>
 
 <owl:Class rdf:about="#BadanUsahaTetap">
@@ -331,7 +485,7 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#PT"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPerseroanTerbuka"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
@@ -346,6 +500,42 @@
                   <rdf:first>
                     <rdf:Description>
                       <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40.0</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahPemegangSahamPublik"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasHariTerpenuhiTbk"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">183</xsd:minInclusive>
                     </rdf:Description>
                   </rdf:first>
                   <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -406,31 +596,10 @@
   <rdfs:subClassOf rdf:resource="#WajibPajak"/>
   <owl:equivalentClass>
     <owl:Class>
-      <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#WajibPajak"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#isUMKM_PP55"/>
-          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-        </owl:Restriction>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
-          <owl:someValuesFrom>
-            <rdfs:Datatype>
-              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
-              <owl:withRestrictions>
-                <rdf:Description>
-                  <rdf:first>
-                    <rdf:Description>
-                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:maxInclusive>
-                    </rdf:Description>
-                  </rdf:first>
-                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                </rdf:Description>
-              </owl:withRestrictions>
-            </rdfs:Datatype>
-          </owl:someValuesFrom>
-        </owl:Restriction>
-      </owl:intersectionOf>
+      <owl:unionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#BadanUMKM"/>
+        <rdf:Description rdf:about="#OP_UMKM_Final_PP55"/>
+      </owl:unionOf>
     </owl:Class>
   </owl:equivalentClass>
 </owl:Class>
@@ -461,8 +630,40 @@
   </owl:equivalentClass>
 </owl:Class>
 
+<owl:Class rdf:about="#BadanLayakPasal31E">
+  <rdfs:subClassOf rdf:resource="#BadanDalamNegeri"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#BadanDalamNegeri"/>
+        <owl:Class>
+          <owl:complementOf rdf:resource="#BadanUMKM"/>
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50000000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#LayakTaxHoliday">
-  <rdfs:subClassOf rdf:resource="#Badan"/>
+  <rdfs:subClassOf rdf:resource="#BadanDalamNegeri"/>
 </owl:Class>
 
 <owl:Class rdf:about="#LayakTaxHoliday_50Pct_5Thn">
@@ -470,13 +671,21 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#BadanHukumIndonesia"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isIndustriPionir"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPenanamanModalBaru"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasSuratKeteranganFiskal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBelumPernahPutusTaxHoliday"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
@@ -516,13 +725,21 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#BadanHukumIndonesia"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isIndustriPionir"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPenanamanModalBaru"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasSuratKeteranganFiskal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBelumPernahPutusTaxHoliday"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
@@ -562,13 +779,21 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#BadanHukumIndonesia"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isIndustriPionir"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPenanamanModalBaru"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasSuratKeteranganFiskal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBelumPernahPutusTaxHoliday"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
@@ -608,13 +833,21 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#BadanHukumIndonesia"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isIndustriPionir"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPenanamanModalBaru"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasSuratKeteranganFiskal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBelumPernahPutusTaxHoliday"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
@@ -654,13 +887,21 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#BadanHukumIndonesia"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isIndustriPionir"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPenanamanModalBaru"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasSuratKeteranganFiskal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBelumPernahPutusTaxHoliday"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
@@ -700,13 +941,21 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Badan"/>
+        <rdf:Description rdf:about="#BadanHukumIndonesia"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isIndustriPionir"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isPenanamanModalBaru"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasSuratKeteranganFiskal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBelumPernahPutusTaxHoliday"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
         </owl:Restriction>
         <owl:Restriction>
@@ -732,6 +981,134 @@
   </owl:equivalentClass>
 </owl:Class>
 
+<owl:Class rdf:about="#WilayahDaerah">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Wilayah_DKI_Jakarta"/>
+        <rdf:Description rdf:about="#Wilayah_Jawa_Barat"/>
+        <rdf:Description rdf:about="#Wilayah_Kota_Surabaya"/>
+        <rdf:Description rdf:about="#Wilayah_Kota_Semarang"/>
+        <rdf:Description rdf:about="#Wilayah_Prov_Bali"/>
+      </owl:oneOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Wilayah_DKI">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <owl:Restriction>
+              <owl:onProperty rdf:resource="#berdomisiliDi"/>
+              <owl:hasValue rdf:resource="#Wilayah_DKI_Jakarta"/>
+            </owl:Restriction>
+            <owl:Restriction>
+              <owl:onProperty rdf:resource="#isDomisiliDKI"/>
+              <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+          </owl:unionOf>
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Wilayah_Jabar">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#berdomisiliDi"/>
+          <owl:hasValue rdf:resource="#Wilayah_Jawa_Barat"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Wilayah_Surabaya">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#berdomisiliDi"/>
+          <owl:hasValue rdf:resource="#Wilayah_Kota_Surabaya"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Wilayah_Semarang">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#berdomisiliDi"/>
+          <owl:hasValue rdf:resource="#Wilayah_Kota_Semarang"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_Wilayah_Bali">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#berdomisiliDi"/>
+          <owl:hasValue rdf:resource="#Wilayah_Prov_Bali"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Badan_PemilikKendaraanDKI">
+  <rdfs:subClassOf rdf:resource="#Badan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_DKI"/>
+        <rdf:Description rdf:about="#Badan"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#OP_PemilikKendaraanDKI">
   <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
 </owl:Class>
@@ -741,11 +1118,8 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_DKI"/>
         <rdf:Description rdf:about="#OrangPribadi"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#isDomisiliDKI"/>
-          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-        </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isMilikPribadi"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
@@ -764,11 +1138,8 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_DKI"/>
         <rdf:Description rdf:about="#OrangPribadi"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#isDomisiliDKI"/>
-          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-        </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isMilikPribadi"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
@@ -787,11 +1158,8 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_DKI"/>
         <rdf:Description rdf:about="#OrangPribadi"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#isDomisiliDKI"/>
-          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-        </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isMilikPribadi"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
@@ -810,11 +1178,8 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_DKI"/>
         <rdf:Description rdf:about="#OrangPribadi"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#isDomisiliDKI"/>
-          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-        </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isMilikPribadi"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
@@ -833,11 +1198,8 @@
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_DKI"/>
         <rdf:Description rdf:about="#OrangPribadi"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#isDomisiliDKI"/>
-          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
-        </owl:Restriction>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#isMilikPribadi"/>
           <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
@@ -852,6 +1214,1215 @@
                   <rdf:first>
                     <rdf:Description>
                       <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_KendaraanKe1_Jabar">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Jabar"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMilikPribadi"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_KendaraanKe2_Jabar">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Jabar"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMilikPribadi"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_KendaraanKe3_Jabar">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Jabar"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMilikPribadi"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_KendaraanKe4_Jabar">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Jabar"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMilikPribadi"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_KendaraanKe5Plus_Jabar">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Jabar"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMilikPribadi"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Badan_PemilikKendaraanJabar">
+  <rdfs:subClassOf rdf:resource="#Badan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Jabar"/>
+        <rdf:Description rdf:about="#Badan"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PBB_Surabaya_L1">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMemilikiObjekPBB"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiNJOP"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100000000.0</xsd:minInclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PBB_Surabaya_L2">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMemilikiObjekPBB"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiNJOP"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">200000000.0</xsd:minExclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PBB_Surabaya_L3">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMemilikiObjekPBB"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiNJOP"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000000000.0</xsd:minExclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PBB_Surabaya_L4">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMemilikiObjekPBB"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiNJOP"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000000000.0</xsd:minExclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PBB_Surabaya_L5">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMemilikiObjekPBB"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiNJOP"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50000000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10000000000.0</xsd:minExclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PBB_Surabaya_L6">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isMemilikiObjekPBB"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNilaiNJOP"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">50000000000.0</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_Kendaraan_Bali_Max200cc">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Bali"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasKapasitasMesinCC"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_Kendaraan_Bali_Over200cc">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WP_Wilayah_Bali"/>
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahKendaraan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasKapasitasMesinCC"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#PenerimaPPh23_NonBank_JasaSewa">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isPenerimaPenghasilanPPh23_JasaSewa"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBankPenerimaPenghasilan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#PenerimaPPh23_NonBank_Modal">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isPenerimaPenghasilanPPh23_Modal"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isBankPenerimaPenghasilan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#WP_PPh23_TanpaNPWP">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="#PenerimaPPh23_NonBank_JasaSewa"/>
+            <rdf:Description rdf:about="#PenerimaPPh23_NonBank_Modal"/>
+          </owl:unionOf>
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasNPWP"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#JenisPekerjaan">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PekerjaanPegawai">
+  <rdfs:subClassOf rdf:resource="#JenisPekerjaan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PekerjaanPegawaiTetap">
+  <rdfs:subClassOf rdf:resource="#PekerjaanPegawai"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PekerjaanPegawaiTidakTetap">
+  <rdfs:subClassOf rdf:resource="#PekerjaanPegawai"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PekerjaanPesertaKegiatan">
+  <rdfs:subClassOf rdf:resource="#PekerjaanPegawai"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PekerjaanBebas">
+  <rdfs:subClassOf rdf:resource="#JenisPekerjaan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#UsahaDagangJasa">
+  <rdfs:subClassOf rdf:resource="#JenisPekerjaan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_SubjekDalamNegeri">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:disjointWith rdf:resource="#OP_SubjekLuarNegeri"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isSubjekLuarNegeri"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_SubjekLuarNegeri">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isSubjekLuarNegeri"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PenerimaPPh21_PegawaiTetap">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPekerjaan"/>
+          <owl:someValuesFrom rdf:resource="#PekerjaanPegawaiTetap"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_TER_Kategori_A">
+  <rdfs:subClassOf rdf:resource="#OP_PenerimaPPh21_PegawaiTetap"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PenerimaPPh21_PegawaiTetap"/>
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <owl:Class>
+              <owl:intersectionOf rdf:parseType="Collection">
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#isKawin"/>
+                  <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                </owl:Restriction>
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#hasJumlahTanggungan"/>
+                  <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                      <owl:withRestrictions>
+                        <rdf:Description>
+                          <rdf:first>
+                            <rdf:Description>
+                              <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:maxInclusive>
+                            </rdf:Description>
+                          </rdf:first>
+                          <rdf:rest>
+                            <rdf:Description>
+                              <rdf:first>
+                                <rdf:Description>
+                                  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+                                </rdf:Description>
+                              </rdf:first>
+                              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                          </rdf:rest>
+                        </rdf:Description>
+                      </owl:withRestrictions>
+                    </rdfs:Datatype>
+                  </owl:someValuesFrom>
+                </owl:Restriction>
+              </owl:intersectionOf>
+            </owl:Class>
+            <owl:Class>
+              <owl:intersectionOf rdf:parseType="Collection">
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#isKawin"/>
+                  <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                </owl:Restriction>
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#hasJumlahTanggungan"/>
+                  <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:hasValue>
+                </owl:Restriction>
+              </owl:intersectionOf>
+            </owl:Class>
+          </owl:unionOf>
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_TER_Kategori_B">
+  <rdfs:subClassOf rdf:resource="#OP_PenerimaPPh21_PegawaiTetap"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PenerimaPPh21_PegawaiTetap"/>
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <owl:Class>
+              <owl:intersectionOf rdf:parseType="Collection">
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#isKawin"/>
+                  <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+                </owl:Restriction>
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#hasJumlahTanggungan"/>
+                  <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                      <owl:withRestrictions>
+                        <rdf:Description>
+                          <rdf:first>
+                            <rdf:Description>
+                              <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</xsd:maxInclusive>
+                            </rdf:Description>
+                          </rdf:first>
+                          <rdf:rest>
+                            <rdf:Description>
+                              <rdf:first>
+                                <rdf:Description>
+                                  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:minInclusive>
+                                </rdf:Description>
+                              </rdf:first>
+                              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                          </rdf:rest>
+                        </rdf:Description>
+                      </owl:withRestrictions>
+                    </rdfs:Datatype>
+                  </owl:someValuesFrom>
+                </owl:Restriction>
+              </owl:intersectionOf>
+            </owl:Class>
+            <owl:Class>
+              <owl:intersectionOf rdf:parseType="Collection">
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#isKawin"/>
+                  <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                </owl:Restriction>
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#hasJumlahTanggungan"/>
+                  <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                      <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                      <owl:withRestrictions>
+                        <rdf:Description>
+                          <rdf:first>
+                            <rdf:Description>
+                              <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:maxInclusive>
+                            </rdf:Description>
+                          </rdf:first>
+                          <rdf:rest>
+                            <rdf:Description>
+                              <rdf:first>
+                                <rdf:Description>
+                                  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</xsd:minInclusive>
+                                </rdf:Description>
+                              </rdf:first>
+                              <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                          </rdf:rest>
+                        </rdf:Description>
+                      </owl:withRestrictions>
+                    </rdfs:Datatype>
+                  </owl:someValuesFrom>
+                </owl:Restriction>
+              </owl:intersectionOf>
+            </owl:Class>
+          </owl:unionOf>
+        </owl:Class>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_TER_Kategori_C">
+  <rdfs:subClassOf rdf:resource="#OP_PenerimaPPh21_PegawaiTetap"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PenerimaPPh21_PegawaiTetap"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isKawin"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahTanggungan"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PenerimaPPh21_TidakTetap">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPekerjaan"/>
+          <owl:someValuesFrom rdf:resource="#PekerjaanPegawaiTidakTetap"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PesertaKegiatan">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPekerjaan"/>
+          <owl:someValuesFrom rdf:resource="#PekerjaanPesertaKegiatan"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PekerjaBebas">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPekerjaan"/>
+          <owl:someValuesFrom rdf:resource="#PekerjaanBebas"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PekerjaBebas_LayakNPPN">
+  <rdfs:subClassOf rdf:resource="#OP_PekerjaBebas"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PekerjaBebas"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:maxExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PelakuUsahaNonProfesi">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#memilikiPekerjaan"/>
+          <owl:someValuesFrom rdf:resource="#UsahaDagangJasa"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_UMKM_Bebas_500Jt">
+  <rdfs:subClassOf rdf:resource="#OP_PelakuUsahaNonProfesi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PelakuUsahaNonProfesi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isUMKM_PP55"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_UMKM_Final_PP55">
+  <rdfs:subClassOf rdf:resource="#OP_PelakuUsahaNonProfesi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PelakuUsahaNonProfesi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isUMKM_PP55"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:maxInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest>
+                    <rdf:Description>
+                      <rdf:first>
+                        <rdf:Description>
+                          <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500000000.0</xsd:minExclusive>
+                        </rdf:Description>
+                      </rdf:first>
+                      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                  </rdf:rest>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_WajibPembukuan">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="#OP_PekerjaBebas"/>
+            <rdf:Description rdf:about="#OP_PelakuUsahaNonProfesi"/>
+          </owl:unionOf>
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_MultiPemberiKerja">
+  <rdfs:subClassOf rdf:resource="#OP_PenerimaPPh21_PegawaiTetap"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OP_PenerimaPPh21_PegawaiTetap"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasJumlahPemberiKerja"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</xsd:minInclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PPh17_Layer1_5Pct">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPenghasilanKenaPajakTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.0</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PPh17_Layer2_15Pct">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPenghasilanKenaPajakTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60000000.0</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PPh17_Layer3_25Pct">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPenghasilanKenaPajakTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">250000000.0</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PPh17_Layer4_30Pct">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPenghasilanKenaPajakTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">500000000.0</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#OP_PPh17_Layer5_35Pct">
+  <rdfs:subClassOf rdf:resource="#OrangPribadi"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#OrangPribadi"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasPenghasilanKenaPajakTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000000000.0</xsd:minExclusive>
+                    </rdf:Description>
+                  </rdf:first>
+                  <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+              </owl:withRestrictions>
+            </rdfs:Datatype>
+          </owl:someValuesFrom>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#BadanUMKM">
+  <rdfs:subClassOf rdf:resource="#Badan"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Class>
+          <owl:unionOf rdf:parseType="Collection">
+            <rdf:Description rdf:about="#CV"/>
+            <rdf:Description rdf:about="#Koperasi"/>
+            <owl:Class>
+              <owl:intersectionOf rdf:parseType="Collection">
+                <rdf:Description rdf:about="#PT"/>
+                <owl:Restriction>
+                  <owl:onProperty rdf:resource="#isPerseroanPerorangan"/>
+                  <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                </owl:Restriction>
+              </owl:intersectionOf>
+            </owl:Class>
+          </owl:unionOf>
+        </owl:Class>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#isUMKM_PP55"/>
+          <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#hasOmzetTahunan"/>
+          <owl:someValuesFrom>
+            <rdfs:Datatype>
+              <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+              <owl:withRestrictions>
+                <rdf:Description>
+                  <rdf:first>
+                    <rdf:Description>
+                      <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800000000.0</xsd:maxInclusive>
                     </rdf:Description>
                   </rdf:first>
                   <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1058,9 +2629,31 @@
   <rdf:type rdf:resource="#DomainPajak"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#Wilayah_DKI_Jakarta">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wilayah_Jawa_Barat">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wilayah_Kota_Surabaya">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wilayah_Kota_Semarang">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wilayah_Prov_Bali">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
 <owl:AllDisjointClasses>
   <owl:members rdf:parseType="Collection">
     <rdf:Description rdf:about="#WajibPajak"/>
+    <rdf:Description rdf:about="#JenisPekerjaan"/>
+    <rdf:Description rdf:about="#WilayahDaerah"/>
     <rdf:Description rdf:about="#Regulasi"/>
     <rdf:Description rdf:about="#Pasal"/>
     <rdf:Description rdf:about="#AturanHukum"/>
@@ -1069,6 +2662,30 @@
     <rdf:Description rdf:about="#KewajibanPajak"/>
     <rdf:Description rdf:about="#SanksiAdministratif"/>
     <rdf:Description rdf:about="#DomainPajak"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#OP_TER_Kategori_A"/>
+    <rdf:Description rdf:about="#OP_TER_Kategori_B"/>
+    <rdf:Description rdf:about="#OP_TER_Kategori_C"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#PekerjaanPegawaiTetap"/>
+    <rdf:Description rdf:about="#PekerjaanPegawaiTidakTetap"/>
+    <rdf:Description rdf:about="#PekerjaanPesertaKegiatan"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#PekerjaanPegawai"/>
+    <rdf:Description rdf:about="#PekerjaanBebas"/>
+    <rdf:Description rdf:about="#UsahaDagangJasa"/>
   </owl:members>
 </owl:AllDisjointClasses>
 
@@ -1087,6 +2704,16 @@
     <rdf:Description rdf:about="#Kewajiban"/>
     <rdf:Description rdf:about="#Hak"/>
     <rdf:Description rdf:about="#Larangan"/>
+  </owl:members>
+</owl:AllDisjointClasses>
+
+<owl:AllDisjointClasses>
+  <owl:members rdf:parseType="Collection">
+    <rdf:Description rdf:about="#PT"/>
+    <rdf:Description rdf:about="#CV"/>
+    <rdf:Description rdf:about="#Koperasi"/>
+    <rdf:Description rdf:about="#Yayasan"/>
+    <rdf:Description rdf:about="#BadanUsahaTetap"/>
   </owl:members>
 </owl:AllDisjointClasses>
 

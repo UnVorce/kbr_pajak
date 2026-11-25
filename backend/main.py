@@ -35,31 +35,65 @@ app.add_middleware(
 
 
 class TaxpayerProperties(BaseModel):
+    # Relasi individu (lihat GET /options)
+    memilikiPekerjaan: Optional[List[str]] = Field(default=None, description="Daftar ID JenisPekerjaan (khusus OrangPribadi), mis. ['Dokter', 'PegawaiTetap_Swasta']")
+    berdomisiliDi: Optional[List[str]] = Field(default=None, description="Daftar ID WilayahDaerah, mis. ['Wilayah_Kota_Surabaya']")
+
+    # Kuantitatif umum & Badan
     hasOmzetTahunan: Optional[float] = Field(default=None, ge=0, description="Peredaran bruto tahunan (Rp)")
     hasNilaiInvestasi: Optional[float] = Field(default=None, ge=0, description="Nilai rencana penanaman modal baru (Rp)")
     hasPersentaseSahamPublik: Optional[float] = Field(default=None, ge=0, le=100, description="Persentase saham publik (%)")
-    hasJumlahKendaraan: Optional[int] = Field(default=None, ge=0, description="Urutan kepemilikan kendaraan bermotor pribadi")
+    hasJumlahPemegangSahamPublik: Optional[int] = Field(default=None, ge=0, description="Jumlah pihak pemegang saham publik (syarat Tbk >= 300)")
+    hasHariTerpenuhiTbk: Optional[int] = Field(default=None, ge=0, le=366, description="Jumlah hari pemenuhan syarat Tbk dalam 1 tahun pajak (>= 183)")
+    hasJumlahKendaraan: Optional[int] = Field(default=None, ge=0, description="Urutan kepemilikan kendaraan bermotor")
+    hasKapasitasMesinCC: Optional[int] = Field(default=None, ge=0, description="Kapasitas mesin kendaraan (cc, untuk PKB Bali)")
+    hasNilaiNJOP: Optional[float] = Field(default=None, ge=0, description="Nilai Jual Objek Pajak PBB-P2 (Rp)")
+
+    # Status Badan & Fasilitas
     isPerseroanTerbuka: Optional[bool] = None
+    isPerseroanPerorangan: Optional[bool] = None
     isIndustriPionir: Optional[bool] = None
     isPenanamanModalBaru: Optional[bool] = None
+    hasSuratKeteranganFiskal: Optional[bool] = None
+    isBelumPernahPutusTaxHoliday: Optional[bool] = None
     isUMKM_PP55: Optional[bool] = None
     hasNPWP: Optional[bool] = None
+
+    # Status Orang Pribadi (PPh 21 / TER / Pasal 17 / SPLN)
+    isPendudukIndonesia: Optional[bool] = None
+    isSubjekLuarNegeri: Optional[bool] = None
+    isKawin: Optional[bool] = None
+    hasJumlahTanggungan: Optional[int] = Field(default=None, ge=0, le=10, description="Jumlah tanggungan keluarga (maks diakui PTKP = 3)")
+    isPenghasilanIstriDigabung: Optional[bool] = None
+    hasPenghasilanKenaPajakTahunan: Optional[float] = Field(default=None, ge=0, description="Penghasilan Kena Pajak (PKP) tahunan OP (Rp)")
+    hasJumlahPemberiKerja: Optional[int] = Field(default=None, ge=0, description="Jumlah pemberi kerja dalam 1 tahun pajak")
+
+    # PPN & Pemotongan PPh 23
+    isPenyerahanNonMewahPPN: Optional[bool] = None
+    isPenyerahanBKP_Mewah: Optional[bool] = None
+    isPenyerahanBKPStrategis: Optional[bool] = None
+    isPenerimaPenghasilanPPh23_JasaSewa: Optional[bool] = None
+    isPenerimaPenghasilanPPh23_Modal: Optional[bool] = None
+    isBankPenerimaPenghasilan: Optional[bool] = None
+
+    # Pajak Daerah & Kepatuhan/Sanksi
     isDomisiliDKI: Optional[bool] = None
     isMilikPribadi: Optional[bool] = None
     isMemilikiObjekPBB: Optional[bool] = None
-    isTerlambatLaporSPT: Optional[bool] = None
-    isKeberatanDitolak: Optional[bool] = None
-    isBandingDitolak: Optional[bool] = None
     isUsahaSpaKesehatanTradisional: Optional[bool] = None
     isUsahaHiburanSpaUmum: Optional[bool] = None
-    isPenyerahanNonMewahPPN: Optional[bool] = None
-    isPenyerahanBKPStrategis: Optional[bool] = None
-    isPendudukIndonesia: Optional[bool] = None
+    isTerlambatLaporSPT: Optional[bool] = None
+    isTerlambatLaporSPTMasaPPN: Optional[bool] = None
+    isDikecualikanDendaSPT: Optional[bool] = None
+    isKurangBayarSKPKB: Optional[bool] = None
+    isTidakSetorPajakDipungut: Optional[bool] = None
+    isKeberatanDitolak: Optional[bool] = None
+    isBandingDitolak: Optional[bool] = None
 
 
 class ReasonRequest(BaseModel):
     wp_id: str = Field(default="WP_Simulasi_001", min_length=1, max_length=100, pattern=r"^[A-Za-z0-9_.-]+$")
-    wp_kind: Literal["PT", "CV", "Koperasi", "Yayasan", "BadanUsahaTetap", "Badan", "OrangPribadi"] = "PT"
+    wp_kind: Literal["PT", "CV", "Koperasi", "Yayasan", "BadanUsahaTetap", "BUT", "Badan", "OrangPribadi"] = "PT"
     properties: TaxpayerProperties = Field(default_factory=TaxpayerProperties)
 
 
@@ -110,7 +144,7 @@ def post_reason(req: ReasonRequest) -> dict:
         raise HTTPException(status_code=500, detail=f"Reasoning gagal: {exc}") from exc
 
 
-@app.get("/catalog", summary="Daftar 31 konsep katalog Tarif/Fasilitas/Kewajiban/Sanksi dan pemetaan rule_id")
+@app.get("/catalog", summary="Daftar konsep katalog Tarif/Fasilitas/Kewajiban/Sanksi dan pemetaan rule_id")
 def get_catalog() -> dict:
     try:
         items = engine.get_catalog()
@@ -119,7 +153,15 @@ def get_catalog() -> dict:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-@app.get("/scenarios", summary="Ringkasan hasil inferensi 8 skenario bawaan di kbr_pajak_reasoning.owl")
+@app.get("/options", summary="Daftar pilihan JenisPekerjaan (30 profesi) & WilayahDaerah (5 Perda) dari ontologi")
+def get_options() -> dict:
+    try:
+        return engine.get_options()
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@app.get("/scenarios", summary="Ringkasan hasil inferensi skenario bawaan di kbr_pajak_reasoning.owl")
 def get_scenarios() -> dict:
     scenarios = engine.get_preset_scenarios()
     return {"count": len(scenarios), "scenarios": scenarios}

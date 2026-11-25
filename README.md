@@ -2,7 +2,7 @@
 
 Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif, fasilitas, dan mitigasi risiko perpajakan Indonesia (**Fase 0–8 selesai — Gerbang G8 tercapai**).
 
-> **Dokumentasi Lengkap:** baca [`docs/fase_8.md`](docs/fase_8.md) (arsitektur menyeluruh & alur kerja) dan [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) (kamus data korpus, `legal_rules.jsonl`, 59 kelas/properti ontologi, 28 aturan SWRL, & kontrak API).
+> **Dokumentasi Lengkap:** baca [`docs/fase_8.md`](docs/fase_8.md) (arsitektur menyeluruh & alur kerja) dan [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) (kamus data korpus, `legal_rules.jsonl`, `113` kelas/`17` object props/`51` data props/`73` SWRL ontologi, & kontrak API).
 
 ---
 
@@ -11,10 +11,10 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
 ```text
 [Korpus Resmi BPK/JDIH/MK/MA/SetPP]
    ├── 165 regulasi pusat (97 active_for_rules) + 32 consolidated (UU CK & HPP)
-   ├── 524 Perda PDRD (2023–2026) + 284 Putusan SetPP + 15 Putusan MK + 78 SEMA TUN
+   ├── 524 Perda PDRD (2023–2026, incl. 5 Perda pilot) + 284 SetPP + 15 MK + 78 SEMA TUN
    └── 12.907 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
          │
-         ├──► ontology/kbr_pajak_reasoning.owl (59 kelas SROIQ(D) · 28 SWRL · 322 individu)
+         ├──► ontology/kbr_pajak_reasoning.owl (113 kelas SROIQ(D) · 73 SWRL · 450 individu)
          │       └─► Reasoner HermiT (World() terisolasi per request)
          │
          └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.907 aturan)
@@ -22,10 +22,10 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
                          │
                          ▼
                [backend/main.py — FastAPI + Uvicorn]
-         POST /reason · GET /sparql/provenance · GET /catalog · GET /health
+     GET /options · POST /reason · GET /sparql/provenance · GET /catalog · GET /health
 ```
 
-**Prinsip utama:** **0% logika pajak di-hardcode di Python.** Klasifikasi ambang numerik (`> Rp4,8M` PKP, `≤ Rp4,8M` UMKM PP 55, `≥ 40%` saham publik Tbk, 6 tier Tax Holiday `PMK-2020-130`, PKB progresif `1..5+`) dikerjakan oleh aksioma `OWL 2 ConstrainedDatatype` + `28` aturan SWRL lewat **HermiT**, dan setiap hasil selalu membawa jejak `rule_id`, `Pasal`, `source_quote`, serta referensi `PutusanMK`/`SEMA_TUN`.
+**Prinsip utama:** **0% logika pajak di-hardcode di Python.** Klasifikasi Badan (`19%` Tbk syarat lengkap, `22%`, `Pasal 31E 11%`, `BUT 20%`, Tax Holiday `6` tier), Orang Pribadi (`30` profesi `JenisPekerjaan`, `TER A/B/C`, bebas `≤ Rp500jt`, larangan PP 55 & `NPPN` Pekerja Bebas, `5` lapis Pasal 17 `5%–35%`), PPN (`12%` Mewah vs `11%` Efektif), PPh 23, `5` Perda pilot, dan sanksi KUP dikerjakan oleh aksioma `OWL 2 SROIQ(D)` + `73` aturan SWRL lewat **HermiT**, dan setiap hasil selalu membawa jejak `rule_id`, `Pasal`, `source_quote`, serta referensi `PutusanMK`/`SEMA_TUN`.
 
 ---
 
@@ -44,9 +44,10 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000
 | Endpoint | Fungsi |
 |---|---|
 | `GET /health` | Status `.owl`, `.ttl`, jumlah kelas, individu, dan aturan SWRL |
-| `POST /reason` | Evaluasi profil `WajibPajak` via HermiT + justifikasi pasal/MK/SEMA (`TK-A2-1`..`TK-E1`) |
-| `GET /catalog` | Peta 31 item katalog tarif/fasilitas/kewajiban/sanksi (`ontology/rule_map.json`) |
-| `GET /scenarios` | Hasil inferensi 8 skenario demonstrasi bawaan |
+| `GET /options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
+| `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + justifikasi pasal/MK/SEMA |
+| `GET /catalog` | Peta `79` item katalog tarif/fasilitas/kewajiban/sanksi (`ontology/rule_map.json`) |
+| `GET /scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
 | `GET /sparql/provenance` | Query SPARQL pada 12.907 aturan (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) |
 | `GET /sparql/stats` | Agregasi jumlah aturan per domain & kelas RDF |
 
@@ -64,16 +65,16 @@ kbr_pajak/
 │   ├── requirements.txt
 │   └── README.md
 ├── ontology/                              # Artefak Ontologi SROIQ(D) (Fase 5–6)
-│   ├── kbr-core.ttl                       # TBox murni (Turtle, 59 kelas + properti + aksioma)
+│   ├── kbr-core.ttl                       # TBox murni (Turtle, 113 kelas + properti + aksioma)
 │   ├── kbr_pajak_tbox.owl                 # TBox murni (RDF/XML untuk Protégé)
-│   ├── kbr_pajak_reasoning.owl            # TBox + 28 SWRL + 322 individu + 8 skenario uji
-│   ├── rule_map.json                      # Peta 31 konsep katalog -> rule_id & source_quote
+│   ├── kbr_pajak_reasoning.owl            # TBox + 73 SWRL + 450 individu + 15 skenario uji
+│   ├── rule_map.json                      # Peta 79 konsep katalog -> rule_id & source_quote
 │   └── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
 ├── docs/                                  # Dokumentasi & Laporan Fase 1–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
 │   ├── DATA_DICTIONARY.md                 # Kamus data korpus, rules, ontologi & API
 │   ├── fase_1.md .. fase_7.md             # Laporan tiap fase & gerbang G1–G7
-│   ├── fase7_eval_results.json            # Hasil evaluasi 12/12 skenario & boundary tests
+│   ├── fase7_eval_results.json            # Hasil evaluasi 15/15 skenario & boundary tests
 │   ├── corpus_directory.xlsx              # Direktori korpus 7 tab
 │   └── ISSUES.md                          # Catatan anomali sumber (#A7 PER-DJP-2015-17)
 ├── notebooks/
@@ -97,7 +98,7 @@ kbr_pajak/
 
 ## Panduan Singkat Konsumsi oleh Tim
 
-1. **Frontend (`yoeke-front`):** jalankan `uvicorn backend.main:app --port 8000`, panggil `POST /reason` untuk evaluasi profil WP dan tampilkan `tarif`/`fasilitas`/`kewajiban`/`sanksi` beserta `justifikasi` (`source_locator`, `source_quote`, `mk_refs`, `sema_refs`).
+1. **Frontend (`yoeke-front`):** jalankan `uvicorn backend.main:app --port 8000`, panggil `GET /options` untuk opsi pekerjaan & wilayah, panggil `POST /reason` untuk evaluasi profil WP, dan tampilkan `tarif`/`fasilitas`/`kewajiban`/`sanksi` beserta `justifikasi` (`source_locator`, `source_quote`, `mk_refs`, `sema_refs`).
 2. **RAG (`daRAG`):** gunakan `knowledge_json/rules/legal_rules.jsonl` atau `GET /sparql/provenance` serta `knowledge_json/consolidated/<id>.json` (cek `recommended_source` dan `active_for_rules == true` di `metadata/manifest.json`).
 3. **Inspeksi Ontologi di Protégé:** buka `ontology/kbr_pajak_reasoning.owl`, pilih **Reasoner → HermiT → Start reasoner**.
 
