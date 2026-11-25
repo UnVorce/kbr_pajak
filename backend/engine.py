@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
-from owlready2 import ThingClass, World, sync_reasoner_hermit
+from owlready2 import ThingClass, World, destroy_entity, sync_reasoner_hermit
 from rdflib import Graph
 
 BASE_IRI = "http://www.semanticweb.org/ontology/kbr_pajak#"
@@ -112,6 +112,26 @@ class KBRReasoningEngine:
         data = json.loads(self.paths.build_report_json.read_text(encoding="utf-8"))
         return data.get("inferred_scenarios", {})
 
+    def get_options(self) -> Dict[str, Any]:
+        """Ambil daftar pilihan JenisPekerjaan & WilayahDaerah langsung dari ontologi OWL."""
+        if not self.paths.reasoning_owl.exists():
+            raise FileNotFoundError(f"File ontologi tidak ditemukan: {self.paths.reasoning_owl}")
+        w = World()
+        onto = w.get_ontology(str(self.paths.reasoning_owl)).load()
+        jobs = []
+        for j in sorted(onto.JenisPekerjaan.instances(), key=lambda x: x.name):
+            cats = sorted(c.name for c in j.is_a if isinstance(c, ThingClass) and c.name != "JenisPekerjaan")
+            jobs.append({
+                "id": j.name,
+                "label": j.label[0] if j.label else j.name,
+                "kategori": cats[0] if cats else "JenisPekerjaan",
+            })
+        regions = [
+            {"id": r.name, "label": r.label[0] if r.label else r.name}
+            for r in sorted(onto.WilayahDaerah.instances(), key=lambda x: x.name)
+        ]
+        return {"jobs": jobs, "regions": regions}
+
     def reason(self, wp_id: str, wp_kind: str, props: Dict[str, Any]) -> dict:
         """Evaluasi 1 individu WajibPajak dengan HermiT di World() terisolasi."""
         if not self.paths.reasoning_owl.exists():
@@ -122,13 +142,33 @@ class KBRReasoningEngine:
             w = World()
             onto = w.get_ontology(str(self.paths.reasoning_owl)).load()
             with onto:
+                # Bersihkan individu skenario demo & aturan tambahan non-katalog agar inferensi tunggal steril & cepat
+                for ind in list(onto.WajibPajak.instances()):
+                    destroy_entity(ind)
+                linked_aturan = set()
+                for cat_cls in (onto.TarifPajak, onto.FasilitasPerpajakan, onto.KewajibanPajak, onto.SanksiAdministratif):
+                    for it in cat_cls.instances():
+                        for at in getattr(it, "didasarkanPadaAturan", []):
+                            linked_aturan.add(at.name)
+                for ind in list(onto.AturanHukum.instances()):
+                    if ind.name not in linked_aturan:
+                        destroy_entity(ind)
+
                 cls = getattr(onto, wp_kind, None)
                 if cls is None:
                     cls = onto.Badan if wp_kind == "Badan" else onto.OrangPribadi
                 wp = cls(wp_id)
                 applied_props: Dict[str, Any] = {}
                 for k, v in props.items():
-                    if v is not None and hasattr(wp, k):
+                    if v is None:
+                        continue
+                    if k in ("memilikiPekerjaan", "berdomisiliDi"):
+                        vals = v if isinstance(v, (list, tuple)) else [v]
+                        objs = [getattr(onto, str(item), None) for item in vals]
+                        resolved = [o for o in objs if o is not None]
+                        setattr(wp, k, resolved)
+                        applied_props[k] = [o.name for o in resolved]
+                    elif hasattr(wp, k):
                         setattr(wp, k, v)
                         applied_props[k] = v
                 sync_reasoner_hermit(w, infer_property_values=True, debug=0)

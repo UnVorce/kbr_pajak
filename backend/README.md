@@ -22,14 +22,16 @@ Dokumentasi interaktif Swagger UI tersedia di: `http://localhost:8000/docs`
 | Method | Path | Fungsi |
 |---|---|---|
 | `GET` | `/health` | Status ontologi `.owl`, `.ttl`, dan statistik build |
-| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT (`World()` terisolasi) + justifikasi pasal/MK/SEMA |
-| `GET` | `/catalog` | Peta 31 konsep tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
-| `GET` | `/scenarios` | Hasil inferensi 8 skenario demonstrasi |
+| `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
+| `POST` | `/reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + justifikasi pasal/MK/SEMA |
+| `GET` | `/catalog` | Peta `79` konsep tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
+| `GET` | `/scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
 | `GET` | `/sparql/provenance` | Query SPARQL provenance (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) atas 12.907 aturan |
 | `GET` | `/sparql/stats` | Agregasi jumlah aturan per domain & kelas dari RDF `kbr-data.ttl` |
 
 ## Contoh Request `POST /reason`
 
+### 1. Badan Usaha (`PT` Tbk Go Public + BKP Mewah)
 ```bash
 curl -X POST http://localhost:8000/reason \
   -H "Content-Type: application/json" \
@@ -40,7 +42,32 @@ curl -X POST http://localhost:8000/reason \
       "hasOmzetTahunan": 120000000000,
       "isPerseroanTerbuka": true,
       "hasPersentaseSahamPublik": 45.0,
+      "hasJumlahPemegangSahamPublik": 350,
+      "hasHariTerpenuhiTbk": 200,
+      "isPenyerahanBKP_Mewah": true,
       "isUMKM_PP55": false,
+      "hasNPWP": true
+    }
+  }'
+```
+
+### 2. Orang Pribadi Multi-Peran (`Dokter` + `PegawaiTetap` + `Pedagang_ECommerce`)
+```bash
+curl -X POST http://localhost:8000/reason \
+  -H "Content-Type: application/json" \
+  -d '{
+    "wp_id": "OP_Dr_Siti",
+    "wp_kind": "OrangPribadi",
+    "properties": {
+      "memilikiPekerjaan": ["Dokter", "PegawaiTetap_Swasta", "Pedagang_ECommerce"],
+      "berdomisiliDi": ["Wilayah_Kota_Surabaya"],
+      "isSubjekLuarNegeri": false,
+      "isPendudukIndonesia": true,
+      "isKawin": false,
+      "hasJumlahTanggungan": 0,
+      "isUMKM_PP55": true,
+      "hasOmzetTahunan": 350000000,
+      "hasPenghasilanKenaPajakTahunan": 300000000,
       "hasNPWP": true
     }
   }'

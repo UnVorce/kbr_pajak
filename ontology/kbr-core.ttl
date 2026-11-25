@@ -1,0 +1,1220 @@
+@prefix : <http://www.semanticweb.org/ontology/kbr_pajak#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/ontology/kbr_pajak> a owl:Ontology .
+
+:AturanTarif a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:BUT a owl:Class ;
+    rdfs:subClassOf :BadanUsahaTetap .
+
+:BadanLayakPasal31E a owl:Class ;
+    rdfs:subClassOf :BadanDalamNegeri ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanDalamNegeri [ a owl:Class ;
+                        owl:complementOf :BadanUMKM ] [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 50000000000.0 ] ) ] ] ) ] .
+
+:BadanNonTbk a owl:Class ;
+    rdfs:subClassOf :Badan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Badan [ a owl:Class ;
+                        owl:complementOf :BadanTerbukaTbk ] ) ] .
+
+:Badan_PemilikKendaraanDKI a owl:Class ;
+    rdfs:subClassOf :Badan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_DKI :Badan [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahKendaraan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 1 ] ) ] ] ) ] .
+
+:Badan_PemilikKendaraanJabar a owl:Class ;
+    rdfs:subClassOf :Badan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Jabar :Badan [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahKendaraan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 1 ] ) ] ] ) ] .
+
+:BatasWaktu a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:Definisi a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:Kelayakan a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:LayakTaxHoliday_100Pct_10Thn a owl:Class ;
+    rdfs:subClassOf :LayakTaxHoliday ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanHukumIndonesia [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isIndustriPionir ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenanamanModalBaru ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :hasSuratKeteranganFiskal ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isBelumPernahPutusTaxHoliday ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiInvestasi ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 15000000000000.0 ] [ xsd:minInclusive 5000000000000.0 ] ) ] ] ) ] .
+
+:LayakTaxHoliday_100Pct_15Thn a owl:Class ;
+    rdfs:subClassOf :LayakTaxHoliday ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanHukumIndonesia [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isIndustriPionir ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenanamanModalBaru ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :hasSuratKeteranganFiskal ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isBelumPernahPutusTaxHoliday ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiInvestasi ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 30000000000000.0 ] [ xsd:minInclusive 15000000000000.0 ] ) ] ] ) ] .
+
+:LayakTaxHoliday_100Pct_20Thn a owl:Class ;
+    rdfs:subClassOf :LayakTaxHoliday ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanHukumIndonesia [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isIndustriPionir ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenanamanModalBaru ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :hasSuratKeteranganFiskal ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isBelumPernahPutusTaxHoliday ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiInvestasi ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minInclusive 30000000000000.0 ] ) ] ] ) ] .
+
+:LayakTaxHoliday_100Pct_5Thn a owl:Class ;
+    rdfs:subClassOf :LayakTaxHoliday ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanHukumIndonesia [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isIndustriPionir ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenanamanModalBaru ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :hasSuratKeteranganFiskal ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isBelumPernahPutusTaxHoliday ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiInvestasi ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 1000000000000.0 ] [ xsd:minInclusive 500000000000.0 ] ) ] ] ) ] .
+
+:LayakTaxHoliday_100Pct_7Thn a owl:Class ;
+    rdfs:subClassOf :LayakTaxHoliday ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanHukumIndonesia [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isIndustriPionir ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenanamanModalBaru ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :hasSuratKeteranganFiskal ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isBelumPernahPutusTaxHoliday ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiInvestasi ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 5000000000000.0 ] [ xsd:minInclusive 1000000000000.0 ] ) ] ] ) ] .
+
+:LayakTaxHoliday_50Pct_5Thn a owl:Class ;
+    rdfs:subClassOf :LayakTaxHoliday ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :BadanHukumIndonesia [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isIndustriPionir ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenanamanModalBaru ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :hasSuratKeteranganFiskal ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isBelumPernahPutusTaxHoliday ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiInvestasi ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 500000000000.0 ] [ xsd:minInclusive 100000000000.0 ] ) ] ] ) ] .
+
+:OP_KendaraanKe1_DKI a owl:Class ;
+    rdfs:subClassOf :OP_PemilikKendaraanDKI ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_DKI :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 1 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe1_Jabar a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Jabar :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 1 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe2_DKI a owl:Class ;
+    rdfs:subClassOf :OP_PemilikKendaraanDKI ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_DKI :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 2 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe2_Jabar a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Jabar :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 2 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe3_DKI a owl:Class ;
+    rdfs:subClassOf :OP_PemilikKendaraanDKI ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_DKI :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 3 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe3_Jabar a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Jabar :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 3 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe4_DKI a owl:Class ;
+    rdfs:subClassOf :OP_PemilikKendaraanDKI ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_DKI :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 4 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe4_Jabar a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Jabar :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:hasValue 4 ;
+                        owl:onProperty :hasJumlahKendaraan ] ) ] .
+
+:OP_KendaraanKe5Plus_DKI a owl:Class ;
+    rdfs:subClassOf :OP_PemilikKendaraanDKI ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_DKI :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahKendaraan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 5 ] ) ] ] ) ] .
+
+:OP_KendaraanKe5Plus_Jabar a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Jabar :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMilikPribadi ] [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahKendaraan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 5 ] ) ] ] ) ] .
+
+:OP_Kendaraan_Bali_Max200cc a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Bali :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahKendaraan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 1 ] ) ] ] [ a owl:Restriction ;
+                        owl:onProperty :hasKapasitasMesinCC ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 200 ] [ xsd:minInclusive 1 ] ) ] ] ) ] .
+
+:OP_Kendaraan_Bali_Over200cc a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Bali :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahKendaraan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 1 ] ) ] ] [ a owl:Restriction ;
+                        owl:onProperty :hasKapasitasMesinCC ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minExclusive 200 ] ) ] ] ) ] .
+
+:OP_MultiPemberiKerja a owl:Class ;
+    rdfs:subClassOf :OP_PenerimaPPh21_PegawaiTetap ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PenerimaPPh21_PegawaiTetap [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahPemberiKerja ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 2 ] ) ] ] ) ] .
+
+:OP_PPh17_Layer1_5Pct a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasPenghasilanKenaPajakTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 0.0 ] ) ] ] ) ] .
+
+:OP_PPh17_Layer2_15Pct a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasPenghasilanKenaPajakTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 60000000.0 ] ) ] ] ) ] .
+
+:OP_PPh17_Layer3_25Pct a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasPenghasilanKenaPajakTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 250000000.0 ] ) ] ] ) ] .
+
+:OP_PPh17_Layer4_30Pct a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasPenghasilanKenaPajakTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 500000000.0 ] ) ] ] ) ] .
+
+:OP_PPh17_Layer5_35Pct a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :hasPenghasilanKenaPajakTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 5000000000.0 ] ) ] ] ) ] .
+
+:OP_PekerjaBebas_LayakNPPN a owl:Class ;
+    rdfs:subClassOf :OP_PekerjaBebas ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PekerjaBebas [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxExclusive 4800000000.0 ] ) ] ] ) ] .
+
+:OP_PenerimaPPh21_TidakTetap a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPekerjaan ;
+                        owl:someValuesFrom :PekerjaanPegawaiTidakTetap ] ) ] .
+
+:OP_PesertaKegiatan a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPekerjaan ;
+                        owl:someValuesFrom :PekerjaanPesertaKegiatan ] ) ] .
+
+:OP_SubjekDalamNegeri a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:disjointWith :OP_SubjekLuarNegeri ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue false ;
+                        owl:onProperty :isSubjekLuarNegeri ] ) ] .
+
+:OP_UMKM_Bebas_500Jt a owl:Class ;
+    rdfs:subClassOf :OP_PelakuUsahaNonProfesi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PelakuUsahaNonProfesi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isUMKM_PP55 ] [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 500000000.0 ] ) ] ] ) ] .
+
+:OP_WajibPembukuan a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( [ a owl:Class ;
+                        owl:unionOf ( :OP_PekerjaBebas :OP_PelakuUsahaNonProfesi ) ] [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minInclusive 4800000000.0 ] ) ] ] ) ] .
+
+:ObjekPajak a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:PP55UMKM a owl:Class ;
+    rdfs:subClassOf :FasilitasPerpajakan .
+
+:Pengecualian a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:PengusahaKenaPajak a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 4800000000.0 ] ) ] ] ) ] .
+
+:Prosedur a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:Sanksi a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:SubjekPajakAktif a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:unionOf ( :OrangPribadi :Badan ) ] .
+
+:TarifProgresif a owl:Class ;
+    rdfs:subClassOf :TarifPajak ;
+    owl:disjointWith :TarifFinal .
+
+:UMKM a owl:Class ;
+    rdfs:subClassOf :WajibPajak .
+
+:WP_PBB_Surabaya_L1 a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Surabaya [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMemilikiObjekPBB ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiNJOP ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 200000000.0 ] [ xsd:minInclusive 100000000.0 ] ) ] ] ) ] .
+
+:WP_PBB_Surabaya_L2 a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Surabaya [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMemilikiObjekPBB ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiNJOP ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 1000000000.0 ] [ xsd:minExclusive 200000000.0 ] ) ] ] ) ] .
+
+:WP_PBB_Surabaya_L3 a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Surabaya [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMemilikiObjekPBB ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiNJOP ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 2000000000.0 ] [ xsd:minExclusive 1000000000.0 ] ) ] ] ) ] .
+
+:WP_PBB_Surabaya_L4 a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Surabaya [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMemilikiObjekPBB ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiNJOP ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 10000000000.0 ] [ xsd:minExclusive 2000000000.0 ] ) ] ] ) ] .
+
+:WP_PBB_Surabaya_L5 a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Surabaya [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMemilikiObjekPBB ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiNJOP ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 50000000000.0 ] [ xsd:minExclusive 10000000000.0 ] ) ] ] ) ] .
+
+:WP_PBB_Surabaya_L6 a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WP_Wilayah_Surabaya [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isMemilikiObjekPBB ] [ a owl:Restriction ;
+                        owl:onProperty :hasNilaiNJOP ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minExclusive 50000000000.0 ] ) ] ] ) ] .
+
+:WP_PPh23_TanpaNPWP a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( [ a owl:Class ;
+                        owl:unionOf ( :PenerimaPPh23_NonBank_JasaSewa :PenerimaPPh23_NonBank_Modal ) ] [ a owl:Restriction ;
+                        owl:hasValue false ;
+                        owl:onProperty :hasNPWP ] ) ] .
+
+:WP_Wilayah_Semarang a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue :Wilayah_Kota_Semarang ;
+                        owl:onProperty :berdomisiliDi ] ) ] .
+
+:WajibPajakNonUMKM a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Class ;
+                        owl:complementOf :WajibPajakUMKM ] ) ] .
+
+:berisikoSanksi a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :SanksiAdministratif .
+
+:dikenaiTarif a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :TarifPajak .
+
+:hasAmarKategori a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :PutusanMK ;
+    rdfs:range xsd:string .
+
+:hasCatatanMKSEMA a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range xsd:string .
+
+:hasDocumentId a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :DokumenHukum ;
+    rdfs:range xsd:string .
+
+:hasJudul a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :DokumenHukum ;
+    rdfs:range xsd:string .
+
+:hasKaidahStatus a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :SEMA_TUN ;
+    rdfs:range xsd:string .
+
+:hasRuleId a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range xsd:string .
+
+:hasSourceLocator a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+:hasSourceQuote a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+:hasStatusValidasi a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range xsd:string .
+
+:hasTarifPersen a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :TarifPajak ;
+    rdfs:range xsd:decimal .
+
+:isBandingDitolak a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isDikecualikanDendaSPT a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isKeberatanDitolak a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isKurangBayarSKPKB a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPendudukIndonesia a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:boolean .
+
+:isPenghasilanIstriDigabung a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:boolean .
+
+:isPenyerahanBKPStrategis a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPenyerahanBKP_Mewah a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPenyerahanNonMewahPPN a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isTerlambatLaporSPT a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isTerlambatLaporSPTMasaPPN a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isTidakSetorPajakDipungut a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isUsahaHiburanSpaUmum a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isUsahaSpaKesehatanTradisional a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:memilikiFasilitas a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :FasilitasPerpajakan .
+
+:memilikiKewajiban a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :KewajibanPajak .
+
+:merujukDokumen a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain :DokumenHukum ;
+    rdfs:range :DokumenHukum .
+
+:merujukSEMA a owl:ObjectProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range :SEMA_TUN .
+
+:terdampakPutusanMK a owl:ObjectProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range :PutusanMK .
+
+:termasukDomain a owl:ObjectProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range :DomainPajak .
+
+:BadanTerbukaTbk a owl:Class ;
+    rdfs:subClassOf :Badan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :PT [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPerseroanTerbuka ] [ a owl:Restriction ;
+                        owl:onProperty :hasPersentaseSahamPublik ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:minInclusive 40.0 ] ) ] ] [ a owl:Restriction ;
+                        owl:onProperty :hasJumlahPemegangSahamPublik ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 300 ] ) ] ] [ a owl:Restriction ;
+                        owl:onProperty :hasHariTerpenuhiTbk ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:integer ;
+                                owl:withRestrictions ( [ xsd:minInclusive 183 ] ) ] ] ) ] .
+
+:Domain_A2_PPhBadan a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_B_PPN a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_C_PBB_HKPD a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_D_AdminSanksi a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_Fasilitas_Sektor a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_Kepabeanan_Cukai a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_PPh_Final_Sektor a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_PPh_OP_Potput a :DomainPajak,
+        owl:NamedIndividual .
+
+:Domain_Perda_PDRD a :DomainPajak,
+        owl:NamedIndividual .
+
+:Hak a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:Kewajiban a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:Larangan a owl:Class ;
+    rdfs:subClassOf :AturanHukum .
+
+:OP_SubjekLuarNegeri a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isSubjekLuarNegeri ] ) ] .
+
+:OP_TER_Kategori_A a owl:Class ;
+    rdfs:subClassOf :OP_PenerimaPPh21_PegawaiTetap ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PenerimaPPh21_PegawaiTetap [ a owl:Class ;
+                        owl:unionOf ( [ a owl:Class ;
+                                    owl:intersectionOf ( [ a owl:Restriction ;
+                                                owl:hasValue false ;
+                                                owl:onProperty :isKawin ] [ a owl:Restriction ;
+                                                owl:onProperty :hasJumlahTanggungan ;
+                                                owl:someValuesFrom [ a rdfs:Datatype ;
+                                                        owl:onDatatype xsd:integer ;
+                                                        owl:withRestrictions ( [ xsd:maxInclusive 1 ] [ xsd:minInclusive 0 ] ) ] ] ) ] [ a owl:Class ;
+                                    owl:intersectionOf ( [ a owl:Restriction ;
+                                                owl:hasValue true ;
+                                                owl:onProperty :isKawin ] [ a owl:Restriction ;
+                                                owl:hasValue 0 ;
+                                                owl:onProperty :hasJumlahTanggungan ] ) ] ) ] ) ] .
+
+:OP_TER_Kategori_B a owl:Class ;
+    rdfs:subClassOf :OP_PenerimaPPh21_PegawaiTetap ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PenerimaPPh21_PegawaiTetap [ a owl:Class ;
+                        owl:unionOf ( [ a owl:Class ;
+                                    owl:intersectionOf ( [ a owl:Restriction ;
+                                                owl:hasValue false ;
+                                                owl:onProperty :isKawin ] [ a owl:Restriction ;
+                                                owl:onProperty :hasJumlahTanggungan ;
+                                                owl:someValuesFrom [ a rdfs:Datatype ;
+                                                        owl:onDatatype xsd:integer ;
+                                                        owl:withRestrictions ( [ xsd:maxInclusive 3 ] [ xsd:minInclusive 2 ] ) ] ] ) ] [ a owl:Class ;
+                                    owl:intersectionOf ( [ a owl:Restriction ;
+                                                owl:hasValue true ;
+                                                owl:onProperty :isKawin ] [ a owl:Restriction ;
+                                                owl:onProperty :hasJumlahTanggungan ;
+                                                owl:someValuesFrom [ a rdfs:Datatype ;
+                                                        owl:onDatatype xsd:integer ;
+                                                        owl:withRestrictions ( [ xsd:maxInclusive 2 ] [ xsd:minInclusive 1 ] ) ] ] ) ] ) ] ) ] .
+
+:OP_TER_Kategori_C a owl:Class ;
+    rdfs:subClassOf :OP_PenerimaPPh21_PegawaiTetap ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PenerimaPPh21_PegawaiTetap [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isKawin ] [ a owl:Restriction ;
+                        owl:hasValue 3 ;
+                        owl:onProperty :hasJumlahTanggungan ] ) ] .
+
+:OP_UMKM_Final_PP55 a owl:Class ;
+    rdfs:subClassOf :OP_PelakuUsahaNonProfesi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OP_PelakuUsahaNonProfesi [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isUMKM_PP55 ] [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 4800000000.0 ] [ xsd:minExclusive 500000000.0 ] ) ] ] ) ] .
+
+:PenerimaPPh23_NonBank_JasaSewa a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenerimaPenghasilanPPh23_JasaSewa ] [ a owl:Restriction ;
+                        owl:hasValue false ;
+                        owl:onProperty :isBankPenerimaPenghasilan ] ) ] .
+
+:PenerimaPPh23_NonBank_Modal a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isPenerimaPenghasilanPPh23_Modal ] [ a owl:Restriction ;
+                        owl:hasValue false ;
+                        owl:onProperty :isBankPenerimaPenghasilan ] ) ] .
+
+:PeraturanDaerah a owl:Class ;
+    rdfs:subClassOf :Regulasi .
+
+:PeraturanDirjenPajak a owl:Class ;
+    rdfs:subClassOf :Regulasi .
+
+:PeraturanMenteriKeuangan a owl:Class ;
+    rdfs:subClassOf :Regulasi .
+
+:PeraturanPemerintah a owl:Class ;
+    rdfs:subClassOf :Regulasi .
+
+:TarifFinal a owl:Class ;
+    rdfs:subClassOf :TarifPajak .
+
+:UndangUndang a owl:Class ;
+    rdfs:subClassOf :Regulasi .
+
+:WajibPajakUMKM a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:unionOf ( :BadanUMKM :OP_UMKM_Final_PP55 ) ] .
+
+:Yayasan a owl:Class ;
+    rdfs:subClassOf :BadanDalamNegeri .
+
+:diaturDalam a owl:ObjectProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range :Regulasi ;
+    owl:inverseOf :mengatur ;
+    owl:propertyChainAxiom ( :diaturDalamPasal :bagianDariRegulasi ) .
+
+:didasarkanPadaAturan a owl:ObjectProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range :AturanHukum .
+
+:hasHariTerpenuhiTbk a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:integer .
+
+:hasJumlahPemberiKerja a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:integer .
+
+:hasJumlahPemegangSahamPublik a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:integer .
+
+:hasNPWP a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:hasPersentaseSahamPublik a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:decimal .
+
+:isDomisiliDKI a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPenerimaPenghasilanPPh23_JasaSewa a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPenerimaPenghasilanPPh23_Modal a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPerseroanPerorangan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :PT ;
+    rdfs:range xsd:boolean .
+
+:isPerseroanTerbuka a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:boolean .
+
+:memilikiPasal a owl:ObjectProperty ;
+    rdfs:domain :Regulasi ;
+    rdfs:range :Pasal ;
+    owl:inverseOf :bagianDariRegulasi .
+
+:memuatAturan a owl:ObjectProperty ;
+    rdfs:domain :Pasal ;
+    rdfs:range :AturanHukum ;
+    owl:inverseOf :diaturDalamPasal .
+
+:mengatur a owl:ObjectProperty ;
+    rdfs:domain :Regulasi ;
+    rdfs:range :AturanHukum ;
+    owl:inverseOf :diaturDalam .
+
+:BadanUMKM a owl:Class ;
+    rdfs:subClassOf :Badan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( [ a owl:Class ;
+                        owl:unionOf ( :CV :Koperasi [ a owl:Class ;
+                                    owl:intersectionOf ( :PT [ a owl:Restriction ;
+                                                owl:hasValue true ;
+                                                owl:onProperty :isPerseroanPerorangan ] ) ] ) ] [ a owl:Restriction ;
+                        owl:hasValue true ;
+                        owl:onProperty :isUMKM_PP55 ] [ a owl:Restriction ;
+                        owl:onProperty :hasOmzetTahunan ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:decimal ;
+                                owl:withRestrictions ( [ xsd:maxInclusive 4800000000.0 ] ) ] ] ) ] .
+
+:CV a owl:Class ;
+    rdfs:subClassOf :BadanDalamNegeri .
+
+:KewajibanPajak a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:Koperasi a owl:Class ;
+    rdfs:subClassOf :BadanHukumIndonesia .
+
+:PekerjaanBebas a owl:Class ;
+    rdfs:subClassOf :JenisPekerjaan .
+
+:PekerjaanPegawaiTetap a owl:Class ;
+    rdfs:subClassOf :PekerjaanPegawai .
+
+:PekerjaanPegawaiTidakTetap a owl:Class ;
+    rdfs:subClassOf :PekerjaanPegawai .
+
+:PekerjaanPesertaKegiatan a owl:Class ;
+    rdfs:subClassOf :PekerjaanPegawai .
+
+:PutusanMK a owl:Class ;
+    rdfs:subClassOf :DokumenHukum .
+
+:SEMA_TUN a owl:Class ;
+    rdfs:subClassOf :DokumenHukum .
+
+:SanksiAdministratif a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:UsahaDagangJasa a owl:Class ;
+    rdfs:subClassOf :JenisPekerjaan .
+
+:WP_Wilayah_Bali a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue :Wilayah_Prov_Bali ;
+                        owl:onProperty :berdomisiliDi ] ) ] .
+
+:Wilayah_DKI_Jakarta a :WilayahDaerah,
+        owl:NamedIndividual .
+
+:Wilayah_Jawa_Barat a :WilayahDaerah,
+        owl:NamedIndividual .
+
+:Wilayah_Kota_Semarang a :WilayahDaerah,
+        owl:NamedIndividual .
+
+:Wilayah_Kota_Surabaya a :WilayahDaerah,
+        owl:NamedIndividual .
+
+:Wilayah_Prov_Bali a :WilayahDaerah,
+        owl:NamedIndividual .
+
+:hasKapasitasMesinCC a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:integer .
+
+:isBankPenerimaPenghasilan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isSubjekLuarNegeri a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:boolean .
+
+:BadanUsahaTetap a owl:Class ;
+    rdfs:subClassOf :Badan .
+
+:FasilitasPerpajakan a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:OP_PekerjaBebas a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPekerjaan ;
+                        owl:someValuesFrom :PekerjaanBebas ] ) ] .
+
+:bagianDariRegulasi a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Pasal ;
+    rdfs:range :Regulasi ;
+    owl:inverseOf :memilikiPasal .
+
+:diaturDalamPasal a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :AturanHukum ;
+    rdfs:range :Pasal ;
+    owl:inverseOf :memuatAturan .
+
+:isUMKM_PP55 a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:PT a owl:Class ;
+    rdfs:subClassOf :BadanHukumIndonesia .
+
+:PekerjaanPegawai a owl:Class ;
+    rdfs:subClassOf :JenisPekerjaan .
+
+:JenisPekerjaan a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:OP_PelakuUsahaNonProfesi a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPekerjaan ;
+                        owl:someValuesFrom :UsahaDagangJasa ] ) ] .
+
+:OP_PemilikKendaraanDKI a owl:Class ;
+    rdfs:subClassOf :OrangPribadi .
+
+:TarifPajak a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass :AturanHukum ;
+            owl:onProperty :didasarkanPadaAturan ],
+        owl:Thing .
+
+:berdomisiliDi a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :WilayahDaerah .
+
+:hasJumlahTanggungan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:integer .
+
+:hasPenghasilanKenaPajakTahunan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:decimal .
+
+:isKawin a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range xsd:boolean .
+
+:memilikiPekerjaan a owl:ObjectProperty ;
+    rdfs:domain :OrangPribadi ;
+    rdfs:range :JenisPekerjaan .
+
+:BadanDalamNegeri a owl:Class ;
+    rdfs:subClassOf :Badan ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Badan [ a owl:Class ;
+                        owl:complementOf :BadanUsahaTetap ] ) ] .
+
+:LayakTaxHoliday a owl:Class ;
+    rdfs:subClassOf :BadanDalamNegeri .
+
+:Pasal a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass :Regulasi ;
+            owl:onProperty :bagianDariRegulasi ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        :DokumenHukum .
+
+:WP_Wilayah_DKI a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Class ;
+                        owl:unionOf ( [ a owl:Restriction ;
+                                    owl:hasValue :Wilayah_DKI_Jakarta ;
+                                    owl:onProperty :berdomisiliDi ] [ a owl:Restriction ;
+                                    owl:hasValue true ;
+                                    owl:onProperty :isDomisiliDKI ] ) ] ) ] .
+
+:WP_Wilayah_Jabar a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue :Wilayah_Jawa_Barat ;
+                        owl:onProperty :berdomisiliDi ] ) ] .
+
+:WP_Wilayah_Surabaya a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue :Wilayah_Kota_Surabaya ;
+                        owl:onProperty :berdomisiliDi ] ) ] .
+
+:hasNilaiInvestasi a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
+:hasNilaiNJOP a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
+:hasSuratKeteranganFiskal a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:boolean .
+
+:isBelumPernahPutusTaxHoliday a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:boolean .
+
+:isIndustriPionir a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:boolean .
+
+:isMemilikiObjekPBB a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:isPenanamanModalBaru a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Badan ;
+    rdfs:range xsd:boolean .
+
+:WilayahDaerah a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( :Wilayah_DKI_Jakarta :Wilayah_Jawa_Barat :Wilayah_Kota_Surabaya :Wilayah_Kota_Semarang :Wilayah_Prov_Bali ) ] .
+
+:hasOmzetTahunan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:decimal .
+
+:BadanHukumIndonesia a owl:Class ;
+    rdfs:subClassOf :BadanDalamNegeri .
+
+:DokumenHukum a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+:OP_PenerimaPPh21_PegawaiTetap a owl:Class ;
+    rdfs:subClassOf :OrangPribadi ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
+                        owl:onProperty :memilikiPekerjaan ;
+                        owl:someValuesFrom :PekerjaanPegawaiTetap ] ) ] .
+
+:isMilikPribadi a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:boolean .
+
+:DomainPajak a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( :Domain_A2_PPhBadan :Domain_B_PPN :Domain_C_PBB_HKPD :Domain_D_AdminSanksi :Domain_Perda_PDRD :Domain_Fasilitas_Sektor :Domain_Kepabeanan_Cukai :Domain_PPh_OP_Potput :Domain_PPh_Final_Sektor ) ] .
+
+:Regulasi a owl:Class ;
+    rdfs:subClassOf :DokumenHukum .
+
+:hasJumlahKendaraan a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range xsd:integer .
+
+:Badan a owl:Class ;
+    rdfs:subClassOf :WajibPajak .
+
+:AturanHukum a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+            owl:onClass :Pasal ;
+            owl:onProperty :diaturDalamPasal ],
+        owl:Thing .
+
+:OrangPribadi a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:disjointWith :Badan .
+
+:WajibPajak a owl:Class ;
+    rdfs:subClassOf owl:Thing .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :OP_TER_Kategori_A :OP_TER_Kategori_B :OP_TER_Kategori_C ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :WajibPajak :JenisPekerjaan :WilayahDaerah :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :PekerjaanPegawai :PekerjaanBebas :UsahaDagangJasa ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :Kewajiban :Hak :Larangan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :PekerjaanPegawaiTetap :PekerjaanPegawaiTidakTetap :PekerjaanPesertaKegiatan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :PT :CV :Koperasi :Yayasan :BadanUsahaTetap ) .
+
