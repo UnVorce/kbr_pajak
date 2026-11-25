@@ -1100,6 +1100,7 @@
         <rdf:Description rdf:about="#Wilayah_Kota_Surabaya"/>
         <rdf:Description rdf:about="#Wilayah_Kota_Semarang"/>
         <rdf:Description rdf:about="#Wilayah_Prov_Bali"/>
+        <rdf:Description rdf:about="#Wilayah_Nasional_NonDKI"/>
       </owl:oneOf>
     </owl:Class>
   </owl:equivalentClass>
@@ -1188,6 +1189,21 @@
   </owl:equivalentClass>
 </owl:Class>
 
+<owl:Class rdf:about="#WP_Wilayah_Nasional_NonDKI">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#berdomisiliDi"/>
+          <owl:hasValue rdf:resource="#Wilayah_Nasional_NonDKI"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#WP_Wilayah_NonDKI_Kendaraan">
   <rdfs:subClassOf rdf:resource="#WajibPajak"/>
   <owl:equivalentClass>
@@ -1199,6 +1215,7 @@
             <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
             <rdf:Description rdf:about="#WP_Wilayah_Semarang"/>
             <rdf:Description rdf:about="#WP_Wilayah_Bali"/>
+            <rdf:Description rdf:about="#WP_Wilayah_Nasional_NonDKI"/>
           </owl:unionOf>
         </owl:Class>
         <owl:Restriction>
@@ -2821,6 +2838,10 @@
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Wilayah_Prov_Bali">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wilayah_Nasional_NonDKI">
   <rdf:type rdf:resource="#WilayahDaerah"/>
 </owl:NamedIndividual>
 
@@ -7193,6 +7214,44 @@ Pajak.</hasSourceQuote>
     </rdf:Description>
   </swrl:head>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_C1_PBB_Surabaya_L1</rdfs:label>
+</swrl:Imp>
+
+<swrl:Imp>
+  <swrl:body>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:ClassAtom>
+          <swrl:classPredicate rdf:resource="#WP_Wilayah_Nasional_NonDKI"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+        </swrl:ClassAtom>
+      </rdf:first>
+      <rdf:rest>
+        <rdf:Description>
+          <rdf:first>
+            <swrl:DatavaluedPropertyAtom>
+              <swrl:propertyPredicate rdf:resource="#isMemilikiObjekPBB"/>
+              <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+              <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+            </swrl:DatavaluedPropertyAtom>
+          </rdf:first>
+          <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+        </rdf:Description>
+      </rdf:rest>
+    </rdf:Description>
+  </swrl:body>
+  <swrl:head>
+    <rdf:Description>
+      <rdf:first>
+        <swrl:IndividualPropertyAtom>
+          <swrl:propertyPredicate rdf:resource="#memilikiKewajiban"/>
+          <swrl:argument1 rdf:resource="urn:swrl#wp"/>
+          <swrl:argument2 rdf:resource="#Kewajiban_LaporPBB"/>
+        </swrl:IndividualPropertyAtom>
+      </rdf:first>
+      <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    </rdf:Description>
+  </swrl:head>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWRL_TK_C1_PBB_Nasional_NonDKI</rdfs:label>
 </swrl:Imp>
 
 <swrl:Imp>

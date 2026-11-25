@@ -53,7 +53,7 @@ def _resolve_nppn_wilayah(val: Optional[str]) -> str:
             "IBUKOTA_PROVINSI_LAIN": "IbuKota_Provinsi_Lain",
             "DAERAH_LAIN": "Daerah_Lain",
         }[norm]
-    clean = norm.replace("WILAYAH_", "").replace("KOTA_", "").replace("_", " ").strip()
+    clean = norm.replace("WILAYAH_", "").replace("PROVINSI ", "").replace("KOTA_", "").replace("KABUPATEN ", "").replace("_", " ").strip()
     if norm in _IBUKOTA_10 or clean in _IBUKOTA_10:
         return "10_IbuKota_Provinsi"
     if clean in _IBUKOTA_LAIN:
@@ -70,6 +70,7 @@ class BackendPaths:
     full_ttl: Path
     ter_ttl: Path
     kbli_ttl: Path
+    perda_ttl: Path
 
 
 def resolve_paths(base_dir: Optional[Path] = None) -> BackendPaths:
@@ -86,6 +87,7 @@ def resolve_paths(base_dir: Optional[Path] = None) -> BackendPaths:
     build_report_json = root / "ontology" / "ontology_build_report.json"
     ter_ttl = Path(os.environ.get("KBR_TER_TTL") or (root / "ontology" / "kbr_ter_pph21.ttl"))
     kbli_ttl = Path(os.environ.get("KBR_KBLI_TTL") or (root / "ontology" / "kbr_kbli.ttl"))
+    perda_ttl = Path(os.environ.get("KBR_PERDA_TTL") or (root / "ontology" / "kbr-perda-rates.ttl"))
 
     env_ttl = os.environ.get("KBR_FULL_TTL")
     if env_ttl:
@@ -103,6 +105,7 @@ def resolve_paths(base_dir: Optional[Path] = None) -> BackendPaths:
         full_ttl=full_ttl,
         ter_ttl=ter_ttl,
         kbli_ttl=kbli_ttl,
+        perda_ttl=perda_ttl,
     )
 
 
@@ -114,6 +117,7 @@ class KBRReasoningEngine:
         self._rdf_graph: Optional[Graph] = None
         self._ter_graph: Optional[Graph] = None
         self._kbli_graph: Optional[Graph] = None
+        self._perda_graph: Optional[Graph] = None
         self._rdf_lock = threading.Lock()
         self._reasoner_lock = threading.Lock()
 
@@ -143,6 +147,14 @@ class KBRReasoningEngine:
                 self._kbli_graph = g
             return self._kbli_graph
 
+    def get_perda_graph(self) -> Optional[Graph]:
+        with self._rdf_lock:
+            if self._perda_graph is None and self.paths.perda_ttl.exists():
+                g = Graph()
+                g.parse(str(self.paths.perda_ttl), format="turtle")
+                self._perda_graph = g
+            return self._perda_graph
+
     def health(self) -> dict:
         report = {}
         if self.paths.build_report_json.exists():
@@ -153,6 +165,7 @@ class KBRReasoningEngine:
             "full_ttl_exists": self.paths.full_ttl.exists(),
             "ter_ttl_exists": self.paths.ter_ttl.exists(),
             "kbli_ttl_exists": self.paths.kbli_ttl.exists(),
+            "perda_ttl_exists": self.paths.perda_ttl.exists(),
             "rdf_loaded_in_memory": self._rdf_graph is not None,
             "rdf_triples": len(self._rdf_graph) if self._rdf_graph is not None else None,
             "reasoning_classes": report.get("reasoning_classes"),
@@ -160,6 +173,102 @@ class KBRReasoningEngine:
             "swrl_rules": report.get("swrl_rules"),
             "full_rules_exported": report.get("full_rules_exported"),
         }
+
+    def lookup_pemda(self, pemda_id: str) -> Optional[dict]:
+        g = self.get_perda_graph()
+        if g is None:
+            return None
+        safe = re.sub(r"[^A-Za-z0-9_]", "_", (pemda_id or "").strip().upper())
+        if not safe:
+            return None
+        q = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?p ?lbl ?tk ?isDki ?nppn ?jk ?pct ?nom ?doc ?loc ?quote ?isPerub
+        WHERE {{
+          ?p a kbr:PemdaDaerah ;
+             kbr:hasPemdaId "{safe}"^^xsd:string ;
+             rdfs:label ?lbl ;
+             kbr:hasTingkatPemda ?tk ;
+             kbr:isDKIJakarta ?isDki ;
+             kbr:kelompokWilayahNPPN ?nppn .
+          OPTIONAL {{
+            ?r kbr:untukPemda ?p ;
+               kbr:hasJenisPajakDaerah ?jk ;
+               kbr:hasDocumentId ?doc ;
+               kbr:hasSourceLocator ?loc ;
+               kbr:hasSourceQuote ?quote ;
+               kbr:isPerdaPerubahan ?isPerub .
+            OPTIONAL {{ ?r kbr:hasTarifPersen ?pct . }}
+            OPTIONAL {{ ?r kbr:hasNominalRupiah ?nom . }}
+          }}
+        }}
+        ORDER BY ?jk
+        """
+        meta = None
+        tarif_daerah: Dict[str, dict] = {}
+        for r in g.query(q):
+            if meta is None:
+                meta = {
+                    "pemda_id": safe,
+                    "nama_resmi": str(r.lbl),
+                    "tingkat": str(r.tk),
+                    "is_dki_jakarta": bool(r.isDki),
+                    "nppn_wilayah_kelompok": str(r.nppn),
+                }
+            if r.jk is not None:
+                tarif_daerah[str(r.jk)] = {
+                    "tarif_persen": float(r.pct) if r.pct is not None else None,
+                    "nominal_idr": float(r.nom) if r.nom is not None else None,
+                    "document_id": str(r.doc),
+                    "source_locator": str(r.loc),
+                    "source_quote": str(r.quote),
+                    "is_perda_perubahan": bool(r.isPerub),
+                }
+        if meta is None:
+            return None
+        meta["tarif_daerah"] = tarif_daerah
+        return meta
+
+    def search_pemda(self, query: str = "", tingkat: Optional[str] = None, limit: int = 30) -> List[dict]:
+        g = self.get_perda_graph()
+        if g is None:
+            raise FileNotFoundError(f"File Perda rates RDF tidak ditemukan: {self.paths.perda_ttl}")
+        filters = []
+        if query:
+            safe_q = query.replace("\\", "\\\\").replace('"', '\\"').strip()
+            filters.append(f'FILTER(CONTAINS(LCASE(STR(?lbl)), LCASE("{safe_q}")) || CONTAINS(LCASE(STR(?pid)), LCASE("{safe_q}")))')
+        if tingkat:
+            safe_t = tingkat.strip().upper()
+            filters.append(f'FILTER(STR(?tk) = "{safe_t}")')
+        flt = "\n          ".join(filters)
+        q = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        SELECT ?pid ?lbl ?tk ?isDki ?nppn
+        WHERE {{
+          ?p a kbr:PemdaDaerah ;
+             kbr:hasPemdaId ?pid ;
+             rdfs:label ?lbl ;
+             kbr:hasTingkatPemda ?tk ;
+             kbr:isDKIJakarta ?isDki ;
+             kbr:kelompokWilayahNPPN ?nppn .
+          {flt}
+        }}
+        ORDER BY ?pid
+        LIMIT {max(1, min(int(limit), 400))}
+        """
+        return [
+            {
+                "pemda_id": str(r.pid),
+                "nama_resmi": str(r.lbl),
+                "tingkat": str(r.tk),
+                "is_dki_jakarta": bool(r.isDki),
+                "nppn_wilayah_kelompok": str(r.nppn),
+            }
+            for r in g.query(q)
+        ]
 
     def lookup_kbli(self, kode_kbli: str) -> Optional[dict]:
         g = self.get_kbli_graph()
@@ -323,8 +432,25 @@ class KBRReasoningEngine:
         if not self.paths.reasoning_owl.exists():
             raise FileNotFoundError(f"File ontologi tidak ditemukan: {self.paths.reasoning_owl}")
 
-        # Materialisasi pra-reasoning dari graf SKOS kbr_kbli.ttl (jika kodeKBLI diisi)
+        # Materialisasi pra-reasoning dari graf SKOS kbr_kbli.ttl & graf Perda kbr-perda-rates.ttl
         effective_props = dict(props)
+        perda_info = None
+        if effective_props.get("pemdaId"):
+            perda_info = self.lookup_pemda(str(effective_props["pemdaId"]))
+            if perda_info:
+                pid_up = perda_info["pemda_id"]
+                if not effective_props.get("berdomisiliDi"):
+                    pilot_map = {
+                        "PROV_DKI_JAKARTA": "Wilayah_DKI_Jakarta",
+                        "PROV_JAWA_BARAT": "Wilayah_Jawa_Barat",
+                        "KOTA_SURABAYA": "Wilayah_Kota_Surabaya",
+                        "KOTA_SEMARANG": "Wilayah_Kota_Semarang",
+                        "PROV_BALI": "Wilayah_Prov_Bali",
+                    }
+                    effective_props["berdomisiliDi"] = [pilot_map.get(pid_up, "Wilayah_Nasional_NonDKI")]
+                if not effective_props.get("kelompokWilayahNPPN"):
+                    effective_props["kelompokWilayahNPPN"] = perda_info["nppn_wilayah_kelompok"]
+
         kbli_info = None
         if effective_props.get("kodeKBLI"):
             kbli_info = self.lookup_kbli(str(effective_props["kodeKBLI"]))
@@ -341,6 +467,7 @@ class KBRReasoningEngine:
                     if "isLokasiProvinsiMemenuhiTaxAllowance" not in effective_props:
                         loc_txt = (
                             str(effective_props.get("lokasiProvinsiTaxAllowance") or "")
+                            or (perda_info["nama_resmi"] if perda_info else "")
                             or " ".join(effective_props.get("berdomisiliDi") or [])
                             or ("DKI Jakarta" if effective_props.get("isDomisiliDKI") else "")
                         ).strip()
@@ -484,6 +611,29 @@ class KBRReasoningEngine:
                         omzet_val * (pct_pem / 100.0), 2
                     )
 
+        # Hybrid 524-Perda PBB-P2 estimasi lokal (jika belum dihitung oleh tarif 5 pilot di OWL)
+        if (
+            perda_info
+            and effective_props.get("isMemilikiObjekPBB")
+            and effective_props.get("hasNilaiNJOP") is not None
+            and "pbb_terutang_idr" not in estimasi_pajak["rincian"]
+        ):
+            td = perda_info.get("tarif_daerah") or {}
+            pbb_entry = td.get("PBB_P2")
+            if pbb_entry and pbb_entry.get("tarif_persen") is not None:
+                njop_val = float(effective_props["hasNilaiNJOP"])
+                njoptkp_val = (
+                    float(effective_props["hasNJOPTKP_PBB"])
+                    if effective_props.get("hasNJOPTKP_PBB") is not None
+                    else float((td.get("NJOPTKP") or {}).get("nominal_idr") or 10_000_000.0)
+                )
+                njop_pct = float(effective_props.get("hasPersentaseNJOP_PBB") or 100.0)
+                pbb_rate = float(pbb_entry["tarif_persen"])
+                pbb_amt = max(0.0, njop_val - njoptkp_val) * (njop_pct / 100.0) * (pbb_rate / 100.0)
+                estimasi_pajak["rincian"]["pbb_pemda_tarif_persen"] = pbb_rate
+                estimasi_pajak["rincian"]["pbb_pemda_njoptkp_idr"] = njoptkp_val
+                estimasi_pajak["rincian"]["pbb_terutang_idr"] = round(pbb_amt, 2)
+
         return {
             "wp_id": wp_id,
             "wp_kind": wp_kind,
@@ -495,8 +645,9 @@ class KBRReasoningEngine:
             "kewajiban": _explain(wp.memilikiKewajiban),
             "sanksi": _explain(wp.berisikoSanksi),
             "kbli_info": kbli_info,
+            "perda_info": perda_info,
             "estimasi_pajak": estimasi_pajak,
-            "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND/SKOS/TER",
+            "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND/SKOS/TER/PERDA",
             "elapsed_ms": elapsed_ms,
         }
 

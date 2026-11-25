@@ -1099,6 +1099,7 @@
         <rdf:Description rdf:about="#Wilayah_Kota_Surabaya"/>
         <rdf:Description rdf:about="#Wilayah_Kota_Semarang"/>
         <rdf:Description rdf:about="#Wilayah_Prov_Bali"/>
+        <rdf:Description rdf:about="#Wilayah_Nasional_NonDKI"/>
       </owl:oneOf>
     </owl:Class>
   </owl:equivalentClass>
@@ -1187,6 +1188,21 @@
   </owl:equivalentClass>
 </owl:Class>
 
+<owl:Class rdf:about="#WP_Wilayah_Nasional_NonDKI">
+  <rdfs:subClassOf rdf:resource="#WajibPajak"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#WajibPajak"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#berdomisiliDi"/>
+          <owl:hasValue rdf:resource="#Wilayah_Nasional_NonDKI"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#WP_Wilayah_NonDKI_Kendaraan">
   <rdfs:subClassOf rdf:resource="#WajibPajak"/>
   <owl:equivalentClass>
@@ -1198,6 +1214,7 @@
             <rdf:Description rdf:about="#WP_Wilayah_Surabaya"/>
             <rdf:Description rdf:about="#WP_Wilayah_Semarang"/>
             <rdf:Description rdf:about="#WP_Wilayah_Bali"/>
+            <rdf:Description rdf:about="#WP_Wilayah_Nasional_NonDKI"/>
           </owl:unionOf>
         </owl:Class>
         <owl:Restriction>
@@ -2820,6 +2837,10 @@
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Wilayah_Prov_Bali">
+  <rdf:type rdf:resource="#WilayahDaerah"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#Wilayah_Nasional_NonDKI">
   <rdf:type rdf:resource="#WilayahDaerah"/>
 </owl:NamedIndividual>
 

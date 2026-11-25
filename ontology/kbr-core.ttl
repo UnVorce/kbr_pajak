@@ -522,7 +522,7 @@
     rdfs:subClassOf :WajibPajak ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( [ a owl:Class ;
-                        owl:unionOf ( :WP_Wilayah_Jabar :WP_Wilayah_Surabaya :WP_Wilayah_Semarang :WP_Wilayah_Bali ) ] [ a owl:Restriction ;
+                        owl:unionOf ( :WP_Wilayah_Jabar :WP_Wilayah_Surabaya :WP_Wilayah_Semarang :WP_Wilayah_Bali :WP_Wilayah_Nasional_NonDKI ) ] [ a owl:Restriction ;
                         owl:onProperty :hasJumlahKendaraan ;
                         owl:someValuesFrom [ a rdfs:Datatype ;
                                 owl:onDatatype xsd:integer ;
@@ -873,6 +873,13 @@
 :UndangUndang a owl:Class ;
     rdfs:subClassOf :Regulasi .
 
+:WP_Wilayah_Nasional_NonDKI a owl:Class ;
+    rdfs:subClassOf :WajibPajak ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :WajibPajak [ a owl:Restriction ;
+                        owl:hasValue :Wilayah_Nasional_NonDKI ;
+                        owl:onProperty :berdomisiliDi ] ) ] .
+
 :WP_Wilayah_Semarang a owl:Class ;
     rdfs:subClassOf :WajibPajak ;
     owl:equivalentClass [ a owl:Class ;
@@ -1054,6 +1061,9 @@
 :Wilayah_Kota_Surabaya a :WilayahDaerah,
         owl:NamedIndividual .
 
+:Wilayah_Nasional_NonDKI a :WilayahDaerah,
+        owl:NamedIndividual .
+
 :Wilayah_Prov_Bali a :WilayahDaerah,
         owl:NamedIndividual .
 
@@ -1140,10 +1150,6 @@
             owl:onProperty :didasarkanPadaAturan ],
         owl:Thing .
 
-:berdomisiliDi a owl:ObjectProperty ;
-    rdfs:domain :WajibPajak ;
-    rdfs:range :WilayahDaerah .
-
 :hasJumlahTanggungan a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :OrangPribadi ;
@@ -1182,6 +1188,10 @@
                                     owl:onProperty :berdomisiliDi ] [ a owl:Restriction ;
                                     owl:hasValue true ;
                                     owl:onProperty :isDomisiliDKI ] ) ] ) ] .
+
+:berdomisiliDi a owl:ObjectProperty ;
+    rdfs:domain :WajibPajak ;
+    rdfs:range :WilayahDaerah .
 
 :hasNilaiInvestasi a owl:DatatypeProperty,
         owl:FunctionalProperty ;
@@ -1227,11 +1237,6 @@
                         owl:hasValue :Wilayah_Kota_Surabaya ;
                         owl:onProperty :berdomisiliDi ] ) ] .
 
-:WilayahDaerah a owl:Class ;
-    rdfs:subClassOf owl:Thing ;
-    owl:equivalentClass [ a owl:Class ;
-            owl:oneOf ( :Wilayah_DKI_Jakarta :Wilayah_Jawa_Barat :Wilayah_Kota_Surabaya :Wilayah_Kota_Semarang :Wilayah_Prov_Bali ) ] .
-
 :hasOmzetTahunan a owl:DatatypeProperty,
         owl:FunctionalProperty ;
     rdfs:domain :WajibPajak ;
@@ -1249,6 +1254,11 @@
             owl:intersectionOf ( :OrangPribadi [ a owl:Restriction ;
                         owl:onProperty :memilikiPekerjaan ;
                         owl:someValuesFrom :PekerjaanPegawaiTetap ] ) ] .
+
+:WilayahDaerah a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:oneOf ( :Wilayah_DKI_Jakarta :Wilayah_Jawa_Barat :Wilayah_Kota_Surabaya :Wilayah_Kota_Semarang :Wilayah_Prov_Bali :Wilayah_Nasional_NonDKI ) ] .
 
 :isPenanamanModalBaru a owl:DatatypeProperty,
         owl:FunctionalProperty ;
@@ -1297,22 +1307,22 @@
     rdfs:subClassOf owl:Thing .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :PekerjaanPegawai :PekerjaanBebas :UsahaDagangJasa ) .
-
-[] a owl:AllDisjointClasses ;
     owl:members ( :Kewajiban :Hak :Larangan ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( :WajibPajak :JenisPekerjaan :WilayahDaerah :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :OP_TER_Kategori_A :OP_TER_Kategori_B :OP_TER_Kategori_C ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
+    owl:members ( :PekerjaanPegawai :PekerjaanBebas :UsahaDagangJasa ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :WajibPajak :JenisPekerjaan :WilayahDaerah :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :PT :CV :Koperasi :Yayasan :BadanUsahaTetap ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :PekerjaanPegawaiTetap :PekerjaanPegawaiTidakTetap :PekerjaanPesertaKegiatan ) .

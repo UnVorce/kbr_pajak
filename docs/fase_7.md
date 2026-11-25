@@ -16,10 +16,12 @@ Dibuat terpisah di **`backend/`** (`fatih/backend/` dan disinkronkan ke `kbr_paj
 | Method | Endpoint | Fungsi |
 |---|---|---|
 | `GET` | `/health` | Status `.owl`, `.ttl`, dan metrik build ontologi |
-| `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `5` `WilayahDaerah` langsung dari OWL |
+| `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `6` `WilayahDaerah` langsung dari OWL |
 | `GET` | `/kbli` | Pencarian `1.449` kode KBLI/KLU pada graf SKOS `kbr_kbli.ttl` |
 | `GET` | `/kbli/{kode}` | Detail KBLI (persentase NPPN 3 wilayah & syarat provinsi Tax Allowance PP 78/2019) |
-| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + materialisasi `kodeKBLI` + estimasi nominal `SPARQL BIND` (TER PPh 21 & NPPN) + justifikasi pasal/MK/SEMA |
+| `GET` | `/perda` | Daftar/cari `390` Pemda dari `524` Perda PDRD (`kbr-perda-rates.ttl`) |
+| `GET` | `/perda/{pemda_id}` | Detail `2.029` item tarif pajak daerah & kutipan pasal resmi untuk 1 Pemda |
+| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + materialisasi `kodeKBLI` & `pemdaId` + estimasi nominal `SPARQL BIND` (TER PPh 21, NPPN, PBB lokal) + justifikasi pasal/MK/SEMA |
 | `GET` | `/catalog` | Peta `83` item katalog tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
 | `GET` | `/scenarios` | Ringkasan `15` skenario demonstrasi di `kbr_pajak_reasoning.owl` |
 | `GET` | `/sparql/provenance` | Query SPARQL atas `12.907` aturan (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) |
