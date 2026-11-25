@@ -563,6 +563,26 @@
     "mk_review_refs": [],
     "sema_tun_refs": []
   },
+  "Fasilitas_TaxAllowance_PP78_30Pct": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Tax Allowance Pengurangan Penghasilan Neto 30% (5%/tahun selama 6 tahun) Bidang/Daerah Tertentu (PP 78/2019 Pasal 3(1)a)",
+    "rule_id": "R-PP-2019-78-17ae360038",
+    "document_id": "PP-2019-78",
+    "source_locator": "PP-2019-78#BT/3/1/a",
+    "source_quote": "a. pengurangan penghasilan neto sebesar 30% (tiga puluh persen) dari jumlah nilai Penanaman Modal berupa aktiva tetap berwujud termasuk tanah, yang digunakan untuk Kegiatan Usaha Utama, dibebankan selama 6 (enam) tahun masing-masing sebesar 5% (lima persen) pertahun;",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Fasilitas_PadatKarya_PMK81_60Pct": {
+    "catalog_class": "FasilitasPerpajakan",
+    "label": "Fasilitas Industri Padat Karya Pengurangan Penghasilan Neto 60% atas Aktiva Tetap Berwujud Baru (PMK 81/2024 Pasal 423)",
+    "rule_id": "R-PMK-2024-81-10955d1fd9",
+    "document_id": "PMK-2024-81",
+    "source_locator": "PMK-2024-81#BT/423",
+    "source_quote": "(1) Wajib Pajak yang melakukan Penanaman Modal pada industri padat karya dapat diberikan fasilitas Pajak Penghasilan berupa pengurangan penghasilan neto sampai tingkat tertentu terhadap jumlah Penanaman Modal dalam jangka waktu tertentu. (2) Pengurangan penghasilan neto sebagaimana dimaksud pada ayat (1) sebesar 60% (enam puluh persen) dari jumlah Penanaman Modal berupa aktiva tetap berwujud termasuk tanah, yang digunakan untuk Kegiatan Usaha Utama, dibebankan selama 6 (enam) tahun sejak Tahun Pajak Saat Mulai Berproduksi jdih.kemenkeu.go.id - 289 - Komersial masing-masing sebesar 10% (sepuluh persen) per tahun. (3) Industri padat karya sebagaimana dimaksud pada ayat (1) harus memenuhi ketentuan sebagai berikut: a. merupakan Wajib Pajak Badan dalam negeri; b. melakukan Kegiatan Usaha Utama sesuai bidang usaha dengan Klasifikasi Baku Lapangan U saha Indonesia tahun 2020, memiliki cakupan produk tertentu, pada daerah tertentu, dengan persyaratan tertentu; dan c. mempekerjakan tenaga kerja Indonesia atas Penanaman Modal yang mendapatkan fasilitas Pajak Penghasilan paling sedikit 300 (tiga ratus) orang. (4) Jumlah tenaga kerja Indonesia sebagaimana dimaksud pada ayat (3) huruf c adalah jumlah rata-rata tenaga kerja Indonesia dalam suatu Tahun Pajak.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
   "Fasilitas_Pengecualian_SpaKesehatanTradisional_MK": {
     "catalog_class": "FasilitasPerpajakan",
     "label": "Pengecualian PBJT Hiburan 40-50% untuk Mandi Uap/Spa Bagian Pelayanan Kesehatan Tradisional (Putusan MK-2024-19-PUU-XXII)",
@@ -712,6 +732,26 @@
     "document_id": "PMK-2023-168",
     "source_locator": "PMK-2023-168#BT/22",
     "source_quote": "(4) Penerima penghasilan wajib melaporkan seluruh penghasilan yang telah diterima atau diperoleh, baik yang telah dipotong pajak penghasilan maupun tidak dipotong pajak penghasilan, yang bersifat final maupun tidak final, dan yang bukan merupakan objek pajak penghasilan, dalam Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak Orang Pribadi.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Kewajiban_Pembukuan_OP_NPPN_Terlambat": {
+    "catalog_class": "KewajibanPajak",
+    "label": "Kewajiban Pembukuan bagi OP Usaha/Pekerjaan Bebas yang Tidak Memberitahukan Penggunaan NPPN Tepat Waktu (UU PPh Pasal 14(4))",
+    "rule_id": "R-UU-1983-7-ae4471284f",
+    "document_id": "UU-1983-7",
+    "source_locator": "UU-1983-7#BT/14",
+    "source_quote": "(4) Wajib Pajak sebagaimana dimaksud pada ayat (2) yang tidak memberitahukan kepada Direktur Jenderal Pajak untuk menghitung penghasilan neto dengan menggunakan Norma Penghitungan Penghasilan Neto, dianggap memilih menyelenggarakan pembukuan.",
+    "mk_review_refs": [],
+    "sema_tun_refs": []
+  },
+  "Sanksi_NPPN_Norma_Pemeriksaan_Pasal14_5": {
+    "catalog_class": "SanksiAdministratif",
+    "label": "Penghitungan Penghasilan Neto Menggunakan Norma Pemeriksaan Pasal 14(5) karena Tidak Menyelenggarakan Pembukuan/Pencatatan (UU PPh Pasal 14(5))",
+    "rule_id": "R-UU-1983-7-d33a781efe",
+    "document_id": "UU-1983-7",
+    "source_locator": "UU-1983-7#BT/14",
+    "source_quote": "(5) Wajib Pajak yang wajib menyelenggarakan pembukuan atau pencatatan, termasuk Wajib Pajak sebagaimana dimaksud pada ayat (3) dan ayat (4), yang ternyata tidak atau tidak sepenuhnya menyelenggarakan pencatatan atau pembukuan atau tidak memperlihatkan pencatatan atau bukti-bukti pendukungnya maka penghasilan netonya dihitung berdasarkan Norma Penghitungan Penghasilan Neto dan peredaran brutonya dihitung dengan cara lain yang diatur dengan atau berdasarkan Peraturan Menteri Keuangan.",
     "mk_review_refs": [],
     "sema_tun_refs": []
   },

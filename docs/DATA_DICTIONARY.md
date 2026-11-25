@@ -81,15 +81,15 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 
 ## 4. Kamus Ontologi OWL 2 `SROIQ(D)` (`http://www.semanticweb.org/ontology/kbr_pajak#`)
 
-### 4.1 Hirarki Kelas (`113` Kelas di `kbr_pajak_tbox.owl`)
+### 4.1 Hirarki Kelas (`119` Kelas di `kbr_pajak_tbox.owl`)
 
 | Kelompok | Kelas & Subkelas |
 |---|---|
-| **Wajib Pajak Badan (`Badan`)** | `BadanDalamNegeri`, `BadanHukumIndonesia` (`PT`, `Koperasi`), `CV`, `Yayasan`, `BadanUsahaTetap` (`BUT`), `BadanTerbukaTbk`, `BadanNonTbk`, `BadanUMKM`, `BadanLayakPasal31E`, `LayakTaxHoliday` (`50Pct_5Thn`, `100Pct_5Thn`, `7Thn`, `10Thn`, `15Thn`, `20Thn`) |
-| **Wajib Pajak Orang Pribadi (`OrangPribadi`)** | `OP_SubjekDalamNegeri`, `OP_SubjekLuarNegeri`, `OP_PenerimaPPh21_PegawaiTetap` (`OP_TER_Kategori_A`, `OP_TER_Kategori_B`, `OP_TER_Kategori_C`, `OP_MultiPemberiKerja`), `OP_PenerimaPPh21_TidakTetap`, `OP_PesertaKegiatan`, `OP_PekerjaBebas` (`OP_PekerjaBebas_LayakNPPN`), `OP_PelakuUsahaNonProfesi` (`OP_UMKM_Bebas_500Jt`, `OP_UMKM_Final_PP55`), `OP_WajibPembukuan`, `OP_PPh17_Layer1_5Pct`..`Layer5_35Pct` |
-| **Wajib Pajak Lintas Subjek & Daerah** | `SubjekPajakAktif`, `UMKM`, `PengusahaKenaPajak`, `WajibPajakUMKM`, `WajibPajakNonUMKM`, `WP_Wilayah_DKI`, `WP_Wilayah_Jabar`, `WP_Wilayah_Surabaya`, `WP_Wilayah_Semarang`, `WP_Wilayah_Bali`, `Badan_PemilikKendaraanDKI`, `OP_PemilikKendaraanDKI` (`Ke1`..`Ke5Plus`), `Badan_PemilikKendaraanJabar`, `OP_KendaraanKe1..5Plus_Jabar`, `WP_PBB_Surabaya_L1..L6`, `OP_Kendaraan_Bali_Max200cc/Over200cc`, `PenerimaPPh23_NonBank_JasaSewa/Modal`, `WP_PPh23_TanpaNPWP` |
+| **Wajib Pajak Badan (`Badan`)** | `BadanDalamNegeri`, `BadanHukumIndonesia` (`PT`, `Koperasi`), `CV`, `Yayasan`, `BadanUsahaTetap` (`BUT`), `BadanTerbukaTbk`, `BadanNonTbk`, `BadanUMKM`, `BadanLayakPasal31E`, `BadanLayakTaxAllowance`, `BadanLayakPadatKarya`, `LayakTaxHoliday` (`50Pct_5Thn`, `100Pct_5Thn`, `7Thn`, `10Thn`, `15Thn`, `20Thn`) |
+| **Wajib Pajak Orang Pribadi (`OrangPribadi`)** | `OP_SubjekDalamNegeri`, `OP_SubjekLuarNegeri`, `OP_PenerimaPPh21_PegawaiTetap` (`OP_TER_Kategori_A`, `OP_TER_Kategori_B`, `OP_TER_Kategori_C`, `OP_MultiPemberiKerja`), `OP_PenerimaPPh21_TidakTetap`, `OP_PesertaKegiatan`, `OP_PekerjaBebas` (`OP_PekerjaBebas_LayakNPPN`, `OP_NPPN_Gugur_TelatLapor`), `OP_PelakuUsahaNonProfesi` (`OP_UMKM_Bebas_500Jt`, `OP_UMKM_Final_PP55`), `OP_WajibPembukuan`, `OP_PPh17_Layer1_5Pct`..`Layer5_35Pct` |
+| **Wajib Pajak Lintas Subjek & Daerah** | `SubjekPajakAktif`, `UMKM`, `PengusahaKenaPajak`, `WajibPajakUMKM`, `WajibPajakNonUMKM`, `WP_TidakSelenggarakanPembukuan`, `WP_Wilayah_DKI`, `WP_Wilayah_Jabar`, `WP_Wilayah_Surabaya`, `WP_Wilayah_Semarang`, `WP_Wilayah_Bali`, `WP_Wilayah_NonDKI_Kendaraan`, `Badan_PemilikKendaraanDKI`, `OP_PemilikKendaraanDKI` (`Ke1`..`Ke5Plus`), `Badan_PemilikKendaraanJabar`, `OP_KendaraanKe1..5Plus_Jabar`, `WP_PBB_Surabaya_L1..L6`, `OP_Kendaraan_Bali_Max200cc/Over200cc`, `PenerimaPPh23_NonBank_JasaSewa/Modal`, `WP_PPh23_TanpaNPWP` |
 | **Pekerjaan & Wilayah** | `JenisPekerjaan` (`PekerjaanPegawai` -> `PekerjaanPegawaiTetap`, `PekerjaanPegawaiTidakTetap`, `PekerjaanPesertaKegiatan`; `PekerjaanBebas`; `UsahaDagangJasa`) berisi `30` individu profesi; `WilayahDaerah` (`5` nominal daerah pilot) |
-| **Katalog Output (`79` item)** | `TarifPajak` (`TarifProgresif`, `TarifFinal`), `FasilitasPerpajakan` (`PP55UMKM`), `KewajibanPajak`, `SanksiAdministratif`, `DomainPajak` (`9` nominal), `ObjekPajak` |
+| **Katalog Output (`83` item)** | `TarifPajak` (`TarifProgresif`, `TarifFinal`), `FasilitasPerpajakan` (`PP55UMKM`), `KewajibanPajak`, `SanksiAdministratif`, `DomainPajak` (`9` nominal), `ObjekPajak` |
 | **Dokumen & Aturan Reifikasi** | `DokumenHukum` (`Regulasi` -> `UndangUndang`, `PeraturanPemerintah`, `PeraturanMenteriKeuangan`, `PeraturanDirjenPajak`, `PeraturanDaerah`; `Pasal`; `PutusanMK`; `SEMA_TUN`), `AturanHukum` (`Kewajiban`, `Hak`, `Larangan`, `Pengecualian`, `Sanksi`, `BatasWaktu`, `AturanTarif`, `Definisi`, `Prosedur`, `Kelayakan`) |
 
 ### 4.2 Object Properties (`17` Properti)
@@ -107,21 +107,21 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 | `termasukDomain` | `Thing` | `DomainPajak` | Klasifikasi domain |
 | `dikenaiTarif`, `memilikiFasilitas`, `memilikiKewajiban`, `berisikoSanksi` | `WajibPajak` | Katalog Output | Hasil inferensi SWRL |
 
-### 4.3 Data Properties (`51` Properti Fungsional)
+### 4.3 Data Properties (`62` Properti Fungsional)
 
-- **Profil Kuantitatif (`11`):** `hasOmzetTahunan` (`float`), `hasNilaiInvestasi` (`float`), `hasPersentaseSahamPublik` (`float`), `hasJumlahPemegangSahamPublik` (`int`), `hasHariTerpenuhiTbk` (`int`), `hasJumlahKendaraan` (`int`), `hasKapasitasMesinCC` (`int`), `hasNilaiNJOP` (`float`), `hasJumlahTanggungan` (`int`), `hasPenghasilanKenaPajakTahunan` (`float`), `hasJumlahPemberiKerja` (`int`).
-- **Profil Status & Aktivitas (`30`):** `isPerseroanTerbuka`, `isPerseroanPerorangan`, `isIndustriPionir`, `isPenanamanModalBaru`, `hasSuratKeteranganFiskal`, `isBelumPernahPutusTaxHoliday`, `isUMKM_PP55`, `hasNPWP`, `isPendudukIndonesia`, `isSubjekLuarNegeri`, `isKawin`, `isPenghasilanIstriDigabung`, `isPenyerahanNonMewahPPN`, `isPenyerahanBKP_Mewah`, `isPenyerahanBKPStrategis`, `isPenerimaPenghasilanPPh23_JasaSewa`, `isPenerimaPenghasilanPPh23_Modal`, `isBankPenerimaPenghasilan`, `isDomisiliDKI`, `isMilikPribadi`, `isMemilikiObjekPBB`, `isUsahaSpaKesehatanTradisional`, `isUsahaHiburanSpaUmum`, `isTerlambatLaporSPT`, `isTerlambatLaporSPTMasaPPN`, `isDikecualikanDendaSPT`, `isKurangBayarSKPKB`, `isTidakSetorPajakDipungut`, `isKeberatanDitolak`, `isBandingDitolak` (`bool`).
-- **Provenance & Katalog (`10`):** `hasTarifPersen` (`float`), `hasRuleId`, `hasSourceLocator`, `hasSourceQuote`, `hasStatusValidasi`, `hasCatatanMKSEMA`, `hasDocumentId`, `hasJudul`, `hasAmarKategori`, `hasKaidahStatus` (`str`).
+- **Profil Kuantitatif (`15`):** `hasOmzetTahunan` (`float`), `hasNilaiInvestasi` (`float`), `hasPersentaseSahamPublik` (`float`), `hasJumlahPemegangSahamPublik` (`int`), `hasHariTerpenuhiTbk` (`int`), `hasJumlahKendaraan` (`int`), `hasKapasitasMesinCC` (`int`), `hasNilaiNJOP` (`float`), `hasPersentaseNJOP_PBB` (`float`), `hasNJOPTKP_PBB` (`float`), `hasDPP_PPN` (`float`), `hasJumlahTanggungan` (`int`), `hasPenghasilanKenaPajakTahunan` (`float`, berlaku untuk OP & Badan), `hasPenghasilanBrutoBulanan` (`float`), `hasJumlahPemberiKerja` (`int`).
+- **Profil Status & Aktivitas (`36`):** `isPerseroanTerbuka`, `isPerseroanPerorangan`, `isIndustriPionir`, `isPenanamanModalBaru`, `isBidangUsahaTaxAllowance`, `isLokasiProvinsiMemenuhiTaxAllowance`, `isIndustriPadatKarya`, `hasSuratKeteranganFiskal`, `isBelumPernahPutusTaxHoliday`, `isUMKM_PP55`, `hasNPWP`, `isPendudukIndonesia`, `isSubjekLuarNegeri`, `isKawin`, `isPenghasilanIstriDigabung`, `isPemberitahuanNPPNTepatWaktu`, `isTidakMenyelenggarakanPembukuanPencatatan`, `kelompokWilayahNPPN` (`str`), `isPenyerahanNonMewahPPN`, `isPenyerahanBKP_Mewah`, `isPenyerahanBKPStrategis`, `isPenerimaPenghasilanPPh23_JasaSewa`, `isPenerimaPenghasilanPPh23_Modal`, `isBankPenerimaPenghasilan`, `isDomisiliDKI`, `isMilikPribadi`, `isMemilikiObjekPBB`, `isUsahaSpaKesehatanTradisional`, `isUsahaHiburanSpaUmum`, `isTerlambatLaporSPT`, `isTerlambatLaporSPTMasaPPN`, `isDikecualikanDendaSPT`, `isKurangBayarSKPKB`, `isTidakSetorPajakDipungut`, `isKeberatanDitolak`, `isBandingDitolak`.
+- **Provenance & Katalog (`11`):** `hasTarifPersen` (`float`), `hasNominalSanksi` (`float`), `hasRuleId`, `hasSourceLocator`, `hasSourceQuote`, `hasStatusValidasi`, `hasCatatanMKSEMA`, `hasDocumentId`, `hasJudul`, `hasAmarKategori`, `hasKaidahStatus` (`str`).
 
-### 4.4 `73` Aturan SWRL DL-Safe (Ringkasan Kelompok)
+### 4.4 `78` Aturan SWRL DL-Safe (Ringkasan Kelompok)
 
 | Kelompok | Jumlah Rules | Cakupan |
 |---|---|---|
-| PPh Badan, Tbk, Pasal 31E, BUT, UMKM, Tax Holiday | `15` | `19%`, `22%`, `31E 11%`, `BUT 20%`, `PP55 0,5%`, `OP Bebas 500jt`, transisi `>4,8M`, `6` tier Tax Holiday + masa transisi 2 thn |
-| PPh OP (`PMK-2023-168`, `PP-2023-58`, `UU HPP`) | `14` | `TER A/B/C`, Harian, `PPh 26 20%`, Pekerja Bebas (`DPP 50%`, larangan PP 55, `NPPN`), Pembukuan `≥4,8M`, multi pemberi kerja, `5` layer Pasal 17 (`5%`–`35%`) |
+| PPh Badan, Tbk, Pasal 31E, BUT, UMKM, Tax Holiday, Tax Allowance & Padat Karya | `17` | `19%`, `22%`, `31E 11%`, `BUT 20%`, `PP55 0,5%`, `OP Bebas 500jt`, transisi `>4,8M`, `6` tier Tax Holiday + masa transisi 2 thn, `Tax Allowance 30%` (`PP 78/2019`), `Padat Karya 60%` (`PMK 81/2024`) |
+| PPh OP (`PMK-2023-168`, `PP-2023-58`, `UU HPP`, `PER-17/PJ/2015`) | `15` | `TER A/B/C`, Harian, `PPh 26 20%`, Pekerja Bebas (`DPP 50%`, larangan PP 55, `NPPN`, gugur NPPN bila telat lapor), Pembukuan `≥4,8M`, multi pemberi kerja, `5` layer Pasal 17 (`5%`–`35%`) |
 | PPN & Pemotongan PPh 23 | `8` | PKP, PPN `12%` (Mewah) vs Efektif `11%` (Non-Mewah), BKP Strategis, PPh 23 `2%`/`15%`/Bank/Non-NPWP `+100%` |
-| Pajak Daerah (`5` Perda Pilot) & MK | `24` | PBB DKI/Semarang/Surabaya (6 lapis), PKB DKI (Badan `2%`, OP `2%–6%`), Jabar (`1,12%–3,12%` + Opsen), Bali (`≤200cc`/`>200cc`), PBJT DKI `40%`/Surabaya `50%` vs `MK-2024-19-PUU-XXII` |
-| Administrasi KUP & Sanksi + SEMA | `12` | NIK-NPWP, SPT, tenggat 3/4 bln, denda SPT (`OP 100rb`, `Badan 1jt`, `PPN 500rb`, pengecualian `7(2)`), SKPKB (`bunga` & `75%`), Keberatan `30%`, Banding `60%` |
+| Pajak Daerah (`5` Perda Pilot + HKPD) & MK | `25` | PBB DKI/Semarang/Surabaya (6 lapis), PKB DKI (Badan `2%`, OP `2%–6%`), Jabar (`1,12%–3,12%` + Opsen), Bali (`≤200cc`/`>200cc`), Opsen HKPD generik non-DKI (`66%`), PBJT DKI `40%`/Surabaya `50%` vs `MK-2024-19-PUU-XXII` |
+| Administrasi KUP & Sanksi + SEMA | `13` | NIK-NPWP, SPT, tenggat 3/4 bln, denda SPT (`OP 100rb`, `Badan 1jt`, `PPN 500rb`, pengecualian `7(2)`), SKPKB (`bunga` & `75%`), norma pemeriksaan `Pasal 14(5)`, Keberatan `30%`, Banding `60%` |
 
 ---
 
@@ -129,7 +129,7 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 
 - `GET /health` → status `.owl`, `.ttl`, jumlah kelas/individu/SWRL.
 - `GET /options` → daftar `30` `JenisPekerjaan` (beserta kategorinya) dan `5` `WilayahDaerah` dari ontologi OWL.
-- `GET /catalog` → `79` item katalog `rule_map.json`.
+- `GET /catalog` → `83` item katalog `rule_map.json`.
 - `GET /scenarios` → `15` skenario demonstrasi bawaan.
 - `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.907` aturan).
-- `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), dan `properties` (termasuk `memilikiPekerjaan` & `berdomisiliDi`), lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi` lengkap dengan rantai `justifikasi` (`rule_id`, `source_locator`, `source_quote`, `regulasi`, `mk_refs`, `sema_refs`).
+- `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), dan `properties` (termasuk `memilikiPekerjaan` & `berdomisiliDi`), lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi`, rantai `justifikasi`, serta **`estimasi_pajak`** (hasil kalkulator deklaratif **`SPARQL 1.1 BIND`** atas graf hasil HermiT: PPh Badan / Pasal 31E, BUT BPT 20%, OP UMKM `> Rp500jt`, OP Pasal 17 5 lapis, PPN 12%/11%, PBB-P2, dan denda administratif tetap).

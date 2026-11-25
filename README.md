@@ -2,7 +2,7 @@
 
 Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif, fasilitas, dan mitigasi risiko perpajakan Indonesia (**Fase 0–8 selesai — Gerbang G8 tercapai**).
 
-> **Dokumentasi Lengkap:** baca [`docs/fase_8.md`](docs/fase_8.md) (arsitektur menyeluruh & alur kerja) dan [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) (kamus data korpus, `legal_rules.jsonl`, `113` kelas/`17` object props/`51` data props/`73` SWRL ontologi, & kontrak API).
+> **Dokumentasi Lengkap:** baca [`docs/fase_8.md`](docs/fase_8.md) (arsitektur menyeluruh & alur kerja) dan [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) (kamus data korpus, `legal_rules.jsonl`, `119` kelas/`17` object props/`62` data props/`78` SWRL ontologi, & kontrak API).
 
 ---
 
@@ -14,8 +14,8 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
    ├── 524 Perda PDRD (2023–2026, incl. 5 Perda pilot) + 284 SetPP + 15 MK + 78 SEMA TUN
    └── 12.907 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
          │
-         ├──► ontology/kbr_pajak_reasoning.owl (113 kelas SROIQ(D) · 73 SWRL · 450 individu)
-         │       └─► Reasoner HermiT (World() terisolasi per request)
+         ├──► ontology/kbr_pajak_reasoning.owl (119 kelas SROIQ(D) · 78 SWRL · 367 individu)
+         │       └─► Reasoner HermiT (World() terisolasi) + Kalkulator SPARQL BIND
          │
          └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.907 aturan)
                  └─► Engine SPARQL lokal (rdflib)
