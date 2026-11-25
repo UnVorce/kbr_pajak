@@ -1,0 +1,47 @@
+# Rantai konsolidasi-lite (Fase 2). Urutan = kronologis pengubahan.
+# Catatan: lapisan Cipta Kerja (UU-2020-11, PERPU-2022-2, UU-2023-6) DITUNDA —
+# dicatat sebagai PENDING_CK di laporan (butuh penanganan khusus).
+chains:
+  # KUP, PPh, PPN: termasuk lapisan Cipta Kerja (UU 6/2023) setelah UU 7/2021 (HPP).
+  UU-1983-6: [UU-1994-9, UU-2000-16, UU-2007-28, PERPU-2008-5, UU-2021-7, UU-2023-6]
+  UU-1983-7: [UU-1991-7, UU-1994-10, UU-2000-17, UU-2008-36, UU-2021-7, UU-2023-6]
+  UU-1983-8: [UU-1994-11, UU-2000-18, UU-2009-42, UU-2021-7, UU-2023-6]
+  UU-1985-12: [UU-1994-12]
+  PP-2022-55: [PP-2026-20]
+  # PMK 81/2024: Pertama=PMK 11/2025, Kedua=PMK 53/2025 (via PMK 11/2025 Pasal 20,
+  # nested), Ketiga=PMK 54/2025, Keempat=PMK 1/2026.
+  PMK-2024-81: [PMK-2025-11, PMK-2025-53, PMK-2025-54, PMK-2026-1]
+  PMK-2025-11: [PMK-2025-53]
+  PMK-2010-68: [PMK-2013-197]
+  # PPh: penghitungan PPh & pelunasan tahun berjalan; fasilitas penanaman modal;
+  # perlakuan perpajakan KAPET.
+  PP-2010-94: [PP-2019-45, PP-2021-9, PP-2022-55]
+  PP-2015-18: [PP-2016-9]
+  PP-2000-20: [PP-2000-147]
+  PMK-2023-48: [PMK-2025-11]
+  # PBB-P3 & Penagihan Pajak dengan Surat Paksa (PPSP)
+  PMK-2019-186: [PMK-2022-234]
+  UU-1997-19: [UU-2000-19]
+  # Tax Holiday (PMK 69/2024 diambil manual dari JDIH Kemenkeu)
+  PMK-2020-130: [PMK-2024-69]
+  # Jasa Konstruksi, Saham, Piutang, Konsultan (Fase 3B)
+  PP-2008-51: [PP-2009-40, PP-2022-9]
+  PP-1994-41: [PP-1997-14]
+  PMK-2009-105: [PMK-2010-57, PMK-2015-207]
+  PMK-2014-111: [PMK-2022-175]
+  # PPnBM, KEK, KPBPB, Migas, Batubara, Kepabeanan & Cukai (Fase 3B)
+  PP-2019-73: [PP-2021-74]
+  PMK-2021-96: [PMK-2023-15]
+  PMK-2020-237: [PMK-2021-33]
+  PP-2021-41: [PP-2025-25, PP-2026-23]
+  PP-2010-79: [PP-2017-27, PP-2021-93]
+  PP-2022-15: [PP-2025-18]
+  UU-1995-10: [UU-2006-17]
+  UU-1995-11: [UU-2007-39, UU-2021-7]
+  PP-2008-28: [PP-2019-39]
+  PP-2009-32: [PP-2015-85]
+  # Tambahan dari pph_op/ & Perda pilot (Fase 4A)
+  PMK-2024-118: [PMK-2026-71]
+  PP-2000-131: [PP-2015-123]
+  PERDA-KOTA-SEMARANG-2023-10: [PERDA-KOTA-SEMARANG-2025-4]
+pending_ck: []
