@@ -481,6 +481,12 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#hasNominalRupiah">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
 <owl:DatatypeProperty rdf:about="#hasRuleId">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#AturanHukum"/>
@@ -2700,6 +2706,10 @@
 </owl:Class>
 
 <owl:Class rdf:about="#PP55UMKM">
+  <rdfs:subClassOf rdf:resource="#FasilitasPerpajakan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PTKP">
   <rdfs:subClassOf rdf:resource="#FasilitasPerpajakan"/>
 </owl:Class>
 
@@ -6047,6 +6057,16 @@ Pajak.</hasSourceQuote>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penyedia Jasa Umum Non-Pekerjaan Bebas</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#PekerjaBebas_Umum">
+  <rdf:type rdf:resource="#PekerjaanBebas"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pekerja Bebas - Profesi Lainnya (tidak dirinci)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PelakuUsaha_Umum">
+  <rdf:type rdf:resource="#UsahaDagangJasa"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pelaku Usaha / UMKM - Bidang Lainnya (tidak dirinci)</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#Jenis_SewaTanahBangunan">
   <rdf:type rdf:resource="#SewaTanahDanBangunan"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Persewaan Tanah dan/atau Bangunan (PP 34/2017 - PPh Final 10%)</rdfs:label>
@@ -6110,6 +6130,62 @@ Pajak.</hasSourceQuote>
 <owl:NamedIndividual rdf:about="#Jenis_PengalihanKepadaPemerintah">
   <rdf:type rdf:resource="#PengalihanKepadaPemerintahPenugasan"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pengalihan Tanah/Bangunan kepada Pemerintah/BUMN/BUMD Penugasan Khusus (PP 34/2016 - 0%)</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_TK_0">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP TK/0</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">54000000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_TK_1">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP TK/1</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58500000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_TK_2">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP TK/2</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63000000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_TK_3">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP TK/3</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67500000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_K_0">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP K/0</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">58500000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_K_1">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP K/1</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">63000000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_K_2">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP K/2</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">67500000.0</hasNominalRupiah>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#PTKP_K_3">
+  <rdf:type rdf:resource="#PTKP"/>
+  <didasarkanPadaAturan rdf:resource="#Aturan_R_UU_1983_7_01c5a8a1bf"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PTKP K/3</rdfs:label>
+  <hasNominalRupiah rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72000000.0</hasNominalRupiah>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#Reg_UU_2021_7">

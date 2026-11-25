@@ -1,0 +1,7 @@
+{
+  "_catatan": "Pemetaan eksplisit KBLI yang tidak memiliki baris persentase NPPN pada Lampiran PER-17/PJ/2015 ke KBLI kelompok yang tercantum. Hanya dipakai bila tarif langsung tidak tersedia; hasil selalu diberi label sumber_norma 'kelompok ...'. Jangan menambah entri tanpa verifikasi baris Lampiran.",
+  "62019": {
+    "kelompok": "62010",
+    "catatan": "KBLI 62019 (Aktivitas Pemrograman Komputer Lainnya) berada dalam kelompok 6201; Lampiran NPPN mencantumkan 62010. Nilai norma mengikuti 62010."
+  }
+}
