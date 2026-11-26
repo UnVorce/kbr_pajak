@@ -1,0 +1,41 @@
+{
+  "total_kasus": 60,
+  "annotator_A": 38,
+  "annotator_B": 37,
+  "overlap": 15,
+  "per_klaster": {
+    "kepabeanan_cukai": 10,
+    "kup_gugatan": 10,
+    "pbb": 10,
+    "pph_badan": 10,
+    "pph_potput": 10,
+    "ppn": 10
+  },
+  "estimasi_jam_A": [
+    12.5,
+    25.5
+  ],
+  "estimasi_jam_B": [
+    12.2,
+    24.8
+  ],
+  "target_mingguan_per_orang": 10,
+  "minggu_estimasi": 3.8,
+  "overlap_ids": [
+    "PP-PUT-25989",
+    "PP-PUT-28751",
+    "PP-PUT-30891",
+    "PP-PUT-34476",
+    "PP-PUT-35173",
+    "PP-PUT-35251",
+    "PP-PUT-36617",
+    "PP-PUT-36811",
+    "PP-PUT-37253",
+    "PP-PUT-37257",
+    "PP-PUT-37354",
+    "PP-PUT-37375",
+    "PP-PUT-37406",
+    "PP-PUT-37428",
+    "PP-PUT-37433"
+  ]
+}

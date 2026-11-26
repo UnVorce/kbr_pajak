@@ -45,6 +45,18 @@ Jangan memakai kode yang belum ada.
 
 ---
 
+## 2a. Pembagian tugas & jadwal
+
+Lihat **[`CBR_ANNOTATION_CHECKLIST.md`](CBR_ANNOTATION_CHECKLIST.md)**. Ringkasnya:
+
+| Peran | Kasus | Berkas |
+|---|---|---|
+| Anotator A (Pilar 3) | 38 (30 utama + 8 overlap) | `assignment_A.csv` |
+| Anotator B (praktisi) | 37 (30 utama + 7 overlap) | `assignment_B.csv` |
+| Reviewer | 60 (sign-off) | `worksheet_60.csv` |
+
+15 kasus overlap dikerjakan dua orang secara independen untuk menghitung Cohen's κ.
+
 ## 3. Cara mengisi worksheet
 
 Buka `worksheet_60.csv` di spreadsheet. Kolom `pokok_sengketa` dan `pertimbangan_majelis`

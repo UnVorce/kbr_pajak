@@ -308,7 +308,7 @@ akomodasi penginapan, pokok deposito ≤ Rp7,5 jt, OP di bawah PTKP, pengalihan 
 | Bandung PBB 0,15%, NJOPTKP 25 jt | **null** + catatan | tidak ditemukan di Perda Kota Bandung 2024-1 |
 | `elapsed_ms ≈ 138` | **± 5.500 (maks 6.100)**; cache-hit < 50 | HermiT nyata; PRD optimistis |
 | 1770 S / 1770 SS | `null` + `PERLU_VERIFIKASI` | belum ada dasar hukum bentuk SPT di korpus |
-| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 172 tes** | angka riil `ontology_build_report.json` |
+| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 174 tes** | angka riil `ontology_build_report.json` |
 
 ---
 
