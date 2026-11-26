@@ -35,7 +35,7 @@ app = FastAPI(
     title="KBR Pajak Reasoning & Provenance API",
     description=(
         "API Reasoning Ontologi Pajak Indonesia (OWL 2 SROIQ(D) + SWRL via HermiT) "
-        "dan Query Provenance SPARQL atas 12.907 aturan hukum tervalidasi. "
+        "dan Query Provenance SPARQL atas 12.921 aturan hukum tervalidasi. "
         "Kontrak mengikuti PRD §9.3: multi-stream income, PPh 21 TER, komparasi 3 skema, "
         "rekonsiliasi PPh 29, PPh Final Pasal 4(2), dan provenance."
     ),
@@ -225,7 +225,7 @@ def get_scenarios() -> dict:
     return {"count": len(scenarios), "scenarios": scenarios}
 
 
-@api.get("/sparql/provenance", summary="Provenance 12.907 aturan (rule_id/document_id/domain/tipe/teks)")
+@api.get("/sparql/provenance", summary="Provenance 12.921 aturan (rule_id/document_id/domain/tipe/teks)")
 def get_sparql_provenance(
     rule_id: Optional[str] = Query(default=None),
     document_id: Optional[str] = Query(default=None),
@@ -248,7 +248,7 @@ def get_sparql_provenance(
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-@api.get("/sparql/stats", summary="Agregasi 12.907 aturan per domain & kelas RDF")
+@api.get("/sparql/stats", summary="Agregasi 12.921 aturan per domain & kelas RDF")
 def get_sparql_stats() -> dict:
     try:
         return engine.sparql_stats()

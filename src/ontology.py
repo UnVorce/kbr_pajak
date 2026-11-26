@@ -5,7 +5,7 @@ Menghasilkan:
 - ontology/kbr_pajak_tbox.owl & .ttl   (TBox SROIQ(D) + aturan SWRL DL-safe)
 - ontology/kbr_pajak_reasoning.owl     (TBox + SWRL + ~200 individu inti + skenario uji TK-*)
 - ontology/rule_map.json               (pemetaan konsep reasoning -> rule_id & pasal sumber)
-- data/export/kbr_pajak_full.ttl       (ekspor RDF penuh seluruh 12.907 aturan legal_rules.jsonl)
+- data/export/kbr_pajak_full.ttl       (ekspor RDF penuh seluruh 12.921 aturan legal_rules.jsonl)
 """
 from __future__ import annotations
 
@@ -1267,7 +1267,7 @@ def _create_demo_scenarios(onto) -> None:
 
 
 def export_full_rules_ttl(rules_list: List[dict], out_ttl: Path) -> int:
-    """Ekspor seluruh 12.907 aturan legal_rules.jsonl ke Turtle RDF untuk rdflib/SPARQL."""
+    """Ekspor seluruh 12.921 aturan legal_rules.jsonl ke Turtle RDF untuk rdflib/SPARQL."""
     g = Graph()
     KBR = Namespace(BASE_IRI)
     g.bind("kbr", KBR)
@@ -1390,7 +1390,7 @@ def build_all_ontologies(
             "sanksi": sorted(s.name for s in ind.berisikoSanksi),
         }
 
-    # 4. Ekspor penuh seluruh 12.907 aturan ke Turtle untuk rdflib/SPARQL
+    # 4. Ekspor penuh seluruh 12.921 aturan ke Turtle untuk rdflib/SPARQL
     full_count = export_full_rules_ttl(rules_list, full_ttl_path)
 
     return {

@@ -24,7 +24,7 @@ smoke:  ## Verifikasi kontrak API tanpa server (CI)
 test-api:  ## Tes FastAPI (11 tes, ~2 menit)
 	$(PY) -m pytest tests/test_api.py -q
 
-test:  ## Seluruh tes (164 tes, ~7 menit — HermiT)
+test:  ## Seluruh tes (165 tes, ~7 menit — HermiT)
 	$(PY) -m pytest -q
 
 contract:  ## Ekspor OpenAPI untuk tim frontend

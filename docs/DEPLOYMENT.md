@@ -47,7 +47,7 @@ knowledge_json/rules/kbr-data.ttl     9,9 MB   # /sparql/*
 | `KBR_TER_TTL` | `<root>/ontology/kbr_ter_pph21.ttl` | override TER |
 | `KBR_KBLI_TTL` | `<root>/ontology/kbr_kbli.ttl` | override SKOS KBLI |
 | `KBR_PERDA_TTL` | `<root>/ontology/kbr-perda-rates.ttl` | override Perda |
-| `KBR_FULL_TTL` | `<root>/knowledge_json/rules/kbr-data.ttl` | override RDF 12.907 aturan |
+| `KBR_FULL_TTL` | `<root>/knowledge_json/rules/kbr-data.ttl` | override RDF 12.921 aturan |
 | `KBR_CORS_ORIGINS` | `*` | origin FE, dipisah koma. **Wajib diubah di produksi** |
 | `KBR_WORKERS` | `2` (Docker) | jumlah worker uvicorn |
 | `KBR_API_PORT` / `KBR_EDGE_PORT` | `8000` / `8080` | port host (compose) |
@@ -91,7 +91,7 @@ Base path: **`/api`** (alias `/api/v1`). Swagger: `/api/docs`.
 # 1. Kesiapan artefak
 curl -s localhost:8000/api/health | jq
 #    status=ok, swrl_rules=97, reasoning_classes=156,
-#    reasoning_individuals=436, full_rules_exported=12907
+#    reasoning_individuals=436, full_rules_exported=12921
 
 # 2. Smoke test kontrak penuh (health, options, regions, kbli, perda, provenance, 7 kasus emas)
 python3 scripts/smoke_test.py --base-url http://localhost:8000

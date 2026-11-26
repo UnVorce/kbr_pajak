@@ -1,0 +1,14 @@
+{
+  "document_id": "PP-2026-20",
+  "rules_before": 12921,
+  "rules_added": 14,
+  "rules_after": 12921,
+  "by_rule_type": {
+    "prohibition": 1,
+    "eligibility": 1,
+    "exception": 7,
+    "right": 4,
+    "definition": 1
+  },
+  "verbatim_quotes_verified": true
+}

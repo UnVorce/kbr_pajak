@@ -1,7 +1,7 @@
 # Backend KBR Pajak — API v2.0.0 (`/api`)
 
 Service API reasoning OWL 2 `SROIQ(D)` + SWRL (**HermiT**) dan SPARQL (`rdflib`) atas
-`12.907` aturan hukum perpajakan, dengan kontrak sesuai **PRD §9.3**.
+`12.921` aturan hukum perpajakan, dengan kontrak sesuai **PRD §9.3**.
 
 > **Kontrak resmi:** [`docs/API_CONTRACT_v2.md`](../docs/API_CONTRACT_v2.md) · **Swagger:** `/api/docs` · **OpenAPI:** `/api/openapi.json`
 
@@ -33,7 +33,7 @@ Base path **`/api`** (alias `/api/v1`). Route root lama **dihapus**.
 | `POST` | `/api/reason` | inferensi + TER + komparasi 3 skema + rekonsiliasi PPh 29 + PPh Final 4(2) + provenance |
 | `GET` | `/api/catalog` | 103 katalog → `rule_id` |
 | `GET` | `/api/scenarios` | 15 skenario bawaan |
-| `GET` | `/api/sparql/provenance` & `/api/sparql/stats` | 12.907 aturan |
+| `GET` | `/api/sparql/provenance` & `/api/sparql/stats` | 12.921 aturan |
 
 ## Contoh `POST /api/reason` (PRD §9.3.5)
 
@@ -73,6 +73,6 @@ Hasil penting:
 ## Verifikasi
 
 ```bash
-python3 scripts/smoke_test.py --in-process   # 64 cek kontrak
+python3 scripts/smoke_test.py --in-process   # 69 cek kontrak
 pytest tests/test_api.py -q                  # 13 tes integrasi
 ```

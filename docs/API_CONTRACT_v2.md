@@ -22,7 +22,7 @@
 | `POST` | `/api/reason` | **± 5,5 s (maks 6,1 s)**, cache-hit < 50 ms | inferensi + estimasi + provenance |
 | `GET` | `/api/catalog` | < 20 ms | 103 katalog → `rule_id` |
 | `GET` | `/api/scenarios` | < 20 ms | 15 skenario bawaan |
-| `GET` | `/api/sparql/provenance` | 100–400 ms | 12.907 aturan |
+| `GET` | `/api/sparql/provenance` | 100–400 ms | 12.921 aturan |
 | `GET` | `/api/sparql/stats` | 100–400 ms | agregasi per domain/kelas |
 
 **Catatan wilayah:** `524` = jumlah **dokumen Perda**; `390` = jumlah **Pemda unik**. `/api/regions` mengembalikan 390 baris, masing-masing dengan `jumlah_perda`.
@@ -73,6 +73,12 @@ Field berada **di root** (bukan di dalam `properties`). **Field asing → `422`*
   "has_persentase_njop_pbb": null,
 
   "is_perseroan_terbuka": false,
+  "is_perseroan_perorangan": false,          // PT Perorangan (Pasal 57(1)b)
+  "memiliki_keahlian_khusus": false,         // Pasal 57(2)b
+  "is_memilih_tarif_umum": false,            // Pasal 57(2)a
+  "menerima_fasilitas_lain": false,          // Pasal 57(2)c
+  "omzet_gabungan_grup": null,               // Pasal 57(2)e
+  "tahun_terdaftar": null,                   // Pasal 57(2)f (koperasi 4 tahun)
   "has_persentase_saham_publik": 0,
   "has_jumlah_pemegang_saham_publik": null,
   "has_hari_terpenuhi_tbk": null,
@@ -202,6 +208,13 @@ Field berada **di root** (bukan di dalam `properties`). **Field asing → `422`*
 - `1770` (OP dengan usaha/pekerjaan bebas/penghasilan final) dan `1771` (Badan) → `status_formulir: "TERVERIFIKASI"`.
 - OP **karyawan murni** → `formulir_spt: null`, `status_formulir: "PERLU_VERIFIKASI"`, dengan `catatan_formulir`. Kriteria 1770 S / 1770 SS **belum ada di korpus**, jadi tidak dikarang. Menyusul setelah akuisisi dokumen bentuk SPT Tahunan.
 
+### 3.3a PP 20/2026 (X-1) — kelayakan PPh Final
+`skema_pp55_final` kini menyertakan `dasar_hukum[]` berisi `rule_id` PP-2026-20 dan alasannya:
+- `57(1)` → hanya **OP, perseroan perorangan, koperasi** (≤ Rp4,8 M).
+- `57(2)a` memilih tarif umum · `57(2)b` PT Perorangan jasa keahlian khusus · `57(2)c` fasilitas lain · `57(2)d` BUT · `57(2)e` omzet gabungan OP + PT Perorangan > Rp4,8 M · `57(2)f` koperasi > 4 Tahun Pajak.
+- Peralihan `Pasal II`: OP yang masa final lama berakhir 2024/2025 → masih final 2025–2026.
+- Bentuk badan lama (CV/Firma/PT non-perorangan) hanya lewat masa peralihan; wajib isi `tahun_mulai_pp55`.
+
 ### 3.3 PBB-P2: perubahan penting (B2-4)
 - Ekstraktor sekarang memisahkan `PBB_P2` (tarif umum) dari `PBB_P2_Khusus` (lahan produksi pangan/ternak).
 - Bila tarif umum tidak terekstrak (contoh: **Kota Bandung** hanya punya 0,05% khusus) → `tarif_pbb_persen: null` + `catatan_pbb`, **tidak** memakai angka khusus sebagai tarif umum.
@@ -269,7 +282,7 @@ akomodasi penginapan, pokok deposito ≤ Rp7,5 jt, OP di bawah PTKP, pengalihan 
 | Bandung PBB 0,15%, NJOPTKP 25 jt | **null** + catatan | tidak ditemukan di Perda Kota Bandung 2024-1 |
 | `elapsed_ms ≈ 138` | **± 5.500 (maks 6.100)**; cache-hit < 50 | HermiT nyata; PRD optimistis |
 | 1770 S / 1770 SS | `null` + `PERLU_VERIFIKASI` | belum ada dasar hukum bentuk SPT di korpus |
-| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 164 tes** | angka riil `ontology_build_report.json` |
+| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 165 tes** | angka riil `ontology_build_report.json` |
 
 ---
 

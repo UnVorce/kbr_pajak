@@ -1146,7 +1146,7 @@ class KBRReasoningEngine:
         quote_contains: Optional[str] = None,
         limit: int = 20,
     ) -> List[dict]:
-        """Query SPARQL lokal pada kbr-data.ttl (12.907 aturan)."""
+        """Query SPARQL lokal pada kbr-data.ttl (12.921 aturan)."""
         g = self.get_graph()
         filters = []
         if rule_id:

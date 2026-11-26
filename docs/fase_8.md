@@ -1,7 +1,7 @@
 # Laporan Akhir Fase 8 — Dokumentasi Menyeluruh Sistem KBR Perpajakan Indonesia (Fase 0–8)
 
 > **Status:** **SELESAI — Gerbang G8 (Serah Terima Final)**
-> **Seluruh Fase (0–8) selesai:** Akuisisi korpus resmi, konsolidasi-lite 32 rantai amandemen, ekstraksi 12.907 aturan atomik, ontologi OWL 2 `SROIQ(D)` penuh (`113` kelas, `73` SWRL, `HermiT`), ekspor RDF/SPARQL penuh, dan service API FastAPI (`backend/`), dengan **`149/149` tes otomatis lulus**.
+> **Seluruh Fase (0–8) selesai:** Akuisisi korpus resmi, konsolidasi-lite 32 rantai amandemen, ekstraksi 12.921 aturan atomik, ontologi OWL 2 `SROIQ(D)` penuh (`113` kelas, `73` SWRL, `HermiT`), ekspor RDF/SPARQL penuh, dan service API FastAPI (`backend/`), dengan **`149/149` tes otomatis lulus**.
 
 ---
 
@@ -27,14 +27,14 @@ Sistem ini dibangun untuk menjawab masalah nyata pada konsultasi/informasi perpa
   284 Putusan SetPP · 15 Putusan MK Pajak · 78 butir SEMA Kamar TUN (14 pajak)
         │
         ▼ (Fase 4: 5.509 Chunk -> Colab Qwen2.5-32B-AWQ -> Validator S8 -> Audit Atomik P1-P6)
-[12.907 ATURAN ATOMIK TERVALIDASI: legal_rules.jsonl]
+[12.921 ATURAN ATOMIK TERVALIDASI: legal_rules.jsonl]
   8.717 VALIDATED · 474 HUMAN_FIXED · 117 HUMAN_APPROVED · 3.599 REVIEW_REQUIRED
   (9 domain pajak, 100 dokumen unik, 0 aturan dari dokumen karantina PER-DJP-2015-17)
         │
         ├──────────────────────────────────────────────┐
         ▼ (Fase 5–6: Lapisan Reasoning Ringkas)         ▼ (Fase 6: Lapisan Graf Penuh)
 [kbr_pajak_reasoning.owl + kbr-core.ttl]        [kbr-data.ttl (9,9 MB)]
-  113 Kelas OWL 2 SROIQ(D) · 73 Aturan SWRL       Ekspor RDF penuh 12.907 aturan
+  113 Kelas OWL 2 SROIQ(D) · 73 Aturan SWRL       Ekspor RDF penuh 12.921 aturan
   450 Individu (79 Katalog + 30 Profesi +         beserta quote & rujukan MK/SEMA
   5 Daerah + MK + SEMA + 15 Skenario)                  │
         │                                              │
@@ -57,14 +57,14 @@ Sistem ini dibangun untuk menjawab masalah nyata pada konsultasi/informasi perpa
 - **Audit atomik `P1`–`P6` (`621` baris):** Aturan yang awalnya tergabung dalam satu kalimat/daftar (misalnya 5 tier PKB progresif DKI, 6 tier Tax Holiday `PMK-2020-130`, 6 pengecualian PPh 23 ayat 4, denda keberatan 30% & banding 60%) dipecah menjadi aturan atomik satu-per-satu dan diaudit terhadap teks sumber.
 
 ### 3.2 Mengapa Ontologi Memakai Arsitektur Dua Lapisan?
-Memasukkan seluruh `12.907` individu + string `source_quote` ke dalam satu file `.owl` untuk reasoner Description Logic (`HermiT`/`Pellet`) akan memperlambat klasifikasi secara drastis, sementara `owlready2 0.51` dengan Pellet bawaan gagal di OpenJDK 21 (`class file version 69.0`) dan `Imp.set_as_rule()` tidak menerima built-in `swrlb:greaterThanOrEqual`.
+Memasukkan seluruh `12.921` individu + string `source_quote` ke dalam satu file `.owl` untuk reasoner Description Logic (`HermiT`/`Pellet`) akan memperlambat klasifikasi secara drastis, sementara `owlready2 0.51` dengan Pellet bawaan gagal di OpenJDK 21 (`class file version 69.0`) dan `Imp.set_as_rule()` tidak menerima built-in `swrlb:greaterThanOrEqual`.
 
 Solusi arsitektural yang terbukti bersih dan cepat:
 1. **Lapisan Reasoning (`ontology/kbr_pajak_reasoning.owl`):**
    - Berisi TBox lengkap **`119` kelas `SROIQ(D)` penuh** (memenuhi $\mathcal{S}$ `TransitiveProperty`, $\mathcal{R}$ `PropertyChain` + `Asymmetric`/`Irreflexive`, $\mathcal{O}$ `OneOf` nominals, $\mathcal{I}$ 3 pasang *inverse*, $\mathcal{Q}$ `= 1` & `≥ 1` *qualified cardinality*, dan $(D)$ `ConstrainedDatatype`), **`17` Object Properties**, **`62` Data Properties**, **`78` aturan SWRL DL-safe**, dan **`367` individu** (`83` item katalog ber-provenance + `30` profesi `JenisPekerjaan` + `5` wilayah `WilayahDaerah` + `15` `PutusanMK` + `14` `SEMA_TUN` + `50` aturan terkurasi + `15` skenario).
    - **Kalkulator Estimasi Nominal (`SPARQL 1.1 BIND`):** `backend/engine.py` mengonversi graf WP hasil HermiT lewat `world.as_rdflib_graph()` lalu menjalankan `SPARQL BIND` untuk mengestimasi rupiah PPh Badan / Pasal 31E, BUT BPT 20%, OP UMKM (`> Rp500jt`), OP Pasal 17 5 lapis, PPN (`12%` Mewah vs `11%` Efektif), PBB-P2, dan denda KUP tetap — tanpa `swrlb:*` yang tidak didukung HermiT dan tanpa hardcode tarif di Python.
 2. **Lapisan Graf Penuh & Modul SKOS/TER/Perda (`kbr-data.ttl`, `kbr_ter_pph21.ttl`, `kbr_kbli.ttl`, `kbr-perda-rates.ttl`):**
-   - `kbr-data.ttl` (`9,9 MB`): seluruh **`12.907` aturan atomik** dalam Turtle RDF untuk query **SPARQL lokal (`rdflib`)**.
+   - `kbr-data.ttl` (`9,9 MB`): seluruh **`12.921` aturan atomik** dalam Turtle RDF untuk query **SPARQL lokal (`rdflib`)**.
    - `kbr_ter_pph21.ttl`: **`127` bracket TER PPh 21** (`TER_A: 44`, `TER_B: 40`, `TER_C: 41`, `TER_Harian: 2`) dari `PP-2023-58` yang tervalidasi kontinuitas batas bawah/atas.
    - `kbr_kbli.ttl`: **`1.453` konsep W3C SKOS `skos:Concept`** (`PER-17/PJ/2015` Lampiran I–III untuk NPPN 3 wilayah, `PP-2019-78` Lampiran I–II untuk `168` Tax Allowance, `PerBKPM 7/2020` Lampiran I untuk `63` KBLI Industri Pionir, dan `PMK 16/2020` / `PMK 81/2024 Pasal 423` untuk `45` KBLI Industri Padat Karya).
    - `kbr-perda-rates.ttl` (`1,2 MB`): **`390` Pemda (`524` Perda PDRD, `360` Pemda terekstrak `2.029` tarif)** dengan normalisasi 13 ID non-standar dan prioritas kronologis Induk → Perubahan untuk arsitektur Hybrid (`HermiT` rezim HKPD + `SPARQL` tarif lokal).
@@ -83,8 +83,8 @@ Solusi arsitektural yang terbukti bersih dan cepat:
 |---|---|---|
 | **Korpus Regulasi & Yurisprudensi** | `165` pusat (`97` aktif), `32` konsolidasi, `524` Perda, `284` SetPP, `15` MK, `78` SEMA (`14` pajak) | `knowledge_json/`, `manifest.json` |
 | **Penutupan Gap (`G3`)** | `389` regulasi dikutip selesai (`0` `UNRESOLVED`) | `metadata/gaps.json`, `unresolved_citations.json` |
-| **Aturan Atomik (`G4`)** | **`12.907` aturan** (`100` dokumen, `9` domain), `621` baris audit `P1`–`P6` ter-apply | `legal_rules.jsonl`, `review_apply_report.json` |
-| **Ontologi `SROIQ(D)` (`G5–G6`)** | **`113` kelas**, `17` object props, `51` data props, **`73` SWRL**, `450` individu (`79` katalog + `30` profesi + `5` wilayah), `12.907` aturan RDF | `ontology/ontology_build_report.json`, `kbr-data.ttl` |
+| **Aturan Atomik (`G4`)** | **`12.921` aturan** (`100` dokumen, `9` domain), `621` baris audit `P1`–`P6` ter-apply | `legal_rules.jsonl`, `review_apply_report.json` |
+| **Ontologi `SROIQ(D)` (`G5–G6`)** | **`113` kelas**, `17` object props, `51` data props, **`73` SWRL**, `450` individu (`79` katalog + `30` profesi + `5` wilayah), `12.921` aturan RDF | `ontology/ontology_build_report.json`, `kbr-data.ttl` |
 | **Evaluasi Skenario (`G7`)** | **`15 / 15` PASS** (rata-rata **`5.496,69 ms`**, maks `6.095,85 ms`) | `docs/fase7_eval_results.json` |
 | **Test Suite Otomatis** | **`160 / 160` `pytest` PASS** (pipeline, konsolidasi, validator, `12` tes ontologi HermiT/SPARQL, `4` tes TER/KBLI SKOS, `2` tes 524 Perda/390 Pemda, `10` tes FastAPI `TestClient`) | `fatih/tests/` |
 

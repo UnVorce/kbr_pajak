@@ -311,5 +311,52 @@ def test_api_sparql_provenance_and_stats():
     assert prov["results"][0]["sema_ref"] == "SEMA_2024_2_TUN_4"
 
     stats = client.get("/api/sparql/stats").json()
-    assert stats["total_rules"] == 12907
+    assert stats["total_rules"] == 12921
     assert stats["by_domain"]["Domain_D_ADMIN_SANKSI"] == 3417
+
+def test_api_pp2026_20_kelayakan_pp55_dan_provenance():
+    """X-1: PP 20/2026 — koperasi 4 tahun, PT Perorangan keahlian khusus, omzet gabungan, peralihan OP."""
+    koperasi = _reason({
+        "wp_id": "API_PP2026_Koperasi", "wp_kind": "Koperasi", "tahun_pajak": 2026,
+        "tahun_terdaftar": 2021,
+        "pekerjaan_sekunder": {"nama": "Unit Usaha", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_000_000_000.0},
+    })
+    pk = koperasi["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
+    assert pk["status"] == "DISKUALIFIKASI"
+    assert "Pasal 57(2)f" in pk["alasan"]
+    assert pk["dasar_hukum"], "harus mengutip rule_id PP-2026-20"
+
+    ptp = _reason({
+        "wp_id": "API_PP2026_PTP", "wp_kind": "PT", "tahun_pajak": 2026,
+        "is_perseroan_perorangan": True, "memiliki_keahlian_khusus": True,
+        "pekerjaan_sekunder": {"nama": "Konsultan", "jenis": "USAHA_UMKM", "omzet_tahunan": 500_000_000.0},
+    })
+    ptp_pp = ptp["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
+    assert ptp_pp["status"] == "DISKUALIFIKASI"
+    assert "Pasal 57(2)b" in ptp_pp["alasan"]
+
+    gabungan = _reason({
+        "wp_id": "API_PP2026_Gabungan", "wp_kind": "OrangPribadi", "tahun_pajak": 2026,
+        "pekerjaan_sekunder": {"nama": "Toko", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_000_000_000.0},
+        "omzet_gabungan_grup": 5_000_000_000.0,
+    })
+    gb = gabungan["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
+    assert gb["status"] == "DISKUALIFIKASI"
+    assert "Pasal 57(2)e" in gb["alasan"]
+
+    peralihan = _reason({
+        "wp_id": "API_PP2026_Peralihan", "wp_kind": "OrangPribadi", "tahun_pajak": 2026,
+        "tahun_mulai_pp55": 2018,
+        "pekerjaan_sekunder": {"nama": "Toko", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_000_000_000.0},
+    })
+    pr = peralihan["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
+    assert pr["status"] == "LAYAK"
+    assert "Pasal II" in pr["alasan"]
+
+    prov = client.get("/api/sparql/provenance", params={"document_id": "PP-2026-20", "limit": 20}).json()
+    assert prov["count"] == 14
+    larangan = client.get(
+        "/api/sparql/provenance", params={"document_id": "PP-2026-20", "rule_type": "Larangan", "limit": 5}
+    ).json()
+    assert larangan["count"] == 1
+    assert "suap" in larangan["results"][0]["source_quote"].lower()

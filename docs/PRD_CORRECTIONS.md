@@ -28,7 +28,7 @@ Disusun dari perbandingan PRD v2.0 dengan artefak riil `kbr_pajak/` dan kontrak 
 | 21 | §8 CBR | field `jenis_koreksi`, `fakta_kunci`, `rasio_decidendi`, `argumen_menang`, `bukti_penentu` | **0 dari 284** putusan memiliki field tersebut; yang ada: `klaster`, `pokok_sengketa` (284), `pertimbangan_majelis` (278), `cited_regulations`, `amar_kategori` | Nyatakan CBR tahap 1 memakai field tersedia; anotasi 60 kasus = prasyarat formula penuh |
 | 22 | §8 amar | `KABUL_SELURUHNYA / KABUL_SEBAGIAN / TOLAK / TIDAK_DAPAT_DITERIMA` | distribusi riil: KABUL_SELURUHNYA 158, TOLAK 75, KABUL_SEBAGIAN 41, LAINNYA 9, **BATAL 1** | Tambahkan `LAINNYA` & `BATAL` ke enum |
 | 23 | §11 roadmap | "Fase 3 CBR SELESAI 100%" | belum ada kode/endpoint CBR | Koreksi status → "rencana (B4)" |
-| 24 | §7 RP-04 | PP 20/2026 sebagai dasar | dokumen ada, **0 aturan terekstrak** | Tandai perlu ekstraksi (X-1) |
+| 24 | §7 RP-04 | PP 20/2026 sebagai dasar | **14 aturan** sudah terekstrak & diaudit (X-1) | Selesai — gunakan `rule_id` PP-2026-20 |
 | 25 | §1 | "0% logika pajak di-hardcode" vs §6 "Kalkulator Python Decimal" | implementasi: tarif dari ontologi + aritmetika `SPARQL BIND`/helper | Satukan istilah: "tarif tidak hardcode; aritmetika deterministik" |
 | 26 | §4.1 pohon kelas | `pjk:Firma` | tidak ada kelas `Firma` di ontologi | Hapus atau tambahkan kelas (butuh rebuild) |
 | 27 | §4.1 pohon kelas | `FasilitasPerpajakan` & `KewajibanPajak` di bawah `AturanHukum` | keduanya `owl:Thing` (katalog), bukan subclass `AturanHukum` | Perbaiki pohon |
@@ -38,6 +38,6 @@ Disusun dari perbandingan PRD v2.0 dengan artefak riil `kbr_pajak/` dan kontrak 
 
 ## Angka acuan (satu sumber: `ontology/ontology_build_report.json`)
 
-- Kelas **157** · Object props **18** · Data props **70** · Individu **446** · SWRL **97** · Katalog **103** · Aturan **12.907**
+- Kelas **157** · Object props **18** · Data props **70** · Individu **446** · SWRL **97** · Katalog **103** · Aturan **12.921**
 - TER **127** bracket · KBLI **1.453** · Pemda **390** · Perda **524** · Item tarif **2.107** · Putusan **284** · MK **15** · SEMA **78** (14 pajak)
-- Tes: **164** (`12` ontologi + `13` API + `4` TER/KBLI + `2` Perda + `132` pipeline/korpus + sisa)
+- Tes: **165** (`12` ontologi + `13` API + `4` TER/KBLI + `2` Perda + `132` pipeline/korpus + sisa)

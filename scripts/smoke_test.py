@@ -97,7 +97,7 @@ def run(base_url: str, in_process: bool) -> int:
     c.check("health.reasoning_individuals", h.get("reasoning_individuals"), 446)
     c.check("health.ptkp_tiers", h.get("ptkp_tiers"), 8)
     c.check("health.regions", h.get("regions"), 390)
-    c.check("health.full_rules_exported", h.get("full_rules_exported"), 12907)
+    c.check("health.full_rules_exported", h.get("full_rules_exported"), 12921)
 
     # 2. Kontrak: root dihapus, alias v1 hidup, strictness
     c.check("contract.root_removed", client.get("/health").status_code, 404)
@@ -131,7 +131,28 @@ def run(base_url: str, in_process: bool) -> int:
     prov = client.get("/api/sparql/provenance", params={"rule_id": "R-UU-1983-6-ad287a542a"}).json()
     c.check("sparql.provenance", prov["count"], 1)
     c.check("sparql.document", prov["results"][0]["document_id"], "UU-1983-6")
-    c.check("sparql.stats.total", client.get("/api/sparql/stats").json()["total_rules"], 12907)
+    c.check("sparql.stats.total", client.get("/api/sparql/stats").json()["total_rules"], 12921)
+
+    # 4b. X-1: aturan PP 20/2026 & kelayakan PPh Final
+    pp26 = client.get("/api/sparql/provenance", params={"document_id": "PP-2026-20", "limit": 20}).json()
+    c.check("pp2026.rules", pp26["count"], 14)
+    larangan = client.get("/api/sparql/provenance", params={"document_id": "PP-2026-20", "rule_type": "Larangan"}).json()
+    c.check("pp2026.pasal_20a", larangan["count"], 1)
+
+    kop = _post(client, "/api/reason", {
+        "wp_id": "SMOKE_PP2026_KOPERASI", "wp_kind": "Koperasi", "tahun_pajak": 2026,
+        "tahun_terdaftar": 2021,
+        "pekerjaan_sekunder": {"nama": "Unit Usaha", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_000_000_000.0},
+    })["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
+    c.check("pp2026.koperasi_4th", kop["status"], "DISKUALIFIKASI")
+    c.check("pp2026.koperasi_dasar", bool(kop["dasar_hukum"]), True)
+
+    per = _post(client, "/api/reason", {
+        "wp_id": "SMOKE_PP2026_PERALIHAN", "wp_kind": "OrangPribadi", "tahun_pajak": 2026,
+        "tahun_mulai_pp55": 2018,
+        "pekerjaan_sekunder": {"nama": "Toko", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_000_000_000.0},
+    })["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
+    c.check("pp2026.peralihan_op", per["status"], "LAYAK")
 
     # 5. Kasus PRD §9.3.5 — Guru + Freelance Bandung
     g = _post(client, "/api/reason", PRD_GURU)

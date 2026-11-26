@@ -133,6 +133,12 @@ class ReasonRequest(BaseModel):
 
     # Badan
     is_perseroan_terbuka: bool = False
+    is_perseroan_perorangan: bool = False
+    memiliki_keahlian_khusus: bool = Field(default=False, description="PT Perorangan yang didirikan OP dengan keahlian khusus (Pasal 57(2)b)")
+    is_memilih_tarif_umum: bool = Field(default=False, description="Memilih tarif umum Pasal 17 (Pasal 57(2)a)")
+    menerima_fasilitas_lain: bool = Field(default=False, description="Menerima fasilitas Pasal 31A / PP 94/2010 / KEK (Pasal 57(2)c)")
+    omzet_gabungan_grup: Optional[float] = Field(default=None, ge=0, description="Omzet gabungan OP + seluruh PT Perorangan miliknya (Pasal 57(2)e)")
+    tahun_terdaftar: Optional[int] = Field(default=None, ge=1900, le=2100, description="Tahun Pajak terdaftar (koperasi/badan)")
     has_persentase_saham_publik: float = Field(default=0, ge=0, le=100)
     has_jumlah_pemegang_saham_publik: Optional[int] = Field(default=None, ge=0)
     has_hari_terpenuhi_tbk: Optional[int] = Field(default=None, ge=0, le=366)
@@ -323,6 +329,8 @@ def to_internal(engine, req: ReasonRequest) -> Tuple[str, Dict[str, Any], Dict[s
             "isPerseroanTerbuka": bool(req.is_perseroan_terbuka),
             "hasPersentaseSahamPublik": float(req.has_persentase_saham_publik),
         })
+        if req.wp_kind == "PT":
+            props["isPerseroanPerorangan"] = bool(req.is_perseroan_perorangan)
         # Flag yang punya deteksi otomatis dari KBLI hanya dikirim bila True,
         # agar engine dapat menyimpulkannya dari kodeKBLI (bukan terkunci False).
         for key, val in (
@@ -428,35 +436,144 @@ def _neto_utama(p: Optional[PekerjaanInput], wp_kind: str) -> Tuple[float, float
 # --------------------------------------------------------------------------------------
 _PP55_LIMIT = {"OrangPribadi": 7, "CV": 4, "Firma": 4, "Koperasi": 4, "PT": 3, "BadanUsahaTetap": 0, "Badan": 4}
 
+_PP55_REFS_PATH = Path(__file__).with_name("pp55_rules.json")
+_PP55_REFS: Dict[str, Any] = (
+    json.loads(_PP55_REFS_PATH.read_text(encoding="utf-8")) if _PP55_REFS_PATH.exists() else {}
+)
+
 
 def _pp55_eligibility(req: ReasonRequest, sekunder: Optional[PekerjaanInput]) -> dict:
+    """Kelayakan PPh Final 0,5% menurut PP 55/2022 jo. PP 20/2026 (Pasal 57 & peralihan).
+
+    Semua batas diambil dari `backend/pp55_rules.json` (hasil kurasi X-1),
+    bukan konstanta yang dikarang di kode.
+    """
     p = sekunder
+    refs = _PP55_REFS
+    dasar = [refs["pasal_57_1"]] if refs.get("pasal_57_1") else []
+
     if p is None:
-        return {"status": "TIDAK_RELEVAN", "alasan": "Tidak ada penghasilan sekunder dari usaha."}
+        return {"status": "TIDAK_RELEVAN", "alasan": "Tidak ada penghasilan sekunder dari usaha.", "dasar_hukum": []}
     if p.jenis == "PEKERJA_BEBAS":
         return {
             "status": "DISKUALIFIKASI",
-            "alasan": "PP 55/2022 Pasal 56(3)-(4) mengecualikan penghasilan pekerjaan bebas dari PPh Final 0,5%.",
+            "alasan": "Pasal 56(3)a PP 55/2022: penghasilan pekerjaan bebas dikecualikan dari PPh Final 0,5%.",
+            "dasar_hukum": [refs["pasal_57_2b"]] if refs.get("pasal_57_2b") else [],
         }
     if p.jenis != "USAHA_UMKM":
-        return {"status": "TIDAK_RELEVAN", "alasan": "Bukan penghasilan usaha."}
+        return {"status": "TIDAK_RELEVAN", "alasan": "Bukan penghasilan usaha.", "dasar_hukum": []}
+
+    if req.wp_kind in ("BadanUsahaTetap", "BUT"):
+        return {
+            "status": "DISKUALIFIKASI",
+            "alasan": "Pasal 57(2)d PP 55/2022 jo. PP 20/2026: bentuk usaha tetap dikecualikan.",
+            "dasar_hukum": [refs["pasal_57_2d"]] if refs.get("pasal_57_2d") else [],
+        }
+    if req.is_memilih_tarif_umum:
+        return {
+            "status": "DISKUALIFIKASI",
+            "alasan": "Pasal 57(2)a: Wajib Pajak memilih dikenai tarif umum Pasal 17.",
+            "dasar_hukum": [refs["pasal_57_2a"]] if refs.get("pasal_57_2a") else [],
+        }
+    if req.menerima_fasilitas_lain:
+        return {
+            "status": "DISKUALIFIKASI",
+            "alasan": "Pasal 57(2)c: menerima fasilitas PPh lain (Pasal 31A / PP 94/2010 / KEK).",
+            "dasar_hukum": [refs["pasal_57_2c"]] if refs.get("pasal_57_2c") else [],
+        }
+    if req.wp_kind == "PT" and req.is_perseroan_perorangan and req.memiliki_keahlian_khusus:
+        return {
+            "status": "DISKUALIFIKASI",
+            "alasan": "Pasal 57(2)b: perseroan perorangan milik OP dengan keahlian khusus (jasa sejenis pekerjaan bebas).",
+            "dasar_hukum": [refs["pasal_57_2b"]] if refs.get("pasal_57_2b") else [],
+        }
+
+    batas = float(refs.get("omzet_batas_idr") or 4_800_000_000)
     omzet = float(p.omzet_tahunan or 0.0)
-    if omzet > 4_800_000_000.0:
-        return {"status": "DISKUALIFIKASI", "alasan": "Peredaran bruto melebihi Rp4,8 miliar (PP 55/2022 Pasal 57)."}
-    limit = _PP55_LIMIT.get(req.wp_kind)
-    if req.tahun_mulai_pp55 is not None and limit:
-        if req.tahun_pajak - req.tahun_mulai_pp55 >= limit:
+    if omzet > batas:
+        return {
+            "status": "DISKUALIFIKASI",
+            "alasan": f"Peredaran bruto Rp{omzet:,.0f} melebihi batas Rp{batas:,.0f} (Pasal 57(1)).",
+            "dasar_hukum": dasar,
+        }
+    gabungan = float(req.omzet_gabungan_grup) if req.omzet_gabungan_grup is not None else None
+    if gabungan is not None and gabungan > batas:
+        return {
+            "status": "DISKUALIFIKASI",
+            "alasan": (
+                "Pasal 57(2)e: omzet gabungan Wajib Pajak orang pribadi beserta seluruh perseroan perorangan "
+                f"miliknya Rp{gabungan:,.0f} melebihi Rp{batas:,.0f}."
+            ),
+            "dasar_hukum": [refs["pasal_57_2e"]] if refs.get("pasal_57_2e") else [],
+        }
+
+    # Koperasi: batas 4 Tahun Pajak sejak tahun terdaftar (Pasal 57(2)f)
+    if req.wp_kind == "Koperasi" and req.tahun_terdaftar is not None:
+        batas_tahun = int(refs.get("koperasi_batas_tahun") or 4)
+        if req.tahun_pajak - req.tahun_terdaftar >= batas_tahun:
             return {
                 "status": "DISKUALIFIKASI",
-                "alasan": f"Masa berlaku PPh Final PP 55/2022 ({limit} Tahun Pajak) telah berakhir.",
+                "alasan": (
+                    f"Pasal 57(2)f: koperasi telah melewati {batas_tahun} Tahun Pajak sejak Tahun Pajak terdaftar "
+                    f"({req.tahun_terdaftar})."
+                ),
+                "dasar_hukum": [refs["pasal_57_2f"]] if refs.get("pasal_57_2f") else [],
             }
+
+    # Bentuk badan lama (CV/Firma/PT non-perorangan) hanya lewat masa peralihan
+    if req.wp_kind not in ("OrangPribadi", "Koperasi") and not (
+        req.wp_kind == "PT" and req.is_perseroan_perorangan
+    ):
+        if req.tahun_mulai_pp55 is None:
+            return {
+                "status": "DISKUALIFIKASI",
+                "alasan": (
+                    "Pasal 57(1) hanya mencakup OP, perseroan perorangan, dan koperasi. Bentuk badan ini hanya dapat "
+                    "melanjutkan masa peralihan bila jangka waktu lama belum berakhir — isi `tahun_mulai_pp55`."
+                ),
+                "dasar_hukum": dasar,
+            }
+        lama = 4 if req.wp_kind in ("CV", "Firma") else 3
+        selesai = req.tahun_mulai_pp55 + lama
+        if req.tahun_pajak > selesai:
+            return {
+                "status": "DISKUALIFIKASI",
+                "alasan": f"Masa peralihan berakhir pada Tahun Pajak {selesai}; Tahun Pajak {req.tahun_pajak} dikenai tarif umum.",
+                "dasar_hukum": [refs["pasal_57_4"]] if refs.get("pasal_57_4") else dasar,
+            }
+        return {
+            "status": "LAYAK",
+            "alasan": f"Masih dalam masa peralihan PP 55/2022 (berakhir Tahun Pajak {selesai}).",
+            "dasar_hukum": dasar,
+        }
+
+    # OP: peralihan bila masa lama berakhir 2024/2025 (Pasal II)
+    if req.wp_kind == "OrangPribadi" and req.tahun_mulai_pp55 is not None:
+        selesai = req.tahun_mulai_pp55 + 7
+        if selesai in (2024, 2025) and req.tahun_pajak in (2025, 2026):
+            return {
+                "status": "LAYAK",
+                "alasan": f"Pasal II PP 20/2026: masa final lama berakhir {selesai}, diperpanjang untuk Tahun Pajak 2025–2026.",
+                "dasar_hukum": [refs["peralihan_a1"]] if refs.get("peralihan_a1") else dasar,
+            }
+        if selesai < req.tahun_pajak and req.tahun_pajak > 2026:
+            return {
+                "status": "PERLU_VERIFIKASI",
+                "alasan": (
+                    f"Masa final lama berakhir {selesai}. Pasal 59 PP 55/2022 dihapus oleh PP 20/2026; "
+                    "batas waktu baru tidak lagi diatur eksplisit — verifikasi dengan KPP."
+                ),
+                "dasar_hukum": dasar,
+            }
+
     if req.tahun_mulai_pp55 is None:
         return {
             "status": "LAYAK",
-            "alasan": "Memenuhi syarat omzet; masa berlaku belum diverifikasi (tahun_mulai_pp55 kosong).",
-            "catatan": "Isi tahun_mulai_pp55 agar masa berlaku 7/4/3 Tahun Pajak dapat diuji.",
+            "alasan": "Memenuhi syarat omzet; masa berlaku tidak lagi dibatasi eksplisit (Pasal 59 dihapus oleh PP 20/2026).",
+            "dasar_hukum": dasar,
+            "catatan": "Isi tahun_mulai_pp55 bila ingin menguji masa peralihan 2024/2025.",
         }
-    return {"status": "LAYAK", "alasan": "Memenuhi syarat omzet dan masih dalam masa berlaku."}
+    return {"status": "LAYAK", "alasan": "Memenuhi syarat omzet dan tidak termasuk pengecualian Pasal 57(2).", "dasar_hukum": dasar}
 
 
 def _nppn_for(engine, sekunder: Optional[PekerjaanInput], zona: Optional[str], override: Optional[float]) -> dict:
@@ -520,6 +637,7 @@ def _komparasi(engine, req: ReasonRequest, sekunder: Optional[PekerjaanInput], z
         "skema_pp55_final": {
             "status": pp55["status"],
             "alasan": pp55.get("alasan"),
+            "dasar_hukum": pp55.get("dasar_hukum") or [],
             "omzet": omzet,
             "tarif_persen": tarif_pp55 if pp55["status"] == "LAYAK" else None,
             "pph_idr": pph_pp55,

@@ -12,14 +12,14 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
 [Korpus Resmi BPK/JDIH/MK/MA/SetPP]
    ├── 165 regulasi pusat (97 active_for_rules) + 32 consolidated (UU CK & HPP)
    ├── 524 Perda PDRD (2023–2026, 390 Pemda unik) + 284 SetPP + 15 MK + 78 SEMA TUN
-   └── 12.907 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
+   └── 12.921 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
          │
          ├──► ontology/kbr_pajak_reasoning.owl (156 kelas SROIQ(D) · 97 SWRL · 436 individu)
          │       └─► Reasoner HermiT (World() terisolasi) + Kalkulator SPARQL BIND
          │
          ├──► ontology/kbr_ter_pph21.ttl (127 bracket TER) + kbr_kbli.ttl (1.453 KBLI SKOS: NPPN/TA/Pionir/Padat Karya)
          ├──► ontology/kbr-perda-rates.ttl (390 Pemda · 2.029 tarif lokal dari 524 Perda)
-         └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.907 aturan)
+         └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.921 aturan)
                  └─► Engine SPARQL lokal (rdflib)
                          │
                          ▼
@@ -55,12 +55,12 @@ Base path: **`/api`** (alias `/api/v1`) · Swagger: `/api/docs` · OpenAPI: `/ap
 | `POST /api/reason` | Payload PRD §9.3 (multi-stream, PTKP, PBB, PPh Final 4(2)) → inferensi HermiT + TER + **komparasi 3 skema** + **rekonsiliasi PPh 29** + provenance |
 | `GET /api/catalog` | Peta `103` katalog → `rule_id` |
 | `GET /api/scenarios` | `15` skenario bawaan |
-| `GET /api/sparql/provenance` & `/api/sparql/stats` | `12.907` aturan |
+| `GET /api/sparql/provenance` & `/api/sparql/stats` | `12.921` aturan |
 
 **Dokumentasi backend:**
 - **Kontrak beku untuk frontend** → [`docs/API_CONTRACT_v2.md`](docs/API_CONTRACT_v2.md) (payload PRD, enum, respons, 7 kasus emas, deviasi PRD)
 - **Deployment (Docker/nginx/env/kapasitas/runbook)** → [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)
-- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **64 cek**
+- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **69 cek**
 
 ---
 
@@ -95,8 +95,8 @@ kbr_pajak/
 │   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 │   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
 ├── src/                                   # 16 modul pipeline & builder ontologi/SKOS/Perda
-├── scripts/                               # 27 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
-├── tests/                                 # 164 automated tests + fixtures HTML BPK (+ conftest.py)
+├── scripts/                               # 28 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
+├── tests/                                 # 165 automated tests + fixtures HTML BPK (+ conftest.py)
 ├── config/                                # Konfigurasi crawl, konsolidasi, & scope_cards
 ├── docs/                                  # Dokumentasi, spesifikasi & Laporan Fase 0–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
@@ -115,8 +115,8 @@ kbr_pajak/
 │   └── colab_extract_t2.ipynb             # Notebook ekstraksi T2_RULE vLLM (Qwen2.5-32B-AWQ)
 └── knowledge_json/
     ├── rules/
-    │   ├── legal_rules.jsonl              # 12.907 aturan atomik (8.717 VALIDATED, 474 HUMAN_FIXED, 117 HUMAN_APPROVED, 3.599 REVIEW_REQUIRED)
-    │   └── kbr-data.ttl                   # Ekspor RDF Turtle penuh seluruh 12.907 aturan
+    │   ├── legal_rules.jsonl              # 12.921 aturan atomik (8.717 VALIDATED, 474 HUMAN_FIXED, 117 HUMAN_APPROVED, 3.599 REVIEW_REQUIRED)
+    │   └── kbr-data.ttl                   # Ekspor RDF Turtle penuh seluruh 12.921 aturan
     ├── text_lampiran/                     # Teks sumber untuk rebuild TER (PP 58/2023) & KBLI (PER-17, PP 78, PerBKPM 7, PMK 16)
     ├── review/                            # 621 baris audit P1-P6, log audit, review queue, gold standard
     ├── documents/                         # 165 JSON regulasi pusat kanonik

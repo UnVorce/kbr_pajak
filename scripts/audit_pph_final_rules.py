@@ -4,7 +4,7 @@
 Memverifikasi 21 aturan berstatus REVIEW_REQUIRED pada 4 regulasi PPh Final Pasal 4(2)
 terhadap teks chunk sumber, memperbaiki artefak OCR pada rate_or_value / source_quote / condition,
 dan mempromosikan status validasinya menjadi HUMAN_FIXED atau HUMAN_APPROVED tanpa mengubah
-jumlah total aturan (12.907) di data/legal_rules.jsonl.
+jumlah total aturan (12.921) di data/legal_rules.jsonl.
 
 Contoh:
     python3 scripts/audit_pph_final_rules.py
@@ -282,7 +282,7 @@ def run_audit(
                             f"Rate value belum numerik pada {rid}: {item!r}"
                         )
 
-    # Tulis kembali legal_rules.jsonl (jumlah & urutan persis 12.907)
+    # Tulis kembali legal_rules.jsonl (jumlah & urutan persis 12.921)
     with rules_path.open("w", encoding="utf-8") as f:
         for r in rules:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
