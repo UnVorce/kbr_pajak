@@ -27,7 +27,7 @@ Disusun dari perbandingan PRD v2.0 dengan artefak riil `kbr_pajak/` dan kontrak 
 | 20 | §9.3.2 | `/api/options` = jenis badan, status kawin, PTKP, pekerjaan | sudah diperluas sesuai itu | tidak perlu diubah |
 | 21 | §8 CBR | field `jenis_koreksi`, `fakta_kunci`, `rasio_decidendi`, `argumen_menang`, `bukti_penentu` | **0 dari 284** putusan memiliki field tersebut; yang ada: `klaster`, `pokok_sengketa` (284), `pertimbangan_majelis` (278), `cited_regulations`, `amar_kategori` | Nyatakan CBR tahap 1 memakai field tersedia; anotasi 60 kasus = prasyarat formula penuh |
 | 22 | §8 amar | `KABUL_SELURUHNYA / KABUL_SEBAGIAN / TOLAK / TIDAK_DAPAT_DITERIMA` | distribusi riil: KABUL_SELURUHNYA 158, TOLAK 75, KABUL_SEBAGIAN 41, LAINNYA 9, **BATAL 1** | Tambahkan `LAINNYA` & `BATAL` ke enum |
-| 23 | §11 roadmap | "Fase 3 CBR SELESAI 100%" | CBR **tahap 1** sudah ada (`/api/cbr/search`, 284 kasus, BM25+klaster+regulasi); formula penuh belum | Koreksi status → "tahap 1 selesai; formula penuh butuh anotasi 60 kasus" |
+| 23 | §11 roadmap | "Fase 3 CBR SELESAI 100%" | CBR **tahap 1** ada + toolkit anotasi 60 kasus siap (`docs/CBR_ANNOTATION_GUIDE.md`, worksheet, validator); pelabelan belum | Koreksi status → "tahap 1 selesai; tahap 2 menunggu anotasi Pilar 3" |
 | 24 | §7 RP-04 | PP 20/2026 sebagai dasar | **14 aturan** sudah terekstrak & diaudit (X-1) | Selesai — gunakan `rule_id` PP-2026-20 |
 | 25 | §1 | "0% logika pajak di-hardcode" vs §6 "Kalkulator Python Decimal" | implementasi: tarif dari ontologi + aritmetika `SPARQL BIND`/helper | Satukan istilah: "tarif tidak hardcode; aritmetika deterministik" |
 | 26 | §4.1 pohon kelas | `pjk:Firma` | tidak ada kelas `Firma` di ontologi | Hapus atau tambahkan kelas (butuh rebuild) |

@@ -16,10 +16,20 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 ROOT = Path(__file__).resolve().parents[1]
+
+def _pick(*rels: str) -> Path:
+    for r in rels:
+        p = ROOT / r
+        if p.exists():
+            return p
+    return ROOT / rels[0]
+
+
 RULES = ROOT / "data" / "legal_rules.jsonl"
-JURIS = ROOT / "data" / "jurisprudence"
+JURIS = _pick("data/jurisprudence", "knowledge_json/jurisprudence")
 OUT_RISK = ROOT / "backend" / "risk_patterns.json"
 OUT_CBR = ROOT / "backend" / "cbr_index.json"
+ANNOTATIONS = _pick("data/jurisprudence", "knowledge_json/jurisprudence") / "annotations" / "annotations_v1.json"
 
 
 def _norm(s: str) -> str:
@@ -119,9 +129,13 @@ def build_risk_catalog(rules: List[dict]) -> dict:
 
 
 def build_cbr_index() -> dict:
+    annotations = {}
+    if ANNOTATIONS.exists():
+        annotations = json.loads(ANNOTATIONS.read_text(encoding="utf-8")).get("annotations") or {}
     cases = []
     for p in sorted(JURIS.glob("*.json")):
         d = json.loads(p.read_text(encoding="utf-8"))
+        ann = annotations.get(d.get("case_id")) or {}
         cases.append({
             "case_id": d.get("case_id"),
             "putusan_nomor": d.get("putusan_nomor"),
@@ -134,11 +148,19 @@ def build_cbr_index() -> dict:
             "pertimbangan_majelis": _norm(d.get("pertimbangan_majelis"))[:800],
             "cited_regulations": d.get("cited_regulations") or [],
             "source_url": (d.get("source") or {}).get("url"),
+            "jenis_koreksi": ann.get("jenis_koreksi") or [],
+            "fakta_kunci": ann.get("fakta_kunci") or [],
+            "rasio_decidendi": ann.get("rasio_decidendi") or "",
+            "argumen_menang": ann.get("argumen_menang") or "",
+            "bukti_penentu": ann.get("bukti_penentu") or [],
+            "annotated": bool(ann),
         })
+    annotated = sum(1 for c in cases if c["annotated"])
     return {
         "total": len(cases),
+        "annotated_cases": annotated,
         "metode": "tahap-1: 0.70 BM25(pokok_sengketa) + 0.20 klaster + 0.10 Jaccard(regulasi)",
-        "catatan": "Field jenis_koreksi/fakta_kunci belum tersedia di korpus; anotasi 60 kasus = prasyarat formula penuh.",
+        "catatan": "Formula penuh PRD §8 memakai jenis_koreksi/fakta_kunci bila kasus sudah dianotasi (lihat docs/CBR_ANNOTATION_GUIDE.md).",
         "cases": cases,
     }
 

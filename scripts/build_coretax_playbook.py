@@ -14,7 +14,16 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "data" / "pph_op" / "full" / "PANDUAN_Coretax_2024_Seri_Pembayaran.json"
+
+def _pick(*rels: str) -> Path:
+    for r in rels:
+        p = ROOT / r
+        if p.exists():
+            return p
+    return ROOT / rels[0]
+
+
+SRC = _pick("data/pph_op/full", "knowledge_json/pph_op/full") / "PANDUAN_Coretax_2024_Seri_Pembayaran.json"
 OUT = ROOT / "backend" / "coretax_playbook.json"
 
 

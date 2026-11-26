@@ -1,0 +1,18 @@
+{
+  "total": 60,
+  "per_klaster": {
+    "kepabeanan_cukai": 10,
+    "kup_gugatan": 10,
+    "pbb": 10,
+    "pph_badan": 10,
+    "pph_potput": 10,
+    "ppn": 10
+  },
+  "per_amar": {
+    "TOLAK": 21,
+    "KABUL_SEBAGIAN": 15,
+    "KABUL_SELURUHNYA": 24
+  },
+  "taxonomy_version": "1.0",
+  "worksheet": "data/jurisprudence/annotations/worksheet_60.csv"
+}

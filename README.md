@@ -101,8 +101,8 @@ kbr_pajak/
 │   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 │   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
 ├── src/                                   # 16 modul pipeline & builder ontologi/SKOS/Perda
-├── scripts/                               # 32 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
-├── tests/                                 # 168 automated tests + fixtures HTML BPK (+ conftest.py)
+├── scripts/                               # 35 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
+├── tests/                                 # 172 automated tests + fixtures HTML BPK (+ conftest.py)
 ├── config/                                # Konfigurasi crawl, konsolidasi, & scope_cards
 ├── docs/                                  # Dokumentasi, spesifikasi & Laporan Fase 0–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
@@ -112,6 +112,7 @@ kbr_pajak/
 │   ├── fase_1.md .. fase_7.md             # Laporan tiap fase & gerbang G1–G7
 │   ├── API_CONTRACT_v2.md                 # Kontrak API beku v2.0.0 (payload PRD, 7 kasus emas, deviasi)
 │   ├── PRD_CORRECTIONS.md                 # 30 koreksi angka/klaim PRD v2.0 agar selaras artefak riil
+│   ├── CBR_ANNOTATION_GUIDE.md            # Panduan anotasi 60 kasus + taksonomi + validator
 │   ├── DEPLOYMENT.md                      # Deployment Docker/nginx, env var, kapasitas, runbook
 │   ├── fase7_eval_results.json            # Hasil evaluasi 15/15 skenario & boundary tests
 │   ├── corpus_directory.xlsx              # Direktori korpus 7 tab

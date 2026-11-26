@@ -80,6 +80,7 @@ EXTRA_FILES = [
     ("docs/API_CONTRACT_v1.md", "docs/API_CONTRACT_v1.md"),
     ("docs/API_CONTRACT_v2.md", "docs/API_CONTRACT_v2.md"),
     ("docs/PRD_CORRECTIONS.md", "docs/PRD_CORRECTIONS.md"),
+    ("docs/CBR_ANNOTATION_GUIDE.md", "docs/CBR_ANNOTATION_GUIDE.md"),
     ("docs/DEPLOYMENT.md", "docs/DEPLOYMENT.md"),
     ("docker-compose.yml", "docker-compose.yml"),
     ("Makefile", "Makefile"),

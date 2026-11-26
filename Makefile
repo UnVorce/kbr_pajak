@@ -27,7 +27,7 @@ bench:  ## Benchmark latensi & gate cache
 test-api:  ## Tes FastAPI (17 tes, ~3 menit)
 	$(PY) -m pytest tests/test_api.py -q
 
-test:  ## Seluruh tes (168 tes, ~7 menit — HermiT)
+test:  ## Seluruh tes (172 tes, ~7 menit — HermiT)
 	$(PY) -m pytest -q
 
 contract:  ## Ekspor OpenAPI untuk tim frontend

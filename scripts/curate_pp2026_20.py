@@ -19,11 +19,20 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
+
+def _pick(*rels: str) -> Path:
+    for r in rels:
+        p = ROOT / r
+        if p.exists():
+            return p
+    return ROOT / rels[0]
+
+
 DOC_ID = "PP-2026-20"
-RULES_JSONL = ROOT / "data" / "legal_rules.jsonl"
-DOC_JSON = ROOT / "data" / "documents" / "PP-2026-20.json"
-AUDIT_LOG = ROOT / "data" / "review" / "pp2026_20_audit_log.jsonl"
-AUDIT_REPORT = ROOT / "data" / "review" / "pp2026_20_audit_report.json"
+RULES_JSONL = _pick("data/legal_rules.jsonl", "knowledge_json/rules/legal_rules.jsonl")
+DOC_JSON = _pick("data/documents", "knowledge_json/documents") / "PP-2026-20.json"
+AUDIT_LOG = _pick("data/review", "knowledge_json/review") / "pp2026_20_audit_log.jsonl"
+AUDIT_REPORT = _pick("data/review", "knowledge_json/review") / "pp2026_20_audit_report.json"
 PP55_JSON = ROOT / "backend" / "pp55_rules.json"
 
 

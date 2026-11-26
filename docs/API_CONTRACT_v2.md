@@ -24,7 +24,7 @@
 | `GET` | `/api/risk-patterns` | < 20 ms | katalog 10 pola risiko RP-01…RP-10 + dasar hukum |
 | `GET` | `/api/coretax/kode?q=` | < 20 ms | 54 KAP/KJS dari Buku Manual Coretax 2024 (Seri Pembayaran) |
 | `GET` | `/api/coretax/playbook?kewajiban=` | < 20 ms | langkah + KAP/KJS per kewajiban (label `panduan_djp`) |
-| `GET` | `/api/cbr/search?q=&klaster=&regulasi=&limit=` | < 100 ms | CBR tahap 1 atas 284 putusan |
+| `GET` | `/api/cbr/search?q=&klaster=&regulasi=&limit=` | < 100 ms | CBR tahap 1 atas 284 putusan (tahap 2 menunggu anotasi 60 kasus) |
 | `GET` | `/api/catalog` | < 20 ms | 103 katalog → `rule_id` |
 | `GET` | `/api/scenarios` | < 20 ms | 15 skenario bawaan |
 | `GET` | `/api/sparql/provenance` | 100–400 ms | 12.921 aturan |
@@ -308,7 +308,7 @@ akomodasi penginapan, pokok deposito ≤ Rp7,5 jt, OP di bawah PTKP, pengalihan 
 | Bandung PBB 0,15%, NJOPTKP 25 jt | **null** + catatan | tidak ditemukan di Perda Kota Bandung 2024-1 |
 | `elapsed_ms ≈ 138` | **± 5.500 (maks 6.100)**; cache-hit < 50 | HermiT nyata; PRD optimistis |
 | 1770 S / 1770 SS | `null` + `PERLU_VERIFIKASI` | belum ada dasar hukum bentuk SPT di korpus |
-| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 167 tes** | angka riil `ontology_build_report.json` |
+| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 172 tes** | angka riil `ontology_build_report.json` |
 
 ---
 
@@ -347,3 +347,9 @@ Optimasi yang sudah aktif:
 - cache hasil per `(wp_id, wp_kind, profil ternormalisasi)` — 128 entri, opsional persisten (`KBR_CACHE_FILE`).
 - cache katalog, PTKP, tarif progresif, regions, `lookup_kbli`, `lookup_pemda`, dan hasil CBR.
 - warmup artefak saat startup (`KBR_WARMUP=1`), ±2 s, menghapus cold-start dari request pertama.
+
+### 9.1 CBR tahap 1 vs tahap 2
+
+- **Tahap 1 (aktif):** `0,70 BM25(pokok_sengketa) + 0,20 klaster + 0,10 Jaccard(regulasi)`; field `jenis_koreksi`/`fakta_kunci` belum ada di korpus.
+- **Tahap 2 (menunggu Pilar 3):** formula PRD §8 penuh (`+0,30 WuPalmer`, `+0,25 Jaccard fakta`, penalti `0,85`).
+- Toolkit sudah tersedia: `docs/CBR_ANNOTATION_GUIDE.md`, `config/cbr_taxonomy.json`, `worksheet_60.csv` (60 kasus, 10/klaster), `scripts/validate_cbr_annotations.py`, `scripts/import_cbr_annotations.py`.
