@@ -57,7 +57,7 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
 
 ---
 
-## 3. Skema Aturan Hukum Atomik (`legal_rules.jsonl` — `12.907` baris)
+## 3. Skema Aturan Hukum Atomik (`legal_rules.jsonl` — `12.921` baris)
 
 | Field | Tipe | Nilai / Contoh |
 |---|---|---|
@@ -137,5 +137,5 @@ Kode bagian (`BAGIAN`) pada `source_locator`:
   - `GET /perda?q=...&tingkat=...&limit=30` & `GET /perda/{pemda_id}` → pencarian dan detail tarif `390` Pemda (`524` Perda).
   - `GET /catalog` → `83` item katalog `rule_map.json`.
   - `GET /scenarios` → `15` skenario demonstrasi bawaan.
-  - `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.907` aturan).
+  - `GET /sparql/provenance` & `GET /sparql/stats` → query `kbr-data.ttl` (`12.921` aturan).
   - `POST /reason` → menerima `wp_id`, `wp_kind` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BadanUsahaTetap`, `BUT`, `Badan`, `OrangPribadi`), `kodeKBLI`, `pemdaId`, `lokasiProvinsiTaxAllowance`, `memilikiPekerjaan`, `berdomisiliDi`, dan properti WP, lalu mengembalikan `direct_classes`, `inferred_classes`, `tarif`, `fasilitas`, `kewajiban`, `sanksi`, `kbli_info`, `perda_info`, rantai `justifikasi`, serta **`estimasi_pajak`** (hasil kalkulator deklaratif **`SPARQL 1.1 BIND`** + TER PPh 21 + NPPN KBLI + PBB Pemda lokal).

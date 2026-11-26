@@ -98550,6 +98550,132 @@ kbr:Aturan_R_PP_2024_22_fdc1e9a4d8 a kbr:Kewajiban ;
     kbr:hasStatusValidasi "VALIDATED"^^xsd:string ;
     kbr:termasukDomain kbr:Domain_PPH_FINAL_SEKTOR .
 
+kbr:Aturan_R_PP_2026_20_1ce9d5a485 a kbr:Kelayakan ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-1ce9d5a485"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "yang dikenai Pajak Penghasilan bersifat Iinal sebagaimana dimaksud dalam Pasal 56 ayat (1) merupakan: a. Wajib Pajak orang pribadi; dan b. Wajib Pajak badan berbentuk perseroan perorangan yang didirikan oleh 1 (satu) orang dan koperasi, yang menerima atau memperoleh penghasilan dengan peredaran bruto tidak melebihi Rp4.80O.OOO.OO0,OO (empat miliar delapan ratus juta rupiah) dalam 1 (satu) Tahun Pajak."^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_2b39f23873 a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-2b39f23873"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "e. Wajib Pajak orang pribadi beserta seluruh Wajib Pajak badan berbentuk perseroan perorangan yang didirikan oleh Wajib Pajak orang pribadi yang bersangkutan, yang telah menerima atau penghasilan dengan bruto sebagaimana dimaksud pada ayat (1) secara keseluruhan jumlahnya melebihi Rp4. 80O. OOO. OOO,OO (empat miliar delapan ratus juta rupiah) dalam 1 (satu) Tahun Pajak;"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_2fd30f8d24 a kbr:Hak ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_II ;
+    kbr:hasRuleId "R-PP-2026-20-2fd30f8d24"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/II"^^xsd:string ;
+    kbr:hasSourceQuote "2l Tahun Pajak 2025 untuk Wajib Pajak orang pribadi dan Wajib Pajak badan berbentuk persero,rn perorangan yang didirikan oleh 1 (satu) orang, dapat dikenai Pajak Penghasilan yang bersifat final berdasarkan Peraturan Pemerintah ini untuk Tahun Pajak2026,"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_32187c3585 a kbr:Larangan ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-32187c3585"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "Pengeluaran berupa suap, gratifikasi, dan/ atau pemberian lain dengan nama dan dalam bentuk apa pun sebagaimana dimaksud dalam peraturan perundang-undangan yang mengatur mengenai tindak pidana korupsi dan/ atau tindak pidana suap, termasuk yang diberikan kepada pejabat publik asing, bukan merupakan biaya untuk mendapatkan, menagih, dan memelihara penghasilan yang dapat menjadi pengurang penghasilan bruto."^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_A2_PPhBadan .
+
+kbr:Aturan_R_PP_2026_20_4befc9a73e a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-4befc9a73e"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "d. Wajib Pajak bentuk usaha tetap;"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_4da3dde4b3 a kbr:Hak ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_II ;
+    kbr:hasRuleId "R-PP-2026-20-4da3dde4b3"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/II"^^xsd:string ;
+    kbr:hasSourceQuote "b. Wajib Pajak badan berbentuk koperasi yang terdaftar sebelum Peraturan Pemerintah ini berlaku dan berdasarkan ketentuan Peraturan Pemerintah Nomor 55 Tahun 2022 tentang Pengaturan di Bidang Pajak Penghasilan yangjangka waktu tertentu pengenaan Pajak Penghasilan yang bersifat final berakhir pada Tahun Pajak2O24 sampai dengan Tahun Pajak2O29, dikenai Pajak Penghasilan yang bersifat final berdasarkan Peraturan Pemerintah ini untuk Tahun Pajak 2025 sampai dengan Tahun Pajak 2029 sepanjang"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_667a3359e6 a kbr:Definisi ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-667a3359e6"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "Dalam hal Wajib Pajak orang pribadi merupakan suami-istri yang: a perjanjian pemisahan harta dan penghasilan secara terLulis; atau b. istrinya memilih untuk menjalankan hak dan kewajiban sendiri, sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf b dan huruf c Undang-Undang Pajak Penghasilan, besarnya peredaran bruto sebagaimana dimaksud pada ayat (l) ditentukan berdasarkan penggabungan peredaran bruto dari suami dan istri. SK No283515A (3) Penentuan . . . -8- (3) Penentuan jumlah peredaran bruto sebagaimana dimaksud dalam Pasal 57 ayat (2) huruf e bagi suami-istri sebagaimana dimaksud pada ayat (2), ditentukan berdasarkan penggabungan peredaran bruto dari suami dan istri beserta seluruh Wajib Pajak badan berbentuk perseroEul perorangan yang didirikan oleh suami dan istri."^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_7b11d7dabd a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-7b11d7dabd"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "a. Wajib Pajak memilih untuk dikenai Pajak Penghasilan berdasarkan: 1. tarif Pasal L7 ayat (i) huruf a Undang-Undang Pajak Penghasilan, untuk Wajib Pajak orang pribadi; atau 2. tarif Pasal 17 ayat (U huruf b Undang-Undang Pajak dengan mempertimbangkan Pasal 31E Undang-Undang Pajak Penghasilan, untuk Wajib Pajak badan;"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_92f51142fe a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-92f51142fe"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "b. Wajib Pajak badan berbentuk perseroan perorangan sebagaimana dimaksud pada ayat (1) huruf b yang didirikan oleh Wajib Pajak orang pribadi yang memiliki keahlian khusus yang menyerahkan jasa yang sejenis dengan jasa sehubungan dengan pekerjaan bebas sebagaimana dimaksud dalam Pasal 56 ayat (4);"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_941374c071 a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-941374c071"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "c. Wajib Pajak badan sebagaimana dimaksud pada ayat (1) huruf b, yang memperoleh fasilitas Pajak Penghasilan berdasarkan: 1. Pasal 31A Undang-Undang Pajak 2. Peraturan . . . SK No283517A EUK INDONESIA -6- 2. Peraturan Pemerintah Nomor 94 5 Tahun 2OlO tentang Penghasilan Kena Pajak dan Pelunasan Pajak Penghasilan dalam Tahun Berjalan beserta perubahan atau penggantinya; atau 3. Pasal 75 dan Pasal 78 Peraturan Pemerintah Nomor 4O Tahun 2O2l tentang Kawasan Ekonomi Khusus beserta perubahan atau penggantinya;"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_988de09998 a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-988de09998"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "(4) Wajib Pajak sebagaimana dimaksud pada ayat (2) huruf e dan huruf f serta ayat (3), untuk Tahun Pajak-Tahun Pajak berikutnya tidak dapat dikenai Pajak Penghasilan bersifat linal berdasarkan Peraturan Pemerintah ini,"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_9d93f068fb a kbr:Hak ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_II ;
+    kbr:hasRuleId "R-PP-2026-20-9d93f068fb"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/II"^^xsd:string ;
+    kbr:hasSourceQuote "f. Wajib Pajak orang pribadi dan Wajib Pajak badan berbentuk perseroan p€rorangan yang didirikan oleh 1 (satu) orang sebagaimana dimaksud dalam Pasal 57 ayat (2) huruf b dan huruf e yang dikenai Pajak Penghasilan yang bersifat final berdasarkan ketentuan Peraturan Pemerintah Nomor 55 Tahun 2022 tefiang Penyesuaian Pengaturan di Bidang Pajak Penghasilan, dapat dikenai Pajak Penghasilan yang bersifat linal berdasarkan Peraturan Pemerintah ini sampai dengan akhir Tahun Pajak2026;"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_c0a2c487ff a kbr:Pengecualian ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_I ;
+    kbr:hasRuleId "R-PP-2026-20-c0a2c487ff"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string ;
+    kbr:hasSourceQuote "f. Wajib Pajak badan berbentuk koperasi sebagaimana dimaksud pada ayat (1) huruf b yang telah melewati jangka waktu 4 (empat) Tahun Pajak sejak Tahun Pajak Wajib Pajak bersangkutan terdaftar."^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
+kbr:Aturan_R_PP_2026_20_e26f5de104 a kbr:Hak ;
+    kbr:diaturDalam kbr:Reg_PP_2026_20 ;
+    kbr:diaturDalamPasal kbr:Pasal_PP_2026_20_BT_II ;
+    kbr:hasRuleId "R-PP-2026-20-e26f5de104"^^xsd:string ;
+    kbr:hasSourceLocator "PP-2026-20#BT/II"^^xsd:string ;
+    kbr:hasSourceQuote "1) Tahun P41ak 2O24 untuk Wajib Pajak orang pribadi, dapat dikenai Pajak Penghasilan yang bersifat fi nal berdasarkan Peraturan Pemerintah ini untuk Tahun Pajak 2O25 dan Tahun Pajak 2026; atau"^^xsd:string ;
+    kbr:hasStatusValidasi "HUMAN_FIXED"^^xsd:string ;
+    kbr:termasukDomain kbr:Domain_Domain_PPh_Final_Sektor .
+
 kbr:Aturan_R_UU_1983_6_00408936a3 a kbr:Kewajiban ;
     kbr:diaturDalam kbr:Reg_UU_1983_6 ;
     kbr:diaturDalamPasal kbr:Pasal_UU_1983_6_BT_28_1__10 ;
@@ -129893,6 +130019,10 @@ kbr:Pasal_PP_2023_35_BT_95 a kbr:Pasal ;
     kbr:bagianDariRegulasi kbr:Reg_PP_2023_35 ;
     kbr:hasSourceLocator "PP-2023-35#BT/95"^^xsd:string .
 
+kbr:Pasal_PP_2026_20_BT_II a kbr:Pasal ;
+    kbr:bagianDariRegulasi kbr:Reg_PP_2026_20 ;
+    kbr:hasSourceLocator "PP-2026-20#BT/II"^^xsd:string .
+
 kbr:Pasal_UU_1983_6_BT_14_4__6 a kbr:Pasal ;
     kbr:bagianDariRegulasi kbr:Reg_UU_1983_6 ;
     kbr:hasSourceLocator "UU-1983-6#BT/14/4..6"^^xsd:string .
@@ -133099,6 +133229,10 @@ kbr:Pasal_PP_2022_55_BT_70_p1 a kbr:Pasal ;
     kbr:bagianDariRegulasi kbr:Reg_PP_2022_55 ;
     kbr:hasSourceLocator "PP-2022-55#BT/70#p1"^^xsd:string .
 
+kbr:Pasal_PP_2026_20_BT_I a kbr:Pasal ;
+    kbr:bagianDariRegulasi kbr:Reg_PP_2026_20 ;
+    kbr:hasSourceLocator "PP-2026-20#BT/I"^^xsd:string .
+
 kbr:Pasal_UU_1983_6_BT_28_1__10 a kbr:Pasal ;
     kbr:bagianDariRegulasi kbr:Reg_UU_1983_6 ;
     kbr:hasSourceLocator "UU-1983-6#BT/28/1..10"^^xsd:string .
@@ -133343,6 +133477,9 @@ kbr:Reg_PMK_2010_68 a kbr:PeraturanMenteriKeuangan ;
 
 kbr:Reg_PP_2021_91 a kbr:PeraturanPemerintah ;
     kbr:hasDocumentId "PP-2021-91"^^xsd:string .
+
+kbr:Reg_PP_2026_20 a kbr:PeraturanPemerintah ;
+    kbr:hasDocumentId "PP-2026-20"^^xsd:string .
 
 kbr:Pasal_PERDA_PROV_BALI_2024_1_BT_1_p2 a kbr:Pasal ;
     kbr:bagianDariRegulasi kbr:Reg_PERDA_PROV_BALI_2024_1 ;

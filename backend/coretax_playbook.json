@@ -1,0 +1,996 @@
+{
+  "sumber": {
+    "document_id": "PANDUAN-CORETAX-2024-PEMBAYARAN",
+    "nama": "Buku Manual Coretax 2024 - Seri Pembayaran",
+    "jenis_sumber": "panduan_djp",
+    "total_halaman": 49,
+    "catatan": "Bukan peraturan; jangan dipakai sebagai dasar hukum. Selalu tampilkan label 'panduan DJP'."
+  },
+  "menu": [
+    {
+      "nomor": "01",
+      "nama": "Permohonan Pemindahbukuan"
+    },
+    {
+      "nomor": "02",
+      "nama": "Layanan Mandiri Kode Billing"
+    },
+    {
+      "nomor": "03",
+      "nama": "Pembuatan Kode Billing atas Tagihan Pajak"
+    },
+    {
+      "nomor": "04",
+      "nama": "Daftar Kode Billing Belum Dibayar"
+    },
+    {
+      "nomor": "05",
+      "nama": "Formulir Restitusi Pajak"
+    }
+  ],
+  "kode": [
+    {
+      "kap_kjs": "411119-100",
+      "kap": "411119",
+      "kjs": "100",
+      "keterangan": "PPh Migas Lainnya - Masa",
+      "halaman": 27,
+      "kutipan": "411119-100 PPh Migas Lainnya - Masa"
+    },
+    {
+      "kap_kjs": "411119-200",
+      "kap": "411119",
+      "kjs": "200",
+      "keterangan": "PPh Migas Lainnya - Tahunan",
+      "halaman": 27,
+      "kutipan": "411119-200 PPh Migas Lainnya - Tahunan"
+    },
+    {
+      "kap_kjs": "411125-100",
+      "kap": "411125",
+      "kjs": "100",
+      "keterangan": "PPh Pasal 25/29 Orang Pribadi - Masa",
+      "halaman": 27,
+      "kutipan": "411125-100 PPh Pasal 25/29 Orang Pribadi - Masa"
+    },
+    {
+      "kap_kjs": "411125-101",
+      "kap": "411125",
+      "kjs": "101",
+      "keterangan": "PPh Pasal 25/29 Orang Pribadi -Masa OP Pengusaha Tertentu",
+      "halaman": 27,
+      "kutipan": "411125-101 PPh Pasal 25/29 Orang Pribadi -Masa OP Pengusaha Tertentu"
+    },
+    {
+      "kap_kjs": "411126-100",
+      "kap": "411126",
+      "kjs": "100",
+      "keterangan": "PPh Pasal 25/29 Badan - Masa",
+      "halaman": 27,
+      "kutipan": "411126-100 PPh Pasal 25/29 Badan - Masa"
+    },
+    {
+      "kap_kjs": "411128-107",
+      "kap": "411128",
+      "kjs": "107",
+      "keterangan": "Pembayaran Tambahan Program Pengungkapan Sukarela Pasal 7 (4) huruf b UU HPP",
+      "halaman": 27,
+      "kutipan": "411128-107 Pembayaran Tambahan Program Pengungkapan Sukarela Pasal 7 (4) huruf b UU HPP"
+    },
+    {
+      "kap_kjs": "411128-108",
+      "kap": "411128",
+      "kjs": "108",
+      "keterangan": "Pembayaran Tambahan Program Pengungkapan Sukarela Pasal 12 (4) huruf b UU HPP",
+      "halaman": 27,
+      "kutipan": "411128-108 Pembayaran Tambahan Program Pengungkapan Sukarela Pasal 12 (4) huruf b UU HPP"
+    },
+    {
+      "kap_kjs": "411128-111",
+      "kap": "411128",
+      "kjs": "111",
+      "keterangan": "Pembayaran PPh Final PMSE",
+      "halaman": 27,
+      "kutipan": "411128-111 Pembayaran PPh Final PMSE"
+    },
+    {
+      "kap_kjs": "411128-402",
+      "kap": "411128",
+      "kjs": "402",
+      "keterangan": "PPh Final Pasal 4 (2) atas Pengalihan Hak Tanah dan/atau Bangunan",
+      "halaman": 27,
+      "kutipan": "411128-402 PPh Final Pasal 4 (2) atas Pengalihan Hak Tanah dan/atau Bangunan"
+    },
+    {
+      "kap_kjs": "411128-403",
+      "kap": "411128",
+      "kjs": "403",
+      "keterangan": "PPh Final Pasal 4 (2) atas Sewa Tanah dan/atau Bangunan",
+      "halaman": 27,
+      "kutipan": "411128-403 PPh Final Pasal 4 (2) atas Sewa Tanah dan/atau Bangunan"
+    },
+    {
+      "kap_kjs": "411128-416",
+      "kap": "411128",
+      "kjs": "416",
+      "keterangan": "PPh Final Pasal 19 atas Revaluasi Aktiva Tetap",
+      "halaman": 27,
+      "kutipan": "411128-416 PPh Final Pasal 19 atas Revaluasi Aktiva Tetap"
+    },
+    {
+      "kap_kjs": "411128-420",
+      "kap": "411128",
+      "kjs": "420",
+      "keterangan": "PPh Final UMKM Setor Sendiri",
+      "halaman": 27,
+      "kutipan": "411128-420 PPh Final UMKM Setor Sendiri"
+    },
+    {
+      "kap_kjs": "411128-427",
+      "kap": "411128",
+      "kjs": "427",
+      "keterangan": "Pembayaran Program Pengungkapan Sukarela Pasal 5(5) UU HPP",
+      "halaman": 27,
+      "kutipan": "411128-427 Pembayaran Program Pengungkapan Sukarela Pasal 5(5) UU HPP"
+    },
+    {
+      "kap_kjs": "411128-428",
+      "kap": "411128",
+      "kjs": "428",
+      "keterangan": "Pembayaran Program Pengungkapan Sukarela Pasal 9(1) UU HPP",
+      "halaman": 27,
+      "kutipan": "411128-428 Pembayaran Program Pengungkapan Sukarela Pasal 9(1) UU HPP"
+    },
+    {
+      "kap_kjs": "411128-432",
+      "kap": "411128",
+      "kjs": "432",
+      "keterangan": "PPh Final Pasal 4 (2) atas Perjanjian Perikatan Jual Beli Tanah dan/atau Bangunan",
+      "halaman": 27,
+      "kutipan": "411128-432 PPh Final Pasal 4 (2) atas Perjanjian Perikatan Jual Beli Tanah dan/atau Bangunan"
+    },
+    {
+      "kap_kjs": "411129-100",
+      "kap": "411129",
+      "kjs": "100",
+      "keterangan": "PPh Non-Migas Lainnya - Masa",
+      "halaman": 27,
+      "kutipan": "411129-100 PPh Non-Migas Lainnya - Masa"
+    },
+    {
+      "kap_kjs": "411129-512",
+      "kap": "411129",
+      "kjs": "512",
+      "keterangan": "Uang Tebusan Pengampunan Pajak",
+      "halaman": 27,
+      "kutipan": "411129-512 Uang Tebusan Pengampunan Pajak"
+    },
+    {
+      "kap_kjs": "411129-513",
+      "kap": "411129",
+      "kjs": "513",
+      "keterangan": "Pembayaran Pasal 8 (3d) UU Pengampunan Pajak",
+      "halaman": 27,
+      "kutipan": "411129-513 Pembayaran Pasal 8 (3d) UU Pengampunan Pajak"
+    },
+    {
+      "kap_kjs": "411211-103",
+      "kap": "411211",
+      "kjs": "103",
+      "keterangan": "PPN Dalam Negeri - Kegiatan Membangun Sendiri",
+      "halaman": 27,
+      "kutipan": "411211-103 PPN Dalam Negeri - Kegiatan Membangun Sendiri"
+    },
+    {
+      "kap_kjs": "411211-107",
+      "kap": "411211",
+      "kjs": "107",
+      "keterangan": "PPN Dalam Negeri - PPN atas penyerahan BKP di KPBPB",
+      "halaman": 27,
+      "kutipan": "411211-107 PPN Dalam Negeri - PPN atas penyerahan BKP di KPBPB"
+    },
+    {
+      "kap_kjs": "411211-108",
+      "kap": "411211",
+      "kjs": "108",
+      "keterangan": "PPN Dalam Negeri - Pembayaran PPN tanggung jawab secara renteng Daftar Kode Akun Pajak/Kode Jenis Setor yang dapat dibuat secara mandiri TABEL 2 DAFTAR KODE AKUN PAJAK-KODE JENIS SETOR YANG DAPAT DIBU",
+      "halaman": 27,
+      "kutipan": "411211-108 PPN Dalam Negeri - Pembayaran PPN tanggung jawab secara renteng Daftar Kode Akun Pajak/Kode Jenis Setor yang dapat dibuat secara mandiri TABEL 2 DAFTAR KODE AKUN PAJAK-KODE JENIS SETOR YANG DAPAT DIBUAT SECARA MANDIRI"
+    },
+    {
+      "kap_kjs": "411211-121",
+      "kap": "411211",
+      "kjs": "121",
+      "keterangan": "PPN Dalam Negeri yang semula mendapatkan fasilitas dapat dikreditkan",
+      "halaman": 28,
+      "kutipan": "411211-121 PPN Dalam Negeri yang semula mendapatkan fasilitas dapat dikreditkan"
+    },
+    {
+      "kap_kjs": "411211-122",
+      "kap": "411211",
+      "kjs": "122",
+      "keterangan": "PPN Dalam Negeri yang semula mendapatkan fasilitas tidak dapat dikreditkan",
+      "halaman": 28,
+      "kutipan": "411211-122 PPN Dalam Negeri yang semula mendapatkan fasilitas tidak dapat dikreditkan"
+    },
+    {
+      "kap_kjs": "411211-140",
+      "kap": "411211",
+      "kjs": "140",
+      "keterangan": "Pembayaran Kembali oleh PNABI atas PPN yang Seharusnya Tidak Diberikan Pembebasan",
+      "halaman": 28,
+      "kutipan": "411211-140 Pembayaran Kembali oleh PNABI atas PPN yang Seharusnya Tidak Diberikan Pembebasan"
+    },
+    {
+      "kap_kjs": "411212-101",
+      "kap": "411212",
+      "kjs": "101",
+      "keterangan": "PPN Impor - BKP tidak berwujud atau JKP dari luar Daerah Pabean",
+      "halaman": 28,
+      "kutipan": "411212-101 PPN Impor - BKP tidak berwujud atau JKP dari luar Daerah Pabean"
+    },
+    {
+      "kap_kjs": "411212-102",
+      "kap": "411212",
+      "kjs": "102",
+      "keterangan": "PPN Impor - Masa atas SP3DRI",
+      "halaman": 28,
+      "kutipan": "411212-102 PPN Impor - Masa atas SP3DRI"
+    },
+    {
+      "kap_kjs": "411212-121",
+      "kap": "411212",
+      "kjs": "121",
+      "keterangan": "PPN Impor semula dapat fasilitas dapat dikreditkan",
+      "halaman": 28,
+      "kutipan": "411212-121 PPN Impor semula dapat fasilitas dapat dikreditkan"
+    },
+    {
+      "kap_kjs": "411212-122",
+      "kap": "411212",
+      "kjs": "122",
+      "keterangan": "PPN Impor semula dapat fasilitas tidak dapat dikreditkan",
+      "halaman": 28,
+      "kutipan": "411212-122 PPN Impor semula dapat fasilitas tidak dapat dikreditkan"
+    },
+    {
+      "kap_kjs": "411212-900",
+      "kap": "411212",
+      "kjs": "900",
+      "keterangan": "PPN Impor - Pemungutan oleh NonBendaharawan",
+      "halaman": 28,
+      "kutipan": "411212-900 PPN Impor - Pemungutan oleh NonBendaharawan"
+    },
+    {
+      "kap_kjs": "411212-910",
+      "kap": "411212",
+      "kjs": "910",
+      "keterangan": "PPN Impor - Pemungutan oleh Bendaharawan",
+      "halaman": 28,
+      "kutipan": "411212-910 PPN Impor - Pemungutan oleh Bendaharawan"
+    },
+    {
+      "kap_kjs": "411219-100",
+      "kap": "411219",
+      "kjs": "100",
+      "keterangan": "PPN Lainnya - Masa",
+      "halaman": 28,
+      "kutipan": "411219-100 PPN Lainnya - Masa"
+    },
+    {
+      "kap_kjs": "411221-107",
+      "kap": "411221",
+      "kjs": "107",
+      "keterangan": "PPn BM Dalam Negeri atas penyerahan BKP di KPBPB",
+      "halaman": 28,
+      "kutipan": "411221-107 PPn BM Dalam Negeri atas penyerahan BKP di KPBPB"
+    },
+    {
+      "kap_kjs": "411221-122",
+      "kap": "411221",
+      "kjs": "122",
+      "keterangan": "PPn BM Dalam Negeri yang semula mendapatkan fasilitas tidak dapat dikreditkan",
+      "halaman": 28,
+      "kutipan": "411221-122 PPn BM Dalam Negeri yang semula mendapatkan fasilitas tidak dapat dikreditkan"
+    },
+    {
+      "kap_kjs": "411221-140",
+      "kap": "411221",
+      "kjs": "140",
+      "keterangan": "Pembayaran Kembali oleh PNABI atas PPnBM yang Seharusnya Tidak Diberikan Pembebasan",
+      "halaman": 28,
+      "kutipan": "411221-140 Pembayaran Kembali oleh PNABI atas PPnBM yang Seharusnya Tidak Diberikan Pembebasan"
+    },
+    {
+      "kap_kjs": "411222-102",
+      "kap": "411222",
+      "kjs": "102",
+      "keterangan": "PPn BM Impor - Masa atas SP3DRI",
+      "halaman": 28,
+      "kutipan": "411222-102 PPn BM Impor - Masa atas SP3DRI"
+    },
+    {
+      "kap_kjs": "411222-900",
+      "kap": "411222",
+      "kjs": "900",
+      "keterangan": "PPn BM Impor - Pemungutan oleh Non-Bendaharawan",
+      "halaman": 28,
+      "kutipan": "411222-900 PPn BM Impor - Pemungutan oleh Non-Bendaharawan"
+    },
+    {
+      "kap_kjs": "411222-910",
+      "kap": "411222",
+      "kjs": "910",
+      "keterangan": "PPn BM Impor - Pemungutan oleh Bendaharawan",
+      "halaman": 28,
+      "kutipan": "411222-910 PPn BM Impor - Pemungutan oleh Bendaharawan"
+    },
+    {
+      "kap_kjs": "411229-100",
+      "kap": "411229",
+      "kjs": "100",
+      "keterangan": "PPn BM Lainnya - Masa",
+      "halaman": 28,
+      "kutipan": "411229-100 PPn BM Lainnya - Masa"
+    },
+    {
+      "kap_kjs": "411611-100",
+      "kap": "411611",
+      "kjs": "100",
+      "keterangan": "Pembayaran Bea Meterai dengan setoran SSP",
+      "halaman": 28,
+      "kutipan": "411611-100 Pembayaran Bea Meterai dengan setoran SSP"
+    },
+    {
+      "kap_kjs": "411611-101",
+      "kap": "411611",
+      "kjs": "101",
+      "keterangan": "Pelunasan Bea Meterai dengan sistem komputerisasi",
+      "halaman": 28,
+      "kutipan": "411611-101 Pelunasan Bea Meterai dengan sistem komputerisasi"
+    },
+    {
+      "kap_kjs": "411611-102",
+      "kap": "411611",
+      "kjs": "102",
+      "keterangan": "Penebusan meterai elektronik oleh Authorized Distributor",
+      "halaman": 28,
+      "kutipan": "411611-102 Penebusan meterai elektronik oleh Authorized Distributor"
+    },
+    {
+      "kap_kjs": "411611-201",
+      "kap": "411611",
+      "kjs": "201",
+      "keterangan": "Bea Meterai - Deposit Mesin Teraan Digital",
+      "halaman": 28,
+      "kutipan": "411611-201 Bea Meterai - Deposit Mesin Teraan Digital"
+    },
+    {
+      "kap_kjs": "411611-512",
+      "kap": "411611",
+      "kjs": "512",
+      "keterangan": "Bea Meterai - Sanksi Administrasi Pemetereian Kemudian",
+      "halaman": 28,
+      "kutipan": "411611-512 Bea Meterai - Sanksi Administrasi Pemetereian Kemudian"
+    },
+    {
+      "kap_kjs": "411612-100",
+      "kap": "411612",
+      "kjs": "100",
+      "keterangan": "PPn Benda Meterai - Penjualan Meterai Tempel",
+      "halaman": 28,
+      "kutipan": "411612-100 PPn Benda Meterai - Penjualan Meterai Tempel"
+    },
+    {
+      "kap_kjs": "411613-100",
+      "kap": "411613",
+      "kjs": "100",
+      "keterangan": "PPn Batubara - Masa",
+      "halaman": 28,
+      "kutipan": "411613-100 PPn Batubara - Masa"
+    },
+    {
+      "kap_kjs": "411618-100",
+      "kap": "411618",
+      "kjs": "100",
+      "keterangan": "Setoran untuk Deposit Pajak",
+      "halaman": 29,
+      "kutipan": "411618-100 Setoran untuk Deposit Pajak"
+    },
+    {
+      "kap_kjs": "411618-200",
+      "kap": "411618",
+      "kjs": "200",
+      "keterangan": "Deposit Pajak - Pembayaran untuk Permohonan Perpanjangan Jangka Waktu Penyampaian SPT Tahunan",
+      "halaman": 29,
+      "kutipan": "411618-200 Deposit Pajak - Pembayaran untuk Permohonan Perpanjangan Jangka Waktu Penyampaian SPT Tahunan"
+    },
+    {
+      "kap_kjs": "411619-100",
+      "kap": "411619",
+      "kjs": "100",
+      "keterangan": "Pajak Tidak Langsung Lainnya - Masa",
+      "halaman": 29,
+      "kutipan": "411619-100 Pajak Tidak Langsung Lainnya - Masa"
+    },
+    {
+      "kap_kjs": "411619-111",
+      "kap": "411619",
+      "kjs": "111",
+      "keterangan": "Pajak Tidak Langsung Lainnya - Pajak Transaksi Elektronik (PTE)",
+      "halaman": 29,
+      "kutipan": "411619-111 Pajak Tidak Langsung Lainnya - Pajak Transaksi Elektronik (PTE)"
+    },
+    {
+      "kap_kjs": "411619-530",
+      "kap": "411619",
+      "kjs": "530",
+      "keterangan": "Pembayaran untuk Penghentian Penyidikan Pasal 44B UU KUP",
+      "halaman": 29,
+      "kutipan": "411619-530 Pembayaran untuk Penghentian Penyidikan Pasal 44B UU KUP"
+    },
+    {
+      "kap_kjs": "411619-531",
+      "kap": "411619",
+      "kjs": "531",
+      "keterangan": "Pembayaran untuk Sanksi Denda Penghentian Penyidikan Pasal 44B UU KUP",
+      "halaman": 29,
+      "kutipan": "411619-531 Pembayaran untuk Sanksi Denda Penghentian Penyidikan Pasal 44B UU KUP"
+    },
+    {
+      "kap_kjs": "411619-900",
+      "kap": "411619",
+      "kjs": "900",
+      "keterangan": "Pajak Tidak Langsung Lainnya - Pemungutan oleh Non- Bendaharawan",
+      "halaman": 29,
+      "kutipan": "411619-900 Pajak Tidak Langsung Lainnya - Pemungutan oleh Non- Bendaharawan"
+    },
+    {
+      "kap_kjs": "411619-910",
+      "kap": "411619",
+      "kjs": "910",
+      "keterangan": "Pajak Tidak Langsung Lainnya - Pemungutan oleh Bendaharawan",
+      "halaman": 29,
+      "kutipan": "411619-910 Pajak Tidak Langsung Lainnya - Pemungutan oleh Bendaharawan"
+    },
+    {
+      "kap_kjs": "411641-200",
+      "kap": "411641",
+      "kjs": "200",
+      "keterangan": "Pajak Eksternalitas Karbon - Tahunan",
+      "halaman": 29,
+      "kutipan": "411641-200 Pajak Eksternalitas Karbon - Tahunan"
+    }
+  ],
+  "peta_kewajiban": {
+    "PLAYBOOK_KODE_BILLING": {
+      "kode": "PLAYBOOK_KODE_BILLING",
+      "judul": "Pembuatan kode billing pembayaran mandiri",
+      "kap_kjs": null,
+      "keterangan_kap_kjs": null,
+      "halaman_kap_kjs": null,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": "KAP/KJS tidak tercantum pada Buku Manual Coretax 2024 Seri Pembayaran."
+    },
+    "PLAYBOOK_TAGIHAN": {
+      "kode": "PLAYBOOK_TAGIHAN",
+      "judul": "Pembayaran tagihan/ketetapan (STP/SKPKB)",
+      "kap_kjs": null,
+      "keterangan_kap_kjs": null,
+      "halaman_kap_kjs": null,
+      "langkah": [
+        {
+          "halaman": 30,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Pembuatan Kode Billing Atas Tagihan Pajak” [2]. Kode Billing atas Tagihan Pajak Pemilihan Menu 2 1 GAMBAR 18 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration S",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 31,
+          "teks": "Pilih tunggakan yang akan dibayar dengan memberi tanda centang [3]. Lalu isikan nominal pembayaran pada kolom “Amount You Want to pay” (Jumlah yang harus dibayar) [4]. Sebagai catatan, nominal pembayaran yang diisikan ti",
+          "kutipan": "Pilih tunggakan yang akan dibayar"
+        },
+        {
+          "halaman": 31,
+          "teks": "isikan nominal pembayaran pada kolom “Amount You Want to pay” (Jumlah yang harus dibayar) [4]. Sebagai catatan, nominal pembayaran yang diisikan tidak dapat melebihi nilai tunggakan pajak yang dimiliki. Selain itu, wajib",
+          "kutipan": "isikan nominal pembayaran"
+        },
+        {
+          "halaman": 31,
+          "teks": "Buat Kode Billing” [6]”. Jika memilih “Bayar dengan Pemindahbukuan Deposit Pajak” [5], sistem akan melakukan pemindahbukuan secara otomatis. Sementara jika memilih “Buat Kode Billing” [6], sistem akan mengunduh secara ot",
+          "kutipan": "Buat Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing atas Tagihan",
+        "BPN/NTPN"
+      ],
+      "catatan": "KAP/KJS mengikuti jenis tagihan yang tampil pada daftar tunggakan."
+    },
+    "Kewajiban_LaporSPT": {
+      "kode": "Kewajiban_LaporSPT",
+      "judul": "Penyetoran kurang bayar SPT Tahunan OP",
+      "kap_kjs": "411125-100",
+      "keterangan_kap_kjs": "PPh Pasal 25/29 Orang Pribadi - Masa",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_Tenggat_SPT_Tahunan_OP_3Bln": {
+      "kode": "Kewajiban_Tenggat_SPT_Tahunan_OP_3Bln",
+      "judul": "Penyetoran PPh 29 Orang Pribadi",
+      "kap_kjs": "411125-100",
+      "keterangan_kap_kjs": "PPh Pasal 25/29 Orang Pribadi - Masa",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln": {
+      "kode": "Kewajiban_Tenggat_SPT_Tahunan_Badan_4Bln",
+      "judul": "Penyetoran PPh 29 Badan",
+      "kap_kjs": "411126-100",
+      "keterangan_kap_kjs": "PPh Pasal 25/29 Badan - Masa",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_PotongSetor_SewaTanahBangunan": {
+      "kode": "Kewajiban_PotongSetor_SewaTanahBangunan",
+      "judul": "Setor PPh Final sewa tanah/bangunan",
+      "kap_kjs": "411128-403",
+      "keterangan_kap_kjs": "PPh Final Pasal 4 (2) atas Sewa Tanah dan/atau Bangunan",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta": {
+      "kode": "Kewajiban_SetorSSP_ValidasiKPP_SebelumAkta",
+      "judul": "Setor PPh Final pengalihan hak atas tanah/bangunan",
+      "kap_kjs": "411128-402",
+      "keterangan_kap_kjs": "PPh Final Pasal 4 (2) atas Pengalihan Hak Tanah dan/atau Bangunan",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_PekerjaBebas_TarifUmum_NonPP55": {
+      "kode": "Kewajiban_PekerjaBebas_TarifUmum_NonPP55",
+      "judul": "Setor PPh 25/29 Orang Pribadi",
+      "kap_kjs": "411125-100",
+      "keterangan_kap_kjs": "PPh Pasal 25/29 Orang Pribadi - Masa",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_Rekonsiliasi_MultiPemberiKerja": {
+      "kode": "Kewajiban_Rekonsiliasi_MultiPemberiKerja",
+      "judul": "Setor kurang bayar PPh 29 Orang Pribadi",
+      "kap_kjs": "411125-100",
+      "keterangan_kap_kjs": "PPh Pasal 25/29 Orang Pribadi - Masa",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_DaftarPKP_PungutPPN": {
+      "kode": "Kewajiban_DaftarPKP_PungutPPN",
+      "judul": "Setor PPN dalam negeri",
+      "kap_kjs": "411211-103",
+      "keterangan_kap_kjs": "PPN Dalam Negeri - Kegiatan Membangun Sendiri",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    },
+    "Kewajiban_LaporPBB": {
+      "kode": "Kewajiban_LaporPBB",
+      "judul": "Setor PBB",
+      "kap_kjs": null,
+      "keterangan_kap_kjs": null,
+      "halaman_kap_kjs": null,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": "Kode PBB tidak tercantum pada panduan pembayaran ini; gunakan menu pembayaran daerah/MPN sesuai ketentuan."
+    },
+    "Kewajiban_PencatatanTerpisah_JasaKonstruksi": {
+      "kode": "Kewajiban_PencatatanTerpisah_JasaKonstruksi",
+      "judul": "Setor PPh Final jasa konstruksi",
+      "kap_kjs": null,
+      "keterangan_kap_kjs": null,
+      "halaman_kap_kjs": null,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": "KAP/KJS tidak tercantum pada Buku Manual Coretax 2024 Seri Pembayaran."
+    },
+    "Fasilitas_PP55_Final_0_5Pct": {
+      "kode": "Fasilitas_PP55_Final_0_5Pct",
+      "judul": "Setor PPh Final UMKM 0,5%",
+      "kap_kjs": "411128-420",
+      "keterangan_kap_kjs": "PPh Final UMKM Setor Sendiri",
+      "halaman_kap_kjs": 27,
+      "langkah": [
+        {
+          "halaman": 23,
+          "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+          "kutipan": "silakan pilih modul “Pembayaran”"
+        },
+        {
+          "halaman": 24,
+          "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+          "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+        },
+        {
+          "halaman": 24,
+          "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+          "kutipan": "Tekan tombol Lanjut"
+        },
+        {
+          "halaman": 25,
+          "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+          "kutipan": "Isikan Nilai"
+        },
+        {
+          "halaman": 25,
+          "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+          "kutipan": "Tekan tombol “Unduh Kode Billing"
+        }
+      ],
+      "dokumen": [
+        "Kode Billing",
+        "Bukti Penerimaan Negara (BPN)/NTPN"
+      ],
+      "catatan": null
+    }
+  },
+  "langkah_umum": [
+    {
+      "halaman": 23,
+      "teks": "silakan pilih modul “Pembayaran” [1] --> lalu “Layanan Mandiri Kode Billing [2]. Pemilihan Menu Layanan Kode Billing Mandiri 2 1 GAMBAR 13 TAMPILAN MODUL PEMBAYARAN Buku Manual | Coretax Administration System | Sistem In",
+      "kutipan": "silakan pilih modul “Pembayaran”"
+    },
+    {
+      "halaman": 24,
+      "teks": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor pada kolom “KAP-KJS [4]” dan masa pajak di “Periode dan Tahun Pajak [5].” Berikutnya akan ditampilkan kolom-kolom isian terkait dengan kode billing sebagaimana ditunjukk",
+      "kutipan": "Silakan pilih Kode Akun Pajak dan Kode Jenis Setor"
+    },
+    {
+      "halaman": 24,
+      "teks": "Tekan tombol Lanjut [3] untuk memulai pembuatan kode billing mandiri. 3 4 5 Langkah selanjutnya adalah mengisi mata uang, nilai dan keterangan sebagaimana ditunjukkan pada gambar 16 halaman berikut. GAMBAR 15 TAMPILAN SU",
+      "kutipan": "Tekan tombol Lanjut"
+    },
+    {
+      "halaman": 25,
+      "teks": "Isikan Nilai [7] atau jumlah pembayaran yang akan dilakukan. Lalu tuliskan keterangan pada kolom “Keterangan [8]“ untuk memberikan catatan terkait pembayaran dimaksud (jika dibutuhkan). • Tekan tombol “Unduh Kode Billing",
+      "kutipan": "Isikan Nilai"
+    },
+    {
+      "halaman": 25,
+      "teks": "Tekan tombol “Unduh Kode Billing [9]” untuk membuat kode billing. Kode billing yang berhasil dibuat akan terunduh secara otomatis oleh sistem dan memiliki masa aktif sampai dengan 7 (tujuh) hari sejak dibuat. Apabila jan",
+      "kutipan": "Tekan tombol “Unduh Kode Billing"
+    }
+  ]
+}

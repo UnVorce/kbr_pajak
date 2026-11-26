@@ -111,12 +111,14 @@ def _extract_rates_from_clause(txt: str) -> List[Tuple[str, str, float, str]]:
             out.append(("BBNKB", "%", v, txt[:450]))
 
     # 3. PBB-P2 (Kab/Kota/DKI) — max 0,5% sesuai UU 1/2022 HKPD Pasal 41
+    # Tarif khusus (lahan produksi pangan/ternak) dipisah agar tidak menimpa tarif umum.
     if "pbb" in low:
         m_pbb = re.search(rf"tarif\s+pbb[- ]?p2\b[^.]*?(?:ditetapkan\s+)?(?:sebesar|paling\s+tinggi)\s+{PCT_PAT}", low, re.I)
         if m_pbb:
             v = _norm_pct(m_pbb.group(1), lo=0.01, hi=0.5)
             if v is not None:
-                out.append(("PBB_P2", "%", v, txt[:450]))
+                khusus = any(k in low for k in ("lahan produksi pangan", "produksi pangan dan/ atau ternak", "produksi pangan atau ternak"))
+                out.append(("PBB_P2_Khusus" if khusus else "PBB_P2", "%", v, txt[:450]))
 
     # 4. NJOPTKP (Kab/Kota/DKI)
     if "njoptkp" in low or "tidak kena pajak" in low:

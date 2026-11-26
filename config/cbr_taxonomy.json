@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "catatan": "Taksonomi anotasi CBR. Kode induk (punya anak) dipakai untuk WuPalmer; anotator wajib memilih minimal satu kode daun. Perubahan taksonomi harus lewat versi baru.",
+  "jenis_koreksi": [
+    {"kode": "KOR_OMZET", "label": "Koreksi peredaran bruto", "induk": null},
+    {"kode": "KOR_OMZET_EKUALISASI", "label": "Ekualisasi peredaran bruto (SPT vs bank/PPN)", "induk": "KOR_OMZET"},
+    {"kode": "KOR_OMZET_TRANSFER_PRICING", "label": "Koreksi omzet karena hubungan istimewa/transfer pricing", "induk": "KOR_OMZET"},
+
+    {"kode": "KOR_BIAYA", "label": "Koreksi biaya", "induk": null},
+    {"kode": "KOR_BIAYA_PROMOSI", "label": "Biaya promosi/jamuan/representasi", "induk": "KOR_BIAYA"},
+    {"kode": "KOR_BIAYA_PRIBADI", "label": "Biaya untuk kepentingan pribadi", "induk": "KOR_BIAYA"},
+    {"kode": "KOR_PENYUSUTAN", "label": "Koreksi penyusutan/amortisasi", "induk": "KOR_BIAYA"},
+
+    {"kode": "KOR_PPN", "label": "Koreksi PPN", "induk": null},
+    {"kode": "KOR_PPN_MASUKAN", "label": "Pajak Masukan tidak dapat dikreditkan", "induk": "KOR_PPN"},
+    {"kode": "KOR_PPN_KELUARAN", "label": "Pajak Keluaran kurang dipungut", "induk": "KOR_PPN"},
+
+    {"kode": "KOR_POTPUT", "label": "Koreksi pemotongan/pemungutan", "induk": null},
+    {"kode": "KOR_PPH21", "label": "PPh Pasal 21", "induk": "KOR_POTPUT"},
+    {"kode": "KOR_PPH23", "label": "PPh Pasal 23", "induk": "KOR_POTPUT"},
+    {"kode": "KOR_PPH26", "label": "PPh Pasal 26", "induk": "KOR_POTPUT"},
+
+    {"kode": "KOR_FORMAL", "label": "Koreksi/keberatan formal", "induk": null},
+    {"kode": "KOR_FORMAL_SURAT", "label": "Cacat formal surat ketetapan/putusan", "induk": "KOR_FORMAL"},
+    {"kode": "KOR_DALUWARSA", "label": "Daluwarsa penetapan/penagihan", "induk": "KOR_FORMAL"},
+
+    {"kode": "KOR_PBB", "label": "Koreksi PBB", "induk": null},
+    {"kode": "KOR_PBB_NJOP", "label": "Koreksi NJOP/klasifikasi PBB", "induk": "KOR_PBB"},
+
+    {"kode": "KOR_KEPABEANAN", "label": "Koreksi kepabeanan/cukai", "induk": null},
+    {"kode": "KOR_NILAI_PABEAN", "label": "Koreksi nilai pabean/bea masuk", "induk": "KOR_KEPABEANAN"},
+    {"kode": "KOR_CUKAI", "label": "Koreksi cukai", "induk": "KOR_KEPABEANAN"},
+
+    {"kode": "KOR_KREDIT_PAJAK", "label": "Koreksi kredit pajak/angsuran PPh 25", "induk": null},
+    {"kode": "KOR_PENDAPATAN_LAIN", "label": "Penghasilan lain di luar usaha", "induk": null},
+    {"kode": "KOR_SANKSI", "label": "Sengketa sanksi bunga/denda/kenaikan", "induk": null}
+  ],
+  "fakta_kunci": [
+    {"kode": "FK_ADA_PEMBUKUAN", "label": "Wajib Pajak menyelenggarakan pembukuan"},
+    {"kode": "FK_PEMBUKUAN_TIDAK_LENGKAP", "label": "Pembukuan tidak lengkap/tidak dapat dipercaya"},
+    {"kode": "FK_REKONSILIASI_BANK", "label": "Ada rekonsiliasi bank/mutasi rekening"},
+    {"kode": "FK_DAFTAR_NOMINATIF", "label": "Ada daftar nominatif biaya"},
+    {"kode": "FK_BUKTI_POTONG", "label": "Ada bukti potong/pungut"},
+    {"kode": "FK_FAKTUR_PAJAK", "label": "Ada faktur pajak/faktur penjualan"},
+    {"kode": "FK_SAKSI_AHLI", "label": "Ada saksi/ahli dalam persidangan"},
+    {"kode": "FK_SURAT_KEPUTUSAN", "label": "Ada surat keputusan/ketetapan yang dipersengketakan"},
+    {"kode": "FK_TERLAMBAT_LAPOR", "label": "Terdapat keterlambatan pelaporan/penyetoran"},
+    {"kode": "FK_NPWP_TIDAK_VALID", "label": "NPWP/NIK penerima tidak valid"},
+    {"kode": "FK_TRANSFER_BUKTI", "label": "Ada bukti transfer/pembayaran"},
+    {"kode": "FK_PENGUKUHAN_PKP", "label": "Status pengukuhan PKP dipersoalkan"}
+  ],
+  "bukti_penentu": [
+    {"kode": "BUKTI_PEMBUKUAN", "label": "Buku besar/laporan keuangan"},
+    {"kode": "BUKTI_REKONSILIASI_BANK", "label": "Rekonsiliasi bank/mutasi rekening"},
+    {"kode": "BUKTI_FAKTUR", "label": "Faktur pajak/penjualan"},
+    {"kode": "BUKTI_POTONG", "label": "Bukti potong/pungut"},
+    {"kode": "BUKTI_SAKSI", "label": "Keterangan saksi"},
+    {"kode": "BUKTI_AHLI", "label": "Keterangan ahli"},
+    {"kode": "BUKTI_LAIN", "label": "Alat bukti lain (dokumen pendukung)"}
+  ],
+  "rezim_hukum": ["AKTIF", "DIUBAH", "DICABUT", "PERLU_VERIFIKASI"],
+  "amar": ["KABUL_SELURUHNYA", "KABUL_SEBAGIAN", "TOLAK", "TIDAK_DAPAT_DITERIMA", "LAINNYA", "BATAL"]
+}

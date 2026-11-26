@@ -480,6 +480,12 @@
   <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
 </owl:DatatypeProperty>
 
+<owl:DatatypeProperty rdf:about="#hasNominalRupiah">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
 <owl:DatatypeProperty rdf:about="#hasRuleId">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#AturanHukum"/>
@@ -2699,6 +2705,10 @@
 </owl:Class>
 
 <owl:Class rdf:about="#PP55UMKM">
+  <rdfs:subClassOf rdf:resource="#FasilitasPerpajakan"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PTKP">
   <rdfs:subClassOf rdf:resource="#FasilitasPerpajakan"/>
 </owl:Class>
 

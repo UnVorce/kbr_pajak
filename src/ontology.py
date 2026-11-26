@@ -5,7 +5,7 @@ Menghasilkan:
 - ontology/kbr_pajak_tbox.owl & .ttl   (TBox SROIQ(D) + aturan SWRL DL-safe)
 - ontology/kbr_pajak_reasoning.owl     (TBox + SWRL + ~200 individu inti + skenario uji TK-*)
 - ontology/rule_map.json               (pemetaan konsep reasoning -> rule_id & pasal sumber)
-- data/export/kbr_pajak_full.ttl       (ekspor RDF penuh seluruh 12.907 aturan legal_rules.jsonl)
+- data/export/kbr_pajak_full.ttl       (ekspor RDF penuh seluruh 12.921 aturan legal_rules.jsonl)
 """
 from __future__ import annotations
 
@@ -296,6 +296,7 @@ def build_tbox(world: Optional[World] = None) -> tuple:
         class TarifFinal(TarifPajak): pass
         class FasilitasPerpajakan(Thing): pass
         class PP55UMKM(FasilitasPerpajakan): pass
+        class PTKP(FasilitasPerpajakan): pass
         class KewajibanPajak(Thing): pass
         class SanksiAdministratif(Thing): pass
         class DomainPajak(Thing): pass
@@ -455,6 +456,7 @@ def build_tbox(world: Optional[World] = None) -> tuple:
 
         class hasTarifPersen(TarifPajak >> float, FunctionalProperty): pass
         class hasNominalSanksi(SanksiAdministratif >> float, FunctionalProperty): pass
+        class hasNominalRupiah(Thing >> float, FunctionalProperty): pass
         class hasRuleId(AturanHukum >> str, FunctionalProperty): pass
         class hasSourceLocator(Thing >> str, FunctionalProperty): pass
         class hasSourceQuote(Thing >> str, FunctionalProperty): pass
@@ -945,6 +947,8 @@ def _create_catalog_and_swrl(onto, rules_by_id: Dict[str, dict], mk_docs: Dict[s
             ("UsahaDagangJasa", "Usaha_Kuliner_Warung", "Usaha Kuliner / Warung / Kafe"),
             ("UsahaDagangJasa", "Bengkel_Konveksi_Kerajinan", "Usaha Bengkel / Konveksi / Pengrajin"),
             ("UsahaDagangJasa", "Penyedia_Jasa_Umum", "Penyedia Jasa Umum Non-Pekerjaan Bebas"),
+            ("PekerjaanBebas", "PekerjaBebas_Umum", "Pekerja Bebas - Profesi Lainnya (tidak dirinci)"),
+            ("UsahaDagangJasa", "PelakuUsaha_Umum", "Pelaku Usaha / UMKM - Bidang Lainnya (tidak dirinci)"),
         ]
         for j_cls_name, j_id, j_lbl in job_specs:
             j_cls = getattr(onto, j_cls_name)
@@ -971,6 +975,18 @@ def _create_catalog_and_swrl(onto, rules_by_id: Dict[str, dict], mk_docs: Dict[s
             f_cls = getattr(onto, f_cls_name)
             f_ind = f_cls(f_id)
             f_ind.label = [f_lbl]
+
+        # 2d. Individu PTKP (UU PPh Pasal 7 ayat (1): 54jt + 4,5jt kawin + 4,5jt/tanggungan maks 3)
+        ptkp_specs = [
+            ("TK/0", 54_000_000.0), ("TK/1", 58_500_000.0), ("TK/2", 63_000_000.0), ("TK/3", 67_500_000.0),
+            ("K/0", 58_500_000.0), ("K/1", 63_000_000.0), ("K/2", 67_500_000.0), ("K/3", 72_000_000.0),
+        ]
+        _ptkp_rule = ensure_aturan("R-UU-1983-7-01c5a8a1bf", "UU-1983-7", "UU-1983-7#BT/7")
+        for status, nominal in ptkp_specs:
+            p_ind = onto.PTKP(_safe_id(f"PTKP_{status}"))
+            p_ind.label = [f"PTKP {status}"]
+            p_ind.hasNominalRupiah = nominal
+            p_ind.didasarkanPadaAturan.append(_ptkp_rule)
 
         # Tautkan contoh rantai rujukan regulasi (TransitiveProperty merujukDokumen -> S dalam SROIQ)
         r_pmk131 = ensure_reg("PMK-2024-131")
@@ -1251,7 +1267,7 @@ def _create_demo_scenarios(onto) -> None:
 
 
 def export_full_rules_ttl(rules_list: List[dict], out_ttl: Path) -> int:
-    """Ekspor seluruh 12.907 aturan legal_rules.jsonl ke Turtle RDF untuk rdflib/SPARQL."""
+    """Ekspor seluruh 12.921 aturan legal_rules.jsonl ke Turtle RDF untuk rdflib/SPARQL."""
     g = Graph()
     KBR = Namespace(BASE_IRI)
     g.bind("kbr", KBR)
@@ -1344,6 +1360,7 @@ def build_all_ontologies(
 
     reasoning_owl = out_dir / "kbr_pajak_reasoning.owl"
     onto_res.save(file=str(reasoning_owl), format="rdfxml")
+
     (out_dir / "rule_map.json").write_text(json.dumps(rule_map, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # 3. Uji konsistensi & inferensi dengan HermiT pada World terisolasi
@@ -1374,7 +1391,7 @@ def build_all_ontologies(
             "sanksi": sorted(s.name for s in ind.berisikoSanksi),
         }
 
-    # 4. Ekspor penuh seluruh 12.907 aturan ke Turtle untuk rdflib/SPARQL
+    # 4. Ekspor penuh seluruh 12.921 aturan ke Turtle untuk rdflib/SPARQL
     full_count = export_full_rules_ttl(rules_list, full_ttl_path)
 
     return {

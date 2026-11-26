@@ -1,0 +1,38 @@
+# Build context hanya butuh artefak runtime; jangan kirim korpus 496 MB ke daemon Docker.
+.git
+.gitignore
+sources/
+download-pdf/
+
+**/__pycache__
+**/*.pyc
+**/*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Korpus besar yang tidak dipakai runtime backend
+knowledge_json/documents/
+knowledge_json/consolidated/
+knowledge_json/perda/
+knowledge_json/jurisprudence/
+knowledge_json/putusan_mk/
+knowledge_json/sema_tun/
+knowledge_json/metadata/
+knowledge_json/review/
+knowledge_json/pph_op/
+knowledge_json/text_lampiran/
+data/
+
+# Dokumentasi & notebook tidak diperlukan di image
+docs/
+notebooks/
+tests/
+reports/
+
+# Artefak lokal
+*.log
+*.sqlite
+*.db

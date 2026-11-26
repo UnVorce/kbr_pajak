@@ -1,195 +1,192 @@
 # -*- coding: utf-8 -*-
-"""FastAPI Service untuk KBR Pajak (Fase 7).
+"""FastAPI Service KBR Pajak — API v2.0.0 (kontrak PRD §9.3).
 
-Menjalankan reasoning OWL 2 SROIQ(D) + SWRL (HermiT) dan query SPARQL provenance
-untuk konsumsi frontend (`yoeke-front`) dan modul RAG (`daRAG`).
+Semua route berada di bawah `/api` (alias `/api/v1`). Root lama (`/reason`, `/health`)
+dihapus sesuai keputusan B0-1.
+
+- `POST /api/reason` : payload PRD (snake_case, `pekerjaan_utama`/`pekerjaan_sekunder`)
+- `GET  /api/regions`: 390 Pemda kanonik (dari 524 Perda PDRD)
 """
 from __future__ import annotations
 
+import os
 from typing import Any, Dict, List, Literal, Optional
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import APIRouter, FastAPI, HTTPException, Query, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel, Field
+from fastapi.responses import JSONResponse
 
+from .advisory import cbr_search, risk_catalog
+from .coretax import catalog as coretax_catalog, playbook_all, playbook_for, search_kode
+from .contract_v2 import ReasonRequest, build_response, to_internal
 from .engine import KBRReasoningEngine
 
 engine = KBRReasoningEngine()
+if (os.environ.get("KBR_WARMUP") or "1") != "0":
+    engine.warmup()
+
+
+def _cors_origins() -> List[str]:
+    """Origin FE yang diizinkan: `*` (dev) atau daftar dipisah koma (produksi)."""
+    raw = (os.environ.get("KBR_CORS_ORIGINS") or "*").strip()
+    if not raw or raw == "*":
+        return ["*"]
+    return [o.strip() for o in raw.split(",") if o.strip()]
+
 
 app = FastAPI(
     title="KBR Pajak Reasoning & Provenance API",
     description=(
         "API Reasoning Ontologi Pajak Indonesia (OWL 2 SROIQ(D) + SWRL via HermiT) "
-        "dan Query Provenance SPARQL atas 12.907 aturan hukum tervalidasi."
+        "dan Query Provenance SPARQL atas 12.921 aturan hukum tervalidasi. "
+        "Kontrak mengikuti PRD §9.3: multi-stream income, PPh 21 TER, komparasi 3 skema, "
+        "rekonsiliasi PPh 29, PPh Final Pasal 4(2), dan provenance."
     ),
-    version="1.0.0",
+    version="2.0.0",
+    docs_url="/api/docs",
+    redoc_url="/api/redoc",
+    openapi_url="/api/openapi.json",
 )
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_cors_origins(),
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
 
-class TaxpayerProperties(BaseModel):
-    # Relasi individu (lihat GET /options & GET /kbli)
-    memilikiPekerjaan: Optional[List[str]] = Field(default=None, description="Daftar ID JenisPekerjaan (khusus OrangPribadi), mis. ['Dokter', 'PegawaiTetap_Swasta']")
-    memilikiPenghasilanFinal: Optional[List[str]] = Field(default=None, description="Daftar ID ObjekPenghasilanFinal Pasal 4(2) (lihat GET /options -> final_income_objects), mis. ['Jenis_SewaTanahBangunan', 'Jenis_BungaDepositoTabungan']")
-    berdomisiliDi: Optional[List[str]] = Field(default=None, description="Daftar ID WilayahDaerah, mis. ['Wilayah_Kota_Surabaya']")
-    kodeKBLI: Optional[str] = Field(default=None, description="Kode KBLI/KLU 5 digit (mis. '69100', '86201', '03222') untuk lookup SKOS NPPN & Tax Allowance")
-    lokasiProvinsiTaxAllowance: Optional[str] = Field(default=None, description="Nama provinsi/kota lokasi proyek untuk syarat wilayah Lampiran II PP 78/2019")
-    pemdaId: Optional[str] = Field(default=None, description="ID Pemda dari 524 Perda (mis. 'KOTA_BANDUNG', 'KAB_BOGOR', 'PROV_DKI_JAKARTA') — lihat GET /perda")
-
-    # Kuantitatif umum & Badan
-    hasOmzetTahunan: Optional[float] = Field(default=None, ge=0, description="Peredaran bruto tahunan (Rp)")
-    hasNilaiInvestasi: Optional[float] = Field(default=None, ge=0, description="Nilai rencana penanaman modal baru (Rp)")
-    hasPersentaseSahamPublik: Optional[float] = Field(default=None, ge=0, le=100, description="Persentase saham publik (%)")
-    hasJumlahPemegangSahamPublik: Optional[int] = Field(default=None, ge=0, description="Jumlah pihak pemegang saham publik (syarat Tbk >= 300)")
-    hasHariTerpenuhiTbk: Optional[int] = Field(default=None, ge=0, le=366, description="Jumlah hari pemenuhan syarat Tbk dalam 1 tahun pajak (>= 183)")
-    hasJumlahKendaraan: Optional[int] = Field(default=None, ge=0, description="Urutan kepemilikan kendaraan bermotor")
-    hasKapasitasMesinCC: Optional[int] = Field(default=None, ge=0, description="Kapasitas mesin kendaraan (cc, untuk PKB Bali)")
-    hasNilaiNJOP: Optional[float] = Field(default=None, ge=0, description="Nilai Jual Objek Pajak PBB-P2 (Rp)")
-    hasPersentaseNJOP_PBB: Optional[float] = Field(default=None, ge=0, le=100, description="Persentase NJOP pengenaan PBB-P2 (20-100%, opsional untuk kalkulator)")
-    hasNJOPTKP_PBB: Optional[float] = Field(default=None, ge=0, description="NJOPTKP daerah PBB-P2 (Rp, opsional untuk kalkulator)")
-    hasDPP_PPN: Optional[float] = Field(default=None, ge=0, description="Dasar Pengenaan Pajak PPN tahunan/transaksi (Rp, opsional untuk kalkulator)")
-
-    # Status Badan & Fasilitas
-    isPerseroanTerbuka: Optional[bool] = None
-    isPerseroanPerorangan: Optional[bool] = None
-    isIndustriPionir: Optional[bool] = None
-    isPenanamanModalBaru: Optional[bool] = None
-    isBidangUsahaTaxAllowance: Optional[bool] = None
-    isLokasiProvinsiMemenuhiTaxAllowance: Optional[bool] = None
-    isIndustriPadatKarya: Optional[bool] = None
-    hasSuratKeteranganFiskal: Optional[bool] = None
-    isBelumPernahPutusTaxHoliday: Optional[bool] = None
-    isUMKM_PP55: Optional[bool] = None
-    hasNPWP: Optional[bool] = None
-
-    # Status Orang Pribadi (PPh 21 / TER / Pasal 17 / SPLN / NPPN)
-    isPendudukIndonesia: Optional[bool] = None
-    isSubjekLuarNegeri: Optional[bool] = None
-    isKawin: Optional[bool] = None
-    hasJumlahTanggungan: Optional[int] = Field(default=None, ge=0, le=10, description="Jumlah tanggungan keluarga (maks diakui PTKP = 3)")
-    isPenghasilanIstriDigabung: Optional[bool] = None
-    hasPenghasilanKenaPajakTahunan: Optional[float] = Field(default=None, ge=0, description="Penghasilan Kena Pajak (PKP) tahunan OP atau Badan (Rp)")
-    hasPenghasilanBrutoBulanan: Optional[float] = Field(default=None, ge=0, description="Penghasilan bruto bulanan OP (Rp, untuk PPh 21 TER)")
-    hasJumlahPemberiKerja: Optional[int] = Field(default=None, ge=0, description="Jumlah pemberi kerja dalam 1 tahun pajak")
-    isPemberitahuanNPPNTepatWaktu: Optional[bool] = None
-    isTidakMenyelenggarakanPembukuanPencatatan: Optional[bool] = None
-    kelompokWilayahNPPN: Optional[Literal["10_IbuKota_Provinsi", "IbuKota_Provinsi_Lain", "Daerah_Lain"]] = None
-
-    # PPh Final Pasal 4 ayat (2) (terpisah dari hasPenghasilanKenaPajakTahunan)
-    hasNilaiSewaTanahBangunanTahunan: Optional[float] = Field(default=None, ge=0, description="Bruto nilai persewaan tanah dan/atau bangunan setahun (Rp, PP 34/2017)")
-    hasBungaDepositoTabunganTahunan: Optional[float] = Field(default=None, ge=0, description="Bruto bunga deposito/tabungan/SBI setahun (Rp, PP 131/2000)")
-    hasPokokDepositoTabungan: Optional[float] = Field(default=None, ge=0, description="Nilai pokok deposito/tabungan/SBI (Rp; pengecualian <= Rp7,5jt PP 131/2000)")
-    hasNilaiBrutoJasaKonstruksi: Optional[float] = Field(default=None, ge=0, description="Nilai bruto/pembayaran kontrak jasa konstruksi (Rp, PP 51/2008 jo. PP 9/2022)")
-    hasNilaiPengalihanTanahBangunan: Optional[float] = Field(default=None, ge=0, description="Nilai bruto pengalihan hak atas tanah dan/atau bangunan (Rp, PP 34/2016)")
-    isJasaAkomodasiPenginapan: Optional[bool] = Field(default=None, description="True jika jasa pelayanan penginapan beserta akomodasinya (dikecualikan dari PP 34/2017)")
-    isPenghasilanDibawahPTKP: Optional[bool] = Field(default=None, description="True jika OP SPDN berpenghasilan total <= PTKP (PP 131/2000 Pasal 1(3) / PP 34/2016 Pasal 6a)")
-
-    # PPN & Pemotongan PPh 23
-    isPenyerahanNonMewahPPN: Optional[bool] = None
-    isPenyerahanBKP_Mewah: Optional[bool] = None
-    isPenyerahanBKPStrategis: Optional[bool] = None
-    isPenerimaPenghasilanPPh23_JasaSewa: Optional[bool] = None
-    isPenerimaPenghasilanPPh23_Modal: Optional[bool] = None
-    isBankPenerimaPenghasilan: Optional[bool] = None
-
-    # Pajak Daerah & Kepatuhan/Sanksi
-    isDomisiliDKI: Optional[bool] = None
-    isMilikPribadi: Optional[bool] = None
-    isMemilikiObjekPBB: Optional[bool] = None
-    isUsahaSpaKesehatanTradisional: Optional[bool] = None
-    isUsahaHiburanSpaUmum: Optional[bool] = None
-    isTerlambatLaporSPT: Optional[bool] = None
-    isTerlambatLaporSPTMasaPPN: Optional[bool] = None
-    isDikecualikanDendaSPT: Optional[bool] = None
-    isKurangBayarSKPKB: Optional[bool] = None
-    isTidakSetorPajakDipungut: Optional[bool] = None
-    isKeberatanDitolak: Optional[bool] = None
-    isBandingDitolak: Optional[bool] = None
+@app.exception_handler(RequestValidationError)
+async def _validation_handler(request: Request, exc: RequestValidationError) -> JSONResponse:
+    """JSON rusak -> 400 (PRD §9.3.6); pelanggaran domain -> 422."""
+    errors = exc.errors()
+    if any(e.get("type") == "json_invalid" for e in errors):
+        return JSONResponse(status_code=400, content={"detail": "Format JSON tidak valid.", "errors": errors})
+    return JSONResponse(status_code=422, content={"detail": errors})
 
 
-class ReasonRequest(BaseModel):
-    wp_id: str = Field(default="WP_Simulasi_001", min_length=1, max_length=100, pattern=r"^[A-Za-z0-9_.-]+$")
-    wp_kind: Literal["PT", "CV", "Koperasi", "Yayasan", "BadanUsahaTetap", "BUT", "Badan", "OrangPribadi"] = "PT"
-    properties: TaxpayerProperties = Field(default_factory=TaxpayerProperties)
+api = APIRouter()
 
 
-class JustificationItem(BaseModel):
-    rule_id: Optional[str] = None
-    source_locator: Optional[str] = None
-    source_quote: Optional[str] = None
-    validation_status: Optional[str] = None
-    regulasi: List[str] = Field(default_factory=list)
-    mk_refs: List[str] = Field(default_factory=list)
-    sema_refs: List[str] = Field(default_factory=list)
-
-
-class InferredConceptItem(BaseModel):
-    id: str
-    label: str
-    tarif_persen: Optional[float] = None
-    justifikasi: List[JustificationItem] = Field(default_factory=list)
-
-
-class ReasonResponse(BaseModel):
-    wp_id: str
-    wp_kind: str
-    applied_properties: Dict[str, Any]
-    direct_classes: List[str]
-    inferred_classes: List[str]
-    tarif: List[InferredConceptItem]
-    fasilitas: List[InferredConceptItem]
-    kewajiban: List[InferredConceptItem]
-    sanksi: List[InferredConceptItem]
-    kbli_info: Optional[Dict[str, Any]] = None
-    perda_info: Optional[Dict[str, Any]] = None
-    estimasi_pajak: Dict[str, Any] = Field(default_factory=dict)
-    reasoner: str
-    elapsed_ms: float
-
-
-@app.get("/health", summary="Cek kesehatan service, ontologi OWL, dan RDF graph")
+@api.get("/health", summary="Status artefak ontologi, RDF, PTKP, dan cache")
 def get_health() -> dict:
-    return engine.health()
+    health = engine.health()
+    health["api_version"] = app.version
+    health["ptkp_tiers"] = len(engine.get_ptkp_table())
+    health["regions"] = len(engine.list_regions())
+    return health
 
 
-@app.post("/reason", response_model=ReasonResponse, summary="Evaluasi profil Wajib Pajak dengan HermiT + justifikasi pasal")
-def post_reason(req: ReasonRequest) -> dict:
-    try:
-        props = req.properties.model_dump(exclude_none=True)
-        return engine.reason(req.wp_id, req.wp_kind, props)
-    except FileNotFoundError as exc:
-        raise HTTPException(status_code=503, detail=str(exc)) from exc
-    except Exception as exc:
-        raise HTTPException(status_code=500, detail=f"Reasoning gagal: {exc}") from exc
+@api.get("/metrics", summary="Metrik runtime: cache, latensi p50/p95, uptime")
+def get_metrics() -> dict:
+    m = engine.metrics()
+    m["target"] = {
+        "cache_hit_p95_ms": 1000,
+        "cache_miss_p95_ms": 10000,
+        "catatan": "Gate PRD §10 (p95 < 3 s) direvisi berdasarkan pengukuran B6: cache-miss p95 ±7,1 s (HermiT), cache-hit p95 ±23 ms.",
+    }
+    return m
 
 
-@app.get("/catalog", summary="Daftar konsep katalog Tarif/Fasilitas/Kewajiban/Sanksi dan pemetaan rule_id")
-def get_catalog() -> dict:
-    try:
-        items = engine.get_catalog()
-        return {"count": len(items), "items": items}
-    except FileNotFoundError as exc:
-        raise HTTPException(status_code=503, detail=str(exc)) from exc
-
-
-@app.get("/options", summary="Daftar pilihan JenisPekerjaan, WilayahDaerah & ObjekPenghasilanFinal dari ontologi")
+@api.get("/options", summary="Katalog opsi dropdown: badan, PTKP, pekerjaan, PPh Final, zona NPPN")
 def get_options() -> dict:
     try:
-        return engine.get_options()
+        base = engine.get_options()
     except FileNotFoundError as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
+    ptkp = [
+        {"status": k, "nominal": v["nominal"]}
+        for k, v in sorted(engine.get_ptkp_table().items(), key=lambda kv: (kv[0].startswith("K"), kv[0]))
+    ]
+    return {
+        "wp_kinds": ["OrangPribadi", "PT", "CV", "Koperasi", "Yayasan", "BadanUsahaTetap", "Badan"],
+        "status_perkawinan": [{"kode": "TK", "label": "Tidak Kawin"}, {"kode": "K", "label": "Kawin"}],
+        "ptkp": ptkp,
+        "zona_nppn": [
+            {"kode": "10_IBU_KOTA_PROVINSI", "label": "10 Ibu Kota Provinsi"},
+            {"kode": "IBU_KOTA_PROVINSI_LAINNYA", "label": "Ibu Kota Provinsi Lainnya"},
+            {"kode": "DAERAH_LAINNYA", "label": "Daerah Lainnya"},
+        ],
+        "pekerjaan_jenis": [
+            {"kode": "PEGAWAI_TETAP", "label": "Pegawai Tetap"},
+            {"kode": "PEGAWAI_TIDAK_TETAP", "label": "Pegawai Tidak Tetap / Harian"},
+            {"kode": "PESERTA_KEGIATAN", "label": "Peserta Kegiatan"},
+            {"kode": "PEKERJA_BEBAS", "label": "Pekerjaan Bebas / Tenaga Ahli"},
+            {"kode": "USAHA_UMKM", "label": "Pelaku Usaha / UMKM"},
+        ],
+        **base,
+    }
 
 
-@app.get("/kbli", summary="Cari kode & uraian KBLI/KLU di graf SKOS (PER-17/PJ/2015 & PP 78/2019)")
+@api.get("/regions", summary="390 Pemda (dari 524 Perda PDRD): zona NPPN, tarif PBB-P2, NJOPTKP")
+def get_regions(
+    q: str = Query(default="", description="Kata kunci nama/ID Pemda"),
+    tingkat: Optional[Literal["PROV", "KOTA", "KAB"]] = Query(default=None),
+) -> dict:
+    try:
+        items = engine.list_regions()
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    key = (q or "").strip().lower()
+    if key:
+        items = [r for r in items if key in r["nama_daerah"].lower() or key in r["pemda_id"].lower()]
+    if tingkat:
+        items = [r for r in items if r["tingkat"] == tingkat]
+    return {
+        "count": len(items),
+        "total_pemda": len(engine.list_regions()),
+        "total_perda": sum(r["jumlah_perda"] for r in engine.list_regions()),
+        "results": items,
+    }
+
+
+@api.post("/reason", summary="Inferensi profil WP (payload PRD §9.3.3) + estimasi & provenance")
+def post_reason(req: ReasonRequest) -> dict:
+    try:
+        _validate_lookups(req)
+        wp_kind, props, ctx = to_internal(engine, req)
+        v1 = engine.reason(req.wp_id, wp_kind, props)
+        return build_response(engine, req, v1, ctx)
+    except HTTPException:
+        raise
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except Exception as exc:  # noqa: BLE001 - reasoner dapat melempar bermacam error
+        msg = str(exc)
+        if "Inconsistent" in msg or "inconsistent" in msg:
+            raise HTTPException(
+                status_code=500,
+                detail=f"Kontradiksi logika ontologi: {msg}",
+            ) from exc
+        raise HTTPException(status_code=500, detail=f"Reasoning gagal: {msg}") from exc
+
+
+def _validate_lookups(req: ReasonRequest) -> None:
+    """PRD §9.3.6: KBLI / Pemda yang tidak ada -> 422 (bukan diabaikan diam-diam)."""
+    for label, pekerjaan in (("pekerjaan_utama", req.pekerjaan_utama), ("pekerjaan_sekunder", req.pekerjaan_sekunder)):
+        if pekerjaan and pekerjaan.kbli:
+            if engine.lookup_kbli(pekerjaan.kbli) is None:
+                raise HTTPException(
+                    status_code=422,
+                    detail=f"KBLI '{pekerjaan.kbli}' pada {label} tidak ditemukan dalam katalog 1.453 KBLI.",
+                )
+    if req.kode_kbli and engine.lookup_kbli(req.kode_kbli) is None:
+        raise HTTPException(
+            status_code=422,
+            detail=f"KBLI '{req.kode_kbli}' tidak ditemukan dalam katalog 1.453 KBLI.",
+        )
+    if req.pemda_id and engine.lookup_pemda(req.pemda_id) is None:
+        raise HTTPException(
+            status_code=422,
+            detail=f"Pemda '{req.pemda_id}' tidak ditemukan dalam katalog 390 Pemda.",
+        )
+
+
+@api.get("/kbli", summary="Cari kode & uraian KBLI/KLU (SKOS PER-17/PJ/2015 & PP 78/2019)")
 def get_kbli_search(
-    q: str = Query(default="", description="Kata kunci uraian atau prefiks kode KBLI, mis. 'dokter' atau '6910'"),
+    q: str = Query(default="", description="Kata kunci uraian atau prefiks kode KBLI"),
     limit: int = Query(default=20, ge=1, le=100),
 ) -> dict:
     try:
@@ -199,7 +196,7 @@ def get_kbli_search(
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-@app.get("/kbli/{kode}", summary="Detail 1 kode KBLI/KLU (persentase NPPN 3 wilayah & Tax Allowance PP 78/2019)")
+@api.get("/kbli/{kode}", summary="Detail 1 KBLI: NPPN 3 zona, Tax Allowance, Pionir, Padat Karya")
 def get_kbli_detail(kode: str) -> dict:
     item = engine.lookup_kbli(kode)
     if item is None:
@@ -207,10 +204,10 @@ def get_kbli_detail(kode: str) -> dict:
     return item
 
 
-@app.get("/perda", summary="Cari/daftar Pemda dari 524 Perda PDRD se-Indonesia (390 Pemda unik)")
+@api.get("/perda", summary="Cari/daftar dokumen Perda PDRD (524) beserta tarif terekstrak")
 def get_perda_list(
-    q: str = Query(default="", description="Kata kunci nama/ID Pemda, mis. 'bandung', 'bogor', 'yogyakarta'"),
-    tingkat: Optional[Literal["PROV", "KOTA", "KAB"]] = Query(default=None, description="Filter tingkat Pemda"),
+    q: str = Query(default="", description="Kata kunci nama/ID Pemda"),
+    tingkat: Optional[Literal["PROV", "KOTA", "KAB"]] = Query(default=None),
     limit: int = Query(default=30, ge=1, le=400),
 ) -> dict:
     try:
@@ -220,7 +217,7 @@ def get_perda_list(
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-@app.get("/perda/{pemda_id}", summary="Detail tarif pajak daerah & kutipan Perda resmi untuk 1 Pemda")
+@api.get("/perda/{pemda_id}", summary="Detail tarif pajak daerah & kutipan pasal untuk 1 Pemda")
 def get_perda_detail(pemda_id: str) -> dict:
     item = engine.lookup_pemda(pemda_id)
     if item is None:
@@ -228,19 +225,66 @@ def get_perda_detail(pemda_id: str) -> dict:
     return item
 
 
-@app.get("/scenarios", summary="Ringkasan hasil inferensi skenario bawaan di kbr_pajak_reasoning.owl")
+@api.get("/coretax/kode", summary="Cari KAP/KJS pada Buku Manual Coretax 2024 (Seri Pembayaran)")
+def get_coretax_kode(
+    q: str = Query(default="", description="Kata kunci kode atau keterangan, mis. 'sewa' atau '411128'"),
+    limit: int = Query(default=20, ge=1, le=100),
+) -> dict:
+    items = search_kode(q, limit)
+    return {"count": len(items), "results": items, **coretax_catalog()}
+
+
+@api.get("/coretax/playbook", summary="Langkah & KAP/KJS untuk kewajiban (panduan DJP, bukan peraturan)")
+def get_coretax_playbook(
+    kewajiban: Optional[str] = Query(default=None, description="ID kewajiban dipisah koma"),
+) -> dict:
+    ids = [x.strip() for x in (kewajiban or "").split(",") if x.strip()]
+    items = playbook_for(ids) if ids else playbook_all()
+    return {"count": len(items), "items": items, "sumber": coretax_catalog()["sumber"]}
+
+
+@api.get("/risk-patterns", summary="Katalog 10 pola risiko RP-01..RP-10 + dasar hukum")
+def get_risk_patterns() -> dict:
+    return risk_catalog()
+
+
+@api.get("/cbr/search", summary="CBR tahap 1: kemiripan terhadap 284 Putusan Pengadilan Pajak")
+def get_cbr_search(
+    q: str = Query(..., min_length=3, description="Uraian pokok sengketa, mis. 'koreksi biaya promosi'"),
+    klaster: Optional[Literal["pph_badan", "pph_potput", "kup_gugatan", "ppn", "kepabeanan_cukai", "pbb"]] = Query(default=None),
+    regulasi: Optional[List[str]] = Query(default=None, description="Dokumen yang dirujuk, mis. UU-1983-7"),
+    limit: int = Query(default=3, ge=1, le=10),
+) -> dict:
+    matches = cbr_search(q, klaster, regulasi, limit=limit)
+    return {
+        "count": len(matches),
+        "metode": "tahap-1: 0.70 BM25(pokok_sengketa) + 0.20 klaster + 0.10 Jaccard(regulasi)",
+        "results": matches,
+    }
+
+
+@api.get("/catalog", summary="Peta 103 konsep katalog -> rule_id & source_quote")
+def get_catalog() -> dict:
+    try:
+        items = engine.get_catalog()
+        return {"count": len(items), "items": items}
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+@api.get("/scenarios", summary="Hasil inferensi 15 skenario bawaan ontologi")
 def get_scenarios() -> dict:
     scenarios = engine.get_preset_scenarios()
     return {"count": len(scenarios), "scenarios": scenarios}
 
 
-@app.get("/sparql/provenance", summary="Query SPARQL provenance aturan hukum pada 12.907 aturan RDF")
+@api.get("/sparql/provenance", summary="Provenance 12.921 aturan (rule_id/document_id/domain/tipe/teks)")
 def get_sparql_provenance(
-    rule_id: Optional[str] = Query(default=None, description="Filter exact rule_id, mis. R-UU-1983-6-ad287a542a"),
-    document_id: Optional[str] = Query(default=None, description="Filter exact document_id, mis. UU-1983-7"),
-    domain: Optional[str] = Query(default=None, description="Filter substring domain, mis. A2_PPH_BADAN"),
-    rule_type: Optional[str] = Query(default=None, description="Kelas aturan OWL, mis. AturanTarif, Sanksi, Pengecualian"),
-    q: Optional[str] = Query(default=None, description="Pencarian substring pada source_quote"),
+    rule_id: Optional[str] = Query(default=None),
+    document_id: Optional[str] = Query(default=None),
+    domain: Optional[str] = Query(default=None),
+    rule_type: Optional[str] = Query(default=None),
+    q: Optional[str] = Query(default=None),
     limit: int = Query(default=20, ge=1, le=200),
 ) -> dict:
     try:
@@ -257,9 +301,13 @@ def get_sparql_provenance(
         raise HTTPException(status_code=503, detail=str(exc)) from exc
 
 
-@app.get("/sparql/stats", summary="Statistik graf RDF penuh per domain & kelas aturan")
+@api.get("/sparql/stats", summary="Agregasi 12.921 aturan per domain & kelas RDF")
 def get_sparql_stats() -> dict:
     try:
         return engine.sparql_stats()
     except FileNotFoundError as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
+
+
+app.include_router(api, prefix="/api")
+app.include_router(api, prefix="/api/v1", include_in_schema=False)

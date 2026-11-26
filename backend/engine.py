@@ -13,17 +13,20 @@ Mendukung dua layout direktori otomatis:
 """
 from __future__ import annotations
 
+import copy
+import hashlib
 import json
 import os
 import re
 import threading
 import time
+from collections import deque
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 from owlready2 import ThingClass, World, destroy_entity, sync_reasoner_hermit
-from rdflib import Graph
+from rdflib import Graph, Namespace, RDF, RDFS
 
 BASE_IRI = "http://www.semanticweb.org/ontology/kbr_pajak#"
 SKOS_IRI = "http://www.w3.org/2004/02/skos/core#"
@@ -120,6 +123,164 @@ class KBRReasoningEngine:
         self._perda_graph: Optional[Graph] = None
         self._rdf_lock = threading.Lock()
         self._reasoner_lock = threading.Lock()
+        self._onto_lock = threading.RLock()
+        self._onto_graph: Optional[Graph] = None
+        self._ptkp_cache: Optional[Dict[str, dict]] = None
+        self._tarif_prog_cache: Optional[List[Tuple[float, float]]] = None
+        self._regions_cache: Optional[List[dict]] = None
+        self._kbli_cache: Dict[str, Optional[dict]] = {}
+        self._pemda_cache: Dict[str, Optional[dict]] = {}
+        self._options_cache: Optional[Dict[str, Any]] = None
+        # Cache hasil reasoning per profil (hash) — mempercepat request berulang.
+        self._cache: Dict[str, dict] = {}
+        self._cache_order: List[str] = []
+        self._cache_lock = threading.Lock()
+        self._cache_max = 128
+        self._cache_hits = 0
+        self._cache_misses = 0
+        self._reason_calls = 0
+        self._miss_lat_ms: deque = deque(maxlen=200)
+        self._hit_lat_ms: deque = deque(maxlen=200)
+        self._started_at = time.time()
+        self._catalog_cache: Optional[Dict[str, Any]] = None
+        self._warmup_ms: Optional[float] = None
+        self._cache_file = os.environ.get("KBR_CACHE_FILE")
+        if self._cache_file:
+            self._load_cache_file()
+
+    def get_ontology_graph(self) -> Graph:
+        """Parse `kbr_pajak_reasoning.owl` dengan rdflib untuk lookup cepat (PTKP, tarif)."""
+        with self._onto_lock:
+            if self._onto_graph is None:
+                if not self.paths.reasoning_owl.exists():
+                    raise FileNotFoundError(f"File ontologi tidak ditemukan: {self.paths.reasoning_owl}")
+                g = Graph()
+                g.parse(str(self.paths.reasoning_owl), format="xml")
+                self._onto_graph = g
+            return self._onto_graph
+
+    def get_ptkp_table(self) -> Dict[str, dict]:
+        """Tabel PTKP (TK/0 … K/3) langsung dari ontologi (individu kelas PTKP)."""
+        with self._onto_lock:
+            if self._ptkp_cache is not None:
+                return self._ptkp_cache
+            g = self.get_ontology_graph()
+            q = f"""
+            PREFIX kbr: <{BASE_IRI}>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            SELECT ?label ?nominal WHERE {{
+              ?ind a kbr:PTKP ;
+                   rdfs:label ?label ;
+                   kbr:hasNominalRupiah ?nominal .
+            }}
+            """
+            table: Dict[str, dict] = {}
+            for row in g.query(q):
+                label = str(row.label)
+                status = label.replace("PTKP", "").strip()
+                table[status] = {"status": status, "nominal": float(row.nominal)}
+            self._ptkp_cache = table
+            return table
+
+    def get_tarif_progresif(self) -> List[Tuple[float, float]]:
+        """(persen, batas_atas) 5 lapis Pasal 17 dari ontologi; batas bawah implisit."""
+        with self._onto_lock:
+            if self._tarif_prog_cache is not None:
+                return self._tarif_prog_cache
+            g = self.get_ontology_graph()
+            q = f"""
+            PREFIX kbr: <{BASE_IRI}>
+            SELECT ?pct WHERE {{
+              ?t a kbr:TarifProgresif ;
+                 kbr:hasTarifPersen ?pct .
+              FILTER(CONTAINS(STR(?t), "Tarif_PPhOP_Layer"))
+            }}
+            """
+            pcts = sorted(float(r.pct) for r in g.query(q))
+            batas = [60_000_000.0, 250_000_000.0, 500_000_000.0, 5_000_000_000.0, float("inf")]
+            self._tarif_prog_cache = list(zip(pcts, batas)) if len(pcts) == 5 else [
+                (5.0, 60_000_000.0), (15.0, 250_000_000.0), (25.0, 500_000_000.0),
+                (30.0, 5_000_000_000.0), (35.0, float("inf")),
+            ]
+            return self._tarif_prog_cache
+
+    def progressive_pph17(self, pkp: float) -> Tuple[float, List[dict]]:
+        """PPh Pasal 17 progresif; tarif dari ontologi, ambang lapisan tetap (UU HPP)."""
+        pkp = max(0.0, float(pkp))
+        total = 0.0
+        rows: List[dict] = []
+        lower = 0.0
+        for pct, upper in self.get_tarif_progresif():
+            if pkp <= lower:
+                break
+            lapisan = min(pkp, upper) - lower
+            if lapisan <= 0:
+                continue
+            nominal = lapisan * (pct / 100.0)
+            rows.append({
+                "lapisan_persen": pct,
+                "dasar_idr": round(lapisan, 2),
+                "pph_idr": round(nominal, 2),
+            })
+            total += nominal
+            lower = upper
+        return round(total, 2), rows
+
+    def list_regions(self) -> List[dict]:
+        """390 Pemda kanonik + zona NPPN + tarif PBB-P2 umum + NJOPTKP + jumlah Perda."""
+        if self._regions_cache is not None:
+            return self._regions_cache
+        g = self.get_perda_graph()
+        if g is None:
+            raise FileNotFoundError(f"File Perda tidak ditemukan: {self.paths.perda_ttl}")
+        base = f"""
+        PREFIX kbr: <{BASE_IRI}>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        """
+        regions: Dict[str, dict] = {}
+        q_pemda = base + """
+        SELECT ?pid ?lbl ?tk ?nppn (COUNT(DISTINCT ?perda) AS ?jml) WHERE {
+          ?p a kbr:PemdaDaerah ;
+             kbr:hasPemdaId ?pid ;
+             rdfs:label ?lbl ;
+             kbr:hasTingkatPemda ?tk ;
+             kbr:kelompokWilayahNPPN ?nppn .
+          OPTIONAL { ?p kbr:memilikiPerda ?perda . }
+        } GROUP BY ?pid ?lbl ?tk ?nppn
+        """
+        for r in g.query(q_pemda):
+            regions[str(r.pid)] = {
+                "pemda_id": str(r.pid),
+                "nama_daerah": str(r.lbl),
+                "tingkat": str(r.tk),
+                "zona_nppn": str(r.nppn),
+                "jumlah_perda": int(r.jml),
+                "tarif_pbb_persen": None,
+                "njoptkp": None,
+                "catatan_pbb": None,
+            }
+        q_rates = base + """
+        SELECT ?pid ?jk ?pct ?nom WHERE {
+          ?r kbr:untukPemda ?p ;
+             kbr:hasJenisPajakDaerah ?jk .
+          ?p kbr:hasPemdaId ?pid .
+          OPTIONAL { ?r kbr:hasTarifPersen ?pct . }
+          OPTIONAL { ?r kbr:hasNominalRupiah ?nom . }
+        }
+        """
+        for r in g.query(q_rates):
+            pid, jk = str(r.pid), str(r.jk)
+            reg = regions.get(pid)
+            if reg is None:
+                continue
+            if jk == "PBB_P2" and r.pct is not None:
+                reg["tarif_pbb_persen"] = float(r.pct)
+            elif jk == "PBB_P2_Khusus":
+                reg["catatan_pbb"] = "Tarif umum PBB-P2 tidak terekstrak; hanya tarif khusus (lahan produksi pangan/ternak) tersedia."
+            elif jk == "NJOPTKP" and r.nom is not None:
+                reg["njoptkp"] = float(r.nom)
+        self._regions_cache = [regions[k] for k in sorted(regions)]
+        return self._regions_cache
 
     def get_graph(self) -> Graph:
         with self._rdf_lock:
@@ -172,14 +333,132 @@ class KBRReasoningEngine:
             "reasoning_individuals": report.get("reasoning_individuals"),
             "swrl_rules": report.get("swrl_rules"),
             "full_rules_exported": report.get("full_rules_exported"),
+            "cache_entries": len(self._cache),
+            "cache_file": bool(self._cache_file),
+            "cache_hits": self._cache_hits,
+            "cache_misses": self._cache_misses,
         }
 
+    def warmup(self) -> dict:
+        """Muat artefak berat sekali di awal agar request pertama tidak menanggung cold start."""
+        t0 = time.perf_counter()
+        out = {}
+        for name, fn in (
+            ("catalog", self.get_catalog),
+            ("ptkp", self.get_ptkp_table),
+            ("tarif_progresif", self.get_tarif_progresif),
+            ("regions", self.list_regions),
+            ("options", self.get_options),
+            ("kbli_graph", self.get_kbli_graph),
+            ("ter_graph", self.get_ter_graph),
+            ("perda_graph", self.get_perda_graph),
+            ("ontology_graph", self.get_ontology_graph),
+        ):
+            s = time.perf_counter()
+            try:
+                fn()
+                out[name] = round((time.perf_counter() - s) * 1000.0, 1)
+            except Exception as exc:  # artefak opsional
+                out[name] = f"SKIP: {exc}"
+        self._warmup_ms = round((time.perf_counter() - t0) * 1000.0, 1)
+        out["total"] = self._warmup_ms
+        return out
+
+    def metrics(self) -> dict:
+        """Metrik runtime: cache, latensi (p50/p95/maks), dan uptime."""
+        def _pct(values, p):
+            if not values:
+                return None
+            xs = sorted(values)
+            k = max(0, min(len(xs) - 1, int(round((p / 100.0) * (len(xs) - 1)))))
+            return round(xs[k], 2)
+
+        miss = list(self._miss_lat_ms)
+        hit = list(self._hit_lat_ms)
+        total = self._cache_hits + self._cache_misses
+        return {
+            "uptime_seconds": round(time.time() - self._started_at, 1),
+            "warmup_ms": self._warmup_ms,
+            "reason_calls": self._reason_calls,
+            "cache": {
+                "entries": len(self._cache),
+                "capacity": self._cache_max,
+                "hits": self._cache_hits,
+                "misses": self._cache_misses,
+                "hit_rate": round(self._cache_hits / total, 4) if total else 0.0,
+            },
+            "latency_ms": {
+                "cache_miss": {
+                    "samples": len(miss),
+                    "p50": _pct(miss, 50),
+                    "p95": _pct(miss, 95),
+                    "max": round(max(miss), 2) if miss else None,
+                },
+                "cache_hit": {
+                    "samples": len(hit),
+                    "p50": _pct(hit, 50),
+                    "p95": _pct(hit, 95),
+                    "max": round(max(hit), 2) if hit else None,
+                },
+            },
+        }
+
+    def _cache_get(self, key: str) -> Optional[dict]:
+        with self._cache_lock:
+            hit = self._cache.get(key)
+            if hit is None:
+                self._cache_misses += 1
+                return None
+            self._cache_hits += 1
+            return copy.deepcopy(hit)
+
+    def _cache_put(self, key: str, value: dict) -> None:
+        with self._cache_lock:
+            if key not in self._cache:
+                self._cache_order.append(key)
+            self._cache[key] = copy.deepcopy(value)
+            while len(self._cache_order) > self._cache_max:
+                old = self._cache_order.pop(0)
+                self._cache.pop(old, None)
+            self._save_cache_file_locked()
+
+    def _load_cache_file(self) -> None:
+        """Muat cache dari disk (opsional, `KBR_CACHE_FILE`) agar restart tidak kehilangan hasil."""
+        try:
+            path = Path(self._cache_file)
+            if not path.exists():
+                return
+            data = json.loads(path.read_text(encoding="utf-8"))
+            entries = data.get("entries") or {}
+            for key, value in entries.items():
+                self._cache[key] = value
+                self._cache_order.append(key)
+            while len(self._cache_order) > self._cache_max:
+                self._cache.pop(self._cache_order.pop(0), None)
+        except Exception:
+            self._cache = {}
+            self._cache_order = []
+
+    def _save_cache_file_locked(self) -> None:
+        if not self._cache_file:
+            return
+        try:
+            path = Path(self._cache_file)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            tmp = path.with_suffix(".tmp")
+            tmp.write_text(json.dumps({"entries": self._cache}, ensure_ascii=False), encoding="utf-8")
+            tmp.replace(path)
+        except Exception:
+            pass
+
     def lookup_pemda(self, pemda_id: str) -> Optional[dict]:
-        g = self.get_perda_graph()
-        if g is None:
-            return None
         safe = re.sub(r"[^A-Za-z0-9_]", "_", (pemda_id or "").strip().upper())
         if not safe:
+            return None
+        if safe in self._pemda_cache:
+            return self._pemda_cache[safe]
+        g = self.get_perda_graph()
+        if g is None:
             return None
         q = f"""
         PREFIX kbr: <{BASE_IRI}>
@@ -271,11 +550,13 @@ class KBRReasoningEngine:
         ]
 
     def lookup_kbli(self, kode_kbli: str) -> Optional[dict]:
-        g = self.get_kbli_graph()
-        if g is None:
-            return None
         safe = re.sub(r"[^0-9]", "", (kode_kbli or "").strip())
         if not safe:
+            return None
+        if safe in self._kbli_cache:
+            return self._kbli_cache[safe]
+        g = self.get_kbli_graph()
+        if g is None:
             return None
         q = f"""
         PREFIX kbr: <{BASE_IRI}>
@@ -310,7 +591,7 @@ class KBRReasoningEngine:
         LIMIT 1
         """
         for r in g.query(q):
-            return {
+            result = {
                 "kode_kbli": safe,
                 "uri": str(r.c),
                 "uraian": str(r.label),
@@ -348,6 +629,9 @@ class KBRReasoningEngine:
                 "terkait_jenis_pekerjaan": str(r.job).split("#")[-1] if r.job is not None else None,
                 "is_jasa_konstruksi": safe.startswith(("41", "42", "43")),
             }
+            self._kbli_cache[safe] = result
+            return result
+        self._kbli_cache[safe] = None
         return None
 
     def search_kbli(self, query: str = "", limit: int = 20) -> List[dict]:
@@ -419,9 +703,11 @@ class KBRReasoningEngine:
         return None
 
     def get_catalog(self) -> Dict[str, Any]:
-        if not self.paths.rule_map_json.exists():
-            raise FileNotFoundError(f"rule_map.json tidak ditemukan: {self.paths.rule_map_json}")
-        return json.loads(self.paths.rule_map_json.read_text(encoding="utf-8"))
+        if self._catalog_cache is None:
+            if not self.paths.rule_map_json.exists():
+                raise FileNotFoundError(f"rule_map.json tidak ditemukan: {self.paths.rule_map_json}")
+            self._catalog_cache = json.loads(self.paths.rule_map_json.read_text(encoding="utf-8"))
+        return self._catalog_cache
 
     def get_preset_scenarios(self) -> Dict[str, Any]:
         if not self.paths.build_report_json.exists():
@@ -431,6 +717,8 @@ class KBRReasoningEngine:
 
     def get_options(self) -> Dict[str, Any]:
         """Ambil daftar pilihan JenisPekerjaan & WilayahDaerah langsung dari ontologi OWL."""
+        if self._options_cache is not None:
+            return self._options_cache
         if not self.paths.reasoning_owl.exists():
             raise FileNotFoundError(f"File ontologi tidak ditemukan: {self.paths.reasoning_owl}")
         w = World()
@@ -455,8 +743,8 @@ class KBRReasoningEngine:
                 "label": f.label[0] if f.label else f.name,
                 "kategori": cats[0] if cats else "ObjekPenghasilanFinal",
             })
-        return {"jobs": jobs, "regions": regions, "final_income_objects": final_objects}
-
+        self._options_cache = {"jobs": jobs, "regions": regions, "final_income_objects": final_objects}
+        return self._options_cache
     def reason(self, wp_id: str, wp_kind: str, props: Dict[str, Any]) -> dict:
         """Evaluasi 1 individu WajibPajak dengan HermiT di World() terisolasi."""
         if not self.paths.reasoning_owl.exists():
@@ -540,12 +828,24 @@ class KBRReasoningEngine:
         if cur_finals:
             effective_props["memilikiPenghasilanFinal"] = cur_finals
 
+        cache_key = hashlib.sha1(
+            json.dumps({"id": wp_id, "kind": wp_kind, "props": effective_props}, sort_keys=True, default=str).encode("utf-8")
+        ).hexdigest()
+        self._reason_calls += 1
+        t_req = time.perf_counter()
+        cached = self._cache_get(cache_key)
+        if cached is not None:
+            cached["cache_hit"] = True
+            cached["elapsed_ms"] = round((time.perf_counter() - t_req) * 1000.0, 2)
+            self._hit_lat_ms.append(cached["elapsed_ms"])
+            return cached
+
         t0 = time.perf_counter()
         with self._reasoner_lock:
             w = World()
             onto = w.get_ontology(str(self.paths.reasoning_owl)).load()
             with onto:
-                # Bersihkan individu skenario demo & aturan tambahan non-katalog agar inferensi tunggal steril & cepat
+                # Bersihkan individu skenario demo & aturan non-katalog agar inferensi steril.
                 for ind in list(onto.WajibPajak.instances()):
                     destroy_entity(ind)
                 linked_aturan = set()
@@ -600,6 +900,7 @@ class KBRReasoningEngine:
                     "id": it.name,
                     "label": it.label[0] if it.label else it.name,
                     "tarif_persen": getattr(it, "hasTarifPersen", None),
+                    "nominal_idr": getattr(it, "hasNominalSanksi", None) or getattr(it, "hasNominalRupiah", None),
                     "justifikasi": just,
                 })
             return sorted(out, key=lambda x: x["id"])
@@ -681,19 +982,29 @@ class KBRReasoningEngine:
             pbb_entry = td.get("PBB_P2")
             if pbb_entry and pbb_entry.get("tarif_persen") is not None:
                 njop_val = float(effective_props["hasNilaiNJOP"])
-                njoptkp_val = (
-                    float(effective_props["hasNJOPTKP_PBB"])
-                    if effective_props.get("hasNJOPTKP_PBB") is not None
-                    else float((td.get("NJOPTKP") or {}).get("nominal_idr") or 10_000_000.0)
-                )
+                if effective_props.get("hasNJOPTKP_PBB") is not None:
+                    njoptkp_val = float(effective_props["hasNJOPTKP_PBB"])
+                    njoptkp_sumber = "input_pengguna"
+                elif (td.get("NJOPTKP") or {}).get("nominal_idr") is not None:
+                    njoptkp_val = float((td.get("NJOPTKP") or {})["nominal_idr"])
+                    njoptkp_sumber = "perda"
+                else:
+                    njoptkp_val = 10_000_000.0
+                    njoptkp_sumber = "default_10jt"
                 njop_pct = float(effective_props.get("hasPersentaseNJOP_PBB") or 100.0)
                 pbb_rate = float(pbb_entry["tarif_persen"])
                 pbb_amt = max(0.0, njop_val - njoptkp_val) * (njop_pct / 100.0) * (pbb_rate / 100.0)
                 estimasi_pajak["rincian"]["pbb_pemda_tarif_persen"] = pbb_rate
                 estimasi_pajak["rincian"]["pbb_pemda_njoptkp_idr"] = njoptkp_val
+                estimasi_pajak["rincian"]["pbb_njoptkp_sumber"] = njoptkp_sumber
+                estimasi_pajak["rincian"]["pbb_status"] = "INDIKATIF" if njoptkp_sumber == "default_10jt" else "TERVERIFIKASI_PERDA"
                 estimasi_pajak["rincian"]["pbb_terutang_idr"] = round(pbb_amt, 2)
+            elif td.get("PBB_P2_Khusus") and "PBB_P2" not in td:
+                estimasi_pajak["rincian"]["pbb_status"] = "TARIF_UMUM_TIDAK_TEREKSTRAK"
 
-        return {
+        elapsed_total = round((time.perf_counter() - t_req) * 1000.0, 2)
+        self._miss_lat_ms.append(elapsed_total)
+        result = {
             "wp_id": wp_id,
             "wp_kind": wp_kind,
             "applied_properties": applied_props,
@@ -708,7 +1019,11 @@ class KBRReasoningEngine:
             "estimasi_pajak": estimasi_pajak,
             "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND/SKOS/TER/PERDA",
             "elapsed_ms": elapsed_ms,
+            "elapsed_total_ms": elapsed_total,
+            "cache_hit": False,
         }
+        self._cache_put(cache_key, result)
+        return result
 
     def _estimate_nominal_sparql(self, world: World, wp_id: str) -> Dict[str, Any]:
         """Hitung estimasi nominal pajak secara deklaratif via SPARQL BIND di atas graf hasil HermiT."""
@@ -953,7 +1268,7 @@ class KBRReasoningEngine:
         quote_contains: Optional[str] = None,
         limit: int = 20,
     ) -> List[dict]:
-        """Query SPARQL lokal pada kbr-data.ttl (12.907 aturan)."""
+        """Query SPARQL lokal pada kbr-data.ttl (12.921 aturan)."""
         g = self.get_graph()
         filters = []
         if rule_id:

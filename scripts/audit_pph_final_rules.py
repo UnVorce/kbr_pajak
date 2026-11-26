@@ -4,7 +4,7 @@
 Memverifikasi 21 aturan berstatus REVIEW_REQUIRED pada 4 regulasi PPh Final Pasal 4(2)
 terhadap teks chunk sumber, memperbaiki artefak OCR pada rate_or_value / source_quote / condition,
 dan mempromosikan status validasinya menjadi HUMAN_FIXED atau HUMAN_APPROVED tanpa mengubah
-jumlah total aturan (12.907) di data/legal_rules.jsonl.
+jumlah total aturan (12.921) di data/legal_rules.jsonl.
 
 Contoh:
     python3 scripts/audit_pph_final_rules.py
@@ -19,6 +19,15 @@ from pathlib import Path
 from typing import Dict, List
 
 ROOT = Path(__file__).resolve().parents[1]
+
+def _pick(*rels: str) -> Path:
+    for r in rels:
+        p = ROOT / r
+        if p.exists():
+            return p
+    return ROOT / rels[0]
+
+
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -224,10 +233,10 @@ AUDIT_DECISIONS: Dict[str, dict] = {
 
 
 def run_audit(
-    rules_path: Path = ROOT / "data" / "legal_rules.jsonl",
-    chunks_path: Path = ROOT / "data" / "chunks" / "pending" / "all_t2_chunks.jsonl",
-    log_path: Path = ROOT / "data" / "review" / "pph_final_audit_log.jsonl",
-    report_path: Path = ROOT / "data" / "review" / "pph_final_audit_report.json",
+    rules_path: Path = _pick("data/legal_rules.jsonl", "knowledge_json/rules/legal_rules.jsonl"),
+    chunks_path: Path = _pick("data/chunks/pending", "knowledge_json/chunks/pending") / "all_t2_chunks.jsonl",
+    log_path: Path = _pick("data/review", "knowledge_json/review") / "pph_final_audit_log.jsonl",
+    report_path: Path = _pick("data/review", "knowledge_json/review") / "pph_final_audit_report.json",
 ) -> dict:
     rules: List[dict] = [json.loads(l) for l in rules_path.read_text(encoding="utf-8").splitlines() if l.strip()]
     chunks: Dict[str, dict] = {}
@@ -282,7 +291,7 @@ def run_audit(
                             f"Rate value belum numerik pada {rid}: {item!r}"
                         )
 
-    # Tulis kembali legal_rules.jsonl (jumlah & urutan persis 12.907)
+    # Tulis kembali legal_rules.jsonl (jumlah & urutan persis 12.921)
     with rules_path.open("w", encoding="utf-8") as f:
         for r in rules:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")

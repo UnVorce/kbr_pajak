@@ -3,11 +3,13 @@
   "tbox_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_pajak_tbox.ttl",
   "core_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr-core.ttl",
   "reasoning_owl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_pajak_reasoning.owl",
-  "reasoning_individuals": 436,
-  "reasoning_classes": 156,
+  "reasoning_clean_owl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/ontology/kbr_pajak_reasoning_clean.owl",
+  "reasoning_clean_individuals": 431,
+  "reasoning_individuals": 446,
+  "reasoning_classes": 157,
   "swrl_rules": 97,
   "full_ttl": "/media/fatih/Data1/KULIAH/KULIAH/sains-data/smt5/kbr/projek_kbr/fatih/data/export/kbr-data.ttl",
-  "full_rules_exported": 12907,
+  "full_rules_exported": 12921,
   "inferred_scenarios": {
     "PT_TechStartup_001": {
       "classes": [

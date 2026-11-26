@@ -1,78 +1,80 @@
-# Backend KBR Pajak (FastAPI + HermiT + SPARQL)
+# Backend KBR Pajak — API v2.0.0 (`/api`)
 
-Service API reasoning berbasis ontologi OWL 2 `SROIQ(D)` + SWRL (`HermiT`) dan query SPARQL (`rdflib`) atas `12.907` aturan hukum perpajakan.
+Service API reasoning OWL 2 `SROIQ(D)` + SWRL (**HermiT**) dan SPARQL (`rdflib`) atas
+`12.921` aturan hukum perpajakan, dengan kontrak sesuai **PRD §9.3**.
+
+> **Kontrak resmi:** [`docs/API_CONTRACT_v2.md`](../docs/API_CONTRACT_v2.md) · **Swagger:** `/api/docs` · **OpenAPI:** `/api/openapi.json`
 
 ## Prasyarat
-- Python 3.10+
-- Java JRE/JDK (diperlukan oleh `owlready2` untuk menjalankan reasoner **HermiT**)
-- Dependensi Python: `pip install -r backend/requirements.txt`
+- Python 3.10+ (teruji 3.13)
+- **Java JRE/JDK** (HermiT) — teruji OpenJDK 21
+- `pip install -r backend/requirements.txt`
 
-## Menjalankan Server
-
-Dari root repo (`kbr_pajak/` atau `fatih/`):
+## Menjalankan
 
 ```bash
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
+# dari root repo (yang memuat backend/, ontology/, knowledge_json/)
+uvicorn backend.main:app --host 0.0.0.0 --port 8000
+# Docker
+cp .env.example .env && docker compose up -d --build
 ```
 
-Dokumentasi interaktif Swagger UI tersedia di: `http://localhost:8000/docs`
+Base path **`/api`** (alias `/api/v1`). Route root lama **dihapus**.
 
-## Endpoint Utama
+## Endpoint
 
 | Method | Path | Fungsi |
 |---|---|---|
-| `GET` | `/health` | Status ontologi `.owl`, `.ttl` (termasuk `kbr_ter_pph21.ttl`, `kbr_kbli.ttl`, & `kbr-perda-rates.ttl`), dan statistik build |
-| `GET` | `/options` | Daftar `30` pilihan `JenisPekerjaan` & `6` `WilayahDaerah` langsung dari OWL |
-| `GET` | `/kbli` | Cari kode/uraian KBLI di graf SKOS `kbr_kbli.ttl` (`?q=...&limit=20`, `1.453` KBLI) |
-| `GET` | `/kbli/{kode}` | Detail 1 kode KBLI (NPPN 3 wilayah, Tax Allowance PP 78/2019, Industri Pionir PerBKPM 7/2020, Padat Karya PMK 16/2020) |
-| `GET` | `/perda` | Cari/daftar `390` Pemda dari `524` Perda PDRD (`?q=...&tingkat=PROV|KOTA|KAB`) |
-| `GET` | `/perda/{pemda_id}` | Detail tarif pajak daerah (`2.029` item) & kutipan pasal resmi untuk 1 Pemda |
-| `POST` | `/reason` | Evaluasi profil `WajibPajak` via HermiT + auto-mapping `kodeKBLI` & `pemdaId` + **`estimasi_pajak` (`SPARQL BIND`, TER PPh 21, NPPN, PBB lokal)** + justifikasi pasal/MK/SEMA |
-| `GET` | `/catalog` | Peta `83` konsep tarif/fasilitas/kewajiban/sanksi (`rule_map.json`) |
-| `GET` | `/scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
-| `GET` | `/sparql/provenance` | Query SPARQL provenance (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) atas 12.907 aturan |
-| `GET` | `/sparql/stats` | Agregasi jumlah aturan per domain & kelas dari RDF `kbr-data.ttl` |
+| `GET` | `/api/health` | status artefak, `ptkp_tiers`, `regions`, cache |
+| `GET` | `/api/metrics` | cache hit-rate, latensi p50/p95, uptime, target gate |
+| `GET` | `/api/options` | `wp_kinds`, `ptkp`, `zona_nppn`, `pekerjaan_jenis`, `jobs` (32), `final_income_objects` (13) |
+| `GET` | `/api/regions` | **390 Pemda** (dari 524 Perda): zona NPPN, PBB-P2, NJOPTKP, `jumlah_perda` |
+| `GET` | `/api/kbli` & `/api/kbli/{kode}` | 1.453 KBLI SKOS (NPPN/Tax Allowance/Pionir/Padat Karya) |
+| `GET` | `/api/perda` & `/api/perda/{id}` | tarif pajak daerah + kutipan pasal |
+| `POST` | `/api/reason` | inferensi + TER + komparasi 3 skema + rekonsiliasi PPh 29 + PPh Final 4(2) + provenance |
+| `GET` | `/api/catalog` | 103 katalog → `rule_id` |
+| `GET` | `/api/scenarios` | 15 skenario bawaan |
+| `GET` | `/api/sparql/provenance` & `/api/sparql/stats` | 12.921 aturan |
 
-## Contoh Request `POST /reason`
+## Contoh `POST /api/reason` (PRD §9.3.5)
 
-### 1. Badan Usaha (`PT` Tbk Go Public + BKP Mewah)
 ```bash
-curl -X POST http://localhost:8000/reason \
+curl -X POST http://localhost:8000/api/reason \
   -H "Content-Type: application/json" \
   -d '{
-    "wp_id": "PT_Contoh_Tbk",
-    "wp_kind": "PT",
-    "properties": {
-      "hasOmzetTahunan": 120000000000,
-      "isPerseroanTerbuka": true,
-      "hasPersentaseSahamPublik": 45.0,
-      "hasJumlahPemegangSahamPublik": 350,
-      "hasHariTerpenuhiTbk": 200,
-      "isPenyerahanBKP_Mewah": true,
-      "isUMKM_PP55": false,
-      "hasNPWP": true
-    }
+    "wp_id": "WP-OP-BDG-2025-001",
+    "wp_kind": "OrangPribadi",
+    "tahun_pajak": 2026,
+    "pemda_id": "KOTA_BANDUNG",
+    "pekerjaan_utama": {
+      "nama": "Guru Swasta SMA", "jenis": "PEGAWAI_TETAP", "kbli": "85121",
+      "gaji_bulanan": 8500000
+    },
+    "pekerjaan_sekunder": {
+      "nama": "Freelance Web Developer", "jenis": "PEKERJA_BEBAS", "kbli": "62019",
+      "omzet_tahunan": 180000000, "hpp_tahunan": 25000000, "biaya_operasional_tahunan": 15000000
+    },
+    "is_kawin": true, "has_jumlah_tanggungan": 1,
+    "kredit_pajak_1721a1": 1530000
   }'
 ```
 
-### 2. Orang Pribadi Multi-Peran (`Dokter` + `PegawaiTetap` + `Pedagang_ECommerce`)
+Hasil penting:
+- TER **Kategori B** 1,0% → Rp85.000/bulan
+- NPPN 50% → neto Rp90 jt; rekomendasi **NPPN**; penghematan dasar Rp50 jt
+- `rekonsiliasi_mode_prd` → PKP 129 jt, PPh 17 Rp13,35 jt, PPh 29 Rp11,82 jt
+- `rekonsiliasi_spt_tahunan` (benar) → PKP 123,9 jt, PPh 17 Rp12,585 jt
+
+## Prinsip
+- **0% tarif di-hardcode**: tarif dibaca dari ontologi (`hasTarifPersen`).
+- **Field asing → 422** (tidak diabaikan diam-diam).
+- **Cache** per hash profil: request identik < 50 ms (`cache_hit: true`).
+- **Provenance** setiap item: `rule_id`, `source_locator`, `source_quote`, `mk_refs`, `sema_refs`.
+
+## Verifikasi
+
 ```bash
-curl -X POST http://localhost:8000/reason \
-  -H "Content-Type: application/json" \
-  -d '{
-    "wp_id": "OP_Dr_Siti",
-    "wp_kind": "OrangPribadi",
-    "properties": {
-      "memilikiPekerjaan": ["Dokter", "PegawaiTetap_Swasta", "Pedagang_ECommerce"],
-      "berdomisiliDi": ["Wilayah_Kota_Surabaya"],
-      "isSubjekLuarNegeri": false,
-      "isPendudukIndonesia": true,
-      "isKawin": false,
-      "hasJumlahTanggungan": 0,
-      "isUMKM_PP55": true,
-      "hasOmzetTahunan": 350000000,
-      "hasPenghasilanKenaPajakTahunan": 300000000,
-      "hasNPWP": true
-    }
-  }'
+python3 scripts/smoke_test.py --in-process   # 78 cek kontrak
+python3 scripts/benchmark_api.py --in-process # latensi & gate (hit <1 s, miss <10 s)
+pytest tests/test_api.py -q                  # 17 tes integrasi
 ```

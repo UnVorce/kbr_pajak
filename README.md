@@ -12,14 +12,14 @@ Sistem berbasis pengetahuan (*Knowledge-Based Reasoning*) untuk kewajiban, tarif
 [Korpus Resmi BPK/JDIH/MK/MA/SetPP]
    ├── 165 regulasi pusat (97 active_for_rules) + 32 consolidated (UU CK & HPP)
    ├── 524 Perda PDRD (2023–2026, 390 Pemda unik) + 284 SetPP + 15 MK + 78 SEMA TUN
-   └── 12.907 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
+   └── 12.921 aturan atomik tervalidasi (legal_rules.jsonl, 9 domain pajak)
          │
          ├──► ontology/kbr_pajak_reasoning.owl (156 kelas SROIQ(D) · 97 SWRL · 436 individu)
          │       └─► Reasoner HermiT (World() terisolasi) + Kalkulator SPARQL BIND
          │
          ├──► ontology/kbr_ter_pph21.ttl (127 bracket TER) + kbr_kbli.ttl (1.453 KBLI SKOS: NPPN/TA/Pionir/Padat Karya)
          ├──► ontology/kbr-perda-rates.ttl (390 Pemda · 2.029 tarif lokal dari 524 Perda)
-         └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.907 aturan)
+         └──► knowledge_json/rules/kbr-data.ttl (9,9 MB ekspor RDF penuh 12.921 aturan)
                  └─► Engine SPARQL lokal (rdflib)
                          │
                          ▼
@@ -43,17 +43,24 @@ uvicorn backend.main:app --host 0.0.0.0 --port 8000
 - **Swagger UI interaktif:** `http://localhost:8000/docs`
 - **Panduan & contoh `curl`:** lihat [`backend/README.md`](backend/README.md)
 
+Base path: **`/api`** (alias `/api/v1`) · Swagger: `/api/docs` · OpenAPI: `/api/openapi.json`
+
 | Endpoint | Fungsi |
 |---|---|
-| `GET /health` | Status `.owl`, `.ttl` (`kbr_ter_pph21.ttl`, `kbr_kbli.ttl`, `kbr-perda-rates.ttl`), jumlah kelas, individu, dan aturan SWRL |
-| `GET /options` | Daftar `30` pilihan `JenisPekerjaan`, `6` `WilayahDaerah`, & `13` `ObjekPenghasilanFinal` langsung dari OWL |
-| `GET /kbli` & `GET /kbli/{kode}` | Pencarian & detail `1.453` kode KBLI SKOS (NPPN, Tax Allowance PP 78/2019, Industri Pionir PerBKPM 7/2020, & Padat Karya PMK 16/2020) |
-| `GET /perda` & `GET /perda/{pemda_id}` | Pencarian & detail `390` Pemda (`2.029` tarif pajak daerah dari `524` Perda PDRD) |
-| `POST /reason` | Evaluasi profil `WajibPajak` (`PT`, `CV`, `Koperasi`, `Yayasan`, `BUT`, `OrangPribadi`) via HermiT + `kodeKBLI` & `pemdaId` + **`estimasi_pajak` (`SPARQL BIND`, TER `127` bracket, NPPN, PBB lokal, & PPh Final Pasal 4(2) terpisah)** + justifikasi pasal/MK/SEMA |
-| `GET /catalog` | Peta `103` item katalog tarif/fasilitas/kewajiban/sanksi (`ontology/rule_map.json`) |
-| `GET /scenarios` | Hasil inferensi `15` skenario demonstrasi bawaan |
-| `GET /sparql/provenance` | Query SPARQL pada 12.907 aturan (`rule_id`, `document_id`, `domain`, `rule_type`, `q`) |
-| `GET /sparql/stats` | Agregasi jumlah aturan per domain & kelas RDF |
+| `GET /api/health` | Status `.owl`/`.ttl`, `ptkp_tiers`, `regions`, cache |
+| `GET /api/options` | `wp_kinds`, `ptkp` (8), `zona_nppn`, `pekerjaan_jenis`, `jobs` (32), `final_income_objects` (13) |
+| `GET /api/regions` | **390 Pemda** + zona NPPN + PBB-P2 + NJOPTKP + `jumlah_perda` (total 524 Perda) |
+| `GET /api/kbli` & `/api/kbli/{kode}` | `1.453` KBLI SKOS (NPPN, Tax Allowance, Pionir, Padat Karya, `is_jasa_konstruksi`) |
+| `GET /api/perda` & `/api/perda/{pemda_id}` | `390` Pemda · `2.107` item tarif dari `524` Perda |
+| `POST /api/reason` | Payload PRD §9.3 (multi-stream, PTKP, PBB, PPh Final 4(2)) → inferensi HermiT + TER + **komparasi 3 skema** + **rekonsiliasi PPh 29** + provenance |
+| `GET /api/catalog` | Peta `103` katalog → `rule_id` |
+| `GET /api/scenarios` | `15` skenario bawaan |
+| `GET /api/sparql/provenance` & `/api/sparql/stats` | `12.921` aturan |
+
+**Dokumentasi backend:**
+- **Kontrak beku untuk frontend** → [`docs/API_CONTRACT_v2.md`](docs/API_CONTRACT_v2.md) (payload PRD, enum, respons, 7 kasus emas, deviasi PRD)
+- **Deployment (Docker/nginx/env/kapasitas/runbook)** → [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)
+- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **78 cek**
 
 ---
 
@@ -65,23 +72,37 @@ kbr_pajak/
 ├── backend/                               # Service FastAPI (Fase 7)
 │   ├── __init__.py
 │   ├── engine.py                          # HermiT isolated World() + cache RDF SPARQL
-│   ├── main.py                            # Endpoint FastAPI + skema Pydantic + CORS
+│   ├── main.py                            # Router /api + handler error + CORS (env)
+│   ├── contract_v2.py                     # Adaptor payload PRD §9.3 + respons v2
+│   ├── advisory.py                        # Evaluasi RP-01..RP-10 + CBR tahap 1
+│   ├── coretax.py                         # Playbook Coretax + pencarian KAP/KJS
+│   ├── coretax_playbook.json              # 54 KAP/KJS + langkah (panduan DJP)
+│   ├── risk_patterns.json                 # Katalog 10 pola risiko + dasar hukum
+│   ├── cbr_index.json                     # Indeks 284 putusan (BM25)
+│   ├── pp55_rules.json                    # rule_id PP 55 jo. PP 20/2026
+│   ├── nppn_kelompok.json                 # Pemetaan eksplisit KBLI tanpa baris NPPN
 │   ├── requirements.txt
+│   ├── requirements-dev.txt               # pytest/ruff untuk CI
+│   ├── Dockerfile                         # Python 3.12 + OpenJDK 17, non-root, HEALTHCHECK
 │   └── README.md
+├── docker-compose.yml                     # api (+ nginx opsional via profile reverse-proxy)
+├── Makefile                               # make api / smoke / test / docker-up / contract
+├── .env.example                           # KBR_CORS_ORIGINS, KBR_WORKERS, port, memory limit
+├── deploy/nginx.conf                      # Reverse proxy, timeout /reason 120s
 ├── ontology/                              # Artefak Ontologi SROIQ(D) (Fase 5–6)
 │   ├── kbr-core.ttl                       # TBox murni (Turtle, 113 kelas + properti + aksioma)
 │   ├── kbr_pajak_tbox.owl                 # TBox murni (RDF/XML untuk Protégé)
-│   ├── kbr_pajak_reasoning.owl            # TBox + 97 SWRL + 436 individu + 15 skenario uji
+│   ├── kbr_pajak_reasoning.owl            # TBox + 97 SWRL + 446 individu + 15 skenario uji
 │   ├── kbr_ter_pph21.ttl                  # 127 bracket TER PPh 21 (PP 58/2023) tervalidasi
 │   ├── kbr_kbli.ttl                       # 1.453 konsep W3C SKOS KBLI/KLU (PER-17, PP 78/2019, PerBKPM 7/2020, PMK 16/2020)
-│   ├── kbr-perda-rates.ttl                # 390 Pemda · 2.029 tarif pajak daerah dari 524 Perda PDRD
+│   ├── kbr-perda-rates.ttl                # 390 Pemda · 2.107 item tarif dari 524 Perda PDRD
 │   ├── rule_map.json                      # Peta 103 konsep katalog -> rule_id & source_quote
 │   ├── ontology_build_report.json         # Ringkasan build & hasil inferensi HermiT
 │   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 │   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
 ├── src/                                   # 16 modul pipeline & builder ontologi/SKOS/Perda
-├── scripts/                               # 27 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
-├── tests/                                 # 162 automated tests + fixtures HTML BPK (+ conftest.py)
+├── scripts/                               # 36 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
+├── tests/                                 # 174 automated tests + fixtures HTML BPK (+ conftest.py)
 ├── config/                                # Konfigurasi crawl, konsolidasi, & scope_cards
 ├── docs/                                  # Dokumentasi, spesifikasi & Laporan Fase 0–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)
@@ -89,6 +110,11 @@ kbr_pajak/
 │   ├── KBR_Extraction_Spec_v2.md          # Spesifikasi teknis pipeline ekstraksi
 │   ├── AGENTS.md                          # Aturan kerja & prinsip anti-halusinasi P1-P13
 │   ├── fase_1.md .. fase_7.md             # Laporan tiap fase & gerbang G1–G7
+│   ├── API_CONTRACT_v2.md                 # Kontrak API beku v2.0.0 (payload PRD, 7 kasus emas, deviasi)
+│   ├── PRD_CORRECTIONS.md                 # 30 koreksi angka/klaim PRD v2.0 agar selaras artefak riil
+│   ├── CBR_ANNOTATION_GUIDE.md            # Panduan anotasi 60 kasus + taksonomi + validator
+│   ├── CBR_ANNOTATION_CHECKLIST.md        # Pembagian A/B, jadwal 4 minggu, sign-off & adjudikasi
+│   ├── DEPLOYMENT.md                      # Deployment Docker/nginx, env var, kapasitas, runbook
 │   ├── fase7_eval_results.json            # Hasil evaluasi 15/15 skenario & boundary tests
 │   ├── corpus_directory.xlsx              # Direktori korpus 7 tab
 │   └── ISSUES.md                          # Catatan anomali sumber (#A7 PER-DJP-2015-17)
@@ -97,8 +123,8 @@ kbr_pajak/
 │   └── colab_extract_t2.ipynb             # Notebook ekstraksi T2_RULE vLLM (Qwen2.5-32B-AWQ)
 └── knowledge_json/
     ├── rules/
-    │   ├── legal_rules.jsonl              # 12.907 aturan atomik (8.717 VALIDATED, 474 HUMAN_FIXED, 117 HUMAN_APPROVED, 3.599 REVIEW_REQUIRED)
-    │   └── kbr-data.ttl                   # Ekspor RDF Turtle penuh seluruh 12.907 aturan
+    │   ├── legal_rules.jsonl              # 12.921 aturan atomik (8.717 VALIDATED, 474 HUMAN_FIXED, 117 HUMAN_APPROVED, 3.599 REVIEW_REQUIRED)
+    │   └── kbr-data.ttl                   # Ekspor RDF Turtle penuh seluruh 12.921 aturan
     ├── text_lampiran/                     # Teks sumber untuk rebuild TER (PP 58/2023) & KBLI (PER-17, PP 78, PerBKPM 7, PMK 16)
     ├── review/                            # 621 baris audit P1-P6, log audit, review queue, gold standard
     ├── documents/                         # 165 JSON regulasi pusat kanonik
@@ -115,7 +141,7 @@ kbr_pajak/
 
 ## Panduan Singkat Konsumsi oleh Tim
 
-1. **Frontend (`yoeke-front`):** jalankan `uvicorn backend.main:app --port 8000`, panggil `GET /options` untuk opsi pekerjaan & wilayah, panggil `POST /reason` untuk evaluasi profil WP, dan tampilkan `tarif`/`fasilitas`/`kewajiban`/`sanksi` beserta `justifikasi` (`source_locator`, `source_quote`, `mk_refs`, `sema_refs`).
+1. **Frontend (`yoeke-front`):** baca **[`docs/API_CONTRACT_v1.md`](docs/API_CONTRACT_v1.md)** lalu jalankan `uvicorn backend.main:app --port 8000`. Panggil `GET /options` (pekerjaan, wilayah, **`final_income_objects`**), `GET /kbli`, `GET /perda`, dan `POST /reason`; tampilkan `tarif`/`fasilitas`/`kewajiban`/`sanksi` beserta `justifikasi` (`source_locator`, `source_quote`, `mk_refs`, `sema_refs`) dan pisahkan `estimasi_pajak.rincian` **tarif umum** (`pph_op_pasal17_idr`/`pph_badan_idr`) dari **PPh Final Pasal 4(2)** (`total_pph_final_pasal4_2_idr`).
 2. **RAG (`daRAG`):** gunakan `knowledge_json/rules/legal_rules.jsonl` atau `GET /sparql/provenance` serta `knowledge_json/consolidated/<id>.json` (cek `recommended_source` dan `active_for_rules == true` di `metadata/manifest.json`).
 3. **Inspeksi Ontologi di Protégé:** buka `ontology/kbr_pajak_reasoning.owl`, pilih **Reasoner → HermiT → Start reasoner**.
 4. **Rebuild Ontologi & Jalankan Tes dari Repo Ini:**
@@ -124,6 +150,11 @@ kbr_pajak/
    python3 scripts/fase_step_b.py
    python3 scripts/fase_step_c.py
    pytest -q
+   ```
+5. **Deploy & Verifikasi Kontrak:** lihat **[`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)**, lalu:
+   ```bash
+   cp .env.example .env && docker compose up -d --build
+   python3 scripts/smoke_test.py --base-url http://localhost:8000   # 41 cek
    ```
 
 ---

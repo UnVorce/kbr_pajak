@@ -1,0 +1,43 @@
+name: kbr-pajak
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    image: kbr-pajak-api:1.1.0
+    restart: unless-stopped
+    environment:
+      KBR_CORS_ORIGINS: ${KBR_CORS_ORIGINS:-*}
+      KBR_WORKERS: ${KBR_WORKERS:-2}
+    ports:
+      - "${KBR_API_PORT:-8000}:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      start_period: 25s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: ${KBR_MEMORY_LIMIT:-4g}
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Opsional: reverse proxy dengan timeout /reason yang memadai.
+  # Aktifkan dengan: docker compose --profile reverse-proxy up -d
+  nginx:
+    image: nginx:1.27-alpine
+    profiles: ["reverse-proxy"]
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "${KBR_EDGE_PORT:-8080}:80"
+    volumes:
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
