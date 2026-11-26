@@ -73,6 +73,6 @@ Hasil penting:
 ## Verifikasi
 
 ```bash
-python3 scripts/smoke_test.py --in-process   # 69 cek kontrak
-pytest tests/test_api.py -q                  # 13 tes integrasi
+python3 scripts/smoke_test.py --in-process   # 76 cek kontrak
+pytest tests/test_api.py -q                  # 16 tes integrasi
 ```

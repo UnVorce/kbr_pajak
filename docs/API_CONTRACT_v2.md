@@ -20,6 +20,10 @@
 | `GET` | `/api/perda?q=&tingkat=&limit=` | < 30 ms | cari Pemda (390) |
 | `GET` | `/api/perda/{pemda_id}` | < 30 ms | 2.107 item tarif + kutipan pasal |
 | `POST` | `/api/reason` | **± 5,5 s (maks 6,1 s)**, cache-hit < 50 ms | inferensi + estimasi + provenance |
+| `GET` | `/api/risk-patterns` | < 20 ms | katalog 10 pola risiko RP-01…RP-10 + dasar hukum |
+| `GET` | `/api/coretax/kode?q=` | < 20 ms | 54 KAP/KJS dari Buku Manual Coretax 2024 (Seri Pembayaran) |
+| `GET` | `/api/coretax/playbook?kewajiban=` | < 20 ms | langkah + KAP/KJS per kewajiban (label `panduan_djp`) |
+| `GET` | `/api/cbr/search?q=&klaster=&regulasi=&limit=` | < 100 ms | CBR tahap 1 atas 284 putusan |
 | `GET` | `/api/catalog` | < 20 ms | 103 katalog → `rule_id` |
 | `GET` | `/api/scenarios` | < 20 ms | 15 skenario bawaan |
 | `GET` | `/api/sparql/provenance` | 100–400 ms | 12.921 aturan |
@@ -132,7 +136,17 @@ Field berada **di root** (bukan di dalam `properties`). **Field asing → `422`*
     "is_penghasilan_dibawah_ptkp": false
   },
 
-  "persentase_nppn": null                   // override manual bila KBLI tidak punya baris NPPN
+  "persentase_nppn": null,                  // override manual bila KBLI tidak punya baris NPPN
+
+  // B3/B4
+  "is_terdaftar_pkp": true,
+  "is_pisah_harta": false,
+  "omzet_pasangan": 0,
+  "is_membebankan_suap_gratifikasi": false,
+  "has_selisih_ekualisasi": false,
+  "is_tidak_memotong_pph_pihak_ketiga": false,
+  "cbr_kueri": null,                        // isi untuk mengaktifkan cbr_matches
+  "cbr_klaster": null                       // pph_badan|pph_potput|kup_gugatan|ppn|kepabeanan_cukai|pbb
 }
 ```
 
@@ -191,7 +205,18 @@ Field berada **di root** (bukan di dalam `properties`). **Field asing → `422`*
     "rincian": { /* seluruh kunci SPARQL BIND, kompatibilitas internal */ },
     "catatan": "Estimasi indikatif, bukan pengganti perhitungan SPT resmi."
   },
-  "cbr_matches": [], "playbook_coretax": [],
+  "risiko_fiskal": [{ "pola_id": "RP-04", "nama": "...", "status": "TERINDIKASI",
+                      "tingkat_risiko": "TINGGI", "indikator_terdeteksi": "...",
+                      "estimasi_dampak_idr": null, "rekomendasi": "...",
+                      "grounding_status": "LENGKAP", "dasar_hukum": [...] }],
+  "cbr_matches": [{ "case_id": "PP-PUT-...", "similarity_score": 0.87, "amar_kategori": "...",
+                    "komponen": {"bm25": 0.9, "klaster": 1.0, "regulasi": 0.0} }],
+  "playbook_coretax": [{ "kewajiban_id": "Kewajiban_PotongSetor_SewaTanahBangunan",
+                           "judul": "Setor PPh Final sewa tanah/bangunan",
+                           "kap_kjs": "411128-403", "keterangan_kap_kjs": "PPh Final Pasal 4 (2) atas Sewa Tanah dan/atau Bangunan",
+                           "langkah": [{ "halaman": 23, "teks": "...", "kutipan": "..." }],
+                           "dokumen": ["Kode Billing", "BPN/NTPN"],
+                           "sumber": { "document_id": "PANDUAN-CORETAX-2024-PEMBAYARAN", "jenis_sumber": "panduan_djp" } }],
   "provenance": [{ "kategori": "tarif", "katalog_id": "...", "rule_id": "...", "source_locator": "...",
                    "source_quote": "...", "validation_status": "...", "regulasi": [...], "mk_refs": [], "sema_refs": [] }],
   "reasoner": "HermiT (...) + SPARQL BIND/SKOS/TER/PERDA",
@@ -282,7 +307,7 @@ akomodasi penginapan, pokok deposito ≤ Rp7,5 jt, OP di bawah PTKP, pengalihan 
 | Bandung PBB 0,15%, NJOPTKP 25 jt | **null** + catatan | tidak ditemukan di Perda Kota Bandung 2024-1 |
 | `elapsed_ms ≈ 138` | **± 5.500 (maks 6.100)**; cache-hit < 50 | HermiT nyata; PRD optimistis |
 | 1770 S / 1770 SS | `null` + `PERLU_VERIFIKASI` | belum ada dasar hukum bentuk SPT di korpus |
-| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 165 tes** | angka riil `ontology_build_report.json` |
+| Statistik 120 kelas / 79 SWRL / 149 tes | **157 / 97 / 446 individu / 167 tes** | angka riil `ontology_build_report.json` |
 
 ---
 

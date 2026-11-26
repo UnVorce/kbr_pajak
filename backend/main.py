@@ -17,6 +17,8 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
+from .advisory import cbr_search, risk_catalog
+from .coretax import catalog as coretax_catalog, playbook_all, playbook_for, search_kode
 from .contract_v2 import ReasonRequest, build_response, to_internal
 from .engine import KBRReasoningEngine
 
@@ -208,6 +210,44 @@ def get_perda_detail(pemda_id: str) -> dict:
     if item is None:
         raise HTTPException(status_code=404, detail=f"Pemda '{pemda_id}' tidak ditemukan di kbr-perda-rates.ttl")
     return item
+
+
+@api.get("/coretax/kode", summary="Cari KAP/KJS pada Buku Manual Coretax 2024 (Seri Pembayaran)")
+def get_coretax_kode(
+    q: str = Query(default="", description="Kata kunci kode atau keterangan, mis. 'sewa' atau '411128'"),
+    limit: int = Query(default=20, ge=1, le=100),
+) -> dict:
+    items = search_kode(q, limit)
+    return {"count": len(items), "results": items, **coretax_catalog()}
+
+
+@api.get("/coretax/playbook", summary="Langkah & KAP/KJS untuk kewajiban (panduan DJP, bukan peraturan)")
+def get_coretax_playbook(
+    kewajiban: Optional[str] = Query(default=None, description="ID kewajiban dipisah koma"),
+) -> dict:
+    ids = [x.strip() for x in (kewajiban or "").split(",") if x.strip()]
+    items = playbook_for(ids) if ids else playbook_all()
+    return {"count": len(items), "items": items, "sumber": coretax_catalog()["sumber"]}
+
+
+@api.get("/risk-patterns", summary="Katalog 10 pola risiko RP-01..RP-10 + dasar hukum")
+def get_risk_patterns() -> dict:
+    return risk_catalog()
+
+
+@api.get("/cbr/search", summary="CBR tahap 1: kemiripan terhadap 284 Putusan Pengadilan Pajak")
+def get_cbr_search(
+    q: str = Query(..., min_length=3, description="Uraian pokok sengketa, mis. 'koreksi biaya promosi'"),
+    klaster: Optional[Literal["pph_badan", "pph_potput", "kup_gugatan", "ppn", "kepabeanan_cukai", "pbb"]] = Query(default=None),
+    regulasi: Optional[List[str]] = Query(default=None, description="Dokumen yang dirujuk, mis. UU-1983-7"),
+    limit: int = Query(default=3, ge=1, le=10),
+) -> dict:
+    matches = cbr_search(q, klaster, regulasi, limit=limit)
+    return {
+        "count": len(matches),
+        "metode": "tahap-1: 0.70 BM25(pokok_sengketa) + 0.20 klaster + 0.10 Jaccard(regulasi)",
+        "results": matches,
+    }
 
 
 @api.get("/catalog", summary="Peta 103 konsep katalog -> rule_id & source_quote")

@@ -60,7 +60,7 @@ Base path: **`/api`** (alias `/api/v1`) · Swagger: `/api/docs` · OpenAPI: `/ap
 **Dokumentasi backend:**
 - **Kontrak beku untuk frontend** → [`docs/API_CONTRACT_v2.md`](docs/API_CONTRACT_v2.md) (payload PRD, enum, respons, 7 kasus emas, deviasi PRD)
 - **Deployment (Docker/nginx/env/kapasitas/runbook)** → [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)
-- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **69 cek**
+- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **76 cek**
 
 ---
 
@@ -74,6 +74,12 @@ kbr_pajak/
 │   ├── engine.py                          # HermiT isolated World() + cache RDF SPARQL
 │   ├── main.py                            # Router /api + handler error + CORS (env)
 │   ├── contract_v2.py                     # Adaptor payload PRD §9.3 + respons v2
+│   ├── advisory.py                        # Evaluasi RP-01..RP-10 + CBR tahap 1
+│   ├── coretax.py                         # Playbook Coretax + pencarian KAP/KJS
+│   ├── coretax_playbook.json              # 54 KAP/KJS + langkah (panduan DJP)
+│   ├── risk_patterns.json                 # Katalog 10 pola risiko + dasar hukum
+│   ├── cbr_index.json                     # Indeks 284 putusan (BM25)
+│   ├── pp55_rules.json                    # rule_id PP 55 jo. PP 20/2026
 │   ├── nppn_kelompok.json                 # Pemetaan eksplisit KBLI tanpa baris NPPN
 │   ├── requirements.txt
 │   ├── requirements-dev.txt               # pytest/ruff untuk CI
@@ -95,8 +101,8 @@ kbr_pajak/
 │   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 │   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
 ├── src/                                   # 16 modul pipeline & builder ontologi/SKOS/Perda
-├── scripts/                               # 28 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
-├── tests/                                 # 165 automated tests + fixtures HTML BPK (+ conftest.py)
+├── scripts/                               # 31 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
+├── tests/                                 # 167 automated tests + fixtures HTML BPK (+ conftest.py)
 ├── config/                                # Konfigurasi crawl, konsolidasi, & scope_cards
 ├── docs/                                  # Dokumentasi, spesifikasi & Laporan Fase 0–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)

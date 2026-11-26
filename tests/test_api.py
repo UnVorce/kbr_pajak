@@ -360,3 +360,69 @@ def test_api_pp2026_20_kelayakan_pp55_dan_provenance():
     ).json()
     assert larangan["count"] == 1
     assert "suap" in larangan["results"][0]["source_quote"].lower()
+
+def test_api_risk_patterns_dan_cbr_tahap1():
+    cat = client.get("/api/risk-patterns").json()
+    assert cat["total"] == 10
+    ids = {i["pola_id"] for i in cat["items"]}
+    assert ids == {f"RP-{n:02d}" for n in range(1, 11)}
+    assert all(i["dasar_hukum"] for i in cat["items"])
+    assert all(i["grounding_status"] == "LENGKAP" for i in cat["items"])
+
+    cbr = client.get("/api/cbr/search", params={"q": "koreksi biaya promosi", "klaster": "pph_badan"}).json()
+    assert cbr["count"] == 3
+    assert all(0.0 <= m["similarity_score"] <= 1.0 for m in cbr["results"])
+    assert cbr["results"][0]["case_id"]
+
+    pt = _reason({
+        "wp_id": "API_RISK_PT", "wp_kind": "PT", "tahun_pajak": 2026,
+        "has_omzet_tahunan": 5_000_000_000.0, "is_umkm_pp55": True, "tahun_mulai_pp55": 2019,
+        "is_terdaftar_pkp": False,
+        "pekerjaan_sekunder": {"nama": "Unit", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_000_000_000.0},
+        "cbr_kueri": "koreksi biaya promosi",
+    })
+    pola = {r["pola_id"] for r in pt["risiko_fiskal"]}
+    assert {"RP-01", "RP-04"}.issubset(pola)
+    assert len(pt["cbr_matches"]) == 3
+
+    op = _reason({
+        "wp_id": "API_RISK_OP", "wp_kind": "OrangPribadi", "tahun_pajak": 2026,
+        "has_omzet_tahunan": 2_500_000_000.0, "is_umkm_pp55": True,
+        "is_pisah_harta": True, "omzet_pasangan": 3_000_000_000.0,
+        "pekerjaan_sekunder": {"nama": "Freelance", "jenis": "PEKERJA_BEBAS", "omzet_tahunan": 500_000_000.0},
+    })
+    pola_op = {r["pola_id"] for r in op["risiko_fiskal"]}
+    assert {"RP-02", "RP-06"}.issubset(pola_op)
+
+    suap = _reason({
+        "wp_id": "API_RISK_SUAP", "wp_kind": "PT",
+        "is_membebankan_suap_gratifikasi": True,
+    })
+    rp7 = [r for r in suap["risiko_fiskal"] if r["pola_id"] == "RP-07"]
+    assert rp7 and rp7[0]["tingkat_risiko"] == "TINGGI"
+    assert any(j["document_id"] == "PP-2026-20" for j in rp7[0]["dasar_hukum"])
+
+
+def test_api_coretax_playbook_kap_kjs():
+    kode = client.get("/api/coretax/kode", params={"q": "sewa"}).json()
+    assert kode["count"] >= 1
+    assert kode["results"][0]["kap_kjs"] == "411128-403"
+
+    pb = client.get(
+        "/api/coretax/playbook", params={"kewajiban": "Kewajiban_PotongSetor_SewaTanahBangunan"}
+    ).json()
+    assert pb["count"] == 1
+    item = pb["items"][0]
+    assert item["kap_kjs"] == "411128-403"
+    assert item["langkah"] and item["langkah"][0]["halaman"] == 23
+    assert pb["sumber"]["jenis_sumber"] == "panduan_djp"
+
+    semua = client.get("/api/coretax/playbook").json()
+    assert semua["count"] == 13
+
+    d = _reason({
+        "wp_id": "API_CORETAX_SEWA", "wp_kind": "OrangPribadi",
+        "penghasilan_final": {"sewa_tanah_bangunan": 120_000_000.0},
+    })
+    ids = {p["kewajiban_id"] for p in d["playbook_coretax"]}
+    assert "Kewajiban_PotongSetor_SewaTanahBangunan" in ids

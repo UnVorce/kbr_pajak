@@ -154,6 +154,16 @@ def run(base_url: str, in_process: bool) -> int:
     })["estimasi_pajak"]["komparasi_skema"]["skema_pp55_final"]
     c.check("pp2026.peralihan_op", per["status"], "LAYAK")
 
+    # 4c. B3/B4: katalog risiko & CBR tahap 1
+    cat = client.get("/api/risk-patterns").json()
+    c.check("risk.catalog", cat["total"], 10)
+    cbr = client.get("/api/cbr/search", params={"q": "koreksi biaya promosi", "limit": 3}).json()
+    c.check("cbr.count", cbr["count"], 3)
+    c.check("cbr.max_score", max(m["similarity_score"] for m in cbr["results"]) <= 1.0, True)
+    kode = client.get("/api/coretax/kode", params={"q": "sewa"}).json()
+    c.check("coretax.kode", kode["count"] >= 1 and kode["results"][0]["kap_kjs"], "411128-403")
+    c.check("coretax.total_kode", kode["total_kode"], 54)
+
     # 5. Kasus PRD §9.3.5 — Guru + Freelance Bandung
     g = _post(client, "/api/reason", PRD_GURU)
     c.check("PRD.klaster", g["klaster_subjek"]["kode"], "WPOP_MULTI_STREAM")
@@ -177,6 +187,8 @@ def run(base_url: str, in_process: bool) -> int:
     c.check("PRD.formulir", next(k for k in g["kewajiban"] if k["id"].startswith("Kewajiban_Tenggat_SPT_Tahunan"))["formulir_spt"], "1770")
     c.check("PRD.tenggat", next(k for k in g["kewajiban"] if k["id"].startswith("Kewajiban_Tenggat_SPT_Tahunan"))["tenggat_waktu"], "31 Maret 2027")
     c.check("PRD.pbb_status", g["estimasi_pajak"]["pbb_status"], "TARIF_UMUM_TIDAK_TEREKSTRAK")
+    c.check("PRD.risiko_list", isinstance(g.get("risiko_fiskal"), list), True)
+
 
     # 6. Kasus emas A — OP UMKM kuliner
     a = _post(client, "/api/reason", {
@@ -223,7 +235,7 @@ def run(base_url: str, in_process: bool) -> int:
     c.check("E.total_final", pf["total_pph_final_pasal4_2_idr"], 31_500_000.0)
 
     # 10. Kasus emas F — pengecualian PPh Final
-    f = _post(client, "/api/reason", {
+    f_res = _post(client, "/api/reason", {
         "wp_id": "SMOKE_F_PENGECUALIAN", "wp_kind": "OrangPribadi",
         "penghasilan_final": {
             "sewa_tanah_bangunan": 20_000_000.0, "is_jasa_akomodasi_penginapan": True,
@@ -231,7 +243,10 @@ def run(base_url: str, in_process: bool) -> int:
             "pengalihan_tanah_bangunan": {"jenis": "UMUM", "nilai": 45_000_000.0},
             "is_penghasilan_dibawah_ptkp": True,
         },
-    })["estimasi_pajak"]["pph_final_pasal4_2"]
+    })
+    f = f_res["estimasi_pajak"]["pph_final_pasal4_2"]
+    pb = {p.get("kap_kjs") for p in f_res.get("playbook_coretax") or []}
+    c.check("F.playbook_sewa", "411128-403" in pb, True)
     c.check("F.sewa_nihil", f["pph_final_sewa_tanah_bangunan_idr"], 0.0)
     c.check("F.deposito_nihil", f["pph_final_bunga_deposito_idr"], 0.0)
     c.check("F.pengalihan_nihil", f["pph_final_pengalihan_tanah_bangunan_idr"], 0.0)

@@ -1,0 +1,203 @@
+{
+  "total": 10,
+  "items": [
+    {
+      "pola_id": "RP-01",
+      "nama": "Omzet Lewat Batas Tanpa Lapor PKP",
+      "tingkat_risiko": "TINGGI",
+      "indikator": "Peredaran bruto > Rp4,8 Miliar tetapi status belum dikukuhkan sebagai PKP.",
+      "rekomendasi": "Laporkan pengukuhan PKP sebelum akhir bulan berikutnya; pisahkan pencatatan faktur.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PMK-2010-68-c4fc23dddd",
+          "document_id": "PMK-2010-68",
+          "source_locator": "PMK-2010-68#BT/4",
+          "source_quote": "(1) Pengusaha wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak, apabila sampai dengan suatu bulan dalam tahun buku jumlah peredaran bruto dan/atau penerimaan brutonya melebihi Rp4.800.000.000,00 (empat miliar delapan ratus juta rupiah). (2) Kewajiban melaporkan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan paling lama akhir ",
+          "validation_status": "REVIEW_REQUIRED"
+        },
+        {
+          "rule_id": "R-UU-1983-6-4edd9e0af3",
+          "document_id": "UU-1983-6",
+          "source_locator": "UU-1983-6#BT/13/1..2",
+          "source_quote": "(1) Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak Kurang Bayar dalam jangka waktu 5 (lima) tahun setelah saat terutangnya pajak atau berakhirnya Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak setelah dilakukan tindakan pemeriksaan dalam hal sebagai berikut: a. terdapat pajak yang tidak atau kurang dibayar; b. Surat Pemberitahuan tidak disampaikan dalam jangka waktu sebagaimana ",
+          "validation_status": "VALIDATED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-02",
+      "nama": "Pekerjaan Bebas Keliru Memakai PPh Final",
+      "tingkat_risiko": "TINGGI",
+      "indikator": "Wajib Pajak orang pribadi dengan penghasilan pekerjaan bebas menyetor PPh Final 0,5%.",
+      "rekomendasi": "Hentikan penyetoran final; gunakan NPPN atau pembukuan; ajukan pemindahbukuan bila perlu.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PP-2022-55-a9963cde88",
+          "document_id": "PP-2022-55",
+          "source_locator": "PP-2022-55#BT/56",
+          "source_quote": "(2) Tarif Pajak Penghasilan yang bersifat final sebagaimana dimaksud pada ayat (1) sebesar 0,5% (nol koma lima persen). (3) Tidak termasuk penghasilan dari usaha yang dikenai Pajak Penghasilan yang bersifat linal sebagaimana dimaksud pada ayat (1) sebagai berikut: a. penghasilan yang diterima atau diperoleh Wajib Pajak orang pribadi dari jasa sehubungan dengan pekerjaan bebas; b. penghasilan yang ",
+          "validation_status": "HUMAN_APPROVED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-03",
+      "nama": "NPPN Tanpa Pemberitahuan Resmi",
+      "tingkat_risiko": "SEDANG",
+      "indikator": "Menggunakan NPPN tanpa menyampaikan pemberitahuan dalam 3 bulan pertama tahun pajak.",
+      "rekomendasi": "Sampaikan pemberitahuan NPPN; siapkan catatan peredaran bruto harian.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-UU-1983-7-5b23ee3d08",
+          "document_id": "UU-1983-7",
+          "source_locator": "UU-1983-7#BT/14",
+          "source_quote": "(1) Norma Penghitungan Penghasilan Neto untuk menentukan penghasilan neto, dibuat dan disempurnakan terus-menerus serta diterbitkan oleh Direktur Jenderal Pajak.",
+          "validation_status": "VALIDATED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-04",
+      "nama": "Badan Melewati Masa Berlaku PPh Final",
+      "tingkat_risiko": "TINGGI",
+      "indikator": "Badan (CV/PT/koperasi) menerapkan PPh Final padahal tidak lagi memenuhi Pasal 57(1) atau telah melewati masa peralihan.",
+      "rekomendasi": "Beralih ke tarif umum; siapkan pembukuan; pertimbangkan Pasal 31E bila omzet ≤ Rp50 M.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PP-2026-20-1ce9d5a485",
+          "document_id": "PP-2026-20",
+          "source_locator": "PP-2026-20#BT/I",
+          "source_quote": "yang dikenai Pajak Penghasilan bersifat Iinal sebagaimana dimaksud dalam Pasal 56 ayat (1) merupakan: a. Wajib Pajak orang pribadi; dan b. Wajib Pajak badan berbentuk perseroan perorangan yang didirikan oleh 1 (satu) orang dan koperasi, yang menerima atau memperoleh penghasilan dengan peredaran bruto tidak melebihi Rp4.80O.OOO.OO0,OO (empat miliar delapan ratus juta rupiah) dalam 1 (satu) Tahun Pa",
+          "validation_status": "HUMAN_FIXED"
+        },
+        {
+          "rule_id": "R-PP-2026-20-988de09998",
+          "document_id": "PP-2026-20",
+          "source_locator": "PP-2026-20#BT/I",
+          "source_quote": "(4) Wajib Pajak sebagaimana dimaksud pada ayat (2) huruf e dan huruf f serta ayat (3), untuk Tahun Pajak-Tahun Pajak berikutnya tidak dapat dikenai Pajak Penghasilan bersifat linal berdasarkan Peraturan Pemerintah ini,",
+          "validation_status": "HUMAN_FIXED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-05",
+      "nama": "Pelanggaran Ambang Omzet Grup OP + PT Perorangan",
+      "tingkat_risiko": "TINGGI",
+      "indikator": "Omzet gabungan OP beserta seluruh PT Perorangan miliknya melebihi Rp4,8 Miliar.",
+      "rekomendasi": "Konsolidasikan pemantauan omzet grup; siapkan transisi pembukuan.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PP-2026-20-2b39f23873",
+          "document_id": "PP-2026-20",
+          "source_locator": "PP-2026-20#BT/I",
+          "source_quote": "e. Wajib Pajak orang pribadi beserta seluruh Wajib Pajak badan berbentuk perseroan perorangan yang didirikan oleh Wajib Pajak orang pribadi yang bersangkutan, yang telah menerima atau penghasilan dengan bruto sebagaimana dimaksud pada ayat (1) secara keseluruhan jumlahnya melebihi Rp4. 80O. OOO. OOO,OO (empat miliar delapan ratus juta rupiah) dalam 1 (satu) Tahun Pajak;",
+          "validation_status": "HUMAN_FIXED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-06",
+      "nama": "Pemisahan Omzet Suami-Istri Keliru",
+      "tingkat_risiko": "SEDANG",
+      "indikator": "Suami-istri dengan perjanjian pisah harta menghitung ambang Rp4,8 M secara terpisah.",
+      "rekomendasi": "Hitung ambang kelayakan secara gabungan sesuai Pasal 58 PP 55/2022 jo. PP 20/2026.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PP-2026-20-667a3359e6",
+          "document_id": "PP-2026-20",
+          "source_locator": "PP-2026-20#BT/I",
+          "source_quote": "Dalam hal Wajib Pajak orang pribadi merupakan suami-istri yang: a perjanjian pemisahan harta dan penghasilan secara terLulis; atau b. istrinya memilih untuk menjalankan hak dan kewajiban sendiri, sebagaimana dimaksud dalam Pasal 8 ayat (2) huruf b dan huruf c Undang-Undang Pajak Penghasilan, besarnya peredaran bruto sebagaimana dimaksud pada ayat (l) ditentukan berdasarkan penggabungan peredaran b",
+          "validation_status": "HUMAN_FIXED"
+        },
+        {
+          "rule_id": "R-PP-2022-55-7ee6451922",
+          "document_id": "PP-2022-55",
+          "source_locator": "PP-2022-55#BT/58",
+          "source_quote": "(1) Besarnya peredaran bruto sebagaimana dimaksud dalam Pasal 57 ayat (1) merupakan: a. jumlah, . . (2t REPUIUK TNDONESIA -7 - a, jumlah keseluruhan peredaran bruto atas penghasilan dari usaha dan jasa sehubungan dengan pekerjaan bebas dalam I (satu) tahun dari Tahun Pajak terakhir sebelum Tahun Pajak bersangkutan, baik yang dikenai Pajak Penghasilan yang tida} bersifat final maupun yang bersifat ",
+          "validation_status": "VALIDATED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-07",
+      "nama": "Pembebanan Biaya Suap/Gratifikasi",
+      "tingkat_risiko": "TINGGI",
+      "indikator": "Membebankan pengeluaran suap/gratifikasi sebagai biaya pengurang penghasilan bruto.",
+      "rekomendasi": "Koreksi fiskal positif; pisahkan biaya yang memenuhi syarat 3M.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PP-2026-20-32187c3585",
+          "document_id": "PP-2026-20",
+          "source_locator": "PP-2026-20#BT/I",
+          "source_quote": "Pengeluaran berupa suap, gratifikasi, dan/ atau pemberian lain dengan nama dan dalam bentuk apa pun sebagaimana dimaksud dalam peraturan perundang-undangan yang mengatur mengenai tindak pidana korupsi dan/ atau tindak pidana suap, termasuk yang diberikan kepada pejabat publik asing, bukan merupakan biaya untuk mendapatkan, menagih, dan memelihara penghasilan yang dapat menjadi pengurang penghasila",
+          "validation_status": "HUMAN_FIXED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-08",
+      "nama": "Keterlambatan Penyetoran dan Pelaporan",
+      "tingkat_risiko": "SEDANG",
+      "indikator": "Penyetoran melewati jatuh tempo atau SPT Masa terlambat dilaporkan.",
+      "rekomendasi": "Buat kode billing, setor, dan laporkan; simpan Bukti Penerimaan Negara.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-UU-1983-6-a86dd99b6a",
+          "document_id": "UU-1983-6",
+          "source_locator": "UU-1983-6#BT/7",
+          "source_quote": "(1) Apabila Surat Pemberitahuan tidak disampaikan dalam jangka waktu sebagaimana dimaksud dalam Pasal 3 ayat (3) atau batas waktu perpanjangan penyampaian Surat Pemberitahuan sebagaimana dimaksud dalam Pasal 3 ayat (4), dikenai sanksi administrasi berupa denda sebesar Rp500.000,00 (lima ratus ribu rupiah) untuk Surat Pemberitahuan Masa Pajak Pertambahan Nilai, Rp100.000,00 (seratus ribu rupiah) un",
+          "validation_status": "REVIEW_REQUIRED"
+        },
+        {
+          "rule_id": "R-PMK-2024-81-fa4615e764",
+          "document_id": "PMK-2024-81",
+          "source_locator": "PMK-2024-81#BT/94/1..2",
+          "source_quote": "Pajak yang terutang wajib dibayar dan disetor sebelum • melewati tanggal jatuh tempo.",
+          "validation_status": "VALIDATED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-09",
+      "nama": "Sengketa Ekualisasi Omzet SPT vs Arus Uang",
+      "tingkat_risiko": "TINGGI",
+      "indikator": "Terdapat selisih antara peredaran bruto dalam SPT dan mutasi rekening/SPT PPN.",
+      "rekomendasi": "Susun kertas kerja ekualisasi dan rekonsiliasi fiskal; gunakan preseden CBR.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-PP-2022-55-7ee6451922",
+          "document_id": "PP-2022-55",
+          "source_locator": "PP-2022-55#BT/58",
+          "source_quote": "(1) Besarnya peredaran bruto sebagaimana dimaksud dalam Pasal 57 ayat (1) merupakan: a. jumlah, . . (2t REPUIUK TNDONESIA -7 - a, jumlah keseluruhan peredaran bruto atas penghasilan dari usaha dan jasa sehubungan dengan pekerjaan bebas dalam I (satu) tahun dari Tahun Pajak terakhir sebelum Tahun Pajak bersangkutan, baik yang dikenai Pajak Penghasilan yang tida} bersifat final maupun yang bersifat ",
+          "validation_status": "VALIDATED"
+        }
+      ]
+    },
+    {
+      "pola_id": "RP-10",
+      "nama": "Kelalaian Pemotongan PPh Pihak Ketiga",
+      "tingkat_risiko": "SEDANG",
+      "indikator": "Membayar jasa kepada pihak lain tanpa memotong PPh Pasal 23/Pasal 21.",
+      "rekomendasi": "Terbitkan bukti potong unifikasi dan setor pemotongan tepat waktu.",
+      "grounding_status": "LENGKAP",
+      "dasar_hukum": [
+        {
+          "rule_id": "R-UU-1983-7-1afe13bff6",
+          "document_id": "UU-1983-7",
+          "source_locator": "UU-1983-7#BT/23/1..4",
+          "source_quote": "c. sebesar 2% (dua persen) dari jumlah bruto atas: 1. sewa dan penghasilan lain sehubungan dengan penggunaan harta, kecuali sewa dan penghasilan lain sehubungan dengan penggunaan harta yang telah dikenai Pajak Penghasilan sebagaimana dimaksud dalam Pasal 4 ayat (2); dan 2. imbalan sehubungan dengan jasa teknik, jasa manajemen, jasa konstruksi, jasa konsultan, dan jasa lain selain jasa yang telah d",
+          "validation_status": "HUMAN_FIXED"
+        }
+      ]
+    }
+  ]
+}

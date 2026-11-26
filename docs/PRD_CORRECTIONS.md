@@ -27,7 +27,7 @@ Disusun dari perbandingan PRD v2.0 dengan artefak riil `kbr_pajak/` dan kontrak 
 | 20 | §9.3.2 | `/api/options` = jenis badan, status kawin, PTKP, pekerjaan | sudah diperluas sesuai itu | tidak perlu diubah |
 | 21 | §8 CBR | field `jenis_koreksi`, `fakta_kunci`, `rasio_decidendi`, `argumen_menang`, `bukti_penentu` | **0 dari 284** putusan memiliki field tersebut; yang ada: `klaster`, `pokok_sengketa` (284), `pertimbangan_majelis` (278), `cited_regulations`, `amar_kategori` | Nyatakan CBR tahap 1 memakai field tersedia; anotasi 60 kasus = prasyarat formula penuh |
 | 22 | §8 amar | `KABUL_SELURUHNYA / KABUL_SEBAGIAN / TOLAK / TIDAK_DAPAT_DITERIMA` | distribusi riil: KABUL_SELURUHNYA 158, TOLAK 75, KABUL_SEBAGIAN 41, LAINNYA 9, **BATAL 1** | Tambahkan `LAINNYA` & `BATAL` ke enum |
-| 23 | §11 roadmap | "Fase 3 CBR SELESAI 100%" | belum ada kode/endpoint CBR | Koreksi status → "rencana (B4)" |
+| 23 | §11 roadmap | "Fase 3 CBR SELESAI 100%" | CBR **tahap 1** sudah ada (`/api/cbr/search`, 284 kasus, BM25+klaster+regulasi); formula penuh belum | Koreksi status → "tahap 1 selesai; formula penuh butuh anotasi 60 kasus" |
 | 24 | §7 RP-04 | PP 20/2026 sebagai dasar | **14 aturan** sudah terekstrak & diaudit (X-1) | Selesai — gunakan `rule_id` PP-2026-20 |
 | 25 | §1 | "0% logika pajak di-hardcode" vs §6 "Kalkulator Python Decimal" | implementasi: tarif dari ontologi + aritmetika `SPARQL BIND`/helper | Satukan istilah: "tarif tidak hardcode; aritmetika deterministik" |
 | 26 | §4.1 pohon kelas | `pjk:Firma` | tidak ada kelas `Firma` di ontologi | Hapus atau tambahkan kelas (butuh rebuild) |
@@ -35,6 +35,7 @@ Disusun dari perbandingan PRD v2.0 dengan artefak riil `kbr_pajak/` dan kontrak 
 | 28 | §9.3.2 | base `http://127.0.0.1:8000/api` | sesuai; ditambah alias `/api/v1` | tambahkan alias |
 | 29 | §9.3.3 | field `kelompok_wilayah_nppn` wajib | opsional (diturunkan dari `pemda_id`) | Longgarkan |
 | 30 | §9.3.4 | `klaster_subjek` string | objek `{kode, label}` | Perbaiki tipe |
+| 31 | §9.3.4 `playbook_coretax` | KAP/KJS lengkap untuk semua jenis pajak | Buku Manual Coretax 2024 hanya memuat **54 KAP/KJS**; PPh 21/23 tidak tercantum | Nyatakan cakupan; API menandai `null` + catatan |
 
 ## Angka acuan (satu sumber: `ontology/ontology_build_report.json`)
 

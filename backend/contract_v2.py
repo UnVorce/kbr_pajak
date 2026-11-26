@@ -14,6 +14,9 @@ from typing import Any, Dict, List, Literal, Optional, Tuple
 
 from pydantic import BaseModel, ConfigDict, Field
 
+from .advisory import cbr_search, evaluate_risks
+from .coretax import playbook_for
+
 _NPPN_KELOMPOK_PATH = Path(__file__).with_name("nppn_kelompok.json")
 
 
@@ -185,6 +188,16 @@ class ReasonRequest(BaseModel):
     is_keberatan_ditolak: bool = False
     is_banding_ditolak: bool = False
     is_dikecualikan_denda_spt: bool = False
+
+    # Deteksi risiko (RP-01..RP-10) & CBR
+    is_terdaftar_pkp: bool = True
+    is_pisah_harta: bool = False
+    omzet_pasangan: float = Field(default=0, ge=0)
+    is_membebankan_suap_gratifikasi: bool = False
+    has_selisih_ekualisasi: bool = False
+    is_tidak_memotong_pph_pihak_ketiga: bool = False
+    cbr_kueri: Optional[str] = Field(default=None, max_length=500)
+    cbr_klaster: Optional[Literal["pph_badan", "pph_potput", "kup_gugatan", "ppn", "kepabeanan_cukai", "pbb"]] = None
 
     # PPh Final Pasal 4(2)
     penghasilan_final: Optional[PenghasilanFinalInput] = None
@@ -972,6 +985,9 @@ def build_response(engine, req: ReasonRequest, v1: dict, ctx: dict) -> dict:
                 seen.add(rid)
                 provenance.append({"kategori": kategori, "katalog_id": item.get("id"), **j})
 
+    risiko = evaluate_risks(req, v1, ctx, pp55)
+    cbr_matches = cbr_search(req.cbr_kueri, req.cbr_klaster, limit=3) if req.cbr_kueri else []
+
     return {
         "wp_id": req.wp_id,
         "wp_kind": req.wp_kind,
@@ -1004,8 +1020,9 @@ def build_response(engine, req: ReasonRequest, v1: dict, ctx: dict) -> dict:
             "rincian": rincian,
             "catatan": "Estimasi indikatif, bukan pengganti perhitungan SPT resmi.",
         },
-        "cbr_matches": [],
-        "playbook_coretax": [],
+        "risiko_fiskal": risiko,
+        "cbr_matches": cbr_matches,
+        "playbook_coretax": playbook_for([k["id"] for k in kewajiban]),
         "provenance": provenance,
         "reasoner": v1.get("reasoner"),
         "elapsed_ms": v1.get("elapsed_ms"),
