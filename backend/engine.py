@@ -20,6 +20,7 @@ import os
 import re
 import threading
 import time
+from collections import deque
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -127,6 +128,8 @@ class KBRReasoningEngine:
         self._ptkp_cache: Optional[Dict[str, dict]] = None
         self._tarif_prog_cache: Optional[List[Tuple[float, float]]] = None
         self._regions_cache: Optional[List[dict]] = None
+        self._kbli_cache: Dict[str, Optional[dict]] = {}
+        self._pemda_cache: Dict[str, Optional[dict]] = {}
         self._options_cache: Optional[Dict[str, Any]] = None
         # Cache hasil reasoning per profil (hash) — mempercepat request berulang.
         self._cache: Dict[str, dict] = {}
@@ -135,6 +138,15 @@ class KBRReasoningEngine:
         self._cache_max = 128
         self._cache_hits = 0
         self._cache_misses = 0
+        self._reason_calls = 0
+        self._miss_lat_ms: deque = deque(maxlen=200)
+        self._hit_lat_ms: deque = deque(maxlen=200)
+        self._started_at = time.time()
+        self._catalog_cache: Optional[Dict[str, Any]] = None
+        self._warmup_ms: Optional[float] = None
+        self._cache_file = os.environ.get("KBR_CACHE_FILE")
+        if self._cache_file:
+            self._load_cache_file()
 
     def get_ontology_graph(self) -> Graph:
         """Parse `kbr_pajak_reasoning.owl` dengan rdflib untuk lookup cepat (PTKP, tarif)."""
@@ -322,8 +334,73 @@ class KBRReasoningEngine:
             "swrl_rules": report.get("swrl_rules"),
             "full_rules_exported": report.get("full_rules_exported"),
             "cache_entries": len(self._cache),
+            "cache_file": bool(self._cache_file),
             "cache_hits": self._cache_hits,
             "cache_misses": self._cache_misses,
+        }
+
+    def warmup(self) -> dict:
+        """Muat artefak berat sekali di awal agar request pertama tidak menanggung cold start."""
+        t0 = time.perf_counter()
+        out = {}
+        for name, fn in (
+            ("catalog", self.get_catalog),
+            ("ptkp", self.get_ptkp_table),
+            ("tarif_progresif", self.get_tarif_progresif),
+            ("regions", self.list_regions),
+            ("options", self.get_options),
+            ("kbli_graph", self.get_kbli_graph),
+            ("ter_graph", self.get_ter_graph),
+            ("perda_graph", self.get_perda_graph),
+            ("ontology_graph", self.get_ontology_graph),
+        ):
+            s = time.perf_counter()
+            try:
+                fn()
+                out[name] = round((time.perf_counter() - s) * 1000.0, 1)
+            except Exception as exc:  # artefak opsional
+                out[name] = f"SKIP: {exc}"
+        self._warmup_ms = round((time.perf_counter() - t0) * 1000.0, 1)
+        out["total"] = self._warmup_ms
+        return out
+
+    def metrics(self) -> dict:
+        """Metrik runtime: cache, latensi (p50/p95/maks), dan uptime."""
+        def _pct(values, p):
+            if not values:
+                return None
+            xs = sorted(values)
+            k = max(0, min(len(xs) - 1, int(round((p / 100.0) * (len(xs) - 1)))))
+            return round(xs[k], 2)
+
+        miss = list(self._miss_lat_ms)
+        hit = list(self._hit_lat_ms)
+        total = self._cache_hits + self._cache_misses
+        return {
+            "uptime_seconds": round(time.time() - self._started_at, 1),
+            "warmup_ms": self._warmup_ms,
+            "reason_calls": self._reason_calls,
+            "cache": {
+                "entries": len(self._cache),
+                "capacity": self._cache_max,
+                "hits": self._cache_hits,
+                "misses": self._cache_misses,
+                "hit_rate": round(self._cache_hits / total, 4) if total else 0.0,
+            },
+            "latency_ms": {
+                "cache_miss": {
+                    "samples": len(miss),
+                    "p50": _pct(miss, 50),
+                    "p95": _pct(miss, 95),
+                    "max": round(max(miss), 2) if miss else None,
+                },
+                "cache_hit": {
+                    "samples": len(hit),
+                    "p50": _pct(hit, 50),
+                    "p95": _pct(hit, 95),
+                    "max": round(max(hit), 2) if hit else None,
+                },
+            },
         }
 
     def _cache_get(self, key: str) -> Optional[dict]:
@@ -343,13 +420,45 @@ class KBRReasoningEngine:
             while len(self._cache_order) > self._cache_max:
                 old = self._cache_order.pop(0)
                 self._cache.pop(old, None)
+            self._save_cache_file_locked()
+
+    def _load_cache_file(self) -> None:
+        """Muat cache dari disk (opsional, `KBR_CACHE_FILE`) agar restart tidak kehilangan hasil."""
+        try:
+            path = Path(self._cache_file)
+            if not path.exists():
+                return
+            data = json.loads(path.read_text(encoding="utf-8"))
+            entries = data.get("entries") or {}
+            for key, value in entries.items():
+                self._cache[key] = value
+                self._cache_order.append(key)
+            while len(self._cache_order) > self._cache_max:
+                self._cache.pop(self._cache_order.pop(0), None)
+        except Exception:
+            self._cache = {}
+            self._cache_order = []
+
+    def _save_cache_file_locked(self) -> None:
+        if not self._cache_file:
+            return
+        try:
+            path = Path(self._cache_file)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            tmp = path.with_suffix(".tmp")
+            tmp.write_text(json.dumps({"entries": self._cache}, ensure_ascii=False), encoding="utf-8")
+            tmp.replace(path)
+        except Exception:
+            pass
 
     def lookup_pemda(self, pemda_id: str) -> Optional[dict]:
-        g = self.get_perda_graph()
-        if g is None:
-            return None
         safe = re.sub(r"[^A-Za-z0-9_]", "_", (pemda_id or "").strip().upper())
         if not safe:
+            return None
+        if safe in self._pemda_cache:
+            return self._pemda_cache[safe]
+        g = self.get_perda_graph()
+        if g is None:
             return None
         q = f"""
         PREFIX kbr: <{BASE_IRI}>
@@ -441,11 +550,13 @@ class KBRReasoningEngine:
         ]
 
     def lookup_kbli(self, kode_kbli: str) -> Optional[dict]:
-        g = self.get_kbli_graph()
-        if g is None:
-            return None
         safe = re.sub(r"[^0-9]", "", (kode_kbli or "").strip())
         if not safe:
+            return None
+        if safe in self._kbli_cache:
+            return self._kbli_cache[safe]
+        g = self.get_kbli_graph()
+        if g is None:
             return None
         q = f"""
         PREFIX kbr: <{BASE_IRI}>
@@ -480,7 +591,7 @@ class KBRReasoningEngine:
         LIMIT 1
         """
         for r in g.query(q):
-            return {
+            result = {
                 "kode_kbli": safe,
                 "uri": str(r.c),
                 "uraian": str(r.label),
@@ -518,6 +629,9 @@ class KBRReasoningEngine:
                 "terkait_jenis_pekerjaan": str(r.job).split("#")[-1] if r.job is not None else None,
                 "is_jasa_konstruksi": safe.startswith(("41", "42", "43")),
             }
+            self._kbli_cache[safe] = result
+            return result
+        self._kbli_cache[safe] = None
         return None
 
     def search_kbli(self, query: str = "", limit: int = 20) -> List[dict]:
@@ -589,9 +703,11 @@ class KBRReasoningEngine:
         return None
 
     def get_catalog(self) -> Dict[str, Any]:
-        if not self.paths.rule_map_json.exists():
-            raise FileNotFoundError(f"rule_map.json tidak ditemukan: {self.paths.rule_map_json}")
-        return json.loads(self.paths.rule_map_json.read_text(encoding="utf-8"))
+        if self._catalog_cache is None:
+            if not self.paths.rule_map_json.exists():
+                raise FileNotFoundError(f"rule_map.json tidak ditemukan: {self.paths.rule_map_json}")
+            self._catalog_cache = json.loads(self.paths.rule_map_json.read_text(encoding="utf-8"))
+        return self._catalog_cache
 
     def get_preset_scenarios(self) -> Dict[str, Any]:
         if not self.paths.build_report_json.exists():
@@ -715,10 +831,13 @@ class KBRReasoningEngine:
         cache_key = hashlib.sha1(
             json.dumps({"id": wp_id, "kind": wp_kind, "props": effective_props}, sort_keys=True, default=str).encode("utf-8")
         ).hexdigest()
+        self._reason_calls += 1
+        t_req = time.perf_counter()
         cached = self._cache_get(cache_key)
         if cached is not None:
             cached["cache_hit"] = True
-            cached["elapsed_ms"] = 0.0
+            cached["elapsed_ms"] = round((time.perf_counter() - t_req) * 1000.0, 2)
+            self._hit_lat_ms.append(cached["elapsed_ms"])
             return cached
 
         t0 = time.perf_counter()
@@ -726,7 +845,7 @@ class KBRReasoningEngine:
             w = World()
             onto = w.get_ontology(str(self.paths.reasoning_owl)).load()
             with onto:
-                # Bersihkan individu skenario demo & aturan tambahan non-katalog agar inferensi tunggal steril & cepat
+                # Bersihkan individu skenario demo & aturan non-katalog agar inferensi steril.
                 for ind in list(onto.WajibPajak.instances()):
                     destroy_entity(ind)
                 linked_aturan = set()
@@ -883,6 +1002,8 @@ class KBRReasoningEngine:
             elif td.get("PBB_P2_Khusus") and "PBB_P2" not in td:
                 estimasi_pajak["rincian"]["pbb_status"] = "TARIF_UMUM_TIDAK_TEREKSTRAK"
 
+        elapsed_total = round((time.perf_counter() - t_req) * 1000.0, 2)
+        self._miss_lat_ms.append(elapsed_total)
         result = {
             "wp_id": wp_id,
             "wp_kind": wp_kind,
@@ -898,6 +1019,7 @@ class KBRReasoningEngine:
             "estimasi_pajak": estimasi_pajak,
             "reasoner": "HermiT (OWL 2 SROIQ(D) + SWRL DL-safe) + SPARQL BIND/SKOS/TER/PERDA",
             "elapsed_ms": elapsed_ms,
+            "elapsed_total_ms": elapsed_total,
             "cache_hit": False,
         }
         self._cache_put(cache_key, result)

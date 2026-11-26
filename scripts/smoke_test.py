@@ -163,6 +163,9 @@ def run(base_url: str, in_process: bool) -> int:
     kode = client.get("/api/coretax/kode", params={"q": "sewa"}).json()
     c.check("coretax.kode", kode["count"] >= 1 and kode["results"][0]["kap_kjs"], "411128-403")
     c.check("coretax.total_kode", kode["total_kode"], 54)
+    met = client.get("/api/metrics").json()
+    c.check("metrics.has_cache", isinstance(met.get("cache"), dict), True)
+    c.check("metrics.target_miss", met["target"]["cache_miss_p95_ms"], 10000)
 
     # 5. Kasus PRD §9.3.5 — Guru + Freelance Bandung
     g = _post(client, "/api/reason", PRD_GURU)
@@ -199,6 +202,13 @@ def run(base_url: str, in_process: bool) -> int:
     c.check("A.porsi_bebas", a["porsi_omzet_bebas_500jt_idr"], 500_000_000.0)
     c.check("A.pph_umkm", a["pph_final_umkm_op_idr"], 3_500_000.0)
     c.check("A.pph17", a["pph_op_pasal17_idr"], 44_000_000.0)
+    a2 = _post(client, "/api/reason", {
+        "wp_id": "SMOKE_A_UMKM", "wp_kind": "OrangPribadi",
+        "pekerjaan_utama": {"nama": "Warung", "jenis": "USAHA_UMKM", "omzet_tahunan": 1_200_000_000.0},
+        "is_umkm_pp55": True, "has_penghasilan_kena_pajak_tahunan": 300_000_000.0,
+    })
+    c.check("A.cache_hit", a2["cache_hit"], True)
+    c.check("A.cache_hit_ms", a2["elapsed_ms"] < 1000, True)
 
     # 7. Kasus emas C — CV Pasal 31E + PPN + denda
     cv = _post(client, "/api/reason", {

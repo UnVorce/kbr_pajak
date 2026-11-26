@@ -30,6 +30,7 @@ _STOP = {
 _catalog: Optional[dict] = None
 _cbr: Optional[dict] = None
 _bm25: Optional[dict] = None
+_cbr_cache: Dict[tuple, List[dict]] = {}
 
 
 def _load_catalog() -> dict:
@@ -162,6 +163,9 @@ def cbr_search(
 ) -> List[dict]:
     if not (query or "").strip():
         return []
+    cache_key = ((query or "").strip().lower(), klaster, tuple(sorted(regulasi or [])), int(limit))
+    if cache_key in _cbr_cache:
+        return _cbr_cache[cache_key]
     idx = _build_bm25()
     if not idx["docs"]:
         return []
@@ -219,4 +223,7 @@ def cbr_search(
             "cited_regulations": c.get("cited_regulations") or [],
             "source_url": c.get("source_url"),
         })
+    if len(_cbr_cache) > 128:
+        _cbr_cache.clear()
+    _cbr_cache[cache_key] = out
     return out

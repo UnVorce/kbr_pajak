@@ -426,3 +426,21 @@ def test_api_coretax_playbook_kap_kjs():
     })
     ids = {p["kewajiban_id"] for p in d["playbook_coretax"]}
     assert "Kewajiban_PotongSetor_SewaTanahBangunan" in ids
+
+
+def test_api_metrics_dan_cache_hit():
+    m = client.get("/api/metrics").json()
+    assert "cache" in m and "latency_ms" in m
+    assert m["target"]["cache_hit_p95_ms"] == 1000
+    assert m["target"]["cache_miss_p95_ms"] == 10000
+
+    payload = {"wp_id": "API_METRIK_CACHE", "wp_kind": "CV", "has_omzet_tahunan": 5_000_000_000.0}
+    first = _reason(payload)
+    assert first["cache_hit"] is False
+    second = _reason(payload)
+    assert second["cache_hit"] is True
+    assert second["elapsed_ms"] < 1000
+
+    m2 = client.get("/api/metrics").json()
+    assert m2["cache"]["hits"] >= 1
+    assert m2["cache"]["hit_rate"] > 0

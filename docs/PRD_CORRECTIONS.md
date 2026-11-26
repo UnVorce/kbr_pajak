@@ -20,8 +20,8 @@ Disusun dari perbandingan PRD v2.0 dengan artefak riil `kbr_pajak/` dan kontrak 
 | 13 | §9.3.5 contoh | TER K/1 = **Kategori A, 1,5%**, potongan 127.500 | K/1 = **Kategori B, 1,0%**, potongan **85.000** (PP 58/2023) | Perbaiki contoh |
 | 14 | §9.3.5 contoh | PBB Bandung **0,15%**, NJOPTKP **25 jt** | Tarif umum tidak terekstrak (hanya tarif khusus 0,05% lahan pangan); NJOPTKP null | Hapus angka; gunakan `null` + catatan |
 | 15 | §9.3.5 contoh | KBLI 62019 punya NPPN 50% | Lampiran NPPN hanya memuat **62010**; 62019 dipetakan eksplisit ke kelompok 62010 | Tambahkan catatan pemetaan; angka 50% tetap sah |
-| 16 | §9.2 | HermiT "0,8–1,5 detik" | **rata-rata 5,5 detik, maks 6,1 detik** (cache-hit < 50 ms) | Perbaiki angka; atau nyatakan target p95 terpisah |
-| 17 | §10 quality gate | "p95 latency < 3,0 detik" | belum tercapai tanpa cache; usulan gate: **cache-miss < 7 s, cache-hit < 1 s** | Sesuaikan gate |
+| 16 | §9.2 | HermiT "0,8–1,5 detik" | **cache-miss p95 7,1 detik** (p50 6,5 s); cache-hit p95 23 ms | Perbaiki angka |
+| 17 | §10 quality gate | "p95 latency < 3,0 detik" | **belum tercapai**; gate disepakati: cache-hit < 1 s, cache-miss < 10 s (terukur 7,1 s) | Sesuaikan gate di PRD |
 | 18 | §9.3.4 response | `elapsed_ms` contoh 138,4 | riil ±5.500 | Perbaiki contoh |
 | 19 | §9.3.3/§9.3.4 | hanya 1770/1771 | 1770 S/1770 SS **belum ada dasar hukum di korpus** | Nyatakan "menyusul"; API mengembalikan `PERLU_VERIFIKASI` |
 | 20 | §9.3.2 | `/api/options` = jenis badan, status kawin, PTKP, pekerjaan | sudah diperluas sesuai itu | tidak perlu diubah |

@@ -60,7 +60,7 @@ Base path: **`/api`** (alias `/api/v1`) · Swagger: `/api/docs` · OpenAPI: `/ap
 **Dokumentasi backend:**
 - **Kontrak beku untuk frontend** → [`docs/API_CONTRACT_v2.md`](docs/API_CONTRACT_v2.md) (payload PRD, enum, respons, 7 kasus emas, deviasi PRD)
 - **Deployment (Docker/nginx/env/kapasitas/runbook)** → [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md)
-- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **76 cek**
+- **Verifikasi kontrak** → `python3 scripts/smoke_test.py --base-url http://localhost:8000` (atau `--in-process` untuk CI), **78 cek**
 
 ---
 
@@ -101,8 +101,8 @@ kbr_pajak/
 │   ├── step_b_build_report.json           # Ringkasan build TER PPh 21 & KBLI SKOS
 │   └── step_c_build_report.json           # Ringkasan build tarif 524 Perda / 390 Pemda
 ├── src/                                   # 16 modul pipeline & builder ontologi/SKOS/Perda
-├── scripts/                               # 31 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
-├── tests/                                 # 167 automated tests + fixtures HTML BPK (+ conftest.py)
+├── scripts/                               # 32 skrip CLI (akuisisi, validasi, audit, fase5_ontology, step_b/c, eval)
+├── tests/                                 # 168 automated tests + fixtures HTML BPK (+ conftest.py)
 ├── config/                                # Konfigurasi crawl, konsolidasi, & scope_cards
 ├── docs/                                  # Dokumentasi, spesifikasi & Laporan Fase 0–8
 │   ├── fase_8.md                          # Dokumentasi sistem menyeluruh & serah terima (G8)

@@ -1553,31 +1553,31 @@
     rdfs:subClassOf owl:Thing .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :SewaTanahDanBangunan :BungaDepositoDanTabungan :JasaKonstruksi :PengalihanHakAtasTanahBangunan ) .
+    owl:members ( :PengalihanTanahBangunanUmum :PengalihanRumahSederhanaDeveloper :PengalihanKepadaPemerintahPenugasan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :PT :CV :Koperasi :Yayasan :BadanUsahaTetap ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :OP_TER_Kategori_A :OP_TER_Kategori_B :OP_TER_Kategori_C ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :JasaKonstruksiPekerjaanKecilSBU :JasaKonstruksiPekerjaanNonKecilSBU :JasaKonstruksiTerintegrasiSBU :JasaKonstruksiPekerjaanTanpaSBU :JasaKonstruksiTerintegrasiTanpaSBU :JasaKonstruksiKonsultansiSBU :JasaKonstruksiKonsultansiTanpaSBU ) .
+    owl:members ( :PekerjaanPegawaiTetap :PekerjaanPegawaiTidakTetap :PekerjaanPesertaKegiatan ) .
+
+[] a owl:AllDisjointClasses ;
+    owl:members ( :SewaTanahDanBangunan :BungaDepositoDanTabungan :JasaKonstruksi :PengalihanHakAtasTanahBangunan ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :PekerjaanPegawai :PekerjaanBebas :UsahaDagangJasa ) .
 
 [] a owl:AllDisjointClasses ;
+    owl:members ( :JasaKonstruksiPekerjaanKecilSBU :JasaKonstruksiPekerjaanNonKecilSBU :JasaKonstruksiTerintegrasiSBU :JasaKonstruksiPekerjaanTanpaSBU :JasaKonstruksiTerintegrasiTanpaSBU :JasaKonstruksiKonsultansiSBU :JasaKonstruksiKonsultansiTanpaSBU ) .
+
+[] a owl:AllDisjointClasses ;
     owl:members ( :UndangUndang :PeraturanPemerintah :PeraturanMenteriKeuangan :PeraturanDirjenPajak :PeraturanDaerah ) .
 
 [] a owl:AllDisjointClasses ;
-    owl:members ( :PekerjaanPegawaiTetap :PekerjaanPegawaiTidakTetap :PekerjaanPesertaKegiatan ) .
-
-[] a owl:AllDisjointClasses ;
     owl:members ( :Kewajiban :Hak :Larangan ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( :PengalihanTanahBangunanUmum :PengalihanRumahSederhanaDeveloper :PengalihanKepadaPemerintahPenugasan ) .
-
-[] a owl:AllDisjointClasses ;
-    owl:members ( :PT :CV :Koperasi :Yayasan :BadanUsahaTetap ) .
 
 [] a owl:AllDisjointClasses ;
     owl:members ( :WajibPajak :JenisPekerjaan :ObjekPajak :WilayahDaerah :Regulasi :Pasal :AturanHukum :TarifPajak :FasilitasPerpajakan :KewajibanPajak :SanksiAdministratif :DomainPajak ) .

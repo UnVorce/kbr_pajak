@@ -21,10 +21,13 @@ api:  ## Jalankan API (development, auto-reload)
 smoke:  ## Verifikasi kontrak API tanpa server (CI)
 	$(PY) scripts/smoke_test.py --in-process
 
-test-api:  ## Tes FastAPI (11 tes, ~2 menit)
+bench:  ## Benchmark latensi & gate cache
+	$(PY) scripts/benchmark_api.py --in-process
+
+test-api:  ## Tes FastAPI (17 tes, ~3 menit)
 	$(PY) -m pytest tests/test_api.py -q
 
-test:  ## Seluruh tes (167 tes, ~7 menit — HermiT)
+test:  ## Seluruh tes (168 tes, ~7 menit — HermiT)
 	$(PY) -m pytest -q
 
 contract:  ## Ekspor OpenAPI untuk tim frontend

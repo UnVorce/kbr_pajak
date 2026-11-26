@@ -26,6 +26,7 @@ Base path **`/api`** (alias `/api/v1`). Route root lama **dihapus**.
 | Method | Path | Fungsi |
 |---|---|---|
 | `GET` | `/api/health` | status artefak, `ptkp_tiers`, `regions`, cache |
+| `GET` | `/api/metrics` | cache hit-rate, latensi p50/p95, uptime, target gate |
 | `GET` | `/api/options` | `wp_kinds`, `ptkp`, `zona_nppn`, `pekerjaan_jenis`, `jobs` (32), `final_income_objects` (13) |
 | `GET` | `/api/regions` | **390 Pemda** (dari 524 Perda): zona NPPN, PBB-P2, NJOPTKP, `jumlah_perda` |
 | `GET` | `/api/kbli` & `/api/kbli/{kode}` | 1.453 KBLI SKOS (NPPN/Tax Allowance/Pionir/Padat Karya) |
@@ -73,6 +74,7 @@ Hasil penting:
 ## Verifikasi
 
 ```bash
-python3 scripts/smoke_test.py --in-process   # 76 cek kontrak
-pytest tests/test_api.py -q                  # 16 tes integrasi
+python3 scripts/smoke_test.py --in-process   # 78 cek kontrak
+python3 scripts/benchmark_api.py --in-process # latensi & gate (hit <1 s, miss <10 s)
+pytest tests/test_api.py -q                  # 17 tes integrasi
 ```

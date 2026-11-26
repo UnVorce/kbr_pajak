@@ -1360,6 +1360,7 @@ def build_all_ontologies(
 
     reasoning_owl = out_dir / "kbr_pajak_reasoning.owl"
     onto_res.save(file=str(reasoning_owl), format="rdfxml")
+
     (out_dir / "rule_map.json").write_text(json.dumps(rule_map, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # 3. Uji konsistensi & inferensi dengan HermiT pada World terisolasi

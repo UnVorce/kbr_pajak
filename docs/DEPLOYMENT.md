@@ -79,7 +79,7 @@ docker compose logs -f api
 
 Dockerfile memasang `openjdk-17-jre-headless`, membuat user non-root `kbr`, dan sudah punya `HEALTHCHECK`.
 
-Reverse proxy (nginx) menaikkan `proxy_read_timeout` ke **120 s** — default 60 s terlalu mepet untuk `/api/reason` (rata-rata 5,5 s, maks 6,1 s).
+Reverse proxy (nginx) menaikkan `proxy_read_timeout` ke **120 s** — default 60 s terlalu mepet untuk `/api/reason` (cache-miss p95 ±7,1 s).
 
 ---
 
@@ -101,7 +101,28 @@ Keduanya harus **exit 0**. Bila `503`: artefak `.owl`/`.ttl` tidak ditemukan →
 
 ---
 
-## 7. Kapasitas & Kinerja
+## 7. Kapasitas & Kinerja (terukur B6)
+
+Benchmark: `python3 scripts/benchmark_api.py --in-process` (5 profil, 2 vCPU).
+
+| Metrik | Hasil |
+|---|---|
+| cache-miss p50 / p95 | 6.487 / **7.144 ms** |
+| cache-hit p50 / p95 | 3,2 / **22,6 ms** |
+| throughput 1 worker (miss) | ±500 request/jam |
+| throughput 1 worker (hit) | ribuan request/jam |
+| warmup startup | ±2 s (memuat katalog, PTKP, regions, graf RDF) |
+
+Gate: **cache-hit p95 < 1 s**, **cache-miss p95 < 10 s**. Target PRD `p95 < 3 s` belum tercapai; lihat roadmap SWRL→SPARQL di `docs/API_CONTRACT_v2.md §9`.
+
+Aktifkan cache persisten (opsional, bertahan setelah restart):
+
+```bash
+KBR_CACHE_FILE=/app/data/cache/reason_cache.json
+KBR_WARMUP=1
+```
+
+## 7a. Kapasitas Historis
 
 - `/api/reason` **serial per worker** (`threading.Lock` pada `_reasoner_lock`): 1 worker ≈ 650 request/jam.
 - 2 worker ≈ 1.300/jam, 4 worker ≈ 2.600/jam — ukur CPU & RAM sebelum menaikkan.

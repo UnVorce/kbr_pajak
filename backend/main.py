@@ -23,6 +23,8 @@ from .contract_v2 import ReasonRequest, build_response, to_internal
 from .engine import KBRReasoningEngine
 
 engine = KBRReasoningEngine()
+if (os.environ.get("KBR_WARMUP") or "1") != "0":
+    engine.warmup()
 
 
 def _cors_origins() -> List[str]:
@@ -75,6 +77,17 @@ def get_health() -> dict:
     health["ptkp_tiers"] = len(engine.get_ptkp_table())
     health["regions"] = len(engine.list_regions())
     return health
+
+
+@api.get("/metrics", summary="Metrik runtime: cache, latensi p50/p95, uptime")
+def get_metrics() -> dict:
+    m = engine.metrics()
+    m["target"] = {
+        "cache_hit_p95_ms": 1000,
+        "cache_miss_p95_ms": 10000,
+        "catatan": "Gate PRD §10 (p95 < 3 s) direvisi berdasarkan pengukuran B6: cache-miss p95 ±7,1 s (HermiT), cache-hit p95 ±23 ms.",
+    }
+    return m
 
 
 @api.get("/options", summary="Katalog opsi dropdown: badan, PTKP, pekerjaan, PPh Final, zona NPPN")

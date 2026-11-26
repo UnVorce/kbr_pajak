@@ -13,13 +13,14 @@
 | Method | Path | Latensi | Keterangan |
 |---|---|---|---|
 | `GET` | `/api/health` | < 20 ms | status artefak, `ptkp_tiers`, `regions`, cache |
+| `GET` | `/api/metrics` | < 5 ms | cache hit-rate, latensi p50/p95, uptime, target gate |
 | `GET` | `/api/options` | **< 500 ms** (ter-cache) | `wp_kinds`, `status_perkawinan`, `ptkp`, `zona_nppn`, `pekerjaan_jenis`, `jobs`, `final_income_objects` |
 | `GET` | `/api/regions` | < 100 ms (ter-cache) | **390 Pemda** + zona NPPN + PBB-P2 + NJOPTKP + `jumlah_perda` |
 | `GET` | `/api/kbli?q=&limit=` | < 50 ms | autocomplete 1.453 KBLI |
 | `GET` | `/api/kbli/{kode}` | < 50 ms | detail NPPN 3 zona, Tax Allowance, Pionir, Padat Karya, `is_jasa_konstruksi` |
 | `GET` | `/api/perda?q=&tingkat=&limit=` | < 30 ms | cari Pemda (390) |
 | `GET` | `/api/perda/{pemda_id}` | < 30 ms | 2.107 item tarif + kutipan pasal |
-| `POST` | `/api/reason` | **± 5,5 s (maks 6,1 s)**, cache-hit < 50 ms | inferensi + estimasi + provenance |
+| `POST` | `/api/reason` | **cache-miss p95 7,1 s** (p50 6,5 s) · **cache-hit p95 23 ms** | inferensi + estimasi + provenance |
 | `GET` | `/api/risk-patterns` | < 20 ms | katalog 10 pola risiko RP-01…RP-10 + dasar hukum |
 | `GET` | `/api/coretax/kode?q=` | < 20 ms | 54 KAP/KJS dari Buku Manual Coretax 2024 (Seri Pembayaran) |
 | `GET` | `/api/coretax/playbook?kewajiban=` | < 20 ms | langkah + KAP/KJS per kewajiban (label `panduan_djp`) |
@@ -321,3 +322,28 @@ akomodasi penginapan, pokok deposito ≤ Rp7,5 jt, OP di bawah PTKP, pengalihan 
 - [ ] Tampilkan `pbb_status`/`catatan_pbb` bila `pbb_p2_terutang_idr` null
 - [ ] Formulir `null` → tampilkan "perlu verifikasi", bukan menebak 1770 S/SS
 - [ ] Tampilkan badge sumber pada `provenance[]` (`rule_id`, `source_locator`, `mk_refs`, `sema_refs`)
+
+---
+
+## 9. Kinerja, Cache & Gate (hasil B6)
+
+Pengukuran `scripts/benchmark_api.py` (5 profil, 1 repeat, in-process, 2 vCPU):
+
+| Metrik | Hasil |
+|---|---|
+| cache-miss p50 | 6.487 ms |
+| cache-miss p95 | **7.144 ms** |
+| cache-hit p50 | 3,2 ms |
+| cache-hit p95 | **22,6 ms** |
+| hit rate (5 profil × 2) | 50% (100% bila profil diulang) |
+
+Keputusan gate (menggantikan PRD §10 `p95 < 3 s`):
+
+- **cache-hit p95 < 1.000 ms** — tercapai.
+- **cache-miss p95 < 10.000 ms** — tercapai.
+- Target PRD `p95 < 3 s` **belum** tercapai karena HermiT memproses 97 aturan SWRL per request (±7 s). Roadmap: kompilasi SWRL → SPARQL CONSTRUCT di atas klasifikasi TBox-only (uji: HermiT tanpa SWRL ±3,8 s).
+
+Optimasi yang sudah aktif:
+- cache hasil per `(wp_id, wp_kind, profil ternormalisasi)` — 128 entri, opsional persisten (`KBR_CACHE_FILE`).
+- cache katalog, PTKP, tarif progresif, regions, `lookup_kbli`, `lookup_pemda`, dan hasil CBR.
+- warmup artefak saat startup (`KBR_WARMUP=1`), ±2 s, menghapus cold-start dari request pertama.

@@ -6927,9 +6927,9 @@ Pajak.</hasSourceQuote>
 
 <owl:NamedIndividual rdf:about="#OP_Dokter_MultiPeran_001">
   <rdf:type rdf:resource="#OrangPribadi"/>
-  <memilikiPekerjaan rdf:resource="#Dokter"/>
   <memilikiPekerjaan rdf:resource="#PegawaiTetap_Swasta"/>
   <memilikiPekerjaan rdf:resource="#Pedagang_ECommerce"/>
+  <memilikiPekerjaan rdf:resource="#Dokter"/>
   <isSubjekLuarNegeri rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSubjekLuarNegeri>
   <isPendudukIndonesia rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isPendudukIndonesia>
   <isKawin rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isKawin>
